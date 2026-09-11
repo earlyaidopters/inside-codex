@@ -1,0 +1,54 @@
+{
+  "pass": true,
+  "responses": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "no-cache",
+      "etag": null,
+      "contentEncoding": null
+    },
+    {
+      "path": "exhibits-manifest.json",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "cacheControl": "public, max-age=3600, stale-while-revalidate=86400",
+      "etag": "\"30415fb679ba1dc9d1cf84d5bfafbbb2-xf1\"",
+      "contentEncoding": null
+    },
+    {
+      "path": "assets/abstractEngine.pure-BMdakWcX.js",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "cacheControl": "public, max-age=3600, stale-while-revalidate=86400",
+      "etag": "\"dff8e0895d8b64e8e3e573a22a346147-xf1\"",
+      "contentEncoding": null
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/msc_basis_transcoder.wasm",
+      "status": 200,
+      "contentType": "application/wasm",
+      "cacheControl": "public, max-age=3600, stale-while-revalidate=86400",
+      "etag": "\"36075f302f432ccaa876e7d1fafe6d2b-xf1\"",
+      "contentEncoding": null
+    },
+    {
+      "path": "assets/audio/headquarters-score.mp3",
+      "status": 200,
+      "contentType": "audio/mpeg",
+      "cacheControl": "public, max-age=3600, stale-while-revalidate=86400",
+      "etag": "\"7a869e49d01effa9e1aef6cd8582f8bd-xf1\"",
+      "contentEncoding": null
+    },
+    {
+      "path": "assets/headquarters/compressed/floor-albedo.ktx2",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "cacheControl": "public, max-age=3600, stale-while-revalidate=86400",
+      "etag": "\"81db59ce3b7ba1190ee090d416fa3dc0-xf1\"",
+      "contentEncoding": null
+    }
+  ],
+  "scope": "Observed public response types and cache directives. Content hashes and clean/returning browser behavior are verified separately; this does not promise immediate replacement in every already-open visitor cache."
+}

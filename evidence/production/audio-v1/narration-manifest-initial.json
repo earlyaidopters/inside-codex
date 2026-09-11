@@ -1,0 +1,948 @@
+{
+  "engine": "kokoro-onnx 0.6.1",
+  "model": "Kokoro v1.0 full precision",
+  "voice": "af_heart",
+  "speed": 0.94,
+  "sources": [
+    "https://huggingface.co/hexgrad/Kokoro-82M",
+    "https://github.com/thewh1teagle/kokoro-onnx"
+  ],
+  "modelSha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+  "voicesSha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "messages": 49,
+  "segments": [
+    {
+      "id": "voice/9859dfb5a8d90bfc",
+      "text": "Welcome inside.",
+      "spoken": "Welcome inside.",
+      "seconds": 1.4152916666666666,
+      "sampleRate": 24000,
+      "words": 2,
+      "bytes": 17900,
+      "sha256": "8f45ca9aff8f52d6d7db0c59ab19f99f661c823fb94589279e4a4d2919251fc3"
+    },
+    {
+      "id": "voice/883dc20b12c67854",
+      "text": "I’m Codex.",
+      "spoken": "I’m Codex.",
+      "seconds": 1.182,
+      "sampleRate": 24000,
+      "words": 2,
+      "bytes": 15308,
+      "sha256": "c1e739d183d351f7f5e723746091841a2560c2b77c58170d36c9b077b5add1cc"
+    },
+    {
+      "id": "voice/1a774cf2f8158c46",
+      "text": "Give me a model and I can reason.",
+      "spoken": "Give me a model and I can reason.",
+      "seconds": 2.3173333333333335,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 28844,
+      "sha256": "e88efe9f5d7b9b1b07b84c947e4d4e918d389030c4d6c84333f8cb6a66dfcde4"
+    },
+    {
+      "id": "voice/ef4e0f7d69fb3684",
+      "text": "Give me the right working environment and we can actually get something done.",
+      "spoken": "Give me the right working environment and we can actually get something done.",
+      "seconds": 4.244625,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 51884,
+      "sha256": "74695e76f09bc788d4fc84190fc6a074397699a1cdb2412b86a4bd2eeb1d739f"
+    },
+    {
+      "id": "voice/6ecb8cbb1eee94c3",
+      "text": "Now the model has something relevant to work from, a way to act, and a way to check its work.",
+      "spoken": "Now the model has something relevant to work from, a way to act, and a way to check its work.",
+      "seconds": 5.557333333333333,
+      "sampleRate": 24000,
+      "words": 20,
+      "bytes": 67724,
+      "sha256": "84d1605dd75a19fcf01536ea808594857bfcb59aae2b89a78112305101ad8fd4"
+    },
+    {
+      "id": "voice/427d6f7fb1893128",
+      "text": "Effort alone cannot supply a missing file or execute an unavailable tool.",
+      "spoken": "Effort alone cannot supply a missing file or execute an unavailable tool.",
+      "seconds": 5.014,
+      "sampleRate": 24000,
+      "words": 12,
+      "bytes": 61100,
+      "sha256": "5d3a7947418f76e0b264f067b9ce9be8b702ba80be981c8fdafed6ada01fe141"
+    },
+    {
+      "id": "voice/9478d0d05d6f2585",
+      "text": "Build the working environment first.",
+      "spoken": "Build the working environment first.",
+      "seconds": 2.168,
+      "sampleRate": 24000,
+      "words": 5,
+      "bytes": 27116,
+      "sha256": "c54138edc048c0331be6622f3fa346fc267811eac6257a24943ab82a9a16195c"
+    },
+    {
+      "id": "voice/5572ff45d791190d",
+      "text": "Tool results become new context.",
+      "spoken": "Tool results become new context.",
+      "seconds": 2.2859583333333333,
+      "sampleRate": 24000,
+      "words": 5,
+      "bytes": 28556,
+      "sha256": "dcf0525101fcd2449b288074f1410ae10db6c0253dd186363132f21096b722ba"
+    },
+    {
+      "id": "voice/fac214506617d416",
+      "text": "A failed check gives the next action a purpose.",
+      "spoken": "A failed check gives the next action a purpose.",
+      "seconds": 3.018666666666667,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 37196,
+      "sha256": "0d120ffd9fca5be60a409b3b924e965f74efe38152c5c4bcbe6ea2819c470f51"
+    },
+    {
+      "id": "voice/10c9fe9c4776e940",
+      "text": "A repair needs evidence of a mismatch.",
+      "spoken": "A repair needs evidence of a mismatch.",
+      "seconds": 2.572,
+      "sampleRate": 24000,
+      "words": 7,
+      "bytes": 32012,
+      "sha256": "31a6733c0a5f6c7428ab772dc88eec3d95aa877b6ff328e6f4d8de15a80dc49b"
+    },
+    {
+      "id": "voice/94c476115ec4aceb",
+      "text": "Start by learning what the client asked for.",
+      "spoken": "Start by learning what the client asked for.",
+      "seconds": 2.394,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 29708,
+      "sha256": "1ca265e2f60110f1dd80be6acb56ea1b5a7ca64a675b79ca40ddf770a9dfcb7f"
+    },
+    {
+      "id": "voice/b25147e9881c5a64",
+      "text": "A huge pile of information can hide the one detail that matters.",
+      "spoken": "A huge pile of information can hide the one detail that matters.",
+      "seconds": 4.254666666666667,
+      "sampleRate": 24000,
+      "words": 12,
+      "bytes": 52172,
+      "sha256": "26a6338900ee3d7f4e522def53c6f917d2fad1e6e07603ba82f721501fff61ea"
+    },
+    {
+      "id": "voice/2bcb94975d74c123",
+      "text": "Let’s build a small, useful context pack.",
+      "spoken": "Let’s build a small, useful context pack.",
+      "seconds": 2.888,
+      "sampleRate": 24000,
+      "words": 7,
+      "bytes": 35756,
+      "sha256": "b87b3388c4f202ca9ce987737de243e08e1e0215021a07c6b8e385df157cb524"
+    },
+    {
+      "id": "voice/60fae05efd23eeb9",
+      "text": "The saved CSV now uses the current owner, preserves the existing values, and passes the comparison.",
+      "spoken": "The saved C S V now uses the current owner, preserves the existing values, and passes the comparison.",
+      "seconds": 7.3693333333333335,
+      "sampleRate": 24000,
+      "words": 16,
+      "bytes": 89612,
+      "sha256": "6ae47634cd7e6bc7f553a967afd4af3aa5aaffcf0717320648cdc7790ac38578"
+    },
+    {
+      "id": "voice/6ec0dd43f61ac8a2",
+      "text": "Your evidence pack explains where each part of the repair came from.",
+      "spoken": "Your evidence pack explains where each part of the repair came from.",
+      "seconds": 3.7466666666666666,
+      "sampleRate": 24000,
+      "words": 12,
+      "bytes": 46124,
+      "sha256": "18e4c019b2f2cb6764eb2bac4a98665ea4f8379f27b21b47fbadd2d27913857a"
+    },
+    {
+      "id": "voice/4f48e6ede74e5d75",
+      "text": "Inspect and attach the current brief, CSV, screen capture and project guidance.",
+      "spoken": "Inspect and attach the current brief, C S V, screen capture and project guidance.",
+      "seconds": 5.62,
+      "sampleRate": 24000,
+      "words": 12,
+      "bytes": 68588,
+      "sha256": "5e89069f966ce7be98a2255ee7eba6395875d7d344f7eda651f9259e52911ff7"
+    },
+    {
+      "id": "voice/acbe5aada3a3d914",
+      "text": "Choose the current client requirements, repair the field shown in the error, then build and check the saved draft.",
+      "spoken": "Choose the current client requirements, repair the field shown in the error, then build and check the saved draft.",
+      "seconds": 6.58,
+      "sampleRate": 24000,
+      "words": 19,
+      "bytes": 80108,
+      "sha256": "ca792b80dd47045893c99238f81c1bc45ceb1772511fe195cb906f60d15d3400"
+    },
+    {
+      "id": "voice/0ff7f33d8d62f10e",
+      "text": "A document can contain instructions as text without gaining authority over the task.",
+      "spoken": "A document can contain instructions as text without gaining authority over the task.",
+      "seconds": 5.3853333333333335,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 65708,
+      "sha256": "41f201148f95ae332e706ae81b48089a2e2d06929f741c6b3cdbcfd168d84d7e"
+    },
+    {
+      "id": "voice/cfe0d954fb5af891",
+      "text": "Reading a file does not give that file permission to redefine the user’s request.",
+      "spoken": "Reading a file does not give that file permission to redefine the user’s request.",
+      "seconds": 5.364,
+      "sampleRate": 24000,
+      "words": 14,
+      "bytes": 65420,
+      "sha256": "9eec5b4da0df15dd9d63b07fe549d640a41ace5fe499b2cbe6cb1bd80929b319"
+    },
+    {
+      "id": "voice/21bf76198465a38e",
+      "text": "The biggest setting is a tool, not a strategy.",
+      "spoken": "The biggest setting is a tool, not a strategy.",
+      "seconds": 2.840625,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 35180,
+      "sha256": "0d78aba8d816b10542b4165a501edb2269a49d62c74736d56c3587af7d18df92"
+    },
+    {
+      "id": "voice/b1a8394141b5b9a9",
+      "text": "Choose based on the work, then judge the result.",
+      "spoken": "Choose based on the work, then judge the result.",
+      "seconds": 2.9346666666666668,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 36332,
+      "sha256": "645d6333e9fb4d70a8601a4ca86f8562e6474943c43b28a3ff04564954d6defd"
+    },
+    {
+      "id": "voice/6bf902b5699f3e7a",
+      "text": "Three decisions, each backed by a saved output and its checks.",
+      "spoken": "Three decisions, each backed by a saved output and its checks.",
+      "seconds": 3.966,
+      "sampleRate": 24000,
+      "words": 11,
+      "bytes": 48716,
+      "sha256": "00ce300c086fa04b76d99f0be4c9c04e77a69655d427eb4a7f91ed8784294836"
+    },
+    {
+      "id": "voice/7dea7e71c5a80c09",
+      "text": "Your route log separates reasoning settings from the edits, sources and access that changed the result.",
+      "spoken": "Your route log separates reasoning settings from the edits, sources and access that changed the result.",
+      "seconds": 6.432,
+      "sampleRate": 24000,
+      "words": 16,
+      "bytes": 78092,
+      "sha256": "3ba895e2c8ceec4a935a28300540d5094aead6a2ed38448293a7cbe78fcf60b8"
+    },
+    {
+      "id": "voice/f2cc5657bb80316d",
+      "text": "Keep all three checked routes: compare the same label edit at two setups; reproduce and repair the billing defect; recover the unavailable sheet and verify today’s total.",
+      "spoken": "Keep all three checked routes: compare the same label edit at two setups; reproduce and repair the billing defect; recover the unavailable sheet and verify today’s total.",
+      "seconds": 11.412625,
+      "sampleRate": 24000,
+      "words": 27,
+      "bytes": 137996,
+      "sha256": "7ad27ba8e2dbefac5480ccba92ac657b78b9333ff9b7aadf67971866d20cfaf0"
+    },
+    {
+      "id": "voice/a380a7fa87860c85",
+      "text": "A clear boundary can be useful.",
+      "spoken": "A clear boundary can be useful.",
+      "seconds": 1.9986666666666666,
+      "sampleRate": 24000,
+      "words": 6,
+      "bytes": 25100,
+      "sha256": "c0014350c97ced0ce135a7e29cce699123b4a542cc1c5442cef443b9a1a74044"
+    },
+    {
+      "id": "voice/b3f4efbcce9c4697",
+      "text": "First identify whether something is missing, disallowed, or simply not requested.",
+      "spoken": "First identify whether something is missing, disallowed, or simply not requested.",
+      "seconds": 5.376666666666667,
+      "sampleRate": 24000,
+      "words": 11,
+      "bytes": 65708,
+      "sha256": "da7989cc52ab80ad27c0ebf4dfc4682105c381be3c8c779a8046c0a930bd0699"
+    },
+    {
+      "id": "voice/8177fbf2179d4190",
+      "text": "The saved draft matches the approved source and remains unsent.",
+      "spoken": "The saved draft matches the approved source and remains unsent.",
+      "seconds": 4.021333333333334,
+      "sampleRate": 24000,
+      "words": 10,
+      "bytes": 49292,
+      "sha256": "acdf9a81f904a2e71448861a19a1d6be6eaebe678f8edae90f02bd4bae4ed9c8"
+    },
+    {
+      "id": "voice/621c45617a3913a7",
+      "text": "You changed the relevant access boundary, connected the app separately, and checked the actual deliverable.",
+      "spoken": "You changed the relevant access boundary, connected the app separately, and checked the actual deliverable.",
+      "seconds": 6.336666666666667,
+      "sampleRate": 24000,
+      "words": 15,
+      "bytes": 77228,
+      "sha256": "6801e6cda80c9fd718c59e52f44f6215ada07841ae7487abbeb0b83191dbc578"
+    },
+    {
+      "id": "voice/3ba404150b74164f",
+      "text": "Read the approved source, connect the training mail app, save a draft and verify it.",
+      "spoken": "Read the approved source, connect the training mail app, save a draft and verify it.",
+      "seconds": 5.227333333333333,
+      "sampleRate": 24000,
+      "words": 15,
+      "bytes": 63692,
+      "sha256": "84451c0a73e44bb34a0991c843cd284c1561d678db7401cb8fb51f20f48cc1b9"
+    },
+    {
+      "id": "voice/db272d3a823245da",
+      "text": "Use scoped filesystem access, leave unused command network access off, and resolve pending requests.",
+      "spoken": "Use scoped filesystem access, leave unused command network access off, and resolve pending requests.",
+      "seconds": 7.081958333333334,
+      "sampleRate": 24000,
+      "words": 14,
+      "bytes": 86156,
+      "sha256": "46a50cb22f63e869f31a31a6308b6877deaa3e4a19fc1fc5738eb83f821f4b9e"
+    },
+    {
+      "id": "voice/5630540bb025b0ad",
+      "text": "You can ask for the workspace you want.",
+      "spoken": "You can ask for the workspace you want.",
+      "seconds": 2.115291666666667,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 26540,
+      "sha256": "bcd9f6c7c320dd33dcaec318519fb7d31f82aedcad7d2b11693a4f2aefff2382"
+    },
+    {
+      "id": "voice/ae2bb08a1d746c86",
+      "text": "Let’s create a focused task with a clear outcome, then keep it easy to find.",
+      "spoken": "Let’s create a focused task with a clear outcome, then keep it easy to find.",
+      "seconds": 4.725333333333333,
+      "sampleRate": 24000,
+      "words": 15,
+      "bytes": 57644,
+      "sha256": "5e53b8142c50d22eb14391616031a1624c2a5bd790eb68e7a1752e284f784077"
+    },
+    {
+      "id": "voice/263e91f6fa61409c",
+      "text": "The task has an outcome and a check.",
+      "spoken": "The task has an outcome and a check.",
+      "seconds": 2.1266666666666665,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 26540,
+      "sha256": "5ac5bb8966401c09cd32885e0f1b79211187d5d8214f6de3e2b037529edc6a20"
+    },
+    {
+      "id": "voice/2f6768c9798a02ae",
+      "text": "It can now work independently without mixing its result into an unrelated conversation.",
+      "spoken": "It can now work independently without mixing its result into an unrelated conversation.",
+      "seconds": 5.962666666666666,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 72620,
+      "sha256": "ea54c633fc948da917d428971f7f007950a061e5a244b412187395539006b44a"
+    },
+    {
+      "id": "voice/da28cb2311b34e50",
+      "text": "Use a descriptive name, state what to produce, and include a concrete check or source comparison.",
+      "spoken": "Use a descriptive name, state what to produce, and include a concrete check or source comparison.",
+      "seconds": 5.91,
+      "sampleRate": 24000,
+      "words": 16,
+      "bytes": 72044,
+      "sha256": "bda70a69b1a2a6e885d0ae358fd1c086f84dbfd8aa90e705f4505573b7d6fa1c"
+    },
+    {
+      "id": "voice/9549917034e5af15",
+      "text": "Pinning organizes the workspace.",
+      "spoken": "Pinning organizes the workspace.",
+      "seconds": 2.232,
+      "sampleRate": 24000,
+      "words": 4,
+      "bytes": 27692,
+      "sha256": "d355a29a8e72bd5381455f29e0d9ee7556c2e6a8095448d272bb6d2e7ce22273"
+    },
+    {
+      "id": "voice/aedc3654b2f5294f",
+      "text": "It does not change the model, context, or permissions.",
+      "spoken": "It does not change the model, context, or permissions.",
+      "seconds": 3.5279583333333333,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 43244,
+      "sha256": "777a9aba03f96216c7d4b60d8fcbe4c76d2b78bc93916916edf53e2b9930ef87"
+    },
+    {
+      "id": "voice/7757ce2644938dd6",
+      "text": "Sidebar organization and model behavior are separate controls.",
+      "spoken": "Sidebar organization and model behavior are separate controls.",
+      "seconds": 4.148,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 50732,
+      "sha256": "bb5571d7fc5dc0298f6c31ff4e25dab603bcb0b38a8791dfe2994c65f690bdbf"
+    },
+    {
+      "id": "voice/516ccca52f589b56",
+      "text": "Conversation history and files are two different things.",
+      "spoken": "Conversation history and files are two different things.",
+      "seconds": 3.4153333333333333,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 42092,
+      "sha256": "d3ad83b67bfb6f1559f47f61d7aa654e777cd245b74446ef93c4c322555f9473"
+    },
+    {
+      "id": "voice/4c95972abf45fb43",
+      "text": "Choose the kind of separation your work actually needs.",
+      "spoken": "Choose the kind of separation your work actually needs.",
+      "seconds": 3.202,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 39500,
+      "sha256": "9ae923edf4029a11b85c668f1da32fb60a4092902ee681c344d26d4e05e27ffa"
+    },
+    {
+      "id": "voice/0c8b2a76cb1e0f54",
+      "text": "A conversation fork lets you explore another direction from existing history.",
+      "spoken": "A conversation fork lets you explore another direction from existing history.",
+      "seconds": 4.95,
+      "sampleRate": 24000,
+      "words": 11,
+      "bytes": 60524,
+      "sha256": "ccc73c879947f8b19a6bb2400390eae30df351af4337d7b332d7404264f2907c"
+    },
+    {
+      "id": "voice/e997701977f352da",
+      "text": "Choose the separation you need: conversation history or files.",
+      "spoken": "Choose the separation you need: conversation history or files.",
+      "seconds": 4.052625,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 49580,
+      "sha256": "1a88176eefd12f13a9c34b11c9d414fa804ee18567ed3d967ea474d3a4247955"
+    },
+    {
+      "id": "voice/b97662faa71c751a",
+      "text": "You kept competing files separate, compared their actual changes, and verified the chosen record after integration.",
+      "spoken": "You kept competing files separate, compared their actual changes, and verified the chosen record after integration.",
+      "seconds": 7.465958333333333,
+      "sampleRate": 24000,
+      "words": 16,
+      "bytes": 90764,
+      "sha256": "351fb548f5faf6295a732ce4b6a5e38887e96e3a0cb841c7e6c32f83764cab20"
+    },
+    {
+      "id": "voice/7db9bda8d7ffa20b",
+      "text": "The other attempt is still available.",
+      "spoken": "The other attempt is still available.",
+      "seconds": 2.212,
+      "sampleRate": 24000,
+      "words": 6,
+      "bytes": 27692,
+      "sha256": "de03d1c0d5ad849235013b9c2dac124b51667a19d6309528286e2687e5279830"
+    },
+    {
+      "id": "voice/fa5ba0668c0643f4",
+      "text": "Complete the working-file exercise: create worktrees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "spoken": "Complete the working-file exercise: create worktrees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "seconds": 10.762666666666666,
+      "sampleRate": 24000,
+      "words": 23,
+      "bytes": 130220,
+      "sha256": "7b973779a74cfafbb89fd0bdfdd314b57669c44400a73be704633c627f4e56ca"
+    },
+    {
+      "id": "voice/193165a9a6decdd7",
+      "text": "You don’t need to wait silently.",
+      "spoken": "You don’t need to wait silently.",
+      "seconds": 1.8393333333333333,
+      "sampleRate": 24000,
+      "words": 6,
+      "bytes": 23084,
+      "sha256": "f39b3ba732c5ceb7ebf0e6e750e36f493d9db10e42dabeb3a30f69b3d0299a82"
+    },
+    {
+      "id": "voice/1334630cdd2f4097",
+      "text": "The right follow-up can correct the current work or prepare what comes next.",
+      "spoken": "The right follow-up can correct the current work or prepare what comes next.",
+      "seconds": 4.329958333333333,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 53036,
+      "sha256": "1c1d3e8ba2f789717466b05ae42198c1209130ece9852cd933752e3bb7d8e198"
+    },
+    {
+      "id": "voice/2ce2d5258cdeb8ea",
+      "text": "The status request preserved the job.",
+      "spoken": "The status request preserved the job.",
+      "seconds": 2.3813333333333335,
+      "sampleRate": 24000,
+      "words": 6,
+      "bytes": 29708,
+      "sha256": "2f611df52dffa30231edaa311beee460382573b2c81f76848161068c9ca641c5"
+    },
+    {
+      "id": "voice/902e0811d1f48eaa",
+      "text": "Your correction changed the active checklist, and the queued email used its checked French result.",
+      "spoken": "Your correction changed the active checklist, and the queued email used its checked French result.",
+      "seconds": 5.737958333333333,
+      "sampleRate": 24000,
+      "words": 15,
+      "bytes": 70028,
+      "sha256": "93254b42e15ed4d7fa593e380935451e549a994b3a572dfba23c8fad04528d7a"
+    },
+    {
+      "id": "voice/6ce7ecf3681a4844",
+      "text": "Both deliverables are saved and the draft is unsent.",
+      "spoken": "Both deliverables are saved and the draft is unsent.",
+      "seconds": 3.488,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 42956,
+      "sha256": "ee8ed1becea646dda3ee07dd81abdd49c91f39253612174f7651f80c94ceabc2"
+    },
+    {
+      "id": "voice/05b212b6668f2982",
+      "text": "Ask for status, apply the French correction during the checklist run, then finish a queued email based on the latest checked result.",
+      "spoken": "Ask for status, apply the French correction during the checklist run, then finish a queued email based on the latest checked result.",
+      "seconds": 7.946666666666666,
+      "sampleRate": 24000,
+      "words": 22,
+      "bytes": 96524,
+      "sha256": "ec6951823a87023429cd312536e79e0bad33f6939bf6c7a6f975b83116e6225d"
+    },
+    {
+      "id": "voice/88a3db73eb481560",
+      "text": "Empty the waiting queue before keeping the sequence.",
+      "spoken": "Empty the waiting queue before keeping the sequence.",
+      "seconds": 3.1466666666666665,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 38924,
+      "sha256": "d0a49f0dd080c1883a90ee80867215f022a94f931a2d6a7f47794d8823444207"
+    },
+    {
+      "id": "voice/d305e91da1f7278d",
+      "text": "A confident answer can still hide a quiet mistake.",
+      "spoken": "A confident answer can still hide a quiet mistake.",
+      "seconds": 3.36,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 41228,
+      "sha256": "3b139f916278fd4505ce49c327b9e8cc8e35f7ddf323c65234a5653cc814f823"
+    },
+    {
+      "id": "voice/7a269a485fce57e0",
+      "text": "Let’s inspect the thing that will actually be used.",
+      "spoken": "Let’s inspect the thing that will actually be used.",
+      "seconds": 2.8506666666666667,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 35180,
+      "sha256": "424bd1f792c2eda653ee77bd78aecbd9c63ddf565fe050af3e46f0110e95a732"
+    },
+    {
+      "id": "voice/3c3257009eed9d44",
+      "text": "You reproduced the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "spoken": "You reproduced the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "seconds": 8.980625,
+      "sampleRate": 24000,
+      "words": 20,
+      "bytes": 108908,
+      "sha256": "cc1ccae96c8f68fe5a5e50a333d8c77c0cc6b57027bde5f549848409d385dab0"
+    },
+    {
+      "id": "voice/db8b7b1ea71113f8",
+      "text": "Your repair and runnable checks are in the toolkit.",
+      "spoken": "Your repair and runnable checks are in the toolkit.",
+      "seconds": 2.9472916666666666,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 36332,
+      "sha256": "39a7bf086a2551e4adcae8c5046985a68c80d91a8eab694447f430ad4b07005a"
+    },
+    {
+      "id": "voice/671cc4170a07e0e9",
+      "text": "Run acceptance checks to reproduce the defect, repair the flagged lines, rerun the checks, and inspect the final diff before keeping it.",
+      "spoken": "Run acceptance checks to reproduce the defect, repair the flagged lines, rerun the checks, and inspect the final diff before keeping it.",
+      "seconds": 8.522666666666666,
+      "sampleRate": 24000,
+      "words": 22,
+      "bytes": 103436,
+      "sha256": "9b4ec67a9d3dfada219dbfba9710bda8156d274df6f148f49f931e34c5ffe57b"
+    },
+    {
+      "id": "voice/bf7354aaaae7a52d",
+      "text": "Tools make actions possible.",
+      "spoken": "Tools make actions possible.",
+      "seconds": 1.944625,
+      "sampleRate": 24000,
+      "words": 4,
+      "bytes": 24524,
+      "sha256": "113a2cd9c7ef06094221fae398271a0074f9478fab50aa258f0be73c253b611c"
+    },
+    {
+      "id": "voice/822499b3a42c200d",
+      "text": "Skills preserve the way you want a job done.",
+      "spoken": "Skills preserve the way you want a job done.",
+      "seconds": 2.66,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 32876,
+      "sha256": "f4d044ffd449948f99cf3a8faef24c464c0737ab22222d9db19f3e4ae678b881"
+    },
+    {
+      "id": "voice/85137602814dbec0",
+      "text": "Plugins can bring those pieces together.",
+      "spoken": "Plugins can bring those pieces together.",
+      "seconds": 2.4153333333333333,
+      "sampleRate": 24000,
+      "words": 6,
+      "bytes": 29996,
+      "sha256": "c85fc83e4e833f0b13c23ddcc5a1d2bb407750abbe120e00b04172274d916a17"
+    },
+    {
+      "id": "voice/d4c792766d90d83b",
+      "text": "The read tool retrieved both briefs.",
+      "spoken": "The read tool retrieved both briefs.",
+      "seconds": 2.3273333333333333,
+      "sampleRate": 24000,
+      "words": 6,
+      "bytes": 28844,
+      "sha256": "0ec42bf1bbd28ef108efa301cc7cc3ecd43413041dc59971d9785796413056a2"
+    },
+    {
+      "id": "voice/821bc5b60f0848f7",
+      "text": "Project guidance set the output rules, and the repaired skill preserved each client’s own values.",
+      "spoken": "Project guidance set the output rules, and the repaired skill preserved each client’s own values.",
+      "seconds": 6.100625,
+      "sampleRate": 24000,
+      "words": 15,
+      "bytes": 74348,
+      "sha256": "3a4c0ee58a8d9fe8a199c26586749f591e1ff58db83e9c619aade74cb190d0fd"
+    },
+    {
+      "id": "voice/b47855e13c1ca185",
+      "text": "Both CSV files are checked and saved in your toolkit.",
+      "spoken": "Both C S V files are checked and saved in your toolkit.",
+      "seconds": 3.8506666666666667,
+      "sampleRate": 24000,
+      "words": 10,
+      "bytes": 47276,
+      "sha256": "0df4e3b21860949baa1cf7a17ff7876aedd138a60ffb1c746f806e012353ff57"
+    },
+    {
+      "id": "voice/0a54638305d25ca8",
+      "text": "Connect Source Kit to Training briefs, read the guidance, reproduce the first procedure’s defect, then run and check both clients with the reusable skill.",
+      "spoken": "Connect Source Kit to Training briefs, read the guidance, reproduce the first procedure’s defect, then run and check both clients with the reusable skill.",
+      "seconds": 9.683333333333334,
+      "sampleRate": 24000,
+      "words": 24,
+      "bytes": 117260,
+      "sha256": "c4396d6692b39c3458237bb25ba626e316ca85672011f2c0a9c68017b76be167"
+    },
+    {
+      "id": "voice/006a211c004011bb",
+      "text": "The screenshot looks fine.",
+      "spoken": "The screenshot looks fine.",
+      "seconds": 1.6146666666666667,
+      "sampleRate": 24000,
+      "words": 4,
+      "bytes": 20492,
+      "sha256": "8ce2f202f626e96104610f0f7a9cabf1042779cb75021528571a238a3055170b"
+    },
+    {
+      "id": "voice/d667b2d880559d9c",
+      "text": "Now let’s find out whether the page works.",
+      "spoken": "Now let’s find out whether the page works.",
+      "seconds": 2.3386666666666667,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 29132,
+      "sha256": "7547c444e6875ba61fdeee31d409fd1329b65d7bc3653e6f90c2fa8c10923401"
+    },
+    {
+      "id": "voice/b5fe57da56eda04c",
+      "text": "You observed the failure, changed the save behavior, and verified the persisted record against the source.",
+      "spoken": "You observed the failure, changed the save behavior, and verified the persisted record against the source.",
+      "seconds": 6.463291666666667,
+      "sampleRate": 24000,
+      "words": 16,
+      "bytes": 78668,
+      "sha256": "74a4798516790879714599da96bc8719a04da2d8ece5a0c3ccbd310619390f24"
+    },
+    {
+      "id": "voice/daacb833c7353e63",
+      "text": "That is evidence of a working repair.",
+      "spoken": "That is evidence of a working repair.",
+      "seconds": 2.276,
+      "sampleRate": 24000,
+      "words": 7,
+      "bytes": 28268,
+      "sha256": "f47187311f970f1b90240d1949fcd5901453560e4f4ceccb29ca23499eccdcc4"
+    },
+    {
+      "id": "voice/541c518f0a126395",
+      "text": "Finish the whole check: reproduce the disappearing record, repair it, then save Nina Patel and reload.",
+      "spoken": "Finish the whole check: reproduce the disappearing record, repair it, then save Nina Patel and reload.",
+      "seconds": 6.55,
+      "sampleRate": 24000,
+      "words": 16,
+      "bytes": 79532,
+      "sha256": "a8f73e014d2029d8f0537cf92066368df3947e5b3eace088519914b6213fa468"
+    },
+    {
+      "id": "voice/a1aad0c5d1f14d81",
+      "text": "A success message alone is not evidence.",
+      "spoken": "A success message alone is not evidence.",
+      "seconds": 2.8053333333333335,
+      "sampleRate": 24000,
+      "words": 7,
+      "bytes": 34604,
+      "sha256": "d3c2dba9e114ff9ad21cc5601dd1021cee3ec0b82ca09362c9c2ff8792e1db0f"
+    },
+    {
+      "id": "voice/d4fc8818283fa2c3",
+      "text": "Functional evidence and visual assessment answer different questions.",
+      "spoken": "Functional evidence and visual assessment answer different questions.",
+      "seconds": 4.139333333333333,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 50732,
+      "sha256": "71a6fd9077d2776c1d3bc451eb12c747eaf7fdf9e6fb2fb2b9f912614ada319f"
+    },
+    {
+      "id": "voice/635d05306848086c",
+      "text": "Both matter to the actual experience.",
+      "spoken": "Both matter to the actual experience.",
+      "seconds": 2.4753333333333334,
+      "sampleRate": 24000,
+      "words": 6,
+      "bytes": 30860,
+      "sha256": "424efeb8a8cebdb9823d6dc629d6a0bea29d8fa11a09fa02fd05d0755e31cbf2"
+    },
+    {
+      "id": "voice/4f1620f88d1b22f2",
+      "text": "One successful path does not establish usability across states and layouts.",
+      "spoken": "One successful path does not establish usability across states and layouts.",
+      "seconds": 5.108,
+      "sampleRate": 24000,
+      "words": 11,
+      "bytes": 62252,
+      "sha256": "c46af606781dba82e0f6f527b3b648030a7013d54e5132f4f3b24b2749392a3a"
+    },
+    {
+      "id": "voice/14901f028c87367d",
+      "text": "Before asking a workflow to repeat, make sure it works once.",
+      "spoken": "Before asking a workflow to repeat, make sure it works once.",
+      "seconds": 3.552,
+      "sampleRate": 24000,
+      "words": 11,
+      "bytes": 43532,
+      "sha256": "23d16370574ba30ad63b5be9e225fb05763a321041589bbb9f84d74ff38a8a5e"
+    },
+    {
+      "id": "voice/1a45300f2a368a07",
+      "text": "Then give the next run a clear job.",
+      "spoken": "Then give the next run a clear job.",
+      "seconds": 2.1693333333333333,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 27116,
+      "sha256": "b87fcd9f3e6bf294934d3d48b3b1b446e7990392e2531b36b68f28360aca9828"
+    },
+    {
+      "id": "voice/1dfc6dad665c0a05",
+      "text": "The schedule has a tested prompt, explicit local time and execution requirements.",
+      "spoken": "The schedule has a tested prompt, explicit local time and execution requirements.",
+      "seconds": 5.502,
+      "sampleRate": 24000,
+      "words": 12,
+      "bytes": 67148,
+      "sha256": "d33577f4aa83c557aa46e8bb8dad3ce6ef3f6754e23859cbef4ab50dffab8b95"
+    },
+    {
+      "id": "voice/285ecf2734875905",
+      "text": "Your run history separates quiet success, actionable findings, read failures and an offline host.",
+      "spoken": "Your run history separates quiet success, actionable findings, read failures and an offline host.",
+      "seconds": 6.633958333333333,
+      "sampleRate": 24000,
+      "words": 14,
+      "bytes": 80684,
+      "sha256": "800c223d21bdc4289f58f1e9b131840ee7d841c84700e2aa3e7e2f891c9c36eb"
+    },
+    {
+      "id": "voice/83cdc991d17880a5",
+      "text": "The tested schedule and reports are in your toolkit.",
+      "spoken": "The tested schedule and reports are in your toolkit.",
+      "seconds": 3.1893333333333334,
+      "sampleRate": 24000,
+      "words": 9,
+      "bytes": 39212,
+      "sha256": "54f8319f2716763cc4c6407788906c66a18849752d4a702149a4323b4dc78f0c"
+    },
+    {
+      "id": "voice/f542447ad11d66e3",
+      "text": "Use the tested weekday 09:00 Toronto setup in this task.",
+      "spoken": "Use the tested weekday 09:00 Toronto setup in this task.",
+      "seconds": 5.353958333333333,
+      "sampleRate": 24000,
+      "words": 10,
+      "bytes": 65420,
+      "sha256": "ed5ce7a37ae9cc18778b2edd7f06652702f772697b19b9b2c0143ed77698e506"
+    },
+    {
+      "id": "voice/85cd2d195d67c484",
+      "text": "Observe a quiet run, new missing approval, read failure, recovery and an offline host.",
+      "spoken": "Observe a quiet run, new missing approval, read failure, recovery and an offline host.",
+      "seconds": 5.668666666666667,
+      "sampleRate": 24000,
+      "words": 14,
+      "bytes": 69164,
+      "sha256": "584f277f4ef47da620714c8a8477d94b284786969b40e03d8565502b4372950d"
+    },
+    {
+      "id": "voice/1edf70ae9f807d3f",
+      "text": "Finish a successful scheduled run after restoring the host, and leave the schedule active.",
+      "spoken": "Finish a successful scheduled run after restoring the host, and leave the schedule active.",
+      "seconds": 5.664,
+      "sampleRate": 24000,
+      "words": 14,
+      "bytes": 68876,
+      "sha256": "561d94a26815f38e4107a21804394d89eec4fc491fd2a20fd1f996e9aca38644"
+    },
+    {
+      "id": "voice/808afdfd8bdc5846",
+      "text": "The work is only finished when someone else can use it, understand its limits, and recover if something goes wrong.",
+      "spoken": "The work is only finished when someone else can use it, understand its limits, and recover if something goes wrong.",
+      "seconds": 6.816,
+      "sampleRate": 24000,
+      "words": 20,
+      "bytes": 82700,
+      "sha256": "066e3bf2e0ad1b3384763ab64522dfe5cc71e660c6ae41a6179fe6ef11d683cc"
+    },
+    {
+      "id": "voice/bd22d74a56c51f05",
+      "text": "You checked the actual delivery route, preserved and tested recovery, repaired the asset path and verified the current package.",
+      "spoken": "You checked the actual delivery route, preserved and tested recovery, repaired the asset path and verified the current package.",
+      "seconds": 7.3693333333333335,
+      "sampleRate": 24000,
+      "words": 19,
+      "bytes": 89612,
+      "sha256": "3d4cbca859734af96d86b97412279a7daff1f438f1bc69f78a0187d98f65af74"
+    },
+    {
+      "id": "voice/d3e99dbd648f2cb7",
+      "text": "The exported page, CSV, brand asset and instructions are ready for independent inspection.",
+      "spoken": "The exported page, C S V, brand asset and instructions are ready for independent inspection.",
+      "seconds": 6.697958333333333,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 81548,
+      "sha256": "a84337f9a1bb4db89134b6ae0592359b79a871c1c50a127fb2cd91955c44ee19"
+    },
+    {
+      "id": "voice/3f9848779520fa1b",
+      "text": "Preserve a checked recovery copy, observe the delivery failure and verify its rollback.",
+      "spoken": "Preserve a checked recovery copy, observe the delivery failure and verify its rollback.",
+      "seconds": 5.695291666666667,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 69452,
+      "sha256": "ec146215a2c2c555851d9ef8fde737cc7f5afac7a3ff1360a788fc55b11a9966"
+    },
+    {
+      "id": "voice/caa23cd462c71b16",
+      "text": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repaired delivery.",
+      "spoken": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repaired delivery.",
+      "seconds": 8.235333333333333,
+      "sampleRate": 24000,
+      "words": 18,
+      "bytes": 99980,
+      "sha256": "4f97736c0249d2e797bac419e8cb15f5453b229f081ad7e391a36266a22ed831"
+    },
+    {
+      "id": "voice/c5bcbc56e4f882db",
+      "text": "Cedar Research has a new reporting brief.",
+      "spoken": "Cedar Research has a new reporting brief.",
+      "seconds": 2.646,
+      "sampleRate": 24000,
+      "words": 7,
+      "bytes": 32876,
+      "sha256": "88074ee869b2ea7fcf81e318aa677eee5cac5d61b4adbc8be1340f63cead8a41"
+    },
+    {
+      "id": "voice/72054c3f1639febe",
+      "text": "I’ll step back.",
+      "spoken": "I’ll step back.",
+      "seconds": 1.308625,
+      "sampleRate": 24000,
+      "words": 3,
+      "bytes": 16748,
+      "sha256": "d8de708b3c779dec3e006a73e68fb2194dc82b5267a0b02788bb488827e50a3f"
+    },
+    {
+      "id": "voice/8cf5c157e8342e48",
+      "text": "Choose the context and tools, inspect the saved result, and show that your procedure works when the inputs change.",
+      "spoken": "Choose the context and tools, inspect the saved result, and show that your procedure works when the inputs change.",
+      "seconds": 7.039291666666666,
+      "sampleRate": 24000,
+      "words": 19,
+      "bytes": 85580,
+      "sha256": "d13130a968d8f6b06a13d3b9e1ea5b5f9cd2c208d6fe110e9a9b630c2484d5d8"
+    },
+    {
+      "id": "voice/bf769ffef43fecf2",
+      "text": "Your saved report, second-period check and recurring rehearsal satisfy the five evidence dimensions.",
+      "spoken": "Your saved report, second-period check and recurring rehearsal satisfy the five evidence dimensions.",
+      "seconds": 6.804625,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 82700,
+      "sha256": "567bcc04f4a16db8dfbc25d01669e101358c7d0eaa6bbc01e8bc78b660242d6e"
+    },
+    {
+      "id": "voice/cb0dea7ff2c7a89d",
+      "text": "The exported files preserve your first submission and any hint use.",
+      "spoken": "The exported files preserve your first submission and any hint use.",
+      "seconds": 4.073958333333334,
+      "sampleRate": 24000,
+      "words": 11,
+      "bytes": 49868,
+      "sha256": "22025f1f6e87a01c748e6e60abca4b741ee3df4e501c612ca86a38aeed94acee"
+    },
+    {
+      "id": "voice/f2a6bdeaf4115d95",
+      "text": "Review the missing evidence, repair the working files or configuration, then submit again.",
+      "spoken": "Review the missing evidence, repair the working files or configuration, then submit again.",
+      "seconds": 5.749333333333333,
+      "sampleRate": 24000,
+      "words": 13,
+      "bytes": 70028,
+      "sha256": "b5a83b88c4dca738a32ccdc2f23d565ec10f91954f06a8e7bd6c2e6296bc23bb"
+    },
+    {
+      "id": "voice/e6da428c9f84803d",
+      "text": "Your first submitted score stays in the record.",
+      "spoken": "Your first submitted score stays in the record.",
+      "seconds": 2.5759583333333333,
+      "sampleRate": 24000,
+      "words": 8,
+      "bytes": 32012,
+      "sha256": "3a0650f546c7bdeca3eb3497714a260fc2dda5e0e15ecb4e10310c0b43e00df3"
+    }
+  ],
+  "generationSeconds": 94.09174299240112,
+  "listeningReview": false,
+  "transcriptAudit": false
+}

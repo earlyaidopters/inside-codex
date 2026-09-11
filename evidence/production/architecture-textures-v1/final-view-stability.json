@@ -1,0 +1,42 @@
+[
+  {
+    "view": "candidate-balanced-arrival.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-balanced-control.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-balanced-handoff.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-balanced-tasks.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-balanced-tools.png",
+    "sameAsFirstCandidate": false
+  },
+  {
+    "view": "candidate-high-arrival.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-high-control.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-high-handoff.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-high-tasks.png",
+    "sameAsFirstCandidate": true
+  },
+  {
+    "view": "candidate-high-tools.png",
+    "sameAsFirstCandidate": true
+  }
+]

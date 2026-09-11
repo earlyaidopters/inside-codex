@@ -1,0 +1,13 @@
+{
+  "quality": "balanced",
+  "runId": "run_1789067175318_844bbf01a84241a896e435b44780aa2a",
+  "observation": "Original miss retained; exactly two fixed-build characterization repeats completed.",
+  "readyMs": 6066.299999982119,
+  "targetMs": 6000,
+  "missMs": 66.299999982119,
+  "decision": "Accepted minor limitation under plan section 12. All three Balanced cold starts exceed the unchanged proposed 6000 ms target by 66\u2013153 ms; no claim that this target passed. Payloads and readiness are correct, no progression defect occurs, and warm traversal targets pass. Further runtime changes are not justified by this small startup latency overrun.",
+  "repeatReadyMs": [
+    6127.9000000059605,
+    6152.899999976158
+  ]
+}

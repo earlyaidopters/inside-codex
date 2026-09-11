@@ -1,0 +1,44 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_0a1da4af-c7fd-4468-9402-6dccfd8225f4",
+  "operation": "performance.goal-create",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-create",
+      "run_1789055124040_6f1ea059020d48769aece615e081fed0"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "id": "static-shadow-submissions",
+      "metric": "render.total_draw_calls",
+      "statistic": "max",
+      "unit": "count",
+      "direction": "lower",
+      "target": 180,
+      "maximumIterations": 1,
+      "allowedPaths": [
+        "src/world.ts",
+        "src/static-shadow-batch.ts",
+        "tests/static-shadow",
+        "tools/shadows"
+      ]
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/static-shadow-submissions.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T15:47:44.109Z",
+  "updatedAt": "2026-09-10T15:47:44.932Z",
+  "startedAt": "2026-09-10T15:47:44.118Z",
+  "completedAt": "2026-09-10T15:47:44.932Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_0a1da4af-c7fd-4468-9402-6dccfd8225f4/receipt.json"
+}

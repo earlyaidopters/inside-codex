@@ -1,0 +1,28 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_0e9ce5d8-d3d1-4766-a91f-73a03cc5e052",
+  "operation": "performance.goal-evaluate",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-evaluate",
+      ".game-dev/goals/streamed-exhibit-residency.json",
+      "assets/generated/.game-dev/runs/run_1789042951171_f3f7df84a3f7418fb71adc9997a18ba9"
+    ],
+    "flags": {}
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/streamed-exhibit-residency.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T12:26:12.173Z",
+  "updatedAt": "2026-09-10T12:26:12.461Z",
+  "startedAt": "2026-09-10T12:26:12.182Z",
+  "completedAt": "2026-09-10T12:26:12.461Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_0e9ce5d8-d3d1-4766-a91f-73a03cc5e052/receipt.json"
+}

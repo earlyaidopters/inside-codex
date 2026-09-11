@@ -1,0 +1,24 @@
+{
+  "viewport": [
+    547,
+    614
+  ],
+  "surface": "Actual Codex internal browser",
+  "captionText": "Give me the right working environment and we can actually get something done.",
+  "captionBounds": {
+    "top": 83,
+    "bottom": 140.33333587646484
+  },
+  "lessonBounds": {
+    "top": 206.30209350585935,
+    "bottom": 544.0000305175781
+  },
+  "observed": [
+    "Recorded sentence captions appear",
+    "Compact caption no longer covers the white glyph in the reviewed pose",
+    "Pause and master mute operate through visible controls",
+    "Independent sliders have readable labels and numeric values"
+  ],
+  "headphoneListening": false,
+  "fullReleaseAccepted": false
+}

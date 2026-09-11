@@ -1,0 +1,11 @@
+{
+  "file": "inside-codex-0.1.0-source.zip",
+  "bytes": 740043619,
+  "sha256": "bc73ad2fb6638f5ef8684307d7ddbecfd8616dd0a6efce81179b1fc6e9315b40",
+  "files": 2513,
+  "sealedRunBundles": 26,
+  "crcAndEveryFileSha256Verified": true,
+  "privateCredentialAbsent": true,
+  "standaloneRebuildEvidence": "evidence/production/release-orbit-v1/clean-build-comparison.json",
+  "runtimeRebuildMatchesFrozenDeploy": 467
+}

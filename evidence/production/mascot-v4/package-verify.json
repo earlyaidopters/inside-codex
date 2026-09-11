@@ -1,0 +1,60 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "package.verify",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.package_verification.v1",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.0.0",
+    "manifest": {
+      "assetId": "codex_guide",
+      "category": "character",
+      "description": "Locally authored Codex guide with source-traced glyph, portable skin roots, and twelve retained animation clips. Internal production asset; no independent redistribution license is asserted for the source logo.",
+      "displayName": "codex-guide",
+      "files": [
+        {
+          "bytes": 912504,
+          "kind": "model",
+          "path": "model.glb",
+          "sha256": "122fda9e281d73738997ece90ffae2c6210f0826082334dd1069741e9f544814"
+        },
+        {
+          "bytes": 1831,
+          "kind": "metadata",
+          "path": "metadata.json",
+          "sha256": "8ac76b1592c1e28801a879e33b0b3df72ad900f87e915de495f0b6015ea75ad4"
+        },
+        {
+          "bytes": 1054,
+          "kind": "provenance",
+          "path": "provenance.json",
+          "sha256": "fd53252447c59571c5575bbef9b8534603b39eb7ce88a06fb199b099b8cb13d6"
+        },
+        {
+          "bytes": 2731,
+          "kind": "validation",
+          "path": "validation.json",
+          "sha256": "83cb20fe87133f68768045a53d3b05f7e4f554412af0f1ab84c501c33a95ef28"
+        }
+      ],
+      "license": "unknown",
+      "model": "model.glb",
+      "packageId": "pkg_68908b5c56d1b9ca8abdf8ce",
+      "provenance": {
+        "origin": "authored"
+      },
+      "schema": "game_dev.asset_package.v1",
+      "validation": {
+        "errorCount": 0,
+        "passed": true,
+        "warningCount": 0
+      },
+      "version": "4.0.0"
+    },
+    "hashesVerified": true,
+    "evidence": {
+      "packageBytesVerified": true,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "checks": [
+    "1440x900: 6 visible 3D source cards inspect their matching file",
+    "1440x900: source conflict, format failure, repair, keyboard build/check, and persisted receipt pass",
+    "390x844: 6 visible 3D source cards inspect their matching file",
+    "390x844: source conflict, format failure, repair, keyboard build/check, and persisted receipt pass",
+    "844x390: 6 visible 3D source cards inspect their matching file",
+    "844x390: source conflict, format failure, repair, keyboard build/check, and persisted receipt pass"
+  ],
+  "errors": []
+}

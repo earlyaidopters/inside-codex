@@ -1,0 +1,215 @@
+{
+  "pass": true,
+  "scope": "Unquantized export vertex-by-vertex comparison. Only x≈±9/z≈1 column parts move 9m, and x≈±22/z≈2 tree parts move 8m along +z. All other positions, UVs, indices and embedded images retained. Re-exported normal angular drift must be below 0.1 degrees and is reported per primitive.",
+  "sourceSha256": "837ed983f984f6553cace9b3d150e5dbab7736499548fb17499bd74d4db911c7",
+  "candidateSha256": "c979a1f1fc2d3a2fb1a2f7d6ceff55296b860564cecbfc7c2ed0f69f976b4668",
+  "movedExportVertices": 20176,
+  "primitives": [
+    {
+      "mesh": "Cube.036",
+      "primitive": 0,
+      "normalMaxDegrees": 0.0000012074182697257333,
+      "stationary": 115,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 1,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 3864,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 2,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 3864,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 3,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 6210,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 4,
+      "normalMaxDegrees": 0.0000012074182697257333,
+      "stationary": 14,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube",
+      "primitive": 0,
+      "normalMaxDegrees": 0.0000012074182697257333,
+      "stationary": 152,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube",
+      "primitive": 1,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 1128,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Inset ribbons and indices",
+      "primitive": 0,
+      "normalMaxDegrees": 0,
+      "stationary": 124,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Inset ribbons and indices",
+      "primitive": 1,
+      "normalMaxDegrees": 0,
+      "stationary": 1728,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 0,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 11184,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 1,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 10032,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 2,
+      "normalMaxDegrees": 0.005729578890451214,
+      "stationary": 9140,
+      "columns": 0,
+      "trees": 1336
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 3,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 19040,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 4,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 7880,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 5,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 14112,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 6,
+      "normalMaxDegrees": 0.009887943844040943,
+      "stationary": 1216,
+      "columns": 0,
+      "trees": 352
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 7,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 608,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 8,
+      "normalMaxDegrees": 0.020614244380188697,
+      "stationary": 0,
+      "columns": 0,
+      "trees": 1568
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 9,
+      "normalMaxDegrees": 0.005440803976687833,
+      "stationary": 0,
+      "columns": 0,
+      "trees": 4824
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 0,
+      "normalMaxDegrees": 0.02957371402741327,
+      "stationary": 13894,
+      "columns": 9472,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 1,
+      "normalMaxDegrees": 0.008076410162900631,
+      "stationary": 25912,
+      "columns": 1312,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 2,
+      "normalMaxDegrees": 0.009025182507040432,
+      "stationary": 13297,
+      "columns": 1312,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 3,
+      "normalMaxDegrees": 0.0000017075472925031877,
+      "stationary": 301,
+      "columns": 0,
+      "trees": 0
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 4,
+      "normalMaxDegrees": 0.0000012074182697257333,
+      "stationary": 150,
+      "columns": 0,
+      "trees": 0
+    }
+  ],
+  "textures": [
+    {
+      "name": "floor-albedo",
+      "sha256": "932bc20e044749d238652e9ad4a400c28e4b1df5138bcd2efba22ba943c8fa5b"
+    },
+    {
+      "name": "furnishings-albedo",
+      "sha256": "ade374d8612fd0b5410e13536fa4ecc81648bb1d969fc89355e294ec41697862"
+    },
+    {
+      "name": "shell-albedo",
+      "sha256": "62d7025984530cb0998a53882270bb2c2aec27cf20c06dd12e6f404a3202f156"
+    }
+  ]
+}

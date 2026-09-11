@@ -1,0 +1,11 @@
+# Inside Codex 0.1.3 — Context Archive deep-dive prototype
+
+First vertical slice of production/DEEPER-WORLD-PLAN.md. Enter through the archive’s 3D ribbon or Explore inside beside the lesson heading. Six documents unfold, source facts link to the CSV, and the existing comparison logic verifies a current source or rejects the superseded owner. Source, Field and Proof tabs provide readable inspection, raw source documents and a downloadable trace. Play example demonstrates the stale-source failure and current-source repair. Pause, reset, reduced motion and return controls are included.
+
+Demonstration state is separate from the exercise: it does not complete questions, award scores, modify the context pack or create a real Codex action. Exit restores the lesson, input state, scroll, original paused state and camera; resize restores an appropriate lesson composition. The other eleven deep dives remain planned for prototype review.
+
+Validation: 87 unit tests passed. Chrome, Firefox and WebKit passed 3D entry and document picking, source substitution, actual fixture checks, original state/camera preservation, example pause/resume, reset, portrait, motion preference restoration and cancellation on exit. The existing 17-question walkthrough plus Cedar skip/reveal/persistence checks passed. Final hosted and World Tour receipts are stored alongside evidence/context-depth-v1. Internal-browser screenshots were reviewed for composition; physical-device and independent learner testing remain outside this run.
+
+This update adds a shared interaction pattern, no room rebuild or external generation service. It does not claim to fix all distant exhibit texture blur. Larger owner labels are supplied for inspected archive cards, with essential evidence rendered as readable browser text.
+
+Final refinement: selecting a source document in 3D explicitly changes the demonstration source. Reading the approved brief as evidence preserves the current source comparison. The guide was moved aside so it cannot block the August card click. Focused Chrome verification also checks the downloaded trace against the selected source and passing check. The three-engine receipts predate this final navigation and guide-position refinement; the final hosted check covers it.

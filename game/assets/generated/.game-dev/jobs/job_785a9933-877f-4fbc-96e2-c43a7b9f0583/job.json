@@ -1,0 +1,37 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_785a9933-877f-4fbc-96e2-c43a7b9f0583",
+  "operation": "scenario.run",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "scenario",
+      "run",
+      "warm-traversal"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "quality": "high"
+    }
+  },
+  "attempts": 1,
+  "eventCount": 4,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789062639521_1ba7e6aaa3914b9eb1222c9b7c57381b",
+      "kind": "run_bundle"
+    },
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789062639521_1ba7e6aaa3914b9eb1222c9b7c57381b/run.json",
+      "kind": "run_manifest",
+      "sha256": "15a3c6f449cc86320e7c89636401d3e4269a0979cb8f7c73cafda55c629b719a"
+    }
+  ],
+  "createdAt": "2026-09-10T17:50:39.497Z",
+  "updatedAt": "2026-09-10T17:52:35.700Z",
+  "startedAt": "2026-09-10T17:50:39.504Z",
+  "completedAt": "2026-09-10T17:52:35.700Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_785a9933-877f-4fbc-96e2-c43a7b9f0583/receipt.json"
+}

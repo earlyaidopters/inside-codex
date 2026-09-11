@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "checks": [
+    "1440x900 high: all three spatial controls open the matching workshop panel",
+    "1440x900 balanced: all three spatial controls open the matching workshop panel",
+    "1440x900: missing connector, observed two-client defect, repaired procedure, scope/disconnection, stale-revision recovery, keyboard verification and receipt reload pass",
+    "390x844 high: all three spatial controls open the matching workshop panel",
+    "390x844 balanced: all three spatial controls open the matching workshop panel",
+    "390x844: missing connector, observed two-client defect, repaired procedure, scope/disconnection, stale-revision recovery, keyboard verification and receipt reload pass",
+    "844x390 high: all three spatial controls open the matching workshop panel",
+    "844x390 balanced: all three spatial controls open the matching workshop panel",
+    "844x390: missing connector, observed two-client defect, repaired procedure, scope/disconnection, stale-revision recovery, keyboard verification and receipt reload pass"
+  ],
+  "errors": [],
+  "failed": []
+}

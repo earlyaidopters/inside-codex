@@ -1,0 +1,8 @@
+import assert from 'node:assert/strict';
+export async function steeringFlow(page,shot=async()=>{}){
+ const state=()=>page.evaluate(()=>window.__insideCodex.state());const act=(a,v)=>page.locator(`[data-action="steering-${a}"]${v===undefined?'':`[data-value="${v}"]`}`).click();
+ await act('section','messages');await act('select','status');await act('send-steer','status');assert.equal((await state()).steeringLab.statusAsked,false);await act('advance');let s=(await state()).steeringLab;assert(s.statusAsked);assert.equal(s.active.kind,'checklist');assert(s.statusReport.includes('current run remains active'));assert((await page.locator('.steering-message').textContent()).includes('Status:'));await shot('steering-status');
+ await act('select','french');await act('send-steer','french');assert.equal((await state()).steeringLab.language,'en');await act('select','email');await act('send-queue','email');s=(await state()).steeringLab;assert.equal(s.queue.length,1);assert.equal(s.draft,null);await shot('steering-pending');
+ await act('advance');s=(await state()).steeringLab;assert.equal(s.checklist.language,'fr');assert.equal(s.checklist.checked,false);assert.equal(s.draft,null);await act('advance');s=(await state()).steeringLab;assert(s.checklist.checked);assert.equal(s.active,null);assert.equal(s.queue.length,1);await shot('steering-checklist-finished');
+ await act('advance');s=(await state()).steeringLab;assert.equal(s.active.run,2);assert.equal(s.active.kind,'email');assert.equal(s.draft,null);await act('advance');assert.equal((await state()).steeringLab.draft.sourceVersion,1);await act('advance');assert.equal((await state()).world.steering.verified,true);assert.equal((await state()).steeringLab.draft.status,'DRAFT');await shot('steering-verified');
+}

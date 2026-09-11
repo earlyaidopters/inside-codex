@@ -1,0 +1,28 @@
+{
+  "blenderVersion": "5.2.1 LTS",
+  "render": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/artifacts/blender-render.png",
+  "renderDevice": {
+    "engine": "CYCLES",
+    "requested": "METAL",
+    "devices": [
+      {
+        "name": "Apple M5 Max",
+        "type": "CPU"
+      },
+      {
+        "name": "Apple M5 Max (GPU - 40 cores)",
+        "type": "METAL"
+      }
+    ]
+  },
+  "glbBytes": 302488,
+  "glbSha256": "6086cdce035132a44186cde22bc9de71a563f6e93c2b666afe9dd300d231dc79",
+  "triangles": 6068,
+  "meshObjects": 19,
+  "materials": 6,
+  "imageTextures": 1,
+  "bones": 2,
+  "animation": "Companion wave",
+  "humanCreativeApproval": false,
+  "scope": "Engineering smoke-test fixture only"
+}

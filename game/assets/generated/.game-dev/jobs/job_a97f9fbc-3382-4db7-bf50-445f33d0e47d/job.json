@@ -1,0 +1,41 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_a97f9fbc-3382-4db7-bf50-445f33d0e47d",
+  "operation": "performance.goal-create",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-create",
+      "run_1789038549962_e81ccc1c6cb14aa182be51edcc6338a3"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "id": "balanced-visible-geometry",
+      "metric": "render.active_triangles",
+      "statistic": "max",
+      "unit": "count",
+      "direction": "lower",
+      "target": 250000,
+      "maximumIterations": 2,
+      "allowedPaths": [
+        "src/world.ts"
+      ]
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-visible-geometry.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T11:11:44.075Z",
+  "updatedAt": "2026-09-10T11:11:44.376Z",
+  "startedAt": "2026-09-10T11:11:44.085Z",
+  "completedAt": "2026-09-10T11:11:44.376Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_a97f9fbc-3382-4db7-bf50-445f33d0e47d/receipt.json"
+}

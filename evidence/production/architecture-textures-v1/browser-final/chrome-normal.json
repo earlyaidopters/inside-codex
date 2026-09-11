@@ -1,0 +1,9 @@
+{
+  "engine": "chrome",
+  "version": "153.0.8010.36",
+  "fixture": "normal",
+  "pass": false,
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 72\n",
+  "errors": [],
+  "external": []
+}

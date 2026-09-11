@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-10T19:53:06.218351+00:00",
+  "pass": true,
+  "markerPubliclyVerified": true,
+  "probeVersion": "01M26E00BSCC5JT2XC3SY38SGN",
+  "ownerFiles": 468,
+  "sourceArchiveSha256": "9af08f13b9769a9542a00414235c93a22fdb493f5525b879687747b8f32aaa6b",
+  "method": "Normal update on dedicated preview, followed by exact archived release restoration; no paid native history endpoint or unchecked overwrite."
+}

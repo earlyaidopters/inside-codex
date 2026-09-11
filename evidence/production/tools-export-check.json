@@ -1,0 +1,11 @@
+{
+  "archive": "evidence/production/tools-journey-v3/my-codex-starter.zip",
+  "correctExport": {
+    "exit": 0,
+    "stdout": "PASS: both saved CSV files match every source field."
+  },
+  "alteredOwner": {
+    "exit": 1,
+    "stdout": "FAIL: saved files differ from their source: harbor"
+  }
+}

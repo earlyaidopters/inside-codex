@@ -1,0 +1,45 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "package.build",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.package_build_result.v1",
+    "packageId": "pkg_6f566e3e0aaf7b2f86a0aa34",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0",
+    "manifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0/manifest.json",
+    "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0/receipt.json",
+    "manifestSha256": "920e73bda5a303a37c9b59d690a305e818162b9cbab01456aa69bbc4b3b5ecdd",
+    "reused": false,
+    "validation": {
+      "passed": true,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "catalog": {
+      "packageId": "pkg_6f566e3e0aaf7b2f86a0aa34",
+      "assetId": "codex_pipeline_diagnostic_fixture",
+      "version": "0.1.0",
+      "displayName": "Codex Pipeline Diagnostic Fixture",
+      "description": "Private procedural diagnostic fixture: textured PBR mesh, armature animation, and browser import test. Not approved game art.",
+      "category": "other",
+      "license": "LicenseRef-Private-Smoke-Test",
+      "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0",
+      "modelPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0/model.glb",
+      "modelSha256": "6086cdce035132a44186cde22bc9de71a563f6e93c2b666afe9dd300d231dc79",
+      "manifestSha256": "920e73bda5a303a37c9b59d690a305e818162b9cbab01456aa69bbc4b3b5ecdd",
+      "validationPassed": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "origin": "authored",
+      "indexedAt": "2026-09-10T02:23:03.353Z"
+    },
+    "evidence": {
+      "portableGlbCopiedAndHashed": true,
+      "staticInspectionCompleted": true,
+      "policyValidationCompleted": true,
+      "blenderNormalizationPerformed": false,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  }
+}

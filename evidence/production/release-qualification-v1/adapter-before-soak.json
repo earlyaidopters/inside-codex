@@ -1,0 +1,161 @@
+{
+  "schema": "game_dev.adapter.v1",
+  "id": "inside-codex",
+  "name": "Inside Codex browser capture",
+  "version": "1.0.0",
+  "scenarios": [
+    {
+      "id": "floor-finish",
+      "title": "Floor and stage material comparison",
+      "command": {
+        "executable": "tools/capture-floor-scenario.mjs",
+        "arguments": [
+          "{param.variant}"
+        ],
+        "workingDirectory": "."
+      },
+      "parameters": {
+        "variant": {
+          "type": "enum",
+          "values": [
+            "baseline",
+            "candidate"
+          ],
+          "default": "baseline",
+          "required": false
+        }
+      },
+      "capabilities": [
+        "gpu"
+      ],
+      "timeoutSeconds": 60,
+      "outputs": {
+        "format": "game-dev-capture-v1",
+        "path": "capture.json"
+      }
+    },
+    {
+      "id": "promenade-finish",
+      "title": "Promenade layout and rebaked lighting",
+      "command": {
+        "executable": "tools/capture-promenade-scenario.mjs",
+        "arguments": [
+          "{param.variant}"
+        ],
+        "workingDirectory": "."
+      },
+      "parameters": {
+        "variant": {
+          "type": "enum",
+          "values": [
+            "baseline",
+            "candidate"
+          ],
+          "default": "baseline",
+          "required": false
+        }
+      },
+      "capabilities": [
+        "gpu"
+      ],
+      "timeoutSeconds": 60,
+      "outputs": {
+        "format": "game-dev-capture-v1",
+        "path": "capture.json"
+      }
+    },
+    {
+      "id": "cold-startup",
+      "title": "Cold browser startup at 25 Mbps and 50 ms",
+      "command": {
+        "executable": "tools/capture-startup-scenario.mjs",
+        "arguments": [
+          "{param.quality}"
+        ],
+        "workingDirectory": "."
+      },
+      "parameters": {
+        "quality": {
+          "type": "enum",
+          "values": [
+            "high",
+            "balanced"
+          ],
+          "default": "high",
+          "required": false
+        }
+      },
+      "capabilities": [
+        "gpu",
+        "performance"
+      ],
+      "timeoutSeconds": 120,
+      "outputs": {
+        "format": "game-dev-capture-v1",
+        "path": "capture.json"
+      }
+    },
+    {
+      "id": "warm-traversal",
+      "title": "90-second guided traversal after declared warmup",
+      "command": {
+        "executable": "tools/capture-traversal-scenario.mjs",
+        "arguments": [
+          "{param.quality}"
+        ],
+        "workingDirectory": "."
+      },
+      "parameters": {
+        "quality": {
+          "type": "enum",
+          "values": [
+            "high",
+            "balanced"
+          ],
+          "default": "high",
+          "required": false
+        }
+      },
+      "capabilities": [
+        "gpu",
+        "performance"
+      ],
+      "timeoutSeconds": 240,
+      "outputs": {
+        "format": "game-dev-capture-v1",
+        "path": "capture.json"
+      }
+    },
+    {
+      "id": "active-scenes",
+      "title": "Full learning journey render inventory including arrival and active outcomes",
+      "command": {
+        "executable": "tools/capture-active-scenes.mjs",
+        "arguments": [
+          "{param.quality}"
+        ],
+        "workingDirectory": "."
+      },
+      "parameters": {
+        "quality": {
+          "type": "enum",
+          "values": [
+            "high",
+            "balanced"
+          ],
+          "default": "high",
+          "required": false
+        }
+      },
+      "capabilities": [
+        "gpu",
+        "performance"
+      ],
+      "timeoutSeconds": 600,
+      "outputs": {
+        "format": "game-dev-capture-v1",
+        "path": "capture.json"
+      }
+    }
+  ]
+}

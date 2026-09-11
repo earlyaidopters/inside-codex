@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "view": "baseline-original-high-handoff.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-balanced-tools.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-balanced-tasks.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-balanced-control.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-balanced-arrival.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-balanced-handoff.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-high-arrival.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-high-tools.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-high-control.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    },
+    {
+      "view": "baseline-original-high-tasks.png",
+      "meanAbsolute": 0.0,
+      "max": 0
+    }
+  ],
+  "scope": "Geometry split + external original JPEG materials compared against prior original-map fallback"
+}

@@ -1,0 +1,6 @@
+from pathlib import Path
+import subprocess,json,hashlib
+root=Path(__file__).resolve().parents[3];source=root/'art-source/texture-compression';out=root/'game/public/assets/headquarters/compressed';stage=root/'art-source/texture-delivery';tool=Path.home()/'.cache/inside-codex/ktx-4.4.2/expanded/KTX-Software-4.4.2-Darwin-arm64-tools.pkg/Payload/usr/local/bin/toktx';rows=[]
+for image in sorted(source.glob('*.jpg')):
+ dest=out/(image.stem+'.ktx2');transfer='srgb' if image.stem.endswith('albedo') else 'linear';command=[str(tool),'--t2','--encode','etc1s','--clevel','5','--qlevel','255','--genmipmap','--assign_oetf',transfer,'--threads','6',str(dest),str(image)];subprocess.run(command,check=True);r={'id':image.stem,'sourceSha256':hashlib.sha256(image.read_bytes()).hexdigest(),'sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'bytes':dest.stat().st_size,'command':command};rows.append(r);print(json.dumps(r),flush=True)
+(stage/'encoding-etc1s-manifest.json').write_text(json.dumps({'tool':'KTX-Software 4.4.2 toktx','toolSha256':hashlib.sha256(tool.read_bytes()).hexdigest(),'codec':'ETC1S','quality':255,'compressionLevel':5,'resolutionPreserved':True,'files':rows,'totalBytes':sum(r['bytes'] for r in rows)},indent=2))

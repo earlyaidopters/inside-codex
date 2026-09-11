@@ -1,0 +1,25 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-evaluate",
+  "result": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-startup-transfer.json",
+    "goalId": "balanced-startup-transfer",
+    "iteration": 1,
+    "candidateRunId": "run_1789035658551_88b402d2965645599111dabb5dc774b1",
+    "baselineValue": 11282432,
+    "candidateValue": 9099417,
+    "target": 8000000,
+    "targetMet": false,
+    "status": "active",
+    "remainingIterations": 1,
+    "allowedPaths": [
+      "public/assets/decoders",
+      "public/assets/headquarters",
+      "src/world.ts"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  },
+  "completedAt": "2026-09-10T10:21:59.271Z"
+}

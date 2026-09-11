@@ -1,0 +1,25 @@
+{
+  "panel": {
+    "x": 990.609375,
+    "y": 180,
+    "width": 398,
+    "height": 540,
+    "top": 180,
+    "right": 1388.609375,
+    "bottom": 720,
+    "left": 990.609375
+  },
+  "choice": {
+    "x": 1014.609375,
+    "y": 327,
+    "width": 350,
+    "height": 63.796875,
+    "top": 327,
+    "right": 1364.609375,
+    "bottom": 390.796875,
+    "left": 1014.609375
+  },
+  "scrollHeight": 579,
+  "scrollTop": 0,
+  "overflow": false
+}

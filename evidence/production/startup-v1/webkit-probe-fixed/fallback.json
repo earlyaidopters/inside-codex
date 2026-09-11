@@ -1,0 +1,945 @@
+{
+  "samples": [
+    {
+      "time": 105,
+      "ready": false,
+      "error": "",
+      "marks": [],
+      "measures": [],
+      "resources": []
+    },
+    {
+      "time": 1109,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 147,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 179,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 271,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.imported",
+          "entryType": "mark",
+          "startTime": 347,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 147,
+          "duration": 32
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 179,
+          "duration": 92
+        },
+        {
+          "name": "codex.architecture.import",
+          "entryType": "measure",
+          "startTime": 271,
+          "duration": 76
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 147,
+          "duration": 31,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 147,
+          "domainLookupStart": 147,
+          "domainLookupEnd": 147,
+          "connectStart": 147,
+          "connectEnd": 147,
+          "secureConnectionStart": 0,
+          "requestStart": 147,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 178,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+          "entryType": "resource",
+          "startTime": 289,
+          "duration": 2,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 289,
+          "domainLookupStart": 289,
+          "domainLookupEnd": 289,
+          "connectStart": 289,
+          "connectEnd": 289,
+          "secureConnectionStart": 0,
+          "requestStart": 290,
+          "finalResponseHeadersStart": 291,
+          "firstInterimResponseStart": 0,
+          "responseStart": 291,
+          "responseEnd": 291,
+          "transferSize": 8530,
+          "encodedBodySize": 8230,
+          "decodedBodySize": 30677,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 2112,
+      "ready": true,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 147,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 179,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 271,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.imported",
+          "entryType": "mark",
+          "startTime": 347,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 147,
+          "duration": 32
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 179,
+          "duration": 92
+        },
+        {
+          "name": "codex.architecture.import",
+          "entryType": "measure",
+          "startTime": 271,
+          "duration": 76
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 147,
+          "duration": 31,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 147,
+          "domainLookupStart": 147,
+          "domainLookupEnd": 147,
+          "connectStart": 147,
+          "connectEnd": 147,
+          "secureConnectionStart": 0,
+          "requestStart": 147,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 178,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+          "entryType": "resource",
+          "startTime": 289,
+          "duration": 2,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 289,
+          "domainLookupStart": 289,
+          "domainLookupEnd": 289,
+          "connectStart": 289,
+          "connectEnd": 289,
+          "secureConnectionStart": 0,
+          "requestStart": 290,
+          "finalResponseHeadersStart": 291,
+          "firstInterimResponseStart": 0,
+          "responseStart": 291,
+          "responseEnd": 291,
+          "transferSize": 8530,
+          "encodedBodySize": 8230,
+          "decodedBodySize": 30677,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:43211/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/index-C8J9Lizs.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/index-eKIPmmpE.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/codex-reference.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/world-DNNHgHM4.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.scalar.functions-D-i-XBaP.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/typeStore-Cu_sj2zM.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/engineStore-Bn2tApal.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/performanceConfigurator-UtxC_Odd.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.size-BHZaDYSv.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/animation.pure-BkcuS87H.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.color.pure-DRf1gOrV.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decorators-C_ra_8EP.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/tools.functions-C8QU8nYC.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/domManagement-BqltO0ki.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decorators.serialization-d26cuy-b.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/node-IGSo-MFx.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logger-CuBYPcDK.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/halfFloat-Ce77JD5z.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/guid-BXdVC_j_.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/tools.pure-B61Ijxh6.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/smartArray-BRfcgNbX.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/buffer.pure-BIFLVAZk.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/lightConstants-UjYfeHn4.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/scene.pure-D0d6NW2g.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/thinEngine.pure-m0A2h7lr.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shaderStore-D-XQlhUT.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/abstractEngine.pure-BMdakWcX.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/internalTexture-Dlz1Grf0.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pointerEvents-nqydg71H.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/keyboardEvents-CGYiptFb.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.plane-C-VH8mEN.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneComponent-CjgOmcfi.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphInteger.pure-CZmJgkLp.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/utils-CLq_UU0_.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphBlock-CkJU0BIJ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphAssetsContext-WtUyuDAI.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphExecutionBlock-Cj7SzpKo.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphAsyncExecutionBlock-BAAqAl3y.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphExecutionBlockWithOutSignal-BSnlOV9q.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphEventBlock-DFFNSbZo.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/baseTexture.pure-CdBhjDO3.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/drawWrapper-CAjVVxyJ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/effectRenderer.pure-BRqOUSj9.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/texture.pure-D2qax4_s.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/postProcess.pure-BAQoP_Xr.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.axis-BEFzoR3R.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/renderTargetTexture.pure-GfQNhCP1.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sphericalPolynomial.pure-B_YAEgpI.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pushMaterial-BBWqrKG0.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/material.pure-Bo4p5L9-.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/constants-DNxlZnxc.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/envTextureLoader-hH6wZDvo.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/cubemapToSphericalPolynomial-BLjZA_r-.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMap.fragment-DX4Yo1bp.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/clipPlaneFragment-DVK0wgyZ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/packingFunctions-DpGwbupU.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMap.vertex-TZnupHeR.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/clipPlaneVertex-C59BO8JS.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneUboDeclaration-B5VhSG0v.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bakedVertexAnimation-C6l_KSSy.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/meshUboDeclaration-BmNu2KU_.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/depthBoxBlur.fragment-CLEAG5DG.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneVertexDeclaration-CluTp-RC.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMapFragmentSoftTransparentShadow-R_iOKnyx.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/helperFunctions-gEnZbjN3.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/morphTargetsVertex-6N5r7oF1.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/rgbdDecode.fragment-Cdz2Tveq.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/studio.env",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/browser-yot1331H.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/postprocess.vertex-DJCmMhI8.js",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/08e48d8d-bcae-4177-85e2-8de86a27d537",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/1c3b815f-a0e8-4c11-bc3e-185029f7d0b1",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/d3dd38af-47d1-4912-b692-8ca2c3898586",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/dfe4fbee-9484-476b-a23e-1262d7c983b8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/69f17b60-8fa4-4a92-af07-b63137acf317",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/7c70426e-e594-4dbe-944a-2f9df89bc0d5",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/65a1e7c1-e894-4ba5-8bf1-3504d92918c5",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/2d91fbe1-9467-4470-b2c6-feb09d27ae35",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/9c58f687-d2cd-469c-a7a9-4da9e401a907",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/ba45d14f-e504-46cf-afbd-77cd8b066e31",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/986c82a0-f1d1-4d01-8417-0a09b3031ef7",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/ac635f9a-46ca-4536-b816-da6c10ea191f",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/40398ce7-3733-42ca-97fc-afb98be55ab2",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/b55fad34-5272-4395-b1b9-758436057e65",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/b49375b9-5765-411b-9cce-ec4a35cba4fd",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/47a4d3b8-a9cf-4cfb-afc4-883ea3297df0",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/37b6342d-9499-41a9-9dda-c6fd115edf0e",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/7fca5766-cc97-45f6-89d1-92a6e27a6d34",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/5d63eb93-2b93-42e9-876d-f2ab744d16a6",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/25d1befc-5d60-4361-aca3-75a78804033c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/0e112700-89d1-41b1-b257-705c60880852",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/cd3cae37-7943-492d-82dc-f9c789712ef6",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/e88c2415-eb2c-4b63-abf3-71b5d5975566",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/7950c801-27e0-48dc-a912-c06297b30ca6",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/db5cc35d-54fc-4145-af3e-7bcf6be6c2f6",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/af01c4f6-3f61-4588-a5d3-9f2d27e41bf8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/d961478a-d600-4908-a800-1f9fa0dcb936",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/a7e7758c-981a-464b-a94f-bce43f11beb8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/10c473a1-44aa-4456-950d-d2eafafa8832",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/71df36b6-94d4-4c76-b0a7-2f72ec231c27",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/a6c87038-6f08-4605-905f-362d4e213d98",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/526ba607-9e6a-46c2-aa69-e5a2058881d2",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/5cf6bf7d-c378-43c0-85de-d246471b9e8b",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/0bfde32a-4425-4a2b-9c4c-1af9a83bff11",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/10ef051d-0680-4806-abda-cd8e20983440",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/2f29a951-b554-4d6d-ae5b-27df94df73e8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/b4115e99-dcbb-4f6a-bfa2-d846f2bcf2d6",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/c322a84c-df7f-4a11-9565-44d9251c52ac",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/83554764-c487-47c8-8057-c3f961d3d2cc",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/e8bccd6c-5a74-422f-994a-e0274a2abf7b",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/5644e42d-b9be-49bd-814b-9121ffe783ac",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/6d1d4bcf-b163-4e75-a7e3-85acc6c994a9",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/a9538bd7-7cb5-4978-9c0e-4fc873590f53",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/2ad1fc34-987b-4934-9b88-11d03d590a56",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/01fec3b0-7aa8-4e5c-ae7f-f4f4932bc8fc",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/9c2c487c-340a-4b1b-a41f-80eabb4ea94a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/8e179369-5b7b-4043-978f-d2b3c423dadb",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/c0ace1f9-292d-4c73-8747-bbd43a49992c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/df7a3c9a-8fef-42cc-9548-7b8d25a5d95b",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrMaterial.pure-BUl5vmnR.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrMaterialLoadingAdapter-CGcdVDee.js",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/c8d33dc4-e5bd-488d-8657-a45565de336c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/a17166b4-3ac6-4962-a1b0-0bbd558d2e50",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/9f7ca4f2-d24a-4385-a3fe-2b5af7ec8aeb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/9e296979-9d0a-4e78-a9b0-b16d1f29b501",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/floor-indirect.jpg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/shell-indirect.jpg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/furnishings-indirect.jpg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/fixtures.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sharpen.fragment-CCLDkKbj.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/circleOfConfusion.fragment-CEj6DZ22.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/kernelBlurVaryingDeclaration-DP2Wr9Oc.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/kernelBlur.vertex-C2dESVl-.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/depthOfFieldMerge.fragment-BKOejQJL.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/kernelBlur.fragment-DHQjf6lq.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/extractHighlights.fragment-Z6JPs_Tc.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bloomMerge.fragment-vwVNEATu.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/grain.fragment-BCCu9I6u.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/imageProcessing.fragment-Bb9mf-7k.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/chromaticAberration.fragment-cDPo3aCd.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/imageProcessingFunctions-G8WWRV14.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fxaa.vertex-CEYszSUi.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/codex-mascot.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fxaa.fragment-BJI4ON-J.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/animationGroup.pure-CBHdaGrG.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/glTFLoaderAnimation.pure-DqIAWOSE.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fogVertex-NHlgMcT2.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbr.vertex-CMQHQtJZ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/instancesDeclaration-CJBvtBV5.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/vertexColorMixing-DPW6Is9y.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/mainUVVaryingDeclaration-BBamQlxR.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logDepthDeclaration-3gXGtHbI.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bumpVertexDeclaration-Cb04kLz9.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bumpVertex-CWhdIpqj.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowsVertex--0nVb1Fg.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logDepthVertex-D5IUM6qd.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/harmonicsFunctions-QSz_WdsQ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrBRDFFunctions-BCNINF-p.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrUboDeclaration--xFZEw0i.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fogFragment-CISE_m3s.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/lightFragment-x7Xpl9uU.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/reflectionFunction-CivoLMz9.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/oitFragment-CbS3GbFz.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbr.fragment-C2DRseGh.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bumpFragment-BtJd9tYZ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logDepthFragment-C5lxT4l1.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrIBLFunctions-CSlJv7qb.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/default.vertex-B1N6Otbz.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/defaultUboDeclaration-C53xcSdv.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrDebug-DB3vXFLo.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pointCloudVertex-CmkEsLzf.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/default.fragment-CXn8pVJ-.js",
+      "status": 200
+    }
+  ]
+}

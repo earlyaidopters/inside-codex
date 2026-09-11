@@ -1,0 +1,934 @@
+{
+  "complete": true,
+  "scope": "Every current segment is linked to an independently transcribed MP3 with the same SHA-256. Flagged differences remain open listening/recognition questions.",
+  "rows": [
+    {
+      "id": "voice/97534fe75e096913",
+      "expected": "Welcome inside.",
+      "recognized": "Welcome inside.",
+      "words": 2,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "8f45ca9aff8f52d6d7db0c59ab19f99f661c823fb94589279e4a4d2919251fc3"
+    },
+    {
+      "id": "voice/49ea873f99fbf436",
+      "expected": "I\u2019m Codex.",
+      "recognized": "I'm Codex.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "c1e739d183d351f7f5e723746091841a2560c2b77c58170d36c9b077b5add1cc"
+    },
+    {
+      "id": "voice/7cbf94670a05e969",
+      "expected": "Give me a model and I can reason.",
+      "recognized": "Give me a model and I can reason.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "e88efe9f5d7b9b1b07b84c947e4d4e918d389030c4d6c84333f8cb6a66dfcde4"
+    },
+    {
+      "id": "voice/2d65c93e24e533f6",
+      "expected": "Give me the right working environment and we can actually get something done.",
+      "recognized": "Give me the right working environment and we can actually get something done.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "74695e76f09bc788d4fc84190fc6a074397699a1cdb2412b86a4bd2eeb1d739f"
+    },
+    {
+      "id": "voice/6a272dfb0cb2b31d",
+      "expected": "Now the model has something relevant to work from, a way to act, and a way to check its work.",
+      "recognized": "Now the model has something relevant to work from, a way to act, and a way to check its work.",
+      "words": 20,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "84d1605dd75a19fcf01536ea808594857bfcb59aae2b89a78112305101ad8fd4"
+    },
+    {
+      "id": "voice/2421aa475d7292b6",
+      "expected": "Effort alone cannot supply a missing file or execute an unavailable tool.",
+      "recognized": "Effort alone cannot supply a missing file or execute an unavailable tool.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "5d3a7947418f76e0b264f067b9ce9be8b702ba80be981c8fdafed6ada01fe141"
+    },
+    {
+      "id": "voice/9c68d0b24a7d268b",
+      "expected": "Build the working environment first.",
+      "recognized": "Build the working environment first.",
+      "words": 5,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "c54138edc048c0331be6622f3fa346fc267811eac6257a24943ab82a9a16195c"
+    },
+    {
+      "id": "voice/317c61bde26b02e5",
+      "expected": "Tool results become new context.",
+      "recognized": "Tool results become new context.",
+      "words": 5,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "dcf0525101fcd2449b288074f1410ae10db6c0253dd186363132f21096b722ba"
+    },
+    {
+      "id": "voice/daaf824339fa39c2",
+      "expected": "A failed check gives the next action a purpose.",
+      "recognized": "A failed check gives the next action a purpose.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "0d120ffd9fca5be60a409b3b924e965f74efe38152c5c4bcbe6ea2819c470f51"
+    },
+    {
+      "id": "voice/d3bf8ade3826d5e1",
+      "expected": "A repair needs evidence of a mismatch.",
+      "recognized": "A repair needs evidence of a mismatch.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "31a6733c0a5f6c7428ab772dc88eec3d95aa877b6ff328e6f4d8de15a80dc49b"
+    },
+    {
+      "id": "voice/ff03b7fba2f83f78",
+      "expected": "Start by learning what the client asked for.",
+      "recognized": "Start by learning what the client asked for.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "1ca265e2f60110f1dd80be6acb56ea1b5a7ca64a675b79ca40ddf770a9dfcb7f"
+    },
+    {
+      "id": "voice/871de0582ad86746",
+      "expected": "A huge pile of information can hide the one detail that matters.",
+      "recognized": "A huge pile of information can hide the one detail that matters.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "26a6338900ee3d7f4e522def53c6f917d2fad1e6e07603ba82f721501fff61ea"
+    },
+    {
+      "id": "voice/c3c95b481d4e0234",
+      "expected": "Let\u2019s build a small, useful context pack.",
+      "recognized": "Let's build a small, useful context pack.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "b87b3388c4f202ca9ce987737de243e08e1e0215021a07c6b8e385df157cb524"
+    },
+    {
+      "id": "voice/c63147835e3c47e9",
+      "expected": "The saved C S V now uses the current owner, preserves the existing values, and passes the comparison.",
+      "recognized": "The saved CSV now uses the current owner, preserves the existing values, and passes the comparison.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "6ae47634cd7e6bc7f553a967afd4af3aa5aaffcf0717320648cdc7790ac38578"
+    },
+    {
+      "id": "voice/92db4b51749adc64",
+      "expected": "Your evidence pack explains where each part of the repair came from.",
+      "recognized": "Your evidence pack explains where each part of the repair came from.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "18e4c019b2f2cb6764eb2bac4a98665ea4f8379f27b21b47fbadd2d27913857a"
+    },
+    {
+      "id": "voice/d927c9568bb6b327",
+      "expected": "Inspect and attach the current brief, C S V, screen capture and project guidance.",
+      "recognized": "Inspect and attach the current brief, CSV, screen capture and project guidance.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "5e89069f966ce7be98a2255ee7eba6395875d7d344f7eda651f9259e52911ff7"
+    },
+    {
+      "id": "voice/4a5341a8fb6e17ab",
+      "expected": "Choose the current client requirements, repair the field shown in the error, then build and check the saved draft.",
+      "recognized": "Choose the current client requirements, repair the field shown in the error, then build and check the saved draft.",
+      "words": 19,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "ca792b80dd47045893c99238f81c1bc45ceb1772511fe195cb906f60d15d3400"
+    },
+    {
+      "id": "voice/14c40871e2679041",
+      "expected": "A document can contain instructions as text without gaining authority over the task.",
+      "recognized": "A document can contain instructions as text, without gaining authority over the task.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "41f201148f95ae332e706ae81b48089a2e2d06929f741c6b3cdbcfd168d84d7e"
+    },
+    {
+      "id": "voice/ee41434c3dab403b",
+      "expected": "Reading a file does not give that file permission to redefine the user\u2019s request.",
+      "recognized": "Reading a file does not give that file permission to redefine the user's request.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "9eec5b4da0df15dd9d63b07fe549d640a41ace5fe499b2cbe6cb1bd80929b319"
+    },
+    {
+      "id": "voice/d5eb23e0af58a68d",
+      "expected": "The biggest setting is a tool, not a strategy.",
+      "recognized": "The biggest setting is a tool, not a strategy.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "0d78aba8d816b10542b4165a501edb2269a49d62c74736d56c3587af7d18df92"
+    },
+    {
+      "id": "voice/973c3795e6622a2f",
+      "expected": "Choose based on the work, then judge the result.",
+      "recognized": "Choose based on the work, then judge the result.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "645d6333e9fb4d70a8601a4ca86f8562e6474943c43b28a3ff04564954d6defd"
+    },
+    {
+      "id": "voice/56a423e2cea85f7f",
+      "expected": "Three decisions, each backed by a saved output and its checks.",
+      "recognized": "three decisions, each backed by a saved output and its checks.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "00ce300c086fa04b76d99f0be4c9c04e77a69655d427eb4a7f91ed8784294836"
+    },
+    {
+      "id": "voice/4a183c316cfe0bc6",
+      "expected": "Your route log separates reasoning settings from the edits, sources and access that changed the result.",
+      "recognized": "Your route log separates reasoning settings from the edits, sources and access that change the result.",
+      "words": 16,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "3ba895e2c8ceec4a935a28300540d5094aead6a2ed38448293a7cbe78fcf60b8"
+    },
+    {
+      "id": "voice/ea0694059d019810",
+      "expected": "Keep all three checked routes: compare the same label edit at two setups; reproduce and repair the billing defect; recover the unavailable sheet and verify today\u2019s total.",
+      "recognized": "Keep all three checked routes. Compare the same label edit at two setups. Reproduce and repair the billing defect. Recover the unavailable sheet and verify today's total.",
+      "words": 28,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "7ad27ba8e2dbefac5480ccba92ac657b78b9333ff9b7aadf67971866d20cfaf0"
+    },
+    {
+      "id": "voice/822c3c66fdbad559",
+      "expected": "A clear boundary can be useful.",
+      "recognized": "A clear boundary can be useful.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "c0014350c97ced0ce135a7e29cce699123b4a542cc1c5442cef443b9a1a74044"
+    },
+    {
+      "id": "voice/95bf2f5395d9fbf3",
+      "expected": "First identify whether something is missing, disallowed, or simply not requested.",
+      "recognized": "First, identify whether something is missing, disallowed, or simply not requested.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "da7989cc52ab80ad27c0ebf4dfc4682105c381be3c8c779a8046c0a930bd0699"
+    },
+    {
+      "id": "voice/f394b1daa9004455",
+      "expected": "The saved draft matches the approved source and remains unsent.",
+      "recognized": "The save draft matches the approved source and remains unscent.",
+      "words": 10,
+      "wordEdits": 2,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "acdf9a81f904a2e71448861a19a1d6be6eaebe678f8edae90f02bd4bae4ed9c8"
+    },
+    {
+      "id": "voice/39c89ea26a559a5e",
+      "expected": "You changed the relevant access boundary, connected the app separately, and checked the actual deliverable.",
+      "recognized": "You changed the relevant access boundary, connected the app separately, and checked the actual deliverable.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "6801e6cda80c9fd718c59e52f44f6215ada07841ae7487abbeb0b83191dbc578"
+    },
+    {
+      "id": "voice/c2280e9c83347654",
+      "expected": "Read the approved source, connect the training mail app, save a draft and verify it.",
+      "recognized": "Read the approved source, connect the training mail app, save a draft, and verify it.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "84451c0a73e44bb34a0991c843cd284c1561d678db7401cb8fb51f20f48cc1b9"
+    },
+    {
+      "id": "voice/261d425597b98c23",
+      "expected": "Use scoped filesystem access, leave unused command network access off, and resolve pending requests.",
+      "recognized": "You scoped file system access, leave unused command network access off, and resolve pending requests.",
+      "words": 14,
+      "wordEdits": 3,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "46a50cb22f63e869f31a31a6308b6877deaa3e4a19fc1fc5738eb83f821f4b9e"
+    },
+    {
+      "id": "voice/44167582be211965",
+      "expected": "You can ask for the workspace you want.",
+      "recognized": "You can ask for the workspace you want.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "bcd9f6c7c320dd33dcaec318519fb7d31f82aedcad7d2b11693a4f2aefff2382"
+    },
+    {
+      "id": "voice/dda5f1a50e584ac5",
+      "expected": "Let\u2019s create a focused task with a clear outcome, then keep it easy to find.",
+      "recognized": "Let's create a focus task with a clear outcome, then keep it easy to find.",
+      "words": 16,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "5e53b8142c50d22eb14391616031a1624c2a5bd790eb68e7a1752e284f784077"
+    },
+    {
+      "id": "voice/72924ea6369ee4d8",
+      "expected": "The task has an outcome and a check.",
+      "recognized": "The task has an outcome and a check.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "5ac5bb8966401c09cd32885e0f1b79211187d5d8214f6de3e2b037529edc6a20"
+    },
+    {
+      "id": "voice/ac87b2365ecb39e4",
+      "expected": "It can now work independently without mixing its result into an unrelated conversation.",
+      "recognized": "It can now work independently without mixing its result into an unrelated conversation.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "ea54c633fc948da917d428971f7f007950a061e5a244b412187395539006b44a"
+    },
+    {
+      "id": "voice/871785c88502144c",
+      "expected": "Use a descriptive name, state what to produce, and include a concrete check or source comparison.",
+      "recognized": "Use a descriptive name, state what to produce, and include a concrete check or source comparison.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "bda70a69b1a2a6e885d0ae358fd1c086f84dbfd8aa90e705f4505573b7d6fa1c"
+    },
+    {
+      "id": "voice/e99698ad6e1f3b5f",
+      "expected": "Pinning organizes the workspace.",
+      "recognized": "pinning organizes the workspace.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "d355a29a8e72bd5381455f29e0d9ee7556c2e6a8095448d272bb6d2e7ce22273"
+    },
+    {
+      "id": "voice/a6093f25057d7866",
+      "expected": "It does not change the model, context, or permissions.",
+      "recognized": "It does not change the model, context, or permissions.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "777a9aba03f96216c7d4b60d8fcbe4c76d2b78bc93916916edf53e2b9930ef87"
+    },
+    {
+      "id": "voice/0cf7c3aa312afbc8",
+      "expected": "Sidebar organization and model behavior are separate controls.",
+      "recognized": "Sidebar organization and model behavior are separate controls.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "bb5571d7fc5dc0298f6c31ff4e25dab603bcb0b38a8791dfe2994c65f690bdbf"
+    },
+    {
+      "id": "voice/bddd84f1d8de0b32",
+      "expected": "Conversation history and files are two different things.",
+      "recognized": "Conversation history and files are two different things.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "d3ad83b67bfb6f1559f47f61d7aa654e777cd245b74446ef93c4c322555f9473"
+    },
+    {
+      "id": "voice/218799a4d9800f38",
+      "expected": "Choose the kind of separation your work actually needs.",
+      "recognized": "Choose the kind of separation your work actually needs.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "9ae923edf4029a11b85c668f1da32fb60a4092902ee681c344d26d4e05e27ffa"
+    },
+    {
+      "id": "voice/ccfba039c4dffc35",
+      "expected": "A conversation fork lets you explore another direction from existing history.",
+      "recognized": "A conversation fork lets you explore another direction from existing history.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "ccc73c879947f8b19a6bb2400390eae30df351af4337d7b332d7404264f2907c"
+    },
+    {
+      "id": "voice/91f46d8347002c1f",
+      "expected": "Choose the separation you need: conversation history or files.",
+      "recognized": "Choose the separation you need, conversation, history, or files.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "1a88176eefd12f13a9c34b11c9d414fa804ee18567ed3d967ea474d3a4247955"
+    },
+    {
+      "id": "voice/c9aa740526f7213f",
+      "expected": "You kept competing files separate, compared their actual changes, and verified the chosen record after integration.",
+      "recognized": "You kept competing files separate, compare their actual changes, and verify the chosen record after integration.",
+      "words": 16,
+      "wordEdits": 2,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "351fb548f5faf6295a732ce4b6a5e38887e96e3a0cb841c7e6c32f83764cab20"
+    },
+    {
+      "id": "voice/e262beec8941fbe8",
+      "expected": "The other attempt is still available.",
+      "recognized": "The other attempt is still available.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "de03d1c0d5ad849235013b9c2dac124b51667a19d6309528286e2687e5279830"
+    },
+    {
+      "id": "voice/2b98c44c94582673",
+      "expected": "Complete the working-file exercise: create worktrees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "recognized": "Complete the working file exercise. Create work trees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "words": 24,
+      "wordEdits": 2,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "7b973779a74cfafbb89fd0bdfdd314b57669c44400a73be704633c627f4e56ca"
+    },
+    {
+      "id": "voice/638696ca096d06d8",
+      "expected": "You don\u2019t need to wait silently.",
+      "recognized": "You don't need to wait silently.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "f39b3ba732c5ceb7ebf0e6e750e36f493d9db10e42dabeb3a30f69b3d0299a82"
+    },
+    {
+      "id": "voice/75176774b61a0ff7",
+      "expected": "The right follow-up can correct the current work or prepare what comes next.",
+      "recognized": "The right follow-up can correct the current work or prepare what comes next.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "1c1d3e8ba2f789717466b05ae42198c1209130ece9852cd933752e3bb7d8e198"
+    },
+    {
+      "id": "voice/1ef8302b0a4dbbe7",
+      "expected": "The status request preserved the job.",
+      "recognized": "The status request preserved the job.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "2f611df52dffa30231edaa311beee460382573b2c81f76848161068c9ca641c5"
+    },
+    {
+      "id": "voice/606b87865e5f11df",
+      "expected": "Your correction changed the active checklist, and the queued email used its checked French result.",
+      "recognized": "Your correction changed the active checklist, and the queued email used its checked French result.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "93254b42e15ed4d7fa593e380935451e549a994b3a572dfba23c8fad04528d7a"
+    },
+    {
+      "id": "voice/fa2702670106d095",
+      "expected": "Both deliverables are saved and the draft is unsent.",
+      "recognized": "Both deliverables are saved and the draft is unscent.",
+      "words": 9,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "ee8ed1becea646dda3ee07dd81abdd49c91f39253612174f7651f80c94ceabc2"
+    },
+    {
+      "id": "voice/5ce7e360b1476bb7",
+      "expected": "Ask for status, apply the French correction during the checklist run, then finish a queued email based on the latest checked result.",
+      "recognized": "Ask for status, apply the French correction during the checklist run, then finish a cute email based on the latest checked result.",
+      "words": 22,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "ec6951823a87023429cd312536e79e0bad33f6939bf6c7a6f975b83116e6225d"
+    },
+    {
+      "id": "voice/39ff56dfe1556d90",
+      "expected": "Empty the waiting queue before keeping the sequence.",
+      "recognized": "Empty the waiting queue before keeping the sequence.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "d0a49f0dd080c1883a90ee80867215f022a94f931a2d6a7f47794d8823444207"
+    },
+    {
+      "id": "voice/378d849710e347b2",
+      "expected": "A confident answer can still hide a quiet mistake.",
+      "recognized": "A confident answer can still hide a quiet mistake.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "3b139f916278fd4505ce49c327b9e8cc8e35f7ddf323c65234a5653cc814f823"
+    },
+    {
+      "id": "voice/51d959c3932edc2a",
+      "expected": "Let\u2019s inspect the thing that will actually be used.",
+      "recognized": "Let's inspect the thing that will actually be used.",
+      "words": 10,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "424bd1f792c2eda653ee77bd78aecbd9c63ddf565fe050af3e46f0110e95a732"
+    },
+    {
+      "id": "voice/45884195c3f94335",
+      "expected": "You reproduced the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "recognized": "You reproduce the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "words": 21,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "cc1ccae96c8f68fe5a5e50a333d8c77c0cc6b57027bde5f549848409d385dab0"
+    },
+    {
+      "id": "voice/4dd959339212a576",
+      "expected": "Your repair and runnable checks are in the toolkit.",
+      "recognized": "Your repair and runnable checks are in the toolkit.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "39a7bf086a2551e4adcae8c5046985a68c80d91a8eab694447f430ad4b07005a"
+    },
+    {
+      "id": "voice/100c234dc133cde0",
+      "expected": "Run acceptance checks to reproduce the defect, repair the flagged lines, rerun the checks, and inspect the final diff before keeping it.",
+      "recognized": "Run acceptance checks to reproduce the defect. Repair the flagged lines, rerun the checks, and inspect the final diff before keeping it.",
+      "words": 22,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "9b4ec67a9d3dfada219dbfba9710bda8156d274df6f148f49f931e34c5ffe57b"
+    },
+    {
+      "id": "voice/3e65db2acec7cb64",
+      "expected": "Tools make actions possible.",
+      "recognized": "Tools make actions possible.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "113a2cd9c7ef06094221fae398271a0074f9478fab50aa258f0be73c253b611c"
+    },
+    {
+      "id": "voice/2abe3bbff045014a",
+      "expected": "Skills preserve the way you want a job done.",
+      "recognized": "Skills preserve the way you want a job done.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "f4d044ffd449948f99cf3a8faef24c464c0737ab22222d9db19f3e4ae678b881"
+    },
+    {
+      "id": "voice/9e77c465e9c59d04",
+      "expected": "Plugins can bring those pieces together.",
+      "recognized": "Plugins can bring those pieces together.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "c85fc83e4e833f0b13c23ddcc5a1d2bb407750abbe120e00b04172274d916a17"
+    },
+    {
+      "id": "voice/638e4bb2a6f7379a",
+      "expected": "The read tool retrieved both briefs.",
+      "recognized": "The read tool retrieved both briefs.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "0ec42bf1bbd28ef108efa301cc7cc3ecd43413041dc59971d9785796413056a2"
+    },
+    {
+      "id": "voice/f28efc63fb4d5911",
+      "expected": "Project guidance set the output rules, and the repaired skill preserved each client\u2019s own values.",
+      "recognized": "Project guidance, set the output rules, and the repaired skill preserved each client's own values.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "3a4c0ee58a8d9fe8a199c26586749f591e1ff58db83e9c619aade74cb190d0fd"
+    },
+    {
+      "id": "voice/c42536b00143b712",
+      "expected": "Both C S V files are checked and saved in your toolkit.",
+      "recognized": "Both CSV files are checked and saved in your toolkit.",
+      "words": 10,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "0df4e3b21860949baa1cf7a17ff7876aedd138a60ffb1c746f806e012353ff57"
+    },
+    {
+      "id": "voice/7e2fe3addc79a79a",
+      "expected": "Connect Source Kit to Training briefs, read the guidance, reproduce the first procedure\u2019s defect, then run and check both clients with the reusable skill.",
+      "recognized": "Connect source kit to training briefs, read the guidance, reproduce the first procedure's defect, then run and check both clients with the reusable skill.",
+      "words": 25,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "c4396d6692b39c3458237bb25ba626e316ca85672011f2c0a9c68017b76be167"
+    },
+    {
+      "id": "voice/62b61e1b2776af42",
+      "expected": "The screenshot looks fine.",
+      "recognized": "The screenshot looks fine.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "8ce2f202f626e96104610f0f7a9cabf1042779cb75021528571a238a3055170b"
+    },
+    {
+      "id": "voice/ed751d6afd24c016",
+      "expected": "Now let\u2019s find out whether the page works.",
+      "recognized": "Now let's find out whether the page works.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "7547c444e6875ba61fdeee31d409fd1329b65d7bc3653e6f90c2fa8c10923401"
+    },
+    {
+      "id": "voice/41e91bd31f74baa1",
+      "expected": "You observed the failure, changed the save behavior, and verified the persisted record against the source.",
+      "recognized": "You observed the failure, changed the saved behavior, and verified the persisted record against the source.",
+      "words": 16,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "74a4798516790879714599da96bc8719a04da2d8ece5a0c3ccbd310619390f24"
+    },
+    {
+      "id": "voice/90952773c72568e1",
+      "expected": "That is evidence of a working repair.",
+      "recognized": "That is evidence of a working repair.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "f47187311f970f1b90240d1949fcd5901453560e4f4ceccb29ca23499eccdcc4"
+    },
+    {
+      "id": "voice/895d7693e642a979",
+      "expected": "Finish the whole check: reproduce the disappearing record, repair it, then save Nina Patel and reload.",
+      "recognized": "Finish the whole check. Reproduce the disappearing record, repair it, then save Nina Patel and reload.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "a8f73e014d2029d8f0537cf92066368df3947e5b3eace088519914b6213fa468"
+    },
+    {
+      "id": "voice/477540de69e9b3f9",
+      "expected": "A success message alone is not evidence.",
+      "recognized": "A success message alone is not evidence.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "d3c2dba9e114ff9ad21cc5601dd1021cee3ec0b82ca09362c9c2ff8792e1db0f"
+    },
+    {
+      "id": "voice/a7eb8ab51081b4ad",
+      "expected": "Functional evidence and visual assessment answer different questions.",
+      "recognized": "Functional evidence and visual assessment answer different questions.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "71a6fd9077d2776c1d3bc451eb12c747eaf7fdf9e6fb2fb2b9f912614ada319f"
+    },
+    {
+      "id": "voice/1ec3ce18632c7964",
+      "expected": "Both matter to the actual experience.",
+      "recognized": "Both matter to the actual experience.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "424efeb8a8cebdb9823d6dc629d6a0bea29d8fa11a09fa02fd05d0755e31cbf2"
+    },
+    {
+      "id": "voice/794e863181e57a0b",
+      "expected": "One successful path does not establish usability across states and layouts.",
+      "recognized": "One successful path does not establish usability across states and layouts.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "c46af606781dba82e0f6f527b3b648030a7013d54e5132f4f3b24b2749392a3a"
+    },
+    {
+      "id": "voice/5f601accb38cadd1",
+      "expected": "Before asking a workflow to repeat, make sure it works once.",
+      "recognized": "Before asking a workflow to repeat, make sure it works once.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "23d16370574ba30ad63b5be9e225fb05763a321041589bbb9f84d74ff38a8a5e"
+    },
+    {
+      "id": "voice/d97a6050b6255867",
+      "expected": "Then give the next run a clear job.",
+      "recognized": "Then give the next run a clear job.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "b87fcd9f3e6bf294934d3d48b3b1b446e7990392e2531b36b68f28360aca9828"
+    },
+    {
+      "id": "voice/da781dc8972fe521",
+      "expected": "The schedule has a tested prompt, explicit local time and execution requirements.",
+      "recognized": "The schedule has a tested prompt, explicit local time, and execution requirements.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "d33577f4aa83c557aa46e8bb8dad3ce6ef3f6754e23859cbef4ab50dffab8b95"
+    },
+    {
+      "id": "voice/f4c63fddd3a3db9a",
+      "expected": "Your run history separates quiet success, actionable findings, read failures and an offline host.",
+      "recognized": "Your run history separates quiet success, actionable findings, read failures, and an offline host.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "800c223d21bdc4289f58f1e9b131840ee7d841c84700e2aa3e7e2f891c9c36eb"
+    },
+    {
+      "id": "voice/4027b978161a8246",
+      "expected": "The tested schedule and reports are in your toolkit.",
+      "recognized": "The tested schedule and reports are in your toolkit.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "54f8319f2716763cc4c6407788906c66a18849752d4a702149a4323b4dc78f0c"
+    },
+    {
+      "id": "voice/81f87e5221215354",
+      "expected": "Use the tested weekday nine in the morning Toronto setup in this task.",
+      "recognized": "Use the tested weekday 9 in the morning Toronto setup in this task.",
+      "evidence": "New independent transcription after pronunciation repair",
+      "audioSha256": "0f6807bdaa396a3f25d4dd0bc70d845258cc4543adc1b6b50ad7a96b32b2d5bf",
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/507b962f24803bb1",
+      "expected": "Observe a quiet run, new missing approval, read failure, recovery and an offline host.",
+      "recognized": "Observe a quiet run, new missing approval, read failure, recovery, and an offline host.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "584f277f4ef47da620714c8a8477d94b284786969b40e03d8565502b4372950d"
+    },
+    {
+      "id": "voice/bb7882a6ed93aff6",
+      "expected": "Finish a successful scheduled run after restoring the host, and leave the schedule active.",
+      "recognized": "Finish a successful scheduled run after restoring the host and leave the schedule active.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "561d94a26815f38e4107a21804394d89eec4fc491fd2a20fd1f996e9aca38644"
+    },
+    {
+      "id": "voice/42889d8f39c9686d",
+      "expected": "The work is only finished when someone else can use it, understand its limits, and recover if something goes wrong.",
+      "recognized": "The work is only finished when someone else can use it, understand its limits, and recover if something goes wrong.",
+      "words": 20,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "066e3bf2e0ad1b3384763ab64522dfe5cc71e660c6ae41a6179fe6ef11d683cc"
+    },
+    {
+      "id": "voice/afef7fd3ed671d3c",
+      "expected": "You checked the actual delivery route, preserved and tested recovery, repaired the asset path and verified the current package.",
+      "recognized": "You check the actual delivery route, preserved and tested recovery, repair the asset path, and verify the current package.",
+      "words": 19,
+      "wordEdits": 3,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "3d4cbca859734af96d86b97412279a7daff1f438f1bc69f78a0187d98f65af74"
+    },
+    {
+      "id": "voice/88afafd6bae216a0",
+      "expected": "The exported page, C S V, brand asset and instructions are ready for independent inspection.",
+      "recognized": "The exported page, CSV, brand asset and instructions are ready for independent inspection.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "a84337f9a1bb4db89134b6ae0592359b79a871c1c50a127fb2cd91955c44ee19"
+    },
+    {
+      "id": "voice/169b2d77c3899d94",
+      "expected": "Preserve a checked recovery copy, observe the delivery failure and verify its rollback.",
+      "recognized": "Preserve a checked recovery copy, observe the delivery failure, and verify its rollback.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "ec146215a2c2c555851d9ef8fde737cc7f5afac7a3ff1360a788fc55b11a9966"
+    },
+    {
+      "id": "voice/40e8fd6c0df5ee2a",
+      "expected": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repaired delivery.",
+      "recognized": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repair delivery.",
+      "words": 18,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "4f97736c0249d2e797bac419e8cb15f5453b229f081ad7e391a36266a22ed831"
+    },
+    {
+      "id": "voice/7748154776e1ae1a",
+      "expected": "Cedar Research has a new reporting brief.",
+      "recognized": "CETA Research has a new reporting brief.",
+      "words": 7,
+      "wordEdits": 1,
+      "reviewRequired": true,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "88074ee869b2ea7fcf81e318aa677eee5cac5d61b4adbc8be1340f63cead8a41"
+    },
+    {
+      "id": "voice/c0c9026d4bdb3fe6",
+      "expected": "I\u2019ll step back.",
+      "recognized": "I'll step back.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "d8de708b3c779dec3e006a73e68fb2194dc82b5267a0b02788bb488827e50a3f"
+    },
+    {
+      "id": "voice/7de97d3f1ba4d880",
+      "expected": "Choose the context and tools, inspect the saved result, and show that your procedure works when the inputs change.",
+      "recognized": "Choose the context and tools, inspect the saved result, and show that your procedure works when the inputs change.",
+      "words": 19,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "d13130a968d8f6b06a13d3b9e1ea5b5f9cd2c208d6fe110e9a9b630c2484d5d8"
+    },
+    {
+      "id": "voice/47e2b5f2e24a4028",
+      "expected": "Your saved report, second-period check and recurring rehearsal satisfy the five evidence dimensions.",
+      "recognized": "Your saved report, second period check, and recurring rehearsal satisfy the five evidence dimensions.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "567bcc04f4a16db8dfbc25d01669e101358c7d0eaa6bbc01e8bc78b660242d6e"
+    },
+    {
+      "id": "voice/2ba36fb6a9dd5ded",
+      "expected": "The exported files preserve your first submission and any hint use.",
+      "recognized": "The exported files preserve your first submission and any hint use.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "22025f1f6e87a01c748e6e60abca4b741ee3df4e501c612ca86a38aeed94acee"
+    },
+    {
+      "id": "voice/63947b1112eecea5",
+      "expected": "Review the missing evidence, repair the working files or configuration, then submit again.",
+      "recognized": "Review the missing evidence, repair the working files or configuration, then submit again.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "b5a83b88c4dca738a32ccdc2f23d565ec10f91954f06a8e7bd6c2e6296bc23bb"
+    },
+    {
+      "id": "voice/3caf6d48e5239b21",
+      "expected": "Your first submitted score stays in the record.",
+      "recognized": "Your first submitted score stays in the record.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false,
+      "evidence": "Reused independent transcription of byte-identical MP3",
+      "audioSha256": "3a0650f546c7bdeca3eb3497714a260fc2dda5e0e15ecb4e10310c0b43e00df3"
+    }
+  ]
+}

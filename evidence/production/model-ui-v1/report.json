@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "1440x900 high: 7 direct 3D job/model selections pass",
+    "1440x900 balanced: 7 direct 3D job/model selections pass",
+    "1440x900: complete repair/comparison/access recovery, stale-check invalidation, keyboard run/check and receipt reload pass",
+    "390x844 high: 7 direct 3D job/model selections pass",
+    "390x844 balanced: 7 direct 3D job/model selections pass",
+    "390x844: complete repair/comparison/access recovery, stale-check invalidation, keyboard run/check and receipt reload pass",
+    "844x390 high: 7 direct 3D job/model selections pass",
+    "844x390 balanced: 7 direct 3D job/model selections pass",
+    "844x390: complete repair/comparison/access recovery, stale-check invalidation, keyboard run/check and receipt reload pass"
+  ],
+  "errors": []
+}

@@ -1,0 +1,41 @@
+{
+  "pass": false,
+  "scope": "Installed desktop Firefox and Playwright WebKit engines. Focused startup, spatial pick, detail switching, responsive browser lesson and both raw-gzip decoders. Not full cross-browser journeys, native Safari/iOS or Android testing.",
+  "results": [
+    {
+      "name": "firefox",
+      "version": "155.0",
+      "pass": true,
+      "checks": [
+        "Compressed architecture, high guide and twelve clips load",
+        "Actual 3D context port updates the lesson",
+        "Balanced detail, reduced motion and portrait layout respond correctly",
+        "Browser lesson reproduces and repairs the persistence defect",
+        "Header-free gzip loads with native stream decompression",
+        "Header-free gzip loads with bundled asynchronous decompression"
+      ],
+      "errors": [],
+      "screens": [
+        "firefox-arrival.png",
+        "firefox-portrait.png"
+      ]
+    },
+    {
+      "name": "webkit",
+      "version": "26.6",
+      "pass": false,
+      "checks": [
+        "Compressed architecture, high guide and twelve clips load",
+        "Actual 3D context port updates the lesson",
+        "Balanced detail, reduced motion and portrait layout respond correctly",
+        "Browser lesson reproduces and repairs the persistence defect"
+      ],
+      "errors": [],
+      "error": "TimeoutError: page.waitForFunction: Timeout 45000ms exceeded.",
+      "screens": [
+        "webkit-arrival.png",
+        "webkit-portrait.png"
+      ]
+    }
+  ]
+}

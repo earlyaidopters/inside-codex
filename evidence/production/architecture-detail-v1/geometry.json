@@ -1,0 +1,214 @@
+{
+  "source": "../art-source/texture-delivery/architecture.glb",
+  "sourceSha256": "705665f178129075ce5d538132e92766f2d5e399357b41fcc4c0bffc5beb33b4",
+  "asset": "architecture-balanced-ce31744b4b30.bin.gz",
+  "sha256": "ce31744b4b307997f7f68ac749165cd8f4b403aa959fdb83a375bfc32667bd38",
+  "bytes": 517622,
+  "rawBytes": 1622556,
+  "before": 223458,
+  "after": 134942,
+  "recipe": {
+    "library": "meshoptimizer 1.2.0",
+    "ratio": 0.5,
+    "error": 0.0003,
+    "attributeWeights": 1,
+    "flags": [
+      "LockBorder"
+    ],
+    "scope": "shell/furnishings primitives >= 2000 triangles; index-only"
+  },
+  "rows": [
+    {
+      "material": "Honed pale terrazzo__exterior",
+      "vertices": 115,
+      "originalIndices": 564,
+      "offset": 0,
+      "count": 564,
+      "error": 0
+    },
+    {
+      "material": "Ivory limestone__exterior",
+      "vertices": 3864,
+      "originalIndices": 18360,
+      "offset": 564,
+      "count": 18360,
+      "error": 0
+    },
+    {
+      "material": "Soil__exterior",
+      "vertices": 3864,
+      "originalIndices": 18360,
+      "offset": 18924,
+      "count": 18360,
+      "error": 0
+    },
+    {
+      "material": "Smoked oak__exterior",
+      "vertices": 6210,
+      "originalIndices": 30456,
+      "offset": 37284,
+      "count": 30456,
+      "error": 0
+    },
+    {
+      "material": "Moss wool seating__exterior",
+      "vertices": 14,
+      "originalIndices": 36,
+      "offset": 67740,
+      "count": 36,
+      "error": 0
+    },
+    {
+      "material": "Honed pale terrazzo__floor",
+      "vertices": 152,
+      "originalIndices": 564,
+      "offset": 67776,
+      "count": 564,
+      "error": 0
+    },
+    {
+      "material": "Ivory limestone__floor",
+      "vertices": 1128,
+      "originalIndices": 5160,
+      "offset": 68340,
+      "count": 5160,
+      "error": 0
+    },
+    {
+      "material": "Inset limestone solid finish",
+      "vertices": 124,
+      "originalIndices": 186,
+      "offset": 73500,
+      "count": 186,
+      "error": 0
+    },
+    {
+      "material": "Inset satin brass solid finish",
+      "vertices": 960,
+      "originalIndices": 2592,
+      "offset": 73686,
+      "count": 2592,
+      "error": 0
+    },
+    {
+      "material": "Porcelain light diffuser__furnishings",
+      "vertices": 11184,
+      "originalIndices": 43020,
+      "offset": 76278,
+      "count": 21510,
+      "error": 0.00021341349929571152
+    },
+    {
+      "material": "Dark mineral exhibits__furnishings",
+      "vertices": 10032,
+      "originalIndices": 43488,
+      "offset": 97788,
+      "count": 22080,
+      "error": 0.00029880893998779356
+    },
+    {
+      "material": "Ivory limestone__furnishings",
+      "vertices": 10476,
+      "originalIndices": 47352,
+      "offset": 119868,
+      "count": 23676,
+      "error": 0.00029878577333875
+    },
+    {
+      "material": "Champagne anodised aluminium__furnishings",
+      "vertices": 19040,
+      "originalIndices": 84492,
+      "offset": 143544,
+      "count": 42246,
+      "error": 0.00027965931803919375
+    },
+    {
+      "material": "Warm chalk plaster__furnishings",
+      "vertices": 7880,
+      "originalIndices": 36720,
+      "offset": 185790,
+      "count": 18360,
+      "error": 0.0002988219494000077
+    },
+    {
+      "material": "Satin titanium__furnishings",
+      "vertices": 14112,
+      "originalIndices": 55296,
+      "offset": 204150,
+      "count": 27648,
+      "error": 0.00029899689252488315
+    },
+    {
+      "material": "Smoked oak__furnishings",
+      "vertices": 1568,
+      "originalIndices": 6024,
+      "offset": 231798,
+      "count": 4530,
+      "error": 0.00029752819682471454
+    },
+    {
+      "material": "Moss wool seating__furnishings",
+      "vertices": 608,
+      "originalIndices": 2256,
+      "offset": 236328,
+      "count": 2256,
+      "error": 0
+    },
+    {
+      "material": "Soil__furnishings",
+      "vertices": 1568,
+      "originalIndices": 6120,
+      "offset": 238584,
+      "count": 3966,
+      "error": 0.00029970580362714827
+    },
+    {
+      "material": "Olive leaves__furnishings",
+      "vertices": 4824,
+      "originalIndices": 18144,
+      "offset": 242550,
+      "count": 15528,
+      "error": 0.0002989235217683017
+    },
+    {
+      "material": "Warm chalk plaster__shell",
+      "vertices": 23366,
+      "originalIndices": 89088,
+      "offset": 258078,
+      "count": 44754,
+      "error": 0.00029893082682974637
+    },
+    {
+      "material": "Ivory limestone__shell",
+      "vertices": 27224,
+      "originalIndices": 104172,
+      "offset": 302832,
+      "count": 68658,
+      "error": 0.00029891959275119007
+    },
+    {
+      "material": "Champagne anodised aluminium__shell",
+      "vertices": 14609,
+      "originalIndices": 56232,
+      "offset": 371490,
+      "count": 31644,
+      "error": 0.0002987509942613542
+    },
+    {
+      "material": "Dark mineral exhibits__shell",
+      "vertices": 301,
+      "originalIndices": 1128,
+      "offset": 403134,
+      "count": 1128,
+      "error": 0
+    },
+    {
+      "material": "Smoked oak__shell",
+      "vertices": 150,
+      "originalIndices": 564,
+      "offset": 404262,
+      "count": 564,
+      "error": 0
+    }
+  ]
+}

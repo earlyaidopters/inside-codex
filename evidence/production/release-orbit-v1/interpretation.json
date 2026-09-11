@@ -1,0 +1,12 @@
+{
+  "passed": [
+    "Actual pointer orbit, keyboard orbit and wheel zoom change camera state.",
+    "Return to guide restores authored alpha=1.28, beta=1.31, radius=9 in all three wings."
+  ],
+  "failed": [
+    "Half-turn pointer orbit in wings 2 and 3 moves beyond exhibit backing; actual screenshots show the wall filling the 3D view."
+  ],
+  "labels": "right/back/left are chronological input labels, not verified viewpoint names: each 600px drag turns about 3.16 radians. Actual camera angles are authoritative.",
+  "severity": "Release-blocking visual defect",
+  "next": "Add clearance against existing authored navigation bounds, retaining open-room orbit and wheel zoom."
+}

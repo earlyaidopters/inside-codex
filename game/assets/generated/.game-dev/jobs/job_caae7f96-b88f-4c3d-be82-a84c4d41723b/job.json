@@ -1,0 +1,28 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_caae7f96-b88f-4c3d-be82-a84c4d41723b",
+  "operation": "performance.goal-evaluate",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-evaluate",
+      ".game-dev/goals/balanced-architecture-detail.json",
+      "run_1789054603250_77fa4066155b4b6db121cad5a02b2c58"
+    ],
+    "flags": {}
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-architecture-detail.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T15:39:00.563Z",
+  "updatedAt": "2026-09-10T15:39:00.877Z",
+  "startedAt": "2026-09-10T15:39:00.576Z",
+  "completedAt": "2026-09-10T15:39:00.877Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_caae7f96-b88f-4c3d-be82-a84c4d41723b/receipt.json"
+}

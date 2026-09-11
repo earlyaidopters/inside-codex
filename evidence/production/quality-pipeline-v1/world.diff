@@ -1,0 +1,47 @@
+--- world-baseline.ts
++++ src/world.ts
+@@ -162,7 +162,12 @@
+  const contextExhibit=buildContextExhibit(scene,stations[1].position,onInspect);
+  const branchExhibit=buildBranchExhibit(scene,stations[5].position);
+  const harness=buildHarnessExhibit(scene,stations[0].position,onChoose);
+- const pip=new DefaultRenderingPipeline('Finishing',true,scene,[camera]);pip.fxaaEnabled=true;pip.samples=4;pip.bloomEnabled=true;pip.bloomThreshold=.94;pip.bloomWeight=.12;pip.bloomKernel=48;
++ function makeFinishingPipeline(q:MascotDetail){
++  const p=new DefaultRenderingPipeline('Finishing',true,scene,[camera],false);
++  p.fxaaEnabled=true;p.samples=q==='high'?4:1;p.bloomEnabled=q==='high';p.bloomThreshold=.94;p.bloomWeight=.12;p.bloomKernel=48;
++  p.prepare();p.automaticBuild=true;return p;
++ }
++ let pipelineQuality=initialQuality,pip=makeFinishingPipeline(initialQuality);
+  const result=await SceneLoader.ImportMeshAsync('','/assets/',mascotFile(initialQuality),scene);
+  const mascotDetail=createMascotDetail(scene,result.meshes,initialQuality,onQualityStatus);
+  const mascot=new TransformNode('Codex guide',scene);mascot.position=new Vector3(2,.35,2);mascot.rotation.y=.25;mascot.scaling.setAll(1.15);
+@@ -215,7 +220,18 @@
+   if(!paused&&!reduced){halos.forEach((h,i)=>h.rotation.y=time*.05*(i%2?1:-1));}
+   if(!paused){const facing=active<0?.25:active>=4&&active%4===0?-.16:.10;mascot.rotation.y=reduced?facing:mascot.rotation.y+(facing-mascot.rotation.y)*Math.min(1,dt*4);}
+  });
+- function applyRenderQuality(v:MascotDetail){quality=v;engine.setHardwareScalingLevel(v==='balanced'?1:1/Math.min(2,Math.max(1,window.devicePixelRatio||1)));pip.bloomEnabled=v==='high';pip.samples=v==='high'?4:1;}
++ function applyRenderQuality(v:MascotDetail){
++  quality=v;engine.setHardwareScalingLevel(v==='balanced'?1:1/Math.min(2,Math.max(1,window.devicePixelRatio||1)));
++  // Disabling bloom retains its reusable GPU targets. A real mode change owns
++  // a new pipeline and releases every effect in the old one, including bloom.
++  if(pipelineQuality!==v){
++   pip.dispose();
++   // Babylon 9.25 keeps null attachment slots on detach. This camera owns one
++   // pipeline; clear only a fully empty list, preserving any external effects.
++   if(camera._postProcesses.every(p=>p===null))camera._postProcesses.length=0;
++   pip=makeFinishingPipeline(v);pipelineQuality=v;
++  }
++ }
+  function cameraVisibility(){if(!cameraAudit||!visibility)return null;const points=guideSightPoints(mascot.position.asArray(),mascot.scaling.x,presentation.position.y),position=camera.globalPosition.asArray(),viewport=camera.viewport.toGlobal(engine.getRenderWidth(),engine.getRenderHeight());viewport.y=engine.getRenderHeight()-viewport.y-viewport.height;const projected=points.map(p=>{const v=Vector3.Project(Vector3.FromArray(p),Matrix.Identity(),scene.getTransformMatrix(),viewport);return {x:v.x/engine.getRenderWidth()*canvas.clientWidth,y:v.y/engine.getRenderHeight()*canvas.clientHeight,depth:v.z};});const proxy=points.map(p=>visibility.firstHit(position,p,.02));const exact=points.map(p=>{const end=Vector3.FromArray(p),delta=end.subtract(camera.globalPosition),ray=new Ray(camera.globalPosition,delta.normalize(),Vector3.Distance(camera.globalPosition,end)-.02);const hit=scene.pickWithRay(ray,m=>architecture.meshes.includes(m)&&!m.name.includes('floor')&&!m.name.includes('exterior'));return hit?.hit?{mesh:hit.pickedMesh?.name,distance:hit.distance}:null;});return {mode:'authored-smooth',position,points,projected,viewport:{x:viewport.x/engine.getRenderWidth()*canvas.clientWidth,y:viewport.y/engine.getRenderHeight()*canvas.clientHeight,width:viewport.width/engine.getRenderWidth()*canvas.clientWidth,height:viewport.height/engine.getRenderHeight()*canvas.clientHeight},proxy,exact};}
+  const resize=()=>{applyRenderQuality(quality);const portrait=innerWidth<=700&&active>=0&&layout==='mission';presentation.position.y=portrait?1.9:0;mascot.scaling.setAll(active<0?1.15:portrait?.76:.86);fromTarget=camera.target.clone();fromPos=mascot.position.clone();fromRadius=camera.radius;fromAlpha=camera.alpha;fromBeta=camera.beta;responsiveCamera();transition=1;};
+  engine.runRenderLoop(()=>{engine.restoreDefaultFramebuffer();engine.setViewport(new Viewport(0,0,1,1));engine.clear(scene.clearColor,true,true,true);scene.render();});window.addEventListener('resize',resize);
+@@ -230,8 +246,8 @@
+   setReduced:(v:boolean)=>{reduced=v;if(v){result.animationGroups.forEach(a=>a.pause());if(transition>0)transition=1;}else if(!paused){clip?.play(true);previousClip?.play(true);}},
+   setQuality:(v:string)=>{const q:MascotDetail=v==='balanced'?'balanced':'high';applyRenderQuality(q);mascotDetail.select(q);},
+   resetCamera:()=>travel(active),
+-  state:()=>({renderAudit:renderAudit?.()??null,ready:scene.isReady(),renderSize:{width:engine.getRenderWidth(),height:engine.getRenderHeight(),cssWidth:canvas.clientWidth,cssHeight:canvas.clientHeight,dpr:window.devicePixelRatio},lastPick,active,quality,paused,reduced,mascotDetail:mascotDetail.state(),architecture:{ready:architecture.meshes.length>0,meshes:architecture.meshes.length,lightmaps:Object.keys(lightmaps)},capstone:cedarExhibit.state(),handoff:handoffExhibit.state(),automation:automationExhibit.state(),tools:toolExhibit.state(),steering:steeringExhibit.state(),review:reviewExhibit.state(),permissions:permissionExhibit.state(),models:modelExhibit.state(),harness:harness.state(),context:contextExhibit.state(),branches:branchExhibit.state(),drawCalls:instrumentation.drawCallsCounter.current,renderFrameMs:instrumentation.frameTimeCounter.current,meshes:scene.meshes.length,triangles:scene.getActiveIndices()/3,animations:result.animationGroups.map(g=>g.name),animationPlaying:result.animationGroups.some(g=>g.isPlaying),gesture:clip?.name,blending:!!previousClip,transition,frameMs:[...frameMs],camera:{alpha:camera.alpha,beta:camera.beta,radius:camera.radius,target:camera.target.asArray(),visibility:cameraVisibility()},mascot:{x:mascot.position.x,y:mascot.position.y,z:mascot.position.z,displayLift:presentation.position.y*mascot.scaling.x}}),
+-  dispose:()=>{window.removeEventListener('resize',resize);mascotDetail.dispose();instrumentation.dispose();scene.dispose();engine.dispose();}
++  state:()=>({renderAudit:renderAudit?{...renderAudit(),finishing:{quality:pipelineQuality,cameraSlots:camera._postProcesses.length,activeEffects:camera._postProcesses.filter(Boolean).length,registeredEffects:scene.postProcesses.length}}:null,ready:scene.isReady(),renderSize:{width:engine.getRenderWidth(),height:engine.getRenderHeight(),cssWidth:canvas.clientWidth,cssHeight:canvas.clientHeight,dpr:window.devicePixelRatio},lastPick,active,quality,paused,reduced,mascotDetail:mascotDetail.state(),architecture:{ready:architecture.meshes.length>0,meshes:architecture.meshes.length,lightmaps:Object.keys(lightmaps)},capstone:cedarExhibit.state(),handoff:handoffExhibit.state(),automation:automationExhibit.state(),tools:toolExhibit.state(),steering:steeringExhibit.state(),review:reviewExhibit.state(),permissions:permissionExhibit.state(),models:modelExhibit.state(),harness:harness.state(),context:contextExhibit.state(),branches:branchExhibit.state(),drawCalls:instrumentation.drawCallsCounter.current,renderFrameMs:instrumentation.frameTimeCounter.current,meshes:scene.meshes.length,triangles:scene.getActiveIndices()/3,animations:result.animationGroups.map(g=>g.name),animationPlaying:result.animationGroups.some(g=>g.isPlaying),gesture:clip?.name,blending:!!previousClip,transition,frameMs:[...frameMs],camera:{alpha:camera.alpha,beta:camera.beta,radius:camera.radius,target:camera.target.asArray(),visibility:cameraVisibility()},mascot:{x:mascot.position.x,y:mascot.position.y,z:mascot.position.z,displayLift:presentation.position.y*mascot.scaling.x}}),
++  dispose:()=>{window.removeEventListener('resize',resize);mascotDetail.dispose();pip.dispose();instrumentation.dispose();scene.dispose();engine.dispose();}
+  };
+  }catch(error){scene.dispose();engine.dispose();throw error;}
+ }

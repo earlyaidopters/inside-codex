@@ -1,0 +1,59 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "visual.compare",
+  "result": {
+    "schema": "game_dev.visual_comparison.v1",
+    "baselineRunId": "run_1789031880128_e237c4724272411fb2d9098391a09bcf",
+    "candidateRunId": "run_1789031943890_13e7d5557d374de2aef7e46be6ac7651",
+    "threshold": 0,
+    "pairs": [
+      {
+        "identity": "0:arrival:color:",
+        "kind": "color",
+        "comparable": true,
+        "baselinePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031880128_e237c4724272411fb2d9098391a09bcf/arrival.png",
+        "candidatePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031943890_13e7d5557d374de2aef7e46be6ac7651/arrival.png",
+        "width": 1440,
+        "height": 900,
+        "meanAbsoluteError": 0.05199069686516582,
+        "rootMeanSquaredError": 0.08203096622516266,
+        "maximumChannelDelta": 0.8705882352941177,
+        "changedPixelRatio": 0.921945987654321,
+        "meanLuminanceDelta": 0.06849842947788641,
+        "meanAbsoluteEdgeDelta": 0.008617851566254858,
+        "heatmapPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/evidence/production/camera-layout-v3/sealed-comparison/0_arrival_color_.heatmap.png"
+      },
+      {
+        "identity": "1:archive:color:",
+        "kind": "color",
+        "comparable": true,
+        "baselinePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031880128_e237c4724272411fb2d9098391a09bcf/archive.png",
+        "candidatePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031943890_13e7d5557d374de2aef7e46be6ac7651/archive.png",
+        "width": 1440,
+        "height": 900,
+        "meanAbsoluteError": 0.0435853818687969,
+        "rootMeanSquaredError": 0.07927007324233352,
+        "maximumChannelDelta": 0.2980392156862745,
+        "changedPixelRatio": 0.5424791666666666,
+        "meanLuminanceDelta": 0.057837077021922784,
+        "meanAbsoluteEdgeDelta": 0.005136375070864521,
+        "heatmapPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/evidence/production/camera-layout-v3/sealed-comparison/1_archive_color_.heatmap.png"
+      }
+    ],
+    "unmatchedBaseline": [],
+    "unmatchedCandidate": [],
+    "outputPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/evidence/production/camera-layout-v3/sealed-comparison",
+    "evidence": {
+      "sealedRunsVerified": true,
+      "rasterBytesDecoded": true,
+      "deterministicComparisonComputed": true,
+      "semanticObjectRegionsCompared": false,
+      "heatmapsGenerated": true,
+      "artisticDefectsDiagnosed": false,
+      "causalAttributionEstablished": false,
+      "humanVisualReviewPerformed": false
+    },
+    "evidenceCeiling": "The comparison proves byte-decoded raster statistics, edge deltas, heatmaps, and optional object-ID-region grouping. It does not diagnose artistic intent, establish causality, or count as human visual review."
+  },
+  "completedAt": "2026-09-10T09:19:47.922Z"
+}

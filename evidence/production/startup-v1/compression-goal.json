@@ -1,0 +1,14 @@
+{
+  "id": "balanced-startup-transfer",
+  "metric": "startup.transfer_bytes",
+  "statistic": "median",
+  "unit": "bytes",
+  "direction": "lower",
+  "target": 8000000,
+  "maximumIterations": 2,
+  "allowedPaths": [
+    "src/world.ts",
+    "public/assets/headquarters",
+    "public/assets/decoders"
+  ]
+}

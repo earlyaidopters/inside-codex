@@ -1,0 +1,1282 @@
+{
+  "pass": true,
+  "date": "2026-09-10T06:49:49.357Z",
+  "checks": [
+    "Real 3D scene and animated logo load",
+    "A visible 3D context port updates the same lesson state as the accessible control",
+    "An empty answer does not advance progress",
+    "A valid assembly powers the visible 3D tool-result loop",
+    "Mission 1 completes through visible controls",
+    "Context archive saves drafts from chosen sources, exposes stale ownership and wrong format, and verifies the corrected CSV",
+    "Mission 2 completes through visible controls",
+    "Model workshop compares checked edits, reproduces a billing defect, recovers a blocked sheet read and saves three evidence-backed routes",
+    "Mission 3 completes through visible controls",
+    "Permission desk separates scoped reads, approval requests, connector access and the verified unsent draft",
+    "Mission 4 completes through visible controls",
+    "Mission 5 completes through visible controls",
+    "Branch workshop demonstrates overwrites, retains isolated files, rejects a failing attempt, and verifies the integrated record",
+    "Mission 6 completes through visible controls",
+    "Mission 7 completes through visible controls",
+    "Mission 8 completes through visible controls",
+    "Mission 9 completes through visible controls",
+    "Browser lab reproduces data loss and requires a verified repair",
+    "Mission 10 completes through visible controls",
+    "Mission 11 completes through visible controls",
+    "Mission 12 completes through visible controls",
+    "Independent capstone records first-attempt results",
+    "Toolkit download contains usable resources",
+    "Downloaded starter ZIP includes the saved workflow, source brief, CSV, project instructions, skill, and executable acceptance check",
+    "Progress, practice tasks, and capstone survive a full reload",
+    "Field notes search finds the relevant workflow",
+    "Portrait mission and controls fit without horizontal overflow",
+    "Reduced motion and quality controls reach the renderer",
+    "Reduced motion persists when a new mission starts",
+    "Returning from portrait restores desktop camera framing",
+    "Pause freezes both character clips and guided travel across mission changes",
+    "No page exceptions or failed requests"
+  ],
+  "errors": [],
+  "failed": [],
+  "state": {
+    "ready": true,
+    "screen": "mission",
+    "mission": 1,
+    "stepIndex": 0,
+    "contextLab": {
+      "read": [],
+      "selected": [],
+      "opened": "brief",
+      "authority": null,
+      "target": null,
+      "revision": 0,
+      "result": null,
+      "check": null,
+      "runs": 0,
+      "message": "Open the files. Build a context pack for the missing-field repair."
+    },
+    "modelLab": {
+      "job": "label",
+      "jobs": {
+        "label": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "billing": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "sheet": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        }
+      },
+      "message": "Choose a job and a setup. The actual training artifact will determine whether its check passes."
+    },
+    "permissionLab": {
+      "section": "source",
+      "profile": "workspace",
+      "approval": "never",
+      "network": false,
+      "connected": false,
+      "source": null,
+      "pending": false,
+      "draft": null,
+      "revision": 0,
+      "check": null,
+      "events": [
+        "file-denied"
+      ],
+      "message": "Local read denied: the training profile excludes /reference/northstar. Approval prompts are disabled; this does not grant access."
+    },
+    "selected": [],
+    "feedback": null,
+    "modal": null,
+    "branches": {
+      "mode": "shared",
+      "shared": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "files": {
+        "a": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        },
+        "b": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        }
+      },
+      "written": {
+        "a": false,
+        "b": false
+      },
+      "revision": {
+        "a": 0,
+        "b": 0,
+        "local": 0
+      },
+      "checks": {
+        "a": null,
+        "b": null,
+        "local": null
+      },
+      "reviewed": false,
+      "local": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "chosen": null,
+      "collision": false,
+      "events": [],
+      "message": "Two tasks are looking at one checkout. Apply their competing changes and inspect what each task sees."
+    },
+    "progress": {
+      "version": 1,
+      "completed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "attempts": {
+        "harness.0": 2,
+        "harness.1": 1,
+        "context.0": 2,
+        "context.1": 1,
+        "models.0": 1,
+        "permissions.0": 1,
+        "tasks.0": 1,
+        "tasks.1": 1,
+        "worktrees.0": 1,
+        "worktrees.1": 2,
+        "steering.0": 1,
+        "steering.1": 1,
+        "review.0": 1,
+        "review.1": 1,
+        "tools.0": 1,
+        "tools.1": 1,
+        "browser.0": 2,
+        "browser.1": 1,
+        "automation.0": 1,
+        "automation.1": 1,
+        "handoff.0": 1,
+        "handoff.1": 1,
+        "capstone.0": 1,
+        "capstone.1": 1,
+        "capstone.2": 1,
+        "capstone.3": 1,
+        "capstone.4": 1
+      },
+      "hints": {},
+      "capstone": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lastMission": 1,
+      "workspace": {
+        "branchReview": {
+          "chosen": "a",
+          "artifact": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "alternate": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,,Nina Patel\n",
+          "verified": true,
+          "isolated": true
+        },
+        "permissionReview": {
+          "version": 1,
+          "simulation": true,
+          "profile": "workspace",
+          "approval": "ask",
+          "network": false,
+          "connected": true,
+          "source": {
+            "path": "/reference/northstar/approved.csv",
+            "text": "client,approval_owner,email,kickoff,files\nNorthstar Studio,Nina Patel,nina@northstar.example,scheduled,requested\n",
+            "via": "once",
+            "profile": "workspace"
+          },
+          "draft": {
+            "id": "training-draft-northstar",
+            "to": "nina@northstar.example",
+            "subject": "Northstar onboarding checklist",
+            "body": "Hi Nina,\n\nThe Northstar Studio kickoff is scheduled and file access has been requested. You are the approval owner for delivery.\n\nPlease review the onboarding checklist.\n",
+            "status": "DRAFT"
+          },
+          "events": [
+            "file-denied",
+            "file-denied",
+            "file-pending",
+            "file-declined",
+            "file-pending",
+            "file-once",
+            "mail-denied",
+            "draft-saved",
+            "send-denied",
+            "check-pass"
+          ],
+          "checks": [
+            {
+              "name": "Approved source read",
+              "pass": true,
+              "detail": "Facts came from the approved Northstar CSV."
+            },
+            {
+              "name": "Draft read back from connected app",
+              "pass": true,
+              "detail": "The mail app is connected for verification."
+            },
+            {
+              "name": "Recipient and content match",
+              "pass": true,
+              "detail": "Nina Patel; scheduled kickoff; file access requested."
+            },
+            {
+              "name": "Requested deliverable remains a draft",
+              "pass": true,
+              "detail": "The user requested a draft. No send operation is authorized by this training brief."
+            },
+            {
+              "name": "Access matches the job",
+              "pass": true,
+              "detail": "No all-files scope, unused command network access or unresolved permission request is needed for this job."
+            }
+          ]
+        },
+        "modelReview": {
+          "version": 1,
+          "simulation": true,
+          "jobs": [
+            {
+              "id": "label",
+              "accepted": {
+                "id": 2,
+                "revision": 3,
+                "config": {
+                  "model": "luna",
+                  "effort": "low"
+                },
+                "inputs": {
+                  "replacement": "Client",
+                  "scope": "entry",
+                  "patch": "after",
+                  "connected": false,
+                  "source": "cached"
+                },
+                "result": {
+                  "name": "field.json",
+                  "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Label equals Client",
+                    "pass": true,
+                    "detail": "Saved label: Client"
+                  },
+                  {
+                    "name": "Field contract preserved",
+                    "pass": true,
+                    "detail": "The field name is client and required stays true."
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 1,
+                  "config": {
+                    "model": "terra",
+                    "effort": "medium"
+                  },
+                  "inputs": {
+                    "replacement": "Client",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "field.json",
+                    "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Label equals Client",
+                      "pass": true,
+                      "detail": "Saved label: Client"
+                    },
+                    {
+                      "name": "Field contract preserved",
+                      "pass": true,
+                      "detail": "The field name is client and required stays true."
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 3,
+                  "config": {
+                    "model": "luna",
+                    "effort": "low"
+                  },
+                  "inputs": {
+                    "replacement": "Client",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "field.json",
+                    "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Label equals Client",
+                      "pass": true,
+                      "detail": "Saved label: Client"
+                    },
+                    {
+                      "name": "Field contract preserved",
+                      "pass": true,
+                      "detail": "The field name is client and required stays true."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "billing",
+              "accepted": {
+                "id": 2,
+                "revision": 4,
+                "config": {
+                  "model": "astra",
+                  "effort": "high"
+                },
+                "inputs": {
+                  "replacement": "Clinet",
+                  "scope": "all",
+                  "patch": "before",
+                  "connected": false,
+                  "source": "cached"
+                },
+                "result": {
+                  "name": "totals.csv",
+                  "text": "case,total\nStandard order,110.00\nMember order,88.00\nLarger member order,220.00\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Standard order",
+                    "pass": true,
+                    "detail": "Expected 110.00 · saved 110.00"
+                  },
+                  {
+                    "name": "Member order",
+                    "pass": true,
+                    "detail": "Expected 88.00 · saved 88.00"
+                  },
+                  {
+                    "name": "Larger member order",
+                    "pass": true,
+                    "detail": "Expected 220.00 · saved 220.00"
+                  },
+                  {
+                    "name": "Call path inspected",
+                    "pass": true,
+                    "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 2,
+                  "config": {
+                    "model": "astra",
+                    "effort": "high"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "totals.csv",
+                    "text": "case,total\nStandard order,110.00\nMember order,90.00\nLarger member order,225.00\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Standard order",
+                      "pass": true,
+                      "detail": "Expected 110.00 · saved 110.00"
+                    },
+                    {
+                      "name": "Member order",
+                      "pass": false,
+                      "detail": "Expected 88.00 · saved 90.00"
+                    },
+                    {
+                      "name": "Larger member order",
+                      "pass": false,
+                      "detail": "Expected 220.00 · saved 225.00"
+                    },
+                    {
+                      "name": "Call path inspected",
+                      "pass": false,
+                      "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 4,
+                  "config": {
+                    "model": "astra",
+                    "effort": "high"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "all",
+                    "patch": "before",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "totals.csv",
+                    "text": "case,total\nStandard order,110.00\nMember order,88.00\nLarger member order,220.00\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Standard order",
+                      "pass": true,
+                      "detail": "Expected 110.00 · saved 110.00"
+                    },
+                    {
+                      "name": "Member order",
+                      "pass": true,
+                      "detail": "Expected 88.00 · saved 88.00"
+                    },
+                    {
+                      "name": "Larger member order",
+                      "pass": true,
+                      "detail": "Expected 220.00 · saved 220.00"
+                    },
+                    {
+                      "name": "Call path inspected",
+                      "pass": true,
+                      "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sheet",
+              "accepted": {
+                "id": 3,
+                "revision": 5,
+                "config": {
+                  "model": "sol",
+                  "effort": "medium"
+                },
+                "inputs": {
+                  "replacement": "Clinet",
+                  "scope": "entry",
+                  "patch": "after",
+                  "connected": true,
+                  "source": "current"
+                },
+                "result": {
+                  "name": "onboarding-total.json",
+                  "text": "{\n  \"source\": \"2026-09-10\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 3\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 2\n    },\n    {\n      \"client\": \"Hearth\",\n      \"open\": 4\n    }\n  ],\n  \"total\": 9\n}\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Sheet read succeeded",
+                    "pass": true,
+                    "detail": "Model and effort settings cannot supply a missing connection."
+                  },
+                  {
+                    "name": "Current source",
+                    "pass": true,
+                    "detail": "Required September 10 · read 2026-09-10"
+                  },
+                  {
+                    "name": "Total matches current rows",
+                    "pass": true,
+                    "detail": "Expected 3 + 2 + 4 = 9 · saved 9"
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 2,
+                  "config": {
+                    "model": "sol",
+                    "effort": "xhigh"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "No file saved",
+                    "text": "READ FAILED: onboarding sheet connection unavailable. No rows were read.",
+                    "blocked": true
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": false,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": false,
+                      "detail": "Required September 10 · read nothing"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": false,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved nothing"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 3,
+                  "config": {
+                    "model": "sol",
+                    "effort": "xhigh"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": true,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "onboarding-total.json",
+                    "text": "{\n  \"source\": \"2026-08-12\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 1\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 1\n    }\n  ],\n  \"total\": 2\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": true,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": false,
+                      "detail": "Required September 10 · read 2026-08-12"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": false,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved 2"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "revision": 5,
+                  "config": {
+                    "model": "sol",
+                    "effort": "medium"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": true,
+                    "source": "current"
+                  },
+                  "result": {
+                    "name": "onboarding-total.json",
+                    "text": "{\n  \"source\": \"2026-09-10\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 3\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 2\n    },\n    {\n      \"client\": \"Hearth\",\n      \"open\": 4\n    }\n  ],\n  \"total\": 9\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": true,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": true,
+                      "detail": "Required September 10 · read 2026-09-10"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": true,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved 9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "contextReview": {
+          "version": 1,
+          "sources": [
+            "brief",
+            "sample",
+            "image",
+            "agents"
+          ],
+          "authority": "brief",
+          "target": "approval_owner",
+          "artifact": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "verified": true,
+          "runs": 3
+        },
+        "tasks": [
+          {
+            "id": "onboarding-review",
+            "title": "Onboarding review",
+            "brief": "Review the onboarding checklist, identify missing approval steps, and verify each requirement against the client brief.",
+            "effort": "high",
+            "pinned": true,
+            "status": "ready"
+          }
+        ]
+      },
+      "settings": {
+        "muted": true,
+        "reduced": false,
+        "quality": "balanced"
+      }
+    },
+    "world": {
+      "ready": true,
+      "renderSize": {
+        "width": 960,
+        "height": 600,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "dpr": 1
+      },
+      "lastPick": null,
+      "active": 1,
+      "quality": "balanced",
+      "paused": false,
+      "reduced": false,
+      "architecture": {
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "permissions": {
+        "verified": false,
+        "sourceLoaded": false,
+        "connected": false,
+        "draft": null,
+        "ports": [
+          {
+            "id": "read",
+            "open": false,
+            "screen": {
+              "x": 2266.9178456753352,
+              "y": 444.744265567782
+            }
+          },
+          {
+            "id": "draft",
+            "open": false,
+            "screen": {
+              "x": 2487.413337992437,
+              "y": 455.8264670043659
+            }
+          },
+          {
+            "id": "check",
+            "open": false,
+            "screen": {
+              "x": 2726.9815980443195,
+              "y": 467.8672742236296
+            }
+          }
+        ]
+      },
+      "models": {
+        "job": "label",
+        "verified": false,
+        "selected": "terra",
+        "effort": "medium",
+        "kept": 0,
+        "controls": [
+          {
+            "id": "label",
+            "action": "job",
+            "screen": {
+              "x": 1485.9091533280034,
+              "y": 404.51613148330296
+            }
+          },
+          {
+            "id": "billing",
+            "action": "job",
+            "screen": {
+              "x": 1638.792719581486,
+              "y": 412.16730162478865
+            }
+          },
+          {
+            "id": "sheet",
+            "action": "job",
+            "screen": {
+              "x": 1802.337406212311,
+              "y": 420.35201535048583
+            }
+          },
+          {
+            "id": "astra",
+            "action": "model",
+            "screen": {
+              "x": 1445.0845680651414,
+              "y": 480.83645970630704
+            }
+          },
+          {
+            "id": "sol",
+            "action": "model",
+            "screen": {
+              "x": 1556.8092568284121,
+              "y": 488.3747514042039
+            }
+          },
+          {
+            "id": "terra",
+            "action": "model",
+            "screen": {
+              "x": 1677.0184746769025,
+              "y": 487.4572814049828
+            }
+          },
+          {
+            "id": "luna",
+            "action": "model",
+            "screen": {
+              "x": 1797.7845616408492,
+              "y": 504.63384471449973
+            }
+          }
+        ]
+      },
+      "harness": {
+        "selected": [],
+        "assembled": false,
+        "stage": 0,
+        "ports": [
+          {
+            "id": "context",
+            "amount": 0,
+            "screen": {
+              "x": 423.9603570440996,
+              "y": 390.91298704648295
+            }
+          },
+          {
+            "id": "model",
+            "amount": 1,
+            "screen": {
+              "x": 547.8436521452861,
+              "y": 398.52222140742856
+            }
+          },
+          {
+            "id": "tools",
+            "amount": 0,
+            "screen": {
+              "x": 680.8843449289785,
+              "y": 406.69392696391066
+            }
+          },
+          {
+            "id": "verify",
+            "amount": 0,
+            "screen": {
+              "x": 607.3844646167278,
+              "y": 509.8882148863608
+            }
+          }
+        ]
+      },
+      "context": {
+        "selected": [],
+        "verified": false,
+        "cards": [
+          {
+            "id": "brief",
+            "y": 2.09,
+            "screen": {
+              "x": 904.4006622163986,
+              "y": 509.5392813124461
+            }
+          },
+          {
+            "id": "sample",
+            "y": 2.09,
+            "screen": {
+              "x": 1001.9902744151367,
+              "y": 517.7317887863433
+            }
+          },
+          {
+            "id": "image",
+            "y": 2.09,
+            "screen": {
+              "x": 1104.5162852976073,
+              "y": 526.3386998243028
+            }
+          },
+          {
+            "id": "agents",
+            "y": 2.92,
+            "screen": {
+              "x": 915.9735987304955,
+              "y": 406.70455376098033
+            }
+          },
+          {
+            "id": "old",
+            "y": 2.92,
+            "screen": {
+              "x": 1016.5878954933851,
+              "y": 412.51864939827834
+            }
+          },
+          {
+            "id": "note",
+            "y": 2.92,
+            "screen": {
+              "x": 1122.4377308786004,
+              "y": 418.63528576032746
+            }
+          }
+        ]
+      },
+      "branches": {
+        "mode": "shared",
+        "collision": false,
+        "verified": false,
+        "chosen": null,
+        "cartridges": [
+          {
+            "id": "a",
+            "x": -0.22
+          },
+          {
+            "id": "b",
+            "x": 0.22
+          }
+        ]
+      },
+      "drawCalls": 145,
+      "renderFrameMs": 1,
+      "meshes": 210,
+      "triangles": 592844,
+      "animations": [
+        "Beckon",
+        "Celebrate",
+        "Correct",
+        "Greet",
+        "Idle",
+        "Inspect",
+        "Point",
+        "PointLeft",
+        "Return",
+        "Think",
+        "Travel",
+        "Wait"
+      ],
+      "animationPlaying": true,
+      "gesture": "Travel",
+      "blending": true,
+      "transition": 0.0001,
+      "frameMs": [
+        0,
+        9.299999997019768,
+        76,
+        29.200000002980232,
+        7.899999991059303,
+        14.400000005960464,
+        17.700000002980232,
+        16.799999997019768,
+        16.299999997019768,
+        16.900000005960464,
+        16.299999997019768,
+        16.799999997019768,
+        16.5,
+        16.799999997019768,
+        16.600000008940697,
+        17.399999991059303,
+        15.200000002980232,
+        18.200000002980232,
+        15.5,
+        17.099999994039536,
+        16,
+        16.400000005960464,
+        16.5,
+        18.299999997019768,
+        16.799999997019768,
+        15.300000011920929,
+        17.899999991059303,
+        14.799999997019768,
+        16.900000005960464,
+        16.799999997019768,
+        17.5,
+        17.200000002980232,
+        16.099999994039536,
+        16.900000005960464,
+        16.599999994039536,
+        17.5,
+        16.400000005960464,
+        18.099999994039536,
+        13.400000005960464,
+        17.400000005960464,
+        17.299999997019768,
+        15.599999994039536,
+        21,
+        13.100000008940697,
+        16.299999997019768,
+        16.599999994039536,
+        16.400000005960464,
+        17,
+        16.200000002980232,
+        18,
+        15.5,
+        17.5,
+        16.299999997019768,
+        16.700000002980232,
+        17.299999997019768,
+        16.5,
+        16.200000002980232,
+        17.69999998807907,
+        15.700000002980232,
+        17.100000008940697,
+        15.199999988079071,
+        17.80000001192093,
+        16.599999994039536,
+        16.700000002980232,
+        16,
+        17.5,
+        15.399999991059303,
+        17.30000001192093,
+        17.399999991059303,
+        16.600000008940697,
+        15.799999997019768,
+        18.200000002980232,
+        15.599999994039536,
+        16.799999997019768,
+        16.799999997019768,
+        16.400000005960464,
+        16.599999994039536,
+        17.200000002980232,
+        16.400000005960464,
+        17.099999994039536,
+        16.100000008940697,
+        15.599999994039536,
+        17.400000005960464,
+        16.799999997019768,
+        16.700000002980232,
+        17.599999994039536,
+        15.5,
+        18,
+        15.799999997019768,
+        17.700000002980232,
+        14.799999997019768,
+        16.799999997019768,
+        17.30000001192093,
+        17,
+        16.69999998807907,
+        16.600000008940697,
+        16.899999991059303,
+        15.900000005960464,
+        17.799999997019768,
+        15.200000002980232,
+        17.599999994039536,
+        17.200000002980232,
+        16.799999997019768,
+        15.700000002980232,
+        15.799999997019768,
+        17.400000005960464,
+        16.700000002980232,
+        16,
+        18,
+        15,
+        17.099999994039536,
+        18.100000008940697,
+        16.599999994039536,
+        16.799999997019768,
+        15.100000008940697,
+        17.099999994039536,
+        18,
+        15.5,
+        16,
+        18,
+        17,
+        15.700000002980232,
+        16,
+        17.299999997019768,
+        17.099999994039536,
+        16.700000002980232,
+        16.600000008940697,
+        16.799999997019768,
+        16.200000002980232,
+        16.099999994039536,
+        16.799999997019768,
+        17.400000005960464,
+        16.5,
+        16.599999994039536,
+        16.400000005960464,
+        17.899999991059303,
+        16.600000008940697,
+        15.399999991059303,
+        16.700000002980232,
+        17.5,
+        17,
+        14.700000002980232,
+        18,
+        17.200000002980232,
+        16,
+        16.5,
+        16.599999994039536,
+        17.100000008940697,
+        16.19999998807907,
+        17.100000008940697,
+        16.399999991059303,
+        17,
+        15.700000002980232,
+        16.200000002980232,
+        18.099999994039536,
+        16.600000008940697,
+        16.700000002980232,
+        16.69999998807907,
+        16.600000008940697,
+        16.700000002980232,
+        16.69999998807907,
+        15.900000005960464,
+        17.400000005960464,
+        16.399999991059303,
+        16.600000008940697,
+        15.699999988079071,
+        17.900000005960464,
+        16.5,
+        17.099999994039536,
+        16,
+        17.30000001192093,
+        16.799999997019768,
+        16.399999991059303,
+        17.200000002980232,
+        16.600000008940697,
+        16,
+        16.099999994039536,
+        16.900000005960464,
+        16.19999998807907,
+        18.30000001192093,
+        16.099999994039536,
+        16.599999994039536,
+        15.800000011920929,
+        17.399999991059303,
+        15.400000005960464,
+        17.799999997019768,
+        17,
+        16.599999994039536,
+        16.30000001192093,
+        15.699999988079071,
+        18.100000008940697,
+        16.5,
+        15.599999994039536,
+        17.299999997019768,
+        17.100000008940697,
+        16.700000002980232,
+        16.799999997019768,
+        17.200000002980232,
+        15.399999991059303,
+        16.799999997019768,
+        16.80000001192093,
+        17,
+        15.899999991059303,
+        17.900000005960464,
+        16.799999997019768,
+        16.5,
+        16.799999997019768,
+        15.600000008940697,
+        16.69999998807907,
+        17.400000005960464,
+        16,
+        17.299999997019768,
+        16.100000008940697,
+        15.699999988079071,
+        18,
+        17.200000002980232,
+        15.700000002980232,
+        17.5,
+        14.900000005960464,
+        18.5,
+        16.599999994039536,
+        16.799999997019768,
+        15.100000008940697,
+        17.099999994039536,
+        17.200000002980232,
+        16.799999997019768,
+        17.099999994039536,
+        16.600000008940697,
+        16.399999991059303,
+        16.700000002980232,
+        15.299999997019768,
+        17.100000008940697,
+        17.700000002980232,
+        16.799999997019768,
+        16.700000002980232,
+        16.399999991059303,
+        16.100000008940697,
+        16.69999998807907,
+        16,
+        16.600000008940697,
+        18.099999994039536,
+        15.400000005960464,
+        18.099999994039536,
+        16.600000008940697,
+        16.5,
+        15.099999994039536,
+        16.700000002980232,
+        17.599999994039536,
+        17.5,
+        15,
+        17.900000005960464,
+        15.700000002980232,
+        17,
+        17.099999994039536,
+        15.900000005960464,
+        17.399999991059303,
+        16.200000002980232,
+        17.799999997019768,
+        16.299999997019768,
+        16.80000001192093,
+        16.099999994039536,
+        17.200000002980232,
+        15.700000002980232,
+        17.599999994039536,
+        17.099999994039536,
+        15.200000002980232,
+        17.200000002980232,
+        17.5,
+        14.700000002980232,
+        17.5,
+        16.799999997019768,
+        16.400000005960464,
+        20.399999991059303,
+        12.299999997019768,
+        17.400000005960464,
+        17.799999997019768,
+        16.700000002980232,
+        15.099999994039536,
+        16.400000005960464,
+        18.400000005960464,
+        16.599999994039536,
+        16.599999994039536,
+        15.800000011920929,
+        16.899999991059303,
+        16.600000008940697,
+        16.399999991059303,
+        16.400000005960464,
+        16.399999991059303,
+        18.5,
+        16.200000002980232,
+        16.900000005960464,
+        16.700000002980232,
+        15.399999991059303,
+        16.400000005960464,
+        17.200000002980232,
+        17.5,
+        16.19999998807907,
+        15.5,
+        17.700000002980232,
+        16.200000002980232,
+        17.099999994039536,
+        16.100000008940697
+      ],
+      "camera": {
+        "alpha": 1.28,
+        "beta": 1.31,
+        "radius": 9
+      },
+      "mascot": {
+        "x": -23.4,
+        "y": 0.1,
+        "z": -8.299999999999997,
+        "displayLift": 0
+      }
+    },
+    "graphicsError": ""
+  }
+}

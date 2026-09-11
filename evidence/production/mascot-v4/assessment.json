@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "runtimeAssetSha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610",
+  "bytes": 912508,
+  "triangles": 25812,
+  "meshParts": 17,
+  "clips": 12,
+  "hierarchyOnlyPixelIdenticalFrames": 64,
+  "finalJointPoseSamples": 64,
+  "fullJourneyChecks": 37,
+  "resizeViewports": 6,
+  "khronosErrors": 0,
+  "khronosWarnings": 0,
+  "masterReopenedAndVerified": true,
+  "evidenceScope": "Local authoring, static asset policy, Chromium pose/image checks, full built journey and responsive/core-panel checks. Does not establish LOD, physical devices, independent human learning, full exploration, native performance or public release readiness."
+}

@@ -1,0 +1,8 @@
+{
+  "archive": "releases/checkpoints/promenade-v3-tested.zip",
+  "bytes": 353491070,
+  "sha256": "bc81a5989d9a34bd12da006a23650d3ddc3b41b0b953e41764f85c79dbe57d08",
+  "files": 949,
+  "distFiles": 314,
+  "scope": "Local recoverable production checkpoint. Not a published release. Complete source, current assets/bakes and camera evidence retained; game/dist hashes verified from archive."
+}

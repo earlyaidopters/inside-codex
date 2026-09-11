@@ -1,0 +1,47 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.goal-create",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.optimization_goal_result.v1",
+    "dryRun": true,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/static-exhibit-submissions.json",
+    "goal": {
+      "schema": "game_dev.optimization_goal.v1",
+      "id": "static-exhibit-submissions",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "adapterId": "inside-codex",
+      "scenarioId": "active-scenes",
+      "metric": "render.total_draw_calls",
+      "statistic": "max",
+      "unit": "count",
+      "direction": "lower",
+      "target": 180,
+      "maximumIterations": 1,
+      "allowedPaths": [
+        "src/branch-exhibit.ts",
+        "src/context-exhibit.ts",
+        "src/harness-exhibit.ts",
+        "src/model-exhibit.ts",
+        "src/permission-exhibit.ts",
+        "src/review-exhibit.ts",
+        "src/static-parts.ts",
+        "src/steering-exhibit.ts",
+        "src/tool-exhibit.ts",
+        "tests/static-parts",
+        "tools/static-parts"
+      ],
+      "baseline": {
+        "runId": "run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a",
+        "value": 234
+      },
+      "createdAt": "2026-09-10T17:21:49.054Z",
+      "state": {
+        "status": "active",
+        "iterations": []
+      }
+    },
+    "evidenceCeiling": "The goal binds one metric, target, baseline, iteration ceiling, and patch allowlist. It authorizes neither capture execution nor edits outside the allowlist and does not prove that a future patch caused any measurement change."
+  }
+}

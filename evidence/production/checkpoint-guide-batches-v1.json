@@ -1,0 +1,37 @@
+{
+  "archive": "releases/checkpoints/guide-batches-v1-source.zip",
+  "bytes": 111261909,
+  "sha256": "c9e79fa903fa66070b5a35a47ec9f4ea45ec0b9ad306ece1e9238e78714a54ee",
+  "filesVerified": 557,
+  "base": "releases/checkpoints/handoff-summary-v1-source.zip plus its complete base chain",
+  "baseSha256": "210893980417cbfd7643e6827ea5a97f1ad41449d84fde083560c51b26b7423d",
+  "buildId": "1b6dfe9751a218865f07e3eb77ac119cfaf521dea8d118e0d796204a8d7c8ab5",
+  "sealedCaptures": [
+    {
+      "runId": "run_1789063754225_6a04cf9b82ee41df91bfec497c79dde9",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789063754225_6a04cf9b82ee41df91bfec497c79dde9",
+      "manifestSha256": "8111ff667fb06aa9e345918ee82cc36101e2de1d23e1d2ab718b0b79b8d1c542"
+    },
+    {
+      "runId": "run_1789064823129_8c07d051fb2f4ba29b5588b119b33b30",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789064823129_8c07d051fb2f4ba29b5588b119b33b30",
+      "manifestSha256": "112f183f1469833a1586821d7ed97df2377cf56e0748a189328d900d3b061341"
+    },
+    {
+      "runId": "run_1789065026230_15c042ba8b614789b7614a1285f70385",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789065026230_15c042ba8b614789b7614a1285f70385",
+      "manifestSha256": "cb3d23493f5fb3c9b706f30c44d80ad4625b2490c52b1cbb9c59aed2af6e2d2b"
+    },
+    {
+      "runId": "run_1789065284884_0a5e5249e5a144aea3abf9fc3b5dd695",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789065284884_0a5e5249e5a144aea3abf9fc3b5dd695",
+      "manifestSha256": "d90becd7d91f7b50ccbae99536a54afa6d58fa5776695bb6bb5bcbc5620d5306"
+    },
+    {
+      "runId": "run_1789065543025_3be3f64b52d347bd906981b521191f4d",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789065543025_3be3f64b52d347bd906981b521191f4d",
+      "manifestSha256": "b7c508f1cf6859526f83fcac1f513683ae81902ed5e5ceb6f2d545eb941b2951"
+    }
+  ],
+  "fullReleaseAccepted": false
+}

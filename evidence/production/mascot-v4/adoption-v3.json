@@ -1,0 +1,9 @@
+{
+  "asset": "game/public/assets/codex-mascot.glb",
+  "sha256": "0a86839a32c6eae7366d62fa5d75c8959363aaf00c88e06f7a78a7053b61fa36",
+  "bytes": 912504,
+  "editableMaster": "art-source/codex-mascot-traced-glyph-v3.blend",
+  "sourceActionsMaster": "art-source/codex-mascot-all-actions.blend",
+  "baseline": "evidence/production/mascot-v4/baseline.glb",
+  "packageVersion": "4.1.0"
+}

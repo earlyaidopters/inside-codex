@@ -1,0 +1,4402 @@
+{
+  "pass": true,
+  "date": "2026-09-10T19:42:37.457Z",
+  "checks": [
+    "Real 3D scene and animated logo load",
+    "A visible 3D context port updates the same lesson state as the accessible control",
+    "An empty answer does not advance progress",
+    "A valid assembly powers the visible 3D tool-result loop",
+    "Mission 1 completes through visible controls",
+    "Context archive saves drafts from chosen sources, exposes stale ownership and wrong format, and verifies the corrected CSV",
+    "Mission 2 completes through visible controls",
+    "Model workshop compares checked edits, reproduces a billing defect, recovers a blocked sheet read and saves three evidence-backed routes",
+    "Mission 3 completes through visible controls",
+    "Permission desk separates scoped reads, approval requests, connector access and the verified unsent draft",
+    "Mission 4 completes through visible controls",
+    "Mission 5 completes through visible controls",
+    "Branch workshop demonstrates overwrites, retains isolated files, rejects a failing attempt, and verifies the integrated record",
+    "Mission 6 completes through visible controls",
+    "Steering preserves the active job and queues a separate draft from the checked French checklist",
+    "Mission 7 completes through visible controls",
+    "Review bench reproduces regressions hidden by a narrow check, repairs exact lines and verifies the current saved code",
+    "Mission 8 completes through visible controls",
+    "Tool workshop retrieves real fixture sources, exposes a hard-coded procedure on a second client and verifies both repaired exports",
+    "Mission 9 completes through visible controls",
+    "Browser lab reproduces data loss and requires a verified repair",
+    "Mission 10 completes through visible controls",
+    "Automation tower tests a precise schedule, quiet and actionable runs, source failure and verified host recovery",
+    "Mission 11 completes through visible controls",
+    "Handoff dock preserves verified recovery, exposes delivery-only failure and checks the repaired package at its mounted route",
+    "Mission 12 completes through visible controls",
+    "Fresh-client capstone produces checked reports, a recurring rehearsal and first-submission evidence",
+    "Toolkit download contains usable resources",
+    "Downloaded starter ZIP includes the saved workflow, source brief, CSV, project instructions, skill, and executable acceptance check",
+    "Progress, practice tasks, and capstone survive a full reload",
+    "Field notes search finds the relevant workflow",
+    "Portrait mission and controls fit without horizontal overflow",
+    "Reduced motion and quality controls reach the renderer",
+    "Reduced motion persists when a new mission starts",
+    "Returning from portrait restores desktop camera framing",
+    "Pause freezes both character clips and guided travel across mission changes",
+    "No page exceptions or failed requests"
+  ],
+  "errors": [],
+  "failed": [],
+  "state": {
+    "startup": {
+      "status": "complete",
+      "phase": "graphics-ready",
+      "elapsedMs": 9042,
+      "events": [
+        {
+          "kind": "phase-start",
+          "phase": "world-module",
+          "atMs": 0.1
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "world-module",
+          "atMs": 186.8
+        },
+        {
+          "kind": "phase-start",
+          "phase": "graphics-context",
+          "atMs": 186.9
+        },
+        {
+          "kind": "phase-start",
+          "phase": "scene-setup",
+          "atMs": 221.3
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture",
+          "atMs": 235.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture",
+          "atMs": 394.4
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture-detail",
+          "atMs": 395.6
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture-detail",
+          "atMs": 395.6
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture-textures",
+          "atMs": 395.6
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture-textures",
+          "atMs": 998
+        },
+        {
+          "kind": "phase-start",
+          "phase": "room-fixtures",
+          "atMs": 999.6
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "room-fixtures",
+          "atMs": 1004.4
+        },
+        {
+          "kind": "phase-start",
+          "phase": "room-assembly",
+          "atMs": 1004.4
+        },
+        {
+          "kind": "phase-start",
+          "phase": "guide",
+          "atMs": 1060
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "guide",
+          "atMs": 1141.6
+        },
+        {
+          "kind": "phase-start",
+          "phase": "scene-finalization",
+          "atMs": 1141.6
+        },
+        {
+          "kind": "phase-start",
+          "phase": "exhibits",
+          "atMs": 1239.1
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "exhibits",
+          "atMs": 1422
+        },
+        {
+          "kind": "phase-start",
+          "phase": "environment",
+          "atMs": 1422
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "environment",
+          "atMs": 1422
+        },
+        {
+          "kind": "phase-start",
+          "phase": "graphics-ready",
+          "atMs": 1422.1
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "graphics-ready",
+          "atMs": 2151.3
+        },
+        {
+          "kind": "complete",
+          "phase": "graphics-ready",
+          "atMs": 2151.9
+        }
+      ],
+      "failure": null
+    },
+    "ready": true,
+    "screen": "mission",
+    "mission": 1,
+    "stepIndex": 0,
+    "cedarLab": {
+      "section": "brief",
+      "inspecting": "instructions",
+      "definition": {
+        "title": "Cedar weekly reporting",
+        "summary": "Deliver the requested report and metrics from current actuals, independently check the saved claims and test the following period.",
+        "period": "2026-09-07",
+        "deliverable": "report-csv",
+        "metrics": [
+          "completed",
+          "completion",
+          "growth"
+        ]
+      },
+      "sources": [
+        "brief",
+        "current",
+        "instructions"
+      ],
+      "dataTool": true,
+      "fileTool": true,
+      "scope": "training",
+      "effort": "medium",
+      "procedure": "previous",
+      "week": "next",
+      "revision": 15,
+      "outputs": {
+        "first": {
+          "revision": 15,
+          "metrics": {
+            "week": "2026-09-07",
+            "completed": 24,
+            "completion_rate": 88.89,
+            "revenue_change": 8,
+            "approval_owner": "Leah Morgan"
+          },
+          "files": {
+            "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-07,24,88.89,8,Leah Morgan\n",
+            "cedar-weekly.md": "# Cedar Research — 2026-09-07\n\nApproval owner: Leah Morgan\nCompleted onboardings: 24\nCompletion rate: 88.89%\nBilled-revenue change vs previous week: 8.00%\n\nSource: current.csv. Fictional training data.\n"
+          },
+          "procedure": "previous"
+        },
+        "next": {
+          "revision": 15,
+          "metrics": {
+            "week": "2026-09-14",
+            "completed": 27,
+            "completion_rate": 90,
+            "revenue_change": 5,
+            "approval_owner": "Leah Morgan"
+          },
+          "files": {
+            "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-14,27,90,5,Leah Morgan\n",
+            "cedar-weekly.md": "# Cedar Research — 2026-09-14\n\nApproval owner: Leah Morgan\nCompleted onboardings: 27\nCompletion rate: 90.00%\nBilled-revenue change vs previous week: 5.00%\n\nSource: current.csv. Fictional training data.\n"
+          },
+          "procedure": "previous"
+        }
+      },
+      "checks": {
+        "first": {
+          "revision": 15,
+          "pass": true,
+          "checks": [
+            {
+              "name": "week",
+              "expected": "2026-09-07",
+              "actual": "2026-09-07",
+              "pass": true
+            },
+            {
+              "name": "completed",
+              "expected": 24,
+              "actual": 24,
+              "pass": true
+            },
+            {
+              "name": "completion_rate",
+              "expected": 88.89,
+              "actual": 88.89,
+              "pass": true
+            },
+            {
+              "name": "revenue_change",
+              "expected": 8,
+              "actual": 8,
+              "pass": true
+            },
+            {
+              "name": "approval_owner",
+              "expected": "Leah Morgan",
+              "actual": "Leah Morgan",
+              "pass": true
+            },
+            {
+              "name": "saved files match the calculated claims",
+              "pass": true
+            }
+          ]
+        },
+        "next": {
+          "revision": 15,
+          "pass": true,
+          "checks": [
+            {
+              "name": "week",
+              "expected": "2026-09-14",
+              "actual": "2026-09-14",
+              "pass": true
+            },
+            {
+              "name": "completed",
+              "expected": 27,
+              "actual": 27,
+              "pass": true
+            },
+            {
+              "name": "completion_rate",
+              "expected": 90,
+              "actual": 90,
+              "pass": true
+            },
+            {
+              "name": "revenue_change",
+              "expected": 5,
+              "actual": 5,
+              "pass": true
+            },
+            {
+              "name": "approval_owner",
+              "expected": "Leah Morgan",
+              "actual": "Leah Morgan",
+              "pass": true
+            },
+            {
+              "name": "saved files match the calculated claims",
+              "pass": true
+            }
+          ]
+        }
+      },
+      "readbacks": {
+        "first": 15,
+        "next": 15
+      },
+      "failureSeen": true,
+      "schedule": {
+        "cadence": "monday-9",
+        "timezone": "America/Toronto",
+        "alerts": "changes",
+        "failure": "preserve",
+        "runtime": "host-available"
+      },
+      "rehearsal": {
+        "revision": 15,
+        "schedule": {
+          "cadence": "monday-9",
+          "timezone": "America/Toronto",
+          "alerts": "changes",
+          "failure": "preserve",
+          "runtime": "host-available"
+        },
+        "baseline": {
+          "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-14,27,90,5,Leah Morgan\n",
+          "cedar-weekly.md": "# Cedar Research — 2026-09-14\n\nApproval owner: Leah Morgan\nCompleted onboardings: 27\nCompletion rate: 90.00%\nBilled-revenue change vs previous week: 5.00%\n\nSource: current.csv. Fictional training data.\n"
+        },
+        "runs": [
+          {
+            "date": "2026-09-21",
+            "input": "unchanged",
+            "status": "ok",
+            "files": {
+              "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-14,27,90,5,Leah Morgan\n",
+              "cedar-weekly.md": "# Cedar Research — 2026-09-14\n\nApproval owner: Leah Morgan\nCompleted onboardings: 27\nCompletion rate: 90.00%\nBilled-revenue change vs previous week: 5.00%\n\nSource: current.csv. Fictional training data.\n"
+            },
+            "notify": false
+          },
+          {
+            "date": "2026-09-28",
+            "input": "new-period",
+            "status": "ok",
+            "files": {
+              "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-21,28,87.5,4.95,Leah Morgan\n",
+              "cedar-weekly.md": "# Cedar Research — 2026-09-21\n\nApproval owner: Leah Morgan\nCompleted onboardings: 28\nCompletion rate: 87.50%\nBilled-revenue change vs previous week: 4.95%\n\nSource: current.csv. Fictional training data.\n"
+            },
+            "notify": true
+          },
+          {
+            "date": "2026-10-05",
+            "input": "read-failed",
+            "status": "failed",
+            "files": {
+              "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-21,28,87.5,4.95,Leah Morgan\n",
+              "cedar-weekly.md": "# Cedar Research — 2026-09-21\n\nApproval owner: Leah Morgan\nCompleted onboardings: 28\nCompletion rate: 87.50%\nBilled-revenue change vs previous week: 4.95%\n\nSource: current.csv. Fictional training data.\n"
+            },
+            "notify": true
+          }
+        ],
+        "pass": true
+      },
+      "first": {
+        "revision": 15,
+        "scores": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "assisted": false
+      },
+      "reviews": [
+        {
+          "revision": 15,
+          "scores": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "assisted": false
+        }
+      ],
+      "hints": 0,
+      "actions": [
+        {
+          "action": "title",
+          "value": "Cedar weekly reporting"
+        },
+        {
+          "action": "summary",
+          "value": "Deliver the requested report and metrics from current actuals, independently check the saved claims and test the following period."
+        },
+        {
+          "action": "period",
+          "value": "2026-09-07"
+        },
+        {
+          "action": "deliverable",
+          "value": "report-csv"
+        },
+        {
+          "action": "metric",
+          "value": "completed"
+        },
+        {
+          "action": "metric",
+          "value": "completion"
+        },
+        {
+          "action": "metric",
+          "value": "growth"
+        },
+        {
+          "action": "inspect",
+          "value": "brief"
+        },
+        {
+          "action": "source",
+          "value": "brief"
+        },
+        {
+          "action": "inspect",
+          "value": "current"
+        },
+        {
+          "action": "source",
+          "value": "current"
+        },
+        {
+          "action": "inspect",
+          "value": "instructions"
+        },
+        {
+          "action": "source",
+          "value": "instructions"
+        },
+        {
+          "action": "data"
+        },
+        {
+          "action": "files"
+        },
+        {
+          "action": "scope",
+          "value": "training"
+        },
+        {
+          "action": "run"
+        },
+        {
+          "action": "readback"
+        },
+        {
+          "action": "check"
+        },
+        {
+          "action": "procedure",
+          "value": "previous"
+        },
+        {
+          "action": "run"
+        },
+        {
+          "action": "readback"
+        },
+        {
+          "action": "check"
+        },
+        {
+          "action": "week",
+          "value": "next"
+        },
+        {
+          "action": "run"
+        },
+        {
+          "action": "readback"
+        },
+        {
+          "action": "check"
+        },
+        {
+          "action": "cadence",
+          "value": "monday-9"
+        },
+        {
+          "action": "timezone",
+          "value": "America/Toronto"
+        },
+        {
+          "action": "alerts",
+          "value": "changes"
+        },
+        {
+          "action": "failure",
+          "value": "preserve"
+        },
+        {
+          "action": "runtime",
+          "value": "host-available"
+        },
+        {
+          "action": "rehearse"
+        },
+        {
+          "action": "submit"
+        }
+      ],
+      "message": "All five evidence dimensions pass. Your first submitted result and hint use remain in the learning record."
+    },
+    "handoffLab": {
+      "section": "delivery",
+      "surface": "delivered",
+      "revision": 2,
+      "mode": "absolute",
+      "notes": "claim",
+      "selected": [
+        "page",
+        "brand",
+        "data"
+      ],
+      "package": null,
+      "localCheck": null,
+      "delivered": {
+        "id": 1,
+        "kind": "original",
+        "revision": 1,
+        "files": {
+          "index.html": "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Northstar — kickoff guide</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#f1eee3;color:#243f30;margin:0;padding:28px}main{max-width:540px;margin:auto}img{width:210px;max-width:100%;height:auto}h1{font-size:28px;line-height:1.15}dl{display:grid;grid-template-columns:1fr 1fr;gap:12px}dd{margin:0;font-weight:600}a{color:#244f3c}small{display:block;margin-top:25px}</style></head><body><main><img src=\"./assets/brand.svg\" alt=\"Northstar brand mark\"><h1>Your kickoff guide.</h1><p>Northstar Studio</p><dl><dt>Kickoff</dt><dd>Scheduled</dd><dt>File access</dt><dd>Requested</dd><dt>Approval owner</dt><dd data-owner=\"Nina Patel\">Nina Patel</dd></dl><p><a href=\"./onboarding.csv\" download>Download the onboarding checklist</a></p><small>Fictional training data. No client account or email connection.</small></main></body></html>\n",
+          "assets/brand.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"240\" height=\"64\" viewBox=\"0 0 240 64\"><rect width=\"240\" height=\"64\" rx=\"10\" fill=\"#254d3b\"/><path d=\"M31 10 36 26 53 31 36 36 31 53 26 36 10 31 26 26Z\" fill=\"#efe6cc\"/><text x=\"67\" y=\"40\" fill=\"#fff8e8\" font-family=\"sans-serif\" font-size=\"23\">Northstar</text></svg>",
+          "onboarding.csv": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "README.md": "# Use the Northstar guide\n\nServe the parent directory with `python3 -m http.server 8000`, then open http://127.0.0.1:8000/northstar/. Keep index.html, assets/brand.svg and onboarding.csv together. Verify the brand image, approval owner Nina Patel and CSV download from that exact route.\n\nRecovery: the separate recovery/northstar folder contains the earlier working release. Serve recovery as the root or restore its northstar folder, then check the same route again. Never replace the only working recovery copy with an unverified candidate.\n\nKnown limits: fictional static data; no authentication, email delivery or live source sync. The rehearsal checks file references and fixture content. Real-device, performance and production-host checks still need to be performed for any real deployment.\n"
+        }
+      },
+      "deliveredCheck": null,
+      "recovery": null,
+      "nextId": 2,
+      "failureSeen": false,
+      "rollbackVerified": false,
+      "actions": [],
+      "events": [],
+      "message": "A working guide is already delivered. Check that copy and preserve it before staging the candidate. Local checks alone cannot prove a delivered package works."
+    },
+    "automationLab": {
+      "section": "setup",
+      "now": 1789044900000,
+      "config": {
+        "prompt": "vague",
+        "cadence": "weekdays",
+        "hour": "9",
+        "timezone": "America/Toronto",
+        "destination": "same",
+        "notifications": "changes",
+        "onFailure": "report"
+      },
+      "revision": 1,
+      "testedVersion": null,
+      "enabled": false,
+      "host": true,
+      "source": "approved",
+      "baseline": null,
+      "lastFailure": null,
+      "runs": [],
+      "events": [],
+      "actions": [],
+      "nextId": 1,
+      "message": "The local brief is ready. Test a precise prompt before turning on the weekday schedule. The rehearsal clock starts Thursday at 08:55 Toronto time."
+    },
+    "toolLab": {
+      "section": "connect",
+      "package": "source",
+      "inspected": [],
+      "installed": null,
+      "scope": "training",
+      "connected": false,
+      "guidanceRead": false,
+      "skill": "example",
+      "loaded": [],
+      "client": "northstar",
+      "reads": {},
+      "outputs": {},
+      "revision": 1,
+      "failureSeen": false,
+      "actions": [],
+      "events": [],
+      "message": "Two client briefs are in a fictional document service. Inspect the plugin, connect its reading tool, then test the bundled procedure."
+    },
+    "contextLab": {
+      "read": [],
+      "selected": [],
+      "opened": "brief",
+      "authority": null,
+      "target": null,
+      "revision": 0,
+      "result": null,
+      "check": null,
+      "runs": 0,
+      "message": "Open the files. Build a context pack for the missing-field repair."
+    },
+    "modelLab": {
+      "job": "label",
+      "jobs": {
+        "label": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "billing": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "sheet": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        }
+      },
+      "message": "Choose a job and a setup. The actual training artifact will determine whether its check passes."
+    },
+    "permissionLab": {
+      "section": "source",
+      "profile": "workspace",
+      "approval": "never",
+      "network": false,
+      "connected": false,
+      "source": null,
+      "pending": false,
+      "draft": null,
+      "revision": 0,
+      "check": null,
+      "events": [
+        "file-denied"
+      ],
+      "message": "Local read denied: the training profile excludes /reference/northstar. Approval prompts are disabled; this does not grant access."
+    },
+    "reviewLab": {
+      "section": "diff",
+      "patch": {
+        "owner": false,
+        "files": false,
+        "title": false
+      },
+      "flags": [],
+      "revision": 0,
+      "inspected": null,
+      "runs": [],
+      "current": null,
+      "requests": [],
+      "message": "Proposed change: “Owner filled; heading corrected.” Inspect the saved patch and test that claim."
+    },
+    "steeringLab": {
+      "section": "work",
+      "messageKind": "french",
+      "active": {
+        "kind": "checklist",
+        "step": 0,
+        "run": 1
+      },
+      "language": "en",
+      "pending": [],
+      "queue": [],
+      "nextId": 1,
+      "nextRun": 2,
+      "checklist": null,
+      "draft": null,
+      "statusAsked": false,
+      "statusReport": null,
+      "steered": false,
+      "queuedEmail": false,
+      "emailAfterChecklist": false,
+      "events": [
+        "Run 1 started: prepare the onboarding checklist."
+      ],
+      "actions": [],
+      "message": "The checklist run is active. Work advances only when you press Next work step."
+    },
+    "selected": [],
+    "feedback": null,
+    "modal": null,
+    "branches": {
+      "mode": "shared",
+      "shared": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "files": {
+        "a": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        },
+        "b": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        }
+      },
+      "written": {
+        "a": false,
+        "b": false
+      },
+      "revision": {
+        "a": 0,
+        "b": 0,
+        "local": 0
+      },
+      "checks": {
+        "a": null,
+        "b": null,
+        "local": null
+      },
+      "reviewed": false,
+      "local": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "chosen": null,
+      "collision": false,
+      "events": [],
+      "message": "Two tasks are looking at one checkout. Apply their competing changes and inspect what each task sees."
+    },
+    "progress": {
+      "version": 1,
+      "completed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "attempts": {
+        "harness.0": 2,
+        "harness.1": 1,
+        "context.0": 2,
+        "context.1": 1,
+        "models.0": 1,
+        "permissions.0": 1,
+        "tasks.0": 1,
+        "tasks.1": 1,
+        "worktrees.0": 1,
+        "worktrees.1": 2,
+        "steering.0": 1,
+        "review.0": 3,
+        "tools.0": 1,
+        "browser.0": 2,
+        "browser.1": 1,
+        "automation.0": 1,
+        "handoff.0": 1
+      },
+      "hints": {},
+      "capstone": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lastMission": 1,
+      "workspace": {
+        "branchReview": {
+          "chosen": "a",
+          "artifact": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "alternate": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,,Nina Patel\n",
+          "verified": true,
+          "isolated": true
+        },
+        "capstoneReview": {
+          "version": 1,
+          "simulation": true,
+          "actions": [
+            {
+              "action": "title",
+              "value": "Cedar weekly reporting"
+            },
+            {
+              "action": "summary",
+              "value": "Deliver the requested report and metrics from current actuals, independently check the saved claims and test the following period."
+            },
+            {
+              "action": "period",
+              "value": "2026-09-07"
+            },
+            {
+              "action": "deliverable",
+              "value": "report-csv"
+            },
+            {
+              "action": "metric",
+              "value": "completed"
+            },
+            {
+              "action": "metric",
+              "value": "completion"
+            },
+            {
+              "action": "metric",
+              "value": "growth"
+            },
+            {
+              "action": "inspect",
+              "value": "brief"
+            },
+            {
+              "action": "source",
+              "value": "brief"
+            },
+            {
+              "action": "inspect",
+              "value": "current"
+            },
+            {
+              "action": "source",
+              "value": "current"
+            },
+            {
+              "action": "inspect",
+              "value": "instructions"
+            },
+            {
+              "action": "source",
+              "value": "instructions"
+            },
+            {
+              "action": "data"
+            },
+            {
+              "action": "files"
+            },
+            {
+              "action": "scope",
+              "value": "training"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "readback"
+            },
+            {
+              "action": "check"
+            },
+            {
+              "action": "procedure",
+              "value": "previous"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "readback"
+            },
+            {
+              "action": "check"
+            },
+            {
+              "action": "week",
+              "value": "next"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "readback"
+            },
+            {
+              "action": "check"
+            },
+            {
+              "action": "cadence",
+              "value": "monday-9"
+            },
+            {
+              "action": "timezone",
+              "value": "America/Toronto"
+            },
+            {
+              "action": "alerts",
+              "value": "changes"
+            },
+            {
+              "action": "failure",
+              "value": "preserve"
+            },
+            {
+              "action": "runtime",
+              "value": "host-available"
+            },
+            {
+              "action": "rehearse"
+            },
+            {
+              "action": "submit"
+            }
+          ],
+          "first": {
+            "revision": 15,
+            "scores": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "assisted": false
+          },
+          "reviews": [
+            {
+              "revision": 15,
+              "scores": [
+                true,
+                true,
+                true,
+                true,
+                true
+              ],
+              "assisted": false
+            }
+          ],
+          "definition": {
+            "title": "Cedar weekly reporting",
+            "summary": "Deliver the requested report and metrics from current actuals, independently check the saved claims and test the following period.",
+            "period": "2026-09-07",
+            "deliverable": "report-csv",
+            "metrics": [
+              "completed",
+              "completion",
+              "growth"
+            ]
+          },
+          "outputs": {
+            "first": {
+              "revision": 15,
+              "metrics": {
+                "week": "2026-09-07",
+                "completed": 24,
+                "completion_rate": 88.89,
+                "revenue_change": 8,
+                "approval_owner": "Leah Morgan"
+              },
+              "files": {
+                "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-07,24,88.89,8,Leah Morgan\n",
+                "cedar-weekly.md": "# Cedar Research — 2026-09-07\n\nApproval owner: Leah Morgan\nCompleted onboardings: 24\nCompletion rate: 88.89%\nBilled-revenue change vs previous week: 8.00%\n\nSource: current.csv. Fictional training data.\n"
+              },
+              "procedure": "previous"
+            },
+            "next": {
+              "revision": 15,
+              "metrics": {
+                "week": "2026-09-14",
+                "completed": 27,
+                "completion_rate": 90,
+                "revenue_change": 5,
+                "approval_owner": "Leah Morgan"
+              },
+              "files": {
+                "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-14,27,90,5,Leah Morgan\n",
+                "cedar-weekly.md": "# Cedar Research — 2026-09-14\n\nApproval owner: Leah Morgan\nCompleted onboardings: 27\nCompletion rate: 90.00%\nBilled-revenue change vs previous week: 5.00%\n\nSource: current.csv. Fictional training data.\n"
+              },
+              "procedure": "previous"
+            }
+          },
+          "checks": {
+            "first": {
+              "revision": 15,
+              "pass": true,
+              "checks": [
+                {
+                  "name": "week",
+                  "expected": "2026-09-07",
+                  "actual": "2026-09-07",
+                  "pass": true
+                },
+                {
+                  "name": "completed",
+                  "expected": 24,
+                  "actual": 24,
+                  "pass": true
+                },
+                {
+                  "name": "completion_rate",
+                  "expected": 88.89,
+                  "actual": 88.89,
+                  "pass": true
+                },
+                {
+                  "name": "revenue_change",
+                  "expected": 8,
+                  "actual": 8,
+                  "pass": true
+                },
+                {
+                  "name": "approval_owner",
+                  "expected": "Leah Morgan",
+                  "actual": "Leah Morgan",
+                  "pass": true
+                },
+                {
+                  "name": "saved files match the calculated claims",
+                  "pass": true
+                }
+              ]
+            },
+            "next": {
+              "revision": 15,
+              "pass": true,
+              "checks": [
+                {
+                  "name": "week",
+                  "expected": "2026-09-14",
+                  "actual": "2026-09-14",
+                  "pass": true
+                },
+                {
+                  "name": "completed",
+                  "expected": 27,
+                  "actual": 27,
+                  "pass": true
+                },
+                {
+                  "name": "completion_rate",
+                  "expected": 90,
+                  "actual": 90,
+                  "pass": true
+                },
+                {
+                  "name": "revenue_change",
+                  "expected": 5,
+                  "actual": 5,
+                  "pass": true
+                },
+                {
+                  "name": "approval_owner",
+                  "expected": "Leah Morgan",
+                  "actual": "Leah Morgan",
+                  "pass": true
+                },
+                {
+                  "name": "saved files match the calculated claims",
+                  "pass": true
+                }
+              ]
+            }
+          },
+          "readbacks": {
+            "first": 15,
+            "next": 15
+          },
+          "rehearsal": {
+            "revision": 15,
+            "schedule": {
+              "cadence": "monday-9",
+              "timezone": "America/Toronto",
+              "alerts": "changes",
+              "failure": "preserve",
+              "runtime": "host-available"
+            },
+            "baseline": {
+              "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-14,27,90,5,Leah Morgan\n",
+              "cedar-weekly.md": "# Cedar Research — 2026-09-14\n\nApproval owner: Leah Morgan\nCompleted onboardings: 27\nCompletion rate: 90.00%\nBilled-revenue change vs previous week: 5.00%\n\nSource: current.csv. Fictional training data.\n"
+            },
+            "runs": [
+              {
+                "date": "2026-09-21",
+                "input": "unchanged",
+                "status": "ok",
+                "files": {
+                  "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-14,27,90,5,Leah Morgan\n",
+                  "cedar-weekly.md": "# Cedar Research — 2026-09-14\n\nApproval owner: Leah Morgan\nCompleted onboardings: 27\nCompletion rate: 90.00%\nBilled-revenue change vs previous week: 5.00%\n\nSource: current.csv. Fictional training data.\n"
+                },
+                "notify": false
+              },
+              {
+                "date": "2026-09-28",
+                "input": "new-period",
+                "status": "ok",
+                "files": {
+                  "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-21,28,87.5,4.95,Leah Morgan\n",
+                  "cedar-weekly.md": "# Cedar Research — 2026-09-21\n\nApproval owner: Leah Morgan\nCompleted onboardings: 28\nCompletion rate: 87.50%\nBilled-revenue change vs previous week: 4.95%\n\nSource: current.csv. Fictional training data.\n"
+                },
+                "notify": true
+              },
+              {
+                "date": "2026-10-05",
+                "input": "read-failed",
+                "status": "failed",
+                "files": {
+                  "metrics.csv": "week,completed,completion_rate,revenue_change,approval_owner\n2026-09-21,28,87.5,4.95,Leah Morgan\n",
+                  "cedar-weekly.md": "# Cedar Research — 2026-09-21\n\nApproval owner: Leah Morgan\nCompleted onboardings: 28\nCompletion rate: 87.50%\nBilled-revenue change vs previous week: 4.95%\n\nSource: current.csv. Fictional training data.\n"
+                },
+                "notify": true
+              }
+            ],
+            "pass": true
+          },
+          "hints": 0,
+          "passed": true
+        },
+        "handoffRelease": {
+          "version": 1,
+          "simulation": true,
+          "actions": [
+            {
+              "action": "check"
+            },
+            {
+              "action": "preserve"
+            },
+            {
+              "action": "surface",
+              "value": "local"
+            },
+            {
+              "action": "check"
+            },
+            {
+              "action": "pack"
+            },
+            {
+              "action": "deploy"
+            },
+            {
+              "action": "check"
+            },
+            {
+              "action": "rollback"
+            },
+            {
+              "action": "check"
+            },
+            {
+              "action": "repair",
+              "value": "relative"
+            },
+            {
+              "action": "notes",
+              "value": "useful"
+            },
+            {
+              "action": "select",
+              "value": "guide"
+            },
+            {
+              "action": "surface",
+              "value": "local"
+            },
+            {
+              "action": "check"
+            },
+            {
+              "action": "pack"
+            },
+            {
+              "action": "deploy"
+            },
+            {
+              "action": "check"
+            }
+          ],
+          "delivered": {
+            "id": 4,
+            "kind": "candidate",
+            "revision": 4,
+            "files": {
+              "index.html": "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Northstar — kickoff guide</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#f1eee3;color:#243f30;margin:0;padding:28px}main{max-width:540px;margin:auto}img{width:210px;max-width:100%;height:auto}h1{font-size:28px;line-height:1.15}dl{display:grid;grid-template-columns:1fr 1fr;gap:12px}dd{margin:0;font-weight:600}a{color:#244f3c}small{display:block;margin-top:25px}</style></head><body><main><img src=\"./assets/brand.svg\" alt=\"Northstar brand mark\"><h1>Your kickoff guide.</h1><p>Northstar Studio</p><dl><dt>Kickoff</dt><dd>Scheduled</dd><dt>File access</dt><dd>Requested</dd><dt>Approval owner</dt><dd data-owner=\"Nina Patel\">Nina Patel</dd></dl><p><a href=\"./onboarding.csv\" download>Download the onboarding checklist</a></p><small>Fictional training data. No client account or email connection.</small></main></body></html>\n",
+              "assets/brand.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"240\" height=\"64\" viewBox=\"0 0 240 64\"><rect width=\"240\" height=\"64\" rx=\"10\" fill=\"#254d3b\"/><path d=\"M31 10 36 26 53 31 36 36 31 53 26 36 10 31 26 26Z\" fill=\"#efe6cc\"/><text x=\"67\" y=\"40\" fill=\"#fff8e8\" font-family=\"sans-serif\" font-size=\"23\">Northstar</text></svg>",
+              "onboarding.csv": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+              "README.md": "# Use the Northstar guide\n\nServe the parent directory with `python3 -m http.server 8000`, then open http://127.0.0.1:8000/northstar/. Keep index.html, assets/brand.svg and onboarding.csv together. Verify the brand image, approval owner Nina Patel and CSV download from that exact route.\n\nRecovery: the separate recovery/northstar folder contains the earlier working release. Serve recovery as the root or restore its northstar folder, then check the same route again. Never replace the only working recovery copy with an unverified candidate.\n\nKnown limits: fictional static data; no authentication, email delivery or live source sync. The rehearsal checks file references and fixture content. Real-device, performance and production-host checks still need to be performed for any real deployment.\n"
+            }
+          },
+          "recovery": {
+            "id": 1,
+            "kind": "original",
+            "revision": 1,
+            "files": {
+              "index.html": "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Northstar — kickoff guide</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#f1eee3;color:#243f30;margin:0;padding:28px}main{max-width:540px;margin:auto}img{width:210px;max-width:100%;height:auto}h1{font-size:28px;line-height:1.15}dl{display:grid;grid-template-columns:1fr 1fr;gap:12px}dd{margin:0;font-weight:600}a{color:#244f3c}small{display:block;margin-top:25px}</style></head><body><main><img src=\"./assets/brand.svg\" alt=\"Northstar brand mark\"><h1>Your kickoff guide.</h1><p>Northstar Studio</p><dl><dt>Kickoff</dt><dd>Scheduled</dd><dt>File access</dt><dd>Requested</dd><dt>Approval owner</dt><dd data-owner=\"Nina Patel\">Nina Patel</dd></dl><p><a href=\"./onboarding.csv\" download>Download the onboarding checklist</a></p><small>Fictional training data. No client account or email connection.</small></main></body></html>\n",
+              "assets/brand.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"240\" height=\"64\" viewBox=\"0 0 240 64\"><rect width=\"240\" height=\"64\" rx=\"10\" fill=\"#254d3b\"/><path d=\"M31 10 36 26 53 31 36 36 31 53 26 36 10 31 26 26Z\" fill=\"#efe6cc\"/><text x=\"67\" y=\"40\" fill=\"#fff8e8\" font-family=\"sans-serif\" font-size=\"23\">Northstar</text></svg>",
+              "onboarding.csv": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+              "README.md": "# Use the Northstar guide\n\nServe the parent directory with `python3 -m http.server 8000`, then open http://127.0.0.1:8000/northstar/. Keep index.html, assets/brand.svg and onboarding.csv together. Verify the brand image, approval owner Nina Patel and CSV download from that exact route.\n\nRecovery: the separate recovery/northstar folder contains the earlier working release. Serve recovery as the root or restore its northstar folder, then check the same route again. Never replace the only working recovery copy with an unverified candidate.\n\nKnown limits: fictional static data; no authentication, email delivery or live source sync. The rehearsal checks file references and fixture content. Real-device, performance and production-host checks still need to be performed for any real deployment.\n"
+            }
+          },
+          "localCheck": {
+            "id": 4,
+            "pass": true,
+            "checks": [
+              {
+                "name": "Page and approval owner",
+                "pass": true
+              },
+              {
+                "name": "Brand image resolves from this route",
+                "pass": true
+              },
+              {
+                "name": "CSV download resolves with the approved source values",
+                "pass": true
+              }
+            ],
+            "requests": [
+              {
+                "url": "/assets/brand.svg",
+                "file": "assets/brand.svg",
+                "status": 200
+              },
+              {
+                "url": "/onboarding.csv",
+                "file": "onboarding.csv",
+                "status": 200
+              }
+            ]
+          },
+          "deliveredCheck": {
+            "id": 4,
+            "pass": true,
+            "checks": [
+              {
+                "name": "Page and approval owner",
+                "pass": true
+              },
+              {
+                "name": "Brand image resolves from this route",
+                "pass": true
+              },
+              {
+                "name": "CSV download resolves with the approved source values",
+                "pass": true
+              }
+            ],
+            "requests": [
+              {
+                "url": "/northstar/assets/brand.svg",
+                "file": "assets/brand.svg",
+                "status": 200
+              },
+              {
+                "url": "/northstar/onboarding.csv",
+                "file": "onboarding.csv",
+                "status": 200
+              }
+            ]
+          },
+          "checks": [
+            {
+              "name": "Earlier working files preserved separately",
+              "pass": true
+            },
+            {
+              "name": "Delivery failure observed and recovery verified",
+              "pass": true
+            },
+            {
+              "name": "Current local repair passes without removing the brand",
+              "pass": true
+            },
+            {
+              "name": "Package contains the page, brand, CSV and useful instructions",
+              "pass": true
+            },
+            {
+              "name": "Current repaired package staged and checked at the delivery route",
+              "pass": true
+            }
+          ]
+        },
+        "automationRun": {
+          "version": 1,
+          "simulation": true,
+          "actions": [
+            {
+              "action": "test"
+            },
+            {
+              "action": "config",
+              "value": "prompt:durable"
+            },
+            {
+              "action": "test"
+            },
+            {
+              "action": "enable"
+            },
+            {
+              "action": "advance",
+              "value": "5m"
+            },
+            {
+              "action": "source",
+              "value": "missing"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            },
+            {
+              "action": "source",
+              "value": "unavailable"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            },
+            {
+              "action": "source",
+              "value": "approved"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            },
+            {
+              "action": "host",
+              "value": "off"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            },
+            {
+              "action": "host",
+              "value": "on"
+            },
+            {
+              "action": "advance",
+              "value": "day"
+            }
+          ],
+          "config": {
+            "prompt": "durable",
+            "cadence": "weekdays",
+            "hour": "9",
+            "timezone": "America/Toronto",
+            "destination": "same",
+            "notifications": "changes",
+            "onFailure": "report"
+          },
+          "now": 1789736400000,
+          "runs": [
+            {
+              "id": 1,
+              "kind": "manual",
+              "time": 1789044900000,
+              "revision": 1,
+              "destination": "same",
+              "status": "unclear",
+              "notification": false,
+              "reason": "No defined source, acceptance check or reporting condition. Test a durable prompt.",
+              "source": null,
+              "report": null
+            },
+            {
+              "id": 2,
+              "kind": "manual",
+              "time": 1789044900000,
+              "revision": 2,
+              "destination": "same",
+              "status": "success",
+              "notification": false,
+              "reason": "Manual test saved a checked report. No scheduled notification.",
+              "source": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel"
+              },
+              "report": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel",
+                "finding": "clear",
+                "previous": null,
+                "recovered": false
+              }
+            },
+            {
+              "id": 3,
+              "kind": "scheduled",
+              "time": 1789045200000,
+              "revision": 2,
+              "destination": "same",
+              "status": "success",
+              "notification": false,
+              "reason": "Successful check; nothing actionable changed. Stay quiet.",
+              "source": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel"
+              },
+              "report": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel",
+                "finding": "clear",
+                "previous": "clear",
+                "recovered": false
+              }
+            },
+            {
+              "id": 4,
+              "kind": "scheduled",
+              "time": 1789131600000,
+              "revision": 2,
+              "destination": "same",
+              "status": "success",
+              "notification": true,
+              "reason": "Missing approval needs attention.",
+              "source": {
+                "client": "Northstar Studio",
+                "approval_owner": ""
+              },
+              "report": {
+                "client": "Northstar Studio",
+                "approval_owner": "",
+                "finding": "missing-approval",
+                "previous": "clear",
+                "recovered": false
+              }
+            },
+            {
+              "id": 5,
+              "kind": "scheduled",
+              "time": 1789390800000,
+              "revision": 2,
+              "destination": "same",
+              "status": "success",
+              "notification": false,
+              "reason": "Successful check; nothing actionable changed. Stay quiet.",
+              "source": {
+                "client": "Northstar Studio",
+                "approval_owner": ""
+              },
+              "report": {
+                "client": "Northstar Studio",
+                "approval_owner": "",
+                "finding": "missing-approval",
+                "previous": "missing-approval",
+                "recovered": false
+              }
+            },
+            {
+              "id": 6,
+              "kind": "scheduled",
+              "time": 1789477200000,
+              "revision": 2,
+              "destination": "same",
+              "status": "read-failed",
+              "notification": true,
+              "reason": "Current local CSV could not be read. Last successful baseline preserved.",
+              "source": null,
+              "report": null
+            },
+            {
+              "id": 7,
+              "kind": "scheduled",
+              "time": 1789563600000,
+              "revision": 2,
+              "destination": "same",
+              "status": "success",
+              "notification": true,
+              "reason": "Source access recovered.",
+              "source": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel"
+              },
+              "report": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel",
+                "finding": "clear",
+                "previous": "missing-approval",
+                "recovered": true
+              }
+            },
+            {
+              "id": 8,
+              "kind": "scheduled",
+              "time": 1789650000000,
+              "revision": 2,
+              "destination": "same",
+              "status": "host-unavailable",
+              "notification": false,
+              "reason": "Local computer/app unavailable. No task executed and no in-task notification was sent.",
+              "source": null,
+              "report": null
+            },
+            {
+              "id": 9,
+              "kind": "scheduled",
+              "time": 1789736400000,
+              "revision": 2,
+              "destination": "same",
+              "status": "success",
+              "notification": false,
+              "reason": "Successful check; nothing actionable changed. Stay quiet.",
+              "source": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel"
+              },
+              "report": {
+                "client": "Northstar Studio",
+                "approval_owner": "Nina Patel",
+                "finding": "clear",
+                "previous": "clear",
+                "recovered": false
+              }
+            }
+          ],
+          "baseline": {
+            "finding": "clear",
+            "source": {
+              "client": "Northstar Studio",
+              "approval_owner": "Nina Patel"
+            },
+            "time": 1789736400000
+          },
+          "checks": [
+            {
+              "name": "Tested weekday 09:00 Toronto setup returns to this task",
+              "pass": true
+            },
+            {
+              "name": "Unchanged successful run stayed quiet",
+              "pass": true
+            },
+            {
+              "name": "New missing approval produced a finding",
+              "pass": true
+            },
+            {
+              "name": "Read failure was reported without overwriting the baseline",
+              "pass": true
+            },
+            {
+              "name": "Recovered source produced a checked resolution",
+              "pass": true
+            },
+            {
+              "name": "Offline host was observed without claiming a task ran",
+              "pass": true
+            },
+            {
+              "name": "Recovered setup ran successfully and remains active",
+              "pass": true
+            }
+          ]
+        },
+        "toolWorkshop": {
+          "version": 1,
+          "simulation": true,
+          "actions": [
+            {
+              "action": "inspect-package",
+              "value": "source"
+            },
+            {
+              "action": "install",
+              "value": "source"
+            },
+            {
+              "action": "connect"
+            },
+            {
+              "action": "guidance"
+            },
+            {
+              "action": "load-skill",
+              "value": "example"
+            },
+            {
+              "action": "read"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "verify"
+            },
+            {
+              "action": "client",
+              "value": "harbor"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "read"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "verify"
+            },
+            {
+              "action": "load-skill",
+              "value": "reusable"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "verify"
+            },
+            {
+              "action": "client",
+              "value": "northstar"
+            },
+            {
+              "action": "run"
+            },
+            {
+              "action": "verify"
+            }
+          ],
+          "scope": "training",
+          "skill": "reusable",
+          "outputs": {
+            "northstar": {
+              "revision": 3,
+              "skill": "reusable",
+              "csv": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+              "checked": true,
+              "checks": [
+                {
+                  "name": "CSV schema",
+                  "pass": true
+                },
+                {
+                  "name": "client",
+                  "pass": true,
+                  "expected": "Northstar Studio",
+                  "actual": "Northstar Studio"
+                },
+                {
+                  "name": "kickoff",
+                  "pass": true,
+                  "expected": "scheduled",
+                  "actual": "scheduled"
+                },
+                {
+                  "name": "files",
+                  "pass": true,
+                  "expected": "requested",
+                  "actual": "requested"
+                },
+                {
+                  "name": "approval_owner",
+                  "pass": true,
+                  "expected": "Nina Patel",
+                  "actual": "Nina Patel"
+                }
+              ]
+            },
+            "harbor": {
+              "revision": 3,
+              "skill": "reusable",
+              "csv": "client,kickoff,files,approval_owner\nHarbor Analytics,requested,approved,Amir Chen\n",
+              "checked": true,
+              "checks": [
+                {
+                  "name": "CSV schema",
+                  "pass": true
+                },
+                {
+                  "name": "client",
+                  "pass": true,
+                  "expected": "Harbor Analytics",
+                  "actual": "Harbor Analytics"
+                },
+                {
+                  "name": "kickoff",
+                  "pass": true,
+                  "expected": "requested",
+                  "actual": "requested"
+                },
+                {
+                  "name": "files",
+                  "pass": true,
+                  "expected": "approved",
+                  "actual": "approved"
+                },
+                {
+                  "name": "approval_owner",
+                  "pass": true,
+                  "expected": "Amir Chen",
+                  "actual": "Amir Chen"
+                }
+              ]
+            }
+          },
+          "events": [
+            "Source Kit contains a document connector (list documents, read document) and two onboarding skills. No mail or document-write tool is included.",
+            "Source Kit installed in the rehearsal. Its connector still needs an account connection.",
+            "Connected to Training briefs: read-only access to Northstar and Harbor.",
+            "Read project guidance: preserve current source values, save the required CSV and verify the saved file.",
+            "Loaded full instructions: Copy the first checklist. Earlier output files retain their original procedure revision.",
+            "read_document returned the approved Northstar Studio brief. This copy is now available locally.",
+            "Saved northstar.csv using Copy the first checklist. The file has not been verified.",
+            "Saved file matches every source field. This procedure revision is checked for this client.",
+            "Selected Harbor Analytics. Its current source copy and saved output are shown separately.",
+            "No current brief has been retrieved for this client. Read it before running the procedure.",
+            "read_document returned the approved Harbor Analytics brief. This copy is now available locally.",
+            "Saved harbor.csv using Copy the first checklist. The file has not been verified.",
+            "Read-back found a mismatch: approval_owner expected Amir Chen, got Nina Patel.",
+            "Loaded full instructions: Onboarding from the current brief. Earlier output files retain their original procedure revision.",
+            "Saved harbor.csv using Onboarding from the current brief. The file has not been verified.",
+            "Saved file matches every source field. This procedure revision is checked for this client.",
+            "Selected Northstar Studio. Its current source copy and saved output are shown separately.",
+            "Saved northstar.csv using Onboarding from the current brief. The file has not been verified.",
+            "Saved file matches every source field. This procedure revision is checked for this client."
+          ],
+          "checks": [
+            {
+              "name": "Source Kit inspected and connected to Training briefs",
+              "pass": true
+            },
+            {
+              "name": "Project rules and reusable skill read",
+              "pass": true
+            },
+            {
+              "name": "The example’s hidden defect was reproduced",
+              "pass": true
+            },
+            {
+              "name": "Northstar Studio verified with the current procedure",
+              "pass": true
+            },
+            {
+              "name": "Harbor Analytics verified with the current procedure",
+              "pass": true
+            }
+          ]
+        },
+        "steeringRun": {
+          "version": 1,
+          "simulation": true,
+          "actions": [
+            {
+              "action": "send-steer",
+              "value": "status"
+            },
+            {
+              "action": "advance"
+            },
+            {
+              "action": "send-steer",
+              "value": "french"
+            },
+            {
+              "action": "send-queue",
+              "value": "email"
+            },
+            {
+              "action": "advance"
+            },
+            {
+              "action": "advance"
+            },
+            {
+              "action": "advance"
+            },
+            {
+              "action": "advance"
+            },
+            {
+              "action": "advance"
+            }
+          ],
+          "checklist": {
+            "version": 1,
+            "language": "fr",
+            "text": "# Accueil — Northstar Studio\n\n- Réunion de lancement : planifiée\n- Accès aux fichiers : demandé\n- Responsable de validation : Nina Patel\n",
+            "checked": true
+          },
+          "draft": {
+            "status": "DRAFT",
+            "language": "fr",
+            "sourceVersion": 1,
+            "text": "Bonjour Nina,\n\nVoici la liste d’accueil vérifiée pour Northstar Studio. La réunion de lancement est planifiée et l’accès aux fichiers a été demandé.\n\n# Accueil — Northstar Studio\n\n- Réunion de lancement : planifiée\n- Accès aux fichiers : demandé\n- Responsable de validation : Nina Patel\n"
+          },
+          "events": [
+            "Run 1 started: prepare the onboarding checklist.",
+            "Message delivered to the active run. It will be read at the next work boundary.",
+            "Status: source not yet written into a checklist; current run remains active. 0 queued message(s). The deliverable is unchanged.",
+            "Read the fictional source: Northstar Studio, scheduled kickoff, requested file access, Nina Patel.",
+            "Message delivered to the active run. It will be read at the next work boundary.",
+            "Message queued. The current run continues unchanged.",
+            "French correction reached the active checklist run. The deliverable and source facts are preserved.",
+            "Saved checklist revision 1 in French. It still needs a check.",
+            "Checklist checked. The current run finished; queued messages can now start a new run.",
+            "Run 2 started from the queue: email.",
+            "Saved an unsent email draft from checked checklist revision 1.",
+            "Email draft read back. The follow-up run finished; no message was sent."
+          ],
+          "checks": [
+            {
+              "name": "Status preserved the work",
+              "pass": true
+            },
+            {
+              "name": "French correction reached the active checklist",
+              "pass": true
+            },
+            {
+              "name": "French checklist is checked",
+              "pass": true
+            },
+            {
+              "name": "Queued follow-up uses the latest checked source",
+              "pass": true
+            },
+            {
+              "name": "Draft is unsent and both runs are finished",
+              "pass": true
+            }
+          ]
+        },
+        "reviewRepair": {
+          "version": 1,
+          "simulation": true,
+          "revision": 2,
+          "patch": {
+            "owner": true,
+            "files": true,
+            "title": false
+          },
+          "code": "export function prepareDelivery(row) {\n  return {\n    ...row,\n    approval_owner: row.approval_owner || 'Nina Patel',\n    files: row.files,\n    title: 'Delivery checklist'\n  };\n}\n",
+          "runs": [
+            {
+              "id": 1,
+              "revision": 0,
+              "suite": "owner",
+              "patch": {
+                "owner": false,
+                "files": false,
+                "title": false
+              },
+              "items": [
+                {
+                  "id": "missing",
+                  "name": "Missing owner",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "",
+                    "files": "requested"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "approval_owner": "Nina Patel"
+                  },
+                  "checks": [
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Nina Patel",
+                      "actual": "Nina Patel"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "revision": 0,
+              "suite": "full",
+              "patch": {
+                "owner": false,
+                "files": false,
+                "title": false
+              },
+              "items": [
+                {
+                  "id": "missing",
+                  "name": "Missing owner",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "",
+                    "files": "requested"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "requested",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Nina Patel",
+                      "actual": "Nina Patel"
+                    },
+                    {
+                      "field": "files",
+                      "pass": false,
+                      "expected": "requested",
+                      "actual": ""
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                },
+                {
+                  "id": "assigned",
+                  "name": "Assigned owner",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "granted"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "granted",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": false,
+                      "expected": "Omar Chen",
+                      "actual": "Nina Patel"
+                    },
+                    {
+                      "field": "files",
+                      "pass": false,
+                      "expected": "granted",
+                      "actual": ""
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                },
+                {
+                  "id": "extra",
+                  "name": "Other fields",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "",
+                    "files": "pending",
+                    "delivery": "September handoff",
+                    "priority": "high"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "",
+                    "delivery": "September handoff",
+                    "priority": "high",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "pending",
+                    "delivery": "September handoff",
+                    "priority": "high",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Nina Patel",
+                      "actual": "Nina Patel"
+                    },
+                    {
+                      "field": "files",
+                      "pass": false,
+                      "expected": "pending",
+                      "actual": ""
+                    },
+                    {
+                      "field": "delivery",
+                      "pass": true,
+                      "expected": "September handoff",
+                      "actual": "September handoff"
+                    },
+                    {
+                      "field": "priority",
+                      "pass": true,
+                      "expected": "high",
+                      "actual": "high"
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "revision": 1,
+              "suite": "full",
+              "patch": {
+                "owner": true,
+                "files": false,
+                "title": false
+              },
+              "items": [
+                {
+                  "id": "missing",
+                  "name": "Missing owner",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "",
+                    "files": "requested"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "requested",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Nina Patel",
+                      "actual": "Nina Patel"
+                    },
+                    {
+                      "field": "files",
+                      "pass": false,
+                      "expected": "requested",
+                      "actual": ""
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                },
+                {
+                  "id": "assigned",
+                  "name": "Assigned owner",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "granted"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "granted",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Omar Chen",
+                      "actual": "Omar Chen"
+                    },
+                    {
+                      "field": "files",
+                      "pass": false,
+                      "expected": "granted",
+                      "actual": ""
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                },
+                {
+                  "id": "extra",
+                  "name": "Other fields",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "",
+                    "files": "pending",
+                    "delivery": "September handoff",
+                    "priority": "high"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "",
+                    "delivery": "September handoff",
+                    "priority": "high",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "pending",
+                    "delivery": "September handoff",
+                    "priority": "high",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Nina Patel",
+                      "actual": "Nina Patel"
+                    },
+                    {
+                      "field": "files",
+                      "pass": false,
+                      "expected": "pending",
+                      "actual": ""
+                    },
+                    {
+                      "field": "delivery",
+                      "pass": true,
+                      "expected": "September handoff",
+                      "actual": "September handoff"
+                    },
+                    {
+                      "field": "priority",
+                      "pass": true,
+                      "expected": "high",
+                      "actual": "high"
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "revision": 2,
+              "suite": "full",
+              "patch": {
+                "owner": true,
+                "files": true,
+                "title": false
+              },
+              "items": [
+                {
+                  "id": "missing",
+                  "name": "Missing owner",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "",
+                    "files": "requested"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "requested",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "requested",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Nina Patel",
+                      "actual": "Nina Patel"
+                    },
+                    {
+                      "field": "files",
+                      "pass": true,
+                      "expected": "requested",
+                      "actual": "requested"
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                },
+                {
+                  "id": "assigned",
+                  "name": "Assigned owner",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "granted"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "granted",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Omar Chen",
+                    "files": "granted",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Omar Chen",
+                      "actual": "Omar Chen"
+                    },
+                    {
+                      "field": "files",
+                      "pass": true,
+                      "expected": "granted",
+                      "actual": "granted"
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                },
+                {
+                  "id": "extra",
+                  "name": "Other fields",
+                  "input": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "",
+                    "files": "pending",
+                    "delivery": "September handoff",
+                    "priority": "high"
+                  },
+                  "actual": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "pending",
+                    "delivery": "September handoff",
+                    "priority": "high",
+                    "title": "Delivery checklist"
+                  },
+                  "expected": {
+                    "client": "Northstar Studio",
+                    "approval_owner": "Nina Patel",
+                    "files": "pending",
+                    "delivery": "September handoff",
+                    "priority": "high",
+                    "title": "Delivery checklist"
+                  },
+                  "checks": [
+                    {
+                      "field": "client",
+                      "pass": true,
+                      "expected": "Northstar Studio",
+                      "actual": "Northstar Studio"
+                    },
+                    {
+                      "field": "approval_owner",
+                      "pass": true,
+                      "expected": "Nina Patel",
+                      "actual": "Nina Patel"
+                    },
+                    {
+                      "field": "files",
+                      "pass": true,
+                      "expected": "pending",
+                      "actual": "pending"
+                    },
+                    {
+                      "field": "delivery",
+                      "pass": true,
+                      "expected": "September handoff",
+                      "actual": "September handoff"
+                    },
+                    {
+                      "field": "priority",
+                      "pass": true,
+                      "expected": "high",
+                      "actual": "high"
+                    },
+                    {
+                      "field": "title",
+                      "pass": true,
+                      "expected": "Delivery checklist",
+                      "actual": "Delivery checklist"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "requests": [
+            {
+              "revision": 0,
+              "lines": [
+                "owner"
+              ],
+              "text": "At delivery.mjs:4, use Nina Patel only when approval_owner is empty; preserve an assigned owner."
+            },
+            {
+              "revision": 1,
+              "lines": [
+                "files"
+              ],
+              "text": "At delivery.mjs:5, preserve the input file-access value instead of clearing it."
+            }
+          ],
+          "inspected": 2,
+          "currentId": 4
+        },
+        "permissionReview": {
+          "version": 1,
+          "simulation": true,
+          "profile": "workspace",
+          "approval": "ask",
+          "network": false,
+          "connected": true,
+          "source": {
+            "path": "/reference/northstar/approved.csv",
+            "text": "client,approval_owner,email,kickoff,files\nNorthstar Studio,Nina Patel,nina@northstar.example,scheduled,requested\n",
+            "via": "once",
+            "profile": "workspace"
+          },
+          "draft": {
+            "id": "training-draft-northstar",
+            "to": "nina@northstar.example",
+            "subject": "Northstar onboarding checklist",
+            "body": "Hi Nina,\n\nThe Northstar Studio kickoff is scheduled and file access has been requested. You are the approval owner for delivery.\n\nPlease review the onboarding checklist.\n",
+            "status": "DRAFT"
+          },
+          "events": [
+            "file-denied",
+            "file-denied",
+            "file-pending",
+            "file-declined",
+            "file-pending",
+            "file-once",
+            "mail-denied",
+            "draft-saved",
+            "send-denied",
+            "check-pass"
+          ],
+          "checks": [
+            {
+              "name": "Approved source read",
+              "pass": true,
+              "detail": "Facts came from the approved Northstar CSV."
+            },
+            {
+              "name": "Draft read back from connected app",
+              "pass": true,
+              "detail": "The mail app is connected for verification."
+            },
+            {
+              "name": "Recipient and content match",
+              "pass": true,
+              "detail": "Nina Patel; scheduled kickoff; file access requested."
+            },
+            {
+              "name": "Requested deliverable remains a draft",
+              "pass": true,
+              "detail": "The user requested a draft. No send operation is authorized by this training brief."
+            },
+            {
+              "name": "Access matches the job",
+              "pass": true,
+              "detail": "No all-files scope, unused command network access or unresolved permission request is needed for this job."
+            }
+          ]
+        },
+        "modelReview": {
+          "version": 1,
+          "simulation": true,
+          "jobs": [
+            {
+              "id": "label",
+              "accepted": {
+                "id": 2,
+                "revision": 3,
+                "config": {
+                  "model": "luna",
+                  "effort": "low"
+                },
+                "inputs": {
+                  "replacement": "Client",
+                  "scope": "entry",
+                  "patch": "after",
+                  "connected": false,
+                  "source": "cached"
+                },
+                "result": {
+                  "name": "field.json",
+                  "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Label equals Client",
+                    "pass": true,
+                    "detail": "Saved label: Client"
+                  },
+                  {
+                    "name": "Field contract preserved",
+                    "pass": true,
+                    "detail": "The field name is client and required stays true."
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 1,
+                  "config": {
+                    "model": "terra",
+                    "effort": "medium"
+                  },
+                  "inputs": {
+                    "replacement": "Client",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "field.json",
+                    "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Label equals Client",
+                      "pass": true,
+                      "detail": "Saved label: Client"
+                    },
+                    {
+                      "name": "Field contract preserved",
+                      "pass": true,
+                      "detail": "The field name is client and required stays true."
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 3,
+                  "config": {
+                    "model": "luna",
+                    "effort": "low"
+                  },
+                  "inputs": {
+                    "replacement": "Client",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "field.json",
+                    "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Label equals Client",
+                      "pass": true,
+                      "detail": "Saved label: Client"
+                    },
+                    {
+                      "name": "Field contract preserved",
+                      "pass": true,
+                      "detail": "The field name is client and required stays true."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "billing",
+              "accepted": {
+                "id": 2,
+                "revision": 4,
+                "config": {
+                  "model": "astra",
+                  "effort": "high"
+                },
+                "inputs": {
+                  "replacement": "Clinet",
+                  "scope": "all",
+                  "patch": "before",
+                  "connected": false,
+                  "source": "cached"
+                },
+                "result": {
+                  "name": "totals.csv",
+                  "text": "case,total\nStandard order,110.00\nMember order,88.00\nLarger member order,220.00\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Standard order",
+                    "pass": true,
+                    "detail": "Expected 110.00 · saved 110.00"
+                  },
+                  {
+                    "name": "Member order",
+                    "pass": true,
+                    "detail": "Expected 88.00 · saved 88.00"
+                  },
+                  {
+                    "name": "Larger member order",
+                    "pass": true,
+                    "detail": "Expected 220.00 · saved 220.00"
+                  },
+                  {
+                    "name": "Call path inspected",
+                    "pass": true,
+                    "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 2,
+                  "config": {
+                    "model": "astra",
+                    "effort": "high"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "totals.csv",
+                    "text": "case,total\nStandard order,110.00\nMember order,90.00\nLarger member order,225.00\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Standard order",
+                      "pass": true,
+                      "detail": "Expected 110.00 · saved 110.00"
+                    },
+                    {
+                      "name": "Member order",
+                      "pass": false,
+                      "detail": "Expected 88.00 · saved 90.00"
+                    },
+                    {
+                      "name": "Larger member order",
+                      "pass": false,
+                      "detail": "Expected 220.00 · saved 225.00"
+                    },
+                    {
+                      "name": "Call path inspected",
+                      "pass": false,
+                      "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 4,
+                  "config": {
+                    "model": "astra",
+                    "effort": "high"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "all",
+                    "patch": "before",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "totals.csv",
+                    "text": "case,total\nStandard order,110.00\nMember order,88.00\nLarger member order,220.00\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Standard order",
+                      "pass": true,
+                      "detail": "Expected 110.00 · saved 110.00"
+                    },
+                    {
+                      "name": "Member order",
+                      "pass": true,
+                      "detail": "Expected 88.00 · saved 88.00"
+                    },
+                    {
+                      "name": "Larger member order",
+                      "pass": true,
+                      "detail": "Expected 220.00 · saved 220.00"
+                    },
+                    {
+                      "name": "Call path inspected",
+                      "pass": true,
+                      "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sheet",
+              "accepted": {
+                "id": 3,
+                "revision": 5,
+                "config": {
+                  "model": "sol",
+                  "effort": "medium"
+                },
+                "inputs": {
+                  "replacement": "Clinet",
+                  "scope": "entry",
+                  "patch": "after",
+                  "connected": true,
+                  "source": "current"
+                },
+                "result": {
+                  "name": "onboarding-total.json",
+                  "text": "{\n  \"source\": \"2026-09-10\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 3\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 2\n    },\n    {\n      \"client\": \"Hearth\",\n      \"open\": 4\n    }\n  ],\n  \"total\": 9\n}\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Sheet read succeeded",
+                    "pass": true,
+                    "detail": "Model and effort settings cannot supply a missing connection."
+                  },
+                  {
+                    "name": "Current source",
+                    "pass": true,
+                    "detail": "Required September 10 · read 2026-09-10"
+                  },
+                  {
+                    "name": "Total matches current rows",
+                    "pass": true,
+                    "detail": "Expected 3 + 2 + 4 = 9 · saved 9"
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 2,
+                  "config": {
+                    "model": "sol",
+                    "effort": "xhigh"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "No file saved",
+                    "text": "READ FAILED: onboarding sheet connection unavailable. No rows were read.",
+                    "blocked": true
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": false,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": false,
+                      "detail": "Required September 10 · read nothing"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": false,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved nothing"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 3,
+                  "config": {
+                    "model": "sol",
+                    "effort": "xhigh"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": true,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "onboarding-total.json",
+                    "text": "{\n  \"source\": \"2026-08-12\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 1\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 1\n    }\n  ],\n  \"total\": 2\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": true,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": false,
+                      "detail": "Required September 10 · read 2026-08-12"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": false,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved 2"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "revision": 5,
+                  "config": {
+                    "model": "sol",
+                    "effort": "medium"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": true,
+                    "source": "current"
+                  },
+                  "result": {
+                    "name": "onboarding-total.json",
+                    "text": "{\n  \"source\": \"2026-09-10\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 3\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 2\n    },\n    {\n      \"client\": \"Hearth\",\n      \"open\": 4\n    }\n  ],\n  \"total\": 9\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": true,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": true,
+                      "detail": "Required September 10 · read 2026-09-10"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": true,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved 9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "contextReview": {
+          "version": 1,
+          "sources": [
+            "brief",
+            "sample",
+            "image",
+            "agents"
+          ],
+          "authority": "brief",
+          "target": "approval_owner",
+          "artifact": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "verified": true,
+          "runs": 3
+        },
+        "tasks": [
+          {
+            "id": "onboarding-review",
+            "title": "Onboarding review",
+            "brief": "Review the onboarding checklist, identify missing approval steps, and verify each requirement against the client brief.",
+            "effort": "high",
+            "pinned": true,
+            "status": "ready"
+          }
+        ]
+      },
+      "settings": {
+        "audio": {
+          "voice": 0.9,
+          "music": 0.22,
+          "ambience": 0.2,
+          "effects": 0.55
+        },
+        "muted": true,
+        "reduced": false,
+        "quality": "balanced"
+      }
+    },
+    "world": {
+      "qualityAdvice": {
+        "quality": "balanced",
+        "status": "observing",
+        "windows": 0,
+        "lastWindow": null
+      },
+      "presented": {
+        "active": 1,
+        "transition": 0.02135
+      },
+      "residency": {
+        "active": 1,
+        "ready": true,
+        "heldFrames": 3,
+        "holdingSince": null,
+        "events": [
+          {
+            "at": 1344.5999999940395,
+            "kind": "load-start",
+            "id": "tool"
+          },
+          {
+            "at": 1345.4000000059605,
+            "kind": "load-start",
+            "id": "steering"
+          },
+          {
+            "at": 1345.9000000059605,
+            "kind": "load-start",
+            "id": "review"
+          },
+          {
+            "at": 1346.2999999821186,
+            "kind": "load-start",
+            "id": "permission"
+          },
+          {
+            "at": 1346.5999999940395,
+            "kind": "load-start",
+            "id": "model"
+          },
+          {
+            "at": 1347,
+            "kind": "load-start",
+            "id": "context"
+          },
+          {
+            "at": 1347.5,
+            "kind": "load-start",
+            "id": "branch"
+          },
+          {
+            "at": 1348,
+            "kind": "load-start",
+            "id": "harness"
+          },
+          {
+            "at": 1389.0999999940395,
+            "kind": "load-ready",
+            "id": "tool",
+            "durationMs": 44.5
+          },
+          {
+            "at": 1401,
+            "kind": "load-ready",
+            "id": "steering",
+            "durationMs": 55.599999994039536
+          },
+          {
+            "at": 1415.0999999940395,
+            "kind": "load-ready",
+            "id": "review",
+            "durationMs": 69.19999998807907
+          },
+          {
+            "at": 1433.0999999940395,
+            "kind": "load-ready",
+            "id": "permission",
+            "durationMs": 86.80000001192093
+          },
+          {
+            "at": 1442.7999999821186,
+            "kind": "load-ready",
+            "id": "context",
+            "durationMs": 95.7999999821186
+          },
+          {
+            "at": 1449.5,
+            "kind": "load-ready",
+            "id": "branch",
+            "durationMs": 102
+          },
+          {
+            "at": 1490.7999999821186,
+            "kind": "load-ready",
+            "id": "harness",
+            "durationMs": 142.7999999821186
+          },
+          {
+            "at": 1526.7999999821186,
+            "kind": "load-ready",
+            "id": "model",
+            "durationMs": 180.19999998807907
+          },
+          {
+            "at": 3850.4000000059605,
+            "kind": "load-start",
+            "id": "handoff"
+          },
+          {
+            "at": 3851.5,
+            "kind": "view-held"
+          },
+          {
+            "at": 3873.9000000059605,
+            "kind": "load-ready",
+            "id": "handoff",
+            "durationMs": 23.5
+          },
+          {
+            "at": 3877.0999999940395,
+            "kind": "view-released",
+            "durationMs": 25.599999994039536
+          },
+          {
+            "at": 4462.299999982119,
+            "kind": "release",
+            "id": "model"
+          },
+          {
+            "at": 4463.0999999940395,
+            "kind": "release",
+            "id": "context"
+          },
+          {
+            "at": 4464.0999999940395,
+            "kind": "release",
+            "id": "harness"
+          },
+          {
+            "at": 5059.5,
+            "kind": "load-start",
+            "id": "automation"
+          },
+          {
+            "at": 5060.5,
+            "kind": "view-held"
+          },
+          {
+            "at": 5080.4000000059605,
+            "kind": "load-ready",
+            "id": "automation",
+            "durationMs": 20.900000005960464
+          },
+          {
+            "at": 5081.199999988079,
+            "kind": "view-released",
+            "durationMs": 20.69999998807907
+          },
+          {
+            "at": 5426.5,
+            "kind": "release",
+            "id": "permission"
+          },
+          {
+            "at": 6193.5999999940395,
+            "kind": "release",
+            "id": "branch"
+          },
+          {
+            "at": 6460,
+            "kind": "release",
+            "id": "steering"
+          },
+          {
+            "at": 6760.199999988079,
+            "kind": "release",
+            "id": "review"
+          },
+          {
+            "at": 7596.699999988079,
+            "kind": "release",
+            "id": "tool"
+          },
+          {
+            "at": 7978.0999999940395,
+            "kind": "load-start",
+            "id": "model"
+          },
+          {
+            "at": 7978.0999999940395,
+            "kind": "factory-reuse",
+            "id": "model"
+          },
+          {
+            "at": 7994.799999982119,
+            "kind": "load-ready",
+            "id": "model",
+            "durationMs": 16.69999998807907
+          },
+          {
+            "at": 7994.799999982119,
+            "kind": "load-start",
+            "id": "context"
+          },
+          {
+            "at": 7994.799999982119,
+            "kind": "factory-reuse",
+            "id": "context"
+          },
+          {
+            "at": 8002.5,
+            "kind": "load-ready",
+            "id": "context",
+            "durationMs": 7.700000017881393
+          },
+          {
+            "at": 8002.5,
+            "kind": "load-start",
+            "id": "harness"
+          },
+          {
+            "at": 8002.5,
+            "kind": "factory-reuse",
+            "id": "harness"
+          },
+          {
+            "at": 8018.799999982119,
+            "kind": "load-ready",
+            "id": "harness",
+            "durationMs": 16.299999982118607
+          },
+          {
+            "at": 8710.59999999404,
+            "kind": "release",
+            "id": "handoff"
+          },
+          {
+            "at": 8711.5,
+            "kind": "release",
+            "id": "automation"
+          }
+        ],
+        "entries": [
+          {
+            "id": "capstone",
+            "station": 11,
+            "enabled": false,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": false,
+            "pending": false,
+            "loads": 0,
+            "unloads": 0,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "handoff",
+            "station": 11,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "automation",
+            "station": 10,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "tool",
+            "station": 8,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "steering",
+            "station": 6,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "review",
+            "station": 7,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "permission",
+            "station": 3,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "model",
+            "station": 2,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 2,
+            "unloads": 1,
+            "error": null,
+            "resources": {
+              "meshes": 18,
+              "materials": 14,
+              "textures": 8
+            }
+          },
+          {
+            "id": "context",
+            "station": 1,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 2,
+            "unloads": 1,
+            "error": null,
+            "resources": {
+              "meshes": 14,
+              "materials": 9,
+              "textures": 7
+            }
+          },
+          {
+            "id": "branch",
+            "station": 5,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "harness",
+            "station": 0,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 2,
+            "unloads": 1,
+            "error": null,
+            "resources": {
+              "meshes": 15,
+              "materials": 12,
+              "textures": 4
+            }
+          }
+        ]
+      },
+      "renderAudit": null,
+      "ready": true,
+      "renderSize": {
+        "width": 1440,
+        "height": 900,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "dpr": 1
+      },
+      "lastPick": null,
+      "active": 1,
+      "quality": "balanced",
+      "paused": false,
+      "reduced": false,
+      "mascotDetail": {
+        "batching": {
+          "drawsSavedPerPass": 13,
+          "batches": [
+            {
+              "id": 421,
+              "name": "Guide batch: Porcelain glyph",
+              "sources": [
+                "Left finger 0",
+                "Left finger 1",
+                "Left finger 2",
+                "Left palm",
+                "Left thumb",
+                "Right finger 0",
+                "Right finger 1",
+                "Right finger 2",
+                "Right palm",
+                "Right thumb",
+                "White prompt chevron",
+                "White prompt underscore"
+              ],
+              "triangles": 7008,
+              "sourceTriangles": 7008,
+              "refreshes": 2
+            },
+            {
+              "id": 423,
+              "name": "Guide batch: Satin titanium",
+              "sources": [
+                "Left floating forearm",
+                "Right floating forearm"
+              ],
+              "triangles": 3128,
+              "sourceTriangles": 3128,
+              "refreshes": 1
+            },
+            {
+              "id": 425,
+              "name": "Guide batch: Indigo joints",
+              "sources": [
+                "Left wrist",
+                "Right wrist"
+              ],
+              "triangles": 1216,
+              "sourceTriangles": 1216,
+              "refreshes": 2
+            }
+          ],
+          "sourceGeometryRetained": true,
+          "shadowProjectionUsesOriginalBounds": true
+        },
+        "requested": "balanced",
+        "active": "balanced",
+        "loading": false,
+        "error": "",
+        "triangles": 18516,
+        "cached": [
+          "high",
+          "balanced"
+        ],
+        "meshIds": [
+          242,
+          250,
+          254,
+          257,
+          260,
+          264,
+          267,
+          270,
+          274,
+          277,
+          280,
+          283,
+          286,
+          289,
+          292,
+          295,
+          298
+        ],
+        "skeletonIds": [
+          245
+        ],
+        "pose": [
+          {
+            "name": "Core",
+            "matrix": [
+              0.9999936819076538,
+              -0.000005676127329934388,
+              0.0035614799708127975,
+              0,
+              -0.000005676127329934388,
+              0.9999949336051941,
+              0.0031874922569841146,
+              0,
+              -0.0035614799708127975,
+              -0.0031874922569841146,
+              0.9999885559082031,
+              0,
+              0,
+              1.7999999523162842,
+              0.0032264795154333115,
+              1
+            ]
+          },
+          {
+            "name": "Left",
+            "matrix": [
+              -0.24709782004356384,
+              0.1398528665304184,
+              -0.9588446617126465,
+              0,
+              -0.9580241441726685,
+              0.11318894475698471,
+              0.26339590549468994,
+              0,
+              0.14536698162555695,
+              0.9836812615394592,
+              0.10601411014795303,
+              0,
+              -1.0298868417739868,
+              1.850101113319397,
+              -0.030282141640782356,
+              1
+            ]
+          },
+          {
+            "name": "Right",
+            "matrix": [
+              -0.24647778272628784,
+              -0.19011190533638,
+              0.9503191113471985,
+              0,
+              0.9540254473686218,
+              0.12495527416467667,
+              0.2724364101886749,
+              0,
+              -0.17054076492786407,
+              0.9737780690193176,
+              0.15057288110256195,
+              0,
+              1.030099868774414,
+              1.850089430809021,
+              -0.022945495322346687,
+              1
+            ]
+          }
+        ],
+        "sceneMaterials": 91,
+        "sceneTextures": 47,
+        "sceneGeometries": 141,
+        "sceneSkeletons": 1,
+        "sceneAnimationGroups": 12
+      },
+      "architecture": {
+        "staticShadows": {
+          "batches": [
+            {
+              "id": 431,
+              "sources": [
+                20,
+                23,
+                26,
+                29,
+                32,
+                36,
+                39,
+                43,
+                46,
+                50,
+                53,
+                56,
+                59,
+                62,
+                65,
+                68,
+                71,
+                74,
+                77,
+                81,
+                84,
+                87,
+                90,
+                93
+              ],
+              "triangles": 134942,
+              "sourceTriangles": 134942,
+              "vertexBytes": 3920952,
+              "indexBytes": 1619304,
+              "refreshes": 2,
+              "layerMask": 0
+            },
+            {
+              "id": 433,
+              "sources": [
+                155,
+                157,
+                159,
+                209,
+                211,
+                213
+              ],
+              "triangles": 10122,
+              "sourceTriangles": 10122,
+              "vertexBytes": 122760,
+              "indexBytes": 121464,
+              "refreshes": 1,
+              "layerMask": 0
+            }
+          ],
+          "drawsSaved": 28,
+          "additionalBufferBytes": 5784480,
+          "projectionUsesOriginalBounds": true
+        },
+        "detail": {
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 134942,
+          "cached": true,
+          "meshIds": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            36,
+            39,
+            43,
+            46,
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            77,
+            81,
+            84,
+            87,
+            90,
+            93
+          ]
+        },
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "capstone": {
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "handoff": {
+        "verified": false,
+        "deliveredId": 1,
+        "preserved": false,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "automation": {
+        "verified": false,
+        "enabled": false,
+        "hourAngle": -4.6687557490848315,
+        "targetHour": -4.6687557490848315,
+        "runCount": 0,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "tools": {
+        "verified": false,
+        "connected": false,
+        "skillLoaded": false,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "steering": {
+        "verified": false,
+        "queueCount": 0,
+        "activeRun": 1,
+        "carriageX": -0.74,
+        "carriageTargetX": -0.74,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "review": {
+        "verified": false,
+        "revision": 0,
+        "scanActive": false,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "permissions": {
+        "verified": false,
+        "sourceLoaded": false,
+        "connected": false,
+        "draft": null,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "models": {
+        "job": "label",
+        "verified": false,
+        "selected": "terra",
+        "effort": "medium",
+        "kept": 0,
+        "controls": [
+          {
+            "id": "label",
+            "action": "job",
+            "screen": {
+              "x": 1485.0121351242692,
+              "y": 404.4712941244714
+            }
+          },
+          {
+            "id": "billing",
+            "action": "job",
+            "screen": {
+              "x": 1637.8342374847325,
+              "y": 412.1193900987351
+            }
+          },
+          {
+            "id": "sheet",
+            "action": "job",
+            "screen": {
+              "x": 1801.310920059094,
+              "y": 420.30070247810465
+            }
+          },
+          {
+            "id": "astra",
+            "action": "model",
+            "screen": {
+              "x": 1444.2174379916298,
+              "y": 480.77800238178816
+            }
+          },
+          {
+            "id": "sol",
+            "action": "model",
+            "screen": {
+              "x": 1555.8985028155423,
+              "y": 488.313351918514
+            }
+          },
+          {
+            "id": "terra",
+            "action": "model",
+            "screen": {
+              "x": 1676.0579142142983,
+              "y": 487.39435711414814
+            }
+          },
+          {
+            "id": "luna",
+            "action": "model",
+            "screen": {
+              "x": 1796.7760726500865,
+              "y": 504.5658535142164
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "harness": {
+        "selected": [],
+        "assembled": false,
+        "stage": 0,
+        "ports": [
+          {
+            "id": "context",
+            "amount": 0,
+            "screen": {
+              "x": 423.4421580937152,
+              "y": 390.8811972346193
+            }
+          },
+          {
+            "id": "model",
+            "amount": 1,
+            "screen": {
+              "x": 547.2878522974719,
+              "y": 398.48812345170495
+            }
+          },
+          {
+            "id": "tools",
+            "amount": 0,
+            "screen": {
+              "x": 680.2866985535568,
+              "y": 406.6572601902258
+            }
+          },
+          {
+            "id": "verify",
+            "amount": 0,
+            "screen": {
+              "x": 606.8221269161553,
+              "y": 509.8371578005198
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "context": {
+        "selected": [],
+        "verified": false,
+        "cards": [
+          {
+            "id": "brief",
+            "y": 2.09,
+            "screen": {
+              "x": 903.7405126954121,
+              "y": 509.48390281281024
+            }
+          },
+          {
+            "id": "sample",
+            "y": 2.09,
+            "screen": {
+              "x": 1001.2971528302063,
+              "y": 517.6736433184662
+            }
+          },
+          {
+            "id": "image",
+            "y": 2.09,
+            "screen": {
+              "x": 1103.7876585011218,
+              "y": 526.2775747841102
+            }
+          },
+          {
+            "id": "agents",
+            "y": 2.92,
+            "screen": {
+              "x": 915.2934494121693,
+              "y": 406.66529657935206
+            }
+          },
+          {
+            "id": "old",
+            "y": 2.92,
+            "screen": {
+              "x": 1015.872812646672,
+              "y": 412.47737471256437
+            }
+          },
+          {
+            "id": "note",
+            "y": 2.92,
+            "screen": {
+              "x": 1121.6849526213873,
+              "y": 418.5918340330274
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "branches": {
+        "mode": "shared",
+        "collision": false,
+        "verified": false,
+        "chosen": null,
+        "cartridges": [
+          {
+            "id": "a",
+            "x": -0.22
+          },
+          {
+            "id": "b",
+            "x": 0.22
+          }
+        ],
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "drawCalls": 61,
+      "renderFrameMs": 2.5999999940395355,
+      "meshes": 131,
+      "triangles": 344370,
+      "animations": [
+        "Beckon",
+        "Celebrate",
+        "Correct",
+        "Greet",
+        "Idle",
+        "Inspect",
+        "Point",
+        "PointLeft",
+        "Return",
+        "Think",
+        "Travel",
+        "Wait"
+      ],
+      "animationPlaying": true,
+      "gesture": "Travel",
+      "blending": true,
+      "transition": 0.02135,
+      "frameMs": [
+        0,
+        34.39999997615814,
+        42.60000002384186,
+        12,
+        10.399999976158142,
+        16.400000005960464,
+        19.400000005960464,
+        16,
+        15.599999994039536,
+        221.30000001192093,
+        169.09999999403954,
+        13,
+        26.19999998807907,
+        17.30000001192093,
+        11.099999994039536,
+        9.300000011920929,
+        16.69999998807907,
+        22,
+        10.400000005960464,
+        32.400000005960464,
+        5.5,
+        12.199999988079071,
+        16.80000001192093,
+        15.5,
+        18,
+        16.099999994039536,
+        15.5,
+        31.900000005960464,
+        9.199999988079071,
+        8.599999994039536,
+        18.30000001192093,
+        16.900000005960464,
+        16.900000005960464,
+        28.19999998807907,
+        5.5999999940395355,
+        14.099999994039536,
+        16.700000017881393,
+        32.19999998807907,
+        5.4000000059604645,
+        13.5,
+        16,
+        31.69999998807907,
+        5.300000011920929,
+        12.5,
+        16.69999998807907,
+        36,
+        6,
+        8.300000011920929,
+        16.5,
+        16.69999998807907,
+        16.400000005960464,
+        37.80000001192093,
+        7.5,
+        6.4000000059604645,
+        15.099999994039536,
+        16.69999998807907,
+        16.30000001192093,
+        17.099999994039536,
+        34.099999994039536,
+        5.5999999940395355,
+        10.100000023841858,
+        16.799999982118607,
+        16.700000017881393,
+        16.599999994039536,
+        16.69999998807907,
+        17.099999994039536,
+        35.400000005960464,
+        5.700000017881393,
+        8.5,
+        16.799999982118607,
+        16.400000005960464,
+        17.099999994039536,
+        17.099999994039536,
+        15.700000017881393,
+        27.69999998807907,
+        5.700000017881393,
+        16.399999976158142,
+        17.100000023841858,
+        16.5,
+        16.899999976158142,
+        24,
+        9.700000017881393,
+        16.19999998807907,
+        16.599999994039536,
+        18.5,
+        15.800000011920929,
+        19.19999998807907,
+        18.200000017881393,
+        11.599999994039536,
+        18.19999998807907,
+        15.300000011920929,
+        36.5,
+        8.800000011920929,
+        5.699999988079071,
+        17,
+        17.69999998807907,
+        14.200000017881393,
+        17.5,
+        17.099999994039536,
+        19,
+        13.099999994039536,
+        16.30000001192093,
+        17,
+        16.599999994039536,
+        16.400000005960464,
+        30.400000005960464,
+        8.5,
+        11.399999976158142,
+        16.80000001192093,
+        17,
+        16.5,
+        16.80000001192093,
+        23.599999994039536,
+        17.200000017881393,
+        16.69999998807907,
+        16.200000017881393,
+        16.599999994039536,
+        17.400000005960464,
+        16.299999982118607,
+        16.80000001192093,
+        16.69999998807907,
+        16.400000005960464,
+        16.69999998807907,
+        16.400000005960464,
+        16.700000017881393,
+        16.899999976158142,
+        16.400000005960464,
+        17.200000017881393,
+        16.399999976158142,
+        16.5,
+        16.900000005960464,
+        16.30000001192093,
+        16.69999998807907,
+        17.099999994039536,
+        16.100000023841858,
+        16.899999976158142,
+        16.900000005960464,
+        16.5,
+        16.80000001192093,
+        16.299999982118607,
+        16.900000005960464,
+        16.400000005960464,
+        16.80000001192093,
+        17,
+        16.599999994039536,
+        16.5,
+        16.900000005960464,
+        16.5,
+        16.69999998807907,
+        16.80000001192093,
+        16.799999982118607,
+        16.30000001192093,
+        17.5,
+        15.799999982118607,
+        16.600000023841858,
+        16.799999982118607,
+        16.400000005960464,
+        16.69999998807907,
+        16.700000017881393,
+        16.69999998807907,
+        16.80000001192093,
+        16.599999994039536,
+        16.599999994039536,
+        16.5,
+        16.80000001192093,
+        16.599999994039536,
+        17.19999998807907,
+        16.5,
+        16.5,
+        16.400000005960464,
+        16.700000017881393,
+        17,
+        16.399999976158142,
+        16.600000023841858,
+        16.69999998807907,
+        17,
+        16.400000005960464,
+        16.5,
+        16.799999982118607,
+        16.600000023841858,
+        16.69999998807907,
+        16.80000001192093,
+        16.599999994039536,
+        16.599999994039536,
+        16.80000001192093,
+        21.599999994039536,
+        12.099999994039536,
+        16.099999994039536,
+        16.5,
+        16.900000005960464,
+        16.80000001192093,
+        16.599999994039536,
+        16.599999994039536,
+        16.900000005960464,
+        16.69999998807907,
+        16.599999994039536,
+        16.700000017881393,
+        16.400000005960464,
+        16.899999976158142,
+        16,
+        17.200000017881393,
+        16.599999994039536,
+        16.69999998807907,
+        16.30000001192093,
+        16.5,
+        16.599999994039536,
+        16.700000017881393,
+        16.69999998807907,
+        16.69999998807907,
+        16.700000017881393,
+        16.599999994039536,
+        16.69999998807907,
+        16.700000017881393,
+        16.69999998807907,
+        16.80000001192093,
+        16.69999998807907,
+        16.400000005960464,
+        16.69999998807907,
+        16.600000023841858,
+        16.899999976158142,
+        17,
+        16.100000023841858,
+        16.69999998807907,
+        16.599999994039536,
+        16.700000017881393,
+        16.799999982118607,
+        17.099999994039536,
+        16.80000001192093,
+        16.5,
+        16.80000001192093,
+        16.099999994039536,
+        16.599999994039536,
+        17.900000005960464,
+        15.599999994039536,
+        16.599999994039536,
+        16.5,
+        16.80000001192093,
+        16.799999982118607,
+        17.900000005960464,
+        15.900000005960464,
+        16.5,
+        16.900000005960464,
+        17.19999998807907,
+        15.5,
+        16.599999994039536,
+        17.100000023841858,
+        16.799999982118607,
+        16.80000001192093,
+        16.400000005960464,
+        16.69999998807907,
+        16.900000005960464,
+        16.5,
+        16.599999994039536,
+        16.900000005960464,
+        16.400000005960464,
+        16.69999998807907,
+        16.599999994039536,
+        16.700000017881393,
+        16.69999998807907,
+        16.69999998807907,
+        16.200000017881393,
+        16.599999994039536,
+        17.900000005960464,
+        15.900000005960464,
+        16.19999998807907,
+        16.80000001192093,
+        16.599999994039536,
+        16.69999998807907,
+        16.700000017881393,
+        16.5,
+        16.799999982118607,
+        16.599999994039536,
+        16.700000017881393,
+        16.5,
+        16.799999982118607,
+        16.80000001192093,
+        16.599999994039536,
+        16.5,
+        17.30000001192093,
+        16.69999998807907,
+        16.599999994039536,
+        16.600000023841858,
+        16.899999976158142,
+        16.600000023841858,
+        16.5,
+        16.799999982118607,
+        16.5,
+        17.700000017881393,
+        16.19999998807907,
+        16.19999998807907,
+        16.700000017881393,
+        16.599999994039536,
+        17.80000001192093,
+        15.5,
+        17,
+        16.5,
+        16.69999998807907,
+        16.5,
+        16.599999994039536,
+        16.700000017881393,
+        18.099999994039536,
+        15.199999988079071,
+        16.700000017881393,
+        16.69999998807907,
+        16.69999998807907,
+        16.80000001192093,
+        16.400000005960464,
+        16.69999998807907,
+        16.900000005960464,
+        16.400000005960464,
+        16.799999982118607,
+        16.700000017881393,
+        16.5,
+        16.69999998807907,
+        16.80000001192093,
+        16.69999998807907,
+        16.599999994039536,
+        16.600000023841858,
+        16.599999994039536,
+        17.19999998807907,
+        16.400000005960464,
+        16.599999994039536,
+        16.900000005960464,
+        16.400000005960464,
+        16.599999994039536,
+        16.599999994039536,
+        16.599999994039536,
+        18.30000001192093,
+        15.199999988079071,
+        16.600000023841858,
+        16.799999982118607,
+        16.700000017881393,
+        16.69999998807907,
+        16.5,
+        16.80000001192093,
+        16,
+        20.099999994039536,
+        13.5,
+        39.099999994039536,
+        34.19999998807907,
+        19.100000023841858,
+        84.09999999403954,
+        6.5,
+        17.900000005960464,
+        15.5,
+        60.69999998807907,
+        4.300000011920929,
+        19.599999994039536,
+        15.400000005960464,
+        17,
+        16.399999976158142,
+        18.900000005960464,
+        49.400000005960464,
+        15.099999994039536,
+        16.599999994039536,
+        17.30000001192093,
+        16.400000005960464,
+        16.400000005960464,
+        17.299999982118607,
+        16.5,
+        33.900000005960464,
+        2.4000000059604645,
+        13.799999982118607,
+        16.400000005960464,
+        17.30000001192093,
+        15.699999988079071,
+        16.5,
+        16.599999994039536,
+        16.700000017881393,
+        30,
+        5.299999982118607,
+        14.900000005960464,
+        18.200000017881393,
+        15.099999994039536,
+        16.799999982118607,
+        16.400000005960464,
+        16.80000001192093,
+        16.599999994039536,
+        16.69999998807907,
+        20.30000001192093,
+        13,
+        16.69999998807907,
+        16.600000023841858,
+        16.599999994039536,
+        16.69999998807907,
+        17.099999994039536,
+        16.200000017881393,
+        16.69999998807907,
+        16.900000005960464,
+        16.5,
+        16.599999994039536,
+        16.700000017881393,
+        16.899999976158142,
+        16.5,
+        16.700000017881393,
+        30.599999994039536,
+        3.5,
+        15.900000005960464,
+        16.599999994039536,
+        16.599999994039536,
+        16.700000017881393,
+        16.899999976158142,
+        16.400000005960464,
+        16.700000017881393,
+        16.69999998807907,
+        16.5,
+        16.900000005960464,
+        16.599999994039536,
+        16.5,
+        16.80000001192093,
+        16.599999994039536,
+        16.69999998807907,
+        16.599999994039536,
+        17.400000005960464,
+        18.599999994039536,
+        14.300000011920929,
+        16.5,
+        16.69999998807907,
+        16.600000023841858,
+        17
+      ],
+      "camera": {
+        "clearance": {
+          "adjustments": 0,
+          "blocked": null,
+          "marginMeters": 0.35,
+          "scope": "Authored conservative interior bounds with wall openings; orbit clearance, not a free-walking physics system."
+        },
+        "alpha": 1.28,
+        "beta": 1.31,
+        "radius": 9,
+        "target": [
+          -21.9951471860347,
+          2.3,
+          -9.999999999999996
+        ],
+        "visibility": null
+      },
+      "mascot": {
+        "x": -23.3951471860347,
+        "y": 0.1,
+        "z": -8.299999999999997,
+        "displayLift": 0
+      }
+    },
+    "sound": {
+      "outputRms": 0,
+      "limiterReduction": 0,
+      "time": 0,
+      "voiceActive": false,
+      "unlocked": false,
+      "context": "locked",
+      "muted": true,
+      "paused": false,
+      "hidden": false,
+      "levels": {
+        "voice": 0.9,
+        "music": 0.22,
+        "ambience": 0.2,
+        "effects": 0.55
+      },
+      "voiceBackend": "recorded-kokoro-v1",
+      "voiceMessage": "",
+      "caption": "",
+      "wing": 0,
+      "loops": [],
+      "retiring": 0,
+      "shots": 0,
+      "pending": [],
+      "failures": [],
+      "buffers": [],
+      "gains": {},
+      "master": 0
+    },
+    "graphicsError": ""
+  }
+}

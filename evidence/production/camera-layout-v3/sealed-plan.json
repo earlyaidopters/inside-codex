@@ -1,0 +1,38 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "scenario.plan",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.scenario_plan.v1",
+    "runId": "run_1789031861776_1d50af30364a43e0a440b43885b06411",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031861776_1d50af30364a43e0a440b43885b06411",
+    "adapterId": "inside-codex",
+    "adapterVersion": "1.0.0",
+    "adapterManifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/adapter.json",
+    "adapterManifestSha256": "725a8c2db68e95dd1b8a9a7d29fb3f1cf90a63e0c2c7559e70d060cd745a3eff",
+    "scenarioId": "promenade-finish",
+    "title": "Promenade layout and rebaked lighting",
+    "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+    "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-promenade-scenario.mjs",
+    "arguments": [
+      "baseline"
+    ],
+    "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+    "timeoutSeconds": 60,
+    "capabilities": [
+      "gpu"
+    ],
+    "parameters": {
+      "variant": "baseline"
+    },
+    "output": {
+      "format": "game-dev-capture-v1",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031861776_1d50af30364a43e0a440b43885b06411/capture.json"
+    },
+    "requiredAuthorizations": [
+      "confirm",
+      "gpu"
+    ],
+    "evidenceCeiling": "This plan proves only resolved local configuration. It executes nothing and proves no build, GPU, pixel, performance, signing, or human-review result."
+  }
+}

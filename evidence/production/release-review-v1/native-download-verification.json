@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "checks": [
+    "81 unique safe relative ZIP paths; CRC passes",
+    "Independent Decimal calculation matches both actual 2026-09-07 CSV and report",
+    "Independent Decimal calculation matches both actual 2026-09-14 CSV and report",
+    "First submission5/5 and zero hint use match the manual path",
+    "Both reusable-skill CSVs match their separate source briefs",
+    "Delivered and preserved recovery pages reference included relative assets/CSV"
+  ],
+  "scope": "Actual native internal-browser downloads; independent data/path checks, not hosted acceptance."
+}

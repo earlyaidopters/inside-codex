@@ -1,0 +1,56 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "asset.inspect",
+  "ok": true,
+  "data": {
+    "filePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/public/assets/codex-mascot.glb",
+    "fileBytes": 1077524,
+    "generator": "glTF-Transform v4.4.2",
+    "meshCount": 21,
+    "primitiveCount": 21,
+    "vertexCount": 17692,
+    "triangleCount": 32108,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "sceneGraphFallback": false,
+    "materialCount": 4,
+    "textureCount": 0,
+    "textureResolutions": [],
+    "boundingBox": {
+      "min": [
+        -1.744999885559082,
+        0.9556667804718018,
+        -0.2199999988079071
+      ],
+      "max": [
+        1.744999885559082,
+        3.067033052444458,
+        0.434893935918808
+      ],
+      "sizeMeters": [
+        3.489999771118164,
+        2.1113662719726562,
+        0.6548939347267151
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "hasUVs": false,
+    "hasNormals": true,
+    "hasTangents": false,
+    "pbr": {
+      "hasBaseColorTexture": false,
+      "hasMetallicRoughnessTexture": false,
+      "hasNormalTexture": false,
+      "hasOcclusionTexture": false,
+      "hasEmissiveTexture": false
+    },
+    "animationCount": 8,
+    "hasSkin": true,
+    "warnings": [
+      "glTF reader: Missing optional extension, \"KHR_materials_clearcoat\".",
+      "1 of 21 primitives have no TEXCOORD_0: the mesh cannot be textured or retextured until it is UV unwrapped",
+      "no base colour texture on any material: the asset is untextured and will read as flat colour"
+    ]
+  }
+}

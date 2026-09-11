@@ -1,0 +1,2344 @@
+{
+  "date": "2026-09-10T19:51:52.124121+00:00",
+  "url": "https://wintry-soul-6awh.here.now/",
+  "signedOut": true,
+  "pass": false,
+  "files": [
+    {
+      "path": "CREDITS.txt",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/abstractEngine.pure-BMdakWcX.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/animation.pure-BkcuS87H.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/animationGroup.pure-Cwz3VqZ0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/headquarters-score.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/manifest.json",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/reconsider.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/select.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/success.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/travel.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/0cf7c3aa312afbc8.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/100c234dc133cde0.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/14c40871e2679041.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/169b2d77c3899d94.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/1ec3ce18632c7964.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/1ef8302b0a4dbbe7.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/218799a4d9800f38.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/2421aa475d7292b6.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/261d425597b98c23.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/2abe3bbff045014a.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/2b98c44c94582673.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/2ba36fb6a9dd5ded.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/2d65c93e24e533f6.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/317c61bde26b02e5.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/378d849710e347b2.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/39c89ea26a559a5e.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/39ff56dfe1556d90.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/3caf6d48e5239b21.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/3e65db2acec7cb64.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/4027b978161a8246.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/40e8fd6c0df5ee2a.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/41e91bd31f74baa1.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/42889d8f39c9686d.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/44167582be211965.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/45884195c3f94335.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/477540de69e9b3f9.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/47e2b5f2e24a4028.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/49ea873f99fbf436.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/4a183c316cfe0bc6.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/4a5341a8fb6e17ab.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/4dd959339212a576.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/507b962f24803bb1.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/51d959c3932edc2a.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/56a423e2cea85f7f.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/5ce7e360b1476bb7.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/5f601accb38cadd1.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/606b87865e5f11df.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/62b61e1b2776af42.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/638696ca096d06d8.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/638e4bb2a6f7379a.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/63947b1112eecea5.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/6a272dfb0cb2b31d.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/72924ea6369ee4d8.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/75176774b61a0ff7.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/7748154776e1ae1a.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/794e863181e57a0b.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/7cbf94670a05e969.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/7de97d3f1ba4d880.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/7e2fe3addc79a79a.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/81f87e5221215354.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/822c3c66fdbad559.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/871785c88502144c.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/871de0582ad86746.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/88afafd6bae216a0.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/895d7693e642a979.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/90952773c72568e1.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/91f46d8347002c1f.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/92db4b51749adc64.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/95bf2f5395d9fbf3.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/973c3795e6622a2f.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/97534fe75e096913.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/9c68d0b24a7d268b.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/9e77c465e9c59d04.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/a6093f25057d7866.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/a7eb8ab51081b4ad.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/ac87b2365ecb39e4.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/afef7fd3ed671d3c.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/bb7882a6ed93aff6.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/bddd84f1d8de0b32.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/c0c9026d4bdb3fe6.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/c2280e9c83347654.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/c3c95b481d4e0234.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/c42536b00143b712.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/c63147835e3c47e9.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/c9aa740526f7213f.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/ccfba039c4dffc35.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/d3bf8ade3826d5e1.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/d5eb23e0af58a68d.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/d927c9568bb6b327.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/d97a6050b6255867.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/da781dc8972fe521.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/daaf824339fa39c2.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/dda5f1a50e584ac5.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/e262beec8941fbe8.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/e99698ad6e1f3b5f.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/ea0694059d019810.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/ed751d6afd24c016.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/ee41434c3dab403b.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/f28efc63fb4d5911.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/f394b1daa9004455.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/f4c63fddd3a3db9a.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/fa2702670106d095.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/voice/ff03b7fba2f83f78.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/wing-0.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/wing-1.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/audio/wing-2.mp3",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/automation-exhibit-B0AgkJUL.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bakedVertexAnimation-C6l_KSSy.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bakedVertexAnimation-COa3IHTL.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/baseTexture.pure-CdBhjDO3.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/basisTextureLoader-DLkBmlh2.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bloomMerge.fragment-DQ_fgnoL.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bloomMerge.fragment-vwVNEATu.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/branch-exhibit-DTe0W6nA.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/browser-yot1331H.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/buffer.pure-DOoIYMQz.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bumpFragment-BtJd9tYZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bumpFragment-CZy0KIWh.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bumpVertex-CWhdIpqj.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bumpVertex-DRq4BZvD.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bumpVertexDeclaration-Cb04kLz9.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/bumpVertexDeclaration-I4Guxw_q.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/capstone-exhibit-DbbG4SXP.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/chromaticAberration.fragment-DNJUxumu.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/chromaticAberration.fragment-cDPo3aCd.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/circleOfConfusion.fragment-Bl-wDFJW.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/circleOfConfusion.fragment-CEj6DZ22.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/clipPlaneFragment-Ct2VqHzk.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/clipPlaneFragment-DVK0wgyZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/clipPlaneVertex-C59BO8JS.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/clipPlaneVertex-DKhVm1NW.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/codex-mascot-balanced.glb",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/codex-mascot.glb",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/codex-reference.png",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/color.fragment-CbJP31yK.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/color.fragment-CxH-oW8C.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/color.vertex-Bn1VOzn-.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/color.vertex-CYNjCrqH.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/constants-DNxlZnxc.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/context/save-error.html",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/context/save-error.png",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/context-exhibit-DO027tiH.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/cubemapToSphericalPolynomial-BLjZA_r-.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/dds.pure-DN3NaJ9g.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/ddsTextureLoader-Co-jFg5P.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/MESHOPT-LICENSE.md",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/NOTICE.md",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/decoder-license.md",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/decoder.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/license.md",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/msc_basis_transcoder.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/msc_basis_transcoder.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/uastc_astc.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/uastc_bc7.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/uastc_r8_unorm.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/uastc_rg8_unorm.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/uastc_rgba8_srgb_v2.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/uastc_rgba8_unorm_v2.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/worker.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/zstddec.wasm",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decoders/meshopt-decoder-1.2.0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decorators-C_ra_8EP.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/decorators.serialization-d26cuy-b.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/default.fragment-CXn8pVJ-.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/default.fragment-Xv-R2tQD.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/default.vertex-B1N6Otbz.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/default.vertex-Dh04QukZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/defaultUboDeclaration-C53xcSdv.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/defaultUboDeclaration-bEX7kynB.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depth.fragment-D67KRAFZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depth.fragment-DCDlr7g6.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depth.vertex-aOaKW2pI.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depth.vertex-nHwsboyy.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depthBoxBlur.fragment-CLEAG5DG.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depthBoxBlur.fragment-D2KJPEQv.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depthOfFieldMerge.fragment-BKOejQJL.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/depthOfFieldMerge.fragment-CyZ9wEKh.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/domManagement-BqltO0ki.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/drawWrapper-CAjVVxyJ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/dumpTools.pure-Dq-nvIqM.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/effectRenderer.pure-BAczKN-o.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/engineStore-Bn2tApal.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/envTextureLoader-CIrQF29U.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/exrTextureLoader-BfeDoBMa.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/extractHighlights.fragment-DCpbnnfn.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/extractHighlights.fragment-Z6JPs_Tc.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphApplyForceBlock.pure-C8D3U7sf.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphApplyImpulseBlock.pure-CrK08tkS.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphArrayIndexBlock.pure-DTOmqlSK.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphAssetsContext-WtUyuDAI.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphAsyncExecutionBlock-BAAqAl3y.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphBezierCurveEasingBlock.pure-CvxKxJuv.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphBinaryOperationBlock-CtYi5CLU.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphBlock-CkJU0BIJ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphBranchBlock.pure-DhSuMT5y.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphCachedOperationBlock-DjEdym9y.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphCancelDelayBlock.pure-Di3r7nON.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphCodeExecutionBlock-BKPb-T-0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphConditionalDataBlock.pure-x6TSXqo8.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphConsoleLogBlock.pure-CNdJYO3K.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphConstantBlock.pure-DLZVz8as.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphContextBlock.pure-lHg7VozN.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphCounterBlock.pure-B6-RSNNn.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphDataSwitchBlock.pure-CV3gh9sa.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphDebounceBlock.pure-DUonjL6A.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphDebugBlock.pure-zcOnHxlN.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphDoNBlock.pure-D23HwDjl.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphEasingBlock.pure-sQ3YGEYb.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphEventBlock-DFFNSbZo.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphExecutionBlock-Cj7SzpKo.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphExecutionBlockWithOutSignal-BSnlOV9q.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphFlipFlopBlock.pure-C9pj0taK.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphForLoopBlock.pure-D-JfAGpT.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphFunctionReferenceBlock.pure-CCz5CZsj.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGLTFDataProvider-BFVmun1W.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGetAngularVelocityBlock.pure-WG1xaPSy.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGetAssetBlock.pure-BIo-jQYM.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGetLinearVelocityBlock.pure-BQCmK-Lj.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGetPhysicsMassPropertiesBlock.pure-Re_h-jll.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGetPropertyBlock.pure-CVPiUeMp.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGetSoundVolumeBlock.pure-C-7fqXRn.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphGetVariableBlock.pure-CQlf3OrG.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphIndexOfBlock.pure-D5OpUzC1.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphInteger.pure-CZmJgkLp.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphInterpolationBlock.pure-DtpFRpT3.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphIsKeyPressedBlock.pure-B_zV4j2c.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphIsSoundPlayingBlock.pure-Bgnv6UyA.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphJsonPointerParserBlock.pure-Cxoiu-v9.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphKeyDownEventBlock.pure-CNUYberN.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphKeyUpEventBlock.pure-CRgPzJOx.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphKeyboardEventBlock-F2D1xzvT.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphMathBlocks.pure-DjOWsTk7.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphMathCombineExtractBlocks.pure-R9_JIuk4.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphMatrixMathBlocks.pure-ByUwMhzN.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphMeshPickEventBlock.pure-y3LIJUjT.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphMultiGateBlock.pure-CU3RXb3M.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPauseAnimationBlock.pure-uAfLbw0n.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPauseSoundBlock.pure-NsVLLP_I.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPhysicsCollisionEventBlock.pure-atXxokaj.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPlayAnimationBlock.pure-C5mOMECF.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPlaySoundBlock.pure-DQYTVd9Q.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPointerDownEventBlock.pure-DW7rHcCM.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPointerMoveEventBlock.pure-BqsZIZaU.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPointerOutEventBlock.pure-DKmww1up.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPointerOverEventBlock.pure-Db6wbO7d.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphPointerUpEventBlock.pure-DBcK_Oap.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphReceiveCustomEventBlock.pure-GPTvZ1xf.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSceneReadyEventBlock.pure-typ_I-Nh.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSceneTickEventBlock.pure-ZvQULpMr.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSendCustomEventBlock.pure-DPiJtzfA.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSequenceBlock.pure-BNvaxEcW.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSetAngularVelocityBlock.pure-DAOto5Rf.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSetDelayBlock.pure-kSP_LMy8.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSetLinearVelocityBlock.pure-M6lNvrcx.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSetPhysicsMotionTypeBlock.pure-wP_52m5z.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSetPropertyBlock.pure-Dt05TYrw.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSetSoundVolumeBlock.pure-BIH2c48Y.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSetVariableBlock.pure-BZ9EoDhK.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSoundEndedEventBlock.pure-B24RPJTj.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphStopAnimationBlock.pure-DBOFyUgt.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphStopEventPropagationBlock.pure-CfLpctLX.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphStopSoundBlock.pure-QSRJ_ant.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphSwitchBlock.pure-qGNCzDVC.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphTernaryOperationBlock-BtC7ngp9.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphThrottleBlock.pure-BmK5JHwe.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphTransformCoordinatesSystemBlock.pure-BX_gqd7B.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphTypeToTypeBlocks.pure-BtPy_0TV.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphUnaryOperationBlock-DOogB36l.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphVectorMathBlocks.pure-CbCx8JrK.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphWaitAllBlock.pure-Dg4MHplD.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/flowGraphWhileLoopBlock.pure-DRKvbum0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fogFragment-CISE_m3s.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fogFragment-EikOP4pH.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fogVertex-DNAMrhb0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fogVertex-NHlgMcT2.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fxaa.fragment-BJI4ON-J.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fxaa.fragment-Uh7tsKmu.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fxaa.vertex-BxlD2OIs.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/fxaa.vertex-CEYszSUi.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplatting-Dq1CpTgZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplatting-vJ6yzDcm.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplatting.fragment-DNGQIzqk.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplatting.fragment-DO2aPL6S.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplatting.vertex-B-Lh4wAN.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplatting.vertex-COkI_LCc.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplattingVoxel.fragment-B_Om6CDx.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplattingVoxel.fragment-C65sY-Bh.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplattingVoxel.vertex-BWXUcFdc.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/gaussianSplattingVoxel.vertex-BraJXBHO.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/geometry.fragment-Bh76HPFM.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/geometry.fragment-M2-Uu2pW.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/geometry.vertex-CRPaaWiZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/geometry.vertex-DE-hmwUt.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glTFLoaderAnimation.pure-CDcnh_So.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowBlurPostProcess.fragment-CWHntGEt.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowBlurPostProcess.fragment-DDN2NxnB.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapGeneration.fragment-CeyBGCV2.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapGeneration.fragment-Cp9qHE6X.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapGeneration.vertex-B8p9FVmW.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapGeneration.vertex-BIAb53-8.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapMerge.fragment-E4YwFGds.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapMerge.fragment-kUzN8f-0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapMerge.vertex-CBAYzq55.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/glowMapMerge.vertex-XcoH38fZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/grain.fragment-BCCu9I6u.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/grain.fragment-nXpkjikI.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/guid-BXdVC_j_.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/halfFloat-Ce77JD5z.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/handoff-exhibit-IeTPv49k.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/harmonicsFunctions-CMr56qfT.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/harmonicsFunctions-QSz_WdsQ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/harness-exhibit-DTaKSwcI.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/hdrTextureLoader-BQVwkxK1.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/architecture.glb",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/architecture.glb.gz",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/compressed/floor-albedo.ktx2",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/compressed/floor-indirect.ktx2",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/compressed/furnishings-albedo.ktx2",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/compressed/furnishings-indirect.ktx2",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/compressed/shell-albedo.ktx2",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/compressed/shell-indirect.ktx2",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/fixtures.json",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/floor-indirect.jpg",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/furnishings-indirect.jpg",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/navigation.json",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/shell-indirect.jpg",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/streamed/architecture-balanced-ce31744b4b30.bin.gz",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/streamed/architecture.glb.gz",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/streamed/floor-albedo.jpg",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/streamed/furnishings-albedo.jpg",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/headquarters/streamed/shell-albedo.jpg",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/helperFunctions-BH8P-eyq.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/helperFunctions-gEnZbjN3.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/iesTextureLoader-BcYbPJsH.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/imageProcessing.fragment-Bb9mf-7k.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/imageProcessing.fragment-C2rBLkba.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/imageProcessingFunctions-B1IXC_gq.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/imageProcessingFunctions-G8WWRV14.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/index-BbC3eDWE.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/index-Dc1weyRD.css",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/instancesDeclaration-CJBvtBV5.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/instancesDeclaration-DsiFqYXH.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/internalTexture-Dlz1Grf0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/kernelBlur.fragment-BcdTKoPW.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/kernelBlur.fragment-DHQjf6lq.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/kernelBlur.vertex-C2dESVl-.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/kernelBlur.vertex-Cr8ljakh.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/kernelBlurVaryingDeclaration-DP2Wr9Oc.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/kernelBlurVaryingDeclaration-g2Ge9lzd.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/keyboardEvents-CGYiptFb.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/ktxTextureLoader-BAUGULhi.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/lightConstants-UjYfeHn4.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/lightFragment-Bp8TsYdA.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/lightFragment-x7Xpl9uU.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/logDepthDeclaration-3gXGtHbI.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/logDepthDeclaration-DYYUVTrx.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/logDepthFragment-C5lxT4l1.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/logDepthFragment-CxtJswLx.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/logDepthVertex-D5IUM6qd.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/logDepthVertex-DSD5XdGw.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/logger-CuBYPcDK.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/mainUVVaryingDeclaration-BBamQlxR.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/mainUVVaryingDeclaration-B_7d0nc3.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/material.pure-BtPXyquN.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/math.axis-BEFzoR3R.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/math.color-DbAdzrZC.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/math.color.pure-DRf1gOrV.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/math.path-B-NKPXe7.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/math.plane-C-VH8mEN.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/math.scalar.functions-D-i-XBaP.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/math.size-BHZaDYSv.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/mesh.pure-C1iLU6p_.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/mesh.vertexData.functions-CD4JOR2q.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/meshUboDeclaration-BATNZvmb.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/meshUboDeclaration-BmNu2KU_.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/model-exhibit-IHduMdf-.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/morphTargetsVertex-6N5r7oF1.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/morphTargetsVertex-OlIh-Lzh.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/node-IGSo-MFx.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/oitFragment-CKv-hLSp.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/oitFragment-CbS3GbFz.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbr.fragment-41nUI3t2.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbr.fragment-BCUEWCIV.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbr.vertex-DQnFz10m.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbr.vertex-TEPiWOP7.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbrMaterial.pure-zL-Uc0di.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbrMaterialLoadingAdapter-CycFTKHY.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbrTransmissionLayerData-BRi1vGnu.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbrTransmissionLayerData-CbssVoWF.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbrUboDeclaration-CbPGRvOI.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/openpbrUboDeclaration-Dnhi8mvk.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/packingFunctions-CINwVZs6.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/packingFunctions-DpGwbupU.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pass.fragment-Cvd2TCWC.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbr.fragment-C2DRseGh.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbr.fragment-DYmwnfGf.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbr.vertex-BmJnKuD0.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbr.vertex-CMQHQtJZ.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrBRDFFunctions-BCNINF-p.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrBRDFFunctions-DxfbxN23.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrDebug-CRkICnyC.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrDebug-DB3vXFLo.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrIBLFunctions-CSlJv7qb.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrIBLFunctions-b8fwQKtH.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrMaterial.pure-D36lp3-_.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrMaterialLoadingAdapter-BpDHnoSV.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrUboDeclaration--xFZEw0i.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pbrUboDeclaration-oed3_f2e.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/performanceConfigurator-UtxC_Odd.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/permission-exhibit-Bl50FPWP.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pointCloudVertex-CmkEsLzf.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pointerEvents-nqydg71H.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/postProcess.pure-CYqzAYHT.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/postprocess.vertex-CmVXXq2T.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/postprocess.vertex-DJCmMhI8.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/procedural.vertex-C47TVAon.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/procedural.vertex-D3o6xkF2.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pushMaterial-CmYvBpyL.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/reflectionFunction-Cd8WyD5Q.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/reflectionFunction-CivoLMz9.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/render-audit-DWXY8fzm.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/renderTargetTexture.pure-Cbj4jjkV.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/review-exhibit-C8PGJ4sb.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/rgbdDecode.fragment-Cdz2Tveq.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/rgbdDecode.fragment-DXl2fYur.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/rgbdEncode.fragment-CVg4Fcse.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/rgbdEncode.fragment-CxPSfrvR.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/scene.pure-Cchb5A5O.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/sceneComponent-B73WFbbg.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/sceneUboDeclaration-B5VhSG0v.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/sceneUboDeclaration-B96Tfx7b.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/sceneVertexDeclaration-CluTp-RC.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shaderStore-D-XQlhUT.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowMap.fragment-DUFTmQJ_.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowMap.fragment-DX4Yo1bp.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowMap.vertex-TZnupHeR.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowMap.vertex-_1VpiXdw.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowMapFragmentSoftTransparentShadow-B6k0i9Au.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowMapFragmentSoftTransparentShadow-R_iOKnyx.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowsVertex--0nVb1Fg.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/shadowsVertex-CpxL4lAs.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/sharpen.fragment-B2bDI1_Y.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/sharpen.fragment-CCLDkKbj.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/smartArray-BRfcgNbX.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/sphericalPolynomial.pure-B_YAEgpI.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/static-parts-C8o__ujn.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/steering-exhibit-ByLUqelO.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/studio.env",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/texture.pure-D2qax4_s.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/textureProcessor.fragment-B-hqHgey.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/textureProcessor.fragment-D-awtrDP.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/tgaTextureLoader-CqhhocF6.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/thinEngine.pure-m0A2h7lr.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/tool-exhibit-BAnmkHTF.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/tools.functions-C8QU8nYC.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/tools.pure-B61Ijxh6.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/typeStore-Cu_sj2zM.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/utils-CLq_UU0_.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/vertexColorMixing-DPW6Is9y.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/vertexColorMixing-UCrnwszu.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/world-D5xdv26d.js",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "exhibits-manifest.json",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "index.html",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "licenses/BABYLON-LICENSE.md",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "licenses/BABYLON-NOTICE.md",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "licenses/FFLATE-LICENSE.txt",
+      "pass": false,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "scope": "Public delivery byte verification; no owner credentials or browser cache."
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_b7ea98f0-98c2-4857-9a5b-be942308eba0",
+  "operation": "package.build",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "package",
+      "build",
+      "public/diagnostic-scene.glb"
+    ],
+    "flags": {
+      "name": "Codex Pipeline Diagnostic Fixture",
+      "version": "0.1.0",
+      "output-dir": "assets/generated"
+    },
+    "input": {
+      "description": "Private procedural diagnostic fixture: textured PBR mesh, armature animation, and browser import test. Not approved game art.",
+      "category": "other",
+      "license": "LicenseRef-Private-Smoke-Test",
+      "provenance": {
+        "notes": "Created locally by scripts/build-scene.py for Mark's explicitly authorized smoke test. No third-party generated geometry. All rights reserved; no public license grant.",
+        "origin": "authored",
+        "author": "[redacted]",
+        "sourceUri": "scripts/build-scene.py",
+        "prompt": "Create a small Blender scene, render it, export a textured and animated GLB, and verify it in the browser."
+      },
+      "policy": {
+        "requireUVs": true,
+        "requireNormals": true,
+        "requireTangentsWithNormalMap": true,
+        "requireBaseColorTexture": true,
+        "maxTriangles": 100000,
+        "maxMaterials": 12,
+        "minTextureSize": 128,
+        "requirePowerOfTwoTextures": true,
+        "maxDimensionMeters": 10,
+        "minDimensionMeters": 0.001
+      }
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0",
+      "kind": "asset_package"
+    },
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0/manifest.json",
+      "kind": "manifest",
+      "sha256": "920e73bda5a303a37c9b59d690a305e818162b9cbab01456aa69bbc4b3b5ecdd"
+    },
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0/receipt.json",
+      "kind": "receipt"
+    }
+  ],
+  "createdAt": "2026-09-10T02:23:03.294Z",
+  "updatedAt": "2026-09-10T02:23:03.363Z",
+  "startedAt": "2026-09-10T02:23:03.302Z",
+  "completedAt": "2026-09-10T02:23:03.363Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/jobs/job_b7ea98f0-98c2-4857-9a5b-be942308eba0/receipt.json"
+}

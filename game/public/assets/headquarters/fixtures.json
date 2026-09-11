@@ -1,0 +1,379 @@
+{
+  "schema": 1,
+  "coordinateSystem": "runtime x,y-up,z-front",
+  "fixtures": [
+    {
+      "id": "Exhibit key 0",
+      "type": "area",
+      "position": [
+        -21.4,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        -21.4,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 1",
+      "type": "area",
+      "position": [
+        -17.799999999999997,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        -17.799999999999997,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 2",
+      "type": "area",
+      "position": [
+        -14.2,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        -14.2,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 3",
+      "type": "area",
+      "position": [
+        -10.599999999999998,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        -10.599999999999998,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Wing wash 0",
+      "type": "area",
+      "position": [
+        -16,
+        6.7,
+        -16.7
+      ],
+      "target": [
+        -16,
+        3,
+        -18.4
+      ],
+      "powerWatts": 600,
+      "sizeMeters": 5,
+      "color": [
+        0.85,
+        0.8,
+        1
+      ],
+      "runtimeIntensity": 0.5
+    },
+    {
+      "id": "Exhibit key 4",
+      "type": "area",
+      "position": [
+        -5.4,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        -5.4,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 5",
+      "type": "area",
+      "position": [
+        -1.8000000000000003,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        -1.8000000000000003,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 6",
+      "type": "area",
+      "position": [
+        1.7999999999999998,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        1.7999999999999998,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 7",
+      "type": "area",
+      "position": [
+        5.4,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        5.4,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Wing wash 1",
+      "type": "area",
+      "position": [
+        0,
+        6.7,
+        -16.7
+      ],
+      "target": [
+        0,
+        3,
+        -18.4
+      ],
+      "powerWatts": 600,
+      "sizeMeters": 5,
+      "color": [
+        1,
+        0.8,
+        0.55
+      ],
+      "runtimeIntensity": 0.5
+    },
+    {
+      "id": "Exhibit key 8",
+      "type": "area",
+      "position": [
+        10.6,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        10.6,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 9",
+      "type": "area",
+      "position": [
+        14.2,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        14.2,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 10",
+      "type": "area",
+      "position": [
+        17.8,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        17.8,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Exhibit key 11",
+      "type": "area",
+      "position": [
+        21.4,
+        6.6,
+        -8.3
+      ],
+      "target": [
+        21.4,
+        1.3,
+        -10
+      ],
+      "powerWatts": 155,
+      "sizeMeters": 1.25,
+      "color": [
+        1,
+        0.85,
+        0.65
+      ],
+      "runtimeIntensity": 0.12916666666666668
+    },
+    {
+      "id": "Wing wash 2",
+      "type": "area",
+      "position": [
+        16,
+        6.7,
+        -16.7
+      ],
+      "target": [
+        16,
+        3,
+        -18.4
+      ],
+      "powerWatts": 600,
+      "sizeMeters": 5,
+      "color": [
+        0.7,
+        1,
+        0.87
+      ],
+      "runtimeIntensity": 0.5
+    },
+    {
+      "id": "Atrium key",
+      "type": "area",
+      "position": [
+        2,
+        8,
+        1
+      ],
+      "target": [
+        2,
+        0,
+        2
+      ],
+      "powerWatts": 1000,
+      "sizeMeters": 5,
+      "color": [
+        1,
+        0.88,
+        0.72
+      ],
+      "runtimeIntensity": 0.8333333333333334
+    },
+    {
+      "id": "Sun through skylight",
+      "type": "directional",
+      "position": [
+        16,
+        24,
+        12
+      ],
+      "direction": [
+        -0.6,
+        -1,
+        -0.5
+      ],
+      "color": [
+        1,
+        0.91,
+        0.77
+      ],
+      "runtimeIntensity": 2,
+      "angularSize": 0.08
+    }
+  ]
+}

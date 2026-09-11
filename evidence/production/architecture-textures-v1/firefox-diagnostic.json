@@ -1,0 +1,191 @@
+{
+  "architecture": {
+    "textureCompression": {
+      "mode": "compressed",
+      "reason": null,
+      "textures": [
+        {
+          "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+          "format": 5,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+          "format": 5,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+          "format": 5,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+          "format": 5,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+          "format": 5,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+          "format": 5,
+          "width": 1,
+          "height": 1
+        }
+      ]
+    },
+    "ready": true,
+    "meshes": 25,
+    "lightmaps": [
+      "floor",
+      "shell",
+      "furnishings"
+    ]
+  },
+  "textures": [
+    {
+      "id": 62,
+      "names": [
+        "/assets/headquarters/compressed/floor-indirect.ktx2"
+      ],
+      "url": "embedded",
+      "width": 1,
+      "height": 1,
+      "depth": 0,
+      "format": 5,
+      "type": 0,
+      "source": 1,
+      "mipmaps": true,
+      "cube": false,
+      "samples": 1,
+      "ready": true,
+      "bytesPerPixel": 4,
+      "blockBytes": null,
+      "textureBytes": 4,
+      "estimatedMultisampleColorBytes": 0
+    },
+    {
+      "id": 63,
+      "names": [
+        "/assets/headquarters/compressed/floor-albedo.ktx2"
+      ],
+      "url": "embedded",
+      "width": 1,
+      "height": 1,
+      "depth": 0,
+      "format": 5,
+      "type": 0,
+      "source": 1,
+      "mipmaps": true,
+      "cube": false,
+      "samples": 1,
+      "ready": true,
+      "bytesPerPixel": 4,
+      "blockBytes": null,
+      "textureBytes": 4,
+      "estimatedMultisampleColorBytes": 0
+    },
+    {
+      "id": 64,
+      "names": [
+        "/assets/headquarters/compressed/shell-albedo.ktx2"
+      ],
+      "url": "embedded",
+      "width": 1,
+      "height": 1,
+      "depth": 0,
+      "format": 5,
+      "type": 0,
+      "source": 1,
+      "mipmaps": true,
+      "cube": false,
+      "samples": 1,
+      "ready": true,
+      "bytesPerPixel": 4,
+      "blockBytes": null,
+      "textureBytes": 4,
+      "estimatedMultisampleColorBytes": 0
+    },
+    {
+      "id": 65,
+      "names": [
+        "/assets/headquarters/compressed/furnishings-albedo.ktx2"
+      ],
+      "url": "embedded",
+      "width": 1,
+      "height": 1,
+      "depth": 0,
+      "format": 5,
+      "type": 0,
+      "source": 1,
+      "mipmaps": true,
+      "cube": false,
+      "samples": 1,
+      "ready": true,
+      "bytesPerPixel": 4,
+      "blockBytes": null,
+      "textureBytes": 4,
+      "estimatedMultisampleColorBytes": 0
+    },
+    {
+      "id": 66,
+      "names": [
+        "/assets/headquarters/compressed/shell-indirect.ktx2"
+      ],
+      "url": "embedded",
+      "width": 1,
+      "height": 1,
+      "depth": 0,
+      "format": 5,
+      "type": 0,
+      "source": 1,
+      "mipmaps": true,
+      "cube": false,
+      "samples": 1,
+      "ready": true,
+      "bytesPerPixel": 4,
+      "blockBytes": null,
+      "textureBytes": 4,
+      "estimatedMultisampleColorBytes": 0
+    },
+    {
+      "id": 67,
+      "names": [
+        "/assets/headquarters/compressed/furnishings-indirect.ktx2"
+      ],
+      "url": "embedded",
+      "width": 1,
+      "height": 1,
+      "depth": 0,
+      "format": 5,
+      "type": 0,
+      "source": 1,
+      "mipmaps": true,
+      "cube": false,
+      "samples": 1,
+      "ready": true,
+      "bytesPerPixel": 4,
+      "blockBytes": null,
+      "textureBytes": 4,
+      "estimatedMultisampleColorBytes": 0
+    }
+  ],
+  "logs": [
+    "[JavaScript Warning: \"WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\" {file: \"http://127.0.0.1:43211/assets/thinEngine.pure-m0A2h7lr.js\" line: 8}]",
+    "[JavaScript Warning: \"WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_X level 0 is incurring lazy initialization.\"]",
+    "[JavaScript Warning: \"WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_X level 0 is incurring lazy initialization.\"]",
+    "[JavaScript Warning: \"WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Y level 0 is incurring lazy initialization.\"]",
+    "[JavaScript Warning: \"WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Y level 0 is incurring lazy initialization.\"]",
+    "[JavaScript Warning: \"WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_POSITIVE_Z level 0 is incurring lazy initialization.\"]",
+    "[JavaScript Warning: \"WebGL warning: generateMipmap: Tex image TEXTURE_CUBE_MAP_NEGATIVE_Z level 0 is incurring lazy initialization.\"]",
+    "[JavaScript Warning: \"WebGL warning: drawElementsInstanced: Depth texture comparison requests (e.g. `LINEAR`) Filtering, but behavior is implementation-defined, and so on some systems will sometimes behave as `NEAREST`. (warns once)\"]"
+  ]
+}

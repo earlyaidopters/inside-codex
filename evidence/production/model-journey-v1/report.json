@@ -1,0 +1,1174 @@
+{
+  "pass": true,
+  "date": "2026-09-10T06:25:12.932Z",
+  "checks": [
+    "Real 3D scene and animated logo load",
+    "A visible 3D context port updates the same lesson state as the accessible control",
+    "An empty answer does not advance progress",
+    "A valid assembly powers the visible 3D tool-result loop",
+    "Mission 1 completes through visible controls",
+    "Context archive saves drafts from chosen sources, exposes stale ownership and wrong format, and verifies the corrected CSV",
+    "Mission 2 completes through visible controls",
+    "Model workshop compares checked edits, reproduces a billing defect, recovers a blocked sheet read and saves three evidence-backed routes",
+    "Mission 3 completes through visible controls",
+    "Mission 4 completes through visible controls",
+    "Mission 5 completes through visible controls",
+    "Branch workshop demonstrates overwrites, retains isolated files, rejects a failing attempt, and verifies the integrated record",
+    "Mission 6 completes through visible controls",
+    "Mission 7 completes through visible controls",
+    "Mission 8 completes through visible controls",
+    "Mission 9 completes through visible controls",
+    "Browser lab reproduces data loss and requires a verified repair",
+    "Mission 10 completes through visible controls",
+    "Mission 11 completes through visible controls",
+    "Mission 12 completes through visible controls",
+    "Independent capstone records first-attempt results",
+    "Toolkit download contains usable resources",
+    "Downloaded starter ZIP includes the saved workflow, source brief, CSV, project instructions, skill, and executable acceptance check",
+    "Progress, practice tasks, and capstone survive a full reload",
+    "Field notes search finds the relevant workflow",
+    "Portrait mission and controls fit without horizontal overflow",
+    "Reduced motion and quality controls reach the renderer",
+    "Reduced motion persists when a new mission starts",
+    "Returning from portrait restores desktop camera framing",
+    "Pause freezes both character clips and guided travel across mission changes",
+    "No page exceptions or failed requests"
+  ],
+  "errors": [],
+  "failed": [],
+  "state": {
+    "ready": true,
+    "screen": "mission",
+    "mission": 1,
+    "stepIndex": 0,
+    "contextLab": {
+      "read": [],
+      "selected": [],
+      "opened": "brief",
+      "authority": null,
+      "target": null,
+      "revision": 0,
+      "result": null,
+      "check": null,
+      "runs": 0,
+      "message": "Open the files. Build a context pack for the missing-field repair."
+    },
+    "modelLab": {
+      "job": "label",
+      "jobs": {
+        "label": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "billing": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "sheet": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        }
+      },
+      "message": "Choose a job and a setup. The actual training artifact will determine whether its check passes."
+    },
+    "selected": [],
+    "feedback": null,
+    "modal": null,
+    "branches": {
+      "mode": "shared",
+      "shared": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "files": {
+        "a": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        },
+        "b": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        }
+      },
+      "written": {
+        "a": false,
+        "b": false
+      },
+      "revision": {
+        "a": 0,
+        "b": 0,
+        "local": 0
+      },
+      "checks": {
+        "a": null,
+        "b": null,
+        "local": null
+      },
+      "reviewed": false,
+      "local": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "chosen": null,
+      "collision": false,
+      "events": [],
+      "message": "Two tasks are looking at one checkout. Apply their competing changes and inspect what each task sees."
+    },
+    "progress": {
+      "version": 1,
+      "completed": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "attempts": {
+        "harness.0": 2,
+        "harness.1": 1,
+        "context.0": 2,
+        "context.1": 1,
+        "models.0": 1,
+        "permissions.0": 1,
+        "permissions.1": 1,
+        "tasks.0": 1,
+        "tasks.1": 1,
+        "worktrees.0": 1,
+        "worktrees.1": 2,
+        "steering.0": 1,
+        "steering.1": 1,
+        "review.0": 1,
+        "review.1": 1,
+        "tools.0": 1,
+        "tools.1": 1,
+        "browser.0": 2,
+        "browser.1": 1,
+        "automation.0": 1,
+        "automation.1": 1,
+        "handoff.0": 1,
+        "handoff.1": 1,
+        "capstone.0": 1,
+        "capstone.1": 1,
+        "capstone.2": 1,
+        "capstone.3": 1,
+        "capstone.4": 1
+      },
+      "hints": {},
+      "capstone": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lastMission": 1,
+      "workspace": {
+        "branchReview": {
+          "chosen": "a",
+          "artifact": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "alternate": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,,Nina Patel\n",
+          "verified": true,
+          "isolated": true
+        },
+        "modelReview": {
+          "version": 1,
+          "simulation": true,
+          "jobs": [
+            {
+              "id": "label",
+              "accepted": {
+                "id": 2,
+                "revision": 3,
+                "config": {
+                  "model": "luna",
+                  "effort": "low"
+                },
+                "inputs": {
+                  "replacement": "Client",
+                  "scope": "entry",
+                  "patch": "after",
+                  "connected": false,
+                  "source": "cached"
+                },
+                "result": {
+                  "name": "field.json",
+                  "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Label equals Client",
+                    "pass": true,
+                    "detail": "Saved label: Client"
+                  },
+                  {
+                    "name": "Field contract preserved",
+                    "pass": true,
+                    "detail": "The field name is client and required stays true."
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 1,
+                  "config": {
+                    "model": "terra",
+                    "effort": "medium"
+                  },
+                  "inputs": {
+                    "replacement": "Client",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "field.json",
+                    "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Label equals Client",
+                      "pass": true,
+                      "detail": "Saved label: Client"
+                    },
+                    {
+                      "name": "Field contract preserved",
+                      "pass": true,
+                      "detail": "The field name is client and required stays true."
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 3,
+                  "config": {
+                    "model": "luna",
+                    "effort": "low"
+                  },
+                  "inputs": {
+                    "replacement": "Client",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "field.json",
+                    "text": "{\n  \"name\": \"client\",\n  \"label\": \"Client\",\n  \"required\": true\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Label equals Client",
+                      "pass": true,
+                      "detail": "Saved label: Client"
+                    },
+                    {
+                      "name": "Field contract preserved",
+                      "pass": true,
+                      "detail": "The field name is client and required stays true."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "billing",
+              "accepted": {
+                "id": 2,
+                "revision": 4,
+                "config": {
+                  "model": "astra",
+                  "effort": "high"
+                },
+                "inputs": {
+                  "replacement": "Clinet",
+                  "scope": "all",
+                  "patch": "before",
+                  "connected": false,
+                  "source": "cached"
+                },
+                "result": {
+                  "name": "totals.csv",
+                  "text": "case,total\nStandard order,110.00\nMember order,88.00\nLarger member order,220.00\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Standard order",
+                    "pass": true,
+                    "detail": "Expected 110.00 · saved 110.00"
+                  },
+                  {
+                    "name": "Member order",
+                    "pass": true,
+                    "detail": "Expected 88.00 · saved 88.00"
+                  },
+                  {
+                    "name": "Larger member order",
+                    "pass": true,
+                    "detail": "Expected 220.00 · saved 220.00"
+                  },
+                  {
+                    "name": "Call path inspected",
+                    "pass": true,
+                    "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 2,
+                  "config": {
+                    "model": "astra",
+                    "effort": "high"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "totals.csv",
+                    "text": "case,total\nStandard order,110.00\nMember order,90.00\nLarger member order,225.00\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Standard order",
+                      "pass": true,
+                      "detail": "Expected 110.00 · saved 110.00"
+                    },
+                    {
+                      "name": "Member order",
+                      "pass": false,
+                      "detail": "Expected 88.00 · saved 90.00"
+                    },
+                    {
+                      "name": "Larger member order",
+                      "pass": false,
+                      "detail": "Expected 220.00 · saved 225.00"
+                    },
+                    {
+                      "name": "Call path inspected",
+                      "pass": false,
+                      "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 4,
+                  "config": {
+                    "model": "astra",
+                    "effort": "high"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "all",
+                    "patch": "before",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "totals.csv",
+                    "text": "case,total\nStandard order,110.00\nMember order,88.00\nLarger member order,220.00\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Standard order",
+                      "pass": true,
+                      "detail": "Expected 110.00 · saved 110.00"
+                    },
+                    {
+                      "name": "Member order",
+                      "pass": true,
+                      "detail": "Expected 88.00 · saved 88.00"
+                    },
+                    {
+                      "name": "Larger member order",
+                      "pass": true,
+                      "detail": "Expected 220.00 · saved 220.00"
+                    },
+                    {
+                      "name": "Call path inspected",
+                      "pass": true,
+                      "detail": "checkout.js → discounts.js → tax.js must be inspected before accepting this repair."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sheet",
+              "accepted": {
+                "id": 3,
+                "revision": 5,
+                "config": {
+                  "model": "sol",
+                  "effort": "medium"
+                },
+                "inputs": {
+                  "replacement": "Clinet",
+                  "scope": "entry",
+                  "patch": "after",
+                  "connected": true,
+                  "source": "current"
+                },
+                "result": {
+                  "name": "onboarding-total.json",
+                  "text": "{\n  \"source\": \"2026-09-10\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 3\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 2\n    },\n    {\n      \"client\": \"Hearth\",\n      \"open\": 4\n    }\n  ],\n  \"total\": 9\n}\n",
+                  "blocked": false
+                },
+                "checks": [
+                  {
+                    "name": "Sheet read succeeded",
+                    "pass": true,
+                    "detail": "Model and effort settings cannot supply a missing connection."
+                  },
+                  {
+                    "name": "Current source",
+                    "pass": true,
+                    "detail": "Required September 10 · read 2026-09-10"
+                  },
+                  {
+                    "name": "Total matches current rows",
+                    "pass": true,
+                    "detail": "Expected 3 + 2 + 4 = 9 · saved 9"
+                  }
+                ]
+              },
+              "attempts": [
+                {
+                  "id": 1,
+                  "revision": 2,
+                  "config": {
+                    "model": "sol",
+                    "effort": "xhigh"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": false,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "No file saved",
+                    "text": "READ FAILED: onboarding sheet connection unavailable. No rows were read.",
+                    "blocked": true
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": false,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": false,
+                      "detail": "Required September 10 · read nothing"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": false,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved nothing"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "revision": 3,
+                  "config": {
+                    "model": "sol",
+                    "effort": "xhigh"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": true,
+                    "source": "cached"
+                  },
+                  "result": {
+                    "name": "onboarding-total.json",
+                    "text": "{\n  \"source\": \"2026-08-12\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 1\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 1\n    }\n  ],\n  \"total\": 2\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": true,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": false,
+                      "detail": "Required September 10 · read 2026-08-12"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": false,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved 2"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "revision": 5,
+                  "config": {
+                    "model": "sol",
+                    "effort": "medium"
+                  },
+                  "inputs": {
+                    "replacement": "Clinet",
+                    "scope": "entry",
+                    "patch": "after",
+                    "connected": true,
+                    "source": "current"
+                  },
+                  "result": {
+                    "name": "onboarding-total.json",
+                    "text": "{\n  \"source\": \"2026-09-10\",\n  \"rows\": [\n    {\n      \"client\": \"Northstar\",\n      \"open\": 3\n    },\n    {\n      \"client\": \"Juniper\",\n      \"open\": 2\n    },\n    {\n      \"client\": \"Hearth\",\n      \"open\": 4\n    }\n  ],\n  \"total\": 9\n}\n",
+                    "blocked": false
+                  },
+                  "checks": [
+                    {
+                      "name": "Sheet read succeeded",
+                      "pass": true,
+                      "detail": "Model and effort settings cannot supply a missing connection."
+                    },
+                    {
+                      "name": "Current source",
+                      "pass": true,
+                      "detail": "Required September 10 · read 2026-09-10"
+                    },
+                    {
+                      "name": "Total matches current rows",
+                      "pass": true,
+                      "detail": "Expected 3 + 2 + 4 = 9 · saved 9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "contextReview": {
+          "version": 1,
+          "sources": [
+            "brief",
+            "sample",
+            "image",
+            "agents"
+          ],
+          "authority": "brief",
+          "target": "approval_owner",
+          "artifact": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "verified": true,
+          "runs": 3
+        },
+        "tasks": [
+          {
+            "id": "onboarding-review",
+            "title": "Onboarding review",
+            "brief": "Review the onboarding checklist, identify missing approval steps, and verify each requirement against the client brief.",
+            "effort": "high",
+            "pinned": true,
+            "status": "ready"
+          }
+        ]
+      },
+      "settings": {
+        "muted": true,
+        "reduced": false,
+        "quality": "balanced"
+      }
+    },
+    "world": {
+      "ready": true,
+      "renderSize": {
+        "width": 960,
+        "height": 600,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "dpr": 1
+      },
+      "lastPick": null,
+      "active": 1,
+      "quality": "balanced",
+      "paused": false,
+      "reduced": false,
+      "architecture": {
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "models": {
+        "job": "label",
+        "verified": false,
+        "selected": "terra",
+        "effort": "medium",
+        "kept": 0,
+        "controls": [
+          {
+            "id": "label",
+            "action": "job",
+            "screen": {
+              "x": 1485.9091533280034,
+              "y": 404.51613148330296
+            }
+          },
+          {
+            "id": "billing",
+            "action": "job",
+            "screen": {
+              "x": 1638.792719581486,
+              "y": 412.16730162478865
+            }
+          },
+          {
+            "id": "sheet",
+            "action": "job",
+            "screen": {
+              "x": 1802.337406212311,
+              "y": 420.35201535048583
+            }
+          },
+          {
+            "id": "astra",
+            "action": "model",
+            "screen": {
+              "x": 1440.8212098760343,
+              "y": 497.6138859337914
+            }
+          },
+          {
+            "id": "sol",
+            "action": "model",
+            "screen": {
+              "x": 1551.934483089602,
+              "y": 505.53298791945485
+            }
+          },
+          {
+            "id": "terra",
+            "action": "model",
+            "screen": {
+              "x": 1673.2996739047596,
+              "y": 499.2346420689432
+            }
+          },
+          {
+            "id": "luna",
+            "action": "model",
+            "screen": {
+              "x": 1791.5080029257192,
+              "y": 522.6075198972862
+            }
+          }
+        ]
+      },
+      "harness": {
+        "selected": [],
+        "assembled": false,
+        "stage": 0,
+        "ports": [
+          {
+            "id": "context",
+            "amount": 0,
+            "screen": {
+              "x": 423.9603570440996,
+              "y": 390.91298704648295
+            }
+          },
+          {
+            "id": "model",
+            "amount": 1,
+            "screen": {
+              "x": 547.8436521452861,
+              "y": 398.52222140742856
+            }
+          },
+          {
+            "id": "tools",
+            "amount": 0,
+            "screen": {
+              "x": 680.8843449289785,
+              "y": 406.69392696391066
+            }
+          },
+          {
+            "id": "verify",
+            "amount": 0,
+            "screen": {
+              "x": 607.3844646167278,
+              "y": 509.8882148863608
+            }
+          }
+        ]
+      },
+      "context": {
+        "selected": [],
+        "verified": false,
+        "cards": [
+          {
+            "id": "brief",
+            "y": 2.09,
+            "screen": {
+              "x": 904.4006622163986,
+              "y": 509.5392813124461
+            }
+          },
+          {
+            "id": "sample",
+            "y": 2.09,
+            "screen": {
+              "x": 1001.9902744151367,
+              "y": 517.7317887863433
+            }
+          },
+          {
+            "id": "image",
+            "y": 2.09,
+            "screen": {
+              "x": 1104.5162852976073,
+              "y": 526.3386998243028
+            }
+          },
+          {
+            "id": "agents",
+            "y": 2.92,
+            "screen": {
+              "x": 915.9735987304955,
+              "y": 406.70455376098033
+            }
+          },
+          {
+            "id": "old",
+            "y": 2.92,
+            "screen": {
+              "x": 1016.5878954933851,
+              "y": 412.51864939827834
+            }
+          },
+          {
+            "id": "note",
+            "y": 2.92,
+            "screen": {
+              "x": 1122.4377308786004,
+              "y": 418.63528576032746
+            }
+          }
+        ]
+      },
+      "branches": {
+        "mode": "shared",
+        "collision": false,
+        "verified": false,
+        "chosen": null,
+        "cartridges": [
+          {
+            "id": "a",
+            "x": -0.22
+          },
+          {
+            "id": "b",
+            "x": 0.22
+          }
+        ]
+      },
+      "drawCalls": 148,
+      "renderFrameMs": 0.800000011920929,
+      "meshes": 170,
+      "triangles": 592880,
+      "animations": [
+        "Beckon",
+        "Celebrate",
+        "Correct",
+        "Greet",
+        "Idle",
+        "Inspect",
+        "Point",
+        "PointLeft",
+        "Return",
+        "Think",
+        "Travel",
+        "Wait"
+      ],
+      "animationPlaying": true,
+      "gesture": "Travel",
+      "blending": true,
+      "transition": 0.0001,
+      "frameMs": [
+        0,
+        7.799999997019768,
+        67.80000001192093,
+        27.399999991059303,
+        14.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.799999997019768,
+        16.599999994039536,
+        16.600000008940697,
+        16.799999997019768,
+        16.5,
+        16.700000002980232,
+        16.700000002980232,
+        16.5,
+        16.69999998807907,
+        16.80000001192093,
+        16.69999998807907,
+        16.700000002980232,
+        16.5,
+        16.600000008940697,
+        16.69999998807907,
+        16.80000001192093,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.799999997019768,
+        16.5,
+        16.900000005960464,
+        16.599999994039536,
+        16.5,
+        21.400000005960464,
+        11.899999991059303,
+        19.700000002980232,
+        13.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.69999998807907,
+        16.700000002980232,
+        19.200000002980232,
+        14.200000002980232,
+        16.599999994039536,
+        16.5,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.599999994039536,
+        16.700000002980232,
+        16.600000008940697,
+        16.69999998807907,
+        16.80000001192093,
+        16.5,
+        16.69999998807907,
+        16.80000001192093,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.900000005960464,
+        16.5,
+        16.700000002980232,
+        16.5,
+        16.69999998807907,
+        16.80000001192093,
+        16.599999994039536,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.799999997019768,
+        16.600000008940697,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.799999997019768,
+        16.599999994039536,
+        16.600000008940697,
+        16.700000002980232,
+        16.599999994039536,
+        16.900000005960464,
+        16.399999991059303,
+        16.700000002980232,
+        16.700000002980232,
+        17.099999994039536,
+        16.100000008940697,
+        16.799999997019768,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.5,
+        16.799999997019768,
+        16.599999994039536,
+        16.80000001192093,
+        16.599999994039536,
+        16.799999997019768,
+        16.600000008940697,
+        16.799999997019768,
+        16.5,
+        16.599999994039536,
+        16.600000008940697,
+        16.69999998807907,
+        16.700000002980232,
+        16.799999997019768,
+        16.5,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.600000008940697,
+        16.799999997019768,
+        16.599999994039536,
+        16.799999997019768,
+        16.700000002980232,
+        16.5,
+        16.799999997019768,
+        16.600000008940697,
+        16.899999991059303,
+        16.5,
+        16.5,
+        16.700000002980232,
+        16.799999997019768,
+        16.600000008940697,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.69999998807907,
+        16.700000002980232,
+        16.600000008940697,
+        16.69999998807907,
+        16.600000008940697,
+        16.799999997019768,
+        16.5,
+        16.599999994039536,
+        16.700000002980232,
+        16.799999997019768,
+        16.600000008940697,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.799999997019768,
+        16.600000008940697,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.799999997019768,
+        16.5,
+        16.80000001192093,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.80000001192093,
+        16.599999994039536,
+        16.799999997019768,
+        16.5,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.799999997019768,
+        16.5,
+        16.80000001192093,
+        16.5,
+        16.799999997019768,
+        16.799999997019768,
+        16.5,
+        16.599999994039536,
+        16.80000001192093,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.900000005960464,
+        16.399999991059303,
+        16.700000002980232,
+        16.799999997019768,
+        16.5,
+        16.80000001192093,
+        16.69999998807907,
+        16.600000008940697,
+        16.599999994039536,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.80000001192093,
+        16.5,
+        16.799999997019768,
+        16.700000002980232,
+        16.69999998807907,
+        16.600000008940697,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.799999997019768,
+        16.5,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.80000001192093,
+        16.69999998807907,
+        16.80000001192093,
+        16.5,
+        16.599999994039536,
+        16.200000002980232,
+        17.299999997019768,
+        16.5,
+        16.700000002980232,
+        16.700000002980232,
+        16.799999997019768,
+        16.5,
+        16.700000002980232,
+        16.599999994039536,
+        16.799999997019768,
+        16.700000002980232,
+        16.5,
+        16.599999994039536,
+        16.80000001192093,
+        16.599999994039536,
+        16.799999997019768,
+        16.400000005960464,
+        19.399999991059303,
+        13.5,
+        17.200000002980232,
+        16.600000008940697,
+        16.799999997019768,
+        16.799999997019768,
+        16.900000005960464,
+        16.299999997019768,
+        16.700000002980232,
+        16.69999998807907,
+        16.5,
+        16.700000002980232,
+        16.600000008940697,
+        16.799999997019768,
+        16.599999994039536,
+        16.799999997019768,
+        16.5,
+        16.700000002980232,
+        16.799999997019768,
+        16.5,
+        16.80000001192093,
+        16.5,
+        16.69999998807907,
+        16.700000002980232,
+        16.700000002980232,
+        16.599999994039536,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.700000002980232,
+        16.69999998807907
+      ],
+      "camera": {
+        "alpha": 1.28,
+        "beta": 1.31,
+        "radius": 9
+      },
+      "mascot": {
+        "x": -23.4,
+        "y": 0.1,
+        "z": -8.299999999999997,
+        "displayLift": 0
+      }
+    },
+    "graphicsError": ""
+  }
+}

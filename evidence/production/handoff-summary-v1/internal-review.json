@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-10T18:03:33.018549+00:00",
+  "reviewer": "assistant",
+  "surface": "Codex internal browser, tab 41, local built preview",
+  "startingState": "Existing saved profile with nine completed missions; no artificial state injected into this internal-browser review.",
+  "actions": [
+    "Created and pinned Community onboarding review with a specific outcome and verification brief",
+    "Completed task sidebar-placement question",
+    "Reproduced missing saved owner in browser lab, repaired write-through and verified Nina Patel survived sample reload",
+    "Completed browser layout/interaction review question",
+    "Completed harness context/tool/verification assembly and ordered read/write/check/repair"
+  ],
+  "observedBug": "Twelfth unique mission was mission 1; progress reached 12/12 but continued into mission 2 rather than showing completion.",
+  "fixEvidence": "tests/handoff-summary.mjs checks this returning-player case across three engines, plus unchanged replay routing.",
+  "imageReview": [
+    "states/firefox-unattempted.png: new status readable in portrait, no horizontal overflow",
+    "states/webkit-in-progress.png: compact landscape full-page capture, status and downloads readable; vertical scrolling needed as expected"
+  ],
+  "limits": [
+    "This is a returning-player continuation, not the required complete fresh manual playthrough.",
+    "Post-fix outcome is verified by automated visible-control fixtures and visual captures; not an independent human review."
+  ]
+}

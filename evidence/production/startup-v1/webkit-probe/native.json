@@ -1,0 +1,1651 @@
+{
+  "samples": [
+    {
+      "time": 125,
+      "ready": false,
+      "error": "",
+      "marks": [],
+      "measures": [],
+      "resources": []
+    },
+    {
+      "time": 1130,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 2136,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 3144,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 4150,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 5157,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 6163,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 7169,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 8175,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 9181,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 10187,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    },
+    {
+      "time": 11191,
+      "ready": false,
+      "error": "",
+      "marks": [
+        {
+          "name": "codex.architecture.request",
+          "entryType": "mark",
+          "startTime": 168,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.downloaded",
+          "entryType": "mark",
+          "startTime": 205,
+          "duration": 0
+        },
+        {
+          "name": "codex.architecture.unpacked",
+          "entryType": "mark",
+          "startTime": 218,
+          "duration": 0
+        }
+      ],
+      "measures": [
+        {
+          "name": "codex.architecture.download",
+          "entryType": "measure",
+          "startTime": 168,
+          "duration": 37
+        },
+        {
+          "name": "codex.architecture.unpack",
+          "entryType": "measure",
+          "startTime": 205,
+          "duration": 13
+        }
+      ],
+      "resources": [
+        {
+          "name": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+          "entryType": "resource",
+          "startTime": 168,
+          "duration": 36,
+          "initiatorType": "fetch",
+          "nextHopProtocol": "",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 168,
+          "domainLookupStart": 168,
+          "domainLookupEnd": 168,
+          "connectStart": 168,
+          "connectEnd": 168,
+          "secureConnectionStart": 0,
+          "requestStart": 168,
+          "finalResponseHeadersStart": 0,
+          "firstInterimResponseStart": 0,
+          "responseStart": 0,
+          "responseEnd": 204,
+          "transferSize": 0,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+          "entryType": "resource",
+          "startTime": 266,
+          "duration": 3,
+          "initiatorType": "script",
+          "nextHopProtocol": "http/1.1",
+          "workerStart": 0,
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 266,
+          "domainLookupStart": 266,
+          "domainLookupEnd": 266,
+          "connectStart": 266,
+          "connectEnd": 266,
+          "secureConnectionStart": 0,
+          "requestStart": 267,
+          "finalResponseHeadersStart": 269,
+          "firstInterimResponseStart": 0,
+          "responseStart": 269,
+          "responseEnd": 269,
+          "transferSize": 8119,
+          "encodedBodySize": 7819,
+          "decodedBodySize": 29400,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "deliveryType": "",
+          "serverTiming": []
+        }
+      ]
+    }
+  ],
+  "errors": [
+    "blob:http://127.0.0.1:43211/1aabeadf-d528-45d4-ab62-58c9a87c50d5 The operation couldn’t be completed. (WebKitBlobResource error 1.)",
+    "Failed to load resource: The operation couldn’t be completed. (WebKitBlobResource error 1.)"
+  ],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:43211/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/index-CoOmw6hP.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/index-eKIPmmpE.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/codex-reference.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/world-CpglViGR.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/typeStore-Cu_sj2zM.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.scalar.functions-D-i-XBaP.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/performanceConfigurator-UtxC_Odd.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/engineStore-Bn2tApal.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/animation.pure-BkcuS87H.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.color.pure-DRf1gOrV.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.size-BHZaDYSv.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/domManagement-BqltO0ki.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decorators-C_ra_8EP.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/tools.functions-C8QU8nYC.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decorators.serialization-d26cuy-b.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logger-CuBYPcDK.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/node-IGSo-MFx.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/halfFloat-Ce77JD5z.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/tools.pure-B61Ijxh6.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/guid-BXdVC_j_.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/smartArray-BRfcgNbX.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/lightConstants-UjYfeHn4.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/buffer.pure-BIFLVAZk.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/scene.pure-D0d6NW2g.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/thinEngine.pure-m0A2h7lr.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shaderStore-D-XQlhUT.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/internalTexture-Dlz1Grf0.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/abstractEngine.pure-BMdakWcX.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pointerEvents-nqydg71H.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneComponent-CjgOmcfi.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/keyboardEvents-CGYiptFb.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphInteger.pure-CZmJgkLp.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.plane-C-VH8mEN.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/utils-CLq_UU0_.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphAssetsContext-WtUyuDAI.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphBlock-CkJU0BIJ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphAsyncExecutionBlock-BAAqAl3y.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphExecutionBlockWithOutSignal-BSnlOV9q.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphExecutionBlock-Cj7SzpKo.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphEventBlock-DFFNSbZo.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/baseTexture.pure-CdBhjDO3.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/drawWrapper-CAjVVxyJ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/effectRenderer.pure-D-L_wZw8.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/texture.pure-D2qax4_s.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/postProcess.pure-rtJhLJEF.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/renderTargetTexture.pure-CgSLJCho.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.axis-BEFzoR3R.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sphericalPolynomial.pure-B_YAEgpI.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/constants-DNxlZnxc.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pushMaterial-CQMvSCtn.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/material.pure-Bo4p5L9-.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/envTextureLoader-BRE65rBt.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/packingFunctions-DpGwbupU.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/clipPlaneFragment-DVK0wgyZ.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMap.vertex-TZnupHeR.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/cubemapToSphericalPolynomial-BLjZA_r-.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMap.fragment-DX4Yo1bp.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/clipPlaneVertex-C59BO8JS.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneUboDeclaration-B5VhSG0v.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/meshUboDeclaration-BmNu2KU_.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bakedVertexAnimation-C6l_KSSy.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/helperFunctions-gEnZbjN3.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/morphTargetsVertex-6N5r7oF1.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneVertexDeclaration-CluTp-RC.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/depthBoxBlur.fragment-CLEAG5DG.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMapFragmentSoftTransparentShadow-R_iOKnyx.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/rgbdDecode.fragment-Cdz2Tveq.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/studio.env",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/749adf87-082e-46de-a8c2-e20b38bb1e25",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/093c4cfc-f961-4c74-b0d1-fedf14c3bdef",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/94beb201-5b4b-43e6-b52e-6f2487c1103c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/41f201e3-2ea4-4403-82c6-8c086dae059a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/eecd1fdf-91e2-434a-a786-deda0b515118",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/4d3530ef-4c11-46d1-ab55-75f8f7061654",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/c389660a-ef08-4aee-9c57-7d4e625d4636",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/f1dc09c6-6a82-4315-9406-6504b13458aa",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/c8f644e0-23b5-4b18-a137-0b7879020e77",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/69de62ab-9514-4374-9093-041753b792ac",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/a2884015-98b4-401d-9337-97e92256c946",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/13eae4d0-4cc3-402c-8b4f-d17473717a71",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/e101bce4-399c-4109-9a20-a9aa32c87036",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/16e168ba-b36b-4ce3-a6c8-648a3c799d2e",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/916edcd7-a098-4073-9402-8bd332580c9b",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/4a295c79-4172-428f-bb17-104073a3dcd8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/f2c7964a-5d28-44d3-8d1f-30f0feebf3a8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/6757c59b-15c2-4a9c-8f9f-3640ea78fc22",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/8c608036-5505-4b1b-ba06-3ed64cf8511a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/093d7e77-d366-40d4-97c9-73d9fcd700c0",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/ce641ed7-0cae-4998-af5b-3a17d70baa36",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/ed6d078b-8054-4ad8-8b13-82dbd5f9d05d",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/9bbb3207-1749-4caf-978e-9086923bfbd8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/0ff7c267-5f20-404e-b99e-fb0461cc942c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/669e9faf-d1b3-42a0-8ee5-cebee8c7db23",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/b18ca004-eb0d-4054-aaba-a05a1d3bd316",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/b6a5969e-b8a5-4152-bc10-3de2dc0238a7",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/9a2c432f-7c39-42f5-a41d-34b37f4aea65",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/postprocess.vertex-DJCmMhI8.js",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/d3d9b7a5-79e9-4143-9804-bb544fca207a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/8734eb04-c790-40c6-8416-fc4e8ccb0168",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/b72b3d54-1372-4135-910f-f9ac06d49281",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/a6a5c742-47db-4b2b-a74d-7f02001249d0",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/0331ccbd-5067-48ec-90dc-c67b190af0c3",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/1c8600ab-6a6b-41b7-9c8d-afe4daabbfbd",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/845037b4-7318-47c2-94bb-bd456cb172c0",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/2a352fc8-2545-4530-a048-bfbccee57b09",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/135c5df5-737a-4fe9-bd5e-5a4e679804b0",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/2fb6ac23-dcea-4299-82b2-b28ba35c38d4",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/26a35e7f-e862-4bc9-9467-d775bdd40aa2",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/af3d0b23-2792-4f1b-b74d-3894e5e3cb5a",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/5a0b2468-63c0-48c8-ad23-85d6a1d0b7d0",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/f0661395-4e97-4acb-93f1-a9de82f474cb",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/4a502453-76ff-4e16-84c7-0e58962e97ad",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/605a8b87-fdfd-4b96-ba4b-20cf6ca201f8",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/3e0f4b3e-cc74-4401-b00c-0e1bf2f5d526",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/9b33caa5-7974-4ec0-89e9-2324ede75c7d",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/bcf5d374-97d3-4351-80a1-0b47e663cb05",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/5b568776-0362-4fa2-800e-84a8b9ef5824",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrMaterial.pure-DbOZmcUp.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrMaterialLoadingAdapter-DGOIMU3T.js",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/a6894e50-136b-472c-9c9c-4716cbbb5f12",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/4d07a6b1-ee2b-4d8b-babc-79105cdcc32c",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:43211/db79ed96-589c-46c8-9847-993465937d4b",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0.js",
+      "status": 200
+    }
+  ]
+}

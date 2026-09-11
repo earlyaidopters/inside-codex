@@ -1,0 +1,60 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "package.verify",
+  "result": {
+    "schema": "game_dev.package_verification.v1",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.2.0",
+    "manifest": {
+      "assetId": "codex_guide",
+      "category": "character",
+      "description": "Locally authored Codex guide with source-traced glyph, corrected shell normals, seated glyph relief, portable skin roots, and twelve retained animation clips. Internal production asset; no independent redistribution license is asserted for the source logo.",
+      "displayName": "codex-guide",
+      "files": [
+        {
+          "bytes": 912508,
+          "kind": "model",
+          "path": "model.glb",
+          "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610"
+        },
+        {
+          "bytes": 1876,
+          "kind": "metadata",
+          "path": "metadata.json",
+          "sha256": "2c72c0a70b15a453de0a56df8c3b8bbd6457b3bef8ec57a3c408b897c36379df"
+        },
+        {
+          "bytes": 1054,
+          "kind": "provenance",
+          "path": "provenance.json",
+          "sha256": "7e0ba2a3a9869e37ca53ac9d7d83c46e84293000b565b97df478993cdbecb5b7"
+        },
+        {
+          "bytes": 2731,
+          "kind": "validation",
+          "path": "validation.json",
+          "sha256": "2e3b530da46f57e3e5db6e71d1e31d9f65593ee37dc366a332ae930fb3919490"
+        }
+      ],
+      "license": "unknown",
+      "model": "model.glb",
+      "packageId": "pkg_87569b0087a2fd2c8948d158",
+      "provenance": {
+        "origin": "authored"
+      },
+      "schema": "game_dev.asset_package.v1",
+      "validation": {
+        "errorCount": 0,
+        "passed": true,
+        "warningCount": 0
+      },
+      "version": "4.2.0"
+    },
+    "hashesVerified": true,
+    "evidence": {
+      "packageBytesVerified": true,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  },
+  "completedAt": "2026-09-10T09:50:20.561Z"
+}

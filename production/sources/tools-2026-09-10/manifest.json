@@ -1,0 +1,16 @@
+{
+  "retrievedAt": "2026-09-10T07:43:14.358360+00:00",
+  "method": "Official OpenAI Docs search then fetch",
+  "sources": [
+    {
+      "url": "https://learn.chatgpt.com/docs/build-skills",
+      "file": "skills.md",
+      "sha256": "4093dba843bd333cdfe25df52cd36828b51d1a4199fdb2fcf2be1b7913063775"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/customization/overview",
+      "file": "overview.md",
+      "sha256": "d683a7472f5ac3a92652928491e75e731fa13591e7675d4aed5676a560fc1e28"
+    }
+  ]
+}

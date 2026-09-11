@@ -1,0 +1,9 @@
+{
+  "engine": "chrome",
+  "version": "153.0.8010.36",
+  "fixture": "hung-decoder",
+  "pass": false,
+  "error": "Error: page.waitForFunction: Target page, context or browser has been closed",
+  "errors": [],
+  "external": []
+}

@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "file": "public/diagnostic-scene.glb",
+  "bytes": 302488,
+  "sha256": "6086cdce035132a44186cde22bc9de71a563f6e93c2b666afe9dd300d231dc79",
+  "meshes": 19,
+  "triangles": 6068,
+  "materials": 6,
+  "embeddedImages": 1,
+  "skins": 1,
+  "joints": [
+    2
+  ],
+  "animations": [
+    {
+      "name": "Companion wave",
+      "channels": 6
+    }
+  ],
+  "extensions": [
+    "KHR_materials_emissive_strength"
+  ]
+}

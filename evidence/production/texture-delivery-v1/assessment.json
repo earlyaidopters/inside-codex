@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-10T15:21:41.852Z",
+  "goalStatus": "met",
+  "evidenceVerified": true,
+  "buildId": "f378f85b2bfac4071cc0239eae33229c93b387c0c36e58b1fbea1da66fc8d80b",
+  "comparison": {
+    "baselineBytes": 19097125,
+    "candidateBytes": 6206040,
+    "savedBytes": 12891085
+  },
+  "qualification": [
+    {
+      "quality": "balanced",
+      "bytes": 6206040,
+      "readyMs": 4136.9000000059605,
+      "networkRevision": 2
+    },
+    {
+      "quality": "high",
+      "bytes": 6429474,
+      "readyMs": 4217.300000011921,
+      "networkRevision": 2
+    }
+  ],
+  "traversals": [
+    {
+      "quality": "balanced",
+      "medianMs": 16.69999999999709,
+      "p95Ms": 16.70000000001164,
+      "p99Ms": 16.80000000000291,
+      "maxMs": 16.80000000000291,
+      "intervalsOver100ms": 0,
+      "maxActiveTriangles": 295364,
+      "maxMainDrawCalls": 139,
+      "maxTotalDrawCalls": 188,
+      "maxTextureEstimateBytes": 127126103.19999999,
+      "heldRenderFrames": 0,
+      "maxViewHoldMs": 0,
+      "totalViewHoldMs": 0
+    },
+    {
+      "quality": "high",
+      "medianMs": 16.69999999999709,
+      "p95Ms": 16.70000000001164,
+      "p99Ms": 16.80000000000291,
+      "maxMs": 16.80000000000291,
+      "intervalsOver100ms": 0,
+      "maxActiveTriangles": 312762,
+      "maxMainDrawCalls": 154,
+      "maxTotalDrawCalls": 207,
+      "maxTextureEstimateBytes": 338838052,
+      "heldRenderFrames": 0,
+      "maxViewHoldMs": 0,
+      "totalViewHoldMs": 0
+    }
+  ],
+  "checks": {
+    "unit": 76,
+    "journey": 37,
+    "browserTextureCases": 12,
+    "geometryDecodedArrays": "exact",
+    "originalFallbackViewsPixelIdentical": 10,
+    "lossyChromeViews": 10,
+    "lossyFirefoxViews": 10,
+    "chromeContextRestoration": true,
+    "doubleTextureFailureAndSavedTaskRetry": true
+  },
+  "runs": [
+    {
+      "role": "baseline",
+      "runId": "run_1789051288215_ec852f06a96a4f5c9f64021bb00ca6a3",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789051288215_ec852f06a96a4f5c9f64021bb00ca6a3",
+      "type": "startup"
+    },
+    {
+      "role": "evaluated-candidate",
+      "runId": "run_1789052716213_6e4dac32037a42b7a7f7df299b2dade0",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789052716213_6e4dac32037a42b7a7f7df299b2dade0",
+      "type": "startup"
+    },
+    {
+      "role": "qualified-balanced",
+      "runId": "run_1789052924823_789b23b56389456185b68fec456a0561",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789052924823_789b23b56389456185b68fec456a0561",
+      "type": "startup"
+    },
+    {
+      "role": "qualified-high",
+      "runId": "run_1789053039342_f91310bc298b45f7a2c02b8a512f91c9",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789053039342_f91310bc298b45f7a2c02b8a512f91c9",
+      "type": "startup"
+    },
+    {
+      "role": "traversal-balanced",
+      "runId": "run_1789053170347_b49660160e8a4c55a2b1ac622f0fe2d4",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789053170347_b49660160e8a4c55a2b1ac622f0fe2d4",
+      "type": "traversal"
+    },
+    {
+      "role": "traversal-high",
+      "runId": "run_1789053372803_3e1a25328dbf467db7104df8c789b160",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789053372803_3e1a25328dbf467db7104df8c789b160",
+      "type": "traversal"
+    }
+  ],
+  "fullReleaseAccepted": false,
+  "limits": [
+    "One final qualification startup and one final traversal per profile; not a repeat study.",
+    "Proxy network and desktop portrait emulation do not prove physical-device or hosted performance.",
+    "Rendering storage is an allocation estimate, not measured native VRAM.",
+    "Geometry/draw budgets, automatic quality, soak/audio/art/device/human/source/hosted gates remain open."
+  ]
+}

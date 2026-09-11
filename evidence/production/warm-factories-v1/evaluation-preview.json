@@ -1,0 +1,23 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.goal-evaluate",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": true,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/warm-exhibit-factories.json",
+    "goalId": "warm-exhibit-factories",
+    "iteration": 1,
+    "candidateRunId": "run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498",
+    "baselineValue": 32,
+    "candidateValue": 0,
+    "target": 0,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 0,
+    "allowedPaths": [
+      "src/exhibit-residency.ts"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  }
+}

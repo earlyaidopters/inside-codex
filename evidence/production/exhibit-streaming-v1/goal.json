@@ -1,0 +1,1 @@
+{"id":"streamed-exhibit-residency","metric":"render.texture_estimate","statistic":"max","unit":"bytes","direction":"lower","target":235000000,"maximumIterations":2,"allowedPaths":["src/world.ts","src/main.ts","src/style.css","src/exhibit-residency.ts","src/vite-env.d.ts","vite.config.ts"]}

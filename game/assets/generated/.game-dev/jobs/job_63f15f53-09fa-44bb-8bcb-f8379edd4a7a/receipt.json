@@ -1,0 +1,26 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-evaluate",
+  "result": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/architecture-startup-delivery.json",
+    "goalId": "architecture-startup-delivery",
+    "iteration": 1,
+    "candidateRunId": "run_1789052716213_6e4dac32037a42b7a7f7df299b2dade0",
+    "baselineValue": 19097125,
+    "candidateValue": 6206040,
+    "target": 8000000,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 1,
+    "allowedPaths": [
+      "public/assets/headquarters/compressed",
+      "public/assets/headquarters/streamed",
+      "src/architecture-textures.ts",
+      "src/world.ts"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  },
+  "completedAt": "2026-09-10T15:08:44.662Z"
+}

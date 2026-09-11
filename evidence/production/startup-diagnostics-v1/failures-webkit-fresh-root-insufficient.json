@@ -1,0 +1,455 @@
+{
+  "pass": false,
+  "rows": [
+    {
+      "name": "webkit",
+      "mode": "world-module",
+      "pass": false,
+      "errors": [
+        "TypeError: Importing a module script failed."
+      ],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:43211/assets/world-DVFg3smE.js",
+          "error": "cancelled"
+        }
+      ],
+      "failure": {
+        "status": "failed",
+        "phase": "world-module",
+        "elapsedMs": 56,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0
+          },
+          {
+            "kind": "failed",
+            "phase": "world-module",
+            "atMs": 13
+          }
+        ],
+        "failure": {
+          "phase": "world-module",
+          "atMs": 13,
+          "name": "TypeError",
+          "message": "Importing a module script failed.",
+          "causes": []
+        }
+      },
+      "error": "TimeoutError: page.waitForFunction: Timeout 30000ms exceeded.",
+      "state": {
+        "startup": {
+          "status": "failed",
+          "phase": "architecture",
+          "elapsedMs": 30048,
+          "events": [
+            {
+              "kind": "phase-start",
+              "phase": "world-module",
+              "atMs": 0
+            },
+            {
+              "kind": "phase-complete",
+              "phase": "world-module",
+              "atMs": 105
+            },
+            {
+              "kind": "phase-start",
+              "phase": "graphics-context",
+              "atMs": 106
+            },
+            {
+              "kind": "phase-start",
+              "phase": "scene-setup",
+              "atMs": 113
+            },
+            {
+              "kind": "phase-start",
+              "phase": "architecture",
+              "atMs": 124
+            },
+            {
+              "kind": "failed",
+              "phase": "architecture",
+              "atMs": 149
+            },
+            {
+              "kind": "world-disposed",
+              "phase": "architecture",
+              "atMs": 152
+            }
+          ],
+          "failure": {
+            "phase": "architecture",
+            "atMs": 149,
+            "name": "RuntimeError",
+            "message": "Unable to load from file:architecture.glb: Importing a module script failed.",
+            "causes": [
+              {
+                "name": "TypeError",
+                "message": "Importing a module script failed."
+              }
+            ]
+          }
+        },
+        "ready": true,
+        "screen": "welcome",
+        "mission": 0,
+        "stepIndex": 0,
+        "cedarLab": {
+          "section": "brief",
+          "inspecting": "brief",
+          "definition": {
+            "title": "",
+            "summary": "",
+            "period": "",
+            "deliverable": "",
+            "metrics": []
+          },
+          "sources": [],
+          "dataTool": false,
+          "fileTool": false,
+          "scope": "none",
+          "effort": "medium",
+          "procedure": "template",
+          "week": "first",
+          "revision": 1,
+          "outputs": {},
+          "checks": {},
+          "readbacks": {},
+          "failureSeen": false,
+          "schedule": {
+            "cadence": "daily",
+            "timezone": "UTC",
+            "alerts": "every",
+            "failure": "replace",
+            "runtime": "unattended"
+          },
+          "rehearsal": null,
+          "first": null,
+          "reviews": [],
+          "hints": 0,
+          "actions": [],
+          "message": "Cedar has supplied a brief and five files. Build a handoff that satisfies the brief. You choose the order of work."
+        },
+        "handoffLab": {
+          "section": "delivery",
+          "surface": "delivered",
+          "revision": 2,
+          "mode": "absolute",
+          "notes": "claim",
+          "selected": [
+            "page",
+            "brand",
+            "data"
+          ],
+          "package": null,
+          "localCheck": null,
+          "delivered": {
+            "id": 1,
+            "kind": "original",
+            "revision": 1,
+            "files": {
+              "index.html": "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Northstar — kickoff guide</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#f1eee3;color:#243f30;margin:0;padding:28px}main{max-width:540px;margin:auto}img{width:210px;max-width:100%;height:auto}h1{font-size:28px;line-height:1.15}dl{display:grid;grid-template-columns:1fr 1fr;gap:12px}dd{margin:0;font-weight:600}a{color:#244f3c}small{display:block;margin-top:25px}</style></head><body><main><img src=\"./assets/brand.svg\" alt=\"Northstar brand mark\"><h1>Your kickoff guide.</h1><p>Northstar Studio</p><dl><dt>Kickoff</dt><dd>Scheduled</dd><dt>File access</dt><dd>Requested</dd><dt>Approval owner</dt><dd data-owner=\"Nina Patel\">Nina Patel</dd></dl><p><a href=\"./onboarding.csv\" download>Download the onboarding checklist</a></p><small>Fictional training data. No client account or email connection.</small></main></body></html>\n",
+              "assets/brand.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"240\" height=\"64\" viewBox=\"0 0 240 64\"><rect width=\"240\" height=\"64\" rx=\"10\" fill=\"#254d3b\"/><path d=\"M31 10 36 26 53 31 36 36 31 53 26 36 10 31 26 26Z\" fill=\"#efe6cc\"/><text x=\"67\" y=\"40\" fill=\"#fff8e8\" font-family=\"sans-serif\" font-size=\"23\">Northstar</text></svg>",
+              "onboarding.csv": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+              "README.md": "# Use the Northstar guide\n\nServe the parent directory with `python3 -m http.server 8000`, then open http://127.0.0.1:8000/northstar/. Keep index.html, assets/brand.svg and onboarding.csv together. Verify the brand image, approval owner Nina Patel and CSV download from that exact route.\n\nRecovery: the separate recovery/northstar folder contains the earlier working release. Serve recovery as the root or restore its northstar folder, then check the same route again. Never replace the only working recovery copy with an unverified candidate.\n\nKnown limits: fictional static data; no authentication, email delivery or live source sync. The rehearsal checks file references and fixture content. Real-device, performance and production-host checks still need to be performed for any real deployment.\n"
+            }
+          },
+          "deliveredCheck": null,
+          "recovery": null,
+          "nextId": 2,
+          "failureSeen": false,
+          "rollbackVerified": false,
+          "actions": [],
+          "events": [],
+          "message": "A working guide is already delivered. Check that copy and preserve it before staging the candidate. Local checks alone cannot prove a delivered package works."
+        },
+        "automationLab": {
+          "section": "setup",
+          "now": 1789044900000,
+          "config": {
+            "prompt": "vague",
+            "cadence": "weekdays",
+            "hour": "9",
+            "timezone": "America/Toronto",
+            "destination": "same",
+            "notifications": "changes",
+            "onFailure": "report"
+          },
+          "revision": 1,
+          "testedVersion": null,
+          "enabled": false,
+          "host": true,
+          "source": "approved",
+          "baseline": null,
+          "lastFailure": null,
+          "runs": [],
+          "events": [],
+          "actions": [],
+          "nextId": 1,
+          "message": "The local brief is ready. Test a precise prompt before turning on the weekday schedule. The rehearsal clock starts Thursday at 08:55 Toronto time."
+        },
+        "toolLab": {
+          "section": "connect",
+          "package": "source",
+          "inspected": [],
+          "installed": null,
+          "scope": "training",
+          "connected": false,
+          "guidanceRead": false,
+          "skill": "example",
+          "loaded": [],
+          "client": "northstar",
+          "reads": {},
+          "outputs": {},
+          "revision": 1,
+          "failureSeen": false,
+          "actions": [],
+          "events": [],
+          "message": "Two client briefs are in a fictional document service. Inspect the plugin, connect its reading tool, then test the bundled procedure."
+        },
+        "contextLab": {
+          "read": [],
+          "selected": [],
+          "opened": "brief",
+          "authority": null,
+          "target": null,
+          "revision": 0,
+          "result": null,
+          "check": null,
+          "runs": 0,
+          "message": "Open the files. Build a context pack for the missing-field repair."
+        },
+        "modelLab": {
+          "job": "label",
+          "jobs": {
+            "label": {
+              "model": "terra",
+              "effort": "medium",
+              "replacement": "Clinet",
+              "scope": "entry",
+              "patch": "after",
+              "connected": false,
+              "source": "cached",
+              "revision": 0,
+              "runs": [],
+              "current": null,
+              "accepted": null
+            },
+            "billing": {
+              "model": "terra",
+              "effort": "medium",
+              "replacement": "Clinet",
+              "scope": "entry",
+              "patch": "after",
+              "connected": false,
+              "source": "cached",
+              "revision": 0,
+              "runs": [],
+              "current": null,
+              "accepted": null
+            },
+            "sheet": {
+              "model": "terra",
+              "effort": "medium",
+              "replacement": "Clinet",
+              "scope": "entry",
+              "patch": "after",
+              "connected": false,
+              "source": "cached",
+              "revision": 0,
+              "runs": [],
+              "current": null,
+              "accepted": null
+            }
+          },
+          "message": "Choose a job and a setup. The actual training artifact will determine whether its check passes."
+        },
+        "permissionLab": {
+          "section": "source",
+          "profile": "workspace",
+          "approval": "never",
+          "network": false,
+          "connected": false,
+          "source": null,
+          "pending": false,
+          "draft": null,
+          "revision": 0,
+          "check": null,
+          "events": [
+            "file-denied"
+          ],
+          "message": "Local read denied: the training profile excludes /reference/northstar. Approval prompts are disabled; this does not grant access."
+        },
+        "reviewLab": {
+          "section": "diff",
+          "patch": {
+            "owner": false,
+            "files": false,
+            "title": false
+          },
+          "flags": [],
+          "revision": 0,
+          "inspected": null,
+          "runs": [],
+          "current": null,
+          "requests": [],
+          "message": "Proposed change: “Owner filled; heading corrected.” Inspect the saved patch and test that claim."
+        },
+        "steeringLab": {
+          "section": "work",
+          "messageKind": "french",
+          "active": {
+            "kind": "checklist",
+            "step": 0,
+            "run": 1
+          },
+          "language": "en",
+          "pending": [],
+          "queue": [],
+          "nextId": 1,
+          "nextRun": 2,
+          "checklist": null,
+          "draft": null,
+          "statusAsked": false,
+          "statusReport": null,
+          "steered": false,
+          "queuedEmail": false,
+          "emailAfterChecklist": false,
+          "events": [
+            "Run 1 started: prepare the onboarding checklist."
+          ],
+          "actions": [],
+          "message": "The checklist run is active. Work advances only when you press Next work step."
+        },
+        "selected": [],
+        "feedback": null,
+        "modal": null,
+        "branches": {
+          "mode": "shared",
+          "shared": {
+            "client": "Northstar Studio",
+            "kickoff": "scheduled",
+            "files": "requested",
+            "approval_owner": ""
+          },
+          "files": {
+            "a": {
+              "client": "Northstar Studio",
+              "kickoff": "scheduled",
+              "files": "requested",
+              "approval_owner": ""
+            },
+            "b": {
+              "client": "Northstar Studio",
+              "kickoff": "scheduled",
+              "files": "requested",
+              "approval_owner": ""
+            }
+          },
+          "written": {
+            "a": false,
+            "b": false
+          },
+          "revision": {
+            "a": 0,
+            "b": 0,
+            "local": 0
+          },
+          "checks": {
+            "a": null,
+            "b": null,
+            "local": null
+          },
+          "reviewed": false,
+          "local": {
+            "client": "Northstar Studio",
+            "kickoff": "scheduled",
+            "files": "requested",
+            "approval_owner": ""
+          },
+          "chosen": null,
+          "collision": false,
+          "events": [],
+          "message": "Two tasks are looking at one checkout. Apply their competing changes and inspect what each task sees."
+        },
+        "progress": {
+          "version": 1,
+          "completed": [],
+          "attempts": {
+            "tasks.0": 1
+          },
+          "hints": {},
+          "capstone": [],
+          "lastMission": 4,
+          "workspace": {
+            "branchReview": null,
+            "capstoneReview": null,
+            "handoffRelease": null,
+            "automationRun": null,
+            "toolWorkshop": null,
+            "steeringRun": null,
+            "reviewRepair": null,
+            "permissionReview": null,
+            "modelReview": null,
+            "contextReview": null,
+            "tasks": [
+              {
+                "id": "onboarding-review",
+                "title": "Recovered world-module",
+                "brief": "Review the onboarding checklist and verify required fields against the client brief.",
+                "effort": "high",
+                "pinned": true,
+                "status": "ready"
+              }
+            ]
+          },
+          "settings": {
+            "audio": {
+              "voice": 0.9,
+              "music": 0.22,
+              "ambience": 0.2,
+              "effects": 0.55
+            },
+            "muted": true,
+            "reduced": false,
+            "quality": "high"
+          }
+        },
+        "sound": {
+          "outputRms": 0,
+          "limiterReduction": 0,
+          "time": 0,
+          "voiceActive": false,
+          "unlocked": false,
+          "context": "locked",
+          "muted": true,
+          "paused": false,
+          "hidden": false,
+          "levels": {
+            "voice": 0.9,
+            "music": 0.22,
+            "ambience": 0.2,
+            "effects": 0.55
+          },
+          "voiceBackend": "recorded-kokoro-v1",
+          "voiceMessage": "",
+          "caption": "",
+          "wing": 0,
+          "loops": [],
+          "retiring": 0,
+          "shots": 0,
+          "pending": [],
+          "failures": [],
+          "buffers": [],
+          "gains": {},
+          "master": 0
+        },
+        "graphicsError": "3D couldn’t start in this browser."
+      }
+    }
+  ]
+}

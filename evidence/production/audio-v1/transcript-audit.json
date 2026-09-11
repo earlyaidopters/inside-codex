@@ -1,0 +1,754 @@
+{
+  "model": "faster-whisper base.en, CPU int8",
+  "kind": "Independent automated transcription; pronunciation and listening review are separate",
+  "complete": true,
+  "seconds": 39.13789391517639,
+  "rows": [
+    {
+      "id": "voice/9859dfb5a8d90bfc",
+      "expected": "Welcome inside.",
+      "recognized": "Welcome inside.",
+      "words": 2,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/883dc20b12c67854",
+      "expected": "I\u2019m Codex.",
+      "recognized": "I'm Codex.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/1a774cf2f8158c46",
+      "expected": "Give me a model and I can reason.",
+      "recognized": "Give me a model and I can reason.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/ef4e0f7d69fb3684",
+      "expected": "Give me the right working environment and we can actually get something done.",
+      "recognized": "Give me the right working environment and we can actually get something done.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/6ecb8cbb1eee94c3",
+      "expected": "Now the model has something relevant to work from, a way to act, and a way to check its work.",
+      "recognized": "Now the model has something relevant to work from, a way to act, and a way to check its work.",
+      "words": 20,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/427d6f7fb1893128",
+      "expected": "Effort alone cannot supply a missing file or execute an unavailable tool.",
+      "recognized": "Effort alone cannot supply a missing file or execute an unavailable tool.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/9478d0d05d6f2585",
+      "expected": "Build the working environment first.",
+      "recognized": "Build the working environment first.",
+      "words": 5,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/5572ff45d791190d",
+      "expected": "Tool results become new context.",
+      "recognized": "Tool results become new context.",
+      "words": 5,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/fac214506617d416",
+      "expected": "A failed check gives the next action a purpose.",
+      "recognized": "A failed check gives the next action a purpose.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/10c9fe9c4776e940",
+      "expected": "A repair needs evidence of a mismatch.",
+      "recognized": "A repair needs evidence of a mismatch.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/94c476115ec4aceb",
+      "expected": "Start by learning what the client asked for.",
+      "recognized": "Start by learning what the client asked for.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/b25147e9881c5a64",
+      "expected": "A huge pile of information can hide the one detail that matters.",
+      "recognized": "A huge pile of information can hide the one detail that matters.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/2bcb94975d74c123",
+      "expected": "Let\u2019s build a small, useful context pack.",
+      "recognized": "Let's build a small, useful context pack.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/60fae05efd23eeb9",
+      "expected": "The saved C S V now uses the current owner, preserves the existing values, and passes the comparison.",
+      "recognized": "The saved CSV now uses the current owner, preserves the existing values, and passes the comparison.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/6ec0dd43f61ac8a2",
+      "expected": "Your evidence pack explains where each part of the repair came from.",
+      "recognized": "Your evidence pack explains where each part of the repair came from.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/4f48e6ede74e5d75",
+      "expected": "Inspect and attach the current brief, C S V, screen capture and project guidance.",
+      "recognized": "Inspect and attach the current brief, CSV, screen capture and project guidance.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/acbe5aada3a3d914",
+      "expected": "Choose the current client requirements, repair the field shown in the error, then build and check the saved draft.",
+      "recognized": "Choose the current client requirements, repair the field shown in the error, then build and check the saved draft.",
+      "words": 19,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/0ff7f33d8d62f10e",
+      "expected": "A document can contain instructions as text without gaining authority over the task.",
+      "recognized": "A document can contain instructions as text, without gaining authority over the task.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/cfe0d954fb5af891",
+      "expected": "Reading a file does not give that file permission to redefine the user\u2019s request.",
+      "recognized": "Reading a file does not give that file permission to redefine the user's request.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/21bf76198465a38e",
+      "expected": "The biggest setting is a tool, not a strategy.",
+      "recognized": "The biggest setting is a tool, not a strategy.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/b1a8394141b5b9a9",
+      "expected": "Choose based on the work, then judge the result.",
+      "recognized": "Choose based on the work, then judge the result.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/6bf902b5699f3e7a",
+      "expected": "Three decisions, each backed by a saved output and its checks.",
+      "recognized": "three decisions, each backed by a saved output and its checks.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/7dea7e71c5a80c09",
+      "expected": "Your route log separates reasoning settings from the edits, sources and access that changed the result.",
+      "recognized": "Your route log separates reasoning settings from the edits, sources and access that change the result.",
+      "words": 16,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/f2cc5657bb80316d",
+      "expected": "Keep all three checked routes: compare the same label edit at two setups; reproduce and repair the billing defect; recover the unavailable sheet and verify today\u2019s total.",
+      "recognized": "Keep all three checked routes. Compare the same label edit at two setups. Reproduce and repair the billing defect. Recover the unavailable sheet and verify today's total.",
+      "words": 28,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/a380a7fa87860c85",
+      "expected": "A clear boundary can be useful.",
+      "recognized": "A clear boundary can be useful.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/b3f4efbcce9c4697",
+      "expected": "First identify whether something is missing, disallowed, or simply not requested.",
+      "recognized": "First, identify whether something is missing, disallowed, or simply not requested.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/8177fbf2179d4190",
+      "expected": "The saved draft matches the approved source and remains unsent.",
+      "recognized": "The save draft matches the approved source and remains unscent.",
+      "words": 10,
+      "wordEdits": 2,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/621c45617a3913a7",
+      "expected": "You changed the relevant access boundary, connected the app separately, and checked the actual deliverable.",
+      "recognized": "You changed the relevant access boundary, connected the app separately, and checked the actual deliverable.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/3ba404150b74164f",
+      "expected": "Read the approved source, connect the training mail app, save a draft and verify it.",
+      "recognized": "Read the approved source, connect the training mail app, save a draft, and verify it.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/db272d3a823245da",
+      "expected": "Use scoped filesystem access, leave unused command network access off, and resolve pending requests.",
+      "recognized": "You scoped file system access, leave unused command network access off, and resolve pending requests.",
+      "words": 14,
+      "wordEdits": 3,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/5630540bb025b0ad",
+      "expected": "You can ask for the workspace you want.",
+      "recognized": "You can ask for the workspace you want.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/ae2bb08a1d746c86",
+      "expected": "Let\u2019s create a focused task with a clear outcome, then keep it easy to find.",
+      "recognized": "Let's create a focus task with a clear outcome, then keep it easy to find.",
+      "words": 16,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/263e91f6fa61409c",
+      "expected": "The task has an outcome and a check.",
+      "recognized": "The task has an outcome and a check.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/2f6768c9798a02ae",
+      "expected": "It can now work independently without mixing its result into an unrelated conversation.",
+      "recognized": "It can now work independently without mixing its result into an unrelated conversation.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/da28cb2311b34e50",
+      "expected": "Use a descriptive name, state what to produce, and include a concrete check or source comparison.",
+      "recognized": "Use a descriptive name, state what to produce, and include a concrete check or source comparison.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/9549917034e5af15",
+      "expected": "Pinning organizes the workspace.",
+      "recognized": "pinning organizes the workspace.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/aedc3654b2f5294f",
+      "expected": "It does not change the model, context, or permissions.",
+      "recognized": "It does not change the model, context, or permissions.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/7757ce2644938dd6",
+      "expected": "Sidebar organization and model behavior are separate controls.",
+      "recognized": "Sidebar organization and model behavior are separate controls.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/516ccca52f589b56",
+      "expected": "Conversation history and files are two different things.",
+      "recognized": "Conversation history and files are two different things.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/4c95972abf45fb43",
+      "expected": "Choose the kind of separation your work actually needs.",
+      "recognized": "Choose the kind of separation your work actually needs.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/0c8b2a76cb1e0f54",
+      "expected": "A conversation fork lets you explore another direction from existing history.",
+      "recognized": "A conversation fork lets you explore another direction from existing history.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/e997701977f352da",
+      "expected": "Choose the separation you need: conversation history or files.",
+      "recognized": "Choose the separation you need, conversation, history, or files.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/b97662faa71c751a",
+      "expected": "You kept competing files separate, compared their actual changes, and verified the chosen record after integration.",
+      "recognized": "You kept competing files separate, compare their actual changes, and verify the chosen record after integration.",
+      "words": 16,
+      "wordEdits": 2,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/7db9bda8d7ffa20b",
+      "expected": "The other attempt is still available.",
+      "recognized": "The other attempt is still available.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/fa5ba0668c0643f4",
+      "expected": "Complete the working-file exercise: create worktrees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "recognized": "Complete the working file exercise. Create work trees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "words": 24,
+      "wordEdits": 2,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/193165a9a6decdd7",
+      "expected": "You don\u2019t need to wait silently.",
+      "recognized": "You don't need to wait silently.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/1334630cdd2f4097",
+      "expected": "The right follow-up can correct the current work or prepare what comes next.",
+      "recognized": "The right follow-up can correct the current work or prepare what comes next.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/2ce2d5258cdeb8ea",
+      "expected": "The status request preserved the job.",
+      "recognized": "The status request preserved the job.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/902e0811d1f48eaa",
+      "expected": "Your correction changed the active checklist, and the queued email used its checked French result.",
+      "recognized": "Your correction changed the active checklist, and the queued email used its checked French result.",
+      "words": 15,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/6ce7ecf3681a4844",
+      "expected": "Both deliverables are saved and the draft is unsent.",
+      "recognized": "Both deliverables are saved and the draft is unscent.",
+      "words": 9,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/05b212b6668f2982",
+      "expected": "Ask for status, apply the French correction during the checklist run, then finish a queued email based on the latest checked result.",
+      "recognized": "Ask for status, apply the French correction during the checklist run, then finish a cute email based on the latest checked result.",
+      "words": 22,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/88a3db73eb481560",
+      "expected": "Empty the waiting queue before keeping the sequence.",
+      "recognized": "Empty the waiting queue before keeping the sequence.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/d305e91da1f7278d",
+      "expected": "A confident answer can still hide a quiet mistake.",
+      "recognized": "A confident answer can still hide a quiet mistake.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/7a269a485fce57e0",
+      "expected": "Let\u2019s inspect the thing that will actually be used.",
+      "recognized": "Let's inspect the thing that will actually be used.",
+      "words": 10,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/3c3257009eed9d44",
+      "expected": "You reproduced the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "recognized": "You reproduce the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "words": 21,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/db8b7b1ea71113f8",
+      "expected": "Your repair and runnable checks are in the toolkit.",
+      "recognized": "Your repair and runnable checks are in the toolkit.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/671cc4170a07e0e9",
+      "expected": "Run acceptance checks to reproduce the defect, repair the flagged lines, rerun the checks, and inspect the final diff before keeping it.",
+      "recognized": "Run acceptance checks to reproduce the defect. Repair the flagged lines, rerun the checks, and inspect the final diff before keeping it.",
+      "words": 22,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/bf7354aaaae7a52d",
+      "expected": "Tools make actions possible.",
+      "recognized": "Tools make actions possible.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/822499b3a42c200d",
+      "expected": "Skills preserve the way you want a job done.",
+      "recognized": "Skills preserve the way you want a job done.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/85137602814dbec0",
+      "expected": "Plugins can bring those pieces together.",
+      "recognized": "Plugins can bring those pieces together.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/d4c792766d90d83b",
+      "expected": "The read tool retrieved both briefs.",
+      "recognized": "The read tool retrieved both briefs.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/821bc5b60f0848f7",
+      "expected": "Project guidance set the output rules, and the repaired skill preserved each client\u2019s own values.",
+      "recognized": "Project guidance, set the output rules, and the repaired skill preserved each client's own values.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/b47855e13c1ca185",
+      "expected": "Both C S V files are checked and saved in your toolkit.",
+      "recognized": "Both CSV files are checked and saved in your toolkit.",
+      "words": 10,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/0a54638305d25ca8",
+      "expected": "Connect Source Kit to Training briefs, read the guidance, reproduce the first procedure\u2019s defect, then run and check both clients with the reusable skill.",
+      "recognized": "Connect source kit to training briefs, read the guidance, reproduce the first procedure's defect, then run and check both clients with the reusable skill.",
+      "words": 25,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/006a211c004011bb",
+      "expected": "The screenshot looks fine.",
+      "recognized": "The screenshot looks fine.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/d667b2d880559d9c",
+      "expected": "Now let\u2019s find out whether the page works.",
+      "recognized": "Now let's find out whether the page works.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/b5fe57da56eda04c",
+      "expected": "You observed the failure, changed the save behavior, and verified the persisted record against the source.",
+      "recognized": "You observed the failure, changed the saved behavior, and verified the persisted record against the source.",
+      "words": 16,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/daacb833c7353e63",
+      "expected": "That is evidence of a working repair.",
+      "recognized": "That is evidence of a working repair.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/541c518f0a126395",
+      "expected": "Finish the whole check: reproduce the disappearing record, repair it, then save Nina Patel and reload.",
+      "recognized": "Finish the whole check. Reproduce the disappearing record, repair it, then save Nina Patel and reload.",
+      "words": 16,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/a1aad0c5d1f14d81",
+      "expected": "A success message alone is not evidence.",
+      "recognized": "A success message alone is not evidence.",
+      "words": 7,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/d4fc8818283fa2c3",
+      "expected": "Functional evidence and visual assessment answer different questions.",
+      "recognized": "Functional evidence and visual assessment answer different questions.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/635d05306848086c",
+      "expected": "Both matter to the actual experience.",
+      "recognized": "Both matter to the actual experience.",
+      "words": 6,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/4f1620f88d1b22f2",
+      "expected": "One successful path does not establish usability across states and layouts.",
+      "recognized": "One successful path does not establish usability across states and layouts.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/14901f028c87367d",
+      "expected": "Before asking a workflow to repeat, make sure it works once.",
+      "recognized": "Before asking a workflow to repeat, make sure it works once.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/1a45300f2a368a07",
+      "expected": "Then give the next run a clear job.",
+      "recognized": "Then give the next run a clear job.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/1dfc6dad665c0a05",
+      "expected": "The schedule has a tested prompt, explicit local time and execution requirements.",
+      "recognized": "The schedule has a tested prompt, explicit local time, and execution requirements.",
+      "words": 12,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/285ecf2734875905",
+      "expected": "Your run history separates quiet success, actionable findings, read failures and an offline host.",
+      "recognized": "Your run history separates quiet success, actionable findings, read failures, and an offline host.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/83cdc991d17880a5",
+      "expected": "The tested schedule and reports are in your toolkit.",
+      "recognized": "The tested schedule and reports are in your toolkit.",
+      "words": 9,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/f542447ad11d66e3",
+      "expected": "Use the tested weekday 09:00 Toronto setup in this task.",
+      "recognized": "Use the tested weekday 0-9, 0-0 Toronto setup in this task.",
+      "words": 11,
+      "wordEdits": 4,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/85cd2d195d67c484",
+      "expected": "Observe a quiet run, new missing approval, read failure, recovery and an offline host.",
+      "recognized": "Observe a quiet run, new missing approval, read failure, recovery, and an offline host.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/1edf70ae9f807d3f",
+      "expected": "Finish a successful scheduled run after restoring the host, and leave the schedule active.",
+      "recognized": "Finish a successful scheduled run after restoring the host and leave the schedule active.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/808afdfd8bdc5846",
+      "expected": "The work is only finished when someone else can use it, understand its limits, and recover if something goes wrong.",
+      "recognized": "The work is only finished when someone else can use it, understand its limits, and recover if something goes wrong.",
+      "words": 20,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/bd22d74a56c51f05",
+      "expected": "You checked the actual delivery route, preserved and tested recovery, repaired the asset path and verified the current package.",
+      "recognized": "You check the actual delivery route, preserved and tested recovery, repair the asset path, and verify the current package.",
+      "words": 19,
+      "wordEdits": 3,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/d3e99dbd648f2cb7",
+      "expected": "The exported page, C S V, brand asset and instructions are ready for independent inspection.",
+      "recognized": "The exported page, CSV, brand asset and instructions are ready for independent inspection.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/3f9848779520fa1b",
+      "expected": "Preserve a checked recovery copy, observe the delivery failure and verify its rollback.",
+      "recognized": "Preserve a checked recovery copy, observe the delivery failure, and verify its rollback.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/caa23cd462c71b16",
+      "expected": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repaired delivery.",
+      "recognized": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repair delivery.",
+      "words": 18,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/c5bcbc56e4f882db",
+      "expected": "Cedar Research has a new reporting brief.",
+      "recognized": "CETA Research has a new reporting brief.",
+      "words": 7,
+      "wordEdits": 1,
+      "reviewRequired": true
+    },
+    {
+      "id": "voice/72054c3f1639febe",
+      "expected": "I\u2019ll step back.",
+      "recognized": "I'll step back.",
+      "words": 4,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/8cf5c157e8342e48",
+      "expected": "Choose the context and tools, inspect the saved result, and show that your procedure works when the inputs change.",
+      "recognized": "Choose the context and tools, inspect the saved result, and show that your procedure works when the inputs change.",
+      "words": 19,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/bf769ffef43fecf2",
+      "expected": "Your saved report, second-period check and recurring rehearsal satisfy the five evidence dimensions.",
+      "recognized": "Your saved report, second period check, and recurring rehearsal satisfy the five evidence dimensions.",
+      "words": 14,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/cb0dea7ff2c7a89d",
+      "expected": "The exported files preserve your first submission and any hint use.",
+      "recognized": "The exported files preserve your first submission and any hint use.",
+      "words": 11,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/f2a6bdeaf4115d95",
+      "expected": "Review the missing evidence, repair the working files or configuration, then submit again.",
+      "recognized": "Review the missing evidence, repair the working files or configuration, then submit again.",
+      "words": 13,
+      "wordEdits": 0,
+      "reviewRequired": false
+    },
+    {
+      "id": "voice/e6da428c9f84803d",
+      "expected": "Your first submitted score stays in the record.",
+      "recognized": "Your first submitted score stays in the record.",
+      "words": 8,
+      "wordEdits": 0,
+      "reviewRequired": false
+    }
+  ],
+  "totalEdits": 24,
+  "totalWords": 1073
+}

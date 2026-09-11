@@ -1,0 +1,44 @@
+{
+  "pass": true,
+  "scope": "Orthographic mesh silhouette reprojected into original source coordinates. Fixed white thresholds match the trace. Measures glyph placement/outline only, not shading or runtime appearance.",
+  "inputs": {
+    "baseline": {
+      "path": "../evidence/production/mascot-v4/baseline.glb",
+      "sha256": "9edf1d71b87628d85865a57c43f6ca40b4ded3aaff251854b8edb351d26fa386"
+    },
+    "candidate": {
+      "path": "../evidence/production/mascot-v4/mascot-traced-glyph-v4.glb",
+      "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610"
+    }
+  },
+  "comparisons": [
+    {
+      "part": "chevron",
+      "variant": "baseline",
+      "sourcePixels": 10961,
+      "projectedPixels": 11559,
+      "intersectionOverUnion": 0.4931706670202891
+    },
+    {
+      "part": "chevron",
+      "variant": "candidate",
+      "sourcePixels": 10961,
+      "projectedPixels": 11152,
+      "intersectionOverUnion": 0.9803868887694788
+    },
+    {
+      "part": "underscore",
+      "variant": "baseline",
+      "sourcePixels": 7379,
+      "projectedPixels": 7484,
+      "intersectionOverUnion": 0.7578947368421053
+    },
+    {
+      "part": "underscore",
+      "variant": "candidate",
+      "sourcePixels": 7379,
+      "projectedPixels": 7526,
+      "intersectionOverUnion": 0.9778397027600849
+    }
+  ]
+}

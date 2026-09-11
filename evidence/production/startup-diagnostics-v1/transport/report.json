@@ -1,0 +1,457 @@
+{
+  "pass": true,
+  "browser": "153.0.8010.36",
+  "checks": [
+    "http-503: failure preserves the guided lesson controls and Retry 3D reloads a working scene",
+    "bad-gzip: failure preserves the guided lesson controls and Retry 3D reloads a working scene",
+    "decoder-503: failure preserves the guided lesson controls and Retry 3D reloads a working scene",
+    "Raw gzip without a Content-Encoding header is unpacked by the native stream API",
+    "Without native DecompressionStream, the bundled asynchronous decoder starts the scene without remote requests",
+    "A host that already unpacks the sidecar is accepted without double decompression"
+  ],
+  "errors": [],
+  "receipts": [
+    {
+      "mode": "http-503",
+      "recovered": {
+        "staticShadows": {
+          "batches": [
+            {
+              "id": 425,
+              "sources": [
+                20,
+                23,
+                26,
+                29,
+                32,
+                36,
+                39,
+                43,
+                46,
+                50,
+                53,
+                56,
+                59,
+                62,
+                65,
+                68,
+                71,
+                74,
+                77,
+                81,
+                84,
+                87,
+                90,
+                93
+              ],
+              "triangles": 223458,
+              "sourceTriangles": 223458,
+              "vertexBytes": 3920952,
+              "indexBytes": 2681496,
+              "refreshes": 1,
+              "layerMask": 0
+            },
+            {
+              "id": 427,
+              "sources": [
+                155,
+                157,
+                159,
+                209,
+                211,
+                213
+              ],
+              "triangles": 10122,
+              "sourceTriangles": 10122,
+              "vertexBytes": 122760,
+              "indexBytes": 121464,
+              "refreshes": 1,
+              "layerMask": 0
+            }
+          ],
+          "drawsSaved": 28,
+          "additionalBufferBytes": 6846672,
+          "projectionUsesOriginalBounds": true
+        },
+        "detail": {
+          "requested": "high",
+          "active": "high",
+          "loading": false,
+          "error": "",
+          "triangles": 223458,
+          "cached": false,
+          "meshIds": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            36,
+            39,
+            43,
+            46,
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            77,
+            81,
+            84,
+            87,
+            90,
+            93
+          ]
+        },
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      }
+    },
+    {
+      "mode": "bad-gzip",
+      "recovered": {
+        "staticShadows": {
+          "batches": [
+            {
+              "id": 425,
+              "sources": [
+                20,
+                23,
+                26,
+                29,
+                32,
+                36,
+                39,
+                43,
+                46,
+                50,
+                53,
+                56,
+                59,
+                62,
+                65,
+                68,
+                71,
+                74,
+                77,
+                81,
+                84,
+                87,
+                90,
+                93
+              ],
+              "triangles": 223458,
+              "sourceTriangles": 223458,
+              "vertexBytes": 3920952,
+              "indexBytes": 2681496,
+              "refreshes": 1,
+              "layerMask": 0
+            },
+            {
+              "id": 427,
+              "sources": [
+                155,
+                157,
+                159,
+                209,
+                211,
+                213
+              ],
+              "triangles": 10122,
+              "sourceTriangles": 10122,
+              "vertexBytes": 122760,
+              "indexBytes": 121464,
+              "refreshes": 1,
+              "layerMask": 0
+            }
+          ],
+          "drawsSaved": 28,
+          "additionalBufferBytes": 6846672,
+          "projectionUsesOriginalBounds": true
+        },
+        "detail": {
+          "requested": "high",
+          "active": "high",
+          "loading": false,
+          "error": "",
+          "triangles": 223458,
+          "cached": false,
+          "meshIds": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            36,
+            39,
+            43,
+            46,
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            77,
+            81,
+            84,
+            87,
+            90,
+            93
+          ]
+        },
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      }
+    },
+    {
+      "mode": "decoder-503",
+      "recovered": {
+        "staticShadows": {
+          "batches": [
+            {
+              "id": 425,
+              "sources": [
+                20,
+                23,
+                26,
+                29,
+                32,
+                36,
+                39,
+                43,
+                46,
+                50,
+                53,
+                56,
+                59,
+                62,
+                65,
+                68,
+                71,
+                74,
+                77,
+                81,
+                84,
+                87,
+                90,
+                93
+              ],
+              "triangles": 223458,
+              "sourceTriangles": 223458,
+              "vertexBytes": 3920952,
+              "indexBytes": 2681496,
+              "refreshes": 1,
+              "layerMask": 0
+            },
+            {
+              "id": 427,
+              "sources": [
+                155,
+                157,
+                159,
+                209,
+                211,
+                213
+              ],
+              "triangles": 10122,
+              "sourceTriangles": 10122,
+              "vertexBytes": 122760,
+              "indexBytes": 121464,
+              "refreshes": 1,
+              "layerMask": 0
+            }
+          ],
+          "drawsSaved": 28,
+          "additionalBufferBytes": 6846672,
+          "projectionUsesOriginalBounds": true
+        },
+        "detail": {
+          "requested": "high",
+          "active": "high",
+          "loading": false,
+          "error": "",
+          "triangles": 223458,
+          "cached": false,
+          "meshIds": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            36,
+            39,
+            43,
+            46,
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            77,
+            81,
+            84,
+            87,
+            90,
+            93
+          ]
+        },
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      }
+    }
+  ],
+  "scope": "Chrome with controlled network/feature fixtures. No physical-device, hosted-CDN or native memory claim."
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_b2ecc5bc-8185-49dd-be31-0e3445951446",
+  "operation": "performance.goal-create",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-create",
+      "run_1789051288215_ec852f06a96a4f5c9f64021bb00ca6a3"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "id": "architecture-startup-delivery",
+      "metric": "startup.transfer_bytes",
+      "statistic": "max",
+      "unit": "bytes",
+      "direction": "lower",
+      "target": 8000000,
+      "maximumIterations": 2,
+      "allowedPaths": [
+        "src/world.ts",
+        "src/architecture-textures.ts",
+        "public/assets/headquarters/streamed",
+        "public/assets/headquarters/compressed"
+      ]
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/architecture-startup-delivery.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T14:43:39.682Z",
+  "updatedAt": "2026-09-10T14:43:39.974Z",
+  "startedAt": "2026-09-10T14:43:39.690Z",
+  "completedAt": "2026-09-10T14:43:39.974Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_b2ecc5bc-8185-49dd-be31-0e3445951446/receipt.json"
+}

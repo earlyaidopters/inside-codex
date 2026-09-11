@@ -1,0 +1,42 @@
+[
+  {
+    "path": "art-source/headquarters-browser-unquantized.glb",
+    "sha256": "837ed983f984f6553cace9b3d150e5dbab7736499548fb17499bd74d4db911c7",
+    "bytes": 8330988
+  },
+  {
+    "path": "game/public/assets/headquarters/architecture.glb",
+    "sha256": "bb470e1974e5d29790bcdb70cc90d57c14a6955c36e0fd060e23e634b7d801a3",
+    "bytes": 6343804
+  },
+  {
+    "path": "production/rooms/room-layout.json",
+    "sha256": "a1717c746c8db98173ff764da7d80bac87542e8b4e644d4d1d206e9983e9d4da",
+    "bytes": 195430
+  },
+  {
+    "path": "production/rooms/architecture-revision.json",
+    "sha256": "55c3f3f6aa6ded28b2737df5828e04d1f0cf049d4db12f731990c91086bf0a14",
+    "bytes": 1070
+  },
+  {
+    "path": "game/public/assets/headquarters/navigation.json",
+    "sha256": "0af56225de47b1720aa9e4ede8ebda899721bc030675716624c372a5d269c212",
+    "bytes": 80022
+  },
+  {
+    "path": "game/public/assets/headquarters/floor-indirect.jpg",
+    "sha256": "fb6d2387a7dba337a6b86cc28104a4087095244700e943f258d3227cb4e4c48d",
+    "bytes": 302394
+  },
+  {
+    "path": "game/public/assets/headquarters/shell-indirect.jpg",
+    "sha256": "3054190c1afa2a358cf890a661c57eba777fde99ac776a8685987477e4f25383",
+    "bytes": 650679
+  },
+  {
+    "path": "game/public/assets/headquarters/furnishings-indirect.jpg",
+    "sha256": "719dd791764577e6a521cc88d8a9d3adb0eeab77f8084ddc9a1ada337f550bce",
+    "bytes": 802910
+  }
+]

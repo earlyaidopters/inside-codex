@@ -1,0 +1,65 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.compare",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.performance_comparison.v2",
+    "baselineRunId": "run_1789039432792_df273a6bb3564e9b902f39d99db0b1c1",
+    "candidateRunId": "run_1789040606556_b7de955ed5f44993ac86cecae136fdb1",
+    "statistic": "median",
+    "metrics": [
+      {
+        "metric": "render.active_triangles",
+        "unit": "count",
+        "baseline": 254436,
+        "candidate": 254436,
+        "delta": 0,
+        "percentDelta": 0
+      },
+      {
+        "metric": "render.frame_interval",
+        "unit": "ms",
+        "baseline": 16.69999999999709,
+        "candidate": 16.69999999999709,
+        "delta": 0,
+        "percentDelta": 0
+      },
+      {
+        "metric": "render.main_draw_calls",
+        "unit": "count",
+        "baseline": 78,
+        "candidate": 78,
+        "delta": 0,
+        "percentDelta": 0
+      },
+      {
+        "metric": "render.texture_estimate",
+        "unit": "bytes",
+        "baseline": 274553946.6,
+        "candidate": 240637300.2,
+        "delta": -33916646.400000036,
+        "percentDelta": -12.353363271595395
+      },
+      {
+        "metric": "render.total_draw_calls",
+        "unit": "count",
+        "baseline": 127,
+        "candidate": 127,
+        "delta": 0,
+        "percentDelta": 0
+      }
+    ],
+    "missingBaseline": [],
+    "missingCandidate": [],
+    "incompatibleGroups": [],
+    "comparability": {
+      "status": "incompatible",
+      "differences": [
+        "build"
+      ],
+      "unknown": []
+    },
+    "hardwarePerformanceComparisonAdmitted": false,
+    "evidenceCeiling": "The comparison reports arithmetic deltas only. Direction, target, regression status, causal explanation, and optimization success require an explicit bounded goal; hardware claims require both runs to admit hardware-performance evidence."
+  }
+}

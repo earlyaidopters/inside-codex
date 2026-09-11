@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "tolerance": "Positions and UVs compared at 1e-5; triangle winding/order ignored for equivalent indexing",
+  "reports": [
+    {
+      "name": "Architecture exterior",
+      "triangles": 22592,
+      "geometryAndUVsUnchanged": true
+    },
+    {
+      "name": "Architecture shell",
+      "triangles": 83728,
+      "geometryAndUVsUnchanged": true
+    },
+    {
+      "name": "Architecture furnishings",
+      "triangles": 114304,
+      "geometryAndUVsUnchanged": true
+    },
+    {
+      "name": "Architecture floor",
+      "beforeTriangles": 14376,
+      "retainedTriangles": 1908,
+      "retainedGeometryAndUVsUnchanged": true
+    }
+  ],
+  "embeddedTexturesByteIdentical": true
+}

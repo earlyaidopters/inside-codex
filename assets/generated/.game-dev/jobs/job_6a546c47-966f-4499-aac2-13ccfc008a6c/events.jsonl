@@ -1,0 +1,1 @@
+{"schema":"game_dev.event.v1","event_id":"evt_31181ffb-d344-4fe9-b905-177ac4f356a3","job_id":"job_6a546c47-966f-4499-aac2-13ccfc008a6c","sequence":0,"timestamp":"2026-09-10T10:30:40.000Z","type":"started","operation":"performance.goal-evaluate","data":{"version":"1.0.2"}}

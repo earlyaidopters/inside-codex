@@ -1,0 +1,7 @@
+{
+  "retrievedAt": "2026-09-10T08:19:20.751213+00:00",
+  "source": "https://learn.chatgpt.com/docs/browser",
+  "file": "browser.md",
+  "sha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34",
+  "method": "Official OpenAI Docs search and page fetch; a best-practices route returned 404, so current browser-review guidance was used. Rollback/package logic is exercise design, not a claimed browser feature."
+}

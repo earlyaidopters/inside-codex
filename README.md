@@ -1,0 +1,363 @@
+<div align="center">
+
+# Inside Codex
+
+### A world you can play. A workflow you can take home.
+
+A 3D field guide to working with Codex, built by **Mark Kashef with Codex** for **Early AI Adopters**.
+
+[Play the game](https://wintry-soul-6awh.here.now/) · [Run it locally](#run-it-locally) · [How we built it](#how-we-built-it) · [Architecture](#architecture) · [Test it](#test-it)
+
+**12 missions · 3 wings · 17 lesson questions · 50 field notes · 1 independent capstone**
+
+</div>
+
+![The Codex mascot guiding a tour through the Direct wing](docs/images/world-tour.png)
+
+## Why this exists
+
+The starting question was simple: if an agent can build a game, can the game teach something worth learning?
+
+Mark wanted to turn the game-building trend into an experience with practical value. The player should leave knowing how to give an agent context, choose a model, set boundaries, steer work, check an artifact, and hand the result to someone else. A personified Codex logo would guide them through the ecosystem.
+
+That became a physical gallery of working exhibits. A source document changes a CSV field. Two checkouts can collide. A browser form can look finished while failing to save. An automation needs a tested procedure before a schedule. Each mechanism gives the player a visible consequence to inspect.
+
+The game runs as a static website. Its exercises use fictional data and deterministic rules: **no player API key, Codex account connection, or live model call is required**. The educational value comes from the quality of the situations and feedback. Actual learning gains, sustained usage, and economic value still need audience evidence.
+
+## What you can do
+
+| Wing | Station | What the player practices |
+| --- | --- | --- |
+| **Understand** | 01 · Control room | Distinguish the model, tools, context, and agent loop. |
+| | 02 · Context archive | Inspect sources, resolve conflicting facts, build a context pack, and verify a saved CSV. |
+| | 03 · Model observatory | Match the job to a model and reasoning effort; inspect the result. |
+| | 04 · Permission desk | Understand the scope of an action and the boundary of its authorization. |
+| **Direct** | 05 · Task studio | Turn an intention into a concrete task with a checkable outcome. |
+| | 06 · Branch workshop | Distinguish conversation forks, shared checkouts, and isolated worktrees. |
+| | 07 · Steering station | See how instructions arriving before, during, or after work affect the result. |
+| | 08 · Review bench | Read findings, repair deliberately, and check the changed artifact. |
+| **Repeat** | 09 · Tool workshop | Connect access, tools, skills, and reusable procedures. |
+| | 10 · Browser lab | Test actual interaction and persistence, beyond a screenshot. |
+| | 11 · Automation tower | Rehearse a useful procedure before scheduling it. |
+| | 12 · Handoff dock | Package a result with the evidence and context needed to continue. |
+
+An independent **Cedar reporting capstone** tests transfer to a new scenario. It records first-submission evidence and assistance separately. The field notes and toolkit provide dated sources, requests to try in real work, and editable practice files.
+
+There are also three ways to explore:
+
+- **Walkthrough:** progress through the exercises, reveal an answer when helpful, or skip a question. Skipping does not award completion.
+- **World Tour:** a silent 44-second camera route through all three wings, including an atrium orbit, designed for a narrated preview.
+- **Explore inside:** the Context Archive unfolds into Source → Field → Proof. Follow an outdated or current approval owner into a saved CSV, then inspect the evidence behind the result. This deeper layer currently exists for the archive; the other eleven expansions are planned.
+
+![Inside the archive: physical source cards and a readable evidence inspector](docs/images/context-depth.png)
+
+## Run it locally
+
+The recorded toolchain is **Node.js 26.5.0**, npm, **Babylon.js 9.25.0**, **TypeScript 7.0.2**, **Vite 8.2.2**, and Playwright 1.63.0. The lockfile pins the dependency graph.
+
+```bash
+git clone https://github.com/earlyaidopters/inside-codex.git
+cd inside-codex/game
+npm ci
+npm run dev
+```
+
+Open **http://127.0.0.1:43210/**. The repository is private, so cloning requires organization access.
+
+To run the production build:
+
+```bash
+npm test
+npm run build
+npx vite preview --host 127.0.0.1 --port 43211 --strictPort
+```
+
+Runtime assets are included in `game/public/`, including the environment-lighting file `studio.env`—that file is a Babylon lighting asset, not an environment-variable file. **Blender and generation credentials are not needed to build or play the game.**
+
+### Controls
+
+| Action | Control |
+| --- | --- |
+| Look around | Drag the 3D canvas; keyboard arrows when the canvas is focused |
+| Zoom | Scroll or pinch |
+| Restore lesson framing | **Return to guide** |
+| Jump to a station | **The map** or mission navigation |
+| Tour playback | `P` pause, `R` replay, `H` hide overlays, `Esc` exit |
+| Archive deep dive | `P` pause, `R` reset, `Esc` return to station |
+| Graphics, audio, motion, saves | **Settings** |
+
+Sound starts muted. High and Balanced are explicit player choices. Progress belongs to the current browser origin: local and hosted saves are separate. Export/import progress in Settings to move it deliberately.
+
+## How we built it
+
+This was an iterative production process: an initial plan, a working toolchain, authored assets, testable learning mechanisms, repeated browser inspection, measured repairs, and a hosted release. The repository preserves the code and the decisions behind it.
+
+### 1. Prove the pipeline before promising the world
+
+The first deliverable was a small Blender-to-browser smoke test. It exercised scene creation, Cycles rendering, GLB export, skeletal animation, asset validation, package verification, and actual browser interaction.
+
+The smoke test exposed useful problems early: the documented CLI package was unavailable, the first shader compilation was slow, and the browser camera initially faced the wrong side of the scene. Those were resolved before building the full game. The test fixture passed twelve browser checks; it was a toolchain proof, not the final art direction.
+
+**Receipts:** [smoke-test report](smoke-test/evidence/SMOKE-TEST-REPORT.md) · [initial production plan](GAME-PRODUCTION-PLAN.md)
+
+### 2. Plan the learning before decorating the rooms
+
+The design specified the complete journey: three wings, twelve missions, a transfer capstone, field notes, downloadable resources, accessibility alternatives, performance budgets, and release checks.
+
+The core teaching pattern became:
+
+> Inspect something → make a decision → change an artifact → check the consequence.
+
+Fictional clients and deterministic validators make mistakes cheap and feedback repeatable. The sidebar offers the same learning actions as the 3D exhibits so that selecting tiny objects is never the only way forward. Capability notes are tied to dated official documentation, with installation-specific app tricks clearly scoped.
+
+**Receipts:** [execution contract](production/EXECUTION-CONTRACT.md) · [source matrix](production/SOURCE-MATRIX.md) · [semantic source lock](production/sources/release-2026-09-10/semantic-lock.json)
+
+### 3. Build the room as architecture
+
+Blender scripts authored the headquarters, promenade, exhibit recesses, fixtures, materials, and baked lighting. The room was then exported to browser-friendly geometry and paired with a source-derived fixture and navigation manifest.
+
+Visual review led to real architectural changes. Raised floor details became flatter inlays. The promenade was cleared so guided travel and camera framing had room to work. The camera gained conservative orbit clearance so the player could explore without seeing through solid walls.
+
+Blender served as the editable art source. Babylon served as the place where the room had to actually function. Both mattered.
+
+**Receipts:** [architecture pipeline](art-source/ARCHITECTURE-PIPELINE.md) · [active architecture revision](production/rooms/architecture-revision.json) · [promenade and camera decisions](production/PROMENADE-CAMERA.md)
+
+### 4. Turn a recognizable logo into a guide
+
+The mascot uses the recognizable blue-violet scalloped core and white Codex glyph, with small articulated hands. Its silhouette, glyph fidelity, rig weights, and animation clips were checked through saved Blender masters and runtime exports.
+
+The guide has twelve named clips. A lighter detail tier reduces rounded hand geometry while preserving the character's identity. Later, compatible skinned parts were batched to reduce rendering submissions without changing the authored poses.
+
+The assets were authored procedurally in Blender. The installed game-development plugins supported production and verification; the completed pipeline did not depend on paid Meshy, Tripo, or Leonardo asset generation.
+
+**Receipts:** [mascot pipeline](art-source/MASCOT-PIPELINE.md) · [mascot production](production/MASCOT-PRODUCTION.md) · [guide skin batching](production/GUIDE-SKIN-BATCHES.md)
+
+### 5. Give every exhibit a mechanism
+
+Each lab keeps its learning state and validation separate from its visual representation. The archive, for example, has source fixtures and a checker, a 3D rack that reflects state, and a DOM inspector that makes the evidence readable.
+
+This separation made it possible to test the rules without rendering a room, then test the room against those same rules. It also made the deeper archive possible without inventing a second scoring system or overwriting the player's exercise.
+
+**Code:** [context lab](game/src/context-lab.mjs) · [context exhibit](game/src/context-exhibit.ts) · [deep-dive reducer](game/src/context-depth.mjs) · [deep-dive UI](game/src/context-depth-view.ts)
+
+### 6. Add sound with a recovery path
+
+The project includes authored music, ambience, and interaction sounds. Guide speech was generated locally with Kokoro through `kokoro-onnx`; captions and source scripts remain available. Sound, guide voice, music, ambience, and effects have explicit controls.
+
+Audio work included playback lifecycle, interruption/recovery, caption alignment, and recognition audits. Recognition output was treated as a diagnostic, not a substitute for human listening.
+
+**Code and records:** [audio tools](game/tools/audio/) · [audio source manifests](art-source/audio/) · [runtime credits](game/public/CREDITS.txt)
+
+### 7. Measure the expensive parts, then repair them
+
+The room had to survive actual traversal, not just one attractive frame. Optimization work addressed geometry, texture transport, decoder lifetime, shadows, exhibit residency, and draw submissions.
+
+| Problem found | Repair |
+| --- | --- |
+| Heavy architecture transfer | Meshopt compression, gzip transport, and verified decoder delivery |
+| WebKit startup stalled | Keep decoder worker blob URLs alive until workers acknowledge loading |
+| High → Balanced retained rendering resources | Dispose the old finishing pipeline completely before replacing it |
+| Too much exhibit work remained resident | Explicit exhibit lifecycle and lazy creation/release |
+| Static components consumed separate draws | Batch compatible stationary parts while preserving independent controls |
+| Guide skin parts repeated submissions | Share compatible skin batches while preserving animation |
+| Camera crossed solid geometry | Source-informed orbit clearance and authored return views |
+
+These changes were compared against preserved views and scoped measurements. A passing FPS sample was never treated as proof of universal performance.
+
+**Receipts:** [startup delivery](production/STARTUP-DELIVERY.md) · [quality pipeline](production/QUALITY-PIPELINE.md) · [static batches](production/STATIC-EXHIBIT-BATCHES.md) · [release assessment](production/RELEASE-ASSESSMENT.md)
+
+### 8. Review inside the actual browser
+
+The development loop used both scripted browser checks and visual inspection in Codex's internal browser. Automated checks established state transitions, persistence, downloads, failure recovery, and camera behavior. Visual review caught framing, occlusion, text quality, and presentation problems.
+
+The first release included a complete curriculum journey, cross-engine camera checks, cold startup observations, repeated warm traversals, and a thirty-minute audio-enabled endurance run. Their exact scopes and limitations are preserved in the release assessment.
+
+A later archive test found that the mascot physically blocked a document click. Moving the guide aside fixed the actual picking path. That is the kind of defect a screenshot alone cannot establish.
+
+### 9. Publish the tested bytes
+
+The game is a static site hosted on here.now. The production directory is built first, frozen during checks, archived, and then uploaded. The authenticated owner file manifest is compared with local SHA-256 hashes after publication.
+
+The latest preserved release at this repository's initial import is **0.1.5**. Its **467 hosted files** matched the tested build. Hosting authentication remains outside the repository.
+
+**Receipt:** [0.1.5 hosting manifest](releases/0.1.5/hosting-receipt.json)
+
+### 10. Let feedback change the product
+
+| Release | Feedback and resulting change |
+| --- | --- |
+| **0.1.0** | Complete three-wing learning experience, capstone, field notes, audio, and static release |
+| **0.1.1** | Add a cinematic **World Tour** for a YouTube hook |
+| **0.1.2** | Let players **show answers and skip questions** without falsely awarding completion |
+| **0.1.3** | Expand the archive into an optional **Source → Field → Proof** deep dive |
+| **0.1.4** | Repair broken small lettering with higher-density textures, mipmaps, and anisotropic filtering |
+| **0.1.5** | Replace busy ribbed backdrops with smooth wing finishes and stronger section typography |
+
+The texture repair is a good example of diagnosing the image rather than merely increasing resolution. Small strokes were sampling unevenly because the archive textures had disabled mipmaps. Filtering fixed the broken-letter appearance; more source pixels supported closer views.
+
+<details>
+<summary>See the archive texture comparison</summary>
+
+**Before**
+
+![Archive before distance filtering was repaired](docs/images/archive-before.png)
+
+**After**
+
+![Archive after higher-density textures and mipmapping](docs/images/archive-after.png)
+
+The screenshots use the same standard-display profile and near-identical camera poses. These are visual comparisons, not a measured learning result.
+
+</details>
+
+## Architecture
+
+```mermaid
+flowchart LR
+    User[Player input] --> UI[DOM lesson interface]
+    User --> World[Babylon world and picking]
+    UI --> State[Lab state and actions]
+    World --> State
+    State --> Check[Deterministic validators]
+    Check --> Artifact[Saved practice artifact]
+    State --> UI
+    State --> World
+    State --> Progress[Browser-local progress]
+    Artifact --> Export[Downloads and handoff]
+```
+
+```mermaid
+flowchart LR
+    Plan[Learning and art plan] --> Blender[Blender scripts and masters]
+    Blender --> Assets[GLB, textures, lighting, audio]
+    Assets --> Vite[TypeScript and Vite build]
+    Labs[Lab rules and UI] --> Vite
+    Vite --> QA[Browser checks and visual review]
+    QA --> Fix[Targeted repair]
+    Fix --> Vite
+    QA --> Release[Archived build and hashes]
+    Release --> Host[here.now]
+    Host --> Verify[Hosted journey and file verification]
+```
+
+| Path | Responsibility |
+| --- | --- |
+| `game/src/main.ts` | Application screens, controls, lesson routing, and state integration |
+| `game/src/world.ts` | Scene, camera, rendering, guide, exhibit integration, and quality lifecycle |
+| `game/src/*-lab.mjs` | Learning fixtures, actions, state transitions, and validators |
+| `game/src/*-exhibit.ts` | 3D representations of the learning mechanisms |
+| `game/src/context-depth*` | Independent archive exploration and evidence UI |
+| `game/src/world-tour.mjs` | Cinematic route and reduced-motion sampling |
+| `game/src/wing-backdrop.ts` | The three clean, filtered architectural backdrop surfaces |
+| `game/public/` | Self-contained runtime assets, sources, practice files, decoders, and credits |
+| `game/tests/` | Unit, browser, compatibility, lifecycle, camera, and regression checks |
+| `game/tools/` | Export, compression, audio, diagnostics, and performance tooling |
+| `art-source/` | Blender masters, procedural authoring, maps, and asset pipeline records |
+| `production/` | Plans, content decisions, dated research, assessments, and revision manifests |
+| `smoke-test/` | The original minimal production-pipeline proof |
+| `slides/` | Companion planning-slide site source, separate from the game runtime |
+| `evidence/` | Retained textual receipts; selected images are in `docs/images/` |
+| `releases/` | Release notes, archive hashes, and hosting receipts |
+
+### State contracts that matter
+
+- Exploring the archive must preserve the exercise, lesson step, camera, scroll position, and prior pause state on return.
+- An inspected evidence document is not automatically the selected source of truth.
+- Skip and reveal actions are assistance, not earned completion.
+- A capstone replay must not rewrite the original submission as an unassisted result.
+- The quality adviser can recommend Balanced; it does not silently change the player's setting.
+- A graphics or asset-load failure must retain usable learning controls and a recovery route.
+- Hosting the site must never place production credentials in the public build.
+
+## Test it
+
+Run the standard suite and production compilation from `game/`:
+
+```bash
+npm ci
+npm test
+node --test tests/camera-clearance.test.mjs
+npm run build
+```
+
+The standard suite currently contains **87 tests**. Browser suites exercise different scopes; they are not included in that count.
+
+With the production preview running on port 43211, use a second terminal:
+
+```bash
+# Full learning journey
+TEST_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-journey node tests/browser.mjs
+
+# Cinematic route and playback controls
+TOUR_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-tour node tests/world-tour-browser.mjs
+
+# Archive picking, source tracing, preserved state, replay, and portrait layout
+DEPTH_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-depth node tests/context-depth-browser.mjs
+
+# All three backdrop views and closest permitted zoom
+BACKDROP_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-backdrops node tests/backdrop-browser.mjs
+```
+
+The retained browser scripts target an installed Chrome at the standard macOS path. On another platform, adapt the launch configuration to its installed browser or Playwright Chromium. For the three-engine archive check, install matching engines with `npx playwright install firefox webkit`, then set `DEPTH_ALL=1`.
+
+Always use a **fresh evidence directory**. Some historical tools refer to specific archived inputs, local Blender paths, or optional Game Development Studio helpers. They are retained to explain and reproduce their particular experiments; they are not all portable one-command release gates. See [the original operations guide](docs/OPERATIONS-ORIGINAL.md) and the specific pipeline document before rerunning an asset mutation.
+
+### What the evidence does—and does not—prove
+
+The original 0.1.0 qualification recorded roughly 16.7 ms median warm frame intervals and about 4.5-second cold readiness in its stated local profiles. Those are historical measurements of that build on one Mac, not benchmarks of every subsequent version or every device.
+
+Updates 0.1.4 and 0.1.5 improved text/backdrop presentation and increased estimated resident texture storage. They received focused regression and visual checks, not a new full endurance qualification. Physical phones, screen-reader operation, headphone listening, and independent novice learning outcomes remain separate validation work.
+
+## Rebuild the art
+
+Start with [architecture](art-source/ARCHITECTURE-PIPELINE.md) and [mascot](art-source/MASCOT-PIPELINE.md) pipeline notes, then follow the active revision manifests. Blender 5.2.1 LTS was used for the initial toolchain proof.
+
+Author into a candidate path, retain the existing runtime, validate exported geometry/skins/clips, compare in the browser, then adopt deliberately. The compressed and uncompressed transport files must agree. Replacing a GLB while leaving its served gzip sidecar unchanged will not update what players see.
+
+Some original bootstrap scripts reference Mark's source folders or optional local tooling. The checked-in runtime is self-contained; regenerating every historical authoring stage may require adapting those paths and restoring archived experiment inputs.
+
+## Release and hosting
+
+```bash
+cd game
+npm ci
+npm test
+npm run build
+```
+
+Serve or upload the **contents of `game/dist/` at the site root**. The app uses root-relative asset URLs. Preserve static file paths and correct MIME types for ES modules, WASM, GLB, gzip, KTX2, images, and audio. No server-side application is required.
+
+For here.now, use authenticated tooling from private user configuration, reconcile the current remote version before updating, retain the deploy archive, and verify the owner manifest after uploading. Credentials and hosting state must stay outside Git and outside `dist/`.
+
+The repository has no automatic deployment workflow. A push preserves source; it does not republish the game or change the site's audience.
+
+## Repository boundaries
+
+This is the first Git import of the completed project and subsequent refinements. The production story comes from the retained plans, scripts, release records, and evidence—not an invented commit-by-commit development history.
+
+Included: application and companion-slide source, runtime assets, authoring scripts and Blender masters, test code, planning/research records, textual evidence, release receipts, and selected visual comparisons.
+
+Excluded: installed dependencies, credentials, local hosting configuration, duplicate compiled game directories, backup `.blend1` files, multi-gigabyte checkpoint ZIPs, and most raw capture media. These remain in Mark's local production archive. Historical documents may point to those local-only captures. Release hashes identify preserved archives; they do not imply the archive ZIPs are Git blobs.
+
+The earlier README is preserved as [OPERATIONS-ORIGINAL.md](docs/OPERATIONS-ORIGINAL.md). Its release-specific commands and observations are historical. The latest release sections in [STATUS.md](production/STATUS.md) supersede earlier in-progress snapshots in that same chronological record.
+
+## What comes next
+
+- Review the archive deep-dive prototype, then decide how to extend the other eleven stations.
+- Measure whether first-time players can apply the ideas in actual work.
+- Test on physical mobile devices and with assistive technology.
+- Requalify performance after accumulating visual changes.
+- Refresh dated OpenAI capability notes as the product evolves.
+
+The [deeper-world proposal](production/DEEPER-WORLD-PLAN.md) describes the next layers. It is a design proposal, not a claim that every layer already ships.
+
+## Credits and ownership
+
+**Concept, direction, and community:** Mark Kashef / Early AI Adopters.  
+**Implementation and iterative production:** Mark working with Codex.  
+**Art production:** procedural Blender modeling, rigging, lighting, and export.  
+**Runtime:** Babylon.js, TypeScript, Vite, fflate, and meshoptimizer.  
+**Guide speech:** locally generated Kokoro voice through `kokoro-onnx`.  
+**Verification:** unit tests, Playwright, asset validators, Game Development Studio tooling, and direct internal-browser inspection.
+
+This is a community-made educational experience, not an official OpenAI product. Codex and the source logo belong to OpenAI. Included third-party software retains its own notices and terms; see [runtime credits](game/public/CREDITS.txt), [licenses](game/public/licenses/), and decoder notices. This private repository does not grant a new license to OpenAI branding or imply permission to redistribute every included asset.

@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+export async function reviewFlow(page,shot=async()=>{}){
+ const state=()=>page.evaluate(()=>window.__insideCodex.state());const act=(a,v)=>page.locator(`[data-action="review-${a}"]${v===undefined?'':`[data-value="${v}"]`}`).click();
+ await act('section','checks');await act('run','owner');assert((await state()).reviewLab.current.items.every(c=>c.checks.every(x=>x.pass)));await page.locator('[data-action="submit"]').click();assert.equal((await state()).feedback,'incorrect');await shot('review-narrow-pass');
+ await act('run','full');let s=(await state()).reviewLab;assert.equal(s.current.items[1].actual.approval_owner,'Nina Patel');assert.equal(s.current.items[1].expected.approval_owner,'Omar Chen');assert.equal(s.current.items[0].actual.files,'');assert(await page.evaluate(()=>document.activeElement?.classList.contains('review-result')));assert.equal(await page.locator('.review-mismatches li').count(),4);assert.equal(await page.locator('.review-result details[open]').count(),0);await shot('review-regressions');
+ await act('section','diff');await act('flag','owner');assert.equal((await state()).reviewLab.patch.owner,false);await act('section','repair');await act('repair');assert.equal((await state()).reviewLab.current,null);
+ await act('section','checks');await act('run','full');s=(await state()).reviewLab;assert.equal(s.current.items[1].actual.approval_owner,'Omar Chen');assert.equal(s.current.items[0].actual.files,'');await shot('review-partial-repair');
+ await act('section','diff');await act('flag','files');await act('section','repair');await act('repair');await act('section','checks');await act('run','full');assert((await state()).reviewLab.current.items.every(c=>c.checks.every(x=>x.pass)));
+ await page.locator('[data-action="submit"]').click();assert.equal((await state()).feedback,'incorrect');await act('section','diff');assert.equal(await page.locator('.review-hunk .unchanged').count(),1);await act('inspect');assert.equal((await state()).world.review.verified,true);await shot('review-verified');
+}

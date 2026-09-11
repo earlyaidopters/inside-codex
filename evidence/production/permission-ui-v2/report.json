@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "1440x900 high: all three gate actions share the visible UI state",
+    "1440x900 balanced: all three gate actions share the visible UI state",
+    "1440x900: decline/one-time approval, command-network separation, draft-only boundary, scoped profile, reconnect, keyboard verification and receipt reload pass",
+    "390x844 high: all three gate actions share the visible UI state",
+    "390x844 balanced: all three gate actions share the visible UI state",
+    "390x844: decline/one-time approval, command-network separation, draft-only boundary, scoped profile, reconnect, keyboard verification and receipt reload pass",
+    "844x390 high: all three gate actions share the visible UI state",
+    "844x390 balanced: all three gate actions share the visible UI state",
+    "844x390: decline/one-time approval, command-network separation, draft-only boundary, scoped profile, reconnect, keyboard verification and receipt reload pass"
+  ],
+  "errors": []
+}

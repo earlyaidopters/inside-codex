@@ -1,0 +1,28 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_cbafe698-3a44-402d-a138-dd626875352e",
+  "operation": "performance.goal-evaluate",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-evaluate",
+      ".game-dev/goals/architecture-gpu-textures.json",
+      "run_1789050500775_efe3d8062e6b428796fad6d6f1ed6693"
+    ],
+    "flags": {}
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/architecture-gpu-textures.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T14:30:52.970Z",
+  "updatedAt": "2026-09-10T14:30:53.273Z",
+  "startedAt": "2026-09-10T14:30:52.979Z",
+  "completedAt": "2026-09-10T14:30:53.273Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_cbafe698-3a44-402d-a138-dd626875352e/receipt.json"
+}

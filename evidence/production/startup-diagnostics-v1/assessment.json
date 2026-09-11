@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "buildId": "3f428282111c78aec04ff1d7a75636a2fa1d13546cf17c023cc15788ddf1494c",
+  "sourceSha256": {
+    "src/main.ts": "a5075168d29565a60417c839744d01ad32fdf2f1da3c291c660b051827c634d4",
+    "src/world.ts": "49a54fc3760edc9ee56f3b63af5d1dc0833a1313d0823d706a786f077b9931ea",
+    "src/exhibit-residency.ts": "bc1639961b6a3a64d8a8ed4870ea40d37a511597a3fc7d238c9388939ab1ec58",
+    "src/startup.ts": "53d3fd089efa558d8401def34c1a6741dd78884a5296f468c23dd8e8cec696e2",
+    "src/world-module.ts": "e1fb76faa430636db2551b49b9f8c8b01563fb258c7019cb364041c982334e55"
+  },
+  "checks": {
+    "unit": 76,
+    "monitor": 3,
+    "failureAndRetry": 15,
+    "edgeFailures": 2,
+    "transport": 6,
+    "lateNavigation": 1,
+    "freshFirefox": 12,
+    "exhibitRecoveryEngines": 3,
+    "journey": 37,
+    "pixelIdenticalViews": 10
+  },
+  "internalBrowserReview": "Arrival and task studio inspected in Codex; left paused with existing saved progress.",
+  "historicalFirefoxRootCause": "Unproven; original failures had no intercepted harness requests. Current staged diagnostics and repeat/recovery results are distinct evidence.",
+  "limits": [
+    "Local desktop engines only",
+    "No new performance acceptance",
+    "No physical-device or hosted-CDN evidence",
+    "Full release gates remain open"
+  ],
+  "fullReleaseAccepted": false
+}

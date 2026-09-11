@@ -1,0 +1,8 @@
+{
+  "archive": "releases/checkpoints/tools-v4a-tested.zip",
+  "bytes": 63908794,
+  "sha256": "ea3a50f87f97277e8f6886b3ce4537cab3696b0129b2c172ee1b51068a0aa423",
+  "files": 549,
+  "verifiedDistFiles": 313,
+  "changeFromV4": "Documentation only: unique defect identifiers; built game bytes unchanged."
+}

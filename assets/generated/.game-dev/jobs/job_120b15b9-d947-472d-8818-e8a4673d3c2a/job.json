@@ -1,0 +1,31 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_120b15b9-d947-472d-8818-e8a4673d3c2a",
+  "operation": "visual.compare",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "visual",
+      "compare",
+      "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031880128_e237c4724272411fb2d9098391a09bcf",
+      "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031943890_13e7d5557d374de2aef7e46be6ac7651"
+    ],
+    "flags": {
+      "threshold": "0",
+      "output": "evidence/production/camera-layout-v3/sealed-comparison"
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/evidence/production/camera-layout-v3/sealed-comparison",
+      "kind": "visual_comparison"
+    }
+  ],
+  "createdAt": "2026-09-10T09:19:47.123Z",
+  "updatedAt": "2026-09-10T09:19:47.927Z",
+  "startedAt": "2026-09-10T09:19:47.132Z",
+  "completedAt": "2026-09-10T09:19:47.927Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/jobs/job_120b15b9-d947-472d-8818-e8a4673d3c2a/receipt.json"
+}

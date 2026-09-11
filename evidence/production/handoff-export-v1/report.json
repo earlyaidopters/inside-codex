@@ -1,0 +1,94 @@
+{
+  "pass": true,
+  "zip": "../evidence/production/handoff-journey-v1/my-codex-starter.zip",
+  "cases": [
+    {
+      "name": "local-original",
+      "imageLoaded": true,
+      "expectedImageLoaded": true,
+      "requests": [
+        {
+          "path": "/",
+          "status": 200
+        },
+        {
+          "path": "/assets/brand.svg",
+          "status": 200
+        },
+        {
+          "path": "/favicon.ico",
+          "status": 404
+        },
+        {
+          "path": "/onboarding.csv",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "delivered-broken",
+      "imageLoaded": false,
+      "expectedImageLoaded": false,
+      "requests": [
+        {
+          "path": "/northstar/",
+          "status": 200
+        },
+        {
+          "path": "/assets/brand.svg",
+          "status": 404
+        },
+        {
+          "path": "/favicon.ico",
+          "status": 404
+        }
+      ]
+    },
+    {
+      "name": "delivered-fixed",
+      "imageLoaded": true,
+      "expectedImageLoaded": true,
+      "requests": [
+        {
+          "path": "/northstar/",
+          "status": 200
+        },
+        {
+          "path": "/northstar/assets/brand.svg",
+          "status": 200
+        },
+        {
+          "path": "/favicon.ico",
+          "status": 404
+        },
+        {
+          "path": "/northstar/onboarding.csv",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "recovery",
+      "imageLoaded": true,
+      "expectedImageLoaded": true,
+      "requests": [
+        {
+          "path": "/northstar/",
+          "status": 200
+        },
+        {
+          "path": "/northstar/assets/brand.svg",
+          "status": 200
+        },
+        {
+          "path": "/favicon.ico",
+          "status": 404
+        },
+        {
+          "path": "/northstar/onboarding.csv",
+          "status": 200
+        }
+      ]
+    }
+  ]
+}

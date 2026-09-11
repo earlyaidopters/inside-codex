@@ -1,0 +1,109 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "capture.verify",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.run_verification.v1",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789063754225_6a04cf9b82ee41df91bfec497c79dde9",
+    "manifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789063754225_6a04cf9b82ee41df91bfec497c79dde9/run.json",
+    "manifestSha256": "8111ff667fb06aa9e345918ee82cc36101e2de1d23e1d2ab718b0b79b8d1c542",
+    "run": {
+      "schema": "game_dev.run.v1",
+      "runId": "run_1789063754225_6a04cf9b82ee41df91bfec497c79dde9",
+      "adapterId": "inside-codex",
+      "adapterVersion": "1.0.0",
+      "adapterManifestSha256": "8b7656cd1da03d16ffed775138279cc0c42a1f541dea98e544a6a3ffb5f2b22f",
+      "scenarioId": "warm-traversal",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "startedAt": "2026-09-10T18:09:14.254Z",
+      "completedAt": "2026-09-10T18:11:09.503Z",
+      "durationMs": 115250,
+      "status": "completed",
+      "process": {
+        "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-traversal-scenario.mjs",
+        "arguments": [
+          "balanced"
+        ],
+        "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+        "exitCode": 0,
+        "signal": null,
+        "stdoutTruncated": false,
+        "stderrTruncated": false
+      },
+      "captureManifest": "capture.json",
+      "artifacts": [
+        {
+          "path": "adapter.json",
+          "kind": "adapter",
+          "bytes": 4231,
+          "sha256": "117a52fa0dcaf7310004727011fc1e17595cad908cc90e22cf1ef4abca9e45f6"
+        },
+        {
+          "path": "capture.json",
+          "kind": "capture_manifest",
+          "bytes": 421277,
+          "sha256": "1956705bfa2d086244ebace47268844e126d9bb24885db361fdad893ea557b77"
+        },
+        {
+          "path": "end.png",
+          "kind": "capture_color",
+          "bytes": 370047,
+          "sha256": "e55a6041c39c44943372408255850fd2a9ee786f460e9fb94164bce51c7c2ffd"
+        },
+        {
+          "path": "plan.json",
+          "kind": "plan",
+          "bytes": 1713,
+          "sha256": "e1c69fe935bf1cc4f4f9051859f15dfe30bf630edb2892fcdeb28fa15fb3d00e"
+        },
+        {
+          "path": "request.json",
+          "kind": "request",
+          "bytes": 28,
+          "sha256": "cd23aa00f4b4d1f338cf9276eb5476de7a996f62a360f15501da655291d54e62"
+        },
+        {
+          "path": "start.png",
+          "kind": "capture_color",
+          "bytes": 370231,
+          "sha256": "a721f5033588b6313acdde46e0333b5cfc65217405bcd848c71b39b1ce23962f"
+        },
+        {
+          "path": "stderr.log",
+          "kind": "stderr",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "stdout.log",
+          "kind": "stdout",
+          "bytes": 421,
+          "sha256": "bdbb9da384a44dd98d7044bed5be457a5ceebd62bbf38af29fb35d1acb581a82"
+        },
+        {
+          "path": "traversal.json",
+          "kind": "capture_semantic",
+          "bytes": 937192,
+          "sha256": "0fbb11893a0aa7ae6776529507d2d31bf836838c9b0950f626b6128491a1acd7"
+        }
+      ],
+      "evidence": {
+        "commandExecuted": true,
+        "processExitedSuccessfully": true,
+        "artifactRosterClosedAndHashed": true,
+        "captureContractValidated": true,
+        "rasterBytesDecoded": true,
+        "adapterReportedGpuExecution": false,
+        "adapterReportedGpuCompletionIdentity": false,
+        "adapterReportedHardwarePerformance": false,
+        "hardwareGpuExecutionProvenByHarnessAlone": false,
+        "hardwarePerformanceEvidenceAdmitted": false,
+        "hardwarePerformanceMeasuredByHarnessAlone": false,
+        "humanVisualReviewPerformed": false,
+        "evidenceCeiling": "The harness proves process status, schema validation, decoded raster bytes, and a closed SHA-256 artifact roster. GPU completion and hardware timing remain source-adapter claims unless separately joined to native evidence; no human visual review is inferred."
+      }
+    },
+    "hashesVerified": true,
+    "closedArtifactRosterVerified": true
+  }
+}

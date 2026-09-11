@@ -1,0 +1,36 @@
+{
+  "method": "dedup, weld, 16-bit positions/UVs and 12-bit normals; no simplification",
+  "before": {
+    "bytes": 8672700,
+    "triangles": 235000,
+    "bounds": {
+      "min": [
+        -75,
+        -0.7999999448657036,
+        -75
+      ],
+      "max": [
+        75,
+        9.424999713897705,
+        75
+      ]
+    }
+  },
+  "after": {
+    "triangles": 235000,
+    "bounds": {
+      "min": [
+        -75,
+        -0.7991546179160052,
+        -75
+      ],
+      "max": [
+        75,
+        9.424954460666008,
+        75
+      ]
+    },
+    "bytes": 6597828,
+    "sha256": "9a388b73caa769684df26e4b206e8c585f42df3ff7b2e7d45df03c005e5b7233"
+  }
+}

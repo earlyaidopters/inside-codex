@@ -1,0 +1,35 @@
+{
+  "schema": "game-room.milestone-reviews.v1",
+  "roomId": "codex-headquarters",
+  "function": {
+    "status": "pending",
+    "approvedBy": "",
+    "approvedAt": "",
+    "evidence": [],
+    "strangestElement": "",
+    "notes": "User execution instruction authorizes autonomous local iteration; human art approval is not asserted. Full objective and gates remain intact."
+  },
+  "form": {
+    "status": "pending",
+    "approvedBy": "",
+    "approvedAt": "",
+    "evidence": [
+      "../../evidence/production/headquarters-v1/build-report.json",
+      "plans/lower-room.png",
+      "plans/reflected-ceiling.png"
+    ],
+    "strangestElement": "Repeated generic exhibit sculptures outside the harness mission still lack meaningful learning function.",
+    "notes": "Blender source/bakes and nine views exist. Geometric audits and remaining exhibit replacement still pending."
+  },
+  "runtime": {
+    "status": "pending",
+    "approvedBy": "",
+    "approvedAt": "",
+    "evidence": [
+      "../../evidence/production/architecture-browser-v3/report.json",
+      "../../evidence/production/headquarters-v1/khronos-validation.json"
+    ],
+    "strangestElement": "",
+    "notes": "Current built journey passes; no complete art/performance acceptance and no human runtime approval."
+  }
+}

@@ -1,0 +1,8 @@
+{
+ "goal": "balanced-visible-geometry",
+ "candidate": "run_1789038937518_ebd22300cad94a5096c7adacfbf86a65",
+ "targetMet": false,
+ "reason": "The marker-only world.ts repair improves geometry but cannot meet the full scene budget. Further useful reductions need architectural/exhibit partitioning and progressive loading, a wider source responsibility than this bounded loop. Stop this loop without using a pointless second iteration or silently widening its allowlist.",
+ "retained": "Correctness and ten matched-view checks pass; no authored architecture, mascot, or instructional mechanism was reduced.",
+ "followup": "Repeated observations of the unchanged candidate are reproducibility review, not further optimization iterations. Full production remains active and unblocked."
+}

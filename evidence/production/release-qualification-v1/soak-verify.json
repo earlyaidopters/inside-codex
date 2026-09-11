@@ -1,0 +1,149 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "capture.verify",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.run_verification.v1",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789067609684_0e6ed7f689f64bdaac7d6fb7012d937e",
+    "manifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789067609684_0e6ed7f689f64bdaac7d6fb7012d937e/run.json",
+    "manifestSha256": "b0e771a94460e6ffa1463a30c1c563d10d532a3a4d8634485673c6af02d9befb",
+    "run": {
+      "schema": "game_dev.run.v1",
+      "runId": "run_1789067609684_0e6ed7f689f64bdaac7d6fb7012d937e",
+      "adapterId": "inside-codex",
+      "adapterVersion": "1.0.0",
+      "adapterManifestSha256": "bd044857db3084f62b222e5241bdaa9f6acdfd7c74252fceacfade53cd0b0ac3",
+      "scenarioId": "audio-soak",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "startedAt": "2026-09-10T19:13:29.767Z",
+      "completedAt": "2026-09-10T19:44:02.054Z",
+      "durationMs": 1832257,
+      "status": "completed",
+      "process": {
+        "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-soak-scenario.mjs",
+        "arguments": [],
+        "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+        "exitCode": 0,
+        "signal": null,
+        "stdoutTruncated": false,
+        "stderrTruncated": false
+      },
+      "captureManifest": "capture.json",
+      "artifacts": [
+        {
+          "path": "adapter.json",
+          "kind": "adapter",
+          "bytes": 4750,
+          "sha256": "c6f8b1295c9f4ff9cde6bb91636378f24f8988c5a853c63791734b0f1fc386a0"
+        },
+        {
+          "path": "capture.json",
+          "kind": "capture_manifest",
+          "bytes": 89960,
+          "sha256": "e4f8e39a91b22b3ca227a76bf9568266c2f0da2f7a80eb60ba2051c826769e94"
+        },
+        {
+          "path": "end.png",
+          "kind": "capture_color",
+          "bytes": 413334,
+          "sha256": "cd29f1d1e5dbabc014b7623e18753e2e3a7f7a0f60fa5d869ce970a677f1a4c3"
+        },
+        {
+          "path": "plan.json",
+          "kind": "plan",
+          "bytes": 1668,
+          "sha256": "ed08e438ed617ea0d942642af370fc6472bcf40cbff69ae2bd35e766bab1a3fc"
+        },
+        {
+          "path": "progress.json",
+          "kind": "other",
+          "bytes": 141,
+          "sha256": "dd1426c710cee1cd46f1d5d5bbea019cb1587561cba6af92ae085d2779502153"
+        },
+        {
+          "path": "request.json",
+          "kind": "request",
+          "bytes": 3,
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+          "path": "soak.json",
+          "kind": "capture_semantic",
+          "bytes": 887020,
+          "sha256": "65d58537814d58aeb09e4be5a7308937d7f9632cad4fe00e18893c9805eaa459"
+        },
+        {
+          "path": "start.png",
+          "kind": "capture_color",
+          "bytes": 1167642,
+          "sha256": "6ef65dbf2ac6eeed850744b865e32b469cbfa8d90073ea604b3feae157d8929c"
+        },
+        {
+          "path": "stderr.log",
+          "kind": "stderr",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "stdout.log",
+          "kind": "stdout",
+          "bytes": 872,
+          "sha256": "b3bb8774aad9a3288280f5fc0e2c685db98e80662969f79f64f06987c9a23994"
+        },
+        {
+          "path": "step-0.png",
+          "kind": "other",
+          "bytes": 1168631,
+          "sha256": "63566e255663f921475cceb942f11cf00a758cf25f35debf2e820d5efe08ec0e"
+        },
+        {
+          "path": "step-119.png",
+          "kind": "other",
+          "bytes": 413259,
+          "sha256": "3a940b728fcce4f5d16fe8ce7a159382c402ea1be79242c41654ee812089b896"
+        },
+        {
+          "path": "step-30.png",
+          "kind": "other",
+          "bytes": 1434844,
+          "sha256": "d28e67fc2d9d8928c2829ae1849ca966672925f6b4c534736cc3db75845dfd49"
+        },
+        {
+          "path": "step-59.png",
+          "kind": "other",
+          "bytes": 1292091,
+          "sha256": "4a1357c45302d84a476d7a13d8c20d89feefde9d408680e3ce9952a8c0061f98"
+        },
+        {
+          "path": "step-60.png",
+          "kind": "other",
+          "bytes": 369623,
+          "sha256": "50e6298685a8eb74ab71db7da8c66c88e15adf7e5636d12a6e0594cf6859bc37"
+        },
+        {
+          "path": "step-90.png",
+          "kind": "other",
+          "bytes": 424713,
+          "sha256": "dae26d9daf1db93dd58ad86736028c0bd099cae5bec433a32830b79a50523d96"
+        }
+      ],
+      "evidence": {
+        "commandExecuted": true,
+        "processExitedSuccessfully": true,
+        "artifactRosterClosedAndHashed": true,
+        "captureContractValidated": true,
+        "rasterBytesDecoded": true,
+        "adapterReportedGpuExecution": false,
+        "adapterReportedGpuCompletionIdentity": false,
+        "adapterReportedHardwarePerformance": false,
+        "hardwareGpuExecutionProvenByHarnessAlone": false,
+        "hardwarePerformanceEvidenceAdmitted": false,
+        "hardwarePerformanceMeasuredByHarnessAlone": false,
+        "humanVisualReviewPerformed": false,
+        "evidenceCeiling": "The harness proves process status, schema validation, decoded raster bytes, and a closed SHA-256 artifact roster. GPU completion and hardware timing remain source-adapter claims unless separately joined to native evidence; no human visual review is inferred."
+      }
+    },
+    "hashesVerified": true,
+    "closedArtifactRosterVerified": true
+  }
+}

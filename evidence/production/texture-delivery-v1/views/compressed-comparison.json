@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "view": "candidate-compressed-balanced-arrival.png",
+      "meanAbsoluteChannel": 0.4012625572163487,
+      "rms": 0.84154373754112,
+      "maxChannel": 27
+    },
+    {
+      "view": "candidate-compressed-balanced-control.png",
+      "meanAbsoluteChannel": 0.4153028415765383,
+      "rms": 0.8696467350343028,
+      "maxChannel": 25
+    },
+    {
+      "view": "candidate-compressed-balanced-handoff.png",
+      "meanAbsoluteChannel": 0.3682765726900798,
+      "rms": 0.8043279694251864,
+      "maxChannel": 64
+    },
+    {
+      "view": "candidate-compressed-balanced-tasks.png",
+      "meanAbsoluteChannel": 0.38206596589298014,
+      "rms": 0.868023839903457,
+      "maxChannel": 32
+    },
+    {
+      "view": "candidate-compressed-balanced-tools.png",
+      "meanAbsoluteChannel": 0.38935851865354243,
+      "rms": 0.8452952689014487,
+      "maxChannel": 55
+    },
+    {
+      "view": "candidate-compressed-high-arrival.png",
+      "meanAbsoluteChannel": 0.7770812114197531,
+      "rms": 1.1935715210338445,
+      "maxChannel": 46
+    },
+    {
+      "view": "candidate-compressed-high-control.png",
+      "meanAbsoluteChannel": 0.5063617541152263,
+      "rms": 0.958535606672626,
+      "maxChannel": 55
+    },
+    {
+      "view": "candidate-compressed-high-handoff.png",
+      "meanAbsoluteChannel": 0.4823192515432099,
+      "rms": 0.9275591960855104,
+      "maxChannel": 41
+    },
+    {
+      "view": "candidate-compressed-high-tasks.png",
+      "meanAbsoluteChannel": 0.4891089248971194,
+      "rms": 0.977288124449131,
+      "maxChannel": 40
+    },
+    {
+      "view": "candidate-compressed-high-tools.png",
+      "meanAbsoluteChannel": 0.5051547067901234,
+      "rms": 0.9652348778103513,
+      "maxChannel": 39
+    }
+  ],
+  "scope": "Highest-quality ETC1S at 2048 compared to source JPEG rendered fallback; lossy, not pixel identical"
+}

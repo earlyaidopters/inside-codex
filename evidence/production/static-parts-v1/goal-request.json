@@ -1,0 +1,22 @@
+{
+  "id": "static-exhibit-submissions",
+  "metric": "render.total_draw_calls",
+  "statistic": "max",
+  "unit": "count",
+  "direction": "lower",
+  "target": 180,
+  "maximumIterations": 1,
+  "allowedPaths": [
+    "src/static-parts.ts",
+    "src/permission-exhibit.ts",
+    "src/review-exhibit.ts",
+    "src/steering-exhibit.ts",
+    "src/model-exhibit.ts",
+    "src/context-exhibit.ts",
+    "src/branch-exhibit.ts",
+    "src/harness-exhibit.ts",
+    "src/tool-exhibit.ts",
+    "tests/static-parts",
+    "tools/static-parts"
+  ]
+}

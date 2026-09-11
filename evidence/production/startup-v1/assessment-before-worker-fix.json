@@ -1,0 +1,136 @@
+{
+  "pass": true,
+  "scope": "Bounded cold-start transfer improvement. Not traversal/soak/native hardware acceptance or final release.",
+  "traces": {
+    "highBaseline": {
+      "run": "assets/generated/.game-dev/runs/run_1789035292168_d3942abb16bc43079222b5c83cba8df2",
+      "buildId": "b7e617a8948316083acdb91190e21bac39da31b95a0155da968a012a1635bd9f",
+      "quality": "high",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 2,
+      "readyMs": 4825,
+      "firstActionMs": 5699.4000000059605,
+      "transferBytes": 11498996,
+      "profile": {
+        "downloadBitsPerSecond": 25000000,
+        "uploadBitsPerSecond": 25000000,
+        "latencyMs": 50,
+        "browserCache": "disabled and cleared in fresh process",
+        "server": "Local Vite built preview, response encodings recorded per request",
+        "nativeDriverCache": "Not controlled",
+        "cpuThrottle": 1
+      }
+    },
+    "balancedBaseline": {
+      "run": "assets/generated/.game-dev/runs/run_1789035345948_99334616d5de4ee1a21f022522dcb5c8",
+      "buildId": "b7e617a8948316083acdb91190e21bac39da31b95a0155da968a012a1635bd9f",
+      "quality": "balanced",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "readyMs": 4762.699999988079,
+      "firstActionMs": 5034.5,
+      "transferBytes": 11282432,
+      "profile": {
+        "downloadBitsPerSecond": 25000000,
+        "uploadBitsPerSecond": 25000000,
+        "latencyMs": 50,
+        "browserCache": "disabled and cleared in fresh process",
+        "server": "Local Vite built preview, response encodings recorded per request",
+        "nativeDriverCache": "Not controlled",
+        "cpuThrottle": 1
+      }
+    },
+    "firstCandidate": {
+      "run": "assets/generated/.game-dev/runs/run_1789035658551_88b402d2965645599111dabb5dc774b1",
+      "buildId": "80d26799c5b089e40fb840b4eef5fd1e15fce3ddf5c7907aa85d1f7c67590f75",
+      "quality": "balanced",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "readyMs": 4096.70000000298,
+      "firstActionMs": 4349.0999999940395,
+      "transferBytes": 9099417,
+      "profile": {
+        "downloadBitsPerSecond": 25000000,
+        "uploadBitsPerSecond": 25000000,
+        "latencyMs": 50,
+        "browserCache": "disabled and cleared in fresh process",
+        "server": "Local Vite built preview, response encodings recorded per request",
+        "nativeDriverCache": "Not controlled",
+        "cpuThrottle": 1
+      }
+    },
+    "balancedFinal": {
+      "run": "assets/generated/.game-dev/runs/run_1789036068405_75f4dc80ad524b7fbd4e8b1d6614a1e1",
+      "buildId": "2ea364cc7d77af55dd786f9617b7532136f833449742d0fc2391d266aac09ecc",
+      "quality": "balanced",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "readyMs": 3465.4000000059605,
+      "firstActionMs": 3732.2000000029802,
+      "transferBytes": 7119285,
+      "profile": {
+        "downloadBitsPerSecond": 25000000,
+        "uploadBitsPerSecond": 25000000,
+        "latencyMs": 50,
+        "browserCache": "disabled and cleared in fresh process",
+        "server": "Local Vite built preview, response encodings recorded per request",
+        "nativeDriverCache": "Not controlled",
+        "cpuThrottle": 1
+      }
+    },
+    "highFinal": {
+      "run": "assets/generated/.game-dev/runs/run_1789036240372_093761c14d17404db3195197c8ff350b",
+      "buildId": "2ea364cc7d77af55dd786f9617b7532136f833449742d0fc2391d266aac09ecc",
+      "quality": "high",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 2,
+      "readyMs": 3527.5,
+      "firstActionMs": 4399.0999999940395,
+      "transferBytes": 7335849,
+      "profile": {
+        "downloadBitsPerSecond": 25000000,
+        "uploadBitsPerSecond": 25000000,
+        "latencyMs": 50,
+        "browserCache": "disabled and cleared in fresh process",
+        "server": "Local Vite built preview, response encodings recorded per request",
+        "nativeDriverCache": "Not controlled",
+        "cpuThrottle": 1
+      }
+    }
+  },
+  "balancedTransferReduction": 0.3689937595014976,
+  "highTransferReduction": 0.3620443906581061,
+  "fidelity": {
+    "orientedTriangles": 223458,
+    "primitives": 24,
+    "vertexAttributeArraysRetained": true,
+    "texturesRetained": 3,
+    "fixedViewsPixelIdentical": 3
+  },
+  "checks": {
+    "fullJourney": 37,
+    "transportRecovery": 6
+  },
+  "limitations": [
+    "One observation per quality/build, not a timing distribution.",
+    "Cold cache was cleared and disabled, so repeated logo/favicon requests count toward a conservative transfer total.",
+    "Local Vite preview serves the gzip sidecar with Content-Encoding; browser transport decoding is included in the download phase, not the separate unpack marker. Raw-gzip native and bundled fallbacks were verified with explicit header-free fixtures.",
+    "Other first-load work still includes every exhibit. Progressive wing loading and scene/render budgets remain open.",
+    "Final browser/device coverage, physical phones, independent pilots and hosted acceptance remain open."
+  ]
+}

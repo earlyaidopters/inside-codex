@@ -1,0 +1,35 @@
+{
+  "adapterId": "inside-codex",
+  "allowedPaths": [
+    "src/world.ts"
+  ],
+  "baseline": {
+    "runId": "run_1789039432792_df273a6bb3564e9b902f39d99db0b1c1",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789039432792_df273a6bb3564e9b902f39d99db0b1c1",
+    "value": 274553946.6
+  },
+  "createdAt": "2026-09-10T11:33:44.769Z",
+  "direction": "lower",
+  "id": "balanced-release-high-targets",
+  "maximumIterations": 2,
+  "metric": "render.texture_estimate",
+  "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+  "scenarioId": "warm-traversal",
+  "schema": "game_dev.optimization_goal.v1",
+  "state": {
+    "iterations": [
+      {
+        "evaluatedAt": "2026-09-10T11:46:20.611Z",
+        "iteration": 1,
+        "runId": "run_1789040606556_b7de955ed5f44993ac86cecae136fdb1",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789040606556_b7de955ed5f44993ac86cecae136fdb1",
+        "targetMet": true,
+        "value": 240637300.2
+      }
+    ],
+    "status": "met"
+  },
+  "statistic": "max",
+  "target": 245000000,
+  "unit": "bytes"
+}

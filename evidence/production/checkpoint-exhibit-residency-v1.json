@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/exhibit-residency-v1-tested.zip",
+  "bytes": 683107998,
+  "sha256": "79e065ec5a367a5f7ba0652453261b43d640c4d01f99ec573724df341267bdcb",
+  "files": 2463,
+  "distFiles": 335,
+  "allDistHashesVerified": true,
+  "zipIntegrityVerified": true,
+  "activeArchitectureRevisionHashesVerified": true,
+  "performanceReleaseAccepted": false,
+  "knownMemoryReleaseInvariantPass": true,
+  "scope": "Recoverable local exhibit-residency checkpoint with recorded open resource budgets and bounded measurement evidence. Not a hosted release or full quality acceptance."
+}

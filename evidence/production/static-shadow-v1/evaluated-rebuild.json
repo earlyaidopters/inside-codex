@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "evaluatedBuildId": "44c1bb1e5f307a819496ee0dcc3b0357e17ae194401fba14db8b2c0667c6eedd",
+  "rawFilesMatched": 461,
+  "manifestMatchesAfterDependencyPathNormalization": true,
+  "filesCompared": 462,
+  "sourceOverlay": "source-evaluated/src",
+  "base": "architecture-detail-v1-source.zip and its full base chain",
+  "method": "Remove exact later capability guard; rebuild in separate temporary directory. All JS, assets and HTML match byte-for-byte. The manifest alone names the symlinked dependency directory relative to the temporary root; normalizing that prefix and top-level key order produces its exact captured hash. Current dist untouched.",
+  "manifestRawSha256": "6dd9629bd6e94d6e519bc12ff29a801faf80896d4f993b3a8e05bf88a2e1720b",
+  "manifestNormalizedSha256": "ee3561be2db39f9a19752cde9894dca84b21f4550d0b81a9d179e591cb4dec3d"
+}

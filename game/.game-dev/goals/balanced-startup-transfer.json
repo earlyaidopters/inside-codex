@@ -1,0 +1,45 @@
+{
+  "adapterId": "inside-codex",
+  "allowedPaths": [
+    "public/assets/decoders",
+    "public/assets/headquarters",
+    "src/world.ts"
+  ],
+  "baseline": {
+    "runId": "run_1789035345948_99334616d5de4ee1a21f022522dcb5c8",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789035345948_99334616d5de4ee1a21f022522dcb5c8",
+    "value": 11282432
+  },
+  "createdAt": "2026-09-10T10:19:04.074Z",
+  "direction": "lower",
+  "id": "balanced-startup-transfer",
+  "maximumIterations": 2,
+  "metric": "startup.transfer_bytes",
+  "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+  "scenarioId": "cold-startup",
+  "schema": "game_dev.optimization_goal.v1",
+  "state": {
+    "iterations": [
+      {
+        "evaluatedAt": "2026-09-10T10:21:59.263Z",
+        "iteration": 1,
+        "runId": "run_1789035658551_88b402d2965645599111dabb5dc774b1",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789035658551_88b402d2965645599111dabb5dc774b1",
+        "targetMet": false,
+        "value": 9099417
+      },
+      {
+        "evaluatedAt": "2026-09-10T10:30:40.227Z",
+        "iteration": 2,
+        "runId": "run_1789036068405_75f4dc80ad524b7fbd4e8b1d6614a1e1",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789036068405_75f4dc80ad524b7fbd4e8b1d6614a1e1",
+        "targetMet": true,
+        "value": 7119285
+      }
+    ],
+    "status": "met"
+  },
+  "statistic": "median",
+  "target": 8000000,
+  "unit": "bytes"
+}

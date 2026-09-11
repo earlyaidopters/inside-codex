@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/cold-view-v1-source.zip",
+  "bytes": 220936,
+  "sha256": "59e3b1ebfd836c4162981cac73d74e2abc717c079153e55cd55750687c3a5d1a",
+  "files": 47,
+  "requires": "warm-factories-v1 delta and its exhibit-residency base; rebuild dist after overlay",
+  "fullReleaseAccepted": false
+}

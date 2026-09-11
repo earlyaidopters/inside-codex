@@ -1,0 +1,28 @@
+Inside Codex — a community learning experience by Mark Kashef
+
+This is a community-made educational tour, not an official OpenAI product.
+Codex and its source logo belong to OpenAI. The personified 3D treatment is
+made for this tour; no ownership or general redistribution grant for the
+source brand is asserted.
+
+Architecture, mascot modeling/rigging, interactions, music, ambience and
+sound effects were authored for this project. Guide recordings were generated
+locally with Kokoro v1.0 (af_heart) through kokoro-onnx 0.6.1. Model weights
+and inference software are not included in the website. Sources:
+https://huggingface.co/hexgrad/Kokoro-82M
+https://github.com/thewh1teagle/kokoro-onnx
+
+Runtime software:
+Babylon.js 9.25.0 — Apache 2.0. See licenses/BABYLON-LICENSE.md and
+licenses/BABYLON-NOTICE.md. The upstream notice is retained in full;
+not every optional component it lists is used by this game.
+fflate 0.8.3 — MIT. See licenses/FFLATE-LICENSE.txt.
+meshoptimizer 1.2.0 — MIT. See assets/decoders/MESHOPT-LICENSE.md.
+The local decoder wrapper includes project-specific lifecycle changes.
+Babylon KTX2 decoder 9.25.0 and its included transcoders:
+see assets/decoders/ktx2-9.25.0/NOTICE.md, license.md and decoder-license.md.
+
+Capability notes were checked against official OpenAI documentation on
+2026-09-10. Each field-note entry links to its source and states its scope.
+Exercises use fictional data and deterministic simulations. Practice scores
+are not certification or measured real-world productivity results.

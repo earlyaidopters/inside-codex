@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-09-10T06:40:21.068207+00:00",
+  "sources": [
+    {
+      "url": "https://learn.chatgpt.com/docs/permissions.md",
+      "file": "permissions.md",
+      "sha256": "a4ef92666fcff0fceb7ab5332588585d3b4958909263e5576bf54dd14acf022e"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/agent-approvals-security.md",
+      "file": "agent-approvals-security.md",
+      "sha256": "ebf01378a4ea6fd7bec516ecb99b472e35112e958f1b3995498f8541b4d45e05"
+    }
+  ]
+}

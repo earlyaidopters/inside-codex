@@ -1,0 +1,86 @@
+{
+  "id": "clear-promenade-v3",
+  "description": "Move two front columns from z=1 to z=10 and two complete olive trees from z=2 to z=10, preserve original smooth guided camera, and rebake indirect light.",
+  "files": [
+    {
+      "path": "art-source/headquarters-clear-promenade.blend",
+      "bytes": 890321,
+      "sha256": "b854cf4348498381d5618b9fcf665718f74bfe6337628d41f1824cc84c05be93"
+    },
+    {
+      "path": "art-source/headquarters-clear-promenade-runtime.blend",
+      "bytes": 5413146,
+      "sha256": "988034846dde4f8a0b2257474c6328ae4d7f55c6f033ff7d5a5f9cc0d4b9f418"
+    },
+    {
+      "path": "art-source/headquarters-browser-unquantized.glb",
+      "bytes": 8330988,
+      "sha256": "c979a1f1fc2d3a2fb1a2f7d6ceff55296b860564cecbfc7c2ed0f69f976b4668"
+    },
+    {
+      "path": "game/public/assets/headquarters/architecture.glb",
+      "bytes": 4152576,
+      "sha256": "5221612a95cb9d7e25ba2de92cb1167a7a6dba6b162b90513c33e7a35d390580",
+      "previousUncompressedSha256": "e782ae48b56718d4a2c838ee60f2f6a745f62126ace0af8a0ca1b3dc794850fb"
+    },
+    {
+      "path": "production/rooms/room-layout.json",
+      "bytes": 195434,
+      "sha256": "1d0b410d12eaba297ec6eb26e6ef777f3b0e8e191154c689d464777555610459"
+    },
+    {
+      "path": "game/public/assets/headquarters/navigation.json",
+      "bytes": 79962,
+      "sha256": "a219910face8e4ef7b595be82861f6f0b8d3fbf89f0508e865ee98a76dbf74c3"
+    },
+    {
+      "path": "art-source/headquarters-lighting-v3/bake.json",
+      "bytes": 1359,
+      "sha256": "c33b2232e6c94a5ae689ada1d5c014d2cf949e75c368b824f4d67f5f7a7bb634"
+    },
+    {
+      "path": "game/public/assets/headquarters/floor-indirect.jpg",
+      "bytes": 254220,
+      "sha256": "10916e6f56373066bdba235a046f80466d0ef379d039c2912b8ba9a5fbe543bd"
+    },
+    {
+      "path": "game/public/assets/headquarters/shell-indirect.jpg",
+      "bytes": 784238,
+      "sha256": "2542cd778cc5c304f1f21a0268c4d191fa7b13b1b58cd2689561b1483147a348"
+    },
+    {
+      "path": "game/public/assets/headquarters/furnishings-indirect.jpg",
+      "bytes": 1078937,
+      "sha256": "31cd2cdce57aa704c7ae6e8a36099ac1464670288d25a6364365d8b1f24d5cd6"
+    },
+    {
+      "path": "game/public/assets/headquarters/architecture.glb.gz",
+      "bytes": 2172025,
+      "sha256": "12555083f0954c02f60bf8c858b82990c8607445391b3f3ac545a06ffab392e6"
+    },
+    {
+      "path": "game/public/assets/decoders/meshopt-decoder-1.2.0.js",
+      "bytes": 29400,
+      "sha256": "fedf06f101ff2ba59d66335578230b7e8f5fac5057dee084be64c67444ac6c12"
+    },
+    {
+      "path": "game/public/assets/decoders/MESHOPT-LICENSE.md",
+      "bytes": 1079,
+      "sha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26"
+    },
+    {
+      "path": "game/public/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+      "bytes": 30677,
+      "sha256": "24018cf3ec76322c3ee6c37bdb484383d24a6f591149e1d8134e9bfb1a0bbb26"
+    }
+  ],
+  "frozenPreviousSource": "evidence/production/camera-layout-v3/previous",
+  "evidence": "evidence/production/camera-layout-v3",
+  "plans": "production/rooms/plans/clear-promenade-v3",
+  "transportRevision": "meshopt-gzip-v1",
+  "transportDescription": "Unfiltered meshopt encoding without new quantization, then gzip transport. Existing vertex attribute arrays, oriented triangles, transforms, materials and image bytes retained.",
+  "transportSource": "evidence/production/startup-v1/baseline/architecture.glb",
+  "transportEvidence": "evidence/production/startup-v1",
+  "activeDecoder": "game/public/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+  "decoderRevision": "meshoptimizer 1.2.0 + codex1 worker lifetime and error-recovery patch"
+}

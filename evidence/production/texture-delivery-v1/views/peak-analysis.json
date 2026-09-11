@@ -1,0 +1,20 @@
+[
+  {
+    "view": "balanced-handoff",
+    "peak": 64,
+    "peakX": 224,
+    "peakY": 322,
+    "p95": 2,
+    "p99": 3,
+    "p999": 5
+  },
+  {
+    "view": "high-arrival",
+    "peak": 46,
+    "peakX": 538,
+    "peakY": 269,
+    "p95": 2,
+    "p99": 3,
+    "p999": 8
+  }
+]

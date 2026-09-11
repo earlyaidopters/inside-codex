@@ -1,0 +1,106 @@
+{
+  "pass": true,
+  "scope": "Sorted triangle positions at 10-micrometre precision. Shape/topology check, not a normal or material equivalence claim.",
+  "inputs": {
+    "baseline": {
+      "path": "../evidence/production/mascot-v4/baseline.glb",
+      "sha256": "9edf1d71b87628d85865a57c43f6ca40b4ded3aaff251854b8edb351d26fa386"
+    },
+    "candidate": {
+      "path": "../evidence/production/mascot-v4/mascot-traced-glyph-v4.glb",
+      "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610"
+    }
+  },
+  "meshes": [
+    {
+      "mesh": "Codex logo core",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 7164,
+      "trianglesAfter": 7164
+    },
+    {
+      "mesh": "Left finger 0",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Left finger 1",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Left finger 2",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Left floating forearm",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1564,
+      "trianglesAfter": 1564
+    },
+    {
+      "mesh": "Left palm",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Left thumb",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Left wrist",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Right finger 0",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Right finger 1",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Right finger 2",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Right floating forearm",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1564,
+      "trianglesAfter": 1564
+    },
+    {
+      "mesh": "Right palm",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Right thumb",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    },
+    {
+      "mesh": "Right wrist",
+      "sameTrianglePositionsAt10Micrometres": true,
+      "trianglesBefore": 1216,
+      "trianglesAfter": 1216
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "source": "../evidence/production/warm-factories-v1/recovery/report.json",
+      "engine": "firefox",
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(!(await state()).graphicsError)\n",
+      "harnessRequests": [],
+      "consoleErrors": null,
+      "graphicsError": "3D couldn\u2019t start in this browser."
+    },
+    {
+      "source": "../evidence/production/warm-factories-v1/recovery-final/report.json",
+      "engine": "firefox",
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(!(await state()).graphicsError)\n",
+      "harnessRequests": [],
+      "consoleErrors": [
+        "Error"
+      ],
+      "graphicsError": "3D couldn\u2019t start in this browser."
+    }
+  ],
+  "inference": "Failures precede any intercepted harness request; they do not establish exhibit-loader causality. Original underlying startup exception was not recorded with a useful message."
+}

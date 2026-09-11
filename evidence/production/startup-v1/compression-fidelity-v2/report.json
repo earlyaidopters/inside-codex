@@ -1,0 +1,152 @@
+{
+  "pass": true,
+  "browser": "153.0.8010.36",
+  "scope": "Three fixed browser-rendered camera views with frozen matching guide poses and identical lighting. Does not establish all-camera or cross-browser equivalence.",
+  "results": {
+    "baseline": [
+      {
+        "name": "arrival",
+        "sha256": "710db73947b92fa95e1ad40c0afcad399e1dc0ff6a1119787098235e7f1fe59f",
+        "camera": {
+          "alpha": 1.22,
+          "beta": 1.31,
+          "radius": 13.5,
+          "target": [
+            -1.2999999999999998,
+            2.3,
+            2
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 2,
+          "y": 0.35,
+          "z": 2,
+          "displayLift": 0
+        }
+      },
+      {
+        "name": "archive",
+        "sha256": "e6a290dc0fb0fc49e284ea5ccfad0e2d35aa65e6d867f32e99736a6125dc8501",
+        "camera": {
+          "alpha": 1.28,
+          "beta": 1.31,
+          "radius": 9,
+          "target": [
+            -18.4,
+            2.3,
+            -10
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": -19.799999999999997,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 0
+        }
+      },
+      {
+        "name": "handoff",
+        "sha256": "8b9a02ae47628e5a291d9b41d9b2ec6c575129bb3fa76a3b2973ddaf2df4f5e6",
+        "camera": {
+          "alpha": 1.28,
+          "beta": 1.31,
+          "radius": 9,
+          "target": [
+            20.799999999999997,
+            2.3,
+            -10
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 19.4,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 0
+        }
+      }
+    ],
+    "candidate": [
+      {
+        "name": "arrival",
+        "sha256": "710db73947b92fa95e1ad40c0afcad399e1dc0ff6a1119787098235e7f1fe59f",
+        "camera": {
+          "alpha": 1.22,
+          "beta": 1.31,
+          "radius": 13.5,
+          "target": [
+            -1.2999999999999998,
+            2.3,
+            2
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 2,
+          "y": 0.35,
+          "z": 2,
+          "displayLift": 0
+        }
+      },
+      {
+        "name": "archive",
+        "sha256": "e6a290dc0fb0fc49e284ea5ccfad0e2d35aa65e6d867f32e99736a6125dc8501",
+        "camera": {
+          "alpha": 1.28,
+          "beta": 1.31,
+          "radius": 9,
+          "target": [
+            -18.4,
+            2.3,
+            -10
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": -19.799999999999997,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 0
+        }
+      },
+      {
+        "name": "handoff",
+        "sha256": "8b9a02ae47628e5a291d9b41d9b2ec6c575129bb3fa76a3b2973ddaf2df4f5e6",
+        "camera": {
+          "alpha": 1.28,
+          "beta": 1.31,
+          "radius": 9,
+          "target": [
+            20.799999999999997,
+            2.3,
+            -10
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 19.4,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 0
+        }
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "view": "arrival",
+      "pixelIdentical": true
+    },
+    {
+      "view": "archive",
+      "pixelIdentical": true
+    },
+    {
+      "view": "handoff",
+      "pixelIdentical": true
+    }
+  ],
+  "errors": []
+}

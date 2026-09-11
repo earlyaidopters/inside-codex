@@ -1,0 +1,61 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_1cd7f169-ebbc-4f3d-8a80-eca3c63f0284",
+  "operation": "package.build",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "package",
+      "build",
+      "evidence/production/mascot-v4/mascot-traced-glyph-v2.glb"
+    ],
+    "flags": {
+      "name": "codex-guide",
+      "version": "4.0.0",
+      "license": "unknown"
+    },
+    "input": {
+      "description": "Locally authored Codex guide with source-traced glyph, portable skin roots, and twelve retained animation clips. Internal production asset; no independent redistribution license is asserted for the source logo.",
+      "category": "character",
+      "policy": {
+        "maxTriangles": 40000,
+        "maxMaterials": 4,
+        "minDimensionMeters": 0.05,
+        "maxDimensionMeters": 4,
+        "requireNormals": true,
+        "requireUVs": false,
+        "requireBaseColorTexture": false,
+        "requireTangentsWithNormalMap": true
+      },
+      "provenance": {
+        "origin": "authored",
+        "author": "[redacted]",
+        "prompt": "Use the supplied Codex logo as the personified guide to a high-quality educational tour through the Codex ecosystem.",
+        "negativePrompt": "Do not invent another logo or distort the original glyph; no paid provider generation.",
+        "notes": "Source raster is game/public/assets/codex-reference.png, hash retained in art-source/glyph-contours.json. Source authoring and all actions are preserved in art-source/codex-mascot-traced-glyph-v2.blend. Export is normalized only by promoting identity-transform skinned nodes; full binary payload is preserved at that normalization stage. Material design uses vertex color and PBR constants, so image textures/UVs are not required by this asset policy. Package integrity is separate from source-logo rights and final release approval."
+      }
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.0.0",
+      "kind": "asset_package"
+    },
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.0.0/manifest.json",
+      "kind": "manifest",
+      "sha256": "824a82cad8c3fa1d71970a696639c39756fbd9d5aeb3a5d554c11dcb7e1b4c07"
+    },
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.0.0/receipt.json",
+      "kind": "receipt"
+    }
+  ],
+  "createdAt": "2026-09-10T09:37:59.312Z",
+  "updatedAt": "2026-09-10T09:37:59.386Z",
+  "startedAt": "2026-09-10T09:37:59.320Z",
+  "completedAt": "2026-09-10T09:37:59.386Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/jobs/job_1cd7f169-ebbc-4f3d-8a80-eca3c63f0284/receipt.json"
+}

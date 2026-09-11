@@ -1,0 +1,37 @@
+{
+  "inputPath": "../evidence/production/camera-layout-v3/architecture-candidate-unquantized.glb",
+  "method": "dedup, weld, 16-bit positions/UVs and 12-bit normals; no simplification",
+  "before": {
+    "bytes": 8330988,
+    "triangles": 223458,
+    "bounds": {
+      "min": [
+        -75,
+        -0.7999999448657036,
+        -75
+      ],
+      "max": [
+        75,
+        9.424999713897705,
+        75
+      ]
+    }
+  },
+  "after": {
+    "triangles": 223458,
+    "bounds": {
+      "min": [
+        -75,
+        -0.7991546179160052,
+        -75
+      ],
+      "max": [
+        75,
+        9.424954460666008,
+        75
+      ]
+    },
+    "bytes": 6343808,
+    "sha256": "e782ae48b56718d4a2c838ee60f2f6a745f62126ace0af8a0ca1b3dc794850fb"
+  }
+}

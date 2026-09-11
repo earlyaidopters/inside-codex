@@ -1,0 +1,10 @@
+import {chromium} from 'playwright';import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+const out=process.env.EVIDENCE_DIR;if(!out)throw Error('EVIDENCE_DIR required');await fs.mkdir(out,{recursive:true});
+const b=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true});const p=await b.newPage({viewport:{width:1440,height:900},deviceScaleFactor:2});const errors=[];p.on('pageerror',e=>errors.push(e.message));const records=[];
+try{
+await p.goto(process.env.BACKDROP_URL??'http://127.0.0.1:43211/');await p.waitForFunction(()=>window.__insideCodex?.state().ready);await p.getByRole('button',{name:'Settings',exact:true}).click();await p.locator('#motion-toggle').check();await p.locator('#quality').selectOption('high');await p.keyboard.press('Escape');await p.getByRole('button',{name:'Step inside',exact:false}).click();
+for(const [wing,name] of [['understand','Mission 2: The context archive'],['direct','Mission 6: The branch workshop'],['repeat','Mission 10: The browser lab']]){
+await p.getByRole('button',{name,exact:true}).click();await p.waitForFunction(()=>{const w=window.__insideCodex.state().world;return w.ready&&w.transition===0;});await p.waitForTimeout(500);await p.screenshot({path:`${out}/${wing}-station.png`});await p.mouse.move(660,360);await p.mouse.wheel(0,-1800);await p.waitForTimeout(1700);await p.screenshot({path:`${out}/${wing}-close.png`});records.push({wing,state:await p.evaluate(()=>window.__insideCodex.state().world)});
+}
+await p.getByRole('button',{name:'Mission 2: The context archive',exact:true}).click();await p.locator('[data-action="explore-context"]').click();await p.waitForTimeout(800);await p.screenshot({path:`${out}/depth.png`});await p.setViewportSize({width:390,height:844});await p.waitForTimeout(500);await p.screenshot({path:`${out}/portrait.png`});assert.deepEqual(errors,[]);await fs.writeFile(`${out}/report.json`,JSON.stringify({pass:true,records,errors},null,2));
+}finally{await b.close();}

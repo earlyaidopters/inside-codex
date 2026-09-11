@@ -1,0 +1,87 @@
+{
+  "buildId": "1b6dfe9751a218865f07e3eb77ac119cfaf521dea8d118e0d796204a8d7c8ab5",
+  "startedAt": "2026-09-10T18:47:31.337322+00:00",
+  "surface": "Codex internal browser tab 43",
+  "url": "http://localhost:43211/?review=release-fresh",
+  "scope": "Complete manual visible-control playthrough: fresh origin 0/12 to all twelve missions and independent capstone, followed by reload and retained-evidence checks. Not a human learning pilot.",
+  "observations": [
+    {
+      "mission": "arrival",
+      "result": "Ready opening has clear Step inside action, mascot silhouette and primary heading unobstructed; screenshot inspected."
+    },
+    {
+      "mission": "control",
+      "result": "Submitted maximum-effort-only failure, read explanation, recovered context/tools/verification. Ordered source/produce/check/repair and completed. Correct scene wires and UI consequence inspected."
+    },
+    {
+      "mission": "context",
+      "result": "Inspected brief/CSV/screen/guidance, attached each, selected current requirements and approval_owner, produced checked Nina Patel CSV. Rejected imported-document authority in second exercise. Completed."
+    },
+    {
+      "mission": "models",
+      "result": "Checked identical label edit at Terra and Luna, reproduced and repaired tax/discount regression, reproduced unavailable sheet then connected current source and checked total9. Three routes kept; explicit non-benchmark label and final scene/layout inspected. Completed."
+    },
+    {
+      "mission": "permissions",
+      "result": "One-read request route, consumed scoped grant, draft failed before app connection, connected separately, produced/verified unsent draft and scope. Completed."
+    },
+    {
+      "mission": "tasks",
+      "result": "Created Onboarding review with concrete outcome and source verification, high effort and pin. Saved simulation label and pinning purpose clear; completed."
+    },
+    {
+      "mission": "worktrees",
+      "result": "Ran shared A/B overwrite, inspected failing shared values, created separate worktrees, reran and compared, integrated A and checked local result. Scene failure screenshot inspected; completed."
+    },
+    {
+      "mission": "steering",
+      "result": "Status via Steer, French correction during active checklist, dependent welcome draft queued. Advanced actual visible work boundaries, expanded and read both French saved outputs. No send; completed."
+    },
+    {
+      "mission": "review",
+      "result": "Owner-only pass followed by full acceptance failures. Flagged approval_owner and file-access regressions, applied precise repair, reran acceptance and inspected final diff. Scene and result panel readable; completed."
+    },
+    {
+      "mission": "tools",
+      "result": "Inspected Source Kit, installed/connected Training briefs in simulation. Read AGENTS, ran first skill on Northstar and Harbor, observed wrong hard-coded owner, loaded reusable skill and verified both. Final scene and feedback inspected; completed."
+    },
+    {
+      "mission": "browser",
+      "result": "Saved/reloaded Nina Patel to expose disappearance, enabled write-through, repeated actual sample Save/Reload and accepted. Selected further layout/focus/state review; completed."
+    },
+    {
+      "mission": "automation",
+      "result": "Tested vague then durable prompt. Rehearsed Thursday quiet success, Friday missing owner, skipped weekend, Monday unreadable source, Tuesday resolution, Wednesday offline host, Thursday recovered quiet success. All seven evidence requirements visible and completed."
+    },
+    {
+      "mission": "handoff",
+      "result": "Checked and preserved original, locally checked/built/staged candidate, observed delivered 404, restored and verified recovery. Repaired relative asset path, useful README and package contents, rebuilt/rechecked/staged/verified. All evidence passes; completed."
+    },
+    {
+      "mission": "finish",
+      "result": "12/12 and handoff-not-started state correctly distinguishes lesson completion from capstone evidence. During camera return mascot briefly crosses behind panel; settled home composition places guide unobstructed beside card. Both states visually inspected; no persistent overlap."
+    },
+    {
+      "mission": "capstone",
+      "result": "Defined Cedar task in own words, selected brief/current actuals/AGENTS, scoped reader and writer. Read report, reproduced copied12percent forecast, corrected actual growth calculation, verified Sept7(24,88.89percent,8percent) and Sept14(27,90percent,5percent). Configured Monday09Toronto, changed/failure reporting and last-good preservation; rehearsed three runs. First submission5/5, zero hints. This is informed assistant playthrough, not independent novice validation."
+    },
+    {
+      "mission": "downloads",
+      "result": "Actual native toolkit and starter ZIP downloaded, located in Downloads and copied into evidence. Independent Decimal calculations confirm both Cedar periods, separate client CSVs match sources, retained first5/5/no-hints and safe delivery/recovery paths verify. See native-download-verification.json."
+    },
+    {
+      "mission": "returning",
+      "result": "Reloaded actual page, Continue your journey opens last regular mission at12/12; map preserves all completion marks. Reopened independent handoff from map: saved title/brief, all criteria, first5/5 and1review retained. Ephemeral regular-lab rehearsal restarts as designed."
+    }
+  ],
+  "current": "Complete fresh tour and capstone manually played; reload/retained evidence checked. Tab43 paused for measurement; old tab42 remains paused.",
+  "limits": [
+    "Sound muted throughout this pass. Listening, audio-caption combinations and endurance remain separate.",
+    "Normal-motion desktop internal-browser review only; no physical-device, keyboard-only or novice learning-outcome claim.",
+    "Native browser screenshots are visible in the task tool record. Sealed active-scene screenshots are separate automated evidence.",
+    "Cua role mismatches for aria-pressed controls and HTML summaries were resolved by their observed text. They were not game failures."
+  ],
+  "completedAt": "2026-09-10T18:57:06.071357+00:00",
+  "manualMissionCount": 12,
+  "capstoneManualPass": true
+}

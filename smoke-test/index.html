@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>3D pipeline smoke test</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color:#e8f3f0;background:#101820;color-scheme:dark}*{box-sizing:border-box}body{margin:0;overflow:hidden}canvas{width:100vw;height:100dvh;display:block;touch-action:none;outline:none}.top{position:absolute;top:28px;left:32px;pointer-events:none}.eyebrow{color:#8fa4ad;font-size:12px;letter-spacing:.15em;text-transform:uppercase}.top h1{font-size:23px;font-weight:500;letter-spacing:-.04em;margin:6px 0}.top p{font-size:14px;color:#a6b5bc;margin:4px 0;max-width:460px}.status{position:absolute;right:32px;top:30px;display:flex;gap:9px;align-items:center;font-size:14px;color:#b5cacd}.dot{width:7px;height:7px;border-radius:50%;background:#d7a36b}.ready .dot{background:#66dec2}.bottom{position:absolute;bottom:28px;left:32px;right:32px;display:flex;justify-content:space-between;gap:24px;align-items:flex-end}.controls{display:flex;flex-wrap:wrap;gap:8px}button{background:#1d2b35e8;color:#e4f1ee;border:1px solid #3b515a;padding:12px 17px;border-radius:7px;font:inherit;font-size:14px;cursor:pointer}button:hover{border-color:#7ee7d3;background:#304650}button:focus-visible{outline:2px solid #7ee7d3;outline-offset:3px}button:disabled{opacity:.4;cursor:wait}.hint{color:#a6b5bc;font-size:12px;text-align:right}.error{color:#ffacac}.loading{position:absolute;inset:0;display:grid;place-items:center;background:#101820;z-index:2;font-size:14px;color:#b5cacd}.loading[hidden]{display:none}#metrics{font-variant-numeric:tabular-nums}@media(max-width:650px){.top{left:20px;top:20px}.top h1{font-size:20px}.top p{max-width:280px;font-size:12px}.status{right:20px;top:110px;font-size:12px}.bottom{bottom:20px;left:20px;right:20px;flex-direction:column;align-items:flex-start;gap:14px}.hint{text-align:left}button{padding:11px 12px}.controls{gap:6px}}
+</style></head>
+<body>
+<canvas id="renderCanvas" aria-label="Interactive 3D test companion. Drag to orbit and scroll to zoom." tabindex="0"></canvas>
+<div class="top"><div class="eyebrow">Codex game / pipeline check</div><h1>One asset. End to end.</h1><p>Engineering fixture. The game’s visual direction is still open.</p></div>
+<div class="status" id="status"><span class="dot"></span><span id="statusText">Loading scene</span></div>
+<div class="bottom"><div class="controls"><button id="pause" disabled>Pause animation</button><button id="lighting" disabled>Evening lighting</button><button id="reset" disabled>Reset</button></div><div class="hint"><div id="metrics">Reading GLB…</div><div>Drag to orbit · Scroll to zoom · P pause · R reset</div></div></div>
+<div class="loading" id="loading">Loading Blender asset…</div>
+<script src="/node_modules/babylonjs/babylon.js"></script>
+<script src="/node_modules/babylonjs-loaders/babylonjs.loaders.min.js"></script>
+<script type="module" src="/viewer.mjs"></script>
+</body></html>

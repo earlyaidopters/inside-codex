@@ -1,0 +1,28 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_b5c67242-12bb-4ca1-8bbc-c928b840519c",
+  "operation": "performance.goal-evaluate",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-evaluate",
+      ".game-dev/goals/balanced-release-high-targets.json",
+      "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789040606556_b7de955ed5f44993ac86cecae136fdb1"
+    ],
+    "flags": {}
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-release-high-targets.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T11:46:20.335Z",
+  "updatedAt": "2026-09-10T11:46:20.626Z",
+  "startedAt": "2026-09-10T11:46:20.343Z",
+  "completedAt": "2026-09-10T11:46:20.626Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_b5c67242-12bb-4ca1-8bbc-c928b840519c/receipt.json"
+}

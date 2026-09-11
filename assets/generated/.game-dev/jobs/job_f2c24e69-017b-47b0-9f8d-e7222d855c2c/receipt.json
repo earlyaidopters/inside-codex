@@ -1,0 +1,45 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "package.build",
+  "result": {
+    "schema": "game_dev.package_build_result.v1",
+    "packageId": "pkg_1d6131bee07ad21cdc029d8f",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.1.0",
+    "manifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.1.0/manifest.json",
+    "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.1.0/receipt.json",
+    "manifestSha256": "bf0337d35a152293eb5f8e164728b336d79ea2d0a9966c4dec8f73d752017105",
+    "reused": false,
+    "validation": {
+      "passed": true,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "catalog": {
+      "packageId": "pkg_1d6131bee07ad21cdc029d8f",
+      "assetId": "codex_guide",
+      "version": "4.1.0",
+      "displayName": "codex-guide",
+      "description": "Locally authored Codex guide with source-traced glyph, corrected shell normals, portable skin roots, and twelve retained animation clips. Internal production asset; no independent redistribution license is asserted for the source logo.",
+      "category": "character",
+      "license": "unknown",
+      "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.1.0",
+      "modelPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.1.0/model.glb",
+      "modelSha256": "0a86839a32c6eae7366d62fa5d75c8959363aaf00c88e06f7a78a7053b61fa36",
+      "manifestSha256": "bf0337d35a152293eb5f8e164728b336d79ea2d0a9966c4dec8f73d752017105",
+      "validationPassed": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "origin": "authored",
+      "indexedAt": "2026-09-10T09:44:59.365Z"
+    },
+    "evidence": {
+      "portableGlbCopiedAndHashed": true,
+      "staticInspectionCompleted": true,
+      "policyValidationCompleted": true,
+      "blenderNormalizationPerformed": false,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  },
+  "completedAt": "2026-09-10T09:44:59.371Z"
+}

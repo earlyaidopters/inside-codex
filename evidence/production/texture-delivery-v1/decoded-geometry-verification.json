@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "meshes": 5,
+  "primitives": 24,
+  "triangles": 223458,
+  "attributeAndIndexBytes": 3955212,
+  "allDecodedArraysIdentical": true,
+  "embeddedTextures": 0,
+  "sha256": "705665f178129075ce5d538132e92766f2d5e399357b41fcc4c0bffc5beb33b4"
+}

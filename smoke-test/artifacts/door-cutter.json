@@ -1,0 +1,8 @@
+{
+  "schema": "game-room.opening-cutter.v1",
+  "kind": "door",
+  "widthMeters": 2.4,
+  "heightMeters": 2.7,
+  "sillMeters": 0,
+  "contours": [{"role": "outer", "points": [[0,0],[1,0],[1,0.8],[0.85,1],[0.15,1],[0,0.8]]}]
+}

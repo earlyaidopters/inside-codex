@@ -1,0 +1,28 @@
+{
+  "sourceSha256": "5221612a95cb9d7e25ba2de92cb1167a7a6dba6b162b90513c33e7a35d390580",
+  "removedEmbeddedPrefixBytes": 1750288,
+  "rawBytes": 2401192,
+  "gzipBytes": 579385,
+  "geometryEncodedBytesIdentical": true,
+  "nodeMeshDeclarationsIdentical": true,
+  "textureCoordinate": 0,
+  "images": [
+    {
+      "path": "floor-albedo.jpg",
+      "bytes": 320393,
+      "sha256": "932bc20e044749d238652e9ad4a400c28e4b1df5138bcd2efba22ba943c8fa5b"
+    },
+    {
+      "path": "furnishings-albedo.jpg",
+      "bytes": 779595,
+      "sha256": "ade374d8612fd0b5410e13536fa4ecc81648bb1d969fc89355e294ec41697862"
+    },
+    {
+      "path": "shell-albedo.jpg",
+      "bytes": 650286,
+      "sha256": "62d7025984530cb0998a53882270bb2c2aec27cf20c06dd12e6f404a3202f156"
+    }
+  ],
+  "glbSha256": "705665f178129075ce5d538132e92766f2d5e399357b41fcc4c0bffc5beb33b4",
+  "gzipSha256": "cb100df1c6621d2b085bbfeb28d541779c751a946915572009dd9dd86e9f8933"
+}

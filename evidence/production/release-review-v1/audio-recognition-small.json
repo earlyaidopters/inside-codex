@@ -1,0 +1,131 @@
+{
+  "complete": true,
+  "model": "faster-whisper small.en, CPU int8, 2 threads, beam 5, no text prompt",
+  "scope": "Unconditioned second automated recognition of the thirteen previously flagged recordings. This is not headphone listening, human voice approval or independent human feedback. Prior evidence remains unchanged.",
+  "rows": [
+    {
+      "id": "voice/4a183c316cfe0bc6",
+      "expected": "Your route log separates reasoning settings from the edits, sources and access that changed the result.",
+      "baseRecognized": "Your route log separates reasoning settings from the edits, sources and access that change the result.",
+      "smallRecognized": "Your route log separates reasoning settings from the edits, sources, and access that change the result.",
+      "audioSha256": "3ba895e2c8ceec4a935a28300540d5094aead6a2ed38448293a7cbe78fcf60b8"
+    },
+    {
+      "id": "voice/f394b1daa9004455",
+      "expected": "The saved draft matches the approved source and remains unsent.",
+      "baseRecognized": "The save draft matches the approved source and remains unscent.",
+      "smallRecognized": "The saved draft matches the approved source and remains unsent.",
+      "audioSha256": "acdf9a81f904a2e71448861a19a1d6be6eaebe678f8edae90f02bd4bae4ed9c8"
+    },
+    {
+      "id": "voice/261d425597b98c23",
+      "expected": "Use scoped filesystem access, leave unused command network access off, and resolve pending requests.",
+      "baseRecognized": "You scoped file system access, leave unused command network access off, and resolve pending requests.",
+      "smallRecognized": "Use scoped file system access, leave unused command network access off, and resolve pending requests.",
+      "audioSha256": "46a50cb22f63e869f31a31a6308b6877deaa3e4a19fc1fc5738eb83f821f4b9e"
+    },
+    {
+      "id": "voice/dda5f1a50e584ac5",
+      "expected": "Let\u2019s create a focused task with a clear outcome, then keep it easy to find.",
+      "baseRecognized": "Let's create a focus task with a clear outcome, then keep it easy to find.",
+      "smallRecognized": "Let's create a focused task with a clear outcome, then keep it easy to find.",
+      "audioSha256": "5e53b8142c50d22eb14391616031a1624c2a5bd790eb68e7a1752e284f784077"
+    },
+    {
+      "id": "voice/c9aa740526f7213f",
+      "expected": "You kept competing files separate, compared their actual changes, and verified the chosen record after integration.",
+      "baseRecognized": "You kept competing files separate, compare their actual changes, and verify the chosen record after integration.",
+      "smallRecognized": "You kept competing files separate, compared their actual changes, and verified the chosen record after integration.",
+      "audioSha256": "351fb548f5faf6295a732ce4b6a5e38887e96e3a0cb841c7e6c32f83764cab20"
+    },
+    {
+      "id": "voice/2b98c44c94582673",
+      "expected": "Complete the working-file exercise: create worktrees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "baseRecognized": "Complete the working file exercise. Create work trees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "smallRecognized": "Complete the working file exercise. Create work trees, run and check both attempts, compare their changes, integrate a passing result, then verify the local record.",
+      "audioSha256": "7b973779a74cfafbb89fd0bdfdd314b57669c44400a73be704633c627f4e56ca"
+    },
+    {
+      "id": "voice/fa2702670106d095",
+      "expected": "Both deliverables are saved and the draft is unsent.",
+      "baseRecognized": "Both deliverables are saved and the draft is unscent.",
+      "smallRecognized": "Both deliverables are saved and the draft is unsent.",
+      "audioSha256": "ee8ed1becea646dda3ee07dd81abdd49c91f39253612174f7651f80c94ceabc2"
+    },
+    {
+      "id": "voice/5ce7e360b1476bb7",
+      "expected": "Ask for status, apply the French correction during the checklist run, then finish a queued email based on the latest checked result.",
+      "baseRecognized": "Ask for status, apply the French correction during the checklist run, then finish a cute email based on the latest checked result.",
+      "smallRecognized": "Ask for status, apply the French correction during the checklist run, then finish a queued email based on the latest checked result.",
+      "audioSha256": "ec6951823a87023429cd312536e79e0bad33f6939bf6c7a6f975b83116e6225d"
+    },
+    {
+      "id": "voice/45884195c3f94335",
+      "expected": "You reproduced the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "baseRecognized": "You reproduce the bad output, made line-specific repairs, inspected the final diff, and verified the saved code against three inputs.",
+      "smallRecognized": "You reproduced the bad output, made line-specific repairs, inspected the final DIF, and verified the saved code against three inputs.",
+      "audioSha256": "cc1ccae96c8f68fe5a5e50a333d8c77c0cc6b57027bde5f549848409d385dab0"
+    },
+    {
+      "id": "voice/41e91bd31f74baa1",
+      "expected": "You observed the failure, changed the save behavior, and verified the persisted record against the source.",
+      "baseRecognized": "You observed the failure, changed the saved behavior, and verified the persisted record against the source.",
+      "smallRecognized": "You observed the failure, changed the save behavior, and verified the persisted record against the source.",
+      "audioSha256": "74a4798516790879714599da96bc8719a04da2d8ece5a0c3ccbd310619390f24"
+    },
+    {
+      "id": "voice/afef7fd3ed671d3c",
+      "expected": "You checked the actual delivery route, preserved and tested recovery, repaired the asset path and verified the current package.",
+      "baseRecognized": "You check the actual delivery route, preserved and tested recovery, repair the asset path, and verify the current package.",
+      "smallRecognized": "You check the actual delivery route, preserved and tested recovery, repair the asset path and verify the current package.",
+      "audioSha256": "3d4cbca859734af96d86b97412279a7daff1f438f1bc69f78a0187d98f65af74"
+    },
+    {
+      "id": "voice/40e8fd6c0df5ee2a",
+      "expected": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repaired delivery.",
+      "baseRecognized": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage and check the repair delivery.",
+      "smallRecognized": "Then use the relative asset path, include useful instructions, check locally, rebuild, stage, and check the repair delivery.",
+      "audioSha256": "4f97736c0249d2e797bac419e8cb15f5453b229f081ad7e391a36266a22ed831"
+    },
+    {
+      "id": "voice/7748154776e1ae1a",
+      "expected": "Cedar Research has a new reporting brief.",
+      "baseRecognized": "CETA Research has a new reporting brief.",
+      "smallRecognized": "CEDAR Research has a new reporting brief.",
+      "audioSha256": "88074ee869b2ea7fcf81e318aa677eee5cac5d61b4adbc8be1340f63cead8a41"
+    }
+  ],
+  "seconds": 92.00604891777039,
+  "modelFiles": [
+    {
+      "path": "config.json",
+      "bytes": 2657,
+      "sha256": "666a9605530ac1f61fa8177f3702b4dacec9966749e42610839fcc32661d5fae"
+    },
+    {
+      "path": "model.bin",
+      "bytes": 483545366,
+      "sha256": "62b2a45b05ee59acb4a5341b33ee35e041395d378d418a18acfe4c9e768ee37a"
+    },
+    {
+      "path": "tokenizer.json",
+      "bytes": 2128466,
+      "sha256": "929c5252409436dce1b38a75d1abbcb5e132d170d8e324e4e04ed915fa2d22df"
+    },
+    {
+      "path": "vocabulary.txt",
+      "bytes": 422309,
+      "sha256": "ff77588746d3a2595d32ab5b69ffd7b95ce2441ac57533cb66fc3eb575a115cf"
+    }
+  ],
+  "modelRevision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+  "assessment": {
+    "recognition": "The larger unconditioned recognizer resolves the earlier unsent/queued/Cedar spellings and most inflection questions. Some tense endings still differ. Word joining and DIF/diff are recognition spellings, not established pronunciation errors.",
+    "decision": "Retain the original and second transcripts. Exact captions and fully usable muted interactions remain authoritative. No material instructional reversal is observed in either transcription; remaining perceptual voice/mix quality is explicitly unverified.",
+    "notClaimed": [
+      "Headphone listening",
+      "Human voice approval",
+      "Every phoneme matches the written source"
+    ]
+  }
+}

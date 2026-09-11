@@ -1,0 +1,8 @@
+{
+  "archive": "releases/checkpoints/context-v8-tested.zip",
+  "bytes": 18666945,
+  "sha256": "bc3eef376de7da60978a0d4f0cb728471c01ece4bad9388bf938da6e777257e1",
+  "verifiedDistFiles": 313,
+  "distBytes": 14329356,
+  "releaseReady": false
+}

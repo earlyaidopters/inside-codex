@@ -1,0 +1,10 @@
+{
+  "archive": "releases/checkpoints/startup-diagnostics-v1-source.zip",
+  "bytes": 46944699,
+  "sha256": "d8baad87ebffe5928e25d843dbcf79b8b21cdbe2d511641a04e3dbb87376d6a8",
+  "filesVerified": 160,
+  "base": "static-shadow-v1-source.zip plus its complete base chain",
+  "baseSha256": "afa5d6347443ddf05e840a740750857bc0b7e126eef3248a3760049e325935dd",
+  "buildId": "3f428282111c78aec04ff1d7a75636a2fa1d13546cf17c023cc15788ddf1494c",
+  "fullReleaseAccepted": false
+}

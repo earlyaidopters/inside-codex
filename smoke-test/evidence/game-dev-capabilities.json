@@ -1,0 +1,393 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "capabilities",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.capabilities.v1",
+    "name": "game-development-studio",
+    "version": "1.0.2",
+    "transport": "local-cli",
+    "protocols": {
+      "result": "game_dev.result.v1",
+      "event": "game_dev.event.v1"
+    },
+    "providers": {
+      "tripo": {
+        "configured": false,
+        "operations": [
+          "generate",
+          "retexture",
+          "rig",
+          "retarget",
+          "retopologize"
+        ]
+      },
+      "leonardo": {
+        "configured": false,
+        "operations": [
+          "image-generate",
+          "sound-generate"
+        ]
+      }
+    },
+    "commandFamilies": [
+      "capabilities",
+      "doctor",
+      "credentials",
+      "adapter",
+      "provider",
+      "job",
+      "catalog",
+      "asset",
+      "vendor",
+      "package",
+      "scenario",
+      "capture",
+      "visual",
+      "performance",
+      "skill",
+      "migrate",
+      "launch",
+      "tool"
+    ],
+    "localOperations": [
+      {
+        "name": "animate_asset",
+        "title": "Retarget an animation onto a rigged asset",
+        "description": "SPENDS 3D CREDITS. Applies a preset animation to an asset that has ALREADY been rigged with rig_asset. Each animation costs separately. ASYNCHRONOUS: poll get_asset_job, then download_asset. Refuses when the source job was not a rig, because retargeting an unrigged model produces nothing while still being billed. NOTE: the provider task name is taken from published docs and is UNVERIFIED live.",
+        "arguments": [
+          "animation",
+          "assetJobId",
+          "outFormat"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "batch_prepare_meshes",
+        "title": "Normalize and validate many meshes in one call",
+        "description": "FREE and fully local: no network call, no credits. Runs the preparation pipeline over a list of meshes — validate, normalize the ones that fail, validate again — and returns a per-item verdict plus a summary. Meshes that already pass are left untouched rather than rewritten. One failing item never stops the run; its error is reported and the batch continues. Normalization needs a local Blender install; without one this still validates and simply reports what would need repairing. Note that a FAILED item can still have written a file: when normalization succeeds but the result does not clear the policy, the mesh is kept for inspection and named in normalizedPath with outputKept set. Use outputsWritten, not prepared, to predict how many files are in the output directory — prepared is a verdict, not a file count.",
+        "arguments": [
+          "maxTriangles",
+          "minTextureSize",
+          "modelPaths",
+          "normalize",
+          "outputDir",
+          "requireUVs",
+          "skipAlreadyValid",
+          "timeoutSecondsPerItem"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": false
+      },
+      {
+        "name": "create_3d_asset",
+        "title": "Reconstruct a 3D asset",
+        "description": "SPENDS 3D CREDITS. Creates a textured 3D model. ASYNCHRONOUS — returns immediately with a job id; poll get_asset_job until status is \"ready\", then call download_asset. Provide exactly ONE source: assetJobId (uses that job's selected reference image), imagePath (a local png/jpg/webp), imageUrl (https), or textPrompt (skips images entirely). Model URLs from the provider EXPIRE, so download promptly once ready.",
+        "arguments": [
+          "assetJobId",
+          "faceLimit",
+          "imagePath",
+          "imageUrl",
+          "modelVersion",
+          "pbr",
+          "quad",
+          "seed",
+          "spec",
+          "textPrompt",
+          "textureQuality"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "create_game_prop",
+        "title": "Start a game prop from a brief",
+        "description": "SPENDS IMAGE CREDITS ONLY. Convenience entry point: takes a loose brief, builds a reconstruction-grade prompt, and generates N candidate reference images. It deliberately STOPS THERE and does NOT spend 3D credits — look at the returned candidates, call select_reference with your choice, then create_3d_asset. This exists so art direction stays with you rather than being guessed at.",
+        "arguments": [
+          "artDirection",
+          "category",
+          "description",
+          "dimensionsMeters",
+          "gameplayPurpose",
+          "name",
+          "numImages",
+          "targetTriangleCount",
+          "waitSeconds"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "download_asset",
+        "title": "Download a finished asset into the workspace",
+        "description": "FREE: no credits. Downloads a completed asset job into a local workspace folder — the model, any PBR variant, the provider preview, the source reference image — and EXTRACTS embedded textures into textures/ as separate files. Also writes asset.json with complete provenance. Call this as soon as get_asset_job reports \"ready\": provider URLs expire. Never overwrites an existing workspace; a repeat download gets a new suffixed folder.",
+        "arguments": [
+          "assetJobId",
+          "destination",
+          "extractTextures"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "extract_pbr_trio",
+        "title": "Split a material into separate PBR texture planes",
+        "description": "FREE and fully local: no network call, no credits. Splits a glTF material into independent albedo, normal and roughness images (plus metallic and occlusion when present), de-packing the glTF metallicRoughness texture — roughness is its GREEN channel, metallic its BLUE. Resamples to an exact resolution, averaging colour in linear light and data channels directly, and writes a receipt naming the source texture and channel behind every plane. Use after download_asset, or on any local glTF/GLB. Planes a material declares only as a scalar factor are emitted as flat images and marked source=\"factor\" so a constant is never mistaken for measured data.",
+        "arguments": [
+          "assetJobId",
+          "destination",
+          "materialIndex",
+          "modelPath",
+          "resolution"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": false
+      },
+      {
+        "name": "generate_asset_reference",
+        "title": "Generate reference images for a game asset",
+        "description": "SPENDS IMAGE CREDITS. Generates candidate reference images for a game asset, framed for 3D reconstruction rather than as concept art (isolated object, whole silhouette, neutral background, even lighting). Returns candidate image URLs for YOU to look at. It does NOT create a 3D model — after inspecting the candidates, call select_reference then create_3d_asset. Asynchronous: waits up to waitSeconds, then returns a job id to poll.",
+        "arguments": [
+          "height",
+          "modelId",
+          "numImages",
+          "seed",
+          "spec",
+          "waitSeconds",
+          "width"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "generate_reference_variations",
+        "title": "Explore variations of an existing reference",
+        "description": "SPENDS IMAGE CREDITS. Generates variations of an existing asset job along ONE named axis (silhouette, material_treatment, industrial_detailing, wear, proportions, functional_components) while holding the object identity fixed — a variation should still be the same object, not a different one. Creates a NEW child job linked to the parent.",
+        "arguments": [
+          "assetJobId",
+          "axis",
+          "height",
+          "modelId",
+          "numImages",
+          "seed",
+          "waitSeconds",
+          "width"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "generate_sound_effect",
+        "title": "Generate a game sound effect",
+        "description": "SPENDS AUDIO CREDITS. Generates a short sound effect from a text description — weapon reports, impacts, footsteps, UI blips, or a seamless ambience loop. Set loop:true for anything that must tile without a seam. Each variation in quantity costs separately. Polls and downloads inline, returning local file paths; the wait is bounded, so a slow provider returns a job id to poll with get_asset_job rather than hanging. NOTE: the provider documents this request contract but not its response shape, so this path is UNVERIFIED against the live API — the first real call may need a client fix.",
+        "arguments": [
+          "destination",
+          "durationSeconds",
+          "loop",
+          "name",
+          "prompt",
+          "promptInfluence",
+          "quantity",
+          "waitSeconds"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "get_asset_job",
+        "title": "Get asset job status",
+        "description": "Check an asset job, refreshing it from the provider if it is still running. READ-ONLY: makes a network call to the provider but never spends credits. Call this after create_3d_asset or texture_existing_asset until status is \"ready\", then call download_asset. Statuses: queued, generating_reference, reference_ready, generating_3d, processing, ready, failed, cancelled.",
+        "arguments": [
+          "assetJobId",
+          "detail"
+        ],
+        "readOnly": true,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "get_spend_report",
+        "title": "Report what this session has spent",
+        "description": "FREE and fully local: no network call, no credits. Reports the estimated provider spend for this workspace, broken down by tool, plus the remaining headroom under ASSET_SPEND_LIMIT_CENTS if one is set. Figures are normalised to US cents because providers bill in different units. Costs marked \"estimated\" are pessimistic placeholders for providers that do not publish a per-call rate — treat them as a guard, not an invoice.",
+        "arguments": [],
+        "readOnly": true,
+        "destructive": false,
+        "idempotent": true,
+        "openWorld": false
+      },
+      {
+        "name": "inspect_asset",
+        "title": "Inspect a downloaded 3D asset",
+        "description": "FREE and fully local: no network call, no credits. Reports the technical properties of a downloaded glTF/GLB — mesh and triangle counts, materials, texture resolutions, bounding box in metres, and whether UVs, normals, tangents and PBR channels are present — plus warnings for anything that will cause downstream problems. Pass assetJobId to inspect a downloaded job, or modelPath to inspect any local file.",
+        "arguments": [
+          "assetJobId",
+          "modelPath"
+        ],
+        "readOnly": true,
+        "destructive": false,
+        "idempotent": true,
+        "openWorld": false
+      },
+      {
+        "name": "list_asset_jobs",
+        "title": "List asset jobs",
+        "description": "List local asset jobs, newest first. READ-ONLY and fully local: no network call, no credits. Does not refresh provider state — use get_asset_job for that.",
+        "arguments": [
+          "limit",
+          "status"
+        ],
+        "readOnly": true,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": false
+      },
+      {
+        "name": "normalize_mesh",
+        "title": "Repair a mesh so it can be textured and shipped",
+        "description": "FREE and fully local: no network call, no credits. Requires a local Blender install (optional dependency; the tool refuses with instructions if absent). Repairs a mesh for downstream use: generates UV coordinates for objects that have NONE — the single most common reason a mesh cannot be textured — welds coincident vertices, dissolves degenerate triangles, gives every material a stable non-empty name, forces opaque blending, and optionally decimates to a triangle budget. Existing UV layouts are never overwritten. Exports GLB and returns a receipt with before/after counts so the change is measurable.",
+        "arguments": [
+          "angleLimitDegrees",
+          "assetJobId",
+          "cleanGeometry",
+          "islandMargin",
+          "mergeDistance",
+          "modelPath",
+          "normalizeMaterials",
+          "outputPath",
+          "overwrite",
+          "targetTriangles",
+          "timeoutSeconds",
+          "unwrapMissingUVs"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": false
+      },
+      {
+        "name": "preview_asset_prompt",
+        "title": "Preview the prompt that would be generated",
+        "description": "FREE and fully local: no network call, no credits. Shows the exact reconstruction-oriented prompt and negative prompt that generate_asset_reference would send for a given spec. Use this to sanity-check art direction before spending image credits.",
+        "arguments": [
+          "spec"
+        ],
+        "readOnly": true,
+        "destructive": false,
+        "idempotent": true,
+        "openWorld": false
+      },
+      {
+        "name": "retopologize_asset",
+        "title": "Rebuild an asset's topology, optionally as quads",
+        "description": "SPENDS 3D CREDITS. Rebuilds the topology of an existing generated asset. Quad output is the default because quads survive downstream mesh qualification and editing far better than the triangle soup generators typically emit. ASYNCHRONOUS: poll get_asset_job, then download_asset and validate_game_asset. NOTE: the provider task name is taken from published docs and is UNVERIFIED live.",
+        "arguments": [
+          "assetJobId",
+          "faceLimit",
+          "quad"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "rig_asset",
+        "title": "Generate a skeleton and skin weights",
+        "description": "SPENDS 3D CREDITS. Rigs an existing generated asset — builds a skeleton and skin weights so it can be animated. Takes an asset job that already produced a model. ASYNCHRONOUS: poll get_asset_job, then download_asset. Rig before animating; retargeting an unrigged model wastes the credits. NOTE: the provider task name is taken from published docs and is UNVERIFIED live.",
+        "arguments": [
+          "assetJobId",
+          "outFormat",
+          "spec"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "select_reference",
+        "title": "Choose which reference image to reconstruct",
+        "description": "FREE and local: no network call, no credits. Records which candidate image should be used for 3D reconstruction. Call this after looking at the candidates from generate_asset_reference, and before create_3d_asset.",
+        "arguments": [
+          "assetJobId",
+          "candidateId"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": true,
+        "openWorld": false
+      },
+      {
+        "name": "texture_existing_asset",
+        "title": "Generate PBR textures for a mesh you already have",
+        "description": "SPENDS 3D CREDITS. Applies newly generated PBR materials to an EXISTING mesh, keeping its geometry untouched. Use this when you already own a model and only the materials are missing or wrong — it is cheaper than regenerating and preserves the mesh exactly. Provide the mesh as either modelPath (local .glb/.gltf/.fbx/.obj/.stl) or originalAssetJobId (a previous job from this harness whose 3D task produced a model). Direct the material with EITHER prompt OR styleImagePath, not both. ASYNCHRONOUS: poll get_asset_job until \"ready\", then download_asset. NOTE: providers may only support retexturing meshes that originated from their own prior task; if a provider rejects an uploaded mesh, use originalAssetJobId instead.",
+        "arguments": [
+          "modelPath",
+          "modelVersion",
+          "originalAssetJobId",
+          "pbr",
+          "prompt",
+          "spec",
+          "styleImagePath",
+          "textureAlignment",
+          "textureQuality",
+          "textureSeed"
+        ],
+        "readOnly": false,
+        "destructive": false,
+        "idempotent": false,
+        "openWorld": true
+      },
+      {
+        "name": "validate_game_asset",
+        "title": "Check whether an asset is game-ready",
+        "description": "FREE and fully local: no network call, no credits. Judges a glTF/GLB against a shipping policy and returns a pass/fail verdict with per-check reasons — UVs, normals, tangents where a normal map is bound, triangle budget, material count, texture resolution, power-of-two textures, and bounding-box sanity. Errors fail the asset; warnings are judgement calls and do not. Every threshold is overridable, because an asset failing someone else's house style is not a defect. Pair with normalize_mesh: run this first to see what is wrong, normalize, then run it again to prove the repair.",
+        "arguments": [
+          "assetJobId",
+          "maxDimensionMeters",
+          "maxMaterials",
+          "maxTriangles",
+          "minDimensionMeters",
+          "minTextureSize",
+          "modelPath",
+          "requireBaseColorTexture",
+          "requireNormals",
+          "requirePowerOfTwoTextures",
+          "requireTangentsWithNormalMap",
+          "requireUVs"
+        ],
+        "readOnly": true,
+        "destructive": false,
+        "idempotent": true,
+        "openWorld": false
+      }
+    ],
+    "approval": {
+      "paidProviderCalls": "caller must set an explicit spend ceiling and authorize the invocation",
+      "projectWrites": "dry-run or explicit confirmation required",
+      "metalTrace": "separate explicit authorization required",
+      "patchLoops": "goal allowlist and bounded iterations required"
+    },
+    "evidenceCeiling": "Capability discovery proves command availability only; it performs no provider, Blender, GPU, pixel, signing, notarization, or human-review work."
+  }
+}

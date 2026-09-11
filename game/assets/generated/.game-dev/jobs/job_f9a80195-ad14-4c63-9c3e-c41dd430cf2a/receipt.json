@@ -1,0 +1,42 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-create",
+  "result": {
+    "schema": "game_dev.optimization_goal_result.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/streamed-exhibit-residency.json",
+    "goal": {
+      "schema": "game_dev.optimization_goal.v1",
+      "id": "streamed-exhibit-residency",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "adapterId": "inside-codex",
+      "scenarioId": "warm-traversal",
+      "metric": "render.texture_estimate",
+      "statistic": "max",
+      "unit": "bytes",
+      "direction": "lower",
+      "target": 235000000,
+      "maximumIterations": 2,
+      "allowedPaths": [
+        "src/exhibit-residency.ts",
+        "src/main.ts",
+        "src/style.css",
+        "src/vite-env.d.ts",
+        "src/world.ts",
+        "vite.config.ts"
+      ],
+      "baseline": {
+        "runId": "run_1789040606556_b7de955ed5f44993ac86cecae136fdb1",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789040606556_b7de955ed5f44993ac86cecae136fdb1",
+        "value": 240637300.2
+      },
+      "createdAt": "2026-09-10T11:59:46.276Z",
+      "state": {
+        "status": "active",
+        "iterations": []
+      }
+    },
+    "evidenceCeiling": "The goal binds one metric, target, baseline, iteration ceiling, and patch allowlist. It authorizes neither capture execution nor edits outside the allowlist and does not prove that a future patch caused any measurement change."
+  },
+  "completedAt": "2026-09-10T11:59:46.286Z"
+}

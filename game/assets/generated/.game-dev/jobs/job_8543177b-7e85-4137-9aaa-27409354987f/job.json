@@ -1,0 +1,41 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_8543177b-7e85-4137-9aaa-27409354987f",
+  "operation": "performance.goal-create",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-create",
+      "run_1789039432792_df273a6bb3564e9b902f39d99db0b1c1"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "id": "balanced-release-high-targets",
+      "metric": "render.texture_estimate",
+      "statistic": "max",
+      "unit": "bytes",
+      "direction": "lower",
+      "target": 245000000,
+      "maximumIterations": 2,
+      "allowedPaths": [
+        "src/world.ts"
+      ]
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-release-high-targets.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T11:33:44.493Z",
+  "updatedAt": "2026-09-10T11:33:44.785Z",
+  "startedAt": "2026-09-10T11:33:44.501Z",
+  "completedAt": "2026-09-10T11:33:44.785Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_8543177b-7e85-4137-9aaa-27409354987f/receipt.json"
+}

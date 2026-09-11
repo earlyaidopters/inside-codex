@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/texture-delivery-v1-source.zip",
+  "bytes": 97508714,
+  "sha256": "7dde12d6d744b506223d12825b632d2431aee06f5ba20fec1d6117f403fa94d2",
+  "baseArchive": "releases/checkpoints/architecture-textures-v1-source.zip",
+  "baseSha256": "0d6f48f6cf18b8eea55857784d828eb3a75904f09e7ad9cf9946b8277edd4c2c",
+  "verifiedFiles": 439,
+  "scope": "Source, texture/decoder assets and evidence overlay on the architecture-texture checkpoint and its bases; rebuild dist after restore.",
+  "fullReleaseAccepted": false
+}

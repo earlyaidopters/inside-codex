@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+export async function permissionFlow(page,shot=async()=>{}){
+ const openNetwork=async()=>{if(!await page.locator('.permission-network').evaluate(d=>d.open))await page.locator('.permission-network summary').click();};
+ const checkButtonContrast=async()=>{const ratios=await page.locator('.permission-result button').evaluateAll(buttons=>{const lum=color=>{const rgb=color.match(/[\d.]+/g).slice(0,3).map(Number).map(v=>v/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2];};return buttons.map(b=>{const c=getComputedStyle(b),a=lum(c.color),d=lum(c.backgroundColor);return (Math.max(a,d)+.05)/(Math.min(a,d)+.05);});});assert(ratios.length&&ratios.every(n=>n>=4.5),'Continuation labels need readable contrast');};
+ const state=()=>page.evaluate(()=>window.__insideCodex.state());const act=(a,v)=>page.locator(`[data-action="permission-${a}"]${v===undefined?'':`[data-value="${v}"]`}`).click();
+ await act('section','source');await act('read');assert.equal((await state()).permissionLab.source,null);await shot('permission-read-denied');
+ await act('approval','ask');await act('read');assert((await state()).permissionLab.pending);await shot('permission-request');
+ await act('decline');assert.equal((await state()).permissionLab.source,null);await act('read');await act('approve');assert.equal((await state()).permissionLab.source.via,'once');await checkButtonContrast();assert.equal((await state()).world.permissions.ports.find(p=>p.id==='read').open,false);
+ await act('next','mail');await openNetwork();await act('network');await act('draft');assert.equal((await state()).permissionLab.draft,null);assert.equal((await state()).permissionLab.events.at(-1),'mail-denied');await shot('permission-connector-denied');
+ assert(await page.locator('.permission-network').evaluate(d=>d.open),'Network controls stay open after an action');
+ await openNetwork();await act('network');await act('connect');await act('draft');assert.equal((await state()).permissionLab.draft.status,'DRAFT');
+ await checkButtonContrast();await act('send');assert(await page.evaluate(()=>document.activeElement?.classList.contains('permission-message')));const visible=await page.locator('.permission-message').evaluate(el=>{const a=el.getBoundingClientRect(),b=document.querySelector('.panel-content').getBoundingClientRect();return a.top>=b.top-1&&a.bottom<=b.bottom+1;});assert(visible,'Send denial must be visible');assert.equal((await state()).permissionLab.draft.status,'DRAFT');assert.equal((await state()).permissionLab.events.at(-1),'send-denied');await shot('permission-send-boundary');
+ await act('next','review');await act('check');assert.equal((await state()).world.permissions.verified,true);await shot('permission-verified');
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.goal-create",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.optimization_goal_result.v1",
+    "dryRun": true,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-visible-geometry.json",
+    "goal": {
+      "schema": "game_dev.optimization_goal.v1",
+      "id": "balanced-visible-geometry",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "adapterId": "inside-codex",
+      "scenarioId": "warm-traversal",
+      "metric": "render.active_triangles",
+      "statistic": "max",
+      "unit": "count",
+      "direction": "lower",
+      "target": 250000,
+      "maximumIterations": 2,
+      "allowedPaths": [
+        "src/world.ts"
+      ],
+      "baseline": {
+        "runId": "run_1789038549962_e81ccc1c6cb14aa182be51edcc6338a3",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789038549962_e81ccc1c6cb14aa182be51edcc6338a3",
+        "value": 364492
+      },
+      "createdAt": "2026-09-10T11:11:43.989Z",
+      "state": {
+        "status": "active",
+        "iterations": []
+      }
+    },
+    "evidenceCeiling": "The goal binds one metric, target, baseline, iteration ceiling, and patch allowlist. It authorizes neither capture execution nor edits outside the allowlist and does not prove that a future patch caused any measurement change."
+  }
+}

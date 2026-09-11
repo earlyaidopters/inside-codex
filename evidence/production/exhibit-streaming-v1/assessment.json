@@ -1,0 +1,228 @@
+{
+  "evidenceVerified": true,
+  "fullPerformanceAcceptance": false,
+  "candidateBuildId": "bdb262613a87d651b66ed6b301be564b5e69ec8bc91b1ef3595e028f4c05d18e",
+  "goalStatus": "met",
+  "runs": [
+    {
+      "role": "iteration-1",
+      "quality": "balanced",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789042951171_f3f7df84a3f7418fb71adc9997a18ba9",
+      "buildId": "cdc49332b8dcace088fbadea6d2a65c2ee76284292bddb71b22abf0f26140684",
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 295152,
+        "maxMainDrawCalls": 137,
+        "maxTotalDrawCalls": 186,
+        "maxTextureEstimateBytes": 235918856.2,
+        "heldRenderFrames": 31,
+        "maxViewHoldMs": 18.400000005960464,
+        "totalViewHoldMs": 513.9000000208616
+      },
+      "browser": "153.0.8010.36",
+      "graphics": {
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)"
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "releaseBudgets": {
+        "triangles": 250000,
+        "totalDrawCalls": 100,
+        "textureBytes": 160000000
+      },
+      "budgetChecks": {
+        "triangles": false,
+        "totalDrawCalls": false,
+        "textures": false
+      },
+      "baselineTextureBytes": 240637300.2,
+      "textureReductionBytes": 4718444,
+      "textureReductionPercent": 1.9608115600027
+    },
+    {
+      "role": "final",
+      "quality": "balanced",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789043331554_d8dc6608e9b94fffa866376c628b13a6",
+      "buildId": "bdb262613a87d651b66ed6b301be564b5e69ec8bc91b1ef3595e028f4c05d18e",
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 295152,
+        "maxMainDrawCalls": 137,
+        "maxTotalDrawCalls": 186,
+        "maxTextureEstimateBytes": 227789312.2,
+        "heldRenderFrames": 32,
+        "maxViewHoldMs": 17.30000001192093,
+        "totalViewHoldMs": 531.5000000596046
+      },
+      "browser": "153.0.8010.36",
+      "graphics": {
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)"
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "releaseBudgets": {
+        "triangles": 250000,
+        "totalDrawCalls": 100,
+        "textureBytes": 160000000
+      },
+      "budgetChecks": {
+        "triangles": false,
+        "totalDrawCalls": false,
+        "textures": false
+      },
+      "baselineTextureBytes": 240637300.2,
+      "textureReductionBytes": 12847988,
+      "textureReductionPercent": 5.339150659237657
+    },
+    {
+      "role": "final",
+      "quality": "high",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789043483682_85f6650d730947afad731b2d12497ab6",
+      "buildId": "bdb262613a87d651b66ed6b301be564b5e69ec8bc91b1ef3595e028f4c05d18e",
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 309388,
+        "maxMainDrawCalls": 154,
+        "maxTotalDrawCalls": 207,
+        "maxTextureEstimateBytes": 442956333,
+        "heldRenderFrames": 32,
+        "maxViewHoldMs": 17.5,
+        "totalViewHoldMs": 528.8999999463558
+      },
+      "browser": "153.0.8010.36",
+      "graphics": {
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)"
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 2,
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "releaseBudgets": {
+        "triangles": 700000,
+        "totalDrawCalls": 180,
+        "textureBytes": 384000000
+      },
+      "budgetChecks": {
+        "triangles": true,
+        "totalDrawCalls": false,
+        "textures": false
+      },
+      "baselineTextureBytes": 452349249,
+      "textureReductionBytes": 9392916,
+      "textureReductionPercent": 2.076474321724805
+    }
+  ],
+  "limits": [
+    "One capture per profile on the final build, not three reproducibility repeats.",
+    "Texture estimates are sampled once per second and omit resources listed by render-audit; not native VRAM.",
+    "RAF observations are distinct from held 3D render frames; inspect the separate hold counts/durations.",
+    "Same browser, renderer, route, profiles and recorded power state; OS/thermal conditions are uncontrolled.",
+    "Incremental residency target does not replace full memory, draw, long-soak, device or visual acceptance gates."
+  ]
+}

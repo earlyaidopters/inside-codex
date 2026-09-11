@@ -1,0 +1,3733 @@
+{
+  "pass": true,
+  "records": [
+    {
+      "wing": "understand",
+      "state": {
+        "contextDepth": false,
+        "worldTour": null,
+        "qualityAdvice": {
+          "quality": "high",
+          "status": "observing",
+          "windows": 0,
+          "lastWindow": null
+        },
+        "presented": {
+          "active": 1,
+          "transition": 0
+        },
+        "residency": {
+          "active": 1,
+          "ready": true,
+          "heldFrames": 0,
+          "holdingSince": null,
+          "events": [
+            {
+              "at": 479.09999999403954,
+              "kind": "load-start",
+              "id": "tool"
+            },
+            {
+              "at": 479.59999999403954,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 479.7999999821186,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 479.7999999821186,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 480,
+              "kind": "load-start",
+              "id": "model"
+            },
+            {
+              "at": 480.09999999403954,
+              "kind": "load-start",
+              "id": "context"
+            },
+            {
+              "at": 480.2999999821186,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 480.39999997615814,
+              "kind": "load-start",
+              "id": "harness"
+            },
+            {
+              "at": 492.39999997615814,
+              "kind": "load-ready",
+              "id": "tool",
+              "durationMs": 13.299999982118607
+            },
+            {
+              "at": 499.89999997615814,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 20.099999994039536
+            },
+            {
+              "at": 527,
+              "kind": "load-ready",
+              "id": "model",
+              "durationMs": 47
+            },
+            {
+              "at": 531.5999999940395,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 51.80000001192093
+            },
+            {
+              "at": 536.0999999940395,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 56.5
+            },
+            {
+              "at": 543.5,
+              "kind": "load-ready",
+              "id": "context",
+              "durationMs": 63.400000005960464
+            },
+            {
+              "at": 546.3999999761581,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 66.09999999403954
+            },
+            {
+              "at": 554.6999999880791,
+              "kind": "load-ready",
+              "id": "harness",
+              "durationMs": 74.30000001192093
+            },
+            {
+              "at": 1744.5999999940395,
+              "kind": "release",
+              "id": "tool"
+            },
+            {
+              "at": 1745.0999999940395,
+              "kind": "release",
+              "id": "steering"
+            },
+            {
+              "at": 1745.199999988079,
+              "kind": "release",
+              "id": "review"
+            },
+            {
+              "at": 1745.3999999761581,
+              "kind": "release",
+              "id": "branch"
+            },
+            {
+              "at": 2992.399999976158,
+              "kind": "release",
+              "id": "permission"
+            }
+          ],
+          "entries": [
+            {
+              "id": "capstone",
+              "station": 11,
+              "enabled": false,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "handoff",
+              "station": 11,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "automation",
+              "station": 10,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "tool",
+              "station": 8,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "steering",
+              "station": 6,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "review",
+              "station": 7,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "permission",
+              "station": 3,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "model",
+              "station": 2,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 18,
+                "materials": 14,
+                "textures": 8
+              }
+            },
+            {
+              "id": "context",
+              "station": 1,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 16,
+                "materials": 12,
+                "textures": 7
+              }
+            },
+            {
+              "id": "branch",
+              "station": 5,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "harness",
+              "station": 0,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 12,
+                "textures": 4
+              }
+            }
+          ]
+        },
+        "renderAudit": null,
+        "ready": true,
+        "renderSize": {
+          "width": 2880,
+          "height": 1800,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "dpr": 2
+        },
+        "lastPick": null,
+        "active": 1,
+        "quality": "high",
+        "paused": false,
+        "reduced": true,
+        "mascotDetail": {
+          "batching": {
+            "drawsSavedPerPass": 13,
+            "batches": [
+              {
+                "id": 421,
+                "name": "Guide batch: Porcelain glyph",
+                "sources": [
+                  "Left finger 0",
+                  "Left finger 1",
+                  "Left finger 2",
+                  "Left palm",
+                  "Left thumb",
+                  "Right finger 0",
+                  "Right finger 1",
+                  "Right finger 2",
+                  "Right palm",
+                  "Right thumb",
+                  "White prompt chevron",
+                  "White prompt underscore"
+                ],
+                "triangles": 13088,
+                "sourceTriangles": 13088,
+                "refreshes": 1
+              },
+              {
+                "id": 423,
+                "name": "Guide batch: Satin titanium",
+                "sources": [
+                  "Left floating forearm",
+                  "Right floating forearm"
+                ],
+                "triangles": 3128,
+                "sourceTriangles": 3128,
+                "refreshes": 1
+              },
+              {
+                "id": 425,
+                "name": "Guide batch: Indigo joints",
+                "sources": [
+                  "Left wrist",
+                  "Right wrist"
+                ],
+                "triangles": 2432,
+                "sourceTriangles": 2432,
+                "refreshes": 1
+              }
+            ],
+            "sourceGeometryRetained": true,
+            "shadowProjectionUsesOriginalBounds": true
+          },
+          "requested": "high",
+          "active": "high",
+          "loading": false,
+          "error": "",
+          "triangles": 25812,
+          "cached": [
+            "high"
+          ],
+          "meshIds": [
+            242,
+            250,
+            254,
+            257,
+            260,
+            264,
+            267,
+            270,
+            274,
+            277,
+            280,
+            283,
+            286,
+            289,
+            292,
+            295,
+            298
+          ],
+          "skeletonIds": [
+            245
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.7999999523162842,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.2510373294353485,
+                0.13308902084827423,
+                -0.9587844610214233,
+                0,
+                -0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                -1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.2510373294353485,
+                -0.13308902084827423,
+                0.9587844610214233,
+                0,
+                0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                -0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 94,
+          "sceneTextures": 47,
+          "sceneGeometries": 131,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "staticShadows": {
+            "batches": [
+              {
+                "id": 431,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 1,
+                "layerMask": 0
+              },
+              {
+                "id": 433,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "detail": {
+            "requested": "high",
+            "active": "high",
+            "loading": false,
+            "error": "",
+            "triangles": 223458,
+            "cached": false,
+            "meshIds": [
+              20,
+              23,
+              26,
+              29,
+              32,
+              36,
+              39,
+              43,
+              46,
+              50,
+              53,
+              56,
+              59,
+              62,
+              65,
+              68,
+              71,
+              74,
+              77,
+              81,
+              84,
+              87,
+              90,
+              93
+            ]
+          },
+          "textureCompression": {
+            "mode": "compressed",
+            "reason": null,
+            "textures": [
+              {
+                "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              }
+            ]
+          },
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "handoff": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "automation": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [
+            {
+              "id": "label",
+              "action": "job",
+              "screen": {
+                "x": 1121.7807988239472,
+                "y": 337.5458721622144
+              }
+            },
+            {
+              "id": "billing",
+              "action": "job",
+              "screen": {
+                "x": 1308.7953611218827,
+                "y": 344.7208146153136
+              }
+            },
+            {
+              "id": "sheet",
+              "action": "job",
+              "screen": {
+                "x": 1513.3562328169585,
+                "y": 352.56893331010144
+              }
+            },
+            {
+              "id": "astra",
+              "action": "model",
+              "screen": {
+                "x": 1080.1464313420126,
+                "y": 439.34363221183344
+              }
+            },
+            {
+              "id": "sol",
+              "action": "model",
+              "screen": {
+                "x": 1215.2124083383874,
+                "y": 447.9053624284379
+              }
+            },
+            {
+              "id": "terra",
+              "action": "model",
+              "screen": {
+                "x": 1362.1352397156716,
+                "y": 445.19010549198714
+              }
+            },
+            {
+              "id": "luna",
+              "action": "model",
+              "screen": {
+                "x": 1513.6882648696821,
+                "y": 466.8255214249517
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [
+            {
+              "id": "context",
+              "amount": 0,
+              "screen": {
+                "x": -65.61729936688653,
+                "y": 341.0348684204588
+              }
+            },
+            {
+              "id": "model",
+              "amount": 1,
+              "screen": {
+                "x": 65.37406065614509,
+                "y": 348.21183846767065
+              }
+            },
+            {
+              "id": "tools",
+              "amount": 0,
+              "screen": {
+                "x": 208.38489726037898,
+                "y": 356.0473513637489
+              }
+            },
+            {
+              "id": "verify",
+              "amount": 0,
+              "screen": {
+                "x": 141.36480033807112,
+                "y": 485.4161267798941
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "context": {
+          "entry": {
+            "x": 570.5986546556103,
+            "y": 572.6345715653213
+          },
+          "exploring": false,
+          "selected": [],
+          "verified": false,
+          "cards": [
+            {
+              "id": "brief",
+              "y": 2.09,
+              "screen": {
+                "x": 463.70704854389686,
+                "y": 482.34554054220996
+              }
+            },
+            {
+              "id": "sample",
+              "y": 2.09,
+              "screen": {
+                "x": 573.1451658075541,
+                "y": 491.8378488610692
+              }
+            },
+            {
+              "id": "image",
+              "y": 2.09,
+              "screen": {
+                "x": 689.615922941382,
+                "y": 501.94014561551467
+              }
+            },
+            {
+              "id": "agents",
+              "y": 2.92,
+              "screen": {
+                "x": 463.1316649183475,
+                "y": 351.5446052223872
+              }
+            },
+            {
+              "id": "old",
+              "y": 2.92,
+              "screen": {
+                "x": 576.445028489322,
+                "y": 357.15788237789474
+              }
+            },
+            {
+              "id": "note",
+              "y": 2.92,
+              "screen": {
+                "x": 697.3077718552395,
+                "y": 363.14513802813354
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ],
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "drawCalls": 70,
+        "renderFrameMs": 0.9000000059604645,
+        "meshes": 133,
+        "triangles": 532414,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": false,
+        "gesture": "Greet",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          12.900000005960464,
+          5,
+          89.89999997615814,
+          25.700000017881393,
+          5.299999982118607,
+          9.100000023841858,
+          15.099999994039536,
+          16.799999982118607,
+          49,
+          3.300000011920929,
+          14.300000011920929,
+          16.5,
+          16.899999976158142,
+          16.700000017881393,
+          16.5,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          15.900000005960464,
+          17.19999998807907,
+          17.100000023841858,
+          16.399999976158142,
+          16.700000017881393,
+          16.69999998807907,
+          15.900000005960464,
+          17.400000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.599999994039536,
+          16.599999994039536,
+          15.900000005960464,
+          16.900000005960464,
+          17.299999982118607,
+          16.599999994039536,
+          16.600000023841858,
+          15.899999976158142,
+          17.600000023841858,
+          16.599999994039536,
+          16.799999982118607,
+          15.800000011920929,
+          17.5,
+          16.5,
+          16.69999998807907,
+          16.30000001192093,
+          17,
+          16.69999998807907,
+          15.800000011920929,
+          16.599999994039536,
+          235.59999999403954,
+          15.100000023841858,
+          16.399999976158142,
+          17.100000023841858,
+          16.69999998807907,
+          16.599999994039536,
+          16.400000005960464,
+          17.099999994039536,
+          16.599999994039536,
+          16.30000001192093,
+          16.19999998807907,
+          17.400000005960464,
+          16.80000001192093,
+          16.099999994039536,
+          17.19999998807907,
+          16.600000023841858,
+          16,
+          17.19999998807907,
+          16.80000001192093,
+          16.5,
+          16.899999976158142,
+          16.600000023841858,
+          16.599999994039536,
+          16.799999982118607,
+          16.100000023841858,
+          17.19999998807907,
+          16.69999998807907,
+          16.400000005960464,
+          16.900000005960464,
+          16.599999994039536,
+          15.900000005960464,
+          17.400000005960464,
+          16.099999994039536,
+          17.400000005960464,
+          15.799999982118607,
+          17.400000005960464,
+          16.80000001192093,
+          16.5,
+          16.69999998807907,
+          15.800000011920929,
+          17.19999998807907,
+          17,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.80000001192093,
+          16.599999994039536,
+          16,
+          17,
+          17.099999994039536,
+          16.5,
+          16,
+          17.400000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.099999994039536,
+          16.599999994039536,
+          17.200000017881393,
+          16.299999982118607,
+          17.099999994039536,
+          16.5,
+          16.900000005960464,
+          16.30000001192093,
+          16.599999994039536,
+          17,
+          16.599999994039536,
+          16.30000001192093,
+          17.099999994039536,
+          16.5,
+          16.900000005960464,
+          15.599999994039536,
+          17.599999994039536,
+          16.80000001192093,
+          16.599999994039536,
+          16.599999994039536,
+          16.700000017881393,
+          16.299999982118607,
+          17.099999994039536,
+          16.5,
+          16.700000017881393,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          16.099999994039536,
+          17.30000001192093,
+          16.599999994039536,
+          16.599999994039536,
+          15.900000005960464,
+          17.5,
+          16.700000017881393,
+          16.5,
+          16.799999982118607,
+          16.200000017881393,
+          16.399999976158142,
+          17.5,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          15.700000017881393,
+          17.19999998807907,
+          17,
+          16.599999994039536,
+          16.700000017881393,
+          16,
+          17.299999982118607,
+          16.700000017881393,
+          15.899999976158142,
+          17.400000005960464
+        ],
+        "camera": {
+          "clearance": {
+            "adjustments": 0,
+            "blocked": null,
+            "marginMeters": 0.35,
+            "scope": "Authored conservative interior bounds with wall openings; orbit clearance, not a free-walking physics system."
+          },
+          "alpha": 1.28,
+          "beta": 1.31,
+          "radius": 6.370770520512274,
+          "target": [
+            -18.4,
+            2.3,
+            -10
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": -19.799999999999997,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 0
+        }
+      }
+    },
+    {
+      "wing": "direct",
+      "state": {
+        "contextDepth": false,
+        "worldTour": null,
+        "qualityAdvice": {
+          "quality": "high",
+          "status": "observing",
+          "windows": 0,
+          "lastWindow": null
+        },
+        "presented": {
+          "active": 5,
+          "transition": 0
+        },
+        "residency": {
+          "active": 5,
+          "ready": true,
+          "heldFrames": 0,
+          "holdingSince": null,
+          "events": [
+            {
+              "at": 479.09999999403954,
+              "kind": "load-start",
+              "id": "tool"
+            },
+            {
+              "at": 479.59999999403954,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 479.7999999821186,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 479.7999999821186,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 480,
+              "kind": "load-start",
+              "id": "model"
+            },
+            {
+              "at": 480.09999999403954,
+              "kind": "load-start",
+              "id": "context"
+            },
+            {
+              "at": 480.2999999821186,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 480.39999997615814,
+              "kind": "load-start",
+              "id": "harness"
+            },
+            {
+              "at": 492.39999997615814,
+              "kind": "load-ready",
+              "id": "tool",
+              "durationMs": 13.299999982118607
+            },
+            {
+              "at": 499.89999997615814,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 20.099999994039536
+            },
+            {
+              "at": 527,
+              "kind": "load-ready",
+              "id": "model",
+              "durationMs": 47
+            },
+            {
+              "at": 531.5999999940395,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 51.80000001192093
+            },
+            {
+              "at": 536.0999999940395,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 56.5
+            },
+            {
+              "at": 543.5,
+              "kind": "load-ready",
+              "id": "context",
+              "durationMs": 63.400000005960464
+            },
+            {
+              "at": 546.3999999761581,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 66.09999999403954
+            },
+            {
+              "at": 554.6999999880791,
+              "kind": "load-ready",
+              "id": "harness",
+              "durationMs": 74.30000001192093
+            },
+            {
+              "at": 1744.5999999940395,
+              "kind": "release",
+              "id": "tool"
+            },
+            {
+              "at": 1745.0999999940395,
+              "kind": "release",
+              "id": "steering"
+            },
+            {
+              "at": 1745.199999988079,
+              "kind": "release",
+              "id": "review"
+            },
+            {
+              "at": 1745.3999999761581,
+              "kind": "release",
+              "id": "branch"
+            },
+            {
+              "at": 2992.399999976158,
+              "kind": "release",
+              "id": "permission"
+            },
+            {
+              "at": 3859.0999999940395,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 3859.0999999940395,
+              "kind": "factory-reuse",
+              "id": "steering"
+            },
+            {
+              "at": 3862.199999988079,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 3.0999999940395355
+            },
+            {
+              "at": 3862.199999988079,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 3862.199999988079,
+              "kind": "factory-reuse",
+              "id": "review"
+            },
+            {
+              "at": 3864.2999999821186,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 2.0999999940395355
+            },
+            {
+              "at": 3864.2999999821186,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 3864.2999999821186,
+              "kind": "factory-reuse",
+              "id": "permission"
+            },
+            {
+              "at": 3867.899999976158,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 3.5999999940395355
+            },
+            {
+              "at": 3868,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 3868,
+              "kind": "factory-reuse",
+              "id": "branch"
+            },
+            {
+              "at": 3869.399999976158,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 1.399999976158142
+            },
+            {
+              "at": 4709.699999988079,
+              "kind": "release",
+              "id": "model"
+            },
+            {
+              "at": 4710.199999988079,
+              "kind": "release",
+              "id": "context"
+            },
+            {
+              "at": 4710.399999976158,
+              "kind": "release",
+              "id": "harness"
+            },
+            {
+              "at": 5925.5,
+              "kind": "release",
+              "id": "review"
+            }
+          ],
+          "entries": [
+            {
+              "id": "capstone",
+              "station": 11,
+              "enabled": false,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "handoff",
+              "station": 11,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "automation",
+              "station": 10,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "tool",
+              "station": 8,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "steering",
+              "station": 6,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 1,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 11,
+                "textures": 6
+              }
+            },
+            {
+              "id": "review",
+              "station": 7,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 2,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "permission",
+              "station": 3,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 1,
+              "error": null,
+              "resources": {
+                "meshes": 12,
+                "materials": 9,
+                "textures": 3
+              }
+            },
+            {
+              "id": "model",
+              "station": 2,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "context",
+              "station": 1,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "branch",
+              "station": 5,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 1,
+              "error": null,
+              "resources": {
+                "meshes": 7,
+                "materials": 4,
+                "textures": 2
+              }
+            },
+            {
+              "id": "harness",
+              "station": 0,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            }
+          ]
+        },
+        "renderAudit": null,
+        "ready": true,
+        "renderSize": {
+          "width": 2880,
+          "height": 1800,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "dpr": 2
+        },
+        "lastPick": null,
+        "active": 5,
+        "quality": "high",
+        "paused": false,
+        "reduced": true,
+        "mascotDetail": {
+          "batching": {
+            "drawsSavedPerPass": 13,
+            "batches": [
+              {
+                "id": 421,
+                "name": "Guide batch: Porcelain glyph",
+                "sources": [
+                  "Left finger 0",
+                  "Left finger 1",
+                  "Left finger 2",
+                  "Left palm",
+                  "Left thumb",
+                  "Right finger 0",
+                  "Right finger 1",
+                  "Right finger 2",
+                  "Right palm",
+                  "Right thumb",
+                  "White prompt chevron",
+                  "White prompt underscore"
+                ],
+                "triangles": 13088,
+                "sourceTriangles": 13088,
+                "refreshes": 1
+              },
+              {
+                "id": 423,
+                "name": "Guide batch: Satin titanium",
+                "sources": [
+                  "Left floating forearm",
+                  "Right floating forearm"
+                ],
+                "triangles": 3128,
+                "sourceTriangles": 3128,
+                "refreshes": 1
+              },
+              {
+                "id": 425,
+                "name": "Guide batch: Indigo joints",
+                "sources": [
+                  "Left wrist",
+                  "Right wrist"
+                ],
+                "triangles": 2432,
+                "sourceTriangles": 2432,
+                "refreshes": 1
+              }
+            ],
+            "sourceGeometryRetained": true,
+            "shadowProjectionUsesOriginalBounds": true
+          },
+          "requested": "high",
+          "active": "high",
+          "loading": false,
+          "error": "",
+          "triangles": 25812,
+          "cached": [
+            "high"
+          ],
+          "meshIds": [
+            242,
+            250,
+            254,
+            257,
+            260,
+            264,
+            267,
+            270,
+            274,
+            277,
+            280,
+            283,
+            286,
+            289,
+            292,
+            295,
+            298
+          ],
+          "skeletonIds": [
+            245
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.7999999523162842,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.2510373294353485,
+                0.13308902084827423,
+                -0.9587844610214233,
+                0,
+                -0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                -1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.2510373294353485,
+                -0.13308902084827423,
+                0.9587844610214233,
+                0,
+                0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                -0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 80,
+          "sceneTextures": 39,
+          "sceneGeometries": 116,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "staticShadows": {
+            "batches": [
+              {
+                "id": 431,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 1,
+                "layerMask": 0
+              },
+              {
+                "id": 433,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "detail": {
+            "requested": "high",
+            "active": "high",
+            "loading": false,
+            "error": "",
+            "triangles": 223458,
+            "cached": false,
+            "meshIds": [
+              20,
+              23,
+              26,
+              29,
+              32,
+              36,
+              39,
+              43,
+              46,
+              50,
+              53,
+              56,
+              59,
+              62,
+              65,
+              68,
+              71,
+              74,
+              77,
+              81,
+              84,
+              87,
+              90,
+              93
+            ]
+          },
+          "textureCompression": {
+            "mode": "compressed",
+            "reason": null,
+            "textures": [
+              {
+                "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              }
+            ]
+          },
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "handoff": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "automation": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [
+            {
+              "id": "send-steer",
+              "screen": {
+                "x": 1118.3468722453072,
+                "y": 346.20897759852204
+              }
+            },
+            {
+              "id": "advance",
+              "screen": {
+                "x": 1326.0282586271878,
+                "y": 354.6148213424882
+              }
+            },
+            {
+              "id": "send-queue",
+              "screen": {
+                "x": 1555.4798705954126,
+                "y": 363.901808638786
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [
+            {
+              "id": "read",
+              "open": false,
+              "screen": {
+                "x": -552.9655834439109,
+                "y": 273.82843871553393
+              }
+            },
+            {
+              "id": "draft",
+              "open": false,
+              "screen": {
+                "x": -484.10172481999024,
+                "y": 276.48520207049773
+              }
+            },
+            {
+              "id": "check",
+              "open": false,
+              "screen": {
+                "x": -411.3346902845168,
+                "y": 279.2925497077978
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [],
+          "loaded": false,
+          "ports": [],
+          "cards": []
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "context": {
+          "entry": {
+            "x": -644.5378844464217,
+            "y": 417.9417526785191
+          },
+          "exploring": false,
+          "selected": [],
+          "verified": false,
+          "cards": [],
+          "loaded": false,
+          "ports": [],
+          "controls": []
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ],
+          "loaded": true
+        },
+        "drawCalls": 56,
+        "renderFrameMs": 0.7999999821186066,
+        "meshes": 118,
+        "triangles": 519480,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": false,
+        "gesture": "Greet",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          12.900000005960464,
+          5,
+          89.89999997615814,
+          25.700000017881393,
+          5.299999982118607,
+          9.100000023841858,
+          15.099999994039536,
+          16.799999982118607,
+          49,
+          3.300000011920929,
+          14.300000011920929,
+          16.5,
+          16.899999976158142,
+          16.700000017881393,
+          16.5,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          15.900000005960464,
+          17.19999998807907,
+          17.100000023841858,
+          16.399999976158142,
+          16.700000017881393,
+          16.69999998807907,
+          15.900000005960464,
+          17.400000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.599999994039536,
+          16.599999994039536,
+          15.900000005960464,
+          16.900000005960464,
+          17.299999982118607,
+          16.599999994039536,
+          16.600000023841858,
+          15.899999976158142,
+          17.600000023841858,
+          16.599999994039536,
+          16.799999982118607,
+          15.800000011920929,
+          17.5,
+          16.5,
+          16.69999998807907,
+          16.30000001192093,
+          17,
+          16.69999998807907,
+          15.800000011920929,
+          16.599999994039536,
+          235.59999999403954,
+          15.100000023841858,
+          16.399999976158142,
+          17.100000023841858,
+          16.69999998807907,
+          16.599999994039536,
+          16.400000005960464,
+          17.099999994039536,
+          16.599999994039536,
+          16.30000001192093,
+          16.19999998807907,
+          17.400000005960464,
+          16.80000001192093,
+          16.099999994039536,
+          17.19999998807907,
+          16.600000023841858,
+          16,
+          17.19999998807907,
+          16.80000001192093,
+          16.5,
+          16.899999976158142,
+          16.600000023841858,
+          16.599999994039536,
+          16.799999982118607,
+          16.100000023841858,
+          17.19999998807907,
+          16.69999998807907,
+          16.400000005960464,
+          16.900000005960464,
+          16.599999994039536,
+          15.900000005960464,
+          17.400000005960464,
+          16.099999994039536,
+          17.400000005960464,
+          15.799999982118607,
+          17.400000005960464,
+          16.80000001192093,
+          16.5,
+          16.69999998807907,
+          15.800000011920929,
+          17.19999998807907,
+          17,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.80000001192093,
+          16.599999994039536,
+          16,
+          17,
+          17.099999994039536,
+          16.5,
+          16,
+          17.400000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.099999994039536,
+          16.599999994039536,
+          17.200000017881393,
+          16.299999982118607,
+          17.099999994039536,
+          16.5,
+          16.900000005960464,
+          16.30000001192093,
+          16.599999994039536,
+          17,
+          16.599999994039536,
+          16.30000001192093,
+          17.099999994039536,
+          16.5,
+          16.900000005960464,
+          15.599999994039536,
+          17.599999994039536,
+          16.80000001192093,
+          16.599999994039536,
+          16.599999994039536,
+          16.700000017881393,
+          16.299999982118607,
+          17.099999994039536,
+          16.5,
+          16.700000017881393,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          16.099999994039536,
+          17.30000001192093,
+          16.599999994039536,
+          16.599999994039536,
+          15.900000005960464,
+          17.5,
+          16.700000017881393,
+          16.5,
+          16.799999982118607,
+          16.200000017881393,
+          16.399999976158142,
+          17.5,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          15.700000017881393,
+          17.19999998807907,
+          17,
+          16.599999994039536,
+          16.700000017881393,
+          16,
+          17.299999982118607,
+          16.700000017881393,
+          15.899999976158142,
+          17.400000005960464,
+          233.40000000596046,
+          16.5,
+          16.69999998807907,
+          16.900000005960464,
+          16.30000001192093,
+          16.69999998807907,
+          16.80000001192093,
+          16.69999998807907,
+          16.700000017881393,
+          16,
+          16.5,
+          17.399999976158142,
+          16.700000017881393,
+          16.69999998807907,
+          16.400000005960464,
+          17,
+          15.800000011920929,
+          17.19999998807907,
+          17.099999994039536,
+          16.400000005960464,
+          16.599999994039536,
+          16.80000001192093,
+          16.599999994039536,
+          16.69999998807907,
+          16.200000017881393,
+          17.19999998807907,
+          16,
+          16.599999994039536,
+          16.600000023841858,
+          17,
+          16.399999976158142,
+          16.900000005960464,
+          16.80000001192093,
+          16.5,
+          17.099999994039536,
+          16.80000001192093,
+          16.69999998807907,
+          16.599999994039536,
+          16,
+          17.400000005960464,
+          16.30000001192093,
+          234,
+          16.399999976158142,
+          16.80000001192093,
+          16,
+          17.099999994039536,
+          16.599999994039536,
+          16.700000017881393,
+          16.400000005960464,
+          17,
+          16.599999994039536,
+          16.69999998807907,
+          16.599999994039536,
+          16.100000023841858,
+          17.299999982118607,
+          16.599999994039536,
+          16.700000017881393,
+          16.599999994039536,
+          16.400000005960464,
+          16.900000005960464,
+          16.799999982118607,
+          16.599999994039536,
+          16.5,
+          16.900000005960464,
+          16.30000001192093,
+          16.5,
+          17,
+          16.799999982118607,
+          16.600000023841858,
+          16.5,
+          16.599999994039536,
+          16.5,
+          17.099999994039536,
+          16.099999994039536,
+          17.200000017881393,
+          16.69999998807907,
+          16.69999998807907,
+          16,
+          17.30000001192093,
+          16.69999998807907,
+          16.600000023841858,
+          16.399999976158142,
+          17,
+          16.30000001192093,
+          16.30000001192093,
+          17.399999976158142,
+          16.5,
+          16.80000001192093,
+          16.5,
+          16.599999994039536,
+          15.900000005960464,
+          17.599999994039536,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          16.900000005960464,
+          15.800000011920929,
+          17.299999982118607,
+          16.700000017881393,
+          16.69999998807907,
+          16.69999998807907,
+          16,
+          17.400000005960464,
+          16.700000017881393,
+          16,
+          17.19999998807907,
+          16.099999994039536,
+          17.200000017881393,
+          16.299999982118607,
+          16.900000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.799999982118607,
+          16,
+          17.30000001192093,
+          16.69999998807907,
+          16.600000023841858,
+          16.69999998807907,
+          16.69999998807907,
+          16.600000023841858,
+          16.299999982118607,
+          17.099999994039536,
+          16.200000017881393,
+          17.099999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          15.900000005960464,
+          16.69999998807907,
+          17.30000001192093,
+          16.19999998807907,
+          17.100000023841858,
+          16.69999998807907,
+          16.80000001192093,
+          16.599999994039536,
+          15.900000005960464,
+          17.399999976158142,
+          16.200000017881393,
+          17.099999994039536,
+          16.69999998807907,
+          16.600000023841858,
+          16.599999994039536,
+          16.69999998807907,
+          16.400000005960464,
+          16.30000001192093,
+          17.5,
+          16,
+          17,
+          16.69999998807907,
+          16.099999994039536,
+          17.30000001192093,
+          16.400000005960464
+        ],
+        "camera": {
+          "clearance": {
+            "adjustments": 0,
+            "blocked": null,
+            "marginMeters": 0.35,
+            "scope": "Authored conservative interior bounds with wall openings; orbit clearance, not a free-walking physics system."
+          },
+          "alpha": 1.28,
+          "beta": 1.31,
+          "radius": 6.367365430406707,
+          "target": [
+            -2.4000000000000004,
+            2.3,
+            -10
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": -3.8000000000000003,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 0
+        }
+      }
+    },
+    {
+      "wing": "repeat",
+      "state": {
+        "contextDepth": false,
+        "worldTour": null,
+        "qualityAdvice": {
+          "quality": "high",
+          "status": "observing",
+          "windows": 0,
+          "lastWindow": null
+        },
+        "presented": {
+          "active": 9,
+          "transition": 0
+        },
+        "residency": {
+          "active": 9,
+          "ready": true,
+          "heldFrames": 1,
+          "holdingSince": null,
+          "events": [
+            {
+              "at": 479.09999999403954,
+              "kind": "load-start",
+              "id": "tool"
+            },
+            {
+              "at": 479.59999999403954,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 479.7999999821186,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 479.7999999821186,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 480,
+              "kind": "load-start",
+              "id": "model"
+            },
+            {
+              "at": 480.09999999403954,
+              "kind": "load-start",
+              "id": "context"
+            },
+            {
+              "at": 480.2999999821186,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 480.39999997615814,
+              "kind": "load-start",
+              "id": "harness"
+            },
+            {
+              "at": 492.39999997615814,
+              "kind": "load-ready",
+              "id": "tool",
+              "durationMs": 13.299999982118607
+            },
+            {
+              "at": 499.89999997615814,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 20.099999994039536
+            },
+            {
+              "at": 527,
+              "kind": "load-ready",
+              "id": "model",
+              "durationMs": 47
+            },
+            {
+              "at": 531.5999999940395,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 51.80000001192093
+            },
+            {
+              "at": 536.0999999940395,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 56.5
+            },
+            {
+              "at": 543.5,
+              "kind": "load-ready",
+              "id": "context",
+              "durationMs": 63.400000005960464
+            },
+            {
+              "at": 546.3999999761581,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 66.09999999403954
+            },
+            {
+              "at": 554.6999999880791,
+              "kind": "load-ready",
+              "id": "harness",
+              "durationMs": 74.30000001192093
+            },
+            {
+              "at": 1744.5999999940395,
+              "kind": "release",
+              "id": "tool"
+            },
+            {
+              "at": 1745.0999999940395,
+              "kind": "release",
+              "id": "steering"
+            },
+            {
+              "at": 1745.199999988079,
+              "kind": "release",
+              "id": "review"
+            },
+            {
+              "at": 1745.3999999761581,
+              "kind": "release",
+              "id": "branch"
+            },
+            {
+              "at": 2992.399999976158,
+              "kind": "release",
+              "id": "permission"
+            },
+            {
+              "at": 3859.0999999940395,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 3859.0999999940395,
+              "kind": "factory-reuse",
+              "id": "steering"
+            },
+            {
+              "at": 3862.199999988079,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 3.0999999940395355
+            },
+            {
+              "at": 3862.199999988079,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 3862.199999988079,
+              "kind": "factory-reuse",
+              "id": "review"
+            },
+            {
+              "at": 3864.2999999821186,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 2.0999999940395355
+            },
+            {
+              "at": 3864.2999999821186,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 3864.2999999821186,
+              "kind": "factory-reuse",
+              "id": "permission"
+            },
+            {
+              "at": 3867.899999976158,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 3.5999999940395355
+            },
+            {
+              "at": 3868,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 3868,
+              "kind": "factory-reuse",
+              "id": "branch"
+            },
+            {
+              "at": 3869.399999976158,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 1.399999976158142
+            },
+            {
+              "at": 4709.699999988079,
+              "kind": "release",
+              "id": "model"
+            },
+            {
+              "at": 4710.199999988079,
+              "kind": "release",
+              "id": "context"
+            },
+            {
+              "at": 4710.399999976158,
+              "kind": "release",
+              "id": "harness"
+            },
+            {
+              "at": 5925.5,
+              "kind": "release",
+              "id": "review"
+            },
+            {
+              "at": 6825,
+              "kind": "load-start",
+              "id": "handoff"
+            },
+            {
+              "at": 6825.5,
+              "kind": "load-start",
+              "id": "automation"
+            },
+            {
+              "at": 6825.799999982119,
+              "kind": "load-start",
+              "id": "tool"
+            },
+            {
+              "at": 6825.799999982119,
+              "kind": "factory-reuse",
+              "id": "tool"
+            },
+            {
+              "at": 6829.5,
+              "kind": "load-ready",
+              "id": "tool",
+              "durationMs": 3.7000000178813934
+            },
+            {
+              "at": 6829.5,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 6829.5,
+              "kind": "factory-reuse",
+              "id": "review"
+            },
+            {
+              "at": 6831.399999976158,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 1.899999976158142
+            },
+            {
+              "at": 6831.5,
+              "kind": "view-held"
+            },
+            {
+              "at": 6838.5999999940395,
+              "kind": "load-ready",
+              "id": "handoff",
+              "durationMs": 13.599999994039536
+            },
+            {
+              "at": 6850,
+              "kind": "load-ready",
+              "id": "automation",
+              "durationMs": 24.5
+            },
+            {
+              "at": 6850.199999988079,
+              "kind": "view-released",
+              "durationMs": 18.69999998807907
+            },
+            {
+              "at": 7675.5,
+              "kind": "release",
+              "id": "steering"
+            },
+            {
+              "at": 7675.699999988079,
+              "kind": "release",
+              "id": "permission"
+            },
+            {
+              "at": 7675.799999982119,
+              "kind": "release",
+              "id": "branch"
+            },
+            {
+              "at": 8842.699999988079,
+              "kind": "release",
+              "id": "handoff"
+            }
+          ],
+          "entries": [
+            {
+              "id": "capstone",
+              "station": 11,
+              "enabled": false,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "handoff",
+              "station": 11,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "automation",
+              "station": 10,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 26,
+                "materials": 12,
+                "textures": 8
+              }
+            },
+            {
+              "id": "tool",
+              "station": 8,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 1,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 13,
+                "textures": 7
+              }
+            },
+            {
+              "id": "steering",
+              "station": 6,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 2,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "review",
+              "station": 7,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 3,
+              "unloads": 2,
+              "error": null,
+              "resources": {
+                "meshes": 8,
+                "materials": 8,
+                "textures": 5
+              }
+            },
+            {
+              "id": "permission",
+              "station": 3,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 2,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "model",
+              "station": 2,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "context",
+              "station": 1,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "branch",
+              "station": 5,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 2,
+              "unloads": 2,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "harness",
+              "station": 0,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 1,
+              "error": null,
+              "resources": null
+            }
+          ]
+        },
+        "renderAudit": null,
+        "ready": true,
+        "renderSize": {
+          "width": 2880,
+          "height": 1800,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "dpr": 2
+        },
+        "lastPick": null,
+        "active": 9,
+        "quality": "high",
+        "paused": false,
+        "reduced": true,
+        "mascotDetail": {
+          "batching": {
+            "drawsSavedPerPass": 13,
+            "batches": [
+              {
+                "id": 421,
+                "name": "Guide batch: Porcelain glyph",
+                "sources": [
+                  "Left finger 0",
+                  "Left finger 1",
+                  "Left finger 2",
+                  "Left palm",
+                  "Left thumb",
+                  "Right finger 0",
+                  "Right finger 1",
+                  "Right finger 2",
+                  "Right palm",
+                  "Right thumb",
+                  "White prompt chevron",
+                  "White prompt underscore"
+                ],
+                "triangles": 13088,
+                "sourceTriangles": 13088,
+                "refreshes": 1
+              },
+              {
+                "id": 423,
+                "name": "Guide batch: Satin titanium",
+                "sources": [
+                  "Left floating forearm",
+                  "Right floating forearm"
+                ],
+                "triangles": 3128,
+                "sourceTriangles": 3128,
+                "refreshes": 1
+              },
+              {
+                "id": 425,
+                "name": "Guide batch: Indigo joints",
+                "sources": [
+                  "Left wrist",
+                  "Right wrist"
+                ],
+                "triangles": 2432,
+                "sourceTriangles": 2432,
+                "refreshes": 1
+              }
+            ],
+            "sourceGeometryRetained": true,
+            "shadowProjectionUsesOriginalBounds": true
+          },
+          "requested": "high",
+          "active": "high",
+          "loading": false,
+          "error": "",
+          "triangles": 25812,
+          "cached": [
+            "high"
+          ],
+          "meshIds": [
+            242,
+            250,
+            254,
+            257,
+            260,
+            264,
+            267,
+            270,
+            274,
+            277,
+            280,
+            283,
+            286,
+            289,
+            292,
+            295,
+            298
+          ],
+          "skeletonIds": [
+            245
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.7999999523162842,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.2510373294353485,
+                0.13308902084827423,
+                -0.9587844610214233,
+                0,
+                -0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                -1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.2510373294353485,
+                -0.13308902084827423,
+                0.9587844610214233,
+                0,
+                0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                -0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 89,
+          "sceneTextures": 48,
+          "sceneGeometries": 131,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "staticShadows": {
+            "batches": [
+              {
+                "id": 431,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 1,
+                "layerMask": 0
+              },
+              {
+                "id": 433,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "detail": {
+            "requested": "high",
+            "active": "high",
+            "loading": false,
+            "error": "",
+            "triangles": 223458,
+            "cached": false,
+            "meshIds": [
+              20,
+              23,
+              26,
+              29,
+              32,
+              36,
+              39,
+              43,
+              46,
+              50,
+              53,
+              56,
+              59,
+              62,
+              65,
+              68,
+              71,
+              74,
+              77,
+              81,
+              84,
+              87,
+              90,
+              93
+            ]
+          },
+          "textureCompression": {
+            "mode": "compressed",
+            "reason": null,
+            "textures": [
+              {
+                "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              }
+            ]
+          },
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "handoff": {
+          "verified": false,
+          "deliveredId": 1,
+          "preserved": false,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "automation": {
+          "verified": false,
+          "enabled": false,
+          "hourAngle": -4.6687557490848315,
+          "targetHour": -4.6687557490848315,
+          "runCount": 0,
+          "ports": [
+            {
+              "id": "setup",
+              "screen": {
+                "x": 1116.9127364699018,
+                "y": 358.20609224384924
+              }
+            },
+            {
+              "id": "clock",
+              "screen": {
+                "x": 1324.0330137858068,
+                "y": 367.1881846960142
+              }
+            },
+            {
+              "id": "runs",
+              "screen": {
+                "x": 1552.8108439718503,
+                "y": 377.109490559286
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [
+            {
+              "id": "connect",
+              "screen": {
+                "x": -69.78961871128833,
+                "y": 310.42250742247654
+              }
+            },
+            {
+              "id": "procedure",
+              "screen": {
+                "x": 35.26637425091965,
+                "y": 315.1080574754602
+              }
+            },
+            {
+              "id": "results",
+              "screen": {
+                "x": 147.99499476234996,
+                "y": 320.13581057089885
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [
+            {
+              "id": "diff",
+              "screen": {
+                "x": -567.4130798748154,
+                "y": 266.9672727118629
+              }
+            },
+            {
+              "id": "checks",
+              "screen": {
+                "x": -494.99538508928896,
+                "y": 269.57739046279727
+              }
+            },
+            {
+              "id": "repair",
+              "screen": {
+                "x": -418.2290437873076,
+                "y": 272.3442444851464
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [],
+          "loaded": false,
+          "ports": [],
+          "cards": []
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [],
+          "loaded": false,
+          "cards": [],
+          "controls": []
+        },
+        "context": {
+          "entry": {
+            "x": -644.5378844464217,
+            "y": 417.9417526785191
+          },
+          "exploring": false,
+          "selected": [],
+          "verified": false,
+          "cards": [],
+          "loaded": false,
+          "ports": [],
+          "controls": []
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ],
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "drawCalls": 64,
+        "renderFrameMs": 1,
+        "meshes": 133,
+        "triangles": 509156,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": false,
+        "gesture": "Greet",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          12.900000005960464,
+          5,
+          89.89999997615814,
+          25.700000017881393,
+          5.299999982118607,
+          9.100000023841858,
+          15.099999994039536,
+          16.799999982118607,
+          49,
+          3.300000011920929,
+          14.300000011920929,
+          16.5,
+          16.899999976158142,
+          16.700000017881393,
+          16.5,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          15.900000005960464,
+          17.19999998807907,
+          17.100000023841858,
+          16.399999976158142,
+          16.700000017881393,
+          16.69999998807907,
+          15.900000005960464,
+          17.400000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.599999994039536,
+          16.599999994039536,
+          15.900000005960464,
+          16.900000005960464,
+          17.299999982118607,
+          16.599999994039536,
+          16.600000023841858,
+          15.899999976158142,
+          17.600000023841858,
+          16.599999994039536,
+          16.799999982118607,
+          15.800000011920929,
+          17.5,
+          16.5,
+          16.69999998807907,
+          16.30000001192093,
+          17,
+          16.69999998807907,
+          15.800000011920929,
+          16.599999994039536,
+          235.59999999403954,
+          15.100000023841858,
+          16.399999976158142,
+          17.100000023841858,
+          16.69999998807907,
+          16.599999994039536,
+          16.400000005960464,
+          17.099999994039536,
+          16.599999994039536,
+          16.30000001192093,
+          16.19999998807907,
+          17.400000005960464,
+          16.80000001192093,
+          16.099999994039536,
+          17.19999998807907,
+          16.600000023841858,
+          16,
+          17.19999998807907,
+          16.80000001192093,
+          16.5,
+          16.899999976158142,
+          16.600000023841858,
+          16.599999994039536,
+          16.799999982118607,
+          16.100000023841858,
+          17.19999998807907,
+          16.69999998807907,
+          16.400000005960464,
+          16.900000005960464,
+          16.599999994039536,
+          15.900000005960464,
+          17.400000005960464,
+          16.099999994039536,
+          17.400000005960464,
+          15.799999982118607,
+          17.400000005960464,
+          16.80000001192093,
+          16.5,
+          16.69999998807907,
+          15.800000011920929,
+          17.19999998807907,
+          17,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.80000001192093,
+          16.599999994039536,
+          16,
+          17,
+          17.099999994039536,
+          16.5,
+          16,
+          17.400000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.099999994039536,
+          16.599999994039536,
+          17.200000017881393,
+          16.299999982118607,
+          17.099999994039536,
+          16.5,
+          16.900000005960464,
+          16.30000001192093,
+          16.599999994039536,
+          17,
+          16.599999994039536,
+          16.30000001192093,
+          17.099999994039536,
+          16.5,
+          16.900000005960464,
+          15.599999994039536,
+          17.599999994039536,
+          16.80000001192093,
+          16.599999994039536,
+          16.599999994039536,
+          16.700000017881393,
+          16.299999982118607,
+          17.099999994039536,
+          16.5,
+          16.700000017881393,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          16.099999994039536,
+          17.30000001192093,
+          16.599999994039536,
+          16.599999994039536,
+          15.900000005960464,
+          17.5,
+          16.700000017881393,
+          16.5,
+          16.799999982118607,
+          16.200000017881393,
+          16.399999976158142,
+          17.5,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          15.700000017881393,
+          17.19999998807907,
+          17,
+          16.599999994039536,
+          16.700000017881393,
+          16,
+          17.299999982118607,
+          16.700000017881393,
+          15.899999976158142,
+          17.400000005960464,
+          233.40000000596046,
+          16.5,
+          16.69999998807907,
+          16.900000005960464,
+          16.30000001192093,
+          16.69999998807907,
+          16.80000001192093,
+          16.69999998807907,
+          16.700000017881393,
+          16,
+          16.5,
+          17.399999976158142,
+          16.700000017881393,
+          16.69999998807907,
+          16.400000005960464,
+          17,
+          15.800000011920929,
+          17.19999998807907,
+          17.099999994039536,
+          16.400000005960464,
+          16.599999994039536,
+          16.80000001192093,
+          16.599999994039536,
+          16.69999998807907,
+          16.200000017881393,
+          17.19999998807907,
+          16,
+          16.599999994039536,
+          16.600000023841858,
+          17,
+          16.399999976158142,
+          16.900000005960464,
+          16.80000001192093,
+          16.5,
+          17.099999994039536,
+          16.80000001192093,
+          16.69999998807907,
+          16.599999994039536,
+          16,
+          17.400000005960464,
+          16.30000001192093,
+          234,
+          16.399999976158142,
+          16.80000001192093,
+          16,
+          17.099999994039536,
+          16.599999994039536,
+          16.700000017881393,
+          16.400000005960464,
+          17,
+          16.599999994039536,
+          16.69999998807907,
+          16.599999994039536,
+          16.100000023841858,
+          17.299999982118607,
+          16.599999994039536,
+          16.700000017881393,
+          16.599999994039536,
+          16.400000005960464,
+          16.900000005960464,
+          16.799999982118607,
+          16.599999994039536,
+          16.5,
+          16.900000005960464,
+          16.30000001192093,
+          16.5,
+          17,
+          16.799999982118607,
+          16.600000023841858,
+          16.5,
+          16.599999994039536,
+          16.5,
+          17.099999994039536,
+          16.099999994039536,
+          17.200000017881393,
+          16.69999998807907,
+          16.69999998807907,
+          16,
+          17.30000001192093,
+          16.69999998807907,
+          16.600000023841858,
+          16.399999976158142,
+          17,
+          16.30000001192093,
+          16.30000001192093,
+          17.399999976158142,
+          16.5,
+          16.80000001192093,
+          16.5,
+          16.599999994039536,
+          15.900000005960464,
+          17.599999994039536,
+          16.700000017881393,
+          16.69999998807907,
+          16.599999994039536,
+          16.900000005960464,
+          15.800000011920929,
+          17.299999982118607,
+          16.700000017881393,
+          16.69999998807907,
+          16.69999998807907,
+          16,
+          17.400000005960464,
+          16.700000017881393,
+          16,
+          17.19999998807907,
+          16.099999994039536,
+          17.200000017881393,
+          16.299999982118607,
+          16.900000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.799999982118607,
+          16,
+          17.30000001192093,
+          16.69999998807907,
+          16.600000023841858,
+          16.69999998807907,
+          16.69999998807907,
+          16.600000023841858,
+          16.299999982118607,
+          17.099999994039536,
+          16.200000017881393,
+          17.099999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.69999998807907,
+          15.900000005960464,
+          16.69999998807907,
+          17.30000001192093,
+          16.19999998807907,
+          17.100000023841858,
+          16.69999998807907,
+          16.80000001192093,
+          16.599999994039536,
+          15.900000005960464,
+          17.399999976158142,
+          16.200000017881393,
+          17.099999994039536,
+          16.69999998807907,
+          16.600000023841858,
+          16.599999994039536,
+          16.69999998807907,
+          16.400000005960464,
+          16.30000001192093,
+          17.5,
+          16,
+          17,
+          16.69999998807907,
+          16.099999994039536,
+          17.30000001192093,
+          16.400000005960464,
+          233.69999998807907,
+          16.099999994039536,
+          17.099999994039536,
+          16.400000005960464,
+          25.30000001192093,
+          8.5,
+          16.599999994039536,
+          15.800000011920929,
+          17.5,
+          16.399999976158142,
+          16.900000005960464,
+          16.80000001192093,
+          16.5,
+          16.799999982118607,
+          16.400000005960464,
+          16.599999994039536,
+          16.700000017881393,
+          16.599999994039536,
+          16.30000001192093,
+          17.19999998807907,
+          16.099999994039536,
+          17.400000005960464,
+          16.099999994039536,
+          17.30000001192093,
+          16.599999994039536,
+          16.5,
+          16.900000005960464,
+          16.5,
+          16.900000005960464,
+          15.899999976158142,
+          17.30000001192093,
+          16.19999998807907,
+          16.400000005960464,
+          17.30000001192093,
+          16.69999998807907,
+          16.599999994039536,
+          16.80000001192093,
+          16.69999998807907,
+          16.600000023841858,
+          16.399999976158142,
+          16.5,
+          16.700000017881393,
+          217.09999999403954,
+          16,
+          17.30000001192093,
+          16.599999994039536,
+          16.5,
+          16.900000005960464,
+          16.69999998807907,
+          16.599999994039536,
+          16.80000001192093,
+          16.400000005960464,
+          16.899999976158142,
+          16.5,
+          16.700000017881393,
+          16,
+          17,
+          16.099999994039536,
+          17.599999994039536,
+          16.400000005960464,
+          17.099999994039536,
+          16.599999994039536,
+          16.30000001192093,
+          16.900000005960464,
+          16.69999998807907,
+          16.599999994039536,
+          16.600000023841858,
+          16.69999998807907,
+          16.80000001192093,
+          15.699999988079071,
+          17.599999994039536,
+          16.700000017881393,
+          16.599999994039536,
+          16.69999998807907,
+          15.900000005960464,
+          17.19999998807907,
+          17,
+          16.600000023841858,
+          16.69999998807907,
+          16.599999994039536,
+          16.200000017881393,
+          17.19999998807907,
+          16.30000001192093,
+          16.899999976158142,
+          16.700000017881393,
+          16.099999994039536,
+          17.19999998807907,
+          16.700000017881393,
+          16.599999994039536,
+          16.80000001192093,
+          16.099999994039536,
+          17.19999998807907,
+          16.200000017881393,
+          17.099999994039536,
+          16.69999998807907,
+          16.700000017881393,
+          16.19999998807907,
+          17,
+          16.80000001192093,
+          16.599999994039536,
+          16.69999998807907,
+          16.099999994039536,
+          16.5,
+          17.30000001192093,
+          16.80000001192093,
+          16.299999982118607,
+          17,
+          16.599999994039536,
+          16.700000017881393,
+          16.599999994039536,
+          16.900000005960464,
+          16.19999998807907,
+          16.900000005960464,
+          16.69999998807907,
+          16.700000017881393,
+          16.299999982118607,
+          16.400000005960464,
+          17.400000005960464,
+          15.800000011920929,
+          17,
+          16.799999982118607,
+          16.5,
+          17.200000017881393,
+          16.599999994039536,
+          16.400000005960464,
+          17,
+          15.599999994039536,
+          17.69999998807907,
+          16.30000001192093,
+          16.099999994039536,
+          17.19999998807907,
+          17,
+          16.900000005960464,
+          16.099999994039536,
+          16.80000001192093,
+          17.099999994039536,
+          15.700000017881393,
+          16.5,
+          17.599999994039536,
+          15.799999982118607,
+          17.100000023841858,
+          16.899999976158142,
+          16.900000005960464,
+          16.700000017881393,
+          16,
+          17.299999982118607,
+          16.400000005960464,
+          16.900000005960464,
+          16.69999998807907,
+          16.599999994039536,
+          16.600000023841858,
+          16.69999998807907,
+          16.5
+        ],
+        "camera": {
+          "clearance": {
+            "adjustments": 0,
+            "blocked": null,
+            "marginMeters": 0.35,
+            "scope": "Authored conservative interior bounds with wall openings; orbit clearance, not a free-walking physics system."
+          },
+          "alpha": 1.28,
+          "beta": 1.31,
+          "radius": 6.363207296446211,
+          "target": [
+            13.6,
+            2.3,
+            -10
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 12.2,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 0
+        }
+      }
+    }
+  ],
+  "errors": []
+}

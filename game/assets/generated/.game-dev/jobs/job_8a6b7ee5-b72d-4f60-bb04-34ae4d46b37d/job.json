@@ -1,0 +1,31 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_8a6b7ee5-b72d-4f60-bb04-34ae4d46b37d",
+  "operation": "scenario.run",
+  "status": "failed",
+  "request": {
+    "positionals": [
+      "scenario",
+      "run",
+      "warm-traversal"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "quality": "balanced"
+    }
+  },
+  "attempts": 1,
+  "eventCount": 4,
+  "artifacts": [],
+  "createdAt": "2026-09-10T13:56:39.291Z",
+  "updatedAt": "2026-09-10T13:57:05.441Z",
+  "startedAt": "2026-09-10T13:56:39.302Z",
+  "completedAt": "2026-09-10T13:57:05.441Z",
+  "error": {
+    "error": "CANCELLED",
+    "message": "game-dev was cancelled",
+    "retryable": false
+  }
+}

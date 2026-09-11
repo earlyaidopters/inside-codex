@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "frames": [
+    {
+      "frame": 1,
+      "identical": true
+    },
+    {
+      "frame": 2,
+      "identical": true
+    },
+    {
+      "frame": 3,
+      "identical": true
+    }
+  ]
+}

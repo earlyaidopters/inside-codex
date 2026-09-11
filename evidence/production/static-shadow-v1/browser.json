@@ -1,0 +1,2402 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "browser": "chromium",
+      "pass": true,
+      "snapshots": [
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 1,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 4,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 323760,
+            "allPassSubmittedTriangles": 583152,
+            "cpuSceneMs": 4.9000000059604645
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 2,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 18,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 5
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 3,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 21,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 2.5999999940395355
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 4,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 24,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 2.4000000059604645
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 5,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 26,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 7.600000023841858
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 6,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 29,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 2
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 32,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 1.600000023841858
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 42,
+            "totalDrawCalls": 102,
+            "mainDrawCalls": 77,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 256182,
+            "allPassSubmittedTriangles": 508278,
+            "cpuSceneMs": 1.4000000059604645
+          },
+          "activeTriangles": 263478
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 48,
+            "totalDrawCalls": 98,
+            "mainDrawCalls": 73,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 244044,
+            "allPassSubmittedTriangles": 496140,
+            "cpuSceneMs": 1.5
+          },
+          "activeTriangles": 251340
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 54,
+            "totalDrawCalls": 108,
+            "mainDrawCalls": 83,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 241824,
+            "allPassSubmittedTriangles": 493920,
+            "cpuSceneMs": 3.0999999940395355
+          },
+          "activeTriangles": 249120
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 60,
+            "totalDrawCalls": 96,
+            "mainDrawCalls": 71,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 269306,
+            "allPassSubmittedTriangles": 521402,
+            "cpuSceneMs": 1.4000000059604645
+          },
+          "activeTriangles": 276602
+        }
+      ],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "pass": true,
+      "snapshots": [
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 1,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 3,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 323760,
+            "allPassSubmittedTriangles": 583152,
+            "cpuSceneMs": 7
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 2,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 20,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 4
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 3,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 22,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 4
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 4,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 24,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 3
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 5,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 26,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 14
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 6,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 29,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 6
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 31,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 5
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 46,
+            "totalDrawCalls": 102,
+            "mainDrawCalls": 77,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 256182,
+            "allPassSubmittedTriangles": 508278,
+            "cpuSceneMs": 2
+          },
+          "activeTriangles": 263478
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 53,
+            "totalDrawCalls": 98,
+            "mainDrawCalls": 73,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 244044,
+            "allPassSubmittedTriangles": 496140,
+            "cpuSceneMs": 5
+          },
+          "activeTriangles": 251340
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 61,
+            "totalDrawCalls": 108,
+            "mainDrawCalls": 83,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 241824,
+            "allPassSubmittedTriangles": 493920,
+            "cpuSceneMs": 9
+          },
+          "activeTriangles": 249120
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 70,
+            "totalDrawCalls": 96,
+            "mainDrawCalls": 71,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 269306,
+            "allPassSubmittedTriangles": 521402,
+            "cpuSceneMs": 10
+          },
+          "activeTriangles": 276602
+        }
+      ],
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "pass": true,
+      "snapshots": [
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 1,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 3,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 323760,
+            "allPassSubmittedTriangles": 583152,
+            "cpuSceneMs": 22
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 2,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 18,
+            "totalDrawCalls": 219,
+            "mainDrawCalls": 198,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 168846,
+            "allPassSubmittedTriangles": 332426,
+            "cpuSceneMs": 88
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 3,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 21,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 8
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 4,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 25,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 11
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 5,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 29,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 6
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "balanced",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 6,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 31,
+            "totalDrawCalls": 229,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 21,
+            "mainSubmittedTriangles": 227948,
+            "allPassSubmittedTriangles": 391528,
+            "cpuSceneMs": 13
+          },
+          "activeTriangles": 227948
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 34,
+            "totalDrawCalls": 233,
+            "mainDrawCalls": 208,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 316464,
+            "allPassSubmittedTriangles": 568560,
+            "cpuSceneMs": 9
+          },
+          "activeTriangles": 323760
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 56,
+            "totalDrawCalls": 102,
+            "mainDrawCalls": 77,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 256182,
+            "allPassSubmittedTriangles": 508278,
+            "cpuSceneMs": 3
+          },
+          "activeTriangles": 263478
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 65,
+            "totalDrawCalls": 98,
+            "mainDrawCalls": 73,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 244044,
+            "allPassSubmittedTriangles": 496140,
+            "cpuSceneMs": 3
+          },
+          "activeTriangles": 251340
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 75,
+            "totalDrawCalls": 108,
+            "mainDrawCalls": 83,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 241824,
+            "allPassSubmittedTriangles": 493920,
+            "cpuSceneMs": 9
+          },
+          "activeTriangles": 249120
+        },
+        {
+          "quality": "high",
+          "batches": {
+            "batches": [
+              {
+                "id": 425,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 223458,
+                "sourceTriangles": 223458,
+                "vertexBytes": 3920952,
+                "indexBytes": 2681496,
+                "refreshes": 7,
+                "layerMask": 0
+              },
+              {
+                "id": 427,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 6846672,
+            "projectionUsesOriginalBounds": true
+          },
+          "frame": {
+            "frameId": 86,
+            "totalDrawCalls": 96,
+            "mainDrawCalls": 71,
+            "otherDrawCalls": 25,
+            "mainSubmittedTriangles": 269306,
+            "allPassSubmittedTriangles": 521402,
+            "cpuSceneMs": 3
+          },
+          "activeTriangles": 276602
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

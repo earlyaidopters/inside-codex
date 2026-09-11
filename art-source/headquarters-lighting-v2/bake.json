@@ -1,0 +1,9 @@
+{
+  "samples": 256,
+  "passes": [
+    "INDIRECT",
+    "COLOR"
+  ],
+  "source": "headquarters-baked.blend",
+  "fixtureManifest": "game/public/assets/headquarters/fixtures.json"
+}

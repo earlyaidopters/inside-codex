@@ -1,0 +1,10 @@
+{
+  "archive": "releases/checkpoints/quality-advice-v1-source.zip",
+  "bytes": 37122441,
+  "sha256": "fcc40798fa426fea8ecbb3e0dda1f673f0f92d336ab34c1812f3764e0114fe07",
+  "filesVerified": 92,
+  "base": "startup-diagnostics-v1-source.zip plus its complete base chain",
+  "baseSha256": "d8baad87ebffe5928e25d843dbcf79b8b21cdbe2d511641a04e3dbb87376d6a8",
+  "buildId": "08f9249f87532eb2447362aee0bc9d20b2ec5cd09fa0deb0a579377d91382b4f",
+  "fullReleaseAccepted": false
+}

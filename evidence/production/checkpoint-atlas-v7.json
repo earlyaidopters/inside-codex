@@ -1,0 +1,8 @@
+{
+  "archive": "releases/checkpoints/atlas-v7-tested.zip",
+  "bytes": 13643520,
+  "sha256": "d5def4bdb343c0e1305afea50ea637bf0e52d00645878a2bb069faa04aba6e25",
+  "verifiedDistFiles": 311,
+  "distBytes": 14279335,
+  "releaseReady": false
+}

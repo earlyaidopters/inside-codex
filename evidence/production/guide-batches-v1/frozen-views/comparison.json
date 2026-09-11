@@ -1,0 +1,86 @@
+{
+  "pass": true,
+  "buildId": "1b6dfe9751a218865f07e3eb77ac119cfaf521dea8d118e0d796204a8d7c8ab5",
+  "rows": [
+    {
+      "quality": "high",
+      "view": "arrival",
+      "identical": true,
+      "beforeDraws": 177,
+      "afterDraws": 151,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "high",
+      "view": "control",
+      "identical": true,
+      "beforeDraws": 91,
+      "afterDraws": 65,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "high",
+      "view": "tasks",
+      "identical": true,
+      "beforeDraws": 90,
+      "afterDraws": 64,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "high",
+      "view": "tools",
+      "identical": true,
+      "beforeDraws": 94,
+      "afterDraws": 68,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "high",
+      "view": "handoff",
+      "identical": true,
+      "beforeDraws": 108,
+      "afterDraws": 82,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "balanced",
+      "view": "arrival",
+      "identical": true,
+      "beforeDraws": 97,
+      "afterDraws": 71,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "balanced",
+      "view": "control",
+      "identical": true,
+      "beforeDraws": 81,
+      "afterDraws": 55,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tasks",
+      "identical": true,
+      "beforeDraws": 76,
+      "afterDraws": 50,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tools",
+      "identical": true,
+      "beforeDraws": 83,
+      "afterDraws": 57,
+      "sameActiveTriangles": true
+    },
+    {
+      "quality": "balanced",
+      "view": "handoff",
+      "identical": true,
+      "beforeDraws": 98,
+      "afterDraws": 72,
+      "sameActiveTriangles": true
+    }
+  ]
+}

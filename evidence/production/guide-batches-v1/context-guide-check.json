@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "scope": "Read-back checks against actual final-build WebGL loss/restore report",
+  "samePausedPose": true,
+  "sameBatchIdentityAndSkinTriangleCounts": true,
+  "allThreeBatchesVisibleAfterRestore": true
+}

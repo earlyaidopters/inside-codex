@@ -1,0 +1,26 @@
+{
+  "reviewer": "assistant",
+  "tabId": 37,
+  "url": "http://127.0.0.1:43211/?review=warm-factories-v1",
+  "viewport": {
+    "width": 547,
+    "height": 614
+  },
+  "checks": [
+    "Entered the control room through Step inside",
+    "Visited the handoff dock through the real map",
+    "Enabled reduced motion and returned to the already visited control room",
+    "Observed the mascot and neighboring exhibits in the restored scene",
+    "Restored the prior motion preference and left the game paused",
+    "Saved discoveries remained at 9/12"
+  ],
+  "openLayoutFinding": {
+    "panelContentTop": 244.30209350585935,
+    "panelContentBottom": 478.3333435058594,
+    "panelScrollHeight": 530,
+    "firstChoiceTop": 490.5729370117187,
+    "firstChoiceBottom": 546.8021049499512,
+    "description": "First exercise choice is wholly below the initial clipped content viewport; no clear scrolling cue in the inspected screenshot."
+  },
+  "scope": "Actual internal-browser actions, screenshot assessment and read-only element bounds; not a full device or human learning test."
+}

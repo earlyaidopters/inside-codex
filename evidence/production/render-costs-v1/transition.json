@@ -1,0 +1,1930 @@
+{
+  "scope": "Unsealed read-only inventory diagnostic; no timing claim",
+  "peak": {
+    "draws": 127,
+    "mission": 8,
+    "transition": 0.36071818181926546,
+    "audit": {
+      "lastFrame": {
+        "frameId": 3149,
+        "totalDrawCalls": 127,
+        "mainDrawCalls": 106,
+        "otherDrawCalls": 21,
+        "mainSubmittedTriangles": 206970,
+        "allPassSubmittedTriangles": 370550,
+        "cpuSceneMs": 1
+      },
+      "activeMeshCount": 106,
+      "activeMeshTriangles": 206970,
+      "meshes": [
+        {
+          "id": 23,
+          "name": "Architecture exterior_primitive1",
+          "triangles": 6120,
+          "submeshes": 1
+        },
+        {
+          "id": 26,
+          "name": "Architecture exterior_primitive2",
+          "triangles": 6120,
+          "submeshes": 1
+        },
+        {
+          "id": 29,
+          "name": "Architecture exterior_primitive3",
+          "triangles": 10152,
+          "submeshes": 1
+        },
+        {
+          "id": 32,
+          "name": "Architecture exterior_primitive4",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 36,
+          "name": "Architecture floor_primitive0",
+          "triangles": 188,
+          "submeshes": 1
+        },
+        {
+          "id": 43,
+          "name": "Architecture floor inlays_primitive0",
+          "triangles": 62,
+          "submeshes": 1
+        },
+        {
+          "id": 50,
+          "name": "Architecture furnishings_primitive0",
+          "triangles": 7170,
+          "submeshes": 1
+        },
+        {
+          "id": 53,
+          "name": "Architecture furnishings_primitive1",
+          "triangles": 7360,
+          "submeshes": 1
+        },
+        {
+          "id": 56,
+          "name": "Architecture furnishings_primitive2",
+          "triangles": 7892,
+          "submeshes": 1
+        },
+        {
+          "id": 59,
+          "name": "Architecture furnishings_primitive3",
+          "triangles": 14082,
+          "submeshes": 1
+        },
+        {
+          "id": 62,
+          "name": "Architecture furnishings_primitive4",
+          "triangles": 6120,
+          "submeshes": 1
+        },
+        {
+          "id": 65,
+          "name": "Architecture furnishings_primitive5",
+          "triangles": 9216,
+          "submeshes": 1
+        },
+        {
+          "id": 68,
+          "name": "Architecture furnishings_primitive6",
+          "triangles": 1510,
+          "submeshes": 1
+        },
+        {
+          "id": 71,
+          "name": "Architecture furnishings_primitive7",
+          "triangles": 752,
+          "submeshes": 1
+        },
+        {
+          "id": 74,
+          "name": "Architecture furnishings_primitive8",
+          "triangles": 1322,
+          "submeshes": 1
+        },
+        {
+          "id": 77,
+          "name": "Architecture furnishings_primitive9",
+          "triangles": 5176,
+          "submeshes": 1
+        },
+        {
+          "id": 81,
+          "name": "Architecture shell_primitive0",
+          "triangles": 14918,
+          "submeshes": 1
+        },
+        {
+          "id": 84,
+          "name": "Architecture shell_primitive1",
+          "triangles": 22886,
+          "submeshes": 1
+        },
+        {
+          "id": 87,
+          "name": "Architecture shell_primitive2",
+          "triangles": 10548,
+          "submeshes": 1
+        },
+        {
+          "id": 90,
+          "name": "Architecture shell_primitive3",
+          "triangles": 376,
+          "submeshes": 1
+        },
+        {
+          "id": 93,
+          "name": "Architecture shell_primitive4",
+          "triangles": 188,
+          "submeshes": 1
+        },
+        {
+          "id": 105,
+          "name": "UNDERSTAND",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 109,
+          "name": "01  /  THE CODEX ECOSYSTEM",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 112,
+          "name": "Learning state 0",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 117,
+          "name": "01",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 120,
+          "name": "Learning state 1",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 125,
+          "name": "02",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 128,
+          "name": "Learning state 2",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 133,
+          "name": "03",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 136,
+          "name": "Learning state 3",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 141,
+          "name": "04",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 242,
+          "name": "Codex logo core",
+          "triangles": 7164,
+          "submeshes": 1
+        },
+        {
+          "id": 250,
+          "name": "Left finger 0",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 254,
+          "name": "Left finger 1",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 257,
+          "name": "Left finger 2",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 260,
+          "name": "Left floating forearm",
+          "triangles": 1564,
+          "submeshes": 1
+        },
+        {
+          "id": 264,
+          "name": "Left palm",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 267,
+          "name": "Left thumb",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 270,
+          "name": "Left wrist",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 274,
+          "name": "Right finger 0",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 277,
+          "name": "Right finger 1",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 280,
+          "name": "Right finger 2",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 283,
+          "name": "Right floating forearm",
+          "triangles": 1564,
+          "submeshes": 1
+        },
+        {
+          "id": 286,
+          "name": "Right palm",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 289,
+          "name": "Right thumb",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 292,
+          "name": "Right wrist",
+          "triangles": 608,
+          "submeshes": 1
+        },
+        {
+          "id": 295,
+          "name": "White prompt chevron",
+          "triangles": 572,
+          "submeshes": 1
+        },
+        {
+          "id": 298,
+          "name": "White prompt underscore",
+          "triangles": 356,
+          "submeshes": 1
+        },
+        {
+          "id": 2613,
+          "name": "context retaining ring",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 2616,
+          "name": "context port",
+          "triangles": 1936,
+          "submeshes": 1
+        },
+        {
+          "id": 2620,
+          "name": "context caption",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 2623,
+          "name": "model retaining ring",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 2626,
+          "name": "model port",
+          "triangles": 1936,
+          "submeshes": 1
+        },
+        {
+          "id": 2630,
+          "name": "model caption",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 2633,
+          "name": "tools retaining ring",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 2636,
+          "name": "tools port",
+          "triangles": 1936,
+          "submeshes": 1
+        },
+        {
+          "id": 2640,
+          "name": "tools caption",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 2643,
+          "name": "verify retaining ring",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 2646,
+          "name": "verify port",
+          "triangles": 1936,
+          "submeshes": 1
+        },
+        {
+          "id": 2650,
+          "name": "verify caption",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 2660,
+          "name": "Batch: Harness circuits / Inactive circuit",
+          "triangles": 96,
+          "submeshes": 1
+        },
+        {
+          "id": 2662,
+          "name": "Harness support",
+          "triangles": 64,
+          "submeshes": 1
+        },
+        {
+          "id": 2980,
+          "name": "Route Fix a label",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 2987,
+          "name": "Route Trace a regression",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 2994,
+          "name": "Route Read a live sheet",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 2997,
+          "name": "Select Astra ceramic",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3001,
+          "name": "Select Astra",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3004,
+          "name": "Select Sol ceramic",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3008,
+          "name": "Select Sol",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3011,
+          "name": "Select Terra ceramic",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3015,
+          "name": "Select Terra",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3018,
+          "name": "Select Luna ceramic",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3022,
+          "name": "Select Luna",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3027,
+          "name": "Reasoning effort band 0",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 3030,
+          "name": "Reasoning effort band 1",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 3033,
+          "name": "Reasoning effort band 2",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 3036,
+          "name": "Reasoning effort band 3",
+          "triangles": 4802,
+          "submeshes": 1
+        },
+        {
+          "id": 3043,
+          "name": "Output check status",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3045,
+          "name": "Batch: Observatory frame / Observatory satin brass",
+          "triangles": 376,
+          "submeshes": 1
+        },
+        {
+          "id": 3047,
+          "name": "Batch: Observatory frame / Observatory graphite ceramic",
+          "triangles": 2752,
+          "submeshes": 1
+        },
+        {
+          "id": 3059,
+          "name": "Archive file brief",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3063,
+          "name": "Inspect source brief",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3066,
+          "name": "Archive file sample",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3070,
+          "name": "Inspect source sample",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3073,
+          "name": "Archive file image",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3077,
+          "name": "Inspect source image",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3080,
+          "name": "Archive file agents",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3084,
+          "name": "Inspect source agents",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3087,
+          "name": "Archive file old",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3091,
+          "name": "Inspect source old",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3094,
+          "name": "Archive file note",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3098,
+          "name": "Inspect source note",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3102,
+          "name": "Context draft and check status",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3104,
+          "name": "Batch: Context rack / Archive brushed metal",
+          "triangles": 36,
+          "submeshes": 1
+        },
+        {
+          "id": 3189,
+          "name": "Permission shutter read",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3192,
+          "name": "Gate status light read",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3196,
+          "name": "Permission read",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3220,
+          "name": "Permission shutter draft",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3223,
+          "name": "Gate status light draft",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3227,
+          "name": "Permission draft",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3251,
+          "name": "Permission shutter check",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3254,
+          "name": "Gate status light check",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 3258,
+          "name": "Permission check",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 3262,
+          "name": "Batch: Permission frame / Permission brushed nickel",
+          "triangles": 192,
+          "submeshes": 1
+        },
+        {
+          "id": 3264,
+          "name": "Batch: Permission frame / Permission housing graphite",
+          "triangles": 180,
+          "submeshes": 1
+        },
+        {
+          "id": 3266,
+          "name": "Batch: Permission frame / Permission ivory ceramic",
+          "triangles": 36,
+          "submeshes": 1
+        }
+      ],
+      "textures": [
+        {
+          "id": 1,
+          "names": [
+            "Late afternoon_shadowMap"
+          ],
+          "url": "",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 33554432,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 2,
+          "names": [],
+          "url": "",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 14,
+          "type": 0,
+          "source": 12,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 16777216,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 5,
+          "names": [
+            "data:EnvironmentBRDFTexture0"
+          ],
+          "url": "embedded",
+          "width": 256,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 1,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 524288,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 55,
+          "names": [
+            "/assets/studio.env"
+          ],
+          "url": "/assets/studio.env",
+          "width": 128,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 7,
+          "mipmaps": true,
+          "cube": true,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 1048560,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 56,
+          "names": [
+            "/assets/headquarters/compressed/floor-indirect.ktx2"
+          ],
+          "url": "embedded",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 37492,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": null,
+          "blockBytes": 8,
+          "textureBytes": 2796216,
+          "estimatedMultisampleColorBytes": null
+        },
+        {
+          "id": 57,
+          "names": [
+            "/assets/headquarters/compressed/floor-albedo.ktx2"
+          ],
+          "url": "embedded",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 37492,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": null,
+          "blockBytes": 8,
+          "textureBytes": 2796216,
+          "estimatedMultisampleColorBytes": null
+        },
+        {
+          "id": 58,
+          "names": [
+            "/assets/headquarters/compressed/shell-albedo.ktx2"
+          ],
+          "url": "embedded",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 37492,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": null,
+          "blockBytes": 8,
+          "textureBytes": 2796216,
+          "estimatedMultisampleColorBytes": null
+        },
+        {
+          "id": 59,
+          "names": [
+            "/assets/headquarters/compressed/shell-indirect.ktx2"
+          ],
+          "url": "embedded",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 37492,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": null,
+          "blockBytes": 8,
+          "textureBytes": 2796216,
+          "estimatedMultisampleColorBytes": null
+        },
+        {
+          "id": 60,
+          "names": [
+            "/assets/headquarters/compressed/furnishings-albedo.ktx2"
+          ],
+          "url": "embedded",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 37492,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": null,
+          "blockBytes": 8,
+          "textureBytes": 2796216,
+          "estimatedMultisampleColorBytes": null
+        },
+        {
+          "id": 61,
+          "names": [
+            "/assets/headquarters/compressed/furnishings-indirect.ktx2"
+          ],
+          "url": "embedded",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 37492,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": null,
+          "blockBytes": 8,
+          "textureBytes": 2796216,
+          "estimatedMultisampleColorBytes": null
+        },
+        {
+          "id": 62,
+          "names": [
+            "UNDERSTAND"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 63,
+          "names": [
+            "01  /  THE CODEX ECOSYSTEM"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 64,
+          "names": [
+            "01"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 65,
+          "names": [
+            "02"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 66,
+          "names": [
+            "03"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 67,
+          "names": [
+            "04"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 68,
+          "names": [
+            "DIRECT"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 69,
+          "names": [
+            "02  /  THE CODEX ECOSYSTEM"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 70,
+          "names": [
+            "05"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 71,
+          "names": [
+            "06"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 72,
+          "names": [
+            "07"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 73,
+          "names": [
+            "08"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 74,
+          "names": [
+            "REPEAT"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 75,
+          "names": [
+            "03  /  THE CODEX ECOSYSTEM"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 76,
+          "names": [
+            "09"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 77,
+          "names": [
+            "10"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 78,
+          "names": [
+            "11"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 79,
+          "names": [
+            "12"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 80,
+          "names": [
+            ""
+          ],
+          "url": "",
+          "width": 16,
+          "height": 1,
+          "depth": 0,
+          "format": 5,
+          "type": 1,
+          "source": 3,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 16,
+          "blockBytes": null,
+          "textureBytes": 256,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 117,
+          "names": [],
+          "url": "",
+          "width": 390,
+          "height": 438.88,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 1369305.6,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 118,
+          "names": [],
+          "url": "",
+          "width": 390,
+          "height": 438.88,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 1369305.6,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 265,
+          "names": [
+            "context caption"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 349532,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 266,
+          "names": [
+            "model caption"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 349532,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 267,
+          "names": [
+            "tools caption"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 349532,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 268,
+          "names": [
+            "verify caption"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 349532,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 292,
+          "names": [
+            "Route Fix a label text"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 267,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 727980,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 293,
+          "names": [
+            "Route Trace a regression text"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 267,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 727980,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 294,
+          "names": [
+            "Route Read a live sheet text"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 267,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 727980,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 295,
+          "names": [
+            "Select Astra text"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 391,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1066492,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 296,
+          "names": [
+            "Select Sol text"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 391,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1066492,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 297,
+          "names": [
+            "Select Terra text"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 391,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1066492,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 298,
+          "names": [
+            "Select Luna text"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 391,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1066492,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 299,
+          "names": [
+            "Output check status text"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 129,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 703164,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 300,
+          "names": [
+            "Archive face brief"
+          ],
+          "url": "",
+          "width": 384,
+          "height": 448,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 688128,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 301,
+          "names": [
+            "Archive face sample"
+          ],
+          "url": "",
+          "width": 384,
+          "height": 448,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 688128,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 302,
+          "names": [
+            "Archive face image"
+          ],
+          "url": "",
+          "width": 384,
+          "height": 448,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 688128,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 303,
+          "names": [
+            "Archive face agents"
+          ],
+          "url": "",
+          "width": 384,
+          "height": 448,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 688128,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 304,
+          "names": [
+            "Archive face old"
+          ],
+          "url": "",
+          "width": 384,
+          "height": 448,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 688128,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 305,
+          "names": [
+            "Archive face note"
+          ],
+          "url": "",
+          "width": 384,
+          "height": 448,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 688128,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 306,
+          "names": [
+            "Context result ribbon"
+          ],
+          "url": "",
+          "width": 768,
+          "height": 112,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 344064,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 307,
+          "names": [
+            "Tool connect"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 224,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 611644,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 308,
+          "names": [
+            "Tool procedure"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 224,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 611644,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 309,
+          "names": [
+            "Tool results"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 224,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 611644,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 310,
+          "names": [
+            "Tool tool"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 224,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 611644,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 311,
+          "names": [
+            "Tool skill"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 224,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 611644,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 312,
+          "names": [
+            "Tool file"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 224,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 611644,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 313,
+          "names": [
+            "Tool setup status"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 96,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 524284,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 314,
+          "names": [
+            "Gate action read"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 260,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 709804,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 315,
+          "names": [
+            "Gate action draft"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 260,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 709804,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 316,
+          "names": [
+            "Gate action check"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 260,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 709804,
+          "estimatedMultisampleColorBytes": 0
+        }
+      ],
+      "textureStorageBytes": 115934195.19999999,
+      "multisampleColorStorageBytes": 0,
+      "unknownTextureFormats": 0,
+      "limits": [
+        "Active mesh triangles count each camera-active mesh once, including triangles outside its visible pixels; not exact occlusion visibility.",
+        "Main draw phase is Babylon rendering-manager submission; total also includes shadow and finishing passes.",
+        "Texture storage is an allocation estimate; driver padding, default framebuffer, implicit depth/stencil renderbuffers, CPU decoded images, geometry and program memory are excluded.",
+        "Scene time is CPU-side elapsed browser time, not native GPU time."
+      ],
+      "finishing": {
+        "quality": "balanced",
+        "cameraSlots": 2,
+        "activeEffects": 2,
+        "registeredEffects": 0
+      }
+    }
+  }
+}

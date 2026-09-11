@@ -1,0 +1,26 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-evaluate",
+  "result": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/architecture-gpu-textures.json",
+    "goalId": "architecture-gpu-textures",
+    "iteration": 1,
+    "candidateRunId": "run_1789050500775_efe3d8062e6b428796fad6d6f1ed6693",
+    "baselineValue": 227789312.2,
+    "candidateValue": 143903399.2,
+    "target": 160000000,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 1,
+    "allowedPaths": [
+      "public/assets/decoders/ktx2-9.25.0",
+      "public/assets/headquarters/compressed",
+      "src/architecture-textures.ts",
+      "src/world.ts"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  },
+  "completedAt": "2026-09-10T14:30:53.267Z"
+}

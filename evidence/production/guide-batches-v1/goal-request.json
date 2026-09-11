@@ -1,0 +1,16 @@
+{
+  "id": "skinned-guide-submissions",
+  "metric": "render.total_draw_calls",
+  "statistic": "max",
+  "unit": "count",
+  "direction": "lower",
+  "target": 100,
+  "maximumIterations": 1,
+  "allowedPaths": [
+    "src/skinned-guide-batch.ts",
+    "src/mascot-detail.ts",
+    "src/world.ts",
+    "tests/guide-batches",
+    "tools/guide-batches"
+  ]
+}

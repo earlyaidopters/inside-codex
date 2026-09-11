@@ -1,0 +1,106 @@
+{
+  "pass": true,
+  "scope": "Ten matched still views, two quality profiles. Numeric thresholds flag raster changes; assistant inspection is separately required. Not all-camera equivalence.",
+  "rows": [
+    {
+      "quality": "high",
+      "view": "arrival",
+      "meanAbsoluteChannelDifference": 0.0013604681069958847,
+      "pixelsWithLumaDifferenceAbove8": 156,
+      "percentAbove8": 0.0030092592592592593,
+      "activeMarkers": 9,
+      "trianglesSaved": 155538,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "high",
+      "view": "control",
+      "meanAbsoluteChannelDifference": 0.0036850565843621398,
+      "pixelsWithLumaDifferenceAbove8": 387,
+      "percentAbove8": 0.007465277777777778,
+      "activeMarkers": 2,
+      "trianglesSaved": 34564,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "high",
+      "view": "tasks",
+      "meanAbsoluteChannelDifference": 0.005671360596707819,
+      "pixelsWithLumaDifferenceAbove8": 682,
+      "percentAbove8": 0.013155864197530865,
+      "activeMarkers": 3,
+      "trianglesSaved": 51846,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "high",
+      "view": "tools",
+      "meanAbsoluteChannelDifference": 0.005442579732510288,
+      "pixelsWithLumaDifferenceAbove8": 746,
+      "percentAbove8": 0.014390432098765431,
+      "activeMarkers": 3,
+      "trianglesSaved": 51846,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "high",
+      "view": "handoff",
+      "meanAbsoluteChannelDifference": 0.0023614326131687242,
+      "pixelsWithLumaDifferenceAbove8": 309,
+      "percentAbove8": 0.005960648148148148,
+      "activeMarkers": 3,
+      "trianglesSaved": 51846,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "balanced",
+      "view": "arrival",
+      "meanAbsoluteChannelDifference": 0.00038836229594523436,
+      "pixelsWithLumaDifferenceAbove8": 12,
+      "percentAbove8": 0.0009114108640174991,
+      "activeMarkers": 4,
+      "trianglesSaved": 69128,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "balanced",
+      "view": "control",
+      "meanAbsoluteChannelDifference": 0.0009987544051525093,
+      "pixelsWithLumaDifferenceAbove8": 22,
+      "percentAbove8": 0.001670919917365415,
+      "activeMarkers": 2,
+      "trianglesSaved": 34564,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tasks",
+      "meanAbsoluteChannelDifference": 0.0026868898610604773,
+      "pixelsWithLumaDifferenceAbove8": 101,
+      "percentAbove8": 0.00767104143881395,
+      "activeMarkers": 2,
+      "trianglesSaved": 34564,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tools",
+      "meanAbsoluteChannelDifference": 0.002512455948474906,
+      "pixelsWithLumaDifferenceAbove8": 78,
+      "percentAbove8": 0.005924170616113744,
+      "activeMarkers": 2,
+      "trianglesSaved": 34564,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    },
+    {
+      "quality": "balanced",
+      "view": "handoff",
+      "meanAbsoluteChannelDifference": 0.0009167274273909346,
+      "pixelsWithLumaDifferenceAbove8": 29,
+      "percentAbove8": 0.002202576254708956,
+      "activeMarkers": 2,
+      "trianglesSaved": 34564,
+      "sameCameraPoseAndNonmarkerGeometry": true
+    }
+  ]
+}

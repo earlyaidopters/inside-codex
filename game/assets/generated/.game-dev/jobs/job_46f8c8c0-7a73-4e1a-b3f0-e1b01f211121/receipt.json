@@ -1,0 +1,33 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-evaluate",
+  "result": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/static-exhibit-submissions.json",
+    "goalId": "static-exhibit-submissions",
+    "iteration": 1,
+    "candidateRunId": "run_1789061992086_d3946f1d59bd4b1995c63b02c8689331",
+    "baselineValue": 234,
+    "candidateValue": 178,
+    "target": 180,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 0,
+    "allowedPaths": [
+      "src/branch-exhibit.ts",
+      "src/context-exhibit.ts",
+      "src/harness-exhibit.ts",
+      "src/model-exhibit.ts",
+      "src/permission-exhibit.ts",
+      "src/review-exhibit.ts",
+      "src/static-parts.ts",
+      "src/steering-exhibit.ts",
+      "src/tool-exhibit.ts",
+      "tests/static-parts",
+      "tools/static-parts"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  },
+  "completedAt": "2026-09-10T17:47:22.698Z"
+}

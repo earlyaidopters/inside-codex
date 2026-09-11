@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "checks": [
+    "1440x900 high: all three spatial controls open their matching panel",
+    "1440x900 balanced: all three spatial controls open their matching panel",
+    "1440x900: timezone preview, edit invalidation, quiet/finding/weekend runs, source failure/recovery, host failure/recovery, pause, keyboard enable and receipt reload pass",
+    "390x844 high: all three spatial controls open their matching panel",
+    "390x844 balanced: all three spatial controls open their matching panel",
+    "390x844: timezone preview, edit invalidation, quiet/finding/weekend runs, source failure/recovery, host failure/recovery, pause, keyboard enable and receipt reload pass",
+    "844x390 high: all three spatial controls open their matching panel",
+    "844x390 balanced: all three spatial controls open their matching panel",
+    "844x390: timezone preview, edit invalidation, quiet/finding/weekend runs, source failure/recovery, host failure/recovery, pause, keyboard enable and receipt reload pass"
+  ],
+  "errors": [],
+  "failed": []
+}

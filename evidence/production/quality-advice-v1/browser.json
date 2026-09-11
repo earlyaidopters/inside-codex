@@ -1,0 +1,83 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "name": "chrome",
+      "pass": true,
+      "errors": [],
+      "scope": "Controlled RAF scheduling delay, not a physical slow-device benchmark",
+      "recommended": {
+        "quality": "high",
+        "status": "recommend-balanced",
+        "windows": 2,
+        "lastWindow": {
+          "samples": 121,
+          "medianMs": 49,
+          "p95Ms": 52.900000005960464
+        }
+      },
+      "balanced": {
+        "quality": "balanced",
+        "status": "steady",
+        "windows": 2,
+        "lastWindow": {
+          "samples": 360,
+          "medianMs": 16.69999998807907,
+          "p95Ms": 17.400000005960464
+        }
+      }
+    },
+    {
+      "name": "firefox",
+      "pass": true,
+      "errors": [],
+      "scope": "Controlled RAF scheduling delay, not a physical slow-device benchmark",
+      "recommended": {
+        "quality": "high",
+        "status": "recommend-balanced",
+        "windows": 2,
+        "lastWindow": {
+          "samples": 120,
+          "medianMs": 51,
+          "p95Ms": 52
+        }
+      },
+      "balanced": {
+        "quality": "balanced",
+        "status": "steady",
+        "windows": 2,
+        "lastWindow": {
+          "samples": 357,
+          "medianMs": 17,
+          "p95Ms": 18
+        }
+      }
+    },
+    {
+      "name": "webkit",
+      "pass": true,
+      "errors": [],
+      "scope": "Controlled RAF scheduling delay, not a physical slow-device benchmark",
+      "recommended": {
+        "quality": "high",
+        "status": "recommend-balanced",
+        "windows": 2,
+        "lastWindow": {
+          "samples": 121,
+          "medianMs": 49,
+          "p95Ms": 54
+        }
+      },
+      "balanced": {
+        "quality": "balanced",
+        "status": "steady",
+        "windows": 2,
+        "lastWindow": {
+          "samples": 180,
+          "medianMs": 33,
+          "p95Ms": 35
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "name": "chrome",
+      "version": "153.0.8010.36",
+      "checks": [
+        "Matching release retries through a fresh URL and retains the selected 3D port",
+        "Changed release is rejected before import; explicit reload preserves saved quality and restores the world"
+      ],
+      "pass": true
+    },
+    {
+      "name": "firefox",
+      "version": "155.0",
+      "checks": [
+        "Matching release retries through a fresh URL and retains the selected 3D port",
+        "Changed release is rejected before import; explicit reload preserves saved quality and restores the world"
+      ],
+      "pass": true
+    },
+    {
+      "name": "webkit",
+      "version": "26.6",
+      "checks": [
+        "Matching release retries through a fresh URL and retains the selected 3D port",
+        "Changed release is rejected before import; explicit reload preserves saved quality and restores the world"
+      ],
+      "pass": true
+    }
+  ]
+}

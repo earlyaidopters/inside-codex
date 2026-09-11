@@ -1,0 +1,117 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "doctor",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.doctor.v1",
+    "version": "1.0.2",
+    "healthy": true,
+    "checks": [
+      {
+        "id": "platform",
+        "status": "pass",
+        "detail": "darwin arm64"
+      },
+      {
+        "id": "node-runtime",
+        "status": "pass",
+        "detail": "v26.5.0",
+        "evidence": {
+          "executable": "/opt/homebrew/Cellar/node/26.5.0/bin/node",
+          "minimum": "22.5.0 (node:sqlite catalog)"
+        }
+      },
+      {
+        "id": "workspace",
+        "status": "pass",
+        "detail": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated",
+        "evidence": {
+          "jobsDir": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.jobs",
+          "durableJobsDir": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/jobs",
+          "packagesDir": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages",
+          "catalogPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/catalog.sqlite3",
+          "runsDir": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/runs"
+        }
+      },
+      {
+        "id": "tripo-credential",
+        "status": "unavailable",
+        "detail": "not configured"
+      },
+      {
+        "id": "leonardo-credential",
+        "status": "unavailable",
+        "detail": "not configured"
+      },
+      {
+        "id": "blender",
+        "status": "unavailable",
+        "detail": "not installed or configured"
+      },
+      {
+        "id": "blender-normalizer",
+        "status": "pass",
+        "detail": "/Users/markkashef/.local/share/game-development-studio/scripts/blender_normalize.py"
+      },
+      {
+        "id": "blender-usd-exporter",
+        "status": "pass",
+        "detail": "/Users/markkashef/.local/share/game-development-studio/scripts/blender_usd_export.py"
+      },
+      {
+        "id": "usdzip",
+        "status": "pass",
+        "detail": "/usr/bin/usdzip"
+      },
+      {
+        "id": "sqlite-catalog-runtime",
+        "status": "pass",
+        "detail": "node:sqlite is available"
+      },
+      {
+        "id": "codex-skills",
+        "status": "warning",
+        "detail": "/Users/markkashef/.codex/skills",
+        "evidence": {
+          "skills": [
+            {
+              "name": "game-development-studio",
+              "installed": false
+            },
+            {
+              "name": "game-asset-authoring",
+              "installed": false
+            },
+            {
+              "name": "game-asset-vendoring",
+              "installed": false
+            },
+            {
+              "name": "game-visual-debug",
+              "installed": false
+            },
+            {
+              "name": "game-performance-optimize",
+              "installed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": "helper-version",
+        "status": "pass",
+        "detail": "1.0.2",
+        "evidence": {
+          "executable": "/opt/homebrew/bin/game-dev",
+          "appVersion": "not supplied"
+        }
+      },
+      {
+        "id": "metal-evidence",
+        "status": "warning",
+        "detail": "platform supports Metal; no GPU capture was executed by doctor"
+      }
+    ],
+    "evidenceCeiling": "Doctor proves local configuration and file/tool discovery only. It does not prove provider authentication, paid generation, Blender output, GPU capture, pixels, signing, notarization, or human review."
+  }
+}

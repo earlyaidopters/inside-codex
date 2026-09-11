@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "quality": "high",
+      "view": "arrival",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 177,
+      "afterDraws": 151,
+      "beforeTriangles": 323784,
+      "afterTriangles": 323784
+    },
+    {
+      "quality": "high",
+      "view": "control",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 91,
+      "afterDraws": 65,
+      "beforeTriangles": 276602,
+      "afterTriangles": 276602
+    },
+    {
+      "quality": "high",
+      "view": "tasks",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 90,
+      "afterDraws": 64,
+      "beforeTriangles": 263718,
+      "afterTriangles": 263718
+    },
+    {
+      "quality": "high",
+      "view": "tools",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 94,
+      "afterDraws": 68,
+      "beforeTriangles": 251388,
+      "afterTriangles": 251388
+    },
+    {
+      "quality": "high",
+      "view": "handoff",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 108,
+      "afterDraws": 82,
+      "beforeTriangles": 249120,
+      "afterTriangles": 249120
+    },
+    {
+      "quality": "balanced",
+      "view": "arrival",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 97,
+      "afterDraws": 71,
+      "beforeTriangles": 170074,
+      "afterTriangles": 170074
+    },
+    {
+      "quality": "balanced",
+      "view": "control",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 81,
+      "afterDraws": 55,
+      "beforeTriangles": 178500,
+      "afterTriangles": 178500
+    },
+    {
+      "quality": "balanced",
+      "view": "tasks",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 76,
+      "afterDraws": 50,
+      "beforeTriangles": 165920,
+      "afterTriangles": 165920
+    },
+    {
+      "quality": "balanced",
+      "view": "tools",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 83,
+      "afterDraws": 57,
+      "beforeTriangles": 153936,
+      "afterTriangles": 153936
+    },
+    {
+      "quality": "balanced",
+      "view": "handoff",
+      "identical": true,
+      "meanAbsoluteChannelDifference": 0.0,
+      "beforeDraws": 98,
+      "afterDraws": 72,
+      "beforeTriangles": 153624,
+      "afterTriangles": 153624
+    }
+  ]
+}

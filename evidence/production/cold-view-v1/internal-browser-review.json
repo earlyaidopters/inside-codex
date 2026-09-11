@@ -1,0 +1,31 @@
+{
+  "surface": "Codex internal browser",
+  "tab": "37",
+  "viewport": [
+    547,
+    614
+  ],
+  "actions": [
+    "Reload final build",
+    "Step inside",
+    "Select Context, Tools, Verification using UI",
+    "Submit",
+    "Inspect screenshot",
+    "Pause and retain tab"
+  ],
+  "feedback": "correct",
+  "panel": {
+    "top": 244.30209350585935,
+    "bottom": 478.3333435058594
+  },
+  "feedbackBounds": {
+    "top": 379.15625,
+    "bottom": 470.2395858764648
+  },
+  "entireFeedbackVisible": true,
+  "firstTwoChoicesInitiallyVisible": true,
+  "paused": true,
+  "savedDiscoveries": 9,
+  "runtimeStateProbe": "Unavailable from this CUA evaluate context; visible Resume control and DOM bounds used instead",
+  "fullReleaseAccepted": false
+}

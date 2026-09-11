@@ -1,0 +1,42 @@
+[
+  {
+    "path": "src/world.ts",
+    "bytes": 27725,
+    "sha256": "9a80edbd1fc1afe482cb761262920c8703bae4154983148ec2e8955ecfbaf136"
+  },
+  {
+    "path": "src/render-audit.ts",
+    "bytes": 3761,
+    "sha256": "b586fe790478b1cc7be92e1b4ebbfbdb1c6feab19e3aa324c32063b23830bffc"
+  },
+  {
+    "path": "tools/capture-traversal-scenario.mjs",
+    "bytes": 9058,
+    "sha256": "4ca8987f666bf8a346c40c0d8ddd9bf67932eec1b414759251eee01c8b72b7ac"
+  },
+  {
+    "path": "tests/marker-views.mjs",
+    "bytes": 2404,
+    "sha256": "fe304bbc9e602c907189ccbb7510e2a5cd50a8785d38b7f2dfc7d3ea6e4911c7"
+  },
+  {
+    "path": "tools/compare-marker-views.py",
+    "bytes": 2053,
+    "sha256": "32ff359eb205034d23bc31d6bbfb76ff691c115b7c962cbc09d8d33c1b6415dd"
+  },
+  {
+    "path": "tests/render-audit-invariants.mjs",
+    "bytes": 2913,
+    "sha256": "431a43c8676b59ba2041fbfecd65483d6ebbdb0490eb74707a102b8f0597486e"
+  },
+  {
+    "path": "tests/quality-memory-observation.mjs",
+    "bytes": 2722,
+    "sha256": "9ff7c1aa10f4a093ff59b509b98fd4f39c5913164a869a5321c2a75a09a71292"
+  },
+  {
+    "path": ".game-dev/adapter.json",
+    "bytes": 2938,
+    "sha256": "febdc34f349d8b7afe988ca497435e6c7330327874db4e8bc6c552f1fb45bdd7"
+  }
+]

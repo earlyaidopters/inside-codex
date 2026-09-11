@@ -1,0 +1,132 @@
+{
+  "evidenceVerified": true,
+  "fullPerformanceAcceptance": false,
+  "candidateBuildId": "b0a74693f24336d160e3043906cd6faf04c4771174dafdb676bd91d8127482ae",
+  "runs": [
+    {
+      "quality": "balanced",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789040606556_b7de955ed5f44993ac86cecae136fdb1",
+      "buildId": "b0a74693f24336d160e3043906cd6faf04c4771174dafdb676bd91d8127482ae",
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 295364,
+        "maxMainDrawCalls": 139,
+        "maxTotalDrawCalls": 188,
+        "maxTextureEstimateBytes": 240637300.2
+      },
+      "browser": "153.0.8010.36",
+      "graphics": {
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)"
+      },
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      }
+    },
+    {
+      "quality": "high",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789040721945_588dc32db132433584fde12bb0347638",
+      "buildId": "b0a74693f24336d160e3043906cd6faf04c4771174dafdb676bd91d8127482ae",
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 312762,
+        "maxMainDrawCalls": 154,
+        "maxTotalDrawCalls": 207,
+        "maxTextureEstimateBytes": 452349249
+      },
+      "browser": "153.0.8010.36",
+      "graphics": {
+        "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)"
+      },
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      }
+    }
+  ],
+  "correctness": {
+    "memoryInvariant": true,
+    "pixelIdenticalViews": 10,
+    "journeyChecks": 37,
+    "unitTests": 71,
+    "crossEngineQualityChecks": "Five grouped lifecycle checks in each of Chrome, Firefox and WebKit"
+  },
+  "assistantReview": {
+    "browser": "Codex internal browser, tab 34",
+    "url": "http://127.0.0.1:43211/?review=quality-pipeline-v1",
+    "viewport": [
+      1280,
+      720
+    ],
+    "actions": [
+      "Selected Balanced in Settings",
+      "Entered mission 1",
+      "Inspected rendered guide and lesson",
+      "Paused the scene"
+    ],
+    "limits": "Bounded assistant inspection; not human, physical-device or full cross-browser acceptance."
+  },
+  "remaining": [
+    "Balanced resource budget still exceeded",
+    "High resource/draw budgets still exceeded",
+    "Progressive wing/exhibit loading",
+    "Measured quality advice",
+    "Thirty-minute soak and broader recovery/device coverage",
+    "Remaining art/audio/exploration polish",
+    "Independent pilots and hosted release"
+  ]
+}

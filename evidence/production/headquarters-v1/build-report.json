@@ -1,0 +1,71 @@
+{
+  "buildSource": "art-source/build-headquarters.py",
+  "blender": "5.2.1 LTS",
+  "fixtureManifest": "game/public/assets/headquarters/fixtures.json",
+  "meshGroups": [
+    "floor",
+    "shell",
+    "furnishings",
+    "exterior"
+  ],
+  "openings": 12,
+  "booleansApplied": true,
+  "renderViews": [
+    "arrival",
+    "first-wing",
+    "corner-front-left",
+    "corner-front-right",
+    "corner-rear-left",
+    "corner-rear-right",
+    "ceiling-up",
+    "ceiling-oblique-a",
+    "ceiling-oblique-b"
+  ],
+  "humanApproval": false,
+  "files": {
+    "floor-indirect.png": {
+      "bytes": 7534155,
+      "sha256": "5f03fbcc33102057a78dcf50068092faa1d735256c48745e67481e7497bbc422"
+    },
+    "floor-indirect.jpg": {
+      "bytes": 302229,
+      "sha256": "3266ad08c3203cc9d47186df3b60ca08bbb31e79270b87c64420c962272ec20f"
+    },
+    "shell-albedo.png": {
+      "bytes": 7878061,
+      "sha256": "4c9132c22c928330e1bbfb19305554c4e348ee2e4f291752f568aa8b54438727"
+    },
+    "architecture.glb": {
+      "bytes": 32281376,
+      "sha256": "01f6eb38e1b21bfea14c402b4a5a4a29281aca0271a101ee81a26f7f9fedf05d"
+    },
+    "shell-indirect.jpg": {
+      "bytes": 683738,
+      "sha256": "c557ba40dd36e9c527eb54dc5ca44a2df8ee5dcd598857edd658d403172a004b"
+    },
+    "shell-indirect.png": {
+      "bytes": 8176912,
+      "sha256": "af90a4f4d5730f677970836ff428ca540de46900c886e2df379752ed9472a188"
+    },
+    "furnishings-albedo.png": {
+      "bytes": 5934536,
+      "sha256": "55aa7070a6441f7687a820aa1191dcda0622f116c4ccd01851c6307565d5f3b0"
+    },
+    "fixtures.json": {
+      "bytes": 6201,
+      "sha256": "48dacf1338128a51f3daa839032be527945586183fd2e3e14699e9afba023516"
+    },
+    "floor-albedo.png": {
+      "bytes": 11546280,
+      "sha256": "6222ad2ca58e70af5efd114b6b6c32539929a49ab0322a147c61304aad1eae11"
+    },
+    "furnishings-indirect.jpg": {
+      "bytes": 802927,
+      "sha256": "bd0d4434980a153784f431c1096c351eb69e53f256c34011b6f784067226a58e"
+    },
+    "furnishings-indirect.png": {
+      "bytes": 7437702,
+      "sha256": "a7f4c63f945f295f4e4817e2748c3195b48237f3c3161f06b3d1e7fd91e821e2"
+    }
+  }
+}

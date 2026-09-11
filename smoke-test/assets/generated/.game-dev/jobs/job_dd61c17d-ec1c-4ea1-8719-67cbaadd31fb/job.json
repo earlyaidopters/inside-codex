@@ -1,0 +1,22 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_dd61c17d-ec1c-4ea1-8719-67cbaadd31fb",
+  "operation": "package.verify",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "package",
+      "verify",
+      "assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0"
+    ],
+    "flags": {}
+  },
+  "attempts": 1,
+  "eventCount": 1,
+  "artifacts": [],
+  "createdAt": "2026-09-10T02:23:23.358Z",
+  "updatedAt": "2026-09-10T02:23:23.395Z",
+  "startedAt": "2026-09-10T02:23:23.366Z",
+  "completedAt": "2026-09-10T02:23:23.395Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/jobs/job_dd61c17d-ec1c-4ea1-8719-67cbaadd31fb/receipt.json"
+}

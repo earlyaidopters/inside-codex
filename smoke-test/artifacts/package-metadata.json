@@ -1,0 +1,24 @@
+{
+  "description": "Private procedural diagnostic fixture: textured PBR mesh, armature animation, and browser import test. Not approved game art.",
+  "category": "other",
+  "license": "LicenseRef-Private-Smoke-Test",
+  "provenance": {
+    "notes": "Created locally by scripts/build-scene.py for Mark's explicitly authorized smoke test. No third-party generated geometry. All rights reserved; no public license grant.",
+    "origin": "authored",
+    "author": "Mark Kashef project / Codex smoke-test fixture",
+    "sourceUri": "scripts/build-scene.py",
+    "prompt": "Create a small Blender scene, render it, export a textured and animated GLB, and verify it in the browser."
+  },
+  "policy": {
+    "requireUVs": true,
+    "requireNormals": true,
+    "requireTangentsWithNormalMap": true,
+    "requireBaseColorTexture": true,
+    "maxTriangles": 100000,
+    "maxMaterials": 12,
+    "minTextureSize": 128,
+    "requirePowerOfTwoTextures": true,
+    "maxDimensionMeters": 10,
+    "minDimensionMeters": 0.001
+  }
+}

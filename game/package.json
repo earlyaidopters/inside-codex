@@ -1,0 +1,29 @@
+{
+  "name": "inside-codex",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 43210 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 43210 --strictPort",
+    "test": "node --test tests/learning.test.mjs tests/resources.test.mjs tests/branch.test.mjs tests/atlas.test.mjs tests/context.test.mjs tests/models.test.mjs tests/permissions.test.mjs tests/review.test.mjs tests/steering.test.mjs tests/tools.test.mjs tests/automation.test.mjs tests/handoff.test.mjs tests/capstone.test.mjs tests/audio-settings.test.mjs tests/narration-assets.test.mjs tests/world-tour.test.mjs tests/walkthrough.test.mjs tests/context-depth.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "test:recovery": "node tests/recovery.mjs"
+  },
+  "dependencies": {
+    "@babylonjs/core": "9.25.0",
+    "@babylonjs/loaders": "9.25.0",
+    "fflate": "0.8.3"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.4.2",
+    "@gltf-transform/extensions": "^4.4.2",
+    "@gltf-transform/functions": "^4.4.2",
+    "gltf-validator": "^2.0.0-dev.3.10",
+    "meshoptimizer": "1.2.0",
+    "playwright": "1.63.0",
+    "typescript": "7.0.2",
+    "vite": "8.2.2"
+  }
+}

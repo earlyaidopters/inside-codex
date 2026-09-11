@@ -1,0 +1,18 @@
+{
+  "installedAt": "2026-09-10T02:17:49.666596+00:00",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "blender": "Blender 5.2.1 LTS",
+  "blenderInstall": "/Applications/Blender.app",
+  "gameDevVersion": "1.0.2",
+  "gameDevSource": "https://github.com/theisegoria/game-development-studio",
+  "gameDevCommit": "96a0b4f34b979279ab983e9547af43133e85f310",
+  "gameDevInstall": "/Users/markkashef/.local/share/game-development-studio",
+  "gameDevOnPath": "/opt/homebrew/bin/game-dev",
+  "dependencies": {
+    "babylonjs": "9.25.0",
+    "babylonjs-loaders": "9.25.0",
+    "playwright": "1.63.0"
+  },
+  "providerCalls": 0,
+  "scope": "Local engineering smoke test; no product art approvals or public deployment."
+}

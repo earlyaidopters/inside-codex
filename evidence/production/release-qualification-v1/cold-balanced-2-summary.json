@@ -1,0 +1,109 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.summarize",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.performance_summary.v2",
+    "runId": "run_1789067304057_d5db26a53f2b4a999e8660adc19a430c",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789067304057_d5db26a53f2b4a999e8660adc19a430c",
+    "adapterId": "inside-codex",
+    "scenarioId": "cold-startup",
+    "metrics": [
+      {
+        "metric": "startup.ready_time",
+        "unit": "ms",
+        "samples": 1,
+        "min": 6127.9000000059605,
+        "max": 6127.9000000059605,
+        "mean": 6127.9000000059605,
+        "median": 6127.9000000059605,
+        "p95": 6127.9000000059605,
+        "p99": 6127.9000000059605,
+        "standardDeviation": 0
+      },
+      {
+        "metric": "startup.transfer_bytes",
+        "unit": "bytes",
+        "samples": 1,
+        "min": 6748105,
+        "max": 6748105,
+        "mean": 6748105,
+        "median": 6748105,
+        "p95": 6748105,
+        "p99": 6748105,
+        "standardDeviation": 0
+      }
+    ],
+    "measurements": [
+      {
+        "metric": "startup.ready_time",
+        "unit": "ms",
+        "value": 6127.9000000059605,
+        "source": "capture",
+        "aggregation": "sample"
+      },
+      {
+        "metric": "startup.transfer_bytes",
+        "unit": "bytes",
+        "value": 6748105,
+        "source": "capture",
+        "aggregation": "sample"
+      }
+    ],
+    "ambiguousMetrics": [],
+    "aggregates": [],
+    "groups": [
+      {
+        "metric": "startup.ready_time",
+        "unit": "ms",
+        "samples": 1,
+        "min": 6127.9000000059605,
+        "max": 6127.9000000059605,
+        "mean": 6127.9000000059605,
+        "median": 6127.9000000059605,
+        "p95": 6127.9000000059605,
+        "p99": 6127.9000000059605,
+        "standardDeviation": 0,
+        "source": "capture"
+      },
+      {
+        "metric": "startup.transfer_bytes",
+        "unit": "bytes",
+        "samples": 1,
+        "min": 6748105,
+        "max": 6748105,
+        "mean": 6748105,
+        "median": 6748105,
+        "p95": 6748105,
+        "p99": 6748105,
+        "standardDeviation": 0,
+        "source": "capture"
+      }
+    ],
+    "controls": {
+      "adapterHash": "bd044857db3084f62b222e5241bdaa9f6acdfd7c74252fceacfade53cd0b0ac3",
+      "parameters": {
+        "quality": "balanced"
+      },
+      "hardware": {
+        "browser": "153.0.8010.36",
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)"
+      },
+      "build": {
+        "id": "a75745e781cbcb7296f440a497cda267a7980c55d479b990fcb195e31d8cb324",
+        "quality": "balanced",
+        "width": 390,
+        "height": 844,
+        "dpr": 2
+      }
+    },
+    "sources": {
+      "capture": 2,
+      "telemetry": 0,
+      "foreign-telemetry": 0,
+      "profile": 0
+    },
+    "hardwarePerformanceEvidenceAdmitted": false,
+    "evidenceCeiling": "Statistics are deterministic reductions over sealed capture measurements, JSONL telemetry, and timing-shaped numeric profile fields. They prove neither hardware timing authority nor causal attribution unless the run separately admits native performance evidence."
+  }
+}

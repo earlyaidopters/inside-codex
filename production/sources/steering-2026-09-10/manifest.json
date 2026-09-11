@@ -1,0 +1,11 @@
+{
+  "verifiedAt": "2026-09-10T07:28:33.238857+00:00",
+  "sources": [
+    {
+      "url": "https://learn.chatgpt.com/docs/prompting#steering-and-queuing",
+      "file": "prompting.md",
+      "sha256": "d98b5e396ccb9c6bf552d690d0119e3379654339e4810f9e348ac6cb94040e93",
+      "scope": "Steer adds input to the active run; Queue schedules a later run; queued messages can be edited, reordered, sent or removed."
+    }
+  ]
+}

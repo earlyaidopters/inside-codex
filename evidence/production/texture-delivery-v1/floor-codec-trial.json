@@ -1,0 +1,26 @@
+[
+  {
+    "codec": "rdo1",
+    "bytes": 736515,
+    "meanAbsoluteChannel": 0.15518339474995932,
+    "rms": 0.5701330590682505,
+    "psnrDb": 53.01127912416373,
+    "maxChannel": 28
+  },
+  {
+    "codec": "rdo4",
+    "bytes": 695826,
+    "meanAbsoluteChannel": 0.22057437896728516,
+    "rms": 0.8851853610821414,
+    "psnrDb": 49.190119146905396,
+    "maxChannel": 60
+  },
+  {
+    "codec": "etc1s",
+    "bytes": 137745,
+    "meanAbsoluteChannel": 0.38638822237650555,
+    "rms": 1.0985134122038696,
+    "psnrDb": 47.31469633328778,
+    "maxChannel": 40
+  }
+]

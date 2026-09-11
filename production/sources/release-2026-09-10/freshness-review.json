@@ -1,0 +1,17 @@
+{
+  "scope": "Freshness and changed-section review only; not a full claim-by-claim release audit",
+  "pagesRetrieved": 37,
+  "unchangedPages": 35,
+  "changedPages": [
+    {
+      "file": "prompting.md",
+      "finding": "Previous snapshot captured only Steering and queuing; that section matches the current whole-page snapshot exactly after trimming whitespace. No changed steering claim."
+    },
+    {
+      "file": "plugins.md",
+      "finding": "Overview removed lifecycle hooks, but the same current page explicitly lists Hooks under plugin contents and hooks.md explicitly documents plugin-bundled lifecycle config. Existing atlas summary remains supported."
+    }
+  ],
+  "modelGuidance": "Current models.md matches the prior pinned page. Reviewed Astra/Sol/Terra/Luna, effort, Max/Ultra, experimental context scope; no game content edit made.",
+  "installationSpecificTaskTools": "Exposed tool definitions only; no newly created task or execution proof. Retain installation-specific label and availability limits."
+}

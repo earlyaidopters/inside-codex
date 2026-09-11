@@ -1,0 +1,60 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "package.verify",
+  "result": {
+    "schema": "game_dev.package_verification.v1",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide_balanced/1.0.0",
+    "manifest": {
+      "assetId": "codex_guide_balanced",
+      "category": "character",
+      "description": "Balanced-detail Codex guide. Twelve rounded hand parts reduced by half; source-traced glyph, shell, forearms, skin and twelve clips retained. Internal production asset.",
+      "displayName": "codex_guide_balanced",
+      "files": [
+        {
+          "bytes": 695944,
+          "kind": "model",
+          "path": "model.glb",
+          "sha256": "07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee"
+        },
+        {
+          "bytes": 1805,
+          "kind": "metadata",
+          "path": "metadata.json",
+          "sha256": "bc8c9c22e8b355199f8ee1ee3f69a53b65bc1366926708a4a9855141188b77e5"
+        },
+        {
+          "bytes": 1372,
+          "kind": "provenance",
+          "path": "provenance.json",
+          "sha256": "afa17b2a475687c462ecbcd4716ee80a88b0219922310304342b211187f253fe"
+        },
+        {
+          "bytes": 2731,
+          "kind": "validation",
+          "path": "validation.json",
+          "sha256": "5115fcfafe79b7b96476b6d20b116fb69395771a57f06c7a73fb4e69ca4e1171"
+        }
+      ],
+      "license": "unknown",
+      "model": "model.glb",
+      "packageId": "pkg_c550963a465bc44e3717ec8f",
+      "provenance": {
+        "origin": "authored"
+      },
+      "schema": "game_dev.asset_package.v1",
+      "validation": {
+        "errorCount": 0,
+        "passed": true,
+        "warningCount": 0
+      },
+      "version": "1.0.0"
+    },
+    "hashesVerified": true,
+    "evidence": {
+      "packageBytesVerified": true,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  },
+  "completedAt": "2026-09-10T10:07:11.007Z"
+}

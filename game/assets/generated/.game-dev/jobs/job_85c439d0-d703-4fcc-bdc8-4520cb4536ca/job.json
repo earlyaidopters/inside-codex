@@ -1,0 +1,45 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_85c439d0-d703-4fcc-bdc8-4520cb4536ca",
+  "operation": "performance.goal-create",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-create",
+      "assets/generated/.game-dev/runs/run_1789063754225_6a04cf9b82ee41df91bfec497c79dde9"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "id": "skinned-guide-submissions",
+      "metric": "render.total_draw_calls",
+      "statistic": "max",
+      "unit": "count",
+      "direction": "lower",
+      "target": 100,
+      "maximumIterations": 1,
+      "allowedPaths": [
+        "src/skinned-guide-batch.ts",
+        "src/mascot-detail.ts",
+        "src/world.ts",
+        "tests/guide-batches",
+        "tools/guide-batches"
+      ]
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/skinned-guide-submissions.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T18:12:05.822Z",
+  "updatedAt": "2026-09-10T18:12:06.126Z",
+  "startedAt": "2026-09-10T18:12:05.830Z",
+  "completedAt": "2026-09-10T18:12:06.125Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_85c439d0-d703-4fcc-bdc8-4520cb4536ca/receipt.json"
+}

@@ -1,0 +1,1 @@
+{"id":"balanced-release-high-targets","metric":"render.texture_estimate","statistic":"max","unit":"bytes","direction":"lower","target":245000000,"maximumIterations":2,"allowedPaths":["src/world.ts"]}

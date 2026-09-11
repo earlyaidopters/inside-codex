@@ -1,0 +1,23 @@
+# Promenade camera and layout — clear-promenade-v3
+
+The original smooth camera now travels through a clear architectural corridor. Two complete columns at x=±9 move from z=1 to z=10. Two complete olive trees at x=±22 move from z=2 to z=10. Columns at z=14, benches, partitions, real openings, all twelve exhibits and the guide route remain intact. This is a physical layout revision; objects are not faded out or hidden during travel.
+
+The old layout produced 29 obstructed samples across six of seven diagnostic routes, including 17 center-ray hits. A first automatic camera avoidance experiment removed sampled occlusion but swung up to about 10.6 radians/second. A closer overhead transit experiment lost the guide below the frame. Both were rejected. Their code and reports are retained as evidence, not shipped behavior.
+
+`art-source/clear-promenade.py` matches 78 complete source objects to connected components in the merged runtime master, allowing at most 20 micrometres of source/export coordinate drift. It translates those components and leaves their UVs intact. The independent GLB comparison verifies 20,176 moved export vertices; all other positions, UVs, topology and embedded albedo images remain unchanged. Maximum normal drift on re-export is 0.029574 degrees, below the declared 0.1-degree tolerance. Packing retains all 223,458 triangles; the runtime GLB is 6,343,808 bytes.
+
+The separate authoring and merged runtime masters are `headquarters-clear-promenade.blend` and `headquarters-clear-promenade-runtime.blend`. `bake-promenade.py` restores the original float albedo sources in memory and produces three new 2048², 256-sample indirect maps. `denoise-promenade.py` denoises and encodes them as Raw JPEG95. Runtime albedo stays embedded and unchanged. Prior geometry, layout and runtime lightmaps are frozen under the study's `previous/` directory. Current source hashes and actual-geometry plans are in `production/rooms/architecture-revision.json` and `plan-metadata.json`.
+
+## Verification
+
+- `evidence/production/camera-layout-v3/final-{desktop,portrait,landscape}/report.json`: 15 routes at each of 1440×900, 390×844 and 844×390, DPR 2. Every mission destination, home and capstone is visited. Across 1,235 sampled frames, no one of the nine guide-core rays hits interior architecture and no core point leaves the camera viewport. Maximum observed angular rate is 0.028233 rad/s. This sampling is not a hardware timing benchmark.
+- `controls/report.json`: 12 checks at those three sizes exercise pausing mid-travel, changing destinations while paused, resuming, redirecting again mid-route, divider clearance, reduced motion and balanced quality. 72 reroute samples remain clear. State is read diagnostically; all mutations use visible controls.
+- `state.log`: all 71 learning/content/resource tests pass. `build-adopted.log`: TypeScript/build pass with the existing chunk warning. `full-journey/report.json`: 37 checks pass, no page exceptions or failed requests; includes all missions, capstone, downloaded resources, persistence, quality and pause behavior.
+- The first portrait framing diagnostic mistakenly passed a bottom-origin viewport to a top-origin projection API. Actual images contradicted that result. The corrected diagnostic is used in all final reports. An earlier dev-server test was interrupted by hot reload; final runs use the fixed built preview.
+- `sealed-runs.json` identifies verified baseline/candidate game-dev captures for the new `promenade-finish` scenario. Both use fixed reduced-motion arrival/archive poses. Architecture and matching indirect maps vary together. The closed artifacts, decoded color captures and comparison are verified; they prove no native GPU timing or human approval.
+
+## Visual assessment and limits
+
+Assistant inspection covered the desktop crossing, short-landscape capstone travel, portrait center-wing travel, final settled arrival/archive lighting, and internal-browser travel from mission 1 to 9 to 5 at 1280×720. The guide remains legible, the original camera no longer swings around obstacles, and the floor/scene lighting has no stale column or tree bake at the old positions. Current motion and spatial receipts are stronger than the discarded zero-occlusion-only results.
+
+This resolves the observed pillar/tree obstruction for the authored tour routes. It does not establish collision-free free exploration, complete animated-silhouette clearance in every orbit, physical-phone performance, independent learning outcomes, final mascot/art approval or community release readiness. Full art, audio, exploration, performance, browser/device, human-pilot and hosted gates remain active.

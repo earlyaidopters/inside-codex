@@ -1,0 +1,38 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_8cd39d91-fca9-426c-bf22-3aed594563c8",
+  "operation": "scenario.run",
+  "status": "failed",
+  "request": {
+    "positionals": [
+      "scenario",
+      "run",
+      "camera-clearance"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "parameters": {
+        "variant": "baseline"
+      }
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [],
+  "createdAt": "2026-09-10T19:32:13.674Z",
+  "updatedAt": "2026-09-10T19:32:13.718Z",
+  "startedAt": "2026-09-10T19:32:13.688Z",
+  "completedAt": "2026-09-10T19:32:13.718Z",
+  "error": {
+    "error": "INVALID_INPUT",
+    "message": "scenario request contains undeclared parameters",
+    "retryable": false,
+    "details": {
+      "unknown": [
+        "parameters"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "scenario.plan",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.scenario_plan.v1",
+    "runId": "run_1789019782607_3ec63acf2d7945f7936fd460a41ac8df",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789019782607_3ec63acf2d7945f7936fd460a41ac8df",
+    "adapterId": "inside-codex",
+    "adapterVersion": "1.0.0",
+    "adapterManifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/adapter.json",
+    "adapterManifestSha256": "c1239926ffae4e782b2b51db127e323098440d50f788a04a0269277e07d0aeeb",
+    "scenarioId": "floor-finish",
+    "title": "Floor and stage material comparison",
+    "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+    "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-floor-scenario.mjs",
+    "arguments": [
+      "candidate"
+    ],
+    "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+    "timeoutSeconds": 60,
+    "capabilities": [
+      "gpu"
+    ],
+    "parameters": {
+      "variant": "candidate"
+    },
+    "output": {
+      "format": "game-dev-capture-v1",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789019782607_3ec63acf2d7945f7936fd460a41ac8df/capture.json"
+    },
+    "requiredAuthorizations": [
+      "confirm",
+      "gpu"
+    ],
+    "evidenceCeiling": "This plan proves only resolved local configuration. It executes nothing and proves no build, GPU, pixel, performance, signing, or human-review result."
+  }
+}

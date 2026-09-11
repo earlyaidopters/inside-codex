@@ -1,0 +1,51 @@
+{
+  "pass": true,
+  "browser": "153.0.8010.36",
+  "checks": [
+    "http-503: failure preserves the guided lesson controls and Retry 3D reloads a working scene",
+    "bad-gzip: failure preserves the guided lesson controls and Retry 3D reloads a working scene",
+    "decoder-503: failure preserves the guided lesson controls and Retry 3D reloads a working scene",
+    "Without native DecompressionStream, the bundled asynchronous decoder starts the scene without remote requests",
+    "A host that already unpacks the sidecar is accepted without double decompression"
+  ],
+  "errors": [],
+  "receipts": [
+    {
+      "mode": "http-503",
+      "recovered": {
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      }
+    },
+    {
+      "mode": "bad-gzip",
+      "recovered": {
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      }
+    },
+    {
+      "mode": "decoder-503",
+      "recovered": {
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      }
+    }
+  ],
+  "scope": "Chrome with controlled network/feature fixtures. No physical-device, hosted-CDN or native memory claim."
+}

@@ -1,0 +1,75 @@
+{
+  "asset": "game/public/assets/codex-mascot.glb",
+  "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610",
+  "bytes": 912508,
+  "editableMaster": "art-source/codex-mascot-traced-glyph-v4.blend",
+  "sourceActionsMaster": "art-source/codex-mascot-all-actions.blend",
+  "baseline": "evidence/production/mascot-v4/baseline.glb",
+  "packageVersion": "4.2.0",
+  "files": [
+    {
+      "path": "art-source/codex-mascot-traced-glyph-v4.blend",
+      "bytes": 419087,
+      "sha256": "8bee1d1ab024f29c1cc85275cfa336c66b80dd4bc969f3879778250d542f7053"
+    },
+    {
+      "path": "art-source/codex-mascot-all-actions.blend",
+      "bytes": 401587,
+      "sha256": "8c873bc50f85f229b079f8c3b8cce3939a6e93d34fe6ed050b8de852e79766ee"
+    },
+    {
+      "path": "art-source/glyph-contours.json",
+      "bytes": 6621,
+      "sha256": "d60d593bbda4e160f5ddd34e672cee6a1dfb4b763726ac95c1b822bed9d24fd4"
+    },
+    {
+      "path": "art-source/logo-contour.json",
+      "bytes": 11739,
+      "sha256": "5fe4c10082876b4104ca6fb13406a52e10954e1dc319dc0dfbf56de780e5722d"
+    },
+    {
+      "path": "game/public/assets/codex-mascot.glb",
+      "bytes": 912508,
+      "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610"
+    },
+    {
+      "path": "game/public/assets/codex-reference.png",
+      "bytes": 493468,
+      "sha256": "de7d43f3386105ab20952958c2c25beb0d903e2aeb6e1aef57c49a648c0d1c07"
+    }
+  ],
+  "triangles": 25812,
+  "meshParts": 17,
+  "clips": 12,
+  "khronos": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "fullArtApproval": false,
+  "balanced": {
+    "asset": "game/public/assets/codex-mascot-balanced.glb",
+    "editableMaster": "art-source/codex-mascot-balanced.blend",
+    "triangles": 18516,
+    "meshParts": 17,
+    "clips": 12,
+    "packageName": "codex_guide_balanced",
+    "packageVersion": "1.0.0",
+    "files": [
+      {
+        "path": "game/public/assets/codex-mascot-balanced.glb",
+        "bytes": 695944,
+        "sha256": "07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee"
+      },
+      {
+        "path": "art-source/codex-mascot-balanced.blend",
+        "bytes": 436411,
+        "sha256": "945ff5b23a2aa854c234ebd5b1bbe68daf8738467e403bb0ea9af86d2b1dde4c"
+      }
+    ],
+    "khronos": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "runtimeSwitching": "Geometry-only hand swaps preserve live skeleton and animation groups."
+  }
+}

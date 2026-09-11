@@ -1,0 +1,1276 @@
+{
+  "date": "2026-09-10",
+  "reviewer": "Assistant",
+  "scope": "Semantic review of the 50 atlas cards, twelve mission definitions and capstone boundary, using current official source sections and actual game controls. This does not constitute vendor endorsement, human learning validation or live execution of every suggested prompt.",
+  "sourceRetrieval": "2026-09-10T18:33:41.352710+00:00",
+  "sourcePages": 37,
+  "sourceFiles": [
+    {
+      "url": "https://learn.chatgpt.com/docs/projects",
+      "file": "projects.md",
+      "sha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/projects.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/reference/commands",
+      "file": "reference--commands.md",
+      "sha256": "d061b78e320212bea5dcf747e5b8b28b773e2ebe952f6679277bb902b9e46b53",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/reference--commands.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/reference/slash-commands",
+      "file": "reference--slash-commands.md",
+      "sha256": "cd3e8f02f889f63d3e68b9ce8a539f63032796616fefc2021bbd85ed2ab0430d",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/reference--slash-commands.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/long-running-work",
+      "file": "long-running-work.md",
+      "sha256": "b82c9a303d40c78a709b78419db9ff4e311e95fb098021149e218c1038670fec",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/long-running-work.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/notifications",
+      "file": "notifications.md",
+      "sha256": "1127449063b442e36829599f7932eff0a3e90ec648f0ced050a56b6a0cda8957",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/notifications.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/models.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/pricing",
+      "file": "pricing.md",
+      "sha256": "716bbbbcff0d59edcf42e60decb8f472e0c3842dbf116bc9e082d3ff6cf8550f",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/pricing.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+      "file": "agent-configuration--agents-md.md",
+      "sha256": "4a81af9eeb7597184d295ff7f142478855b0b09100d8b75c2ae1058b3dd3203f",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/agent-configuration--agents-md.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/artifacts-viewer",
+      "file": "artifacts-viewer.md",
+      "sha256": "f76869a39ad7174dcd3b452c721beef26bfb37251bf4d34122f0c439964faa37",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/artifacts-viewer.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/image-inputs",
+      "file": "image-inputs.md",
+      "sha256": "4ab13465b69d8e33fd1aa0481d8de1920aedc46a5a3cb0cd857c8957283e01de",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/image-inputs.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/appshots",
+      "file": "appshots.md",
+      "sha256": "0115fae6f95c7ba6afc1d7082bbf0a82b68cddecf7b79e2366cdcd53cd736d53",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/appshots.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/customization/memories",
+      "file": "customization--memories.md",
+      "sha256": "2036fdd568b9982e1760a0060618145642ce49662772985e916ab318b2b74391",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/customization--memories.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/build-skills",
+      "file": "build-skills.md",
+      "sha256": "4093dba843bd333cdfe25df52cd36828b51d1a4199fdb2fcf2be1b7913063775",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/build-skills.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/plugins",
+      "file": "plugins.md",
+      "sha256": "458ec731cd62675e5a65ee17995acd352de35b04793b6bad1b455c2b1e595905",
+      "matchesPriorCapture": false,
+      "prior": "../production/sources/atlas-2026-09-10/plugins.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/extend/mcp",
+      "file": "extend--mcp.md",
+      "sha256": "4b762127ba873b980f295c043d157e95400e92aba021d625db23d43c4b0f6ec4",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/extend--mcp.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/browser",
+      "file": "browser.md",
+      "sha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/browser.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/computer-use",
+      "file": "computer-use.md",
+      "sha256": "0087752b68274730b1757bc94ebb56581057e843120887bbf37800e099c188ca",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/computer-use.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/web-search",
+      "file": "web-search.md",
+      "sha256": "06cdc532ac8c4e520b36f4cc6cba79b3b0e180f5f992dfc9e395e10cfa93a6e4",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/web-search.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/image-generation",
+      "file": "image-generation.md",
+      "sha256": "46295d6599436d99a16cbe6c94240f6e93e005c7a9cdda92c9fd0d495f19b88b",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/image-generation.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/sites",
+      "file": "sites.md",
+      "sha256": "7a7625a6528474e6708284878f3eaed471e4b1138a71dadffca1dff7612a72f9",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/sites.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/visualizations",
+      "file": "visualizations.md",
+      "sha256": "350ec92e6799d112ba33b4a2b625831ddb30de3b4be9f8732f6e629c02917237",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/visualizations.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/agent-approvals-security",
+      "file": "agent-approvals-security.md",
+      "sha256": "ddd3bca26b1055d60fdd0785440ff72583b51458cd76b72081217075bd83c111",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/agent-approvals-security.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/code-review",
+      "file": "code-review.md",
+      "sha256": "eab97281e02140eea76cb67aa81c23d34dee30cdf14605aa2d1c23dd020c2968",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/code-review.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/environments/git-worktrees",
+      "file": "environments--git-worktrees.md",
+      "sha256": "9b9092c425b87140adab9df1b5a8d3cee45bf2829f9b49dfb5add2ba9345b8bb",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/environments--git-worktrees.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+      "file": "agent-configuration--subagents.md",
+      "sha256": "cbc0a4581edd97d9e1d85697fd8431f8823facb77757c76f88a97179c7335fd7",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/agent-configuration--subagents.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/automations",
+      "file": "automations.md",
+      "sha256": "8171600358a44ed6dca27b61117084328503a1ec340beea771ac5b64d916d12e",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/automations.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/cli",
+      "file": "cli.md",
+      "sha256": "324d08847b3bd00152e0df871dec97749fcd21613298acc299f0f3e3dfc36662",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/cli.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/ide",
+      "file": "ide.md",
+      "sha256": "ffcb6485938f706bad76ad6a1a1e0ab84fc30212208fc984ac0cdd97f858d907",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/ide.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/cloud",
+      "file": "cloud.md",
+      "sha256": "65980043d1b2a4bbcee8ad21d106d5a9a27678a0a71025a74eba8ed5cd2e2e46",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/cloud.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/remote",
+      "file": "remote.md",
+      "sha256": "f66dfd08d0d185f586030b728bd18eadfc2abf0346fe37991113ccda8bf18720",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/remote.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/config-file/config-basic",
+      "file": "config-file--config-basic.md",
+      "sha256": "68f9a4614003f8db8e2b9469db7a375663a4a5f08c7cf8ef89a9d7d68f3f2668",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/config-file--config-basic.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/hooks",
+      "file": "hooks.md",
+      "sha256": "d3ae147940e824fd6c92aa020b893cb39f22e9ad404859d22d2b95f33c24ae1e",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/hooks.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/codex-sdk",
+      "file": "codex-sdk.md",
+      "sha256": "2fd124fd4db1c6d9f8ac5e050f109c4d05b4008f7c9513c38da806716a4c9a05",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/codex-sdk.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/app-server",
+      "file": "app-server.md",
+      "sha256": "b62e81cee0ccd2ca60bed1083af110189d4b7b1369107da812a19572096a41d0",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/app-server.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/reference/troubleshooting",
+      "file": "reference--troubleshooting.md",
+      "sha256": "f081cd8867de652c0bcd189461c1e5c60075e7203517f05670fc4c953318b24d",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/reference--troubleshooting.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/features",
+      "file": "features.md",
+      "sha256": "5a2667ce9308f2dc212bda3a0a4d5cdf2bcecc37f7ab77801113cfe1fec28ca7",
+      "matchesPriorCapture": true,
+      "prior": "../production/sources/atlas-2026-09-10/features.md"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/prompting#steering-and-queuing",
+      "file": "prompting.md",
+      "sha256": "14094ff89891aa445714020e19e35b2107fe4122bf67bc1ce89d132e0d1e9325",
+      "matchesPriorCapture": false,
+      "prior": "../production/sources/steering-2026-09-10/prompting.md"
+    }
+  ],
+  "runtimeContentSha256": {
+    "src/atlas.mjs": "64634107cab7b0836783558224c790e32dbbd0cb03385fe022f8ace237a58299",
+    "src/content.ts": "ca0902c73148614ebc127e3f22ec46f299235f5c0032bf70ebfb382b1591ef91",
+    "src/model-lab.mjs": "ebd580b5fdd0083378adf59241b177c19fd8e53d7633040164184be76a58a251",
+    "src/capstone-lab.mjs": "53a1975f972698a5c827edbbec34647639a700e2a3a17c267f5bc9d49ca62602"
+  },
+  "atlas": [
+    {
+      "id": "projects",
+      "title": "Projects and local folders",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Choose the intended project or directory; project types have different context behavior.",
+      "source": "https://learn.chatgpt.com/docs/projects",
+      "file": "projects.md",
+      "sha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36",
+      "judgment": "Local folders and uploaded ChatGPT project context are distinct; surface caveat prevents folder-access inference.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "focused-tasks",
+      "title": "One task, one outcome",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web"
+      ],
+      "prerequisites": "New-task controls and source access depend on the selected client and project.",
+      "source": "https://learn.chatgpt.com/docs/projects",
+      "file": "projects.md",
+      "sha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36",
+      "judgment": "Focused deliverables are suggested practice, not an automatic isolation guarantee.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "pinning",
+      "title": "Pinning and archiving",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web"
+      ],
+      "prerequisites": "Use a supported sidebar and account. Confirm the specific task before reorganizing it.",
+      "source": "https://learn.chatgpt.com/docs/projects",
+      "file": "projects.md",
+      "sha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36",
+      "judgment": "Documentation explicitly separates sidebar placement from context/access and permits archive restoration.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "search-tasks",
+      "title": "Find previous work",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop"
+      ],
+      "prerequisites": "Search matching and shortcut assignments depend on the app version.",
+      "source": "https://learn.chatgpt.com/docs/reference/commands",
+      "file": "reference--commands.md",
+      "sha256": "d061b78e320212bea5dcf747e5b8b28b773e2ebe952f6679277bb902b9e46b53",
+      "judgment": "Commands source distinguishes reopening previous chats from Find in chat.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "commands",
+      "title": "Commands and shortcuts",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Type / to inspect commands available in your current composer.",
+      "source": "https://learn.chatgpt.com/docs/reference/slash-commands",
+      "file": "reference--slash-commands.md",
+      "sha256": "cd3e8f02f889f63d3e68b9ce8a539f63032796616fefc2021bbd85ed2ab0430d",
+      "judgment": "Discovery request avoids promising one slash-command list on every client.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "steering",
+      "title": "Steer work already running",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Keep the task and its execution environment available.",
+      "source": "https://learn.chatgpt.com/docs/long-running-work",
+      "file": "long-running-work.md",
+      "sha256": "b82c9a303d40c78a709b78419db9ff4e311e95fb098021149e218c1038670fec",
+      "judgment": "Long-work source permits ongoing constraints; prompting section supplies precise Steer/Queue distinction.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "goals",
+      "title": "Give long work a finish line",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Goal mode keeps the task’s existing access and approval boundaries.",
+      "source": "https://learn.chatgpt.com/docs/long-running-work",
+      "file": "long-running-work.md",
+      "sha256": "b82c9a303d40c78a709b78419db9ff4e311e95fb098021149e218c1038670fec",
+      "judgment": "Explicit objective and completion evidence match goal guidance; existing permissions remain applicable.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "activity",
+      "title": "Activity and notifications",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Activity view, operating-system permission and notification options vary.",
+      "source": "https://learn.chatgpt.com/docs/notifications",
+      "file": "notifications.md",
+      "sha256": "1127449063b442e36829599f7932eff0a3e90ec648f0ced050a56b6a0cda8957",
+      "judgment": "Notifications source separates desktop Activity, web Scheduled, terminal notifications and IDE observation.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "astra",
+      "title": "GPT-6 Astra",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Must appear in your account’s picker. Rollout, plan and sign-in method matter.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Recommended model scope matches four listed clients; no cloud claim.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "sol",
+      "title": "GPT-5.6 Sol",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web",
+        "Cloud"
+      ],
+      "prerequisites": "Check current model availability and the execution surface.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Depth/open-ended guidance and five-client including cloud scope match current docs.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "terra",
+      "title": "GPT-5.6 Terra",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Select an available model in your current client.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Everyday/tool-use positioning; no cloud or fixed cost promise.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "luna",
+      "title": "GPT-5.6 Luna",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Use a representative sample and check output quality before scaling the task.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Clear repeatable positioning; no invented measured speed/cost.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "spark",
+      "title": "GPT-5.3 Codex Spark",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Check preview availability. This card does not imply image input, API access, or cloud support.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Research preview is text-only, Pro, local clients; exclusions match availability table.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "gpt55",
+      "title": "GPT-5.5",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Check the current picker; saved configurations can outlast model availability.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Other models still lists 5.5; picker caveat retained.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "effort",
+      "title": "Model and effort are separate",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Picker labels and supported effort levels differ by model and client.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Reasoning effort, model choice, latency and tokens remain distinct.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "max-ultra",
+      "title": "Max and Ultra",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Options may need enabling and differ by account. Parallel work needs explicit division and integration.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Single-task depth versus parallel subagents matches models; prerequisites avoid universal availability or permission inference.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "usage",
+      "title": "Usage, tokens and credits",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Account-specific limits and credit rules apply; this guide contains no fixed price or speed estimate.",
+      "source": "https://learn.chatgpt.com/docs/pricing",
+      "file": "pricing.md",
+      "sha256": "716bbbbcff0d59edcf42e60decb8f472e0c3842dbf116bc9e082d3ff6cf8550f",
+      "judgment": "No static prices/limits; asks for actual account usage.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "instructions",
+      "title": "AGENTS.md scope",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "File discovery depends on the working directory and configured guidance files.",
+      "source": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+      "file": "agent-configuration--agents-md.md",
+      "sha256": "4a81af9eeb7597184d295ff7f142478855b0b09100d8b75c2ae1058b3dd3203f",
+      "judgment": "Root-to-current guidance and more specific refinement agree with discovery/merge order.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "source-context",
+      "title": "Relevant source files",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "The source files must be attached or accessible to the selected task.",
+      "source": "https://learn.chatgpt.com/docs/artifacts-viewer",
+      "file": "artifacts-viewer.md",
+      "sha256": "f76869a39ad7174dcd3b452c721beef26bfb37251bf4d34122f0c439964faa37",
+      "judgment": "Relevant files, output contract and conflict handling are practice recommendations; file availability caveat.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "image-context",
+      "title": "Screenshots as context",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Use an image-capable model and a supported attachment or image-reading path.",
+      "source": "https://learn.chatgpt.com/docs/image-inputs",
+      "file": "image-inputs.md",
+      "sha256": "4ab13465b69d8e33fd1aa0481d8de1920aedc46a5a3cb0cd857c8957283e01de",
+      "judgment": "Current screenshot as appearance evidence with image-capable prerequisite.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "appshots",
+      "title": "Bring an app window into context",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop"
+      ],
+      "prerequisites": "macOS Appshots enablement and required permissions. Captured content can include available text beyond the visible area.",
+      "source": "https://learn.chatgpt.com/docs/appshots",
+      "file": "appshots.md",
+      "sha256": "0115fae6f95c7ba6afc1d7082bbf0a82b68cddecf7b79e2366cdcd53cd736d53",
+      "judgment": "Frontmost Mac window and potentially off-screen available text; permissions retained.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "memories",
+      "title": "Memory versus required guidance",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Memory availability and settings vary. Recall is not a substitute for the current source of truth.",
+      "source": "https://learn.chatgpt.com/docs/customization/memories",
+      "file": "customization--memories.md",
+      "sha256": "2036fdd568b9982e1760a0060618145642ce49662772985e916ab318b2b74391",
+      "judgment": "Separate local and web stores; required rules remain explicit AGENTS guidance.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "context-management",
+      "title": "Experimental context management",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "The documented launch scope is ChatGPT Plus/Pro on supported clients; opt-in is off by default and requires a new task.",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "file": "models.md",
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "judgment": "Astra, supported local clients, Plus/Pro opt-in, off by default and new task match launch scope.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "skills",
+      "title": "A skill preserves a procedure",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Standalone and plugin-bundled skills have different distribution surfaces.",
+      "source": "https://learn.chatgpt.com/docs/build-skills",
+      "file": "build-skills.md",
+      "sha256": "4093dba843bd333cdfe25df52cd36828b51d1a4199fdb2fcf2be1b7913063775",
+      "judgment": "Instructions/resources/optional scripts and description matching; plugin distribution caveat.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "plugins",
+      "title": "A plugin distributes capabilities",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web",
+        "CLI",
+        "Mobile"
+      ],
+      "prerequisites": "Some plugins are desktop-only. The docs do not list plugin support in the IDE extension.",
+      "source": "https://learn.chatgpt.com/docs/plugins",
+      "file": "plugins.md",
+      "sha256": "458ec731cd62675e5a65ee17995acd352de35b04793b6bad1b455c2b1e595905",
+      "judgment": "Current parts section explicitly includes hooks; web/mobile/CLI supported, IDE excluded.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "mcp",
+      "title": "MCP connects tools and context",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "A configured server or supported plugin, successful authentication, and available tool permissions are required.",
+      "source": "https://learn.chatgpt.com/docs/extend/mcp",
+      "file": "extend--mcp.md",
+      "sha256": "4b762127ba873b980f295c043d157e95400e92aba021d625db23d43c4b0f6ec4",
+      "judgment": "Direct local configuration versus web remote plugin-backed tools; authenticated scope required.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "browser",
+      "title": "Use the real browser",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web"
+      ],
+      "prerequisites": "The built-in browser is not a CLI/IDE feature. Managed settings can restrict browser actions.",
+      "source": "https://learn.chatgpt.com/docs/browser",
+      "file": "browser.md",
+      "sha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34",
+      "judgment": "Built-in desktop/web availability and actual interaction; CLI/IDE exclusion correct.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "computer-use",
+      "title": "Operate a graphical app",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop"
+      ],
+      "prerequisites": "Supported region/OS, the Computer Use plugin, and required system permissions.",
+      "source": "https://learn.chatgpt.com/docs/computer-use",
+      "file": "computer-use.md",
+      "sha256": "0087752b68274730b1757bc94ebb56581057e843120887bbf37800e099c188ca",
+      "judgment": "Desktop OS/region/plugin/permissions are conditional; no implied universal app access.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "search-web",
+      "title": "Search for current evidence",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Search must be available under the client and workspace configuration.",
+      "source": "https://learn.chatgpt.com/docs/web-search",
+      "file": "web-search.md",
+      "sha256": "06cdc532ac8c4e520b36f4cc6cba79b3b0e180f5f992dfc9e395e10cfa93a6e4",
+      "judgment": "Current source request is practice; untrusted retrieval principle supported by configuration source.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "artifacts",
+      "title": "Create and inspect files",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Desktop previews depend on file type. CLI creates files but has no visual preview UI; IDE documents need a compatible viewer.",
+      "source": "https://learn.chatgpt.com/docs/artifacts-viewer",
+      "file": "artifacts-viewer.md",
+      "sha256": "f76869a39ad7174dcd3b452c721beef26bfb37251bf4d34122f0c439964faa37",
+      "judgment": "File creation distinguished from actual visual previews across CLI/IDE/desktop/web.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "image-generation",
+      "title": "Generate and revise images",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "An available image-generation feature and applicable usage allowance.",
+      "source": "https://learn.chatgpt.com/docs/image-generation",
+      "file": "image-generation.md",
+      "sha256": "46295d6599436d99a16cbe6c94240f6e93e005c7a9cdda92c9fd0d495f19b88b",
+      "judgment": "Four-client surface sections and usage/availability prerequisites match.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "sites",
+      "title": "Hosted Sites",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web"
+      ],
+      "prerequisites": "Sites is a beta feature with plan and usage conditions. This game’s planned host is separately here.now.",
+      "source": "https://learn.chatgpt.com/docs/sites",
+      "file": "sites.md",
+      "sha256": "7a7625a6528474e6708284878f3eaed471e4b1138a71dadffca1dff7612a72f9",
+      "judgment": "Beta/plan/version/access conditions retained and here.now identified separately.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "visualizations",
+      "title": "Interactive explanations",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web"
+      ],
+      "prerequisites": "The Visualizations preview must be available to the account and surface.",
+      "source": "https://learn.chatgpt.com/docs/visualizations",
+      "file": "visualizations.md",
+      "sha256": "350ec92e6799d112ba33b4a2b625831ddb30de3b4be9f8732f6e629c02917237",
+      "judgment": "Preview and account/surface conditions match docs.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "permissions",
+      "title": "Access and approval boundaries",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Current sandbox, network and workspace requirements apply. Tool capability is not permission to send or publish.",
+      "source": "https://learn.chatgpt.com/docs/agent-approvals-security",
+      "file": "agent-approvals-security.md",
+      "sha256": "ddd3bca26b1055d60fdd0785440ff72583b51458cd76b72081217075bd83c111",
+      "judgment": "Sandbox technical access and action approval are separate; neither implies sending authorization.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "review",
+      "title": "Review the actual changes",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Make the intended files, branch or diff available and state review criteria.",
+      "source": "https://learn.chatgpt.com/docs/code-review",
+      "file": "code-review.md",
+      "sha256": "eab97281e02140eea76cb67aa81c23d34dee30cdf14605aa2d1c23dd020c2968",
+      "judgment": "Diff scope and Last turn/repository distinction match source.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "worktrees",
+      "title": "Independent working files",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "A Git repository and suitable environment setup. External services are not automatically isolated.",
+      "source": "https://learn.chatgpt.com/docs/environments/git-worktrees",
+      "file": "environments--git-worktrees.md",
+      "sha256": "9b9092c425b87140adab9df1b5a8d3cee45bf2829f9b49dfb5add2ba9345b8bb",
+      "judgment": "Separate checkouts/shared metadata; services are not automatically isolated.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "handoff",
+      "title": "Move work between checkouts",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop"
+      ],
+      "prerequisites": "Checkouts and branches must be reconciled. Handoff is not the same as publishing a release.",
+      "source": "https://learn.chatgpt.com/docs/environments/git-worktrees",
+      "file": "environments--git-worktrees.md",
+      "sha256": "9b9092c425b87140adab9df1b5a8d3cee45bf2829f9b49dfb5add2ba9345b8bb",
+      "judgment": "Desktop Local/Worktree transfer concerns task and code, not deployment.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "subagents",
+      "title": "Delegate independent parts",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE",
+        "Web"
+      ],
+      "prerequisites": "Supported clients and access; ask explicitly where required. Delegation consumes additional model/tool work.",
+      "source": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+      "file": "agent-configuration--subagents.md",
+      "sha256": "cbc0a4581edd97d9e1d85697fd8431f8823facb77757c76f88a97179c7335fd7",
+      "judgment": "Bounded tasks, ownership/integration and explicit request caveat align with current delegation guidance.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "schedules",
+      "title": "Schedule a tested workflow",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "Web",
+        "Mobile"
+      ],
+      "prerequisites": "Execution and trigger support differ across local and hosted tasks. Verify inputs and runtime availability.",
+      "source": "https://learn.chatgpt.com/docs/automations",
+      "file": "automations.md",
+      "sha256": "8171600358a44ed6dca27b61117084328503a1ec340beea771ac5b64d916d12e",
+      "judgment": "Local powered host/app required; web/mobile and trigger differences acknowledged.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "cli",
+      "title": "Work from the terminal",
+      "claimType": "official",
+      "surfaces": [
+        "CLI"
+      ],
+      "prerequisites": "Install and authenticate Codex; start in the intended directory and permission scope.",
+      "source": "https://learn.chatgpt.com/docs/cli",
+      "file": "cli.md",
+      "sha256": "324d08847b3bd00152e0df871dec97749fcd21613298acc299f0f3e3dfc36662",
+      "judgment": "Terminal inspection/editing/commands and codex exec are documented.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "ide",
+      "title": "Work beside your code",
+      "claimType": "official",
+      "surfaces": [
+        "IDE"
+      ],
+      "prerequisites": "A supported editor, installed extension and authentication.",
+      "source": "https://learn.chatgpt.com/docs/ide",
+      "file": "ide.md",
+      "sha256": "ffcb6485938f706bad76ad6a1a1e0ab84fc30212208fc984ac0cdd97f858d907",
+      "judgment": "Selected code/open-file context and in-editor review are documented.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "cloud",
+      "title": "An isolated cloud environment",
+      "claimType": "official",
+      "surfaces": [
+        "Cloud"
+      ],
+      "prerequisites": "A connected repository, supported account and configured cloud environment.",
+      "source": "https://learn.chatgpt.com/docs/cloud",
+      "file": "cloud.md",
+      "sha256": "65980043d1b2a4bbcee8ad21d106d5a9a27678a0a71025a74eba8ed5cd2e2e46",
+      "judgment": "Configured isolated repository environment; reproducible setup/review retained.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "remote",
+      "title": "Your phone controls a host",
+      "claimType": "official",
+      "surfaces": [
+        "Mobile",
+        "Desktop"
+      ],
+      "prerequisites": "Connected supported computer, mobile setup, rollout and workspace access. The repository stays on the host.",
+      "source": "https://learn.chatgpt.com/docs/remote",
+      "file": "remote.md",
+      "sha256": "f66dfd08d0d185f586030b728bd18eadfc2abf0346fe37991113ccda8bf18720",
+      "judgment": "Phone controls connected computer; work stays on host.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "configuration",
+      "title": "Know which config applies",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Project configuration is loaded only under applicable trust and managed requirements.",
+      "source": "https://learn.chatgpt.com/docs/config-file/config-basic",
+      "file": "config-file--config-basic.md",
+      "sha256": "68f9a4614003f8db8e2b9469db7a375663a4a5f08c7cf8ef89a9d7d68f3f2668",
+      "judgment": "Trusted project layers and personal settings; effective scope must be inspected.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "hooks",
+      "title": "Checks at lifecycle events",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "CLI",
+        "IDE"
+      ],
+      "prerequisites": "Configured, reviewed and trusted hooks under applicable client and managed-policy rules.",
+      "source": "https://learn.chatgpt.com/docs/hooks",
+      "file": "hooks.md",
+      "sha256": "d3ae147940e824fd6c92aa020b893cb39f22e9ad404859d22d2b95f33c24ae1e",
+      "judgment": "Configured scripts or already-connected MCP tools at lifecycle events; reviewed trust prerequisite.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "sdk",
+      "title": "Automate with the Codex SDK",
+      "claimType": "official",
+      "surfaces": [
+        "CLI"
+      ],
+      "prerequisites": "Developer integration with the documented SDK, authentication and a suitable runtime.",
+      "source": "https://learn.chatgpt.com/docs/codex-sdk",
+      "file": "codex-sdk.md",
+      "sha256": "2fd124fd4db1c6d9f8ac5e050f109c4d05b4008f7c9513c38da806716a4c9a05",
+      "judgment": "Programmatic local task automation/CI; developer integration caveat.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "app-server",
+      "title": "Build a richer client",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop",
+        "IDE",
+        "CLI"
+      ],
+      "prerequisites": "An advanced client integration; follow the protocol and current experimental-feature boundaries.",
+      "source": "https://learn.chatgpt.com/docs/app-server",
+      "file": "app-server.md",
+      "sha256": "b62e81cee0ccd2ca60bed1083af110189d4b7b1369107da812a19572096a41d0",
+      "judgment": "Authentication/history/approvals/streamed events match protocol purpose; experimental limits retained.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Check the right failure surface",
+      "claimType": "official",
+      "surfaces": [
+        "Desktop"
+      ],
+      "prerequisites": "Reproduce the behavior in the affected client and retain the relevant evidence.",
+      "source": "https://learn.chatgpt.com/docs/reference/troubleshooting",
+      "file": "reference--troubleshooting.md",
+      "sha256": "f081cd8867de652c0bcd189461c1e5c60075e7203517f05670fc4c953318b24d",
+      "judgment": "Review-pane content can include earlier edits; actual scope investigation is suggested practice.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "ask-for-workspace",
+      "title": "Ask for a task with chosen effort",
+      "claimType": "installation",
+      "surfaces": [
+        "Desktop"
+      ],
+      "prerequisites": "Requires those task-management capabilities in your installation and an available model/effort combination.",
+      "source": "https://learn.chatgpt.com/docs/projects",
+      "file": "projects.md",
+      "sha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36",
+      "judgment": "Installation tool definitions expose creation model/effort plus sidebar organization. Capability exposure only, not a fresh execution or universal availability test.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    },
+    {
+      "id": "fork-task",
+      "title": "Branch a conversation",
+      "claimType": "installation",
+      "surfaces": [
+        "Desktop"
+      ],
+      "prerequisites": "The installation must expose conversation forking; verify whether the chosen fork also changes checkout.",
+      "source": "https://learn.chatgpt.com/docs/app-server",
+      "file": "app-server.md",
+      "sha256": "b62e81cee0ccd2ca60bed1083af110189d4b7b1369107da812a19572096a41d0",
+      "judgment": "Installation definition supports completed-history fork; related protocol documents thread/fork. Checkout choice is independent and explicitly conditional.",
+      "exampleClassification": "Suggested practice prompt, not a reproduced live execution",
+      "accepted": true
+    }
+  ],
+  "missions": [
+    {
+      "id": "harness",
+      "title": "The control room",
+      "source": "https://learn.chatgpt.com/docs/features",
+      "sourceFile": "features.md",
+      "sourceSha256": "5a2667ce9308f2dc212bda3a0a4d5cdf2bcecc37f7ab77801113cfe1fec28ca7",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Agent-loop illustration does not expose hidden reasoning. Fictional source/check mismatch drives repair.",
+      "accepted": true
+    },
+    {
+      "id": "context",
+      "title": "The context archive",
+      "source": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+      "sourceFile": "agent-configuration--agents-md.md",
+      "sourceSha256": "4a81af9eeb7597184d295ff7f142478855b0b09100d8b75c2ae1058b3dd3203f",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Current brief overrides obsolete fictional proposal as data authority; imported instruction-like text does not redefine user request.",
+      "accepted": true
+    },
+    {
+      "id": "models",
+      "title": "The model observatory",
+      "source": "https://learn.chatgpt.com/docs/models",
+      "sourceFile": "models.md",
+      "sourceSha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "All routes are deterministic training examples, not live model calls or benchmark results. Higher effort cannot add missing files/tools.",
+      "accepted": true
+    },
+    {
+      "id": "permissions",
+      "title": "The permission desk",
+      "source": "https://learn.chatgpt.com/docs/agent-approvals-security",
+      "sourceFile": "agent-approvals-security.md",
+      "sourceSha256": "ddd3bca26b1055d60fdd0785440ff72583b51458cd76b72081217075bd83c111",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Scoped read, connector authentication and unsent-draft authorization remain distinct in actual simulated action sequence.",
+      "accepted": true
+    },
+    {
+      "id": "tasks",
+      "title": "The task studio",
+      "source": "https://learn.chatgpt.com/docs/projects",
+      "sourceFile": "projects.md",
+      "sourceSha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36",
+      "classification": "Official documentation plus exposed installation capability; deterministic exercise",
+      "judgment": "Simulated task creation is labeled; installation-specific copyable real request and pinning semantics retain caveats.",
+      "accepted": true
+    },
+    {
+      "id": "worktrees",
+      "title": "The branch workshop",
+      "source": "https://learn.chatgpt.com/docs/environments/git-worktrees",
+      "sourceFile": "environments--git-worktrees.md",
+      "sourceSha256": "9b9092c425b87140adab9df1b5a8d3cee45bf2829f9b49dfb5add2ba9345b8bb",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Conversation fork and Git working-file isolation differ; competing file edits/checks/integration are simulated.",
+      "accepted": true
+    },
+    {
+      "id": "steering",
+      "title": "The steering station",
+      "source": "https://learn.chatgpt.com/docs/prompting#steering-and-queuing",
+      "sourceFile": "prompting.md",
+      "sourceSha256": "14094ff89891aa445714020e19e35b2107fe4122bf67bc1ce89d132e0d1e9325",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Steer affects current run; queue waits. Status preserves objective and output provenance in the exercise.",
+      "accepted": true
+    },
+    {
+      "id": "review",
+      "title": "The review bench",
+      "source": "https://learn.chatgpt.com/docs/code-review",
+      "sourceFile": "code-review.md",
+      "sourceSha256": "eab97281e02140eea76cb67aa81c23d34dee30cdf14605aa2d1c23dd020c2968",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Acceptance checks expose changed fields missed by a superficial check. Repaired exported code is runnable.",
+      "accepted": true
+    },
+    {
+      "id": "tools",
+      "title": "The tool workshop",
+      "source": "https://learn.chatgpt.com/docs/build-skills",
+      "sourceFile": "build-skills.md",
+      "sourceSha256": "4093dba843bd333cdfe25df52cd36828b51d1a4199fdb2fcf2be1b7913063775",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Plugin installation, connection, guidance and reusable skill differ. Two-client test rejects hard-coded owner.",
+      "accepted": true
+    },
+    {
+      "id": "browser",
+      "title": "The browser lab",
+      "source": "https://learn.chatgpt.com/docs/features",
+      "sourceFile": "features.md",
+      "sourceSha256": "5a2667ce9308f2dc212bda3a0a4d5cdf2bcecc37f7ab77801113cfe1fec28ca7",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Actual miniature page Save/Reload exposes loss and verifies repaired persistence; visual review remains separate.",
+      "accepted": true
+    },
+    {
+      "id": "automation",
+      "title": "The automation tower",
+      "source": "https://learn.chatgpt.com/docs/automations",
+      "sourceFile": "automations.md",
+      "sourceSha256": "8171600358a44ed6dca27b61117084328503a1ec340beea771ac5b64d916d12e",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Local schedule has current inputs, timezone, checked runs, quiet reporting and host/source recovery; no live automation created.",
+      "accepted": true
+    },
+    {
+      "id": "handoff",
+      "title": "The handoff dock",
+      "source": "https://learn.chatgpt.com/docs/browser",
+      "sourceFile": "browser.md",
+      "sourceSha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34",
+      "classification": "Official conceptual grounding plus authored deterministic exercise",
+      "judgment": "Fictional delivered route exposes asset-path defect, preserves recovery and verifies repaired package; not a here.now API simulator.",
+      "accepted": true
+    }
+  ],
+  "capstone": {
+    "id": "capstone",
+    "accepted": true,
+    "judgment": "Cedar is a fictional practice assignment with independently checked two-period outputs. Structured evidence earns the score; free prose meaning is explicitly not machine-graded. First submission and hint use persist. No certification, live automation, professional competence or human outcome claim."
+  },
+  "supplementaryGrounding": [
+    {
+      "topic": "Instruction-like source text",
+      "file": "config-file--config-basic.md",
+      "section": "Web search treats retrieved results as untrusted"
+    },
+    {
+      "topic": "Harness/client loop",
+      "file": "app-server.md",
+      "section": "Lifecycle and streamed task/tool events"
+    },
+    {
+      "topic": "Steering and queuing",
+      "file": "prompting.md",
+      "section": "Steering and queuing"
+    },
+    {
+      "topic": "Plugin hooks",
+      "file": "plugins.md",
+      "section": "Plugin parts — Hooks"
+    }
+  ],
+  "limits": [
+    "Two installation cards rely on exposed definitions, not newly executed task creation/fork/pinning.",
+    "Account, rollout, client and prerequisites remain part of each capability claim.",
+    "Durations in lesson metadata are estimates, not measured human completion times.",
+    "No numerical model benchmark, revenue outcome, novice learning lift or universal hardware support is asserted."
+  ],
+  "pass": true
+}

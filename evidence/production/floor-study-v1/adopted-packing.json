@@ -1,0 +1,37 @@
+{
+  "inputPath": "../evidence/production/floor-study-v1/candidates/flat-inlays-wide-unquantized.glb",
+  "method": "dedup, weld, 16-bit positions/UVs and 12-bit normals; no simplification",
+  "before": {
+    "bytes": 8330988,
+    "triangles": 223458,
+    "bounds": {
+      "min": [
+        -75,
+        -0.7999999448657036,
+        -75
+      ],
+      "max": [
+        75,
+        9.424999713897705,
+        75
+      ]
+    }
+  },
+  "after": {
+    "triangles": 223458,
+    "bounds": {
+      "min": [
+        -75,
+        -0.7991546179160052,
+        -75
+      ],
+      "max": [
+        75,
+        9.424954460666008,
+        75
+      ]
+    },
+    "bytes": 6343804,
+    "sha256": "bb470e1974e5d29790bcdb70cc90d57c14a6955c36e0fd060e23e634b7d801a3"
+  }
+}

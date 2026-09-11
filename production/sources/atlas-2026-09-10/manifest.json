@@ -1,0 +1,290 @@
+[
+  {
+    "source": "https://learn.chatgpt.com/docs/agent-approvals-security",
+    "file": "production/sources/atlas-2026-09-10/agent-approvals-security.md",
+    "sha256": "ddd3bca26b1055d60fdd0785440ff72583b51458cd76b72081217075bd83c111",
+    "bytes": 34367,
+    "title": "Agent approvals & security",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+    "file": "production/sources/atlas-2026-09-10/agent-configuration--agents-md.md",
+    "sha256": "4a81af9eeb7597184d295ff7f142478855b0b09100d8b75c2ae1058b3dd3203f",
+    "bytes": 9150,
+    "title": "Custom instructions with AGENTS.md",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+    "file": "production/sources/atlas-2026-09-10/agent-configuration--subagents.md",
+    "sha256": "cbc0a4581edd97d9e1d85697fd8431f8823facb77757c76f88a97179c7335fd7",
+    "bytes": 22085,
+    "title": "Subagents",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/app-server",
+    "file": "production/sources/atlas-2026-09-10/app-server.md",
+    "sha256": "b62e81cee0ccd2ca60bed1083af110189d4b7b1369107da812a19572096a41d0",
+    "bytes": 99471,
+    "title": "Codex App Server",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/appshots",
+    "file": "production/sources/atlas-2026-09-10/appshots.md",
+    "sha256": "0115fae6f95c7ba6afc1d7082bbf0a82b68cddecf7b79e2366cdcd53cd736d53",
+    "bytes": 3353,
+    "title": "Appshots",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/artifacts-viewer",
+    "file": "production/sources/atlas-2026-09-10/artifacts-viewer.md",
+    "sha256": "f76869a39ad7174dcd3b452c721beef26bfb37251bf4d34122f0c439964faa37",
+    "bytes": 4267,
+    "title": "Work with files",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/automations",
+    "file": "production/sources/atlas-2026-09-10/automations.md",
+    "sha256": "8171600358a44ed6dca27b61117084328503a1ec340beea771ac5b64d916d12e",
+    "bytes": 18049,
+    "title": "Scheduled tasks",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/browser",
+    "file": "production/sources/atlas-2026-09-10/browser.md",
+    "sha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34",
+    "bytes": 15824,
+    "title": "Browser",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/build-skills",
+    "file": "production/sources/atlas-2026-09-10/build-skills.md",
+    "sha256": "4093dba843bd333cdfe25df52cd36828b51d1a4199fdb2fcf2be1b7913063775",
+    "bytes": 10926,
+    "title": "Build skills",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/cli",
+    "file": "production/sources/atlas-2026-09-10/cli.md",
+    "sha256": "324d08847b3bd00152e0df871dec97749fcd21613298acc299f0f3e3dfc36662",
+    "bytes": 6669,
+    "title": "Codex CLI",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/cloud",
+    "file": "production/sources/atlas-2026-09-10/cloud.md",
+    "sha256": "65980043d1b2a4bbcee8ad21d106d5a9a27678a0a71025a74eba8ed5cd2e2e46",
+    "bytes": 4175,
+    "title": "Codex cloud",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/code-review",
+    "file": "production/sources/atlas-2026-09-10/code-review.md",
+    "sha256": "eab97281e02140eea76cb67aa81c23d34dee30cdf14605aa2d1c23dd020c2968",
+    "bytes": 8958,
+    "title": "Code review",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/codex-sdk",
+    "file": "production/sources/atlas-2026-09-10/codex-sdk.md",
+    "sha256": "2fd124fd4db1c6d9f8ac5e050f109c4d05b4008f7c9513c38da806716a4c9a05",
+    "bytes": 4561,
+    "title": "Codex SDK",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/computer-use",
+    "file": "production/sources/atlas-2026-09-10/computer-use.md",
+    "sha256": "0087752b68274730b1757bc94ebb56581057e843120887bbf37800e099c188ca",
+    "bytes": 10625,
+    "title": "Computer Use",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/config-file/config-basic",
+    "file": "production/sources/atlas-2026-09-10/config-file--config-basic.md",
+    "sha256": "68f9a4614003f8db8e2b9469db7a375663a4a5f08c7cf8ef89a9d7d68f3f2668",
+    "bytes": 11674,
+    "title": "Config basics",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/customization/memories",
+    "file": "production/sources/atlas-2026-09-10/customization--memories.md",
+    "sha256": "2036fdd568b9982e1760a0060618145642ce49662772985e916ab318b2b74391",
+    "bytes": 5713,
+    "title": "Memories",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/environments/git-worktrees",
+    "file": "production/sources/atlas-2026-09-10/environments--git-worktrees.md",
+    "sha256": "d163fcbf82ca40859a5d317060f302cb4c45c57e12aba8a2bce75d85de4b5c6c",
+    "bytes": 12837,
+    "title": "Worktrees",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/extend/mcp",
+    "file": "production/sources/atlas-2026-09-10/extend--mcp.md",
+    "sha256": "4b762127ba873b980f295c043d157e95400e92aba021d625db23d43c4b0f6ec4",
+    "bytes": 20180,
+    "title": "Model Context Protocol",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/features",
+    "file": "production/sources/atlas-2026-09-10/features.md",
+    "sha256": "5a2667ce9308f2dc212bda3a0a4d5cdf2bcecc37f7ab77801113cfe1fec28ca7",
+    "bytes": 6174,
+    "title": "Features",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/hooks",
+    "file": "production/sources/atlas-2026-09-10/hooks.md",
+    "sha256": "d3ae147940e824fd6c92aa020b893cb39f22e9ad404859d22d2b95f33c24ae1e",
+    "bytes": 45548,
+    "title": "Hooks",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/ide",
+    "file": "production/sources/atlas-2026-09-10/ide.md",
+    "sha256": "ffcb6485938f706bad76ad6a1a1e0ab84fc30212208fc984ac0cdd97f858d907",
+    "bytes": 4407,
+    "title": "Codex IDE extension",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/image-generation",
+    "file": "production/sources/atlas-2026-09-10/image-generation.md",
+    "sha256": "46295d6599436d99a16cbe6c94240f6e93e005c7a9cdda92c9fd0d495f19b88b",
+    "bytes": 8864,
+    "title": "Image generation",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/image-inputs",
+    "file": "production/sources/atlas-2026-09-10/image-inputs.md",
+    "sha256": "4ab13465b69d8e33fd1aa0481d8de1920aedc46a5a3cb0cd857c8957283e01de",
+    "bytes": 2296,
+    "title": "Image inputs",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/long-running-work",
+    "file": "production/sources/atlas-2026-09-10/long-running-work.md",
+    "sha256": "b82c9a303d40c78a709b78419db9ff4e311e95fb098021149e218c1038670fec",
+    "bytes": 6517,
+    "title": "Long-running work",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/models",
+    "file": "production/sources/atlas-2026-09-10/models.md",
+    "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522",
+    "bytes": 19008,
+    "title": "Models",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/notifications",
+    "file": "production/sources/atlas-2026-09-10/notifications.md",
+    "sha256": "1127449063b442e36829599f7932eff0a3e90ec648f0ced050a56b6a0cda8957",
+    "bytes": 3166,
+    "title": "Notifications",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/plugins",
+    "file": "production/sources/atlas-2026-09-10/plugins.md",
+    "sha256": "443e2250ec11e193fd307969c3da13e2e32dad3fe83689745bb215659eeaaf34",
+    "bytes": 12934,
+    "title": "Plugins",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/pricing",
+    "file": "production/sources/atlas-2026-09-10/pricing.md",
+    "sha256": "716bbbbcff0d59edcf42e60decb8f472e0c3842dbf116bc9e082d3ff6cf8550f",
+    "bytes": 46945,
+    "title": "Pricing",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/projects",
+    "file": "production/sources/atlas-2026-09-10/projects.md",
+    "sha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36",
+    "bytes": 13002,
+    "title": "Projects and chats",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/reference/commands",
+    "file": "production/sources/atlas-2026-09-10/reference--commands.md",
+    "sha256": "d061b78e320212bea5dcf747e5b8b28b773e2ebe952f6679277bb902b9e46b53",
+    "bytes": 26567,
+    "title": "Commands",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/reference/slash-commands",
+    "file": "production/sources/atlas-2026-09-10/reference--slash-commands.md",
+    "sha256": "cd3e8f02f889f63d3e68b9ce8a539f63032796616fefc2021bbd85ed2ab0430d",
+    "bytes": 4553,
+    "title": "Slash commands",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/reference/troubleshooting",
+    "file": "production/sources/atlas-2026-09-10/reference--troubleshooting.md",
+    "sha256": "f081cd8867de652c0bcd189461c1e5c60075e7203517f05670fc4c953318b24d",
+    "bytes": 6062,
+    "title": "Troubleshooting",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/remote",
+    "file": "production/sources/atlas-2026-09-10/remote.md",
+    "sha256": "f66dfd08d0d185f586030b728bd18eadfc2abf0346fe37991113ccda8bf18720",
+    "bytes": 3194,
+    "title": "Codex Remote",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/sites",
+    "file": "production/sources/atlas-2026-09-10/sites.md",
+    "sha256": "7a7625a6528474e6708284878f3eaed471e4b1138a71dadffca1dff7612a72f9",
+    "bytes": 21054,
+    "title": "Sites",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/visualizations",
+    "file": "production/sources/atlas-2026-09-10/visualizations.md",
+    "sha256": "350ec92e6799d112ba33b4a2b625831ddb30de3b4be9f8732f6e629c02917237",
+    "bytes": 6624,
+    "title": "Visualizations",
+    "retrievedAt": "2026-09-10"
+  },
+  {
+    "source": "https://learn.chatgpt.com/docs/web-search",
+    "file": "production/sources/atlas-2026-09-10/web-search.md",
+    "sha256": "06cdc532ac8c4e520b36f4cc6cba79b3b0e180f5f992dfc9e395e10cfa93a6e4",
+    "bytes": 3514,
+    "title": "Web search",
+    "retrievedAt": "2026-09-10"
+  }
+]

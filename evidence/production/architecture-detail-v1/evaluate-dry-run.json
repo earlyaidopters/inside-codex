@@ -1,0 +1,27 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.goal-evaluate",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": true,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-architecture-detail.json",
+    "goalId": "balanced-architecture-detail",
+    "iteration": 1,
+    "candidateRunId": "run_1789054603250_77fa4066155b4b6db121cad5a02b2c58",
+    "baselineValue": 295364,
+    "candidateValue": 206848,
+    "target": 250000,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 0,
+    "allowedPaths": [
+      "public/assets/headquarters/streamed",
+      "src/architecture-detail.ts",
+      "src/world.ts",
+      "tests/architecture-detail",
+      "tools/geometry"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  }
+}

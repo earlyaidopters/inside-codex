@@ -1,0 +1,683 @@
+{
+  "error": "Error: locator.click: Error: strict mode violation: locator('[data-action=\"tool-section\"][data-value=\"procedure\"]') resolved to 2 elements:\n    1) <button aria-pressed=\"false\" data-value=\"procedure\" data-action=\"tool-section\">2 · Procedure</button> aka getByRole('button', { name: '· Procedure' })\n    2) <button data-value=\"procedure\" data-action=\"tool-section\">Read the procedure →</button> aka getByRole('button', { name: 'Read the procedure →' })\n\nCall log:\n\u001b[2m  - waiting for locator('[data-action=\"tool-section\"][data-value=\"procedure\"]')\u001b[22m\n",
+  "checks": [
+    "1440x900 high: all three spatial controls open the matching workshop panel",
+    "1440x900 balanced: all three spatial controls open the matching workshop panel"
+  ],
+  "state": {
+    "ready": true,
+    "screen": "mission",
+    "mission": 8,
+    "stepIndex": 0,
+    "toolLab": {
+      "section": "connect",
+      "package": "source",
+      "inspected": [
+        "source"
+      ],
+      "installed": "source",
+      "scope": "training",
+      "connected": true,
+      "guidanceRead": false,
+      "skill": "example",
+      "loaded": [],
+      "client": "northstar",
+      "reads": {},
+      "outputs": {},
+      "revision": 2,
+      "failureSeen": false,
+      "actions": [
+        {
+          "action": "inspect-package",
+          "value": "source"
+        },
+        {
+          "action": "install",
+          "value": "source"
+        },
+        {
+          "action": "connect"
+        }
+      ],
+      "events": [
+        "Source Kit contains a document connector (list documents, read document) and two onboarding skills. No mail or document-write tool is included.",
+        "Source Kit installed in the rehearsal. Its connector still needs an account connection.",
+        "Connected to Training briefs: read-only access to Northstar and Harbor."
+      ],
+      "message": "Connected to Training briefs: read-only access to Northstar and Harbor."
+    },
+    "contextLab": {
+      "read": [],
+      "selected": [],
+      "opened": "brief",
+      "authority": null,
+      "target": null,
+      "revision": 0,
+      "result": null,
+      "check": null,
+      "runs": 0,
+      "message": "Open the files. Build a context pack for the missing-field repair."
+    },
+    "modelLab": {
+      "job": "label",
+      "jobs": {
+        "label": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "billing": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "sheet": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        }
+      },
+      "message": "Choose a job and a setup. The actual training artifact will determine whether its check passes."
+    },
+    "permissionLab": {
+      "section": "source",
+      "profile": "workspace",
+      "approval": "never",
+      "network": false,
+      "connected": false,
+      "source": null,
+      "pending": false,
+      "draft": null,
+      "revision": 0,
+      "check": null,
+      "events": [
+        "file-denied"
+      ],
+      "message": "Local read denied: the training profile excludes /reference/northstar. Approval prompts are disabled; this does not grant access."
+    },
+    "reviewLab": {
+      "section": "diff",
+      "patch": {
+        "owner": false,
+        "files": false,
+        "title": false
+      },
+      "flags": [],
+      "revision": 0,
+      "inspected": null,
+      "runs": [],
+      "current": null,
+      "requests": [],
+      "message": "Proposed change: “Owner filled; heading corrected.” Inspect the saved patch and test that claim."
+    },
+    "steeringLab": {
+      "section": "work",
+      "messageKind": "french",
+      "active": {
+        "kind": "checklist",
+        "step": 0,
+        "run": 1
+      },
+      "language": "en",
+      "pending": [],
+      "queue": [],
+      "nextId": 1,
+      "nextRun": 2,
+      "checklist": null,
+      "draft": null,
+      "statusAsked": false,
+      "statusReport": null,
+      "steered": false,
+      "queuedEmail": false,
+      "emailAfterChecklist": false,
+      "events": [
+        "Run 1 started: prepare the onboarding checklist."
+      ],
+      "actions": [],
+      "message": "The checklist run is active. Work advances only when you press Next work step."
+    },
+    "selected": [],
+    "feedback": null,
+    "modal": null,
+    "branches": {
+      "mode": "shared",
+      "shared": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "files": {
+        "a": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        },
+        "b": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        }
+      },
+      "written": {
+        "a": false,
+        "b": false
+      },
+      "revision": {
+        "a": 0,
+        "b": 0,
+        "local": 0
+      },
+      "checks": {
+        "a": null,
+        "b": null,
+        "local": null
+      },
+      "reviewed": false,
+      "local": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "chosen": null,
+      "collision": false,
+      "events": [],
+      "message": "Two tasks are looking at one checkout. Apply their competing changes and inspect what each task sees."
+    },
+    "progress": {
+      "version": 1,
+      "completed": [],
+      "attempts": {},
+      "hints": {},
+      "capstone": [],
+      "lastMission": 8,
+      "workspace": {
+        "tasks": []
+      },
+      "settings": {
+        "muted": true,
+        "reduced": true,
+        "quality": "balanced"
+      }
+    },
+    "world": {
+      "ready": true,
+      "renderSize": {
+        "width": 960,
+        "height": 600,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "dpr": 2
+      },
+      "lastPick": {
+        "mesh": "Tool connect",
+        "hit": true,
+        "x": 312.8500061035156,
+        "y": 361.2900085449219
+      },
+      "active": 8,
+      "quality": "balanced",
+      "paused": false,
+      "reduced": true,
+      "architecture": {
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "tools": {
+        "verified": false,
+        "connected": true,
+        "skillLoaded": false,
+        "ports": [
+          {
+            "id": "connect",
+            "screen": {
+              "x": 312.8589598909471,
+              "y": 361.29604115062347
+            }
+          },
+          {
+            "id": "procedure",
+            "screen": {
+              "x": 404.6334383512483,
+              "y": 366.3113648541151
+            }
+          },
+          {
+            "id": "results",
+            "screen": {
+              "x": 501.55484306487983,
+              "y": 371.60795957839076
+            }
+          }
+        ]
+      },
+      "steering": {
+        "verified": false,
+        "queueCount": 0,
+        "activeRun": 1,
+        "carriageX": -0.74,
+        "carriageTargetX": -0.74,
+        "ports": [
+          {
+            "id": "send-steer",
+            "screen": {
+              "x": -404.1764960865031,
+              "y": 314.4592914076967
+            }
+          },
+          {
+            "id": "advance",
+            "screen": {
+              "x": -347.7774084867076,
+              "y": 317.3784061433898
+            }
+          },
+          {
+            "id": "send-queue",
+            "screen": {
+              "x": -288.92319546462306,
+              "y": 320.4245937290734
+            }
+          }
+        ]
+      },
+      "review": {
+        "verified": false,
+        "revision": 0,
+        "scanActive": false,
+        "ports": [
+          {
+            "id": "diff",
+            "screen": {
+              "x": -146.21114087268396,
+              "y": 318.6947811426608
+            }
+          },
+          {
+            "id": "checks",
+            "screen": {
+              "x": -77.82580381375948,
+              "y": 322.01971974553027
+            }
+          },
+          {
+            "id": "repair",
+            "screen": {
+              "x": -6.1438307391338105,
+              "y": 325.5049428892037
+            }
+          }
+        ]
+      },
+      "permissions": {
+        "verified": false,
+        "sourceLoaded": false,
+        "connected": false,
+        "draft": null,
+        "ports": [
+          {
+            "id": "read",
+            "open": false,
+            "screen": {
+              "x": -1000.0105639265475,
+              "y": 280.5470186502326
+            }
+          },
+          {
+            "id": "draft",
+            "open": false,
+            "screen": {
+              "x": -968.0126644634627,
+              "y": 282.1552477163379
+            }
+          },
+          {
+            "id": "check",
+            "open": false,
+            "screen": {
+              "x": -935.0009140175081,
+              "y": 283.8144333966807
+            }
+          }
+        ]
+      },
+      "models": {
+        "job": "label",
+        "verified": false,
+        "selected": "terra",
+        "effort": "medium",
+        "kept": 0,
+        "controls": [
+          {
+            "id": "label",
+            "action": "job",
+            "screen": {
+              "x": -1123.011513734728,
+              "y": 273.9508094283777
+            }
+          },
+          {
+            "id": "billing",
+            "action": "job",
+            "screen": {
+              "x": -1095.9148999656745,
+              "y": 275.30687968037955
+            }
+          },
+          {
+            "id": "sheet",
+            "action": "job",
+            "screen": {
+              "x": -1068.0460892005315,
+              "y": 276.7015951071625
+            }
+          },
+          {
+            "id": "astra",
+            "action": "model",
+            "screen": {
+              "x": -1113.0029683619634,
+              "y": 308.2371202776648
+            }
+          },
+          {
+            "id": "sol",
+            "action": "model",
+            "screen": {
+              "x": -1092.525038003156,
+              "y": 309.61880807793216
+            }
+          },
+          {
+            "id": "terra",
+            "action": "model",
+            "screen": {
+              "x": -1073.128214436662,
+              "y": 307.1499240542729
+            }
+          },
+          {
+            "id": "luna",
+            "action": "model",
+            "screen": {
+              "x": -1050.2433626534903,
+              "y": 312.47163910049534
+            }
+          }
+        ]
+      },
+      "harness": {
+        "selected": [],
+        "assembled": false,
+        "stage": 0,
+        "ports": [
+          {
+            "id": "context",
+            "amount": 0,
+            "screen": {
+              "x": -1331.2626405300994,
+              "y": 283.10264394579843
+            }
+          },
+          {
+            "id": "model",
+            "amount": 1,
+            "screen": {
+              "x": -1301.444218889664,
+              "y": 284.93416936110276
+            }
+          },
+          {
+            "id": "tools",
+            "amount": 0,
+            "screen": {
+              "x": -1270.573987655509,
+              "y": 286.8302996715348
+            }
+          },
+          {
+            "id": "verify",
+            "amount": 0,
+            "screen": {
+              "x": -1268.1801891980745,
+              "y": 339.4779997965206
+            }
+          }
+        ]
+      },
+      "context": {
+        "selected": [],
+        "verified": false,
+        "cards": [
+          {
+            "id": "brief",
+            "y": 2.09,
+            "screen": {
+              "x": -1204.6327611540314,
+              "y": 332.4889808854475
+            }
+          },
+          {
+            "id": "sample",
+            "y": 2.09,
+            "screen": {
+              "x": -1183.6348330850042,
+              "y": 334.25172694676303
+            }
+          },
+          {
+            "id": "image",
+            "y": 2.09,
+            "screen": {
+              "x": -1162.154012579153,
+              "y": 336.0550111382338
+            }
+          },
+          {
+            "id": "agents",
+            "y": 2.92,
+            "screen": {
+              "x": -1225.7985740247439,
+              "y": 282.9401747975477
+            }
+          },
+          {
+            "id": "old",
+            "y": 2.92,
+            "screen": {
+              "x": -1204.7775201825154,
+              "y": 284.1548972351524
+            }
+          },
+          {
+            "id": "note",
+            "y": 2.92,
+            "screen": {
+              "x": -1183.2668283099317,
+              "y": 285.39791389179294
+            }
+          }
+        ]
+      },
+      "branches": {
+        "mode": "shared",
+        "collision": false,
+        "verified": false,
+        "chosen": null,
+        "cartridges": [
+          {
+            "id": "a",
+            "x": -0.22
+          },
+          {
+            "id": "b",
+            "x": 0.22
+          }
+        ]
+      },
+      "drawCalls": 138,
+      "renderFrameMs": 1.199999988079071,
+      "meshes": 252,
+      "triangles": 574718,
+      "animations": [
+        "Beckon",
+        "Celebrate",
+        "Correct",
+        "Greet",
+        "Idle",
+        "Inspect",
+        "Point",
+        "PointLeft",
+        "Return",
+        "Think",
+        "Travel",
+        "Wait"
+      ],
+      "animationPlaying": false,
+      "gesture": "PointLeft",
+      "blending": false,
+      "transition": 0,
+      "frameMs": [
+        0,
+        15.799999997019768,
+        12.900000005960464,
+        76.5,
+        32.69999998807907,
+        14.5,
+        5.100000008940697,
+        17.099999994039536,
+        16.299999997019768,
+        40.80000001192093,
+        3.7999999970197678,
+        4.899999991059303,
+        18.30000001192093,
+        15,
+        17.19999998807907,
+        16.80000001192093,
+        16.599999994039536,
+        17.799999997019768,
+        16.600000008940697,
+        16.69999998807907,
+        16.700000002980232,
+        14.700000002980232,
+        18.200000002980232,
+        17.099999994039536,
+        16.400000005960464,
+        15.5,
+        18.799999997019768,
+        14.5,
+        16.799999997019768,
+        17.900000005960464,
+        15.599999994039536,
+        15.799999997019768,
+        284.90000000596046,
+        17,
+        16.599999994039536,
+        15.800000011920929,
+        17.69999998807907,
+        15,
+        18.400000005960464,
+        15.599999994039536,
+        16.30000001192093,
+        16,
+        18.599999994039536,
+        16.700000002980232,
+        15.299999997019768,
+        18.200000002980232,
+        19.799999997019768,
+        13.400000005960464,
+        15.199999988079071,
+        17.5,
+        16.5,
+        16.600000008940697,
+        16.399999991059303,
+        16.100000008940697,
+        18.299999997019768,
+        15.599999994039536,
+        15.900000005960464,
+        18.5,
+        16.700000002980232,
+        16.399999991059303,
+        16.900000005960464,
+        15.200000002980232,
+        18.299999997019768,
+        16.5,
+        16.700000002980232,
+        15.200000002980232,
+        18.299999997019768,
+        16.5,
+        16.399999991059303,
+        17,
+        16.600000008940697,
+        16.399999991059303,
+        199.70000000298023,
+        15.600000008940697,
+        18.299999997019768,
+        16.599999994039536,
+        16.600000008940697,
+        16.899999991059303,
+        16.600000008940697,
+        15.299999997019768,
+        16.299999997019768,
+        18.5,
+        16.5,
+        16.599999994039536,
+        16.30000001192093,
+        15.299999997019768,
+        199.79999999701977,
+        18.299999997019768,
+        15.299999997019768,
+        17.5,
+        17.5,
+        16.700000002980232,
+        16.100000008940697,
+        17,
+        17
+      ],
+      "camera": {
+        "alpha": 1.28,
+        "beta": 1.31,
+        "radius": 9
+      },
+      "mascot": {
+        "x": 12.6,
+        "y": 0.1,
+        "z": -8.299999999999999,
+        "displayLift": 0
+      }
+    },
+    "graphicsError": ""
+  }
+}

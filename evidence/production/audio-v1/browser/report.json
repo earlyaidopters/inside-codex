@@ -1,0 +1,206 @@
+{
+  "pass": true,
+  "engines": [
+    {
+      "name": "chrome",
+      "checks": [
+        "Default muted journey creates no audio context and requests no sound assets",
+        "A user gesture starts decoded music and ambience with measurable output",
+        "Keyboard-operated independent sliders isolate channels and preserve effects",
+        "Pause button and Escape both suspend audio and resume the transport",
+        "Rapid wing changes discard stale downloads and leave one score and one ambient loop",
+        "Master mute suspends every bus and clears narration",
+        "Reload retains channel levels and mute without auto-starting sound",
+        "Failed sound download leaves a usable page and explicit retry restores ambience"
+      ],
+      "errors": [],
+      "requests": [
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-2.mp3",
+        "http://127.0.0.1:43211/assets/audio/travel.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-1.mp3",
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3"
+      ],
+      "final": {
+        "outputRms": 0.000012702921532484256,
+        "unlocked": true,
+        "context": "running",
+        "muted": false,
+        "paused": false,
+        "hidden": false,
+        "levels": {
+          "voice": 0,
+          "music": 1,
+          "ambience": 1,
+          "effects": 0.55
+        },
+        "caption": "",
+        "wing": 0,
+        "loops": [
+          "wing-0"
+        ],
+        "retiring": 0,
+        "shots": 0,
+        "pending": [
+          "headquarters-score"
+        ],
+        "failures": [],
+        "buffers": [
+          {
+            "id": "wing-0",
+            "duration": 12,
+            "channels": 2,
+            "samples": 529200,
+            "rate": 44100
+          }
+        ],
+        "gains": {
+          "music": 0.21370843052864075,
+          "ambience": 0.21370843052864075,
+          "effects": 0.11753964424133301
+        },
+        "master": 0.9992929697036743
+      },
+      "pass": true
+    },
+    {
+      "name": "firefox",
+      "checks": [
+        "Default muted journey creates no audio context and requests no sound assets",
+        "A user gesture starts decoded music and ambience with measurable output",
+        "Keyboard-operated independent sliders isolate channels and preserve effects",
+        "Pause button and Escape both suspend audio and resume the transport",
+        "Rapid wing changes discard stale downloads and leave one score and one ambient loop",
+        "Master mute suspends every bus and clears narration",
+        "Reload retains channel levels and mute without auto-starting sound",
+        "Failed sound download leaves a usable page and explicit retry restores ambience"
+      ],
+      "errors": [],
+      "requests": [
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-2.mp3",
+        "http://127.0.0.1:43211/assets/audio/travel.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-1.mp3",
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3"
+      ],
+      "final": {
+        "outputRms": 0.00037281361851968225,
+        "unlocked": true,
+        "context": "running",
+        "muted": false,
+        "paused": false,
+        "hidden": false,
+        "levels": {
+          "voice": 0,
+          "music": 1,
+          "ambience": 1,
+          "effects": 0.55
+        },
+        "caption": "",
+        "wing": 0,
+        "loops": [
+          "wing-0"
+        ],
+        "retiring": 0,
+        "shots": 0,
+        "pending": [
+          "headquarters-score"
+        ],
+        "failures": [],
+        "buffers": [
+          {
+            "id": "wing-0",
+            "duration": 12,
+            "channels": 2,
+            "samples": 529200,
+            "rate": 44100
+          }
+        ],
+        "gains": {
+          "music": 1,
+          "ambience": 1,
+          "effects": 0.9127209186553955
+        },
+        "master": 1
+      },
+      "pass": true
+    },
+    {
+      "name": "webkit",
+      "checks": [
+        "Default muted journey creates no audio context and requests no sound assets",
+        "A user gesture starts decoded music and ambience with measurable output",
+        "Keyboard-operated independent sliders isolate channels and preserve effects",
+        "Pause button and Escape both suspend audio and resume the transport",
+        "Rapid wing changes discard stale downloads and leave one score and one ambient loop",
+        "Master mute suspends every bus and clears narration",
+        "Reload retains channel levels and mute without auto-starting sound",
+        "Failed sound download leaves a usable page and explicit retry restores ambience"
+      ],
+      "errors": [],
+      "requests": [
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-2.mp3",
+        "http://127.0.0.1:43211/assets/audio/travel.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-1.mp3",
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3"
+      ],
+      "final": {
+        "outputRms": 0.0006408101755584138,
+        "unlocked": true,
+        "context": "running",
+        "muted": false,
+        "paused": false,
+        "hidden": false,
+        "levels": {
+          "voice": 0,
+          "music": 1,
+          "ambience": 1,
+          "effects": 0.55
+        },
+        "caption": "",
+        "wing": 0,
+        "loops": [
+          "headquarters-score",
+          "wing-0"
+        ],
+        "retiring": 0,
+        "shots": 0,
+        "pending": [],
+        "failures": [],
+        "buffers": [
+          {
+            "id": "headquarters-score",
+            "duration": 48,
+            "channels": 2,
+            "samples": 2116800,
+            "rate": 44100
+          },
+          {
+            "id": "wing-0",
+            "duration": 12,
+            "channels": 2,
+            "samples": 529200,
+            "rate": 44100
+          }
+        ],
+        "gains": {
+          "music": 0.21370846033096313,
+          "ambience": 0.21370846033096313,
+          "effects": 0.11753953993320465
+        },
+        "master": 0.9990992546081543
+      },
+      "pass": true
+    }
+  ]
+}

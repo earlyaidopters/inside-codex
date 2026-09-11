@@ -1,0 +1,1448 @@
+{
+  "status": "candidate; indirect lighting still uses prior bake",
+  "moves": [
+    {
+      "name": "Open atrium column",
+      "kind": "column",
+      "vertices": 512,
+      "dz": 9,
+      "from": [
+        -9.0,
+        -1.0,
+        4.400000095367432
+      ],
+      "to": [
+        -9.0,
+        -10.0,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "5a221e82fd3271283bf6f12afe4a90c18b2fde1dbc0146de9b26a167a194dfd3"
+    },
+    {
+      "name": "Column foot",
+      "kind": "column",
+      "vertices": 512,
+      "dz": 9,
+      "from": [
+        -9.0,
+        -1.0,
+        0.10999999940395355
+      ],
+      "to": [
+        -9.0,
+        -10.0,
+        0.10999999940395355
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "7c1bdb394c9ed8416b6b42b3b2c6df3aea9c04f0dbc99198a2188dfdc0e6b51a"
+    },
+    {
+      "name": "Column reed",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -8.640000343322754,
+        -1.0,
+        4.400000095367432
+      ],
+      "to": [
+        -8.640000343322754,
+        -10.0,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "9077c50da4ef99798658ba1548f3568f47fa7abd5b8dd1457840a26efa83b08d"
+    },
+    {
+      "name": "Column reed.001",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -8.667403221130371,
+        -1.1377660036087036,
+        4.400000095367432
+      ],
+      "to": [
+        -8.667403221130371,
+        -10.137765884399414,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "f4f62b60900987a36e40c367a8bad5c2b3316962a94bfc59e27b2cf94b1b3df7"
+    },
+    {
+      "name": "Column reed.002",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -8.745441436767578,
+        -1.2545584440231323,
+        4.400000095367432
+      ],
+      "to": [
+        -8.745441436767578,
+        -10.254558563232422,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "24841401abd7c49afcbb5760e0d35d5f06e57bb6295a02789642eeb69c488d1c"
+    },
+    {
+      "name": "Column reed.003",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -8.862234115600586,
+        -1.3325966596603394,
+        4.400000095367432
+      ],
+      "to": [
+        -8.862234115600586,
+        -10.332596778869629,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "a817e1cb4831eb2cb97aaf038588140012868d444f9c6ed5a3b9b4f6d43bdff4"
+    },
+    {
+      "name": "Column reed.004",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.0,
+        -1.3600000143051147,
+        4.400000095367432
+      ],
+      "to": [
+        -9.0,
+        -10.359999656677246,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "cd9fb5e67288cf5c871b9abe28c4df62d20b4bb7f85b6526d8e2e12af32cd1d5"
+    },
+    {
+      "name": "Column reed.005",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.137765884399414,
+        -1.3325966596603394,
+        4.400000095367432
+      ],
+      "to": [
+        -9.137765884399414,
+        -10.332596778869629,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "aba7a6f05bfe776020d69141c8c8a49a1f4d1cd52125037817ecbd6b427a3b46"
+    },
+    {
+      "name": "Column reed.006",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.254558563232422,
+        -1.2545584440231323,
+        4.400000095367432
+      ],
+      "to": [
+        -9.254558563232422,
+        -10.254558563232422,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "1e33f4f90fa7a2d1f84754603ecde2b463417f72de987a914041a5c6425aa52f"
+    },
+    {
+      "name": "Column reed.007",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.332596778869629,
+        -1.1377660036087036,
+        4.400000095367432
+      ],
+      "to": [
+        -9.332596778869629,
+        -10.137765884399414,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "9b78ee5920664abd244c08e6e252d4daf200fed0d0877bcc98f6ba201ff758d9"
+    },
+    {
+      "name": "Column reed.008",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.359999656677246,
+        -1.0,
+        4.400000095367432
+      ],
+      "to": [
+        -9.359999656677246,
+        -10.0,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "366b918ff197bb4cb0208952447b20a4a23f32b2829028205c41c2e580f910da"
+    },
+    {
+      "name": "Column reed.009",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.332596778869629,
+        -0.8622339367866516,
+        4.400000095367432
+      ],
+      "to": [
+        -9.332596778869629,
+        -9.862234115600586,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "93b967e9bef4c765a9071d2dc16d3a71c1dc239513eb4ae2d6f6454008293f0a"
+    },
+    {
+      "name": "Column reed.010",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.254558563232422,
+        -0.7454415559768677,
+        4.400000095367432
+      ],
+      "to": [
+        -9.254558563232422,
+        -9.745441436767578,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "1802c178ad076c18689f4e12b42efc35c447c476b7b44e8143fa7ff80076477c"
+    },
+    {
+      "name": "Column reed.011",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.137765884399414,
+        -0.6674033403396606,
+        4.400000095367432
+      ],
+      "to": [
+        -9.137765884399414,
+        -9.667403221130371,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "e506845aa8a968a0a46c8efc85e8833d8d97eac1cd170a6ce97b72402434c080"
+    },
+    {
+      "name": "Column reed.012",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -9.0,
+        -0.6399999856948853,
+        4.400000095367432
+      ],
+      "to": [
+        -9.0,
+        -9.640000343322754,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "80dad4b87700f7cfc52c938b56d816ecf6777a5754d4b41335297f075f256d06"
+    },
+    {
+      "name": "Column reed.013",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -8.862234115600586,
+        -0.6674033403396606,
+        4.400000095367432
+      ],
+      "to": [
+        -8.862234115600586,
+        -9.667403221130371,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "c127cf95aed3fbd392f8aedd221e5ffaa6fd60ea1896c670a5270a21ff24eacd"
+    },
+    {
+      "name": "Column reed.014",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -8.745441436767578,
+        -0.7454415559768677,
+        4.400000095367432
+      ],
+      "to": [
+        -8.745441436767578,
+        -9.745441436767578,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "1a2dc18a94c15e6f6c6f02d361b3c5f5a900411a2f9ad9ed955c662335058087"
+    },
+    {
+      "name": "Column reed.015",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        -8.667403221130371,
+        -0.8622339367866516,
+        4.400000095367432
+      ],
+      "to": [
+        -8.667403221130371,
+        -9.862234115600586,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "b8b75d9769f7657b205c72b56657e627461ca515622def934550500392b2bf7f"
+    },
+    {
+      "name": "Open atrium column.002",
+      "kind": "column",
+      "vertices": 512,
+      "dz": 9,
+      "from": [
+        9.0,
+        -1.0,
+        4.400000095367432
+      ],
+      "to": [
+        9.0,
+        -10.0,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "76df7b5c804aa0a7da57017ce1739824dbb0a5dbfd3641df4d3f9d5f15eadb03"
+    },
+    {
+      "name": "Column foot.002",
+      "kind": "column",
+      "vertices": 512,
+      "dz": 9,
+      "from": [
+        9.0,
+        -1.0,
+        0.10999999940395355
+      ],
+      "to": [
+        9.0,
+        -10.0,
+        0.10999999940395355
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "251026e1d3a94ef9f5d2f855373f8e9d947e84537118031446cc02d4df99c1b9"
+    },
+    {
+      "name": "Column reed.032",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.359999656677246,
+        -1.0,
+        4.400000095367432
+      ],
+      "to": [
+        9.359999656677246,
+        -10.0,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "fcb1f6c000e6b02281887aee0321ec540da02e9facf943d2b1d26d9e2f32228b"
+    },
+    {
+      "name": "Column reed.033",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.332596778869629,
+        -1.1377660036087036,
+        4.400000095367432
+      ],
+      "to": [
+        9.332596778869629,
+        -10.137765884399414,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "29c1b51d6f78af4d9d6a89e89e48a9afcaa5962c977c5e3abea25726cf58f69b"
+    },
+    {
+      "name": "Column reed.034",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.254558563232422,
+        -1.2545584440231323,
+        4.400000095367432
+      ],
+      "to": [
+        9.254558563232422,
+        -10.254558563232422,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "9fdbaf6497b666df136ef6b2f9db9c0143d9a62098371dd15ca95e988cb9fc7e"
+    },
+    {
+      "name": "Column reed.035",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.137765884399414,
+        -1.3325966596603394,
+        4.400000095367432
+      ],
+      "to": [
+        9.137765884399414,
+        -10.332596778869629,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "3876752a6f9cd63865ed5766ab9047845af5749b09ee08949cab7353b9ba2da5"
+    },
+    {
+      "name": "Column reed.036",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.0,
+        -1.3600000143051147,
+        4.400000095367432
+      ],
+      "to": [
+        9.0,
+        -10.359999656677246,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "78275f598b70416fcba920caf9fdd7b16ec770bf4c1fee8615e48a23569ff108"
+    },
+    {
+      "name": "Column reed.037",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        8.862234115600586,
+        -1.3325966596603394,
+        4.400000095367432
+      ],
+      "to": [
+        8.862234115600586,
+        -10.332596778869629,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "3826069ee80bb03a0b46a60b890a3c85fe426b54dbc0f360c04ae2bbe1475a3f"
+    },
+    {
+      "name": "Column reed.038",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        8.745441436767578,
+        -1.2545584440231323,
+        4.400000095367432
+      ],
+      "to": [
+        8.745441436767578,
+        -10.254558563232422,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "0502dcf55225b145f01c17a79262587a398fb5beeeb6c182d71a8a3d3cc94024"
+    },
+    {
+      "name": "Column reed.039",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        8.667403221130371,
+        -1.1377660036087036,
+        4.400000095367432
+      ],
+      "to": [
+        8.667403221130371,
+        -10.137765884399414,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "e543dcb5c96364547c5e2cec827293b296d964cc9abe15634a650dc71e905974"
+    },
+    {
+      "name": "Column reed.040",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        8.640000343322754,
+        -1.0,
+        4.400000095367432
+      ],
+      "to": [
+        8.640000343322754,
+        -10.0,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "081910684ddc993e8c28e8da387b8311e6c61ba2cd586f69ba739b478002af4c"
+    },
+    {
+      "name": "Column reed.041",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        8.667403221130371,
+        -0.8622339367866516,
+        4.400000095367432
+      ],
+      "to": [
+        8.667403221130371,
+        -9.862234115600586,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "e7e33b7f536a64943ddcd784b01b7566a6dfd4c6ff27efd1bdc443775a3ade01"
+    },
+    {
+      "name": "Column reed.042",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        8.745441436767578,
+        -0.7454415559768677,
+        4.400000095367432
+      ],
+      "to": [
+        8.745441436767578,
+        -9.745441436767578,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "9e4173d8ab6cbf286d683f5ef80113805e19e7b4f68946d06c4f2c1d1ca3a6f0"
+    },
+    {
+      "name": "Column reed.043",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        8.862234115600586,
+        -0.6674033403396606,
+        4.400000095367432
+      ],
+      "to": [
+        8.862234115600586,
+        -9.667403221130371,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "ab0697ee3dde967f95904a2039553949640c932e79c9561c7e06259f5f8a74ca"
+    },
+    {
+      "name": "Column reed.044",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.0,
+        -0.6399999856948853,
+        4.400000095367432
+      ],
+      "to": [
+        9.0,
+        -9.640000343322754,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "e0da7a1df6171b348428e3c99e5944b69dd2be6e893a92571a82b1fc548f0c8e"
+    },
+    {
+      "name": "Column reed.045",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.137765884399414,
+        -0.6674033403396606,
+        4.400000095367432
+      ],
+      "to": [
+        9.137765884399414,
+        -9.667403221130371,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "97eff73c628a14d89182332202ce8236a03e1d132a976b0182d483febad888a5"
+    },
+    {
+      "name": "Column reed.046",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.254558563232422,
+        -0.7454415559768677,
+        4.400000095367432
+      ],
+      "to": [
+        9.254558563232422,
+        -9.745441436767578,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "d051c3a9789010bcd7be56f56fe244698eb5cab8fc873eb1d26a548e5320965a"
+    },
+    {
+      "name": "Column reed.047",
+      "kind": "column",
+      "vertices": 192,
+      "dz": 9,
+      "from": [
+        9.332596778869629,
+        -0.8622339367866516,
+        4.400000095367432
+      ],
+      "to": [
+        9.332596778869629,
+        -9.862234115600586,
+        4.400000095367432
+      ],
+      "runtimeMesh": "Architecture shell",
+      "signatureBefore": "2dbe8084fc1b15209b0cf3efd10aa6e11534f111a5987eb2756e169ff813de90"
+    },
+    {
+      "name": "Olive planter",
+      "kind": "tree",
+      "vertices": 512,
+      "dz": 8,
+      "from": [
+        -22.0,
+        -2.0,
+        0.6000000238418579
+      ],
+      "to": [
+        -22.0,
+        -10.0,
+        0.6000000238418579
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "cb492abdc13f5c0af5deda933b581264c462148ab7f1ce5c0f9baf230c2f4a20"
+    },
+    {
+      "name": "Olive soil",
+      "kind": "tree",
+      "vertices": 512,
+      "dz": 8,
+      "from": [
+        -22.0,
+        -2.0,
+        1.2000000476837158
+      ],
+      "to": [
+        -22.0,
+        -10.0,
+        1.2000000476837158
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "c058d5f0cb155d7b9c5f0e1fc4a54765adeec9d76a64fe27e4ffa83f841b17ba"
+    },
+    {
+      "name": "Olive trunk",
+      "kind": "tree",
+      "vertices": 128,
+      "dz": 8,
+      "from": [
+        -22.0,
+        -2.0,
+        2.75
+      ],
+      "to": [
+        -22.0,
+        -10.0,
+        2.75
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "85ebb93f8476b9b4537d4b4f1a589cce5513eb292053666c75668a4ca15d5dba"
+    },
+    {
+      "name": "Olive foliage cluster",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.649999618530273,
+        -2.0,
+        3.450000047683716
+      ],
+      "to": [
+        -21.649999618530273,
+        -10.0,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "bb3b4f9b280e0d91c83fb9632f6d93f75d4466cd140b5b015758f9d4604d0fb1"
+    },
+    {
+      "name": "Olive foliage cluster.001",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -22.420299530029297,
+        -2.3850295543670654,
+        3.7699999809265137
+      ],
+      "to": [
+        -22.420299530029297,
+        -10.385029792785645,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "19adeee966389fe34504c06f8e6eda03097462545fd2736b74ba8d7d75c7612a"
+    },
+    {
+      "name": "Olive foliage cluster.002",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.93093490600586,
+        -1.2130248546600342,
+        4.090000152587891
+      ],
+      "to": [
+        -21.93093490600586,
+        -9.213025093078613,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "f08d5f84328837a149e972585b2f8f154061c568afae7a1d5d8e851e04d7cb22"
+    },
+    {
+      "name": "Olive foliage cluster.003",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.38547706604004,
+        -2.8015363216400146,
+        4.409999847412109
+      ],
+      "to": [
+        -21.38547706604004,
+        -10.801536560058594,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "99d53dea4776fe837d5574625ce97ee6bd94650d5bce9d09af3838097a48802a"
+    },
+    {
+      "name": "Olive foliage cluster.004",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -23.211196899414062,
+        -1.785757303237915,
+        3.450000047683716
+      ],
+      "to": [
+        -23.211196899414062,
+        -9.785757064819336,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "e29d5f390c21f961c209ca480a18736746bd956a2af54c834304bbf89f623d77"
+    },
+    {
+      "name": "Olive foliage cluster.005",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.70468521118164,
+        -1.8121448755264282,
+        3.7699999809265137
+      ],
+      "to": [
+        -21.70468521118164,
+        -9.812145233154297,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "290dacde5994446dc241a5e0713b9362abc63edb57c68899ab347ea16c5d362f"
+    },
+    {
+      "name": "Olive foliage cluster.006",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -22.147974014282227,
+        -2.550457715988159,
+        4.090000152587891
+      ],
+      "to": [
+        -22.147974014282227,
+        -10.550457954406738,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "572e89a135cb56ca7fb19fec4bfd1fe402c5fd20ec5f5683ca8660f4e39d4220"
+    },
+    {
+      "name": "Olive foliage cluster.007",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -22.364118576049805,
+        -1.2989163398742676,
+        4.409999847412109
+      ],
+      "to": [
+        -22.364118576049805,
+        -9.29891586303711,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "f3fbe36a25f2975a945d9be55144afc85ec8a39822b42c538800940994171ca9"
+    },
+    {
+      "name": "Olive foliage cluster.008",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.051284790039062,
+        -2.3464672565460205,
+        3.450000047683716
+      ],
+      "to": [
+        -21.051284790039062,
+        -10.346467018127441,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "34e28349ddd05adbed5be8e33a9c757a24cf10cc8bfdb0a4dd18c7623d9bf169"
+    },
+    {
+      "name": "Olive foliage cluster.009",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -23.136943817138672,
+        -2.4693167209625244,
+        3.7699999809265137
+      ],
+      "to": [
+        -23.136943817138672,
+        -10.469316482543945,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "03ab6867eab7ad171861e95dc48a18acd8cd5ef53945ad3d32b32b7dd758a1d9"
+    },
+    {
+      "name": "Olive foliage cluster.010",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.851654052734375,
+        -1.682992696762085,
+        4.090000152587891
+      ],
+      "to": [
+        -21.851654052734375,
+        -9.682992935180664,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "6e7ce6f526262328ea719cd617cf970957087b6f4dc17c6c05d9db5452134dc7"
+    },
+    {
+      "name": "Olive foliage cluster.011",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.82940673828125,
+        -2.5438730716705322,
+        4.409999847412109
+      ],
+      "to": [
+        -21.82940673828125,
+        -10.543872833251953,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "84a80ee0daf3645583d72f3d07be612e801e9dc5104d3f47e25fb8ca8ac9d186"
+    },
+    {
+      "name": "Olive foliage cluster.012",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -22.683517456054688,
+        -1.6038899421691895,
+        3.450000047683716
+      ],
+      "to": [
+        -22.683517456054688,
+        -9.603889465332031,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "1ac78705eacc3e34ebd4a685fc8c9b225b63573f439fe86b490367eb93c08bca"
+    },
+    {
+      "name": "Olive foliage cluster.013",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.01355743408203,
+        -1.783130407333374,
+        3.7699999809265137
+      ],
+      "to": [
+        -21.01355743408203,
+        -9.783130645751953,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "9b11bdd24dcee603a1531a2908cb4c82707c12d56a5a7acc54366ec06060703f"
+    },
+    {
+      "name": "Olive foliage cluster.014",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -22.70740509033203,
+        -3.0062191486358643,
+        4.090000152587891
+      ],
+      "to": [
+        -22.70740509033203,
+        -11.006218910217285,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "fb8487b39c78da472fb301df3972309eb318f1292e7b216d93aeea8922b8052d"
+    },
+    {
+      "name": "Olive foliage cluster.015",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -22.044979095458984,
+        -1.652902364730835,
+        4.409999847412109
+      ],
+      "to": [
+        -22.044979095458984,
+        -9.652902603149414,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "90a1f2db402efa05c851c9259befc2ea5eb53aa2aa5ce23f4a4d816702f056b8"
+    },
+    {
+      "name": "Olive foliage cluster.016",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -21.56414794921875,
+        -2.367333173751831,
+        3.450000047683716
+      ],
+      "to": [
+        -21.56414794921875,
+        -10.36733341217041,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "8810954763ab33decbfc5beb5012457f34ac26caff94e2d3bf3635fcda71f5fd"
+    },
+    {
+      "name": "Olive foliage cluster.017",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        -22.789325714111328,
+        -2.032644271850586,
+        3.7699999809265137
+      ],
+      "to": [
+        -22.789325714111328,
+        -10.032644271850586,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "069250e1147e4f38122118353ec4a1ffd3f7a6ea8d7603816559e0eff089a77f"
+    },
+    {
+      "name": "Olive planter.001",
+      "kind": "tree",
+      "vertices": 512,
+      "dz": 8,
+      "from": [
+        22.0,
+        -2.0,
+        0.6000000238418579
+      ],
+      "to": [
+        22.0,
+        -10.0,
+        0.6000000238418579
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "04a90e55b46db7046ffc09e7c6c5c31f7c4408818df91d623d5a92e0b910655d"
+    },
+    {
+      "name": "Olive soil.001",
+      "kind": "tree",
+      "vertices": 512,
+      "dz": 8,
+      "from": [
+        22.0,
+        -2.0,
+        1.2000000476837158
+      ],
+      "to": [
+        22.0,
+        -10.0,
+        1.2000000476837158
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "eb4211873d79c2844c24b39948411b2de6cc66770d2651f7b0848ff90c524d50"
+    },
+    {
+      "name": "Olive trunk.001",
+      "kind": "tree",
+      "vertices": 128,
+      "dz": 8,
+      "from": [
+        22.0,
+        -2.0,
+        2.75
+      ],
+      "to": [
+        22.0,
+        -10.0,
+        2.75
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "7d46bf08f36363a3945c2a8157605580435004984c4b97bf00f0b46cbca9c7b9"
+    },
+    {
+      "name": "Olive foliage cluster.018",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.350000381469727,
+        -2.0,
+        3.450000047683716
+      ],
+      "to": [
+        22.350000381469727,
+        -10.0,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "0f91c23157fa03f8d833f376c1f2248010e6f4288f449bcd456c08cf15162c55"
+    },
+    {
+      "name": "Olive foliage cluster.019",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        21.579700469970703,
+        -2.3850295543670654,
+        3.7699999809265137
+      ],
+      "to": [
+        21.579700469970703,
+        -10.385029792785645,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "80e8d7f6ea097f990a18b767da1681df9fcaa7394738da14486605012b12c72b"
+    },
+    {
+      "name": "Olive foliage cluster.020",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.06906509399414,
+        -1.2130248546600342,
+        4.090000152587891
+      ],
+      "to": [
+        22.06906509399414,
+        -9.213025093078613,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "02ee5360527a6465a169dfebd94d65d786bc4c66fb108baa2c14fb5816afd194"
+    },
+    {
+      "name": "Olive foliage cluster.021",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.61452293395996,
+        -2.8015363216400146,
+        4.409999847412109
+      ],
+      "to": [
+        22.61452293395996,
+        -10.801536560058594,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "a563368e2aef9c3f28236b7fc05403c8c0e7d9476d5967ded52d5030809bd53f"
+    },
+    {
+      "name": "Olive foliage cluster.022",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        20.788803100585938,
+        -1.785757303237915,
+        3.450000047683716
+      ],
+      "to": [
+        20.788803100585938,
+        -9.785757064819336,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "5d92ab9869f0e5590b714f9eab2d9f1b698bbca622fa11fac33d8e0977ba945d"
+    },
+    {
+      "name": "Olive foliage cluster.023",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.29531478881836,
+        -1.8121448755264282,
+        3.7699999809265137
+      ],
+      "to": [
+        22.29531478881836,
+        -9.812145233154297,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "b3e1716b151baf964c5594b2af48fbef47e0b03b5d76221db4feb0d76386223a"
+    },
+    {
+      "name": "Olive foliage cluster.024",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        21.852025985717773,
+        -2.550457715988159,
+        4.090000152587891
+      ],
+      "to": [
+        21.852025985717773,
+        -10.550457954406738,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "1a2bbf7d2ef0c1937d9b6bfbcd640773ee08690949bbfa3baef057c6ae714d29"
+    },
+    {
+      "name": "Olive foliage cluster.025",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        21.635881423950195,
+        -1.2989163398742676,
+        4.409999847412109
+      ],
+      "to": [
+        21.635881423950195,
+        -9.29891586303711,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "de83665d1df3c58c8abefceee7311cdb60c31981cce59c4f1fc1ac90754cb610"
+    },
+    {
+      "name": "Olive foliage cluster.026",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.948715209960938,
+        -2.3464672565460205,
+        3.450000047683716
+      ],
+      "to": [
+        22.948715209960938,
+        -10.346467018127441,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "4b3fb9c323d9d4862dd36d0c49bf2c079581fc49b329ca9ec9aa4c7393674b4d"
+    },
+    {
+      "name": "Olive foliage cluster.027",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        20.863056182861328,
+        -2.4693167209625244,
+        3.7699999809265137
+      ],
+      "to": [
+        20.863056182861328,
+        -10.469316482543945,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "45895506c3345c9fe7e213b5b43a2ba6e15068fc0c7a52273fb6f3d00ecb7819"
+    },
+    {
+      "name": "Olive foliage cluster.028",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.148345947265625,
+        -1.682992696762085,
+        4.090000152587891
+      ],
+      "to": [
+        22.148345947265625,
+        -9.682992935180664,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "058381abdb37726e9ddc2eb189886931c8eab343cad92fccd1a98f0fd71bca9e"
+    },
+    {
+      "name": "Olive foliage cluster.029",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.17059326171875,
+        -2.5438730716705322,
+        4.409999847412109
+      ],
+      "to": [
+        22.17059326171875,
+        -10.543872833251953,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "1189caad97c9a5e8115ef3e9a6c978079ad1d7af73cd952c8ac9d7da3d689837"
+    },
+    {
+      "name": "Olive foliage cluster.030",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        21.316482543945312,
+        -1.6038899421691895,
+        3.450000047683716
+      ],
+      "to": [
+        21.316482543945312,
+        -9.603889465332031,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "b7063a0fa87ba0af75f67d93539fa3d34f4cbafb8430b015ae903ae649a4b903"
+    },
+    {
+      "name": "Olive foliage cluster.031",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.98644256591797,
+        -1.783130407333374,
+        3.7699999809265137
+      ],
+      "to": [
+        22.98644256591797,
+        -9.783130645751953,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "95de300082848ed37c48c0f3924c0784786744e77f8be7ad0f595aee0e744587"
+    },
+    {
+      "name": "Olive foliage cluster.032",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        21.29259490966797,
+        -3.0062191486358643,
+        4.090000152587891
+      ],
+      "to": [
+        21.29259490966797,
+        -11.006218910217285,
+        4.090000152587891
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "4b17d9e8a70d5fda7034ab2c53c663bdfa62de1e07318cec2bfa425ae061f34e"
+    },
+    {
+      "name": "Olive foliage cluster.033",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        21.955020904541016,
+        -1.652902364730835,
+        4.409999847412109
+      ],
+      "to": [
+        21.955020904541016,
+        -9.652902603149414,
+        4.409999847412109
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "03725e406bdc37e5e8d5eb561745920e79b47c6c2e25525921886e1d7a8c20a7"
+    },
+    {
+      "name": "Olive foliage cluster.034",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        22.43585205078125,
+        -2.367333173751831,
+        3.450000047683716
+      ],
+      "to": [
+        22.43585205078125,
+        -10.36733341217041,
+        3.450000047683716
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "aede00cf3e5875ced82bd8d6137914c7d8b386da625e6860c39a79d86ccc91fc"
+    },
+    {
+      "name": "Olive foliage cluster.035",
+      "kind": "tree",
+      "vertices": 86,
+      "dz": 8,
+      "from": [
+        21.210674285888672,
+        -2.032644271850586,
+        3.7699999809265137
+      ],
+      "to": [
+        21.210674285888672,
+        -10.032644271850586,
+        3.7699999809265137
+      ],
+      "runtimeMesh": "Architecture furnishings",
+      "signatureBefore": "9959536a3f4b511c2dfd040eb2c89d524a30ef190aa51e4e0f669920a595c301"
+    }
+  ],
+  "retention": [
+    {
+      "mesh": "Architecture floor",
+      "vertices": 960,
+      "movedVertices": 0,
+      "uvSha256Before": "88c84959ed518e3333f8382a6ad09a6005aa2abf3e1e438c9b65a8cb939677a7",
+      "uvSha256After": "88c84959ed518e3333f8382a6ad09a6005aa2abf3e1e438c9b65a8cb939677a7"
+    },
+    {
+      "mesh": "Architecture shell",
+      "vertices": 42532,
+      "movedVertices": 8192,
+      "uvSha256Before": "0570a97c2b2ce13f859d5c5cc60b0acde5d1a605fc95160e0cc0cfec21368d2a",
+      "uvSha256After": "0570a97c2b2ce13f859d5c5cc60b0acde5d1a605fc95160e0cc0cfec21368d2a"
+    },
+    {
+      "mesh": "Architecture exterior",
+      "vertices": 11432,
+      "movedVertices": 0,
+      "uvSha256Before": "763cb5c7c673a5de0a12e2c6f4143b72ff542a10ab0e2967dca2b78712059903",
+      "uvSha256After": "763cb5c7c673a5de0a12e2c6f4143b72ff542a10ab0e2967dca2b78712059903"
+    },
+    {
+      "mesh": "Architecture furnishings",
+      "vertices": 57480,
+      "movedVertices": 5400,
+      "uvSha256Before": "3bf7f50d63d51d8f9445680566511001587f1d615b3a14ac22e0b59560df9e6c",
+      "uvSha256After": "3bf7f50d63d51d8f9445680566511001587f1d615b3a14ac22e0b59560df9e6c"
+    },
+    {
+      "mesh": "Architecture floor inlays",
+      "vertices": 1852,
+      "movedVertices": 0,
+      "uvSha256Before": "723a9d1497a913f68ea4ba7575a10d55459865a3f2f3f4188710ff5d725a9041",
+      "uvSha256After": "723a9d1497a913f68ea4ba7575a10d55459865a3f2f3f4188710ff5d725a9041"
+    }
+  ],
+  "sourceMaster": "art-source/headquarters-flat-inlays-wide.blend",
+  "sourceRuntimeMaster": "art-source/headquarters-flat-inlays-wide-runtime.blend"
+}

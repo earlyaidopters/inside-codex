@@ -1,0 +1,938 @@
+{
+  "pass": true,
+  "scope": "All animation samplers, inverse binds, node hierarchy/transforms, material definitions and five unchanged mesh primitives match exactly. Twelve hand parts have half the triangles and retain the original full rigid bone influence.",
+  "sources": [
+    {
+      "path": "public/assets/codex-mascot.glb",
+      "bytes": 912508,
+      "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610"
+    },
+    {
+      "path": "../evidence/production/mascot-lod-v1/balanced.glb",
+      "bytes": 695944,
+      "sha256": "07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee"
+    }
+  ],
+  "animations": [
+    {
+      "name": "Beckon",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "35a053446003839ff6fb567e6615a26b34bf5a7a694489d39242fa73e072a1bf"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "0d90a84c349a5877772758c460338b1fee96876fed311c25d4ac10b585577b30"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "88c4fa7b5407a551ffe48bb17c1b4c49ffd40d75847592344f8003dd29d019b9"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "43e5cb4f55d4161805fb61ea1f71d8479e5a2dcf6ece1877c5f944450a65abcf"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Celebrate",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "ccdae896a211b0cc38e2e3aa20add5eddc2aef492af3d6ef162c6971724f8e2c"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "4994ae4324aceb18f1cfa6f6906c56ccfaec7ab6871c67b4fcbb6287cc483e80"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "43c4c4ca2d6f43bb8ab33eeef1fd1ec7e4df1d2b57afc4f69450146e62f7abdd"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "054b07e7b036452057c94f12640930061c74ab1f6dd507c000ecf749259dc31c"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Correct",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "35a053446003839ff6fb567e6615a26b34bf5a7a694489d39242fa73e072a1bf"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "926e5a63d091bf98b24047a3ac030647d3ac7acaa6f7f4c4b203088389c418f7"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "6020e914c3e2df5dd3012e592f532663d6fa4e1518349cbac922b8abf174957f"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "b945b535358ae261e620ed03d1db45869941214c67ac3eceac3b01ddd55ed7f6"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Greet",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "35a053446003839ff6fb567e6615a26b34bf5a7a694489d39242fa73e072a1bf"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "639571d70bf3761506d6cf6d46774caf3fa68a49a90d26948882a61e8646f00d"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "77910f8e4ecd0e8612d34b069d1f3e607635fd362f70c3dc8b1bc0710499a67a"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "16def90c16d4505e2f80d462ea2bae79a88c8f5c044b5850e86d5c897245b26b"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Idle",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "e771812b8b5197bbc68e61f3f5c2b28f7fe0422a0737a3b6aa8bba5aea9f4d83"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "1a6fbda141fc9072358899da0b13793e92ce39b0bdbea0633d84e30f83946344"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "2d746c43ae7612d26b90b260f7aca2f4618b5961f6763ad8da43c1f4f726691f"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "3b91c4a17cdf033d6a1c07475be6eefefec0f822a54a274d55c0243114caa3f0"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Inspect",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "14b642376c344f600fb92d0731ff375d918716308452a1660e7910e43ebeb0a2"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "29c9b3276d9861eee5bbdf456dad4d05c8c19bfc80737bddeac21e72262beb94"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "3dc1f21094ae39f0aea9fbe9bd1fe854010d5efd2ca630360a897bba85b21463"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "2dd97cd4f2373d0bb51747f706a21733959ebb3b7b06f9a600d21ca42e738a86"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Point",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "35a053446003839ff6fb567e6615a26b34bf5a7a694489d39242fa73e072a1bf"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "4ca57bd199f726ebd215702fc6713a5e6cacbaa2d60f93c05dda58d1d87769fd"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "3b50a6ec32e4ee29508dbb09e372b555c07d7aff9489043589a09e1f9a9a68e9"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "5cdc68e5856d9f2ddd5f57d547d3432f3a0ebd1c66efcf751e9d589760b257c6"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "PointLeft",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "35a053446003839ff6fb567e6615a26b34bf5a7a694489d39242fa73e072a1bf"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "294df24394356ce4e3d23ba9d88ab4dd5c9e274efc6e6cff6166f0b452bc72d5"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "cb7890447ba571bce3888626976152f2c187d534784e860a6853556a431e762a"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "bed8e4059ec87d3f212147777c575e08c41477fdb00931befb8328e1b9f6ba1a"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Return",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "35a053446003839ff6fb567e6615a26b34bf5a7a694489d39242fa73e072a1bf"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "7e3f7d6985efb3e3b2d1bbdcc416e9cce9b0f427a76fab3e4ce5b5665965ba2b"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "a06a0c3ba5b29bccfd69658210b2394675d7afdf9314b9bab891f70f9d22b373"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "14c4a9f322ded768072685182b1efd586bca575eb262dbb2119dacf4d23610fb"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Think",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "35a053446003839ff6fb567e6615a26b34bf5a7a694489d39242fa73e072a1bf"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "bc974c1043c6628dadd5f21d064b5bd9e91d5bfaa9f804deacf9158e8093132c"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "f82ef88989d94b98495f8fc1475db2c3fb9bb5f047fa7e7c90cd72dee890fbd4"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "905151fef35e1b4db303b0e663604f5fe1842bcc54bbcc601d3fb9df2202a1d0",
+          "output": "b4ea77361e1c7893422ed5f5bda09c72444ef56cbb86e4fe1005298360dfb15d"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "5cd7421d2197e8d2e3b84e1136378c6b37255f54bf984152a24c00daf85648ec",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    },
+    {
+      "name": "Travel",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "97b26308fb33ddede637a43e42ef34b0fb468f24839c98882bcfc16110f6e74e"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "fc6fe8955eebcc3114ccb5ee05b385867cfd0f049425e1b983248b3d773b2236"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "0b75ff00a067c0e49849d7ea9ce70fbf40a317ffa7d7601224efd5de6062efa5"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "d77757285269b6ae050f31293e05f83faf55a86bff7a7c96586af1b875994fd2"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "d44bd5f8906fec1c32d261034ad8920001d4ee1235b0545a3305a621f72b5b0e"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "250e03b270fcab68d6f3690969bd47e8f84d1509b4aad7520da4cf3ed9673393"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "9e03bbabbb1b28b5cbb5397b4b9948c4ec86a45280df66c161ed63e1b26496e2"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "d44bd5f8906fec1c32d261034ad8920001d4ee1235b0545a3305a621f72b5b0e"
+        }
+      ]
+    },
+    {
+      "name": "Wait",
+      "channels": [
+        {
+          "node": "Core",
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "e771812b8b5197bbc68e61f3f5c2b28f7fe0422a0737a3b6aa8bba5aea9f4d83"
+        },
+        {
+          "node": "Core",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "1a6fbda141fc9072358899da0b13793e92ce39b0bdbea0633d84e30f83946344"
+        },
+        {
+          "node": "Core",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "f46913286d895f62d646314f400fc3d7a543cf34eb4ae56df87f43dc4582a36b"
+        },
+        {
+          "node": "Left",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "a147b0dbc1bdea0b1c3cc51ededfd069dcd730d21aa4474101eed0fd6f37effd"
+        },
+        {
+          "node": "Left",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "2d746c43ae7612d26b90b260f7aca2f4618b5961f6763ad8da43c1f4f726691f"
+        },
+        {
+          "node": "Left",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        },
+        {
+          "node": "Right",
+          "path": "translation",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "db303232c15813a792796fa38827d2b08d3cdae1ef9387d1c233d94eab132d51"
+        },
+        {
+          "node": "Right",
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "input": "6c624566b336861181ff35c36017b65b957e587789378e212e11d0f55634352f",
+          "output": "3b91c4a17cdf033d6a1c07475be6eefefec0f822a54a274d55c0243114caa3f0"
+        },
+        {
+          "node": "Right",
+          "path": "scale",
+          "interpolation": "STEP",
+          "input": "045063f0ec25e84db2025352159fc3c13a195185196cfc6c1f21aa25f4d92339",
+          "output": "627cd080e44452b34ea9b89919b31296d603ba47a00fc1da5f92233ef81bf9e0"
+        }
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Codex logo core",
+      "reduced": false,
+      "highTriangles": 7164,
+      "balancedTriangles": 7164
+    },
+    {
+      "name": "Left finger 0",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Left finger 1",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Left finger 2",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Left floating forearm",
+      "reduced": false,
+      "highTriangles": 1564,
+      "balancedTriangles": 1564
+    },
+    {
+      "name": "Left palm",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Left thumb",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Left wrist",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Right finger 0",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Right finger 1",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Right finger 2",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Right floating forearm",
+      "reduced": false,
+      "highTriangles": 1564,
+      "balancedTriangles": 1564
+    },
+    {
+      "name": "Right palm",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Right thumb",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "Right wrist",
+      "reduced": true,
+      "highTriangles": 1216,
+      "balancedTriangles": 608
+    },
+    {
+      "name": "White prompt chevron",
+      "reduced": false,
+      "highTriangles": 572,
+      "balancedTriangles": 572
+    },
+    {
+      "name": "White prompt underscore",
+      "reduced": false,
+      "highTriangles": 356,
+      "balancedTriangles": 356
+    }
+  ]
+}

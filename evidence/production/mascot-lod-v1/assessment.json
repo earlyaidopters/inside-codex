@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "scope": "Balanced mascot asset and geometry switching checkpoint; not final community release.",
+  "asset": {
+    "path": "game/public/assets/codex-mascot-balanced.glb",
+    "bytes": 695944,
+    "sha256": "07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee"
+  },
+  "master": {
+    "path": "art-source/codex-mascot-balanced.blend",
+    "bytes": 436411,
+    "sha256": "945ff5b23a2aa854c234ebd5b1bbe68daf8738467e403bb0ea9af86d2b1dde4c"
+  },
+  "triangles": 18516,
+  "checks": {
+    "poseSamples": 64,
+    "runtimeGroupedChecks": 7,
+    "fullJourneyChecks": 37,
+    "unitTests": 71
+  },
+  "assistantVisualAssessment": [
+    "Three-quarter inspection render",
+    "Desktop and portrait built-game captures",
+    "Internal-browser Balanced setting and first mission"
+  ],
+  "open": [
+    "Disposal during a pending import regression",
+    "Whole-scene performance and cold-load budgets",
+    "Physical devices",
+    "Independent human pilots",
+    "Remaining full production/release gates"
+  ]
+}

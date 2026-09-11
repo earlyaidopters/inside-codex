@@ -1,0 +1,35 @@
+{
+  "adapterId": "inside-codex",
+  "allowedPaths": [
+    "src/exhibit-residency.ts"
+  ],
+  "baseline": {
+    "runId": "run_1789043785668_4d46ba2a68464d5293c9148bec41d28b",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b",
+    "value": 32
+  },
+  "createdAt": "2026-09-10T12:39:56.105Z",
+  "direction": "lower",
+  "id": "warm-exhibit-factories",
+  "maximumIterations": 1,
+  "metric": "render.held_frames",
+  "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+  "scenarioId": "warm-traversal",
+  "schema": "game_dev.optimization_goal.v1",
+  "state": {
+    "iterations": [
+      {
+        "evaluatedAt": "2026-09-10T12:59:49.704Z",
+        "iteration": 1,
+        "runId": "run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498",
+        "targetMet": true,
+        "value": 0
+      }
+    ],
+    "status": "met"
+  },
+  "statistic": "max",
+  "target": 0,
+  "unit": "count"
+}

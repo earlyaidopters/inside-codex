@@ -1,0 +1,26 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.goal-evaluate",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": true,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/static-shadow-submissions.json",
+    "goalId": "static-shadow-submissions",
+    "iteration": 1,
+    "candidateRunId": "run_1789055592857_f5f13120ee674acdb82cf27abf754252",
+    "baselineValue": 207,
+    "candidateValue": 179,
+    "target": 180,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 0,
+    "allowedPaths": [
+      "src/static-shadow-batch.ts",
+      "src/world.ts",
+      "tests/static-shadow",
+      "tools/shadows"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  }
+}

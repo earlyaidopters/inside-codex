@@ -1,0 +1,16 @@
+{
+  "id": "balanced-architecture-detail",
+  "metric": "render.active_triangles",
+  "statistic": "max",
+  "unit": "count",
+  "direction": "lower",
+  "target": 250000,
+  "maximumIterations": 1,
+  "allowedPaths": [
+    "src/world.ts",
+    "src/architecture-detail.ts",
+    "tools/geometry",
+    "public/assets/headquarters/streamed",
+    "tests/architecture-detail"
+  ]
+}

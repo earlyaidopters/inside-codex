@@ -1,0 +1,40 @@
+{
+  "accepted": true,
+  "closedAt": "2026-09-10T20:27:31.456908+00:00",
+  "version": "0.1.0",
+  "siteUrl": "https://wintry-soul-6awh.here.now/",
+  "siteVersionId": "01M26E554FCFNWP9S7289AQR8C",
+  "persistence": "permanent",
+  "assistantScore": 90.5,
+  "gates": {
+    "A": "Recorded direction under execution contract",
+    "B": "Finished authored sample and retained evidence",
+    "C": "12 missions, capstone, 50 field notes, save/replay/resources integrated",
+    "D": "Clean reproducible build, unit/compatibility/functional/recovery and final measurements pass",
+    "E": "Full manual curriculum review, scoped hosted internal-browser review and evidence-based score pass; independent human/device limits recorded",
+    "F": "Exact restored hosted release passes complete fresh/returning journey, downloads, files and signed-out delivery",
+    "G": "Source/Blender/evidence archive and exact deploy archive verified; release/support/pilot/rollback notes ready"
+  },
+  "sourceArchive": {
+    "file": "inside-codex-0.1.0-source.zip",
+    "bytes": 740043619,
+    "sha256": "bc73ad2fb6638f5ef8684307d7ddbecfd8616dd0a6efce81179b1fc6e9315b40",
+    "files": 2513,
+    "sealedRunBundles": 26,
+    "crcAndEveryFileSha256Verified": true,
+    "privateCredentialAbsent": true,
+    "standaloneRebuildEvidence": "evidence/production/release-orbit-v1/clean-build-comparison.json",
+    "runtimeRebuildMatchesFrozenDeploy": 467
+  },
+  "deployArchive": {
+    "file": "inside-codex-0.1.0-deploy.zip",
+    "sha256": "9af08f13b9769a9542a00414235c93a22fdb493f5525b879687747b8f32aaa6b"
+  },
+  "limits": [
+    "Physical phones, screen-reader operation and headphone listening unverified",
+    "Independent novice outcomes, demand, use and economic impact unmeasured",
+    "Performance measurements limited to recorded local Mac/browser profiles"
+  ],
+  "communityMessagesSent": false,
+  "runtimeChangesAfterQualification": false
+}

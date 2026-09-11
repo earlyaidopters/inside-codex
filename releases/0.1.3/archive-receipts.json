@@ -1,0 +1,10 @@
+{
+  "inside-codex-0.1.3-source-update.zip": {
+    "bytes": 60871,
+    "sha256": "fc471858461da535bb1886033c014d48b855b96eafe0edd62543bb193e69f6cf"
+  },
+  "inside-codex-0.1.3-deploy.zip": {
+    "bytes": 20701962,
+    "sha256": "32b514674849f28cb799475ae758500957fba84cff9418c097904ca1fb31299e"
+  }
+}

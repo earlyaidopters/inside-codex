@@ -1,0 +1,44 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_8420cdbd-bc6e-4623-9616-034da573ad1e",
+  "operation": "performance.goal-create",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-create",
+      "assets/generated/.game-dev/runs/run_1789048657891_d27c12c4f9ae4c79ae16612042a20c2a"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "id": "architecture-gpu-textures",
+      "metric": "render.texture_estimate",
+      "statistic": "max",
+      "unit": "bytes",
+      "direction": "lower",
+      "target": 160000000,
+      "maximumIterations": 2,
+      "allowedPaths": [
+        "src/world.ts",
+        "src/architecture-textures.ts",
+        "public/assets/headquarters/compressed",
+        "public/assets/decoders/ktx2-9.25.0"
+      ]
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/architecture-gpu-textures.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T14:01:26.918Z",
+  "updatedAt": "2026-09-10T14:01:27.222Z",
+  "startedAt": "2026-09-10T14:01:26.925Z",
+  "completedAt": "2026-09-10T14:01:27.222Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_8420cdbd-bc6e-4623-9616-034da573ad1e/receipt.json"
+}

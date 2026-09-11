@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "geometryRevision": "clear-promenade-v3",
+  "routes": 45,
+  "sampledFrames": 1235,
+  "blockedFrames": 0,
+  "clippedFrames": 0,
+  "maxObservedAngularRateRadiansPerSecond": 0.028232918809854304,
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 900,
+      "dpr": 2
+    },
+    "portrait": {
+      "width": 390,
+      "height": 844,
+      "dpr": 2
+    },
+    "landscape": {
+      "width": 844,
+      "height": 390,
+      "dpr": 2
+    }
+  },
+  "fullJourneyChecks": 37,
+  "stateTests": 71,
+  "interruptionChecks": 12,
+  "normalMaxDegrees": 0.02957371402741327,
+  "interpretation": "Browser samples plus assistant visual review. No native performance, full animated silhouette, free exploration, physical-device or independent human acceptance claim."
+}

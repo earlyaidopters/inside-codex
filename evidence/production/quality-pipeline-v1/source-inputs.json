@@ -1,0 +1,32 @@
+[
+  {
+    "path": "src/world.ts",
+    "sha256": "279d4d06b335227d5267cda5ebf5fcfbd21948862c6031b883c2a0b7db093fc7",
+    "bytes": 28572
+  },
+  {
+    "path": "tests/quality-pipeline.mjs",
+    "sha256": "7e70c727751d24efcabedd3be45e9afda3c2ac63c971a23c9298d4b128b37c1b",
+    "bytes": 5207
+  },
+  {
+    "path": "tests/quality-memory-observation.mjs",
+    "sha256": "9ff7c1aa10f4a093ff59b509b98fd4f39c5913164a869a5321c2a75a09a71292",
+    "bytes": 2722
+  },
+  {
+    "path": "tests/marker-views.mjs",
+    "sha256": "dd89601cc68ef1e9adfc8b4bfec088964217533028b05e325bb0f3aeb429c9ab",
+    "bytes": 2430
+  },
+  {
+    "path": "tools/capture-traversal-scenario.mjs",
+    "sha256": "4ca8987f666bf8a346c40c0d8ddd9bf67932eec1b414759251eee01c8b72b7ac",
+    "bytes": 9058
+  },
+  {
+    "path": "src/render-audit.ts",
+    "sha256": "b586fe790478b1cc7be92e1b4ebbfbdb1c6feab19e3aa324c32063b23830bffc",
+    "bytes": 3761
+  }
+]

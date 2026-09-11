@@ -1,0 +1,257 @@
+[
+  {
+    "section": 1,
+    "title": "Define the finished experience",
+    "notes": [
+      {
+        "quote": "The initial release is complete at its promised scope: twelve core missions, three chapters, one capstone, a feature atlas, and useful downloadable resources.",
+        "label": "Define what “done” includes",
+        "why": "Gives the agent a concrete finish line. Change this scope to match your subject and available time."
+      },
+      {
+        "quote": "The first useful action happens within 60 seconds after entering the loaded experience.",
+        "label": "Get to useful interaction",
+        "why": "Sets an experience target: the learner should do something useful early. This is a target, not a measured result."
+      }
+    ],
+    "say": "Look at what this first section gives it. Twelve missions, three chapters, a capstone, and resources you can download. That's the scope it has to build. Then this line says the first useful action should happen within sixty seconds. So we're describing what the person should experience. For your first version, you could make this one room and one useful exercise."
+  },
+  {
+    "section": 2,
+    "title": "Specify the visual work",
+    "notes": [
+      {
+        "quote": "Before producing all rooms, create a **visual target package** containing the arrival shot, mascot close-up, one learning exhibit, a material sheet, and a 15–20 second motion sample.",
+        "label": "Ask the agent to make references",
+        "why": "This instructs it to create a target package. It does not mean we supplied finished example shots."
+      },
+      {
+        "quote": "The browser's actual rendered output is the delivery standard.",
+        "label": "Judge the delivered view",
+        "why": "A good Blender render is insufficient if the exported world looks wrong in the browser."
+      }
+    ],
+    "say": "This line says create a visual target package. We're asking the agent to produce the arrival shot, a mascot close-up, and a sample of the movement. We hadn't handed it those finished examples. Then look at this sentence about the browser. That's where people are going to use the world, so that's where we need to judge how it looks."
+  },
+  {
+    "section": 3,
+    "title": "Design a task for each room",
+    "notes": [
+      {
+        "quote": "Select the brief, sample file, project instructions, and relevant screenshot; remove a stale source",
+        "label": "Specify a real decision",
+        "why": "This is the context mission. The learner selects useful evidence and removes something misleading."
+      },
+      {
+        "quote": "Score five dimensions: brief clarity, context relevance, task/tool choice, verification quality, and repeatability.",
+        "label": "Define the final challenge",
+        "why": "The capstone checks how the learner combines the skills. Clicking every station is not the same as applying them."
+      }
+    ],
+    "say": "Here's one of the actual mission instructions. Select the brief, the sample file, the project instructions, and remove a stale source. You can see what someone is going to do in that room. And further down, the capstone has five things it should assess. If you're teaching something else, replace these decisions with the ones a person needs to practise in your subject."
+  },
+  {
+    "section": 4,
+    "title": "Explain the consequence",
+    "notes": [
+      {
+        "quote": "Explain the causal link, including why a plausible wrong choice failed.",
+        "label": "Teach through the mistake",
+        "why": "The plan asks for an explanation after a wrong choice, so the learner can understand and recover."
+      },
+      {
+        "quote": "Dialogue never blocks an action the player already understands.",
+        "label": "Keep the learner in control",
+        "why": "Instructions remain available, but narration should not force an unnecessary wait."
+      }
+    ],
+    "say": "This is a useful line to include. Explain why a plausible wrong choice failed. If I pick the wrong context, show me what that does to the result. Otherwise I'm guessing until something turns green. And this other line says the dialogue shouldn't block me once I know what to do. Let me move through it at my own pace."
+  },
+  {
+    "section": 5,
+    "title": "Separate practice from live tools",
+    "notes": [
+      {
+        "quote": "The first release uses deterministic simulations.",
+        "label": "Define what runs in the game",
+        "why": "The exercises use predictable game logic. They do not operate a visitor’s real Codex account."
+      },
+      {
+        "quote": "Each lesson stores its source URLs, verification date, applicable product surface, prerequisites, claim type, and a real reproduction procedure.",
+        "label": "Make lessons checkable",
+        "why": "Keeps facts tied to sources and dates, with a way to check them again when the product changes."
+      }
+    ],
+    "say": "Over here, the plan says these are simulations. That's why you can practise a Codex workflow in the game without connecting your own account. Then it asks for sources, dates, and a way to reproduce each claim. If you teach a product that changes, you need a way to come back and check the lesson later."
+  },
+  {
+    "section": 6,
+    "title": "Separate the world from lessons",
+    "notes": [
+      {
+        "quote": "Use the working Blender-to-Babylon.js pipeline established by the smoke test.",
+        "label": "Choose the browser engine",
+        "why": "Blender creates assets; the browser engine renders the playable world. They have different jobs."
+      },
+      {
+        "quote": "the rendering and learning-state layers remain independent.",
+        "label": "Keep teaching content editable",
+        "why": "The architecture section separates application concerns so changing a lesson does not require remodeling the world."
+      }
+    ],
+    "say": "Blender gives you the assets. You still need something to run the world in a browser. The plan chose Babylon for that, and it separated the lessons from the scenery. You don't need to memorize all the folders here. What you want is to be able to change a question or update a lesson without rebuilding the entire room."
+  },
+  {
+    "section": 7,
+    "title": "Check exported assets",
+    "notes": [
+      {
+        "quote": "Export GLB with tested materials and animations.",
+        "label": "Specify the handoff format",
+        "why": "The asset needs to carry its materials and movement into the browser build."
+      },
+      {
+        "quote": "A Blender render alone never approves runtime appearance.",
+        "label": "Inspect after export",
+        "why": "Requires another visual check inside the production camera and lighting before accepting the asset."
+      }
+    ],
+    "say": "This is where the plan gets specific about getting the asset out of Blender. Export it with its materials and animations, then inspect it in the browser. You can have something that looks great in Blender and different once it's in the game. This line tells the agent to check that handoff instead of treating the export as finished."
+  },
+  {
+    "section": 8,
+    "title": "Give it measurable budgets",
+    "notes": [
+      {
+        "quote": "Target at most 12 MB before first interaction",
+        "label": "Limit the initial download",
+        "why": "A proposed desktop target. It gives the agent a concrete loading constraint to measure and work toward."
+      },
+      {
+        "quote": "desktop device emulation does not prove real-phone behavior.",
+        "label": "Name the testing limit",
+        "why": "Resizing a browser is useful, but it cannot certify how the world performs on a physical phone."
+      }
+    ],
+    "say": "These are proposed budgets from the plan. Twelve megabytes before the first interaction, for example. That gives the agent something concrete to measure instead of saying make it fast. You'd tune these for your own project. And this sentence matters when you're checking mobile: a phone-sized browser window doesn't tell you how it runs on an actual phone."
+  },
+  {
+    "section": 9,
+    "title": "Make every lesson usable muted",
+    "notes": [
+      {
+        "quote": "Caption every instructional line. The whole experience remains usable muted.",
+        "label": "Preserve the lesson without audio",
+        "why": "The learner should still understand the instructions with sound off."
+      },
+      {
+        "quote": "A guided text/card route must preserve the lessons when 3D is unavailable.",
+        "label": "Plan an alternative route",
+        "why": "Asks for a usable learning experience when someone cannot use the 3D view."
+      }
+    ],
+    "say": "Here's a very practical requirement. The whole thing should work muted. Captions, readable instructions, and then a text route if the 3D view isn't available. When you write this into the plan, you're asking the agent to build those paths alongside the world. It's much easier to remember them here than after you've finished all the rooms."
+  },
+  {
+    "section": 10,
+    "title": "Test failures and recovery",
+    "notes": [
+      {
+        "quote": "Include corrupted/old saves, disabled storage, missing assets, slow networks, aborted downloads, decoder failures, graphics-context loss, and unsupported graphics.",
+        "label": "Test beyond the correct answer",
+        "why": "Names specific ways the experience can break, so testing includes recovery and saved progress."
+      },
+      {
+        "quote": "I will open the actual build in the internal browser, begin with a clean save, and play the whole tour through its visible controls.",
+        "label": "Require a real walkthrough",
+        "why": "An explicit instruction to inspect what a player sees and clicks, alongside automated checks."
+      }
+    ],
+    "say": "Look at how specific the testing request is. Missing assets, slow networks, old saves. Those are things that can go wrong even when the correct answer works. Then it says to open the actual build in the internal browser and play through the visible controls. That's the kind of testing instruction I'd want in the plan before leaving it running."
+  },
+  {
+    "section": 11,
+    "title": "Define how quality is judged",
+    "notes": [
+      {
+        "quote": "at least 90/100 overall, no dimension below 8/10 on its normalized scale, and every mandatory technical gate passing.",
+        "label": "Give review a defined bar",
+        "why": "These were proposed internal thresholds. An agent’s score is still its own assessment."
+      },
+      {
+        "quote": "This is an assistant assessment, not independent human approval.",
+        "label": "Keep the claim honest",
+        "why": "A self-review can find defects. Evidence that people learn from the game requires people testing it."
+      }
+    ],
+    "say": "The plan even spells out how it should assess quality. There's a scorecard and a proposed threshold, but read this other sentence: it's an assistant assessment. So that number can help organize the review. It doesn't establish that someone in my community learned anything. You'd need people using it to answer that."
+  },
+  {
+    "section": 12,
+    "title": "Define what blocks release",
+    "notes": [
+      {
+        "quote": "Stop release for crashes, blocked progression, lost progress, false teaching claims, missing core assets, exposed credentials, illegible instructions, pervasive clipping/occlusion, broken keyboard/touch navigation, or failure on a declared supported device.",
+        "label": "Make serious defects blockers",
+        "why": "Tells the agent which failures must stop a release rather than become a note beside the download."
+      },
+      {
+        "quote": "Track defects by severity, affected build, reproduction, evidence, fix, and verification.",
+        "label": "Require evidence of the repair",
+        "why": "Keeps a specific problem connected to the fix and the check that confirms it worked."
+      }
+    ],
+    "say": "This is the part that tells it when to keep working. If progress is lost or instructions are unreadable, stop the release and fix it. Then record the problem, the change, and the check afterward. Otherwise you can end up with an agent telling you everything is complete while a person still can't get through the lesson."
+  },
+  {
+    "section": 13,
+    "title": "Verify the hosted version",
+    "notes": [
+      {
+        "quote": "Upload only the production `dist/` directory",
+        "label": "Publish the build output",
+        "why": "Keeps deployment focused on the files the website needs, rather than uploading the working project folder."
+      },
+      {
+        "quote": "A successful upload is not a successful release.",
+        "label": "Test the actual shared URL",
+        "why": "The plan requires another fresh-session walkthrough and download checks after publishing."
+      }
+    ],
+    "say": "Hosting is already in the plan. It says to upload the production output, and then it says a successful upload isn't a successful release. Open the URL, go through the world, and check the downloads. That's why the job continues after the agent gives you a link. We'll do the hosting setup after this."
+  },
+  {
+    "section": 14,
+    "title": "Give the run checkpoints",
+    "notes": [
+      {
+        "quote": "keeping a runnable checkpoint after each completed stage.",
+        "label": "Keep a working version",
+        "why": "Makes the overnight run easier to resume or recover if a later change breaks something."
+      },
+      {
+        "quote": "Prioritize the mascot and one finished mission first; they establish the quality bar for everything else.",
+        "label": "Prove one lesson before expanding",
+        "why": "This was the intended sequence. The actual run expanded its scaffold earlier and needed further iteration."
+      }
+    ],
+    "say": "The sequence here asks for a working checkpoint at each stage, starting with the mascot and one finished mission. That gives it a smaller thing to inspect before expanding. In our actual run, it built out the scaffold earlier than this plan proposed, and there was more iteration afterward. So this is the intended build order, not a claim that it followed every step perfectly."
+  },
+  {
+    "section": 15,
+    "title": "Keep the source and evidence",
+    "notes": [
+      {
+        "quote": "Deliver source, Blender masters, asset provenance, a reproducible build, lesson/source catalog, browser and visual evidence, a defect register, distribution archive, and the final hosted URL.",
+        "label": "Ask for an editable handoff",
+        "why": "The deliverable includes the source, assets and checks you need to keep working on the project."
+      },
+      {
+        "quote": "Before each content release, recheck changed OpenAI features and model availability, rerun affected mission checks, and run the full release path once.",
+        "label": "Plan for the next update",
+        "why": "Changing product lessons means checking the content and the working experience again."
+      }
+    ],
+    "say": "And finally, look at what it has to hand back. The source, the Blender files, the build, the evidence, and the hosted URL. That's what lets you keep developing it. After the first release I asked for the World Tour and the answer controls. You're going to have those follow-up ideas too, so keep the files you need to make them."
+  }
+]

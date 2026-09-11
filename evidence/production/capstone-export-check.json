@@ -1,0 +1,59 @@
+{
+  "pass": true,
+  "zip": "evidence/production/capstone-journey-v2/my-codex-starter.zip",
+  "sha256": "5e69334cc54844f92b715d6e80e5da2da7d79a8ca2f939e7b78c242b376a5f29",
+  "checks": [
+    {
+      "name": "Browser-downloaded reports match source",
+      "exit": 0,
+      "output": "CHECK PASSED: 2 saved reporting periods match independent source calculations.",
+      "stderr": ""
+    },
+    {
+      "name": "Altered saved Markdown is rejected",
+      "exit": 1,
+      "output": "CHECK FAILED\n2026-09-07: saved Markdown differs from source-derived report",
+      "stderr": ""
+    },
+    {
+      "name": "Saved procedure builds a new input period",
+      "exit": 0,
+      "output": "WROTE reports/2026-09-07\nWROTE reports/2026-09-14\nWROTE reports/2026-09-21",
+      "stderr": ""
+    },
+    {
+      "name": "Independent checker verifies fresh-period reports",
+      "exit": 0,
+      "output": "CHECK PASSED: 3 saved reporting periods match independent source calculations.",
+      "stderr": ""
+    },
+    {
+      "name": "Copied template executes",
+      "exit": 0,
+      "output": "WROTE reports/2026-09-07\nWROTE reports/2026-09-14\nWROTE reports/2026-09-21",
+      "stderr": ""
+    },
+    {
+      "name": "Copied percentage fails source-derived verification",
+      "exit": 1,
+      "output": "CHECK FAILED\n2026-09-07: revenue_change: expected 8.00, found 12\n2026-09-07: saved Markdown differs from source-derived report\n2026-09-14: revenue_change: expected 5.00, found 12\n2026-09-14: saved Markdown differs from source-derived report\n2026-09-21: revenue_change: expected 4.95, found 12\n2026-09-21: saved Markdown differs from source-derived report",
+      "stderr": ""
+    }
+  ],
+  "firstSubmission": {
+    "revision": 15,
+    "scores": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "assisted": false
+  },
+  "rehearsalNotifications": [
+    false,
+    true,
+    true
+  ]
+}

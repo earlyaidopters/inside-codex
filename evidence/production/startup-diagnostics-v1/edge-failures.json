@@ -1,0 +1,186 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "mode": "environment-timeout",
+      "pass": true,
+      "errors": [],
+      "startup": {
+        "status": "failed",
+        "phase": "environment",
+        "elapsedMs": 15866,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 177
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 177
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 209
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 222
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 296
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 297
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 298
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 298
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 606
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 607
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 619
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 619
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 658
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "guide",
+            "atMs": 713
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-finalization",
+            "atMs": 713
+          },
+          {
+            "kind": "phase-start",
+            "phase": "exhibits",
+            "atMs": 766
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "exhibits",
+            "atMs": 838
+          },
+          {
+            "kind": "phase-start",
+            "phase": "environment",
+            "atMs": 838
+          },
+          {
+            "kind": "failed",
+            "phase": "environment",
+            "atMs": 15840
+          },
+          {
+            "kind": "world-disposed",
+            "phase": "environment",
+            "atMs": 15863
+          }
+        ],
+        "failure": {
+          "phase": "environment",
+          "atMs": 15840,
+          "name": "StartupTimeoutError",
+          "message": "Startup timed out during environment",
+          "causes": []
+        }
+      }
+    },
+    {
+      "mode": "graphics-context",
+      "pass": true,
+      "errors": [],
+      "startup": {
+        "status": "failed",
+        "phase": "graphics-context",
+        "elapsedMs": 170,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 151
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 151
+          },
+          {
+            "kind": "context-creation-error",
+            "phase": "graphics-context",
+            "atMs": 152,
+            "detail": "WebGL is currently disabled."
+          },
+          {
+            "kind": "context-creation-error",
+            "phase": "graphics-context",
+            "atMs": 152,
+            "detail": "WebGL is currently disabled."
+          },
+          {
+            "kind": "context-creation-error",
+            "phase": "graphics-context",
+            "atMs": 152,
+            "detail": "WebGL is currently disabled."
+          },
+          {
+            "kind": "failed",
+            "phase": "graphics-context",
+            "atMs": 152
+          }
+        ],
+        "failure": {
+          "phase": "graphics-context",
+          "atMs": 152,
+          "name": "Error",
+          "message": "WebGL not supported",
+          "causes": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "quality": "high",
+      "renderSize": {
+        "width": 2880,
+        "height": 1800,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "dpr": 2
+      },
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "quality": "balanced",
+      "renderSize": {
+        "width": 960,
+        "height": 600,
+        "cssWidth": 1440,
+        "cssHeight": 900,
+        "dpr": 2
+      },
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "quality": "high",
+      "renderSize": {
+        "width": 780,
+        "height": 1688,
+        "cssWidth": 390,
+        "cssHeight": 844,
+        "dpr": 2
+      },
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "quality": "balanced",
+      "renderSize": {
+        "width": 260,
+        "height": 562,
+        "cssWidth": 390,
+        "cssHeight": 844,
+        "dpr": 2
+      },
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "quality": "high",
+      "renderSize": {
+        "width": 1688,
+        "height": 780,
+        "cssWidth": 844,
+        "cssHeight": 390,
+        "dpr": 2
+      },
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "quality": "balanced",
+      "renderSize": {
+        "width": 562,
+        "height": 260,
+        "cssWidth": 844,
+        "cssHeight": 390,
+        "dpr": 2
+      },
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    }
+  ],
+  "errors": []
+}

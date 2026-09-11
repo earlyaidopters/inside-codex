@@ -1,0 +1,40 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-create",
+  "result": {
+    "schema": "game_dev.optimization_goal_result.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/architecture-gpu-textures.json",
+    "goal": {
+      "schema": "game_dev.optimization_goal.v1",
+      "id": "architecture-gpu-textures",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "adapterId": "inside-codex",
+      "scenarioId": "warm-traversal",
+      "metric": "render.texture_estimate",
+      "statistic": "max",
+      "unit": "bytes",
+      "direction": "lower",
+      "target": 160000000,
+      "maximumIterations": 2,
+      "allowedPaths": [
+        "public/assets/decoders/ktx2-9.25.0",
+        "public/assets/headquarters/compressed",
+        "src/architecture-textures.ts",
+        "src/world.ts"
+      ],
+      "baseline": {
+        "runId": "run_1789048657891_d27c12c4f9ae4c79ae16612042a20c2a",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789048657891_d27c12c4f9ae4c79ae16612042a20c2a",
+        "value": 227789312.2
+      },
+      "createdAt": "2026-09-10T14:01:27.204Z",
+      "state": {
+        "status": "active",
+        "iterations": []
+      }
+    },
+    "evidenceCeiling": "The goal binds one metric, target, baseline, iteration ceiling, and patch allowlist. It authorizes neither capture execution nor edits outside the allowlist and does not prove that a future patch caused any measurement change."
+  },
+  "completedAt": "2026-09-10T14:01:27.217Z"
+}

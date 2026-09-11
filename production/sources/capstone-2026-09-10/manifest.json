@@ -1,0 +1,21 @@
+{
+  "researchLock": "2026-09-10",
+  "basis": "Retained official documentation captured during this production run. Cedar data, procedure defects, scoring and run scenarios are original fictional exercise design. No model benchmark or live service operation is claimed.",
+  "sources": [
+    {
+      "source": "https://learn.chatgpt.com/docs/features",
+      "retainedCapture": "production/sources/atlas-2026-09-10/features.md",
+      "sha256": "5a2667ce9308f2dc212bda3a0a4d5cdf2bcecc37f7ab77801113cfe1fec28ca7"
+    },
+    {
+      "source": "https://learn.chatgpt.com/docs/automations",
+      "retainedCapture": "production/sources/automation-2026-09-10/scheduled-tasks.md",
+      "sha256": "8171600358a44ed6dca27b61117084328503a1ec340beea771ac5b64d916d12e"
+    },
+    {
+      "source": "https://learn.chatgpt.com/docs/browser",
+      "retainedCapture": "production/sources/handoff-2026-09-10/browser.md",
+      "sha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34"
+    }
+  ]
+}

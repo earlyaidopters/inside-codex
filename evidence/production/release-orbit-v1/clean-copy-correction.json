@@ -1,0 +1,6 @@
+{
+  "problem": "Initial isolated copy omitted sibling production and art-source directories required by source/asset tests.",
+  "resolution": "Restored complete project-relative folder structure and copied the source documents and art masters. Dependency installation already succeeded without enabling the optional fsevents install script.",
+  "initialResultsRetained": "clean-unit.log",
+  "correctedRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/.verification/release-candidate-2026-09-10"
+}

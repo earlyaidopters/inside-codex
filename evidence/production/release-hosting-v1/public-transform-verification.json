@@ -1,0 +1,64 @@
+{
+  "pass": true,
+  "byteIdenticalFiles": 459,
+  "verifiedHostTransforms": [
+    {
+      "path": "assets/context/save-error.html",
+      "method": "Host-added Open Graph and Twitter metadata removed for source equality check",
+      "sourceSha256": "be4881c595fc56a658f240724f0b4e8251f1db7d166bfbc0fda0ea417b95d754",
+      "publicResponseSha256": "e6ab079e84183ef5febdbea555dc6eeee1b90bb9c753c7b061c7869473abc5ea",
+      "pass": true
+    },
+    {
+      "path": "assets/decoders/MESHOPT-LICENSE.md",
+      "method": "Public Markdown viewer raw pre text decoded exactly",
+      "sourceSha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26",
+      "publicResponseSha256": "831d092859fe02b3ac562c9fb30f146d9acc190de9a1922991c1b93dfb1f93f2",
+      "pass": true
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/NOTICE.md",
+      "method": "Public Markdown viewer raw pre text decoded exactly",
+      "sourceSha256": "a08d8fde9948804d9c771da238d5b34e284caca5dc269dcf3c443fbd18fca7db",
+      "publicResponseSha256": "455baa068e46fb1b4ebd75e24bb26699f070eae190d3b596877622228d17ba80",
+      "pass": true
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/decoder-license.md",
+      "method": "Public Markdown viewer raw pre text decoded exactly",
+      "sourceSha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6",
+      "publicResponseSha256": "5b92bac4012b7de78a6435a4167523d811b812c734fd6f9e2ca22e133f4a84cb",
+      "pass": true
+    },
+    {
+      "path": "assets/decoders/ktx2-9.25.0/license.md",
+      "method": "Public Markdown viewer raw pre text decoded exactly",
+      "sourceSha256": "a5f49089897509e43a03cfb81e1fd689e3b9e00f3381c5ec74a12cb716c7df49",
+      "publicResponseSha256": "fdbb30e8e29210935a3a7e29ab7269f197d68d02b47d10028615ccda1e54ffc6",
+      "pass": true
+    },
+    {
+      "path": "index.html",
+      "method": "Host-added Open Graph and Twitter metadata removed for source equality check",
+      "sourceSha256": "ffed5a6e6ba5843fef5405a0ae04b859169a738a58fbf66f5f6f31efedac6a93",
+      "publicResponseSha256": "72a1c9a7f992e471020d4c90a01cb80b7028c36985139d20787c947814aea7d3",
+      "pass": true
+    },
+    {
+      "path": "licenses/BABYLON-LICENSE.md",
+      "method": "Public Markdown viewer raw pre text decoded exactly",
+      "sourceSha256": "9362ea9ea17cb221a20cbbd63f404710834cc273d2a9a7b60314fd68ab702cd6",
+      "publicResponseSha256": "32c9b98584bfcb1133dcc4b8d033002dce300d8767a53d3a8018113a848b9eab",
+      "pass": true
+    },
+    {
+      "path": "licenses/BABYLON-NOTICE.md",
+      "method": "Public Markdown viewer raw pre text decoded exactly",
+      "sourceSha256": "7f85d099ce3c6e1900a45ee8d5b8fa405e760c746af687b3ee2081416e48f183",
+      "publicResponseSha256": "7dee8b6893f368a70e34f5db6870899dc0c5d9f88a8c2c0996da5ab7c10a9a67",
+      "pass": true
+    }
+  ],
+  "totalFiles": 467,
+  "scope": "Host stores exact release bytes. Public delivery serves 459 files byte-identically, wraps six Markdown notices in a viewer with exact raw text, and injects social metadata into two HTML files. No runtime JS, CSS, binary or data changes."
+}

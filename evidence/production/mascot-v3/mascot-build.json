@@ -1,0 +1,21 @@
+{
+  "source": "art-source/build-mascot.py",
+  "bytes": 1112332,
+  "sha256": "9edf1d71b87628d85865a57c43f6ca40b4ded3aaff251854b8edb351d26fa386",
+  "clips": [
+    "Idle",
+    "Greet",
+    "Beckon",
+    "Point",
+    "PointLeft",
+    "Inspect",
+    "Think",
+    "Celebrate",
+    "Correct",
+    "Wait",
+    "Travel",
+    "Return"
+  ],
+  "blender": "5.2.1 LTS",
+  "humanArtApproval": false
+}

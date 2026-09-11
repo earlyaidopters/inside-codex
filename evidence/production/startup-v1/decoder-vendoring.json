@@ -1,0 +1,9 @@
+{
+  "source": "node_modules/meshoptimizer/meshopt_decoder.cjs",
+  "sourceSha256": "fedf06f101ff2ba59d66335578230b7e8f5fac5057dee084be64c67444ac6c12",
+  "destination": "public/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+  "sha256": "24018cf3ec76322c3ee6c37bdb484383d24a6f591149e1d8134e9bfb1a0bbb26",
+  "version": "meshoptimizer 1.2.0 + codex1 worker-lifecycle patch",
+  "license": "MIT; public/assets/decoders/MESHOPT-LICENSE.md",
+  "scope": "Worker URL lifetime and error delivery only. No codec algorithm or WASM byte changes. Reproduction asserts every source replacement exactly once."
+}

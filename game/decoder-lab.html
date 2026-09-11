@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Decoder lifecycle lab</title></head><body>
+<h1>Decoder lifecycle lab</h1><p>Development-only worker and byte-integrity fixture.</p>
+<button id="one" disabled>Use one worker</button><button id="two" disabled>Use two workers</button><button id="run" disabled>Decode twenty jobs</button><button id="fail" disabled>Fail worker during twenty jobs</button><button id="stop" disabled>Stop workers</button><output id="status" role="status">Loading fixture…</output>
+<script src="/assets/decoders/meshopt-decoder-1.2.0-codex1.js"></script>
+<script type="module">
+const live=new Set(),create=URL.createObjectURL.bind(URL),revoke=URL.revokeObjectURL.bind(URL);let created=0,revoked=0,done=false,completed=0,errors=[];
+URL.createObjectURL=blob=>{const url=create(blob);live.add(url);created++;return url;};URL.revokeObjectURL=url=>{if(live.delete(url))revoked++;return revoke(url);};
+const [encoded,expected]=await Promise.all(['/decoder-fixture.bin','/decoder-expected.bin'].map(async path=>new Uint8Array(await(await fetch(path)).arrayBuffer())));await MeshoptDecoder.ready;
+const status=document.querySelector('#status');
+async function run(){done=false;completed=0;errors=[];status.textContent='Decoding…';try{await Promise.all(Array.from({length:20},async()=>{const bytes=await MeshoptDecoder.decodeGltfBufferAsync(256,12,encoded,'ATTRIBUTES','NONE');if(bytes.length!==expected.length||bytes.some((b,i)=>b!==expected[i]))throw Error('Decoded bytes changed');completed++;}));status.textContent='Twenty byte-identical results.';}catch(e){errors.push(String(e));status.textContent=String(e);}done=true;}
+document.querySelector('#one').onclick=()=>MeshoptDecoder.useWorkers(1);document.querySelector('#two').onclick=()=>MeshoptDecoder.useWorkers(2);document.querySelector('#run').onclick=()=>void run();document.querySelector('#stop').onclick=()=>{MeshoptDecoder.useWorkers(0);status.textContent='Workers stopped.';};
+document.querySelector('#fail').onclick=()=>{MeshoptDecoder.useWorkers(0);const OriginalWorker=window.Worker;try{window.Worker=function(){return new OriginalWorker('/decoder-failure.js');};MeshoptDecoder.useWorkers(2);}finally{window.Worker=OriginalWorker;}void run();};
+window.__decoderLab={state:()=>({ready:true,done,completed,errors:[...errors],liveURLs:live.size,created,revoked})};document.querySelectorAll('button').forEach(b=>b.disabled=false);status.textContent='Fixture ready.';
+</script></body></html>

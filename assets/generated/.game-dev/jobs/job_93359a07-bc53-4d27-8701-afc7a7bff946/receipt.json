@@ -1,0 +1,45 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "package.build",
+  "result": {
+    "schema": "game_dev.package_build_result.v1",
+    "packageId": "pkg_c550963a465bc44e3717ec8f",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide_balanced/1.0.0",
+    "manifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide_balanced/1.0.0/manifest.json",
+    "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide_balanced/1.0.0/receipt.json",
+    "manifestSha256": "103e4d92d36d209f1ab4875df494256fef266fae2c84904b7e32b33ff81d41c2",
+    "reused": false,
+    "validation": {
+      "passed": true,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "catalog": {
+      "packageId": "pkg_c550963a465bc44e3717ec8f",
+      "assetId": "codex_guide_balanced",
+      "version": "1.0.0",
+      "displayName": "codex_guide_balanced",
+      "description": "Balanced-detail Codex guide. Twelve rounded hand parts reduced by half; source-traced glyph, shell, forearms, skin and twelve clips retained. Internal production asset.",
+      "category": "character",
+      "license": "unknown",
+      "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide_balanced/1.0.0",
+      "modelPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide_balanced/1.0.0/model.glb",
+      "modelSha256": "07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee",
+      "manifestSha256": "103e4d92d36d209f1ab4875df494256fef266fae2c84904b7e32b33ff81d41c2",
+      "validationPassed": true,
+      "validationErrors": 0,
+      "validationWarnings": 0,
+      "origin": "authored",
+      "indexedAt": "2026-09-10T10:07:10.860Z"
+    },
+    "evidence": {
+      "portableGlbCopiedAndHashed": true,
+      "staticInspectionCompleted": true,
+      "policyValidationCompleted": true,
+      "blenderNormalizationPerformed": false,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  },
+  "completedAt": "2026-09-10T10:07:10.866Z"
+}

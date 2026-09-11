@@ -1,0 +1,40 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "scenario.plan",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.scenario_plan.v1",
+    "runId": "run_1789038549861_a2a6cf1342a94d84a3befaea5ba0884a",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789038549861_a2a6cf1342a94d84a3befaea5ba0884a",
+    "adapterId": "inside-codex",
+    "adapterVersion": "1.0.0",
+    "adapterManifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/adapter.json",
+    "adapterManifestSha256": "febdc34f349d8b7afe988ca497435e6c7330327874db4e8bc6c552f1fb45bdd7",
+    "scenarioId": "warm-traversal",
+    "title": "90-second guided traversal after declared warmup",
+    "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+    "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-traversal-scenario.mjs",
+    "arguments": [
+      "balanced"
+    ],
+    "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+    "timeoutSeconds": 240,
+    "capabilities": [
+      "gpu",
+      "performance"
+    ],
+    "parameters": {
+      "quality": "balanced"
+    },
+    "output": {
+      "format": "game-dev-capture-v1",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789038549861_a2a6cf1342a94d84a3befaea5ba0884a/capture.json"
+    },
+    "requiredAuthorizations": [
+      "confirm",
+      "gpu",
+      "performance"
+    ],
+    "evidenceCeiling": "This plan proves only resolved local configuration. It executes nothing and proves no build, GPU, pixel, performance, signing, or human-review result."
+  }
+}

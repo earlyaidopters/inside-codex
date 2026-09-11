@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "1440x900 high: three visible review plates select their matching workbench",
+    "1440x900 balanced: three visible review plates select their matching workbench",
+    "1440x900: misleading check, reproduced regression, partial repair, final inspection, overbroad repair recovery, keyboard rerun and saved receipt pass",
+    "390x844 high: three visible review plates select their matching workbench",
+    "390x844 balanced: three visible review plates select their matching workbench",
+    "390x844: misleading check, reproduced regression, partial repair, final inspection, overbroad repair recovery, keyboard rerun and saved receipt pass",
+    "844x390 high: three visible review plates select their matching workbench",
+    "844x390 balanced: three visible review plates select their matching workbench",
+    "844x390: misleading check, reproduced regression, partial repair, final inspection, overbroad repair recovery, keyboard rerun and saved receipt pass"
+  ],
+  "errors": []
+}

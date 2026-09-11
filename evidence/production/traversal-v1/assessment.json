@@ -1,0 +1,565 @@
+{
+  "evidenceVerified": true,
+  "fullPerformanceAcceptance": false,
+  "candidateBuildId": "29ac7f2cfcbec206c483c6109eb035f5bb2abeba86b15e36f48b992e0df64d36",
+  "runs": [
+    {
+      "phase": "baseline",
+      "quality": "high",
+      "repetition": 1,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789038684797_c37d4a2e509e4863a3b3a8100c5972f6",
+      "buildId": "943584491b8bf343f889780a09b407e7b96b2ad2483ca26433798ca42e18418a",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5400,
+      "samples": 91,
+      "durationMs": 90007.20000000298,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 399172,
+        "maxMainDrawCalls": 154,
+        "maxTotalDrawCalls": 207,
+        "maxTextureEstimateBytes": 452349249
+      }
+    },
+    {
+      "phase": "baseline",
+      "quality": "balanced",
+      "repetition": 1,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789038549962_e81ccc1c6cb14aa182be51edcc6338a3",
+      "buildId": "943584491b8bf343f889780a09b407e7b96b2ad2483ca26433798ca42e18418a",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5401,
+      "samples": 91,
+      "durationMs": 90019.20000000298,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 364492,
+        "maxMainDrawCalls": 139,
+        "maxTotalDrawCalls": 188,
+        "maxTextureEstimateBytes": 274553946.6
+      }
+    },
+    {
+      "phase": "candidate",
+      "quality": "high",
+      "repetition": 1,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789039085684_a9322c3a51b34b49a2d8eac777556143",
+      "buildId": "29ac7f2cfcbec206c483c6109eb035f5bb2abeba86b15e36f48b992e0df64d36",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5401,
+      "samples": 91,
+      "durationMs": 90017.79999999702,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.79999999998836,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 312762,
+        "maxMainDrawCalls": 154,
+        "maxTotalDrawCalls": 207,
+        "maxTextureEstimateBytes": 452349249
+      }
+    },
+    {
+      "phase": "candidate",
+      "quality": "high",
+      "repetition": 2,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789039316966_7687481a2e574d5aaa091294b2ac8f14",
+      "buildId": "29ac7f2cfcbec206c483c6109eb035f5bb2abeba86b15e36f48b992e0df64d36",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5400,
+      "samples": 91,
+      "durationMs": 90003.90000000596,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 312762,
+        "maxMainDrawCalls": 154,
+        "maxTotalDrawCalls": 207,
+        "maxTextureEstimateBytes": 452349249
+      }
+    },
+    {
+      "phase": "candidate",
+      "quality": "high",
+      "repetition": 3,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789039548162_ac4ef29028934381b84a6a5126670237",
+      "buildId": "29ac7f2cfcbec206c483c6109eb035f5bb2abeba86b15e36f48b992e0df64d36",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5400,
+      "samples": 91,
+      "durationMs": 90009.60000000894,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 312762,
+        "maxMainDrawCalls": 154,
+        "maxTotalDrawCalls": 207,
+        "maxTextureEstimateBytes": 452349249
+      }
+    },
+    {
+      "phase": "candidate",
+      "quality": "balanced",
+      "repetition": 1,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789038937518_ebd22300cad94a5096c7adacfbf86a65",
+      "buildId": "29ac7f2cfcbec206c483c6109eb035f5bb2abeba86b15e36f48b992e0df64d36",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5400,
+      "samples": 91,
+      "durationMs": 90013,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 295364,
+        "maxMainDrawCalls": 139,
+        "maxTotalDrawCalls": 188,
+        "maxTextureEstimateBytes": 274553946.6
+      }
+    },
+    {
+      "phase": "candidate",
+      "quality": "balanced",
+      "repetition": 2,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789039201551_a5b2ffe8c569411694928546d589e1cb",
+      "buildId": "29ac7f2cfcbec206c483c6109eb035f5bb2abeba86b15e36f48b992e0df64d36",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5400,
+      "samples": 91,
+      "durationMs": 90015.29999999702,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.79999999998836,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 295364,
+        "maxMainDrawCalls": 139,
+        "maxTotalDrawCalls": 188,
+        "maxTextureEstimateBytes": 274553946.6
+      }
+    },
+    {
+      "phase": "candidate",
+      "quality": "balanced",
+      "repetition": 3,
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789039432792_df273a6bb3564e9b902f39d99db0b1c1",
+      "buildId": "29ac7f2cfcbec206c483c6109eb035f5bb2abeba86b15e36f48b992e0df64d36",
+      "browser": "153.0.8010.36",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
+      "profile": {
+        "durationMs": 90000,
+        "stepMs": 6000,
+        "route": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          8,
+          4,
+          0
+        ],
+        "network": "local built preview; no throttling; startup excluded",
+        "cache": "fresh browser context; representative wing visits warm assets/shaders before sampling",
+        "cpuThrottle": 1,
+        "sampling": "RAF every frame; read-only scene inventory once per second; screenshots outside timed interval",
+        "device": "desktop Mac; portrait is emulation"
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dpr": 2,
+      "powerBefore": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "powerAfter": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23134307)\t80%; AC attached; not charging present: true",
+      "frames": 5400,
+      "samples": 91,
+      "durationMs": 90014.29999999702,
+      "summary": {
+        "medianMs": 16.69999999999709,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "intervalsOver100ms": 0,
+        "maxActiveTriangles": 295364,
+        "maxMainDrawCalls": 139,
+        "maxTotalDrawCalls": 188,
+        "maxTextureEstimateBytes": 274553946.6
+      }
+    }
+  ],
+  "review": [
+    {
+      "quality": "high",
+      "repeats": 3,
+      "medianMsRange": [
+        16.69999999999709,
+        16.69999999999709
+      ],
+      "p95MsRange": [
+        16.70000000001164,
+        16.79999999998836
+      ],
+      "maxIntervalMs": 16.80000000000291,
+      "totalIntervalsOver100ms": 0,
+      "baselinePeakTriangles": 399172,
+      "peakTriangles": 312762,
+      "peakMainDrawCalls": 154,
+      "peakAllPassDrawCalls": 207,
+      "peakTextureEstimateBytes": 452349249,
+      "targets": {
+        "medianMs": 16.7,
+        "p95Ms": 22,
+        "triangles": 700000,
+        "drawCalls": 180,
+        "textureBytes": 384000000
+      },
+      "gates": {
+        "browserFrameIntervals": true,
+        "noObserved100msGaps": true,
+        "geometry": true,
+        "allPassDrawCalls": false,
+        "textureEstimate": false
+      }
+    },
+    {
+      "quality": "balanced",
+      "repeats": 3,
+      "medianMsRange": [
+        16.69999999999709,
+        16.69999999999709
+      ],
+      "p95MsRange": [
+        16.70000000001164,
+        16.79999999998836
+      ],
+      "maxIntervalMs": 16.80000000000291,
+      "totalIntervalsOver100ms": 0,
+      "baselinePeakTriangles": 364492,
+      "peakTriangles": 295364,
+      "peakMainDrawCalls": 139,
+      "peakAllPassDrawCalls": 188,
+      "peakTextureEstimateBytes": 274553946.6,
+      "targets": {
+        "medianMs": 33.3,
+        "p95Ms": 40,
+        "triangles": 250000,
+        "drawCalls": 100,
+        "textureBytes": 160000000
+      },
+      "gates": {
+        "browserFrameIntervals": true,
+        "noObserved100msGaps": true,
+        "geometry": false,
+        "allPassDrawCalls": false,
+        "textureEstimate": false
+      }
+    }
+  ],
+  "limits": [
+    "Three observations per profile on one Mac do not establish native GPU timing, statistical significance or physical-device performance.",
+    "High desktop and Balanced portrait use different viewport workloads; compare each to its own baseline.",
+    "Texture allocation estimate excludes several memory classes; failing it is a finding, passing it alone would not prove VRAM acceptance.",
+    "The bounded marker repair did not meet the entire Balanced geometry target. No further optimization iteration is inferred from repeat captures.",
+    "Thirty-minute soak, automatic quality recommendation, progressive exhibit loading and broader device/recovery gates remain open."
+  ],
+  "correctness": {
+    "unitTests": 71,
+    "fullJourneyChecks": 37,
+    "fixedViewComparisons": 10,
+    "independentCounterViews": 6,
+    "memoryObservationCompleted": true,
+    "memoryReleaseInvariantPass": false,
+    "build": "build-marker-v1.log",
+    "journey": "marker-journey/report.json",
+    "fidelity": "marker-views/comparison.json",
+    "counters": "counter-verification/report.json",
+    "memory": "quality-memory/report.json"
+  },
+  "assistantVisualReview": {
+    "internalBrowser": {
+      "tab": 33,
+      "url": "http://127.0.0.1:43211/?review=traversal-v1",
+      "viewport": [
+        1280,
+        720
+      ],
+      "quality": "high",
+      "actions": [
+        "Opened Settings and confirmed High",
+        "Entered first mission through Step inside",
+        "Selected Mission 9 through visible progress control"
+      ],
+      "assessment": "Guide, plinth markers, exhibit and instructional panel render clearly in the two settled gameplay screenshots inspected in the conversation. Not an independent human review."
+    },
+    "fileViews": [
+      "marker-views/candidate-high-tools.png",
+      "marker-views/candidate-balanced-tasks.png"
+    ],
+    "limit": "Bounded view review; full art, animated silhouettes and physical devices remain unverified."
+  }
+}

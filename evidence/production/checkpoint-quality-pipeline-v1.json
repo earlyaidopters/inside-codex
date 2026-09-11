@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/quality-pipeline-v1-tested.zip",
+  "bytes": 564721035,
+  "sha256": "e11128ef3610af05e4175d29952384d42c941b9e50727d459225426eaa9a8490",
+  "files": 2151,
+  "distFiles": 320,
+  "allDistHashesVerified": true,
+  "zipIntegrityVerified": true,
+  "activeArchitectureRevisionHashesVerified": true,
+  "performanceReleaseAccepted": false,
+  "knownMemoryReleaseInvariantPass": true,
+  "scope": "Recoverable local graphics-quality ownership checkpoint with recorded open resource budgets. Not a hosted release or full quality acceptance."
+}

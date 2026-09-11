@@ -1,0 +1,60 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "package.verify",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.package_verification.v1",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/assets/generated/.game-dev/packages/codex_pipeline_diagnostic_fixture/0.1.0",
+    "manifest": {
+      "assetId": "codex_pipeline_diagnostic_fixture",
+      "category": "other",
+      "description": "Private procedural diagnostic fixture: textured PBR mesh, armature animation, and browser import test. Not approved game art.",
+      "displayName": "Codex Pipeline Diagnostic Fixture",
+      "files": [
+        {
+          "bytes": 302488,
+          "kind": "model",
+          "path": "model.glb",
+          "sha256": "6086cdce035132a44186cde22bc9de71a563f6e93c2b666afe9dd300d231dc79"
+        },
+        {
+          "bytes": 1853,
+          "kind": "metadata",
+          "path": "metadata.json",
+          "sha256": "f02937a2b05aba63d5c5ee95ec06fcb9f5fe8952e05eacdf4250c14c15312922"
+        },
+        {
+          "bytes": 598,
+          "kind": "provenance",
+          "path": "provenance.json",
+          "sha256": "2b9c0fbe8b3eb1d3a3e1c5f848c1a0cc08ca256741d072155e34d082bdefcf92"
+        },
+        {
+          "bytes": 3964,
+          "kind": "validation",
+          "path": "validation.json",
+          "sha256": "e16e367e21d4411ee9f76ef2fb262d6808f54d0a3fc04bb1ec4fd2e6e731fc0d"
+        }
+      ],
+      "license": "LicenseRef-Private-Smoke-Test",
+      "model": "model.glb",
+      "packageId": "pkg_6f566e3e0aaf7b2f86a0aa34",
+      "provenance": {
+        "origin": "authored"
+      },
+      "schema": "game_dev.asset_package.v1",
+      "validation": {
+        "errorCount": 0,
+        "passed": true,
+        "warningCount": 0
+      },
+      "version": "0.1.0"
+    },
+    "hashesVerified": true,
+    "evidence": {
+      "packageBytesVerified": true,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  }
+}

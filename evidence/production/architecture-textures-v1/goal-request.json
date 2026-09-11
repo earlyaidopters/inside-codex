@@ -1,0 +1,1 @@
+{"id":"architecture-gpu-textures","metric":"render.texture_estimate","statistic":"max","unit":"bytes","direction":"lower","target":160000000,"maximumIterations":2,"allowedPaths":["src/world.ts","src/architecture-textures.ts","public/assets/headquarters/compressed","public/assets/decoders/ktx2-9.25.0"]}

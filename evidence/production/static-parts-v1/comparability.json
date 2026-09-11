@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "sameProfileFields": [
+    "quality",
+    "browser",
+    "graphics",
+    "initialViewport",
+    "dpr",
+    "workload",
+    "limits"
+  ],
+  "matchedCases": 85,
+  "allBaselineTestsUnchanged": true,
+  "addedSeparateTests": [
+    "tests/static-parts/browser.mjs",
+    "tests/static-parts/geometry.test.mjs",
+    "tests/static-parts/no-uint.mjs"
+  ],
+  "baseline": "run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a",
+  "candidate": "run_1789061992086_d3946f1d59bd4b1995c63b02c8689331"
+}

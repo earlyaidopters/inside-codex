@@ -1,0 +1,15 @@
+{
+  "id": "architecture-startup-delivery",
+  "metric": "startup.transfer_bytes",
+  "statistic": "max",
+  "unit": "bytes",
+  "direction": "lower",
+  "target": 8000000,
+  "maximumIterations": 2,
+  "allowedPaths": [
+    "src/world.ts",
+    "src/architecture-textures.ts",
+    "public/assets/headquarters/streamed",
+    "public/assets/headquarters/compressed"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "name": "chrome",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "chrome",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "firefox",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "firefox",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "webkit",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "webkit",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

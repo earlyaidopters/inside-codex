@@ -1,0 +1,10 @@
+{
+  "archive": "releases/checkpoints/handoff-summary-v1-source.zip",
+  "bytes": 62270489,
+  "sha256": "210893980417cbfd7643e6827ea5a97f1ad41449d84fde083560c51b26b7423d",
+  "filesVerified": 163,
+  "base": "releases/checkpoints/static-parts-v1-source.zip plus its complete base chain",
+  "baseSha256": "fb538a6cb74e11b18ab752079343a277b0a8488e0d42c4a8c3a69e193da51c19",
+  "buildId": "e0d5ca95fd2fc064a3e58b36e995bc869ced0dc192ba8e6d01f1a11893bf6eb9",
+  "fullReleaseAccepted": false
+}

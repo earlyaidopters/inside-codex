@@ -1,0 +1,1822 @@
+{
+  "pass": true,
+  "browser": "153.0.8010.36",
+  "scope": "Desktop Chrome and portrait viewport emulation, actual UI controls, delayed/503 network fixtures. Does not establish physical-device performance or long-run stability.",
+  "checks": [
+    "High first load fetches only the high guide",
+    "Balanced swaps twelve geometries while preserving paused pose, mesh identities, skeletons, animation groups, materials and textures",
+    "Sixteen cached switches keep resource counts and paused bone matrices stable without another download",
+    "Quality changes preserve reduced motion and pause behavior",
+    "Saved balanced first load fetches only the balanced guide",
+    "A delayed asset is requested once, keeps the working guide visible, and cannot override a newer quality selection",
+    "Failed asset download retains the working guide, reports the active detail accessibly, and recovers through the quality control"
+  ],
+  "errors": [],
+  "receipts": [
+    {
+      "scenario": "cached and persisted settings",
+      "state": {
+        "ready": true,
+        "renderSize": {
+          "width": 390,
+          "height": 844,
+          "cssWidth": 390,
+          "cssHeight": 844,
+          "dpr": 1
+        },
+        "lastPick": null,
+        "active": 0,
+        "quality": "balanced",
+        "paused": false,
+        "reduced": true,
+        "mascotDetail": {
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 18516,
+          "cached": [
+            "balanced"
+          ],
+          "meshIds": [
+            901,
+            909,
+            913,
+            916,
+            919,
+            923,
+            926,
+            929,
+            933,
+            936,
+            939,
+            942,
+            945,
+            948,
+            951,
+            954,
+            957
+          ],
+          "skeletonIds": [
+            904
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.7999999523162842,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.2510373294353485,
+                0.13308902084827423,
+                -0.9587844610214233,
+                0,
+                -0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                -1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.2510373294353485,
+                -0.13308902084827423,
+                0.9587844610214233,
+                0,
+                0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                -0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 169,
+          "sceneTextures": 103,
+          "sceneGeometries": 296,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "visible": false,
+          "verified": false,
+          "ports": [
+            {
+              "id": "sources",
+              "screen": {
+                "x": 5890.995945546613,
+                "y": 327.91241332197376
+              }
+            },
+            {
+              "id": "report",
+              "screen": {
+                "x": 6167.045729377449,
+                "y": 334.5953340649481
+              }
+            },
+            {
+              "id": "repeat",
+              "screen": {
+                "x": 6458.8155522976795,
+                "y": 341.6588230295418
+              }
+            }
+          ]
+        },
+        "handoff": {
+          "verified": false,
+          "deliveredId": 1,
+          "preserved": false,
+          "ports": [
+            {
+              "id": "prepare",
+              "screen": {
+                "x": 5890.995945546613,
+                "y": 327.91241332197376
+              }
+            },
+            {
+              "id": "delivery",
+              "screen": {
+                "x": 6167.045729377449,
+                "y": 334.5953340649481
+              }
+            },
+            {
+              "id": "evidence",
+              "screen": {
+                "x": 6458.8155522976795,
+                "y": 341.6588230295418
+              }
+            }
+          ]
+        },
+        "automation": {
+          "verified": false,
+          "enabled": false,
+          "hourAngle": -4.6687557490848315,
+          "targetHour": -4.6687557490848315,
+          "runCount": 0,
+          "ports": [
+            {
+              "id": "setup",
+              "screen": {
+                "x": 4741.566402795289,
+                "y": 298.1486431841686
+              }
+            },
+            {
+              "id": "clock",
+              "screen": {
+                "x": 4953.695981231355,
+                "y": 303.23753221384203
+              }
+            },
+            {
+              "id": "runs",
+              "screen": {
+                "x": 5176.278805984516,
+                "y": 308.57718971672756
+              }
+            }
+          ]
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [
+            {
+              "id": "connect",
+              "screen": {
+                "x": 3309.275632181911,
+                "y": 266.4221800436388
+              }
+            },
+            {
+              "id": "procedure",
+              "screen": {
+                "x": 3458.0371593063574,
+                "y": 270.0439165882063
+              }
+            },
+            {
+              "id": "results",
+              "screen": {
+                "x": 3612.911400593267,
+                "y": 273.81447279533455
+              }
+            }
+          ]
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [
+            {
+              "id": "send-steer",
+              "screen": {
+                "x": 2064.150550783537,
+                "y": 229.0856125872
+              }
+            },
+            {
+              "id": "advance",
+              "screen": {
+                "x": 2166.4946625535267,
+                "y": 231.46029607963618
+              }
+            },
+            {
+              "id": "send-queue",
+              "screen": {
+                "x": 2272.305965134124,
+                "y": 233.91542856557763
+              }
+            }
+          ]
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [
+            {
+              "id": "diff",
+              "screen": {
+                "x": 2493.272073637486,
+                "y": 230.82912292153773
+              }
+            },
+            {
+              "id": "checks",
+              "screen": {
+                "x": 2611.148645886092,
+                "y": 233.41692001921484
+              }
+            },
+            {
+              "id": "repair",
+              "screen": {
+                "x": 2733.330022644205,
+                "y": 236.09922241513112
+              }
+            }
+          ]
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [
+            {
+              "id": "read",
+              "open": false,
+              "screen": {
+                "x": 881.6258855832078,
+                "y": 198.59256645000372
+              }
+            },
+            {
+              "id": "draft",
+              "open": false,
+              "screen": {
+                "x": 944.8407057956235,
+                "y": 200.02041359180515
+              }
+            },
+            {
+              "id": "check",
+              "open": false,
+              "screen": {
+                "x": 1009.6870787322101,
+                "y": 201.4851129762623
+              }
+            }
+          ]
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [
+            {
+              "id": "label",
+              "action": "job",
+              "screen": {
+                "x": 625.3038603669931,
+                "y": 192.37261988801285
+              }
+            },
+            {
+              "id": "billing",
+              "action": "job",
+              "screen": {
+                "x": 679.8170704716767,
+                "y": 193.5989362276423
+              }
+            },
+            {
+              "id": "sheet",
+              "action": "job",
+              "screen": {
+                "x": 735.608174009949,
+                "y": 194.8539997570796
+              }
+            },
+            {
+              "id": "astra",
+              "action": "model",
+              "screen": {
+                "x": 610.4226850811241,
+                "y": 224.2257750024782
+              }
+            },
+            {
+              "id": "sol",
+              "action": "model",
+              "screen": {
+                "x": 650.9715291594517,
+                "y": 225.41621009329663
+              }
+            },
+            {
+              "id": "terra",
+              "action": "model",
+              "screen": {
+                "x": 693.1802080636038,
+                "y": 223.0657879711458
+              }
+            },
+            {
+              "id": "luna",
+              "action": "model",
+              "screen": {
+                "x": 734.2095048546472,
+                "y": 227.8599149487259
+              }
+            }
+          ]
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [
+            {
+              "id": "context",
+              "amount": 0,
+              "screen": {
+                "x": 168.6617337980667,
+                "y": 201.10449375996106
+              }
+            },
+            {
+              "id": "model",
+              "amount": 1,
+              "screen": {
+                "x": 230.13265454115256,
+                "y": 202.76228196609853
+              }
+            },
+            {
+              "id": "tools",
+              "amount": 0,
+              "screen": {
+                "x": 293.4083926535195,
+                "y": 204.4687436736714
+              }
+            },
+            {
+              "id": "verify",
+              "amount": 0,
+              "screen": {
+                "x": 259.25324851578966,
+                "y": 253.9069737240278
+              }
+            }
+          ]
+        },
+        "context": {
+          "selected": [],
+          "verified": false,
+          "cards": [
+            {
+              "id": "brief",
+              "y": 2.09,
+              "screen": {
+                "x": 394.1430179943756,
+                "y": 246.91727736879946
+              }
+            },
+            {
+              "id": "sample",
+              "y": 2.09,
+              "screen": {
+                "x": 435.8304362229298,
+                "y": 248.41171830216803
+              }
+            },
+            {
+              "id": "image",
+              "y": 2.09,
+              "screen": {
+                "x": 478.301975162578,
+                "y": 249.93426896593382
+              }
+            },
+            {
+              "id": "agents",
+              "y": 2.92,
+              "screen": {
+                "x": 399.123790296515,
+                "y": 200.92705754022143
+              }
+            },
+            {
+              "id": "old",
+              "y": 2.92,
+              "screen": {
+                "x": 441.91139192896645,
+                "y": 202.01991621850405
+              }
+            },
+            {
+              "id": "note",
+              "y": 2.92,
+              "screen": {
+                "x": 485.52432572277957,
+                "y": 203.13385510181328
+              }
+            }
+          ]
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ]
+        },
+        "drawCalls": 114,
+        "renderFrameMs": 1.5,
+        "meshes": 298,
+        "triangles": 553178,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": false,
+        "gesture": "Greet",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          9,
+          5.199999988079071,
+          69.40000000596046,
+          30.5,
+          13.400000005960464,
+          16,
+          15.5,
+          16.69999998807907,
+          20,
+          13.300000011920929,
+          16.69999998807907,
+          16.600000008940697,
+          16.200000002980232
+        ],
+        "camera": {
+          "alpha": 1.4507963267948965,
+          "beta": 1.31,
+          "radius": 8.8,
+          "target": [
+            -22,
+            2.55,
+            -9.7
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": -23.4,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 1.444
+        }
+      },
+      "requests": [
+        "codex-mascot-balanced.glb"
+      ]
+    },
+    {
+      "scenario": "delayed response",
+      "state": {
+        "ready": true,
+        "renderSize": {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "dpr": 1
+        },
+        "lastPick": null,
+        "active": -1,
+        "quality": "balanced",
+        "paused": false,
+        "reduced": false,
+        "mascotDetail": {
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 18516,
+          "cached": [
+            "high",
+            "balanced"
+          ],
+          "meshIds": [
+            901,
+            909,
+            913,
+            916,
+            919,
+            923,
+            926,
+            929,
+            933,
+            936,
+            939,
+            942,
+            945,
+            948,
+            951,
+            954,
+            957
+          ],
+          "skeletonIds": [
+            904
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                0.9998959898948669,
+                0,
+                -0.014421871863305569,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.014421871863305569,
+                0,
+                0.9998959898948669,
+                0,
+                0,
+                1.7999999523162842,
+                0.024037284776568413,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.260961651802063,
+                0.1606794148683548,
+                -0.9518828392028809,
+                0,
+                -0.9548599123954773,
+                0.10199835896492004,
+                0.27899548411369324,
+                0,
+                0.14191915094852448,
+                0.9817219972610474,
+                0.12680891156196594,
+                0,
+                -1.0303254127502441,
+                1.8499999046325684,
+                0.008894912898540497,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.23340007662773132,
+                -0.1606793850660324,
+                0.9590131640434265,
+                0,
+                0.9625091552734375,
+                0.10199838876724243,
+                0.2513405382633209,
+                0,
+                -0.13820289075374603,
+                0.9817220568656921,
+                0.13084915280342102,
+                0,
+                1.029460072517395,
+                1.8499999046325684,
+                -0.020814139395952225,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 169,
+          "sceneTextures": 103,
+          "sceneGeometries": 308,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "visible": false,
+          "verified": false,
+          "ports": [
+            {
+              "id": "sources",
+              "screen": {
+                "x": 2226.8548049468345,
+                "y": 348.63031706299904
+              }
+            },
+            {
+              "id": "report",
+              "screen": {
+                "x": 2303.7168535475034,
+                "y": 351.6239906383879
+              }
+            },
+            {
+              "id": "repeat",
+              "screen": {
+                "x": 2383.3147392561173,
+                "y": 354.7242213951912
+              }
+            }
+          ]
+        },
+        "handoff": {
+          "verified": false,
+          "deliveredId": 1,
+          "preserved": false,
+          "ports": [
+            {
+              "id": "prepare",
+              "screen": {
+                "x": 2226.8548049468345,
+                "y": 348.63031706299904
+              }
+            },
+            {
+              "id": "delivery",
+              "screen": {
+                "x": 2303.7168535475034,
+                "y": 351.6239906383879
+              }
+            },
+            {
+              "id": "evidence",
+              "screen": {
+                "x": 2383.3147392561173,
+                "y": 354.7242213951912
+              }
+            }
+          ]
+        },
+        "automation": {
+          "verified": false,
+          "enabled": false,
+          "hourAngle": 1.4549155025338472,
+          "targetHour": -4.6687557490848315,
+          "runCount": 0,
+          "ports": [
+            {
+              "id": "setup",
+              "screen": {
+                "x": 1926.2564808106004,
+                "y": 336.65651436897065
+              }
+            },
+            {
+              "id": "clock",
+              "screen": {
+                "x": 1992.5227235811205,
+                "y": 339.2331927271053
+              }
+            },
+            {
+              "id": "runs",
+              "screen": {
+                "x": 2060.9688767019115,
+                "y": 341.89463411974106
+              }
+            }
+          ]
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [
+            {
+              "id": "connect",
+              "screen": {
+                "x": 1444.8724810222493,
+                "y": 319.15099805871466
+              }
+            },
+            {
+              "id": "procedure",
+              "screen": {
+                "x": 1496.4404046945629,
+                "y": 321.17345341743356
+              }
+            },
+            {
+              "id": "results",
+              "screen": {
+                "x": 1549.501401357606,
+                "y": 323.2544659810196
+              }
+            }
+          ]
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [
+            {
+              "id": "send-steer",
+              "screen": {
+                "x": 990.496195194149,
+                "y": 297.61489530433477
+              }
+            },
+            {
+              "id": "advance",
+              "screen": {
+                "x": 1029.8166488630964,
+                "y": 299.1107675126448
+              }
+            },
+            {
+              "id": "send-queue",
+              "screen": {
+                "x": 1070.1281889632123,
+                "y": 300.6443437276508
+              }
+            }
+          ]
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [
+            {
+              "id": "diff",
+              "screen": {
+                "x": 1161.6208270667416,
+                "y": 299.98944531306586
+              }
+            },
+            {
+              "id": "checks",
+              "screen": {
+                "x": 1205.752319939637,
+                "y": 301.6135441648526
+              }
+            },
+            {
+              "id": "repair",
+              "screen": {
+                "x": 1251.0690894362108,
+                "y": 303.2812628055531
+              }
+            }
+          ]
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [
+            {
+              "id": "read",
+              "open": false,
+              "screen": {
+                "x": 518.5036191715923,
+                "y": 278.33294670689213
+              }
+            },
+            {
+              "id": "draft",
+              "open": false,
+              "screen": {
+                "x": 545.7489927897063,
+                "y": 279.35600286888086
+              }
+            },
+            {
+              "id": "check",
+              "open": false,
+              "screen": {
+                "x": 573.5524795687932,
+                "y": 280.4000160240246
+              }
+            }
+          ]
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [
+            {
+              "id": "label",
+              "action": "job",
+              "screen": {
+                "x": 408.1118068165361,
+                "y": 274.043768197061
+              }
+            },
+            {
+              "id": "billing",
+              "action": "job",
+              "screen": {
+                "x": 432.20444964826316,
+                "y": 274.94709391884294
+              }
+            },
+            {
+              "id": "sheet",
+              "action": "job",
+              "screen": {
+                "x": 456.75184657504707,
+                "y": 275.8674701184001
+              }
+            },
+            {
+              "id": "astra",
+              "action": "model",
+              "screen": {
+                "x": 406.2067610213563,
+                "y": 293.2336464606705
+              }
+            },
+            {
+              "id": "sol",
+              "action": "model",
+              "screen": {
+                "x": 424.4097098457452,
+                "y": 294.0523041053177
+              }
+            },
+            {
+              "id": "terra",
+              "action": "model",
+              "screen": {
+                "x": 442.74262946579483,
+                "y": 293.0254021320257
+              }
+            },
+            {
+              "id": "luna",
+              "action": "model",
+              "screen": {
+                "x": 461.59877462657676,
+                "y": 295.7248414768075
+              }
+            }
+          ]
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [
+            {
+              "id": "context",
+              "amount": 0,
+              "screen": {
+                "x": 204.37508538652446,
+                "y": 278.0872213517166
+              }
+            },
+            {
+              "id": "model",
+              "amount": 1,
+              "screen": {
+                "x": 232.90503396736392,
+                "y": 279.2973610738795
+              }
+            },
+            {
+              "id": "tools",
+              "amount": 0,
+              "screen": {
+                "x": 262.1292909898396,
+                "y": 280.53695090957046
+              }
+            },
+            {
+              "id": "verify",
+              "amount": 0,
+              "screen": {
+                "x": 249.57167292144888,
+                "y": 311.0283010268049
+              }
+            }
+          ]
+        },
+        "context": {
+          "selected": [],
+          "verified": false,
+          "cards": [
+            {
+              "id": "brief",
+              "y": 2.09,
+              "screen": {
+                "x": 311.79046320198836,
+                "y": 306.9477999013863
+              }
+            },
+            {
+              "id": "sample",
+              "y": 2.09,
+              "screen": {
+                "x": 331.0780157195747,
+                "y": 307.9548849254449
+              }
+            },
+            {
+              "id": "image",
+              "y": 2.09,
+              "screen": {
+                "x": 350.66785343477466,
+                "y": 308.9777535433646
+              }
+            },
+            {
+              "id": "agents",
+              "y": 2.92,
+              "screen": {
+                "x": 308.86960010594714,
+                "y": 278.53999806449036
+              }
+            },
+            {
+              "id": "old",
+              "y": 2.92,
+              "screen": {
+                "x": 328.27336722537575,
+                "y": 279.331872161235
+              }
+            },
+            {
+              "id": "note",
+              "y": 2.92,
+              "screen": {
+                "x": 347.98345124791115,
+                "y": 280.13624715120693
+              }
+            }
+          ]
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ]
+        },
+        "drawCalls": 261,
+        "renderFrameMs": 1.7999999970197678,
+        "meshes": 298,
+        "triangles": 738690,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": true,
+        "gesture": "Idle",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          12.899999991059303,
+          76.1000000089407,
+          28.200000002980232,
+          9.799999997019768,
+          12.599999994039536,
+          14.900000005960464,
+          16.700000002980232,
+          53.79999999701977,
+          8.200000002980232,
+          6,
+          18.19999998807907,
+          15,
+          18.100000008940697,
+          26.899999991059303,
+          6.600000008940697
+        ],
+        "camera": {
+          "alpha": 1.22,
+          "beta": 1.31,
+          "radius": 13.5,
+          "target": [
+            -1.3,
+            2.3,
+            2
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 2,
+          "y": 0.35,
+          "z": 2,
+          "displayLift": 0
+        }
+      },
+      "requests": [
+        "codex-mascot.glb",
+        "codex-mascot-balanced.glb"
+      ]
+    },
+    {
+      "scenario": "503 and recovery",
+      "failed": {
+        "requested": "balanced",
+        "active": "high",
+        "loading": false,
+        "error": "Guide detail couldn’t load. High detail is still active. Choose another quality, then try again.",
+        "triangles": 25812,
+        "cached": [
+          "high"
+        ],
+        "meshIds": [
+          901,
+          909,
+          913,
+          916,
+          919,
+          923,
+          926,
+          929,
+          933,
+          936,
+          939,
+          942,
+          945,
+          948,
+          951,
+          954,
+          957
+        ],
+        "skeletonIds": [
+          904
+        ],
+        "pose": [
+          {
+            "name": "Core",
+            "matrix": [
+              0.9999253749847412,
+              0,
+              -0.01221503410488367,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.01221503410488367,
+              0,
+              0.9999253749847412,
+              0,
+              0,
+              1.7999999523162842,
+              0.020358895882964134,
+              1
+            ]
+          },
+          {
+            "name": "Left",
+            "matrix": [
+              -0.2594660520553589,
+              0.15646502375602722,
+              -0.9529933929443359,
+              0,
+              -0.9554735422134399,
+              0.10199826955795288,
+              0.27688759565353394,
+              0,
+              0.1405269354581833,
+              0.9824027419090271,
+              0.12303299456834793,
+              0,
+              -1.0302894115447998,
+              1.8499999046325684,
+              0.0029426000546664,
+              1
+            ]
+          },
+          {
+            "name": "Right",
+            "matrix": [
+              -0.236108660697937,
+              -0.15646502375602722,
+              0.9590473175048828,
+              0,
+              0.961952269077301,
+              0.10199826955795288,
+              0.25346440076828003,
+              0,
+              -0.1374795287847519,
+              0.9824027419090271,
+              0.12642911076545715,
+              0,
+              1.0295565128326416,
+              1.8499999046325684,
+              -0.022220367565751076,
+              1
+            ]
+          }
+        ],
+        "sceneMaterials": 169,
+        "sceneTextures": 103,
+        "sceneGeometries": 296,
+        "sceneSkeletons": 1,
+        "sceneAnimationGroups": 12
+      },
+      "recovered": {
+        "ready": true,
+        "renderSize": {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "dpr": 1
+        },
+        "lastPick": null,
+        "active": -1,
+        "quality": "balanced",
+        "paused": false,
+        "reduced": false,
+        "mascotDetail": {
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 18516,
+          "cached": [
+            "high",
+            "balanced"
+          ],
+          "meshIds": [
+            901,
+            909,
+            913,
+            916,
+            919,
+            923,
+            926,
+            929,
+            933,
+            936,
+            939,
+            942,
+            945,
+            948,
+            951,
+            954,
+            957
+          ],
+          "skeletonIds": [
+            904
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                0.9998494982719421,
+                0,
+                -0.01735004410147667,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.01735004410147667,
+                0,
+                0.9998494982719421,
+                0,
+                0,
+                1.7999999523162842,
+                0.028918184340000153,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.2629339396953583,
+                0.16626711189746857,
+                -0.950379490852356,
+                0,
+                -0.9540389180183411,
+                0.1019982174038887,
+                0.2817907929420471,
+                0,
+                0.14378952980041504,
+                0.9807912707328796,
+                0.13180652260780334,
+                0,
+                -1.0303653478622437,
+                1.8499999046325684,
+                0.016793224960565567,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.22980235517024994,
+                -0.16626708209514618,
+                0.9589297771453857,
+                0,
+                0.9632412791252136,
+                0.10199826955795288,
+                0.2485208660364151,
+                0,
+                -0.13912999629974365,
+                0.9807913303375244,
+                0.1367158740758896,
+                0,
+                1.0293242931365967,
+                1.8499999046325684,
+                -0.018947862088680267,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 169,
+          "sceneTextures": 103,
+          "sceneGeometries": 308,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "visible": false,
+          "verified": false,
+          "ports": [
+            {
+              "id": "sources",
+              "screen": {
+                "x": 2226.8548049468345,
+                "y": 348.63031706299904
+              }
+            },
+            {
+              "id": "report",
+              "screen": {
+                "x": 2303.7168535475034,
+                "y": 351.6239906383879
+              }
+            },
+            {
+              "id": "repeat",
+              "screen": {
+                "x": 2383.3147392561173,
+                "y": 354.7242213951912
+              }
+            }
+          ]
+        },
+        "handoff": {
+          "verified": false,
+          "deliveredId": 1,
+          "preserved": false,
+          "ports": [
+            {
+              "id": "prepare",
+              "screen": {
+                "x": 2226.8548049468345,
+                "y": 348.63031706299904
+              }
+            },
+            {
+              "id": "delivery",
+              "screen": {
+                "x": 2303.7168535475034,
+                "y": 351.6239906383879
+              }
+            },
+            {
+              "id": "evidence",
+              "screen": {
+                "x": 2383.3147392561173,
+                "y": 354.7242213951912
+              }
+            }
+          ]
+        },
+        "automation": {
+          "verified": false,
+          "enabled": false,
+          "hourAngle": 1.554739766820129,
+          "targetHour": -4.6687557490848315,
+          "runCount": 0,
+          "ports": [
+            {
+              "id": "setup",
+              "screen": {
+                "x": 1926.2564808106004,
+                "y": 336.65651436897065
+              }
+            },
+            {
+              "id": "clock",
+              "screen": {
+                "x": 1992.5227235811205,
+                "y": 339.2331927271053
+              }
+            },
+            {
+              "id": "runs",
+              "screen": {
+                "x": 2060.9688767019115,
+                "y": 341.89463411974106
+              }
+            }
+          ]
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [
+            {
+              "id": "connect",
+              "screen": {
+                "x": 1444.8724810222493,
+                "y": 319.15099805871466
+              }
+            },
+            {
+              "id": "procedure",
+              "screen": {
+                "x": 1496.4404046945629,
+                "y": 321.17345341743356
+              }
+            },
+            {
+              "id": "results",
+              "screen": {
+                "x": 1549.501401357606,
+                "y": 323.2544659810196
+              }
+            }
+          ]
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [
+            {
+              "id": "send-steer",
+              "screen": {
+                "x": 990.496195194149,
+                "y": 297.61489530433477
+              }
+            },
+            {
+              "id": "advance",
+              "screen": {
+                "x": 1029.8166488630964,
+                "y": 299.1107675126448
+              }
+            },
+            {
+              "id": "send-queue",
+              "screen": {
+                "x": 1070.1281889632123,
+                "y": 300.6443437276508
+              }
+            }
+          ]
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [
+            {
+              "id": "diff",
+              "screen": {
+                "x": 1161.6208270667416,
+                "y": 299.98944531306586
+              }
+            },
+            {
+              "id": "checks",
+              "screen": {
+                "x": 1205.752319939637,
+                "y": 301.6135441648526
+              }
+            },
+            {
+              "id": "repair",
+              "screen": {
+                "x": 1251.0690894362108,
+                "y": 303.2812628055531
+              }
+            }
+          ]
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [
+            {
+              "id": "read",
+              "open": false,
+              "screen": {
+                "x": 518.5036191715923,
+                "y": 278.33294670689213
+              }
+            },
+            {
+              "id": "draft",
+              "open": false,
+              "screen": {
+                "x": 545.7489927897063,
+                "y": 279.35600286888086
+              }
+            },
+            {
+              "id": "check",
+              "open": false,
+              "screen": {
+                "x": 573.5524795687932,
+                "y": 280.4000160240246
+              }
+            }
+          ]
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [
+            {
+              "id": "label",
+              "action": "job",
+              "screen": {
+                "x": 408.1118068165361,
+                "y": 274.043768197061
+              }
+            },
+            {
+              "id": "billing",
+              "action": "job",
+              "screen": {
+                "x": 432.20444964826316,
+                "y": 274.94709391884294
+              }
+            },
+            {
+              "id": "sheet",
+              "action": "job",
+              "screen": {
+                "x": 456.75184657504707,
+                "y": 275.8674701184001
+              }
+            },
+            {
+              "id": "astra",
+              "action": "model",
+              "screen": {
+                "x": 406.2067610213563,
+                "y": 293.2336464606705
+              }
+            },
+            {
+              "id": "sol",
+              "action": "model",
+              "screen": {
+                "x": 424.4097098457452,
+                "y": 294.0523041053177
+              }
+            },
+            {
+              "id": "terra",
+              "action": "model",
+              "screen": {
+                "x": 442.73044623705454,
+                "y": 292.8503331591072
+              }
+            },
+            {
+              "id": "luna",
+              "action": "model",
+              "screen": {
+                "x": 461.59877462657676,
+                "y": 295.7248414768075
+              }
+            }
+          ]
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [
+            {
+              "id": "context",
+              "amount": 0,
+              "screen": {
+                "x": 204.37508538652446,
+                "y": 278.0872213517166
+              }
+            },
+            {
+              "id": "model",
+              "amount": 1,
+              "screen": {
+                "x": 232.90503396736392,
+                "y": 279.2973610738795
+              }
+            },
+            {
+              "id": "tools",
+              "amount": 0,
+              "screen": {
+                "x": 262.1292909898396,
+                "y": 280.53695090957046
+              }
+            },
+            {
+              "id": "verify",
+              "amount": 0,
+              "screen": {
+                "x": 249.57167292144888,
+                "y": 311.0283010268049
+              }
+            }
+          ]
+        },
+        "context": {
+          "selected": [],
+          "verified": false,
+          "cards": [
+            {
+              "id": "brief",
+              "y": 2.09,
+              "screen": {
+                "x": 311.79046320198836,
+                "y": 306.9477999013863
+              }
+            },
+            {
+              "id": "sample",
+              "y": 2.09,
+              "screen": {
+                "x": 331.0780157195747,
+                "y": 307.9548849254449
+              }
+            },
+            {
+              "id": "image",
+              "y": 2.09,
+              "screen": {
+                "x": 350.66785343477466,
+                "y": 308.9777535433646
+              }
+            },
+            {
+              "id": "agents",
+              "y": 2.92,
+              "screen": {
+                "x": 308.86960010594714,
+                "y": 278.53999806449036
+              }
+            },
+            {
+              "id": "old",
+              "y": 2.92,
+              "screen": {
+                "x": 328.27336722537575,
+                "y": 279.331872161235
+              }
+            },
+            {
+              "id": "note",
+              "y": 2.92,
+              "screen": {
+                "x": 347.98345124791115,
+                "y": 280.13624715120693
+              }
+            }
+          ]
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ]
+        },
+        "drawCalls": 257,
+        "renderFrameMs": 2.2999999970197678,
+        "meshes": 298,
+        "triangles": 724098,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": true,
+        "gesture": "Idle",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          13.599999994039536,
+          76.70000000298023,
+          33,
+          10.299999997019768,
+          12.5,
+          15.200000002980232,
+          17.200000002980232,
+          53,
+          8.099999994039536,
+          6,
+          16,
+          16.30000001192093,
+          16.69999998807907,
+          17.30000001192093,
+          16.099999994039536,
+          16.599999994039536,
+          16.80000001192093,
+          18,
+          15.599999994039536,
+          16.700000002980232,
+          28.399999991059303,
+          14.5
+        ],
+        "camera": {
+          "alpha": 1.22,
+          "beta": 1.31,
+          "radius": 13.5,
+          "target": [
+            -1.3,
+            2.3,
+            2
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 2,
+          "y": 0.35,
+          "z": 2,
+          "displayLift": 0
+        }
+      }
+    }
+  ]
+}

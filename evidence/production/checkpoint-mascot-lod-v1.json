@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/mascot-lod-v1-tested.zip",
+  "bytes": 235849403,
+  "sha256": "351ea909d1ba260edc87139480e527c6f96d4ae8c2d7d5bd0b7e6777e827846a",
+  "files": 1330,
+  "distFiles": 315,
+  "allDistHashesVerified": true,
+  "zipIntegrityVerified": true,
+  "scope": "Recoverable local production checkpoint. Not a hosted release or final quality approval."
+}

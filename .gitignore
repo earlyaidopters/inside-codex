@@ -1,0 +1,51 @@
+# Installed dependencies, local tools and caches
+**/node_modules/
+**/__pycache__/
+**/.venv/
+**/.DS_Store
+**/*.blend1
+**/*.pyc
+**/.game-dev/runs/
+**/.game-dev/packages/
+**/.game-dev/cache/
+
+# Authentication and host-specific project state
+**/.env
+**/.env.*
+**/credentials
+**/.herenow/
+**/.openai/
+**/*storage-state*.json
+**/*storageState*.json
+**/*cookies*.json
+
+# Rebuildable output and multi-gigabyte duplicate archives
+.verification/
+game/dist/
+game/dist-camera-review/
+smoke-test/dist/
+**/*.zip
+
+# Raw capture media and logs; selected screenshots live in docs/images.
+evidence/**/*.png
+evidence/**/*.jpg
+evidence/**/*.webp
+evidence/**/*.wav
+evidence/**/*.mp3
+evidence/**/*.mp4
+evidence/**/*.webm
+evidence/**/*.log
+evidence/**/*.jsonl
+evidence/**/frames/
+evidence/**/screenshots/
+**/.game-dev/**/frames/
+# Raw binary experiment snapshots; canonical masters/runtime assets stay tracked.
+evidence/**/*.glb
+evidence/**/*.blend
+evidence/**/*.bin
+evidence/**/*.gz
+evidence/**/*.ktx2
+evidence/**/*.wasm
+
+# Separate local repository; its source snapshot is included under slides/.
+/filming-site/

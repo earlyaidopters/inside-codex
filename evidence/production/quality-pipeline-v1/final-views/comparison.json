@@ -1,0 +1,56 @@
+{
+  "pass": true,
+  "scope": "Ten matched still views against the accepted marker build. Two profiles, same camera/guide pose; not all-frame equivalence.",
+  "rows": [
+    {
+      "quality": "high",
+      "view": "arrival",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "control",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "tasks",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "tools",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "handoff",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "arrival",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "control",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tasks",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tools",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "handoff",
+      "pixelIdentical": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Clean wing backdrops — 2026-09-11
+
+All three rear exhibit recesses now have smooth inset finishes: slate (Understand), sage (Direct), warm charcoal (Repeat). The architectural canopy, side cheeks and floor remain. Each surface carries a larger semibold ivory heading, a brighter subtitle and one thin accent line. The old floating transparent labels have been removed.
+
+Implementation: three non-pickable opaque planes sit in front of the authored ribs. Each uses one 2048×1024 canvas texture with mipmaps and anisotropic filtering (8). The gradient is subtle and unlit to keep text contrast stable. Original merged architecture and quality-switch topology are untouched; this is a reversible finish overlay, not a remodel of the source GLB. No external assets were generated or downloaded.
+
+Before/after captures at 1440×900, DPR 2, High cover all three stations, closest permitted zoom, the archive deep dive and portrait layout. Visually inspected all three wing station views and the internal-browser archive close-up. Smooth panels eliminate the repetitive rib interference; titles/subtitles remain legible. Camera limits and UI are unchanged. Screenshot crops can still naturally exclude titles when zoomed/panned away from them.
+
+Validation: production TypeScript/build and 87 unit tests passed. The dedicated backdrop browser capture flow has no page errors. Full World Tour regression and hosted checks have separate report.json receipts. No physical-device or new endurance/performance qualification is inferred. Three 2K RGBA8 mipmapped surfaces use an estimated 32 MiB, replacing six 1K×256 text textures estimated at 8 MiB: approximately 24 MiB net texture storage, six new triangles, and three fewer panel/label draws before render passes. This is a structural estimate rather than a GPU benchmark.

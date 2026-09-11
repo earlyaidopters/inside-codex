@@ -1,0 +1,28 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_16af1fbd-57e7-4b34-80ff-c0ea55512f78",
+  "operation": "performance.goal-evaluate",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-evaluate",
+      ".game-dev/goals/warm-exhibit-factories.json",
+      "assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498"
+    ],
+    "flags": {}
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/warm-exhibit-factories.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T12:59:49.428Z",
+  "updatedAt": "2026-09-10T12:59:49.719Z",
+  "startedAt": "2026-09-10T12:59:49.435Z",
+  "completedAt": "2026-09-10T12:59:49.719Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_16af1fbd-57e7-4b34-80ff-c0ea55512f78/receipt.json"
+}

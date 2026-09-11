@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/startup-delivery-v1-tested.zip",
+  "bytes": 408621772,
+  "sha256": "d9c0e280d670d1c52cc4f2d6990262239518a02c35e5c789adfd040ac9d7fa16",
+  "files": 1717,
+  "distFiles": 319,
+  "allDistHashesVerified": true,
+  "zipIntegrityVerified": true,
+  "activeRevisionHashesVerified": true,
+  "scope": "Recoverable local startup/decoder production checkpoint. Not a hosted release or full quality acceptance."
+}

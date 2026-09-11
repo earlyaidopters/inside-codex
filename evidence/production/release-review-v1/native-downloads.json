@@ -1,0 +1,16 @@
+{
+  "source": "Actual manual internal-browser button downloads in ~/Downloads",
+  "files": [
+    {
+      "file": "my-codex-toolkit.md",
+      "bytes": 5204,
+      "sha256": "9f3caabf50a74266f2d9e6755a8c4e08cbe9446e8ef2de2420a9d68e40d0b964"
+    },
+    {
+      "file": "my-codex-starter.zip",
+      "bytes": 82903,
+      "sha256": "4fb3260f3ac9c910a227266f0b0483f486377c64aeb0b6272fd3584122d9e6cb"
+    }
+  ],
+  "zipCrcPass": true
+}

@@ -1,0 +1,125 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "quality": "high",
+      "name": "arrival",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 261,
+      "afterDraws": 233,
+      "activeTriangles": 323760,
+      "allPassTriangles": 583152
+    },
+    {
+      "quality": "high",
+      "name": "control",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 124,
+      "afterDraws": 96,
+      "activeTriangles": 276602,
+      "allPassTriangles": 535994
+    },
+    {
+      "quality": "high",
+      "name": "tasks",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 130,
+      "afterDraws": 102,
+      "activeTriangles": 263478,
+      "allPassTriangles": 522870
+    },
+    {
+      "quality": "high",
+      "name": "tools",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 126,
+      "afterDraws": 98,
+      "activeTriangles": 251340,
+      "allPassTriangles": 510732
+    },
+    {
+      "quality": "high",
+      "name": "handoff",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 136,
+      "afterDraws": 108,
+      "activeTriangles": 249120,
+      "allPassTriangles": 508512
+    },
+    {
+      "quality": "balanced",
+      "name": "arrival",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 137,
+      "afterDraws": 109,
+      "activeTriangles": 170074,
+      "allPassTriangles": 333654
+    },
+    {
+      "quality": "balanced",
+      "name": "control",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 114,
+      "afterDraws": 86,
+      "activeTriangles": 178500,
+      "allPassTriangles": 342080
+    },
+    {
+      "quality": "balanced",
+      "name": "tasks",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 105,
+      "afterDraws": 77,
+      "activeTriangles": 165920,
+      "allPassTriangles": 329500
+    },
+    {
+      "quality": "balanced",
+      "name": "tools",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 113,
+      "afterDraws": 85,
+      "activeTriangles": 153936,
+      "allPassTriangles": 317516
+    },
+    {
+      "quality": "balanced",
+      "name": "handoff",
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 126,
+      "afterDraws": 98,
+      "activeTriangles": 153624,
+      "allPassTriangles": 317204
+    }
+  ]
+}

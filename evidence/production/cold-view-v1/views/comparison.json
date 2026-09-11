@@ -1,0 +1,105 @@
+{
+  "pass": true,
+  "views": [
+    {
+      "view": "candidate-balanced-arrival.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-balanced-control.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-balanced-handoff.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-balanced-tasks.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-balanced-tools.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-high-arrival.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-high-control.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-high-handoff.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-high-tasks.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    },
+    {
+      "view": "candidate-high-tools.png",
+      "bbox": null,
+      "mean": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "identical": true
+    }
+  ]
+}

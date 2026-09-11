@@ -1,0 +1,2933 @@
+{
+  "engine": "webkit",
+  "version": "26.6",
+  "fixture": "missing-texture",
+  "compressionSupported": true,
+  "fixtureExercised": true,
+  "pass": true,
+  "elapsedMs": 11244,
+  "architecture": {
+    "textureCompression": {
+      "mode": "original",
+      "reason": "Error: shell-albedo: HTTP 404",
+      "textures": []
+    },
+    "ready": true,
+    "meshes": 25,
+    "lightmaps": [
+      "floor",
+      "shell",
+      "furnishings"
+    ]
+  },
+  "audit": {
+    "lastFrame": {
+      "frameId": 144,
+      "totalDrawCalls": 118,
+      "mainDrawCalls": 65,
+      "otherDrawCalls": 53,
+      "mainSubmittedTriangles": 273814,
+      "allPassSubmittedTriangles": 533206,
+      "cpuSceneMs": 2
+    },
+    "activeMeshCount": 65,
+    "activeMeshTriangles": 273814,
+    "meshes": [
+      {
+        "id": 23,
+        "name": "Architecture exterior_primitive1",
+        "triangles": 6120,
+        "submeshes": 1
+      },
+      {
+        "id": 26,
+        "name": "Architecture exterior_primitive2",
+        "triangles": 6120,
+        "submeshes": 1
+      },
+      {
+        "id": 29,
+        "name": "Architecture exterior_primitive3",
+        "triangles": 10152,
+        "submeshes": 1
+      },
+      {
+        "id": 32,
+        "name": "Architecture exterior_primitive4",
+        "triangles": 12,
+        "submeshes": 1
+      },
+      {
+        "id": 36,
+        "name": "Architecture floor_primitive0",
+        "triangles": 188,
+        "submeshes": 1
+      },
+      {
+        "id": 45,
+        "name": "Architecture floor inlays_primitive0",
+        "triangles": 62,
+        "submeshes": 1
+      },
+      {
+        "id": 52,
+        "name": "Architecture furnishings_primitive0",
+        "triangles": 14340,
+        "submeshes": 1
+      },
+      {
+        "id": 56,
+        "name": "Architecture furnishings_primitive1",
+        "triangles": 14496,
+        "submeshes": 1
+      },
+      {
+        "id": 60,
+        "name": "Architecture furnishings_primitive2",
+        "triangles": 15784,
+        "submeshes": 1
+      },
+      {
+        "id": 64,
+        "name": "Architecture furnishings_primitive3",
+        "triangles": 28164,
+        "submeshes": 1
+      },
+      {
+        "id": 68,
+        "name": "Architecture furnishings_primitive4",
+        "triangles": 12240,
+        "submeshes": 1
+      },
+      {
+        "id": 72,
+        "name": "Architecture furnishings_primitive5",
+        "triangles": 18432,
+        "submeshes": 1
+      },
+      {
+        "id": 84,
+        "name": "Architecture furnishings_primitive8",
+        "triangles": 2040,
+        "submeshes": 1
+      },
+      {
+        "id": 88,
+        "name": "Architecture furnishings_primitive9",
+        "triangles": 6048,
+        "submeshes": 1
+      },
+      {
+        "id": 93,
+        "name": "Architecture shell_primitive0",
+        "triangles": 29696,
+        "submeshes": 1
+      },
+      {
+        "id": 97,
+        "name": "Architecture shell_primitive1",
+        "triangles": 34724,
+        "submeshes": 1
+      },
+      {
+        "id": 101,
+        "name": "Architecture shell_primitive2",
+        "triangles": 18744,
+        "submeshes": 1
+      },
+      {
+        "id": 105,
+        "name": "Architecture shell_primitive3",
+        "triangles": 376,
+        "submeshes": 1
+      },
+      {
+        "id": 124,
+        "name": "UNDERSTAND",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 128,
+        "name": "01  /  THE CODEX ECOSYSTEM",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 131,
+        "name": "Learning state 0",
+        "triangles": 1536,
+        "submeshes": 1
+      },
+      {
+        "id": 136,
+        "name": "01",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 139,
+        "name": "Learning state 1",
+        "triangles": 1536,
+        "submeshes": 1
+      },
+      {
+        "id": 261,
+        "name": "Codex logo core",
+        "triangles": 7164,
+        "submeshes": 1
+      },
+      {
+        "id": 269,
+        "name": "Left finger 0",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 273,
+        "name": "Left finger 1",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 276,
+        "name": "Left finger 2",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 279,
+        "name": "Left floating forearm",
+        "triangles": 1564,
+        "submeshes": 1
+      },
+      {
+        "id": 283,
+        "name": "Left palm",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 286,
+        "name": "Left thumb",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 289,
+        "name": "Left wrist",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 293,
+        "name": "Right finger 0",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 296,
+        "name": "Right finger 1",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 299,
+        "name": "Right finger 2",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 302,
+        "name": "Right floating forearm",
+        "triangles": 1564,
+        "submeshes": 1
+      },
+      {
+        "id": 305,
+        "name": "Right palm",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 308,
+        "name": "Right thumb",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 311,
+        "name": "Right wrist",
+        "triangles": 1216,
+        "submeshes": 1
+      },
+      {
+        "id": 314,
+        "name": "White prompt chevron",
+        "triangles": 572,
+        "submeshes": 1
+      },
+      {
+        "id": 317,
+        "name": "White prompt underscore",
+        "triangles": 356,
+        "submeshes": 1
+      },
+      {
+        "id": 728,
+        "name": "context retaining ring",
+        "triangles": 4802,
+        "submeshes": 1
+      },
+      {
+        "id": 731,
+        "name": "context port",
+        "triangles": 1936,
+        "submeshes": 1
+      },
+      {
+        "id": 735,
+        "name": "context caption",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 738,
+        "name": "model retaining ring",
+        "triangles": 4802,
+        "submeshes": 1
+      },
+      {
+        "id": 741,
+        "name": "model port",
+        "triangles": 1936,
+        "submeshes": 1
+      },
+      {
+        "id": 745,
+        "name": "model caption",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 748,
+        "name": "tools retaining ring",
+        "triangles": 4802,
+        "submeshes": 1
+      },
+      {
+        "id": 751,
+        "name": "tools port",
+        "triangles": 1936,
+        "submeshes": 1
+      },
+      {
+        "id": 755,
+        "name": "tools caption",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 758,
+        "name": "verify retaining ring",
+        "triangles": 4802,
+        "submeshes": 1
+      },
+      {
+        "id": 761,
+        "name": "verify port",
+        "triangles": 1936,
+        "submeshes": 1
+      },
+      {
+        "id": 765,
+        "name": "verify caption",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 767,
+        "name": "Tool result circuit 0",
+        "triangles": 16,
+        "submeshes": 1
+      },
+      {
+        "id": 769,
+        "name": "Tool result circuit 1",
+        "triangles": 16,
+        "submeshes": 1
+      },
+      {
+        "id": 771,
+        "name": "Tool result circuit 2",
+        "triangles": 32,
+        "submeshes": 1
+      },
+      {
+        "id": 773,
+        "name": "Tool result circuit 3",
+        "triangles": 32,
+        "submeshes": 1
+      },
+      {
+        "id": 775,
+        "name": "Harness support",
+        "triangles": 64,
+        "submeshes": 1
+      },
+      {
+        "id": 866,
+        "name": "Evidence rack spine",
+        "triangles": 12,
+        "submeshes": 1
+      },
+      {
+        "id": 868,
+        "name": "Evidence rail",
+        "triangles": 12,
+        "submeshes": 1
+      },
+      {
+        "id": 870,
+        "name": "Evidence rail",
+        "triangles": 12,
+        "submeshes": 1
+      },
+      {
+        "id": 873,
+        "name": "Archive file brief",
+        "triangles": 12,
+        "submeshes": 1
+      },
+      {
+        "id": 877,
+        "name": "Inspect source brief",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 894,
+        "name": "Archive file agents",
+        "triangles": 12,
+        "submeshes": 1
+      },
+      {
+        "id": 898,
+        "name": "Inspect source agents",
+        "triangles": 2,
+        "submeshes": 1
+      },
+      {
+        "id": 916,
+        "name": "Context draft and check status",
+        "triangles": 2,
+        "submeshes": 1
+      }
+    ],
+    "textures": [
+      {
+        "id": 1,
+        "names": [
+          "Late afternoon_shadowMap"
+        ],
+        "url": "",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 5,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 33554432,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 2,
+        "names": [],
+        "url": "",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 14,
+        "type": 0,
+        "source": 12,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 16777216,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 6,
+        "names": [
+          "data:EnvironmentBRDFTexture0"
+        ],
+        "url": "embedded",
+        "width": 256,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 1,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 524288,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 55,
+        "names": [
+          "/assets/studio.env"
+        ],
+        "url": "/assets/studio.env",
+        "width": 128,
+        "height": 128,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 7,
+        "mipmaps": true,
+        "cube": true,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 1048560,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 56,
+        "names": [
+          "Honed pale terrazzo__floor (Base Color)",
+          "Ivory limestone__floor (Base Color)"
+        ],
+        "url": "embedded",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 5,
+        "type": 0,
+        "source": 1,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 22369620,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 57,
+        "names": [
+          "Porcelain light diffuser__furnishings (Base Color)",
+          "Dark mineral exhibits__furnishings (Base Color)",
+          "Ivory limestone__furnishings (Base Color)",
+          "Champagne anodised aluminium__furnishings (Base Color)",
+          "Warm chalk plaster__furnishings (Base Color)",
+          "Satin titanium__furnishings (Base Color)",
+          "Smoked oak__furnishings (Base Color)",
+          "Moss wool seating__furnishings (Base Color)",
+          "Soil__furnishings (Base Color)",
+          "Olive leaves__furnishings (Base Color)"
+        ],
+        "url": "embedded",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 5,
+        "type": 0,
+        "source": 1,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 22369620,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 58,
+        "names": [
+          "Warm chalk plaster__shell (Base Color)",
+          "Ivory limestone__shell (Base Color)",
+          "Champagne anodised aluminium__shell (Base Color)",
+          "Dark mineral exhibits__shell (Base Color)",
+          "Smoked oak__shell (Base Color)"
+        ],
+        "url": "embedded",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 5,
+        "type": 0,
+        "source": 1,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 22369620,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 59,
+        "names": [
+          "/assets/headquarters/floor-indirect.jpg"
+        ],
+        "url": "/assets/headquarters/floor-indirect.jpg",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 4,
+        "type": 0,
+        "source": 1,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 3,
+        "blockBytes": null,
+        "textureBytes": 16777215,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 60,
+        "names": [
+          "/assets/headquarters/shell-indirect.jpg"
+        ],
+        "url": "/assets/headquarters/shell-indirect.jpg",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 4,
+        "type": 0,
+        "source": 1,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 3,
+        "blockBytes": null,
+        "textureBytes": 16777215,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 61,
+        "names": [
+          "/assets/headquarters/furnishings-indirect.jpg"
+        ],
+        "url": "/assets/headquarters/furnishings-indirect.jpg",
+        "width": 2048,
+        "height": 2048,
+        "depth": 0,
+        "format": 4,
+        "type": 0,
+        "source": 1,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 3,
+        "blockBytes": null,
+        "textureBytes": 16777215,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 67,
+        "names": [
+          "UNDERSTAND"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 68,
+        "names": [
+          "01  /  THE CODEX ECOSYSTEM"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 69,
+        "names": [
+          "01"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 70,
+        "names": [
+          "02"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 71,
+        "names": [
+          "03"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 72,
+        "names": [
+          "04"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 73,
+        "names": [
+          "DIRECT"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 74,
+        "names": [
+          "02  /  THE CODEX ECOSYSTEM"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 75,
+        "names": [
+          "05"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 76,
+        "names": [
+          "06"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 77,
+        "names": [
+          "07"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 78,
+        "names": [
+          "08"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 79,
+        "names": [
+          "REPEAT"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 80,
+        "names": [
+          "03  /  THE CODEX ECOSYSTEM"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 81,
+        "names": [
+          "09"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 82,
+        "names": [
+          "10"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 83,
+        "names": [
+          "11"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 84,
+        "names": [
+          "12"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 256,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1398108,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 85,
+        "names": [
+          ""
+        ],
+        "url": "",
+        "width": 16,
+        "height": 1,
+        "depth": 0,
+        "format": 5,
+        "type": 1,
+        "source": 3,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 16,
+        "blockBytes": null,
+        "textureBytes": 256,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 115,
+        "names": [
+          "context caption"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 128,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 349532,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 116,
+        "names": [
+          "model caption"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 128,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 349532,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 117,
+        "names": [
+          "tools caption"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 128,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 349532,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 118,
+        "names": [
+          "verify caption"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 128,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 349532,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 119,
+        "names": [],
+        "url": "",
+        "width": 780,
+        "height": 877.76,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 5,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 4,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 5477222.4,
+        "estimatedMultisampleColorBytes": 21908889.6
+      },
+      {
+        "id": 120,
+        "names": [],
+        "url": "",
+        "width": 390,
+        "height": 438.88,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 5,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 1369305.6,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 121,
+        "names": [],
+        "url": "",
+        "width": 390,
+        "height": 438.88,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 5,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 1369305.6,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 122,
+        "names": [],
+        "url": "",
+        "width": 390,
+        "height": 438.88,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 5,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 1369305.6,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 123,
+        "names": [],
+        "url": "",
+        "width": 780,
+        "height": 877.76,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 5,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 5477222.4,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 124,
+        "names": [],
+        "url": "",
+        "width": 780,
+        "height": 877.76,
+        "depth": 0,
+        "format": 5,
+        "type": 2,
+        "source": 5,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 8,
+        "blockBytes": null,
+        "textureBytes": 5477222.4,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 125,
+        "names": [
+          "Route Fix a label text"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 267,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 727980,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 126,
+        "names": [
+          "Route Trace a regression text"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 267,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 727980,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 127,
+        "names": [
+          "Route Read a live sheet text"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 267,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 727980,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 128,
+        "names": [
+          "Select Astra text"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 391,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1066492,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 129,
+        "names": [
+          "Select Sol text"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 391,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1066492,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 130,
+        "names": [
+          "Select Terra text"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 391,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1066492,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 131,
+        "names": [
+          "Select Luna text"
+        ],
+        "url": "",
+        "width": 512,
+        "height": 391,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 1066492,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 132,
+        "names": [
+          "Output check status text"
+        ],
+        "url": "",
+        "width": 1024,
+        "height": 129,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": true,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 703164,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 133,
+        "names": [
+          "Archive face brief"
+        ],
+        "url": "",
+        "width": 384,
+        "height": 448,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 688128,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 134,
+        "names": [
+          "Archive face sample"
+        ],
+        "url": "",
+        "width": 384,
+        "height": 448,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 688128,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 135,
+        "names": [
+          "Archive face image"
+        ],
+        "url": "",
+        "width": 384,
+        "height": 448,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 688128,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 136,
+        "names": [
+          "Archive face agents"
+        ],
+        "url": "",
+        "width": 384,
+        "height": 448,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 688128,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 137,
+        "names": [
+          "Archive face old"
+        ],
+        "url": "",
+        "width": 384,
+        "height": 448,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 688128,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 138,
+        "names": [
+          "Archive face note"
+        ],
+        "url": "",
+        "width": 384,
+        "height": 448,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 688128,
+        "estimatedMultisampleColorBytes": 0
+      },
+      {
+        "id": 139,
+        "names": [
+          "Context result ribbon"
+        ],
+        "url": "",
+        "width": 768,
+        "height": 112,
+        "depth": 0,
+        "format": 5,
+        "type": -1,
+        "source": 4,
+        "mipmaps": false,
+        "cube": false,
+        "samples": 1,
+        "ready": true,
+        "bytesPerPixel": 4,
+        "blockBytes": null,
+        "textureBytes": 344064,
+        "estimatedMultisampleColorBytes": 0
+      }
+    ],
+    "textureStorageBytes": 228074817,
+    "multisampleColorStorageBytes": 21908889.6,
+    "unknownTextureFormats": 0,
+    "limits": [
+      "Active mesh triangles count each camera-active mesh once, including triangles outside its visible pixels; not exact occlusion visibility.",
+      "Main draw phase is Babylon rendering-manager submission; total also includes shadow and finishing passes.",
+      "Texture storage is an allocation estimate; driver padding, default framebuffer, implicit depth/stencil renderbuffers, CPU decoded images, geometry and program memory are excluded.",
+      "Scene time is CPU-side elapsed browser time, not native GPU time."
+    ],
+    "finishing": {
+      "quality": "high",
+      "cameraSlots": 6,
+      "activeEffects": 6,
+      "registeredEffects": 0
+    }
+  },
+  "test": {
+    "uploads": [
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 0,
+        "format": 37808,
+        "width": 2048,
+        "height": 2048,
+        "bytes": 4194304
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 1,
+        "format": 37808,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1048576
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 2,
+        "format": 37808,
+        "width": 512,
+        "height": 512,
+        "bytes": 262144
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 3,
+        "format": 37808,
+        "width": 256,
+        "height": 256,
+        "bytes": 65536
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 4,
+        "format": 37808,
+        "width": 128,
+        "height": 128,
+        "bytes": 16384
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 5,
+        "format": 37808,
+        "width": 64,
+        "height": 64,
+        "bytes": 4096
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 6,
+        "format": 37808,
+        "width": 32,
+        "height": 32,
+        "bytes": 1024
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 7,
+        "format": 37808,
+        "width": 16,
+        "height": 16,
+        "bytes": 256
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 8,
+        "format": 37808,
+        "width": 8,
+        "height": 8,
+        "bytes": 64
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 9,
+        "format": 37808,
+        "width": 4,
+        "height": 4,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 10,
+        "format": 37808,
+        "width": 2,
+        "height": 2,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 11,
+        "format": 37808,
+        "width": 1,
+        "height": 1,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 0,
+        "format": 37840,
+        "width": 2048,
+        "height": 2048,
+        "bytes": 4194304
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 1,
+        "format": 37840,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1048576
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 2,
+        "format": 37840,
+        "width": 512,
+        "height": 512,
+        "bytes": 262144
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 3,
+        "format": 37840,
+        "width": 256,
+        "height": 256,
+        "bytes": 65536
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 4,
+        "format": 37840,
+        "width": 128,
+        "height": 128,
+        "bytes": 16384
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 5,
+        "format": 37840,
+        "width": 64,
+        "height": 64,
+        "bytes": 4096
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 6,
+        "format": 37840,
+        "width": 32,
+        "height": 32,
+        "bytes": 1024
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 7,
+        "format": 37840,
+        "width": 16,
+        "height": 16,
+        "bytes": 256
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 8,
+        "format": 37840,
+        "width": 8,
+        "height": 8,
+        "bytes": 64
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 9,
+        "format": 37840,
+        "width": 4,
+        "height": 4,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 10,
+        "format": 37840,
+        "width": 2,
+        "height": 2,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 11,
+        "format": 37840,
+        "width": 1,
+        "height": 1,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 0,
+        "format": 37808,
+        "width": 2048,
+        "height": 2048,
+        "bytes": 4194304
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 1,
+        "format": 37808,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1048576
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 2,
+        "format": 37808,
+        "width": 512,
+        "height": 512,
+        "bytes": 262144
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 3,
+        "format": 37808,
+        "width": 256,
+        "height": 256,
+        "bytes": 65536
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 4,
+        "format": 37808,
+        "width": 128,
+        "height": 128,
+        "bytes": 16384
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 5,
+        "format": 37808,
+        "width": 64,
+        "height": 64,
+        "bytes": 4096
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 6,
+        "format": 37808,
+        "width": 32,
+        "height": 32,
+        "bytes": 1024
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 7,
+        "format": 37808,
+        "width": 16,
+        "height": 16,
+        "bytes": 256
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 8,
+        "format": 37808,
+        "width": 8,
+        "height": 8,
+        "bytes": 64
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 9,
+        "format": 37808,
+        "width": 4,
+        "height": 4,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 10,
+        "format": 37808,
+        "width": 2,
+        "height": 2,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 11,
+        "format": 37808,
+        "width": 1,
+        "height": 1,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 0,
+        "format": 37840,
+        "width": 2048,
+        "height": 2048,
+        "bytes": 4194304
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 1,
+        "format": 37840,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1048576
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 2,
+        "format": 37840,
+        "width": 512,
+        "height": 512,
+        "bytes": 262144
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 3,
+        "format": 37840,
+        "width": 256,
+        "height": 256,
+        "bytes": 65536
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 4,
+        "format": 37840,
+        "width": 128,
+        "height": 128,
+        "bytes": 16384
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 5,
+        "format": 37840,
+        "width": 64,
+        "height": 64,
+        "bytes": 4096
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 6,
+        "format": 37840,
+        "width": 32,
+        "height": 32,
+        "bytes": 1024
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 7,
+        "format": 37840,
+        "width": 16,
+        "height": 16,
+        "bytes": 256
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 8,
+        "format": 37840,
+        "width": 8,
+        "height": 8,
+        "bytes": 64
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 9,
+        "format": 37840,
+        "width": 4,
+        "height": 4,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 10,
+        "format": 37840,
+        "width": 2,
+        "height": 2,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 11,
+        "format": 37840,
+        "width": 1,
+        "height": 1,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 0,
+        "format": 37808,
+        "width": 2048,
+        "height": 2048,
+        "bytes": 4194304
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 1,
+        "format": 37808,
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1048576
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 2,
+        "format": 37808,
+        "width": 512,
+        "height": 512,
+        "bytes": 262144
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 3,
+        "format": 37808,
+        "width": 256,
+        "height": 256,
+        "bytes": 65536
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 4,
+        "format": 37808,
+        "width": 128,
+        "height": 128,
+        "bytes": 16384
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 5,
+        "format": 37808,
+        "width": 64,
+        "height": 64,
+        "bytes": 4096
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 6,
+        "format": 37808,
+        "width": 32,
+        "height": 32,
+        "bytes": 1024
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 7,
+        "format": 37808,
+        "width": 16,
+        "height": 16,
+        "bytes": 256
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 8,
+        "format": 37808,
+        "width": 8,
+        "height": 8,
+        "bytes": 64
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 9,
+        "format": 37808,
+        "width": 4,
+        "height": 4,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 10,
+        "format": 37808,
+        "width": 2,
+        "height": 2,
+        "bytes": 16
+      },
+      {
+        "method": "compressedTexSubImage2D",
+        "level": 11,
+        "format": 37808,
+        "width": 1,
+        "height": 1,
+        "bytes": 16
+      }
+    ],
+    "workers": 0
+  },
+  "resources": [
+    {
+      "url": "http://127.0.0.1:43211/assets/index-Dc1weyRD.css",
+      "encodedBodySize": 11967,
+      "transferSize": 12267,
+      "duration": 4
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/index-Bb0eQAwO.js",
+      "encodedBodySize": 87065,
+      "transferSize": 87365,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/codex-reference.png",
+      "encodedBodySize": 493468,
+      "transferSize": 493768,
+      "duration": 17
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.scalar.functions-D-i-XBaP.js",
+      "encodedBodySize": 1044,
+      "transferSize": 1344,
+      "duration": 18
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/typeStore-Cu_sj2zM.js",
+      "encodedBodySize": 80,
+      "transferSize": 380,
+      "duration": 20
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/performanceConfigurator-UtxC_Odd.js",
+      "encodedBodySize": 500,
+      "transferSize": 800,
+      "duration": 21
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/engineStore-Bn2tApal.js",
+      "encodedBodySize": 1231,
+      "transferSize": 1531,
+      "duration": 21
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/animation.pure-BkcuS87H.js",
+      "encodedBodySize": 3983,
+      "transferSize": 4283,
+      "duration": 22
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.size-BHZaDYSv.js",
+      "encodedBodySize": 910,
+      "transferSize": 1210,
+      "duration": 23
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.color.pure-DRf1gOrV.js",
+      "encodedBodySize": 18274,
+      "transferSize": 18574,
+      "duration": 24
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decorators-C_ra_8EP.js",
+      "encodedBodySize": 1601,
+      "transferSize": 1901,
+      "duration": 24
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/domManagement-BqltO0ki.js",
+      "encodedBodySize": 256,
+      "transferSize": 556,
+      "duration": 25
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/tools.functions-C8QU8nYC.js",
+      "encodedBodySize": 4781,
+      "transferSize": 5081,
+      "duration": 25
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decorators.serialization-d26cuy-b.js",
+      "encodedBodySize": 1797,
+      "transferSize": 2097,
+      "duration": 25
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/node-IGSo-MFx.js",
+      "encodedBodySize": 3158,
+      "transferSize": 3458,
+      "duration": 27
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/world-DvaAjRXJ.js",
+      "encodedBodySize": 307041,
+      "transferSize": 307341,
+      "duration": 43
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logger-CuBYPcDK.js",
+      "encodedBodySize": 843,
+      "transferSize": 1143,
+      "duration": 27
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/guid-BXdVC_j_.js",
+      "encodedBodySize": 157,
+      "transferSize": 457,
+      "duration": 27
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/halfFloat-Ce77JD5z.js",
+      "encodedBodySize": 619,
+      "transferSize": 919,
+      "duration": 27
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/tools.pure-B61Ijxh6.js",
+      "encodedBodySize": 10903,
+      "transferSize": 11203,
+      "duration": 27
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/smartArray-BRfcgNbX.js",
+      "encodedBodySize": 456,
+      "transferSize": 756,
+      "duration": 28
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/buffer.pure-BIFLVAZk.js",
+      "encodedBodySize": 2440,
+      "transferSize": 2740,
+      "duration": 30
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/lightConstants-UjYfeHn4.js",
+      "encodedBodySize": 3520,
+      "transferSize": 3820,
+      "duration": 30
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/abstractEngine.pure-BMdakWcX.js",
+      "encodedBodySize": 14466,
+      "transferSize": 14766,
+      "duration": 31
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shaderStore-D-XQlhUT.js",
+      "encodedBodySize": 469,
+      "transferSize": 769,
+      "duration": 31
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/thinEngine.pure-m0A2h7lr.js",
+      "encodedBodySize": 16714,
+      "transferSize": 17014,
+      "duration": 32
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/internalTexture-Dlz1Grf0.js",
+      "encodedBodySize": 2007,
+      "transferSize": 2307,
+      "duration": 32
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pointerEvents-nqydg71H.js",
+      "encodedBodySize": 759,
+      "transferSize": 1059,
+      "duration": 33
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneComponent-CjgOmcfi.js",
+      "encodedBodySize": 4881,
+      "transferSize": 5181,
+      "duration": 34
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/keyboardEvents-CGYiptFb.js",
+      "encodedBodySize": 357,
+      "transferSize": 657,
+      "duration": 34
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/scene.pure-D0d6NW2g.js",
+      "encodedBodySize": 33915,
+      "transferSize": 34215,
+      "duration": 34
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.plane-C-VH8mEN.js",
+      "encodedBodySize": 777,
+      "transferSize": 1077,
+      "duration": 35
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphInteger.pure-CZmJgkLp.js",
+      "encodedBodySize": 558,
+      "transferSize": 858,
+      "duration": 36
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/utils-CLq_UU0_.js",
+      "encodedBodySize": 682,
+      "transferSize": 982,
+      "duration": 37
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphAssetsContext-WtUyuDAI.js",
+      "encodedBodySize": 736,
+      "transferSize": 1036,
+      "duration": 37
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphExecutionBlock-Cj7SzpKo.js",
+      "encodedBodySize": 888,
+      "transferSize": 1188,
+      "duration": 37
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphBlock-CkJU0BIJ.js",
+      "encodedBodySize": 3934,
+      "transferSize": 4234,
+      "duration": 38
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphAsyncExecutionBlock-BAAqAl3y.js",
+      "encodedBodySize": 669,
+      "transferSize": 969,
+      "duration": 38
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphExecutionBlockWithOutSignal-BSnlOV9q.js",
+      "encodedBodySize": 159,
+      "transferSize": 459,
+      "duration": 39
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/flowGraphEventBlock-DFFNSbZo.js",
+      "encodedBodySize": 634,
+      "transferSize": 934,
+      "duration": 40
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.path-B-NKPXe7.js",
+      "encodedBodySize": 3023,
+      "transferSize": 3323,
+      "duration": 41
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/baseTexture.pure-CdBhjDO3.js",
+      "encodedBodySize": 3851,
+      "transferSize": 4151,
+      "duration": 41
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/texture.pure-D2qax4_s.js",
+      "encodedBodySize": 5462,
+      "transferSize": 5762,
+      "duration": 40
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/drawWrapper-CAjVVxyJ.js",
+      "encodedBodySize": 669,
+      "transferSize": 969,
+      "duration": 41
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/effectRenderer.pure-DQxdhyog.js",
+      "encodedBodySize": 2501,
+      "transferSize": 2801,
+      "duration": 41
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/postProcess.pure-BViok19Y.js",
+      "encodedBodySize": 5099,
+      "transferSize": 5399,
+      "duration": 42
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/renderTargetTexture.pure-BVoeUBLP.js",
+      "encodedBodySize": 7868,
+      "transferSize": 8168,
+      "duration": 43
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.axis-BEFzoR3R.js",
+      "encodedBodySize": 288,
+      "transferSize": 588,
+      "duration": 43
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/material.pure-Bo4p5L9-.js",
+      "encodedBodySize": 20151,
+      "transferSize": 20451,
+      "duration": 46
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pushMaterial-SLor945h.js",
+      "encodedBodySize": 49397,
+      "transferSize": 49697,
+      "duration": 46
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sphericalPolynomial.pure-B_YAEgpI.js",
+      "encodedBodySize": 1356,
+      "transferSize": 1656,
+      "duration": 47
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/constants-DNxlZnxc.js",
+      "encodedBodySize": 3227,
+      "transferSize": 3527,
+      "duration": 47
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrMaterial.pure-pVFTrulz.js",
+      "encodedBodySize": 28703,
+      "transferSize": 29003,
+      "duration": 47
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/math.color-DbAdzrZC.js",
+      "encodedBodySize": 54,
+      "transferSize": 354,
+      "duration": 48
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/mesh.pure-DMUC7zAR.js",
+      "encodedBodySize": 54218,
+      "transferSize": 54518,
+      "duration": 50
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/cubemapToSphericalPolynomial-BLjZA_r-.js",
+      "encodedBodySize": 1622,
+      "transferSize": 1922,
+      "duration": 6
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMap.fragment-DX4Yo1bp.js",
+      "encodedBodySize": 1177,
+      "transferSize": 1477,
+      "duration": 6
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/packingFunctions-DpGwbupU.js",
+      "encodedBodySize": 529,
+      "transferSize": 829,
+      "duration": 6
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/clipPlaneFragment-DVK0wgyZ.js",
+      "encodedBodySize": 377,
+      "transferSize": 677,
+      "duration": 6
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMap.vertex-TZnupHeR.js",
+      "encodedBodySize": 1611,
+      "transferSize": 1911,
+      "duration": 8
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/envTextureLoader-BY-NHFm_.js",
+      "encodedBodySize": 677,
+      "transferSize": 977,
+      "duration": 8
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneUboDeclaration-B5VhSG0v.js",
+      "encodedBodySize": 364,
+      "transferSize": 664,
+      "duration": 10
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bakedVertexAnimation-C6l_KSSy.js",
+      "encodedBodySize": 1598,
+      "transferSize": 1898,
+      "duration": 10
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/clipPlaneVertex-C59BO8JS.js",
+      "encodedBodySize": 365,
+      "transferSize": 665,
+      "duration": 10
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/meshUboDeclaration-BmNu2KU_.js",
+      "encodedBodySize": 345,
+      "transferSize": 645,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/morphTargetsVertex-6N5r7oF1.js",
+      "encodedBodySize": 1007,
+      "transferSize": 1307,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/helperFunctions-gEnZbjN3.js",
+      "encodedBodySize": 2294,
+      "transferSize": 2594,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sceneVertexDeclaration-CluTp-RC.js",
+      "encodedBodySize": 330,
+      "transferSize": 630,
+      "duration": 13
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/depthBoxBlur.fragment-CLEAG5DG.js",
+      "encodedBodySize": 534,
+      "transferSize": 834,
+      "duration": 13
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowMapFragmentSoftTransparentShadow-R_iOKnyx.js",
+      "encodedBodySize": 370,
+      "transferSize": 670,
+      "duration": 13
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/rgbdDecode.fragment-Cdz2Tveq.js",
+      "encodedBodySize": 520,
+      "transferSize": 820,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/architecture.glb.gz",
+      "encodedBodySize": 2172025,
+      "transferSize": 2172325,
+      "duration": 21
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/studio.env",
+      "encodedBodySize": 270598,
+      "transferSize": 270898,
+      "duration": 13
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/postprocess.vertex-DJCmMhI8.js",
+      "encodedBodySize": 460,
+      "transferSize": 760,
+      "duration": 6
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrMaterialLoadingAdapter-C0jTi0xT.js",
+      "encodedBodySize": 79,
+      "transferSize": 379,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/index-Bb0eQAwO.js",
+      "encodedBodySize": 87065,
+      "transferSize": 87365,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+      "encodedBodySize": 8230,
+      "transferSize": 8530,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/floor-indirect.jpg",
+      "encodedBodySize": 254220,
+      "transferSize": 254520,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decoders/ktx2-9.25.0/worker.js",
+      "encodedBodySize": 1279,
+      "transferSize": 1579,
+      "duration": 4
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/shell-indirect.jpg",
+      "encodedBodySize": 784238,
+      "transferSize": 784538,
+      "duration": 4
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/decoders/ktx2-9.25.0/worker.js",
+      "encodedBodySize": 1279,
+      "transferSize": 1579,
+      "duration": 4
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/furnishings-indirect.jpg",
+      "encodedBodySize": 1078937,
+      "transferSize": 1079237,
+      "duration": 5
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/compressed/shell-albedo.ktx2",
+      "encodedBodySize": 0,
+      "transferSize": 0,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/compressed/floor-indirect.ktx2",
+      "encodedBodySize": 963230,
+      "transferSize": 963530,
+      "duration": 5
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/compressed/floor-albedo.ktx2",
+      "encodedBodySize": 1616694,
+      "transferSize": 1616994,
+      "duration": 6
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/compressed/shell-indirect.ktx2",
+      "encodedBodySize": 2464683,
+      "transferSize": 2464983,
+      "duration": 7
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/compressed/furnishings-albedo.ktx2",
+      "encodedBodySize": 2517135,
+      "transferSize": 2517435,
+      "duration": 8
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/compressed/furnishings-indirect.ktx2",
+      "encodedBodySize": 2787591,
+      "transferSize": 2787891,
+      "duration": 8
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/ktxTextureLoader-CQWLExHA.js",
+      "encodedBodySize": 71,
+      "transferSize": 371,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/ktxTextureLoader-CQWLExHA.js",
+      "encodedBodySize": 71,
+      "transferSize": 371,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/ktxTextureLoader-CQWLExHA.js",
+      "encodedBodySize": 71,
+      "transferSize": 371,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/headquarters/fixtures.json",
+      "encodedBodySize": 627,
+      "transferSize": 927,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/sharpen.fragment-CCLDkKbj.js",
+      "encodedBodySize": 760,
+      "transferSize": 1060,
+      "duration": 7
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/circleOfConfusion.fragment-CEj6DZ22.js",
+      "encodedBodySize": 814,
+      "transferSize": 1114,
+      "duration": 7
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/kernelBlurVaryingDeclaration-DP2Wr9Oc.js",
+      "encodedBodySize": 212,
+      "transferSize": 512,
+      "duration": 7
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/kernelBlur.vertex-C2dESVl-.js",
+      "encodedBodySize": 889,
+      "transferSize": 1189,
+      "duration": 7
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/kernelBlur.fragment-DHQjf6lq.js",
+      "encodedBodySize": 786,
+      "transferSize": 1086,
+      "duration": 8
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/depthOfFieldMerge.fragment-BKOejQJL.js",
+      "encodedBodySize": 575,
+      "transferSize": 875,
+      "duration": 8
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/extractHighlights.fragment-Z6JPs_Tc.js",
+      "encodedBodySize": 680,
+      "transferSize": 980,
+      "duration": 10
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bloomMerge.fragment-vwVNEATu.js",
+      "encodedBodySize": 487,
+      "transferSize": 787,
+      "duration": 10
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/grain.fragment-BCCu9I6u.js",
+      "encodedBodySize": 773,
+      "transferSize": 1073,
+      "duration": 10
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/imageProcessing.fragment-Bb9mf-7k.js",
+      "encodedBodySize": 911,
+      "transferSize": 1211,
+      "duration": 10
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/chromaticAberration.fragment-cDPo3aCd.js",
+      "encodedBodySize": 611,
+      "transferSize": 911,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/imageProcessingFunctions-G8WWRV14.js",
+      "encodedBodySize": 1994,
+      "transferSize": 2294,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fxaa.vertex-CEYszSUi.js",
+      "encodedBodySize": 999,
+      "transferSize": 1299,
+      "duration": 13
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fxaa.fragment-BJI4ON-J.js",
+      "encodedBodySize": 1644,
+      "transferSize": 1944,
+      "duration": 13
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/codex-mascot.glb",
+      "encodedBodySize": 912508,
+      "transferSize": 912808,
+      "duration": 14
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/animationGroup.pure-Vz2au8jg.js",
+      "encodedBodySize": 8891,
+      "transferSize": 9191,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/glTFLoaderAnimation.pure-g0QCpf_3.js",
+      "encodedBodySize": 274,
+      "transferSize": 574,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/render-audit-DWXY8fzm.js",
+      "encodedBodySize": 1433,
+      "transferSize": 1733,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/tool-exhibit-lNkrmQcC.js",
+      "encodedBodySize": 2033,
+      "transferSize": 2333,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/steering-exhibit-C0PLc8eo.js",
+      "encodedBodySize": 2195,
+      "transferSize": 2495,
+      "duration": 4
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/review-exhibit-Dzx0K4BJ.js",
+      "encodedBodySize": 2005,
+      "transferSize": 2305,
+      "duration": 4
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/permission-exhibit-DyuUfP-l.js",
+      "encodedBodySize": 1827,
+      "transferSize": 2127,
+      "duration": 4
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/branch-exhibit-8yQm6PNY.js",
+      "encodedBodySize": 1497,
+      "transferSize": 1797,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbr.vertex-CMQHQtJZ.js",
+      "encodedBodySize": 3643,
+      "transferSize": 3943,
+      "duration": 12
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fogVertex-NHlgMcT2.js",
+      "encodedBodySize": 380,
+      "transferSize": 680,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/mainUVVaryingDeclaration-BBamQlxR.js",
+      "encodedBodySize": 229,
+      "transferSize": 529,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logDepthDeclaration-3gXGtHbI.js",
+      "encodedBodySize": 275,
+      "transferSize": 575,
+      "duration": 11
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/instancesDeclaration-CJBvtBV5.js",
+      "encodedBodySize": 933,
+      "transferSize": 1233,
+      "duration": 12
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/vertexColorMixing-DPW6Is9y.js",
+      "encodedBodySize": 434,
+      "transferSize": 734,
+      "duration": 12
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bumpVertexDeclaration-Cb04kLz9.js",
+      "encodedBodySize": 341,
+      "transferSize": 641,
+      "duration": 14
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bumpVertex-CWhdIpqj.js",
+      "encodedBodySize": 522,
+      "transferSize": 822,
+      "duration": 14
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/shadowsVertex--0nVb1Fg.js",
+      "encodedBodySize": 1677,
+      "transferSize": 1977,
+      "duration": 15
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logDepthVertex-D5IUM6qd.js",
+      "encodedBodySize": 309,
+      "transferSize": 609,
+      "duration": 15
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/harmonicsFunctions-QSz_WdsQ.js",
+      "encodedBodySize": 512,
+      "transferSize": 812,
+      "duration": 15
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrBRDFFunctions-BCNINF-p.js",
+      "encodedBodySize": 4088,
+      "transferSize": 4388,
+      "duration": 15
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrUboDeclaration--xFZEw0i.js",
+      "encodedBodySize": 694,
+      "transferSize": 994,
+      "duration": 17
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/fogFragment-CISE_m3s.js",
+      "encodedBodySize": 509,
+      "transferSize": 809,
+      "duration": 17
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/reflectionFunction-CivoLMz9.js",
+      "encodedBodySize": 1129,
+      "transferSize": 1429,
+      "duration": 18
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/lightFragment-x7Xpl9uU.js",
+      "encodedBodySize": 3363,
+      "transferSize": 3663,
+      "duration": 18
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/oitFragment-CbS3GbFz.js",
+      "encodedBodySize": 8601,
+      "transferSize": 8901,
+      "duration": 20
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbr.fragment-C2DRseGh.js",
+      "encodedBodySize": 18021,
+      "transferSize": 18321,
+      "duration": 20
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/bumpFragment-BtJd9tYZ.js",
+      "encodedBodySize": 2372,
+      "transferSize": 2672,
+      "duration": 22
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/logDepthFragment-C5lxT4l1.js",
+      "encodedBodySize": 270,
+      "transferSize": 570,
+      "duration": 19
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrIBLFunctions-CSlJv7qb.js",
+      "encodedBodySize": 899,
+      "transferSize": 1199,
+      "duration": 21
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pbrDebug-DB3vXFLo.js",
+      "encodedBodySize": 8408,
+      "transferSize": 8708,
+      "duration": 21
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/pointCloudVertex-CmkEsLzf.js",
+      "encodedBodySize": 246,
+      "transferSize": 546,
+      "duration": 21
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/defaultUboDeclaration-C53xcSdv.js",
+      "encodedBodySize": 570,
+      "transferSize": 870,
+      "duration": 21
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/default.vertex-B1N6Otbz.js",
+      "encodedBodySize": 2291,
+      "transferSize": 2591,
+      "duration": 22
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/default.fragment-CXn8pVJ-.js",
+      "encodedBodySize": 5749,
+      "transferSize": 6049,
+      "duration": 22
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/harness-exhibit-BvORTs8O.js",
+      "encodedBodySize": 1766,
+      "transferSize": 2066,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/model-exhibit-BEC2q8Zy.js",
+      "encodedBodySize": 2266,
+      "transferSize": 2566,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:43211/assets/context-exhibit-BOHjosm1.js",
+      "encodedBodySize": 1850,
+      "transferSize": 2150,
+      "duration": 2
+    }
+  ],
+  "marks": [],
+  "errors": [],
+  "external": []
+}

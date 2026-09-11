@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "sameProfileFields": [
+    "quality",
+    "viewport",
+    "dpr",
+    "browser",
+    "graphics",
+    "profile",
+    "limits"
+  ],
+  "sourceUnchangedSincePreCapture": true,
+  "candidateBuildId": "a75745e781cbcb7296f440a497cda267a7980c55d479b990fcb195e31d8cb324",
+  "baseline": {
+    "medianMs": 16.69999999999709,
+    "p95Ms": 16.70000000001164,
+    "p99Ms": 16.80000000000291,
+    "maxMs": 16.80000000000291,
+    "intervalsOver100ms": 0,
+    "maxActiveTriangles": 206956,
+    "maxMainDrawCalls": 104,
+    "maxTotalDrawCalls": 125,
+    "maxTextureEstimateBytes": 127126103.19999999,
+    "heldRenderFrames": 0,
+    "maxViewHoldMs": 0,
+    "totalViewHoldMs": 0
+  },
+  "candidate": {
+    "medianMs": 16.69999999999709,
+    "p95Ms": 16.70000000001164,
+    "p99Ms": 16.80000000000291,
+    "maxMs": 16.80000000000291,
+    "intervalsOver100ms": 0,
+    "maxActiveTriangles": 206956,
+    "maxMainDrawCalls": 91,
+    "maxTotalDrawCalls": 99,
+    "maxTextureEstimateBytes": 127126103.19999999,
+    "heldRenderFrames": 0,
+    "maxViewHoldMs": 0,
+    "totalViewHoldMs": 0
+  }
+}

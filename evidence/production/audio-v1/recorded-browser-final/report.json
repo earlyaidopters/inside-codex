@@ -1,0 +1,289 @@
+{
+  "pass": true,
+  "engines": [
+    {
+      "name": "chrome",
+      "checks": [
+        "Default muted journey creates no audio context and requests no sound assets",
+        "A user gesture starts decoded music and ambience with measurable output",
+        "Keyboard-operated independent sliders isolate channels and preserve effects",
+        "Pause button and Escape both suspend audio and resume the transport",
+        "Rapid wing changes discard stale downloads and leave one score and one ambient loop",
+        "Master mute suspends every bus and clears narration",
+        "Reload retains channel levels and mute without auto-starting sound",
+        "Failed sound download leaves a usable page and explicit retry restores ambience",
+        "Recorded narration produces isolated voice output, freezes at pause, resumes and skips cleanly",
+        "A failed narration segment can be retried and muted without stale speech or captions"
+      ],
+      "errors": [],
+      "requests": [
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-2.mp3",
+        "http://127.0.0.1:43211/assets/audio/travel.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-1.mp3",
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/97534fe75e096913.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/d5eb23e0af58a68d.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/d5eb23e0af58a68d.mp3"
+      ],
+      "final": {
+        "outputRms": 0,
+        "time": 0.5630839002267574,
+        "voiceActive": false,
+        "unlocked": true,
+        "context": "suspended",
+        "muted": true,
+        "paused": false,
+        "hidden": false,
+        "levels": {
+          "voice": 1,
+          "music": 0,
+          "ambience": 0,
+          "effects": 0
+        },
+        "voiceBackend": "recorded-kokoro-v1",
+        "voiceMessage": "",
+        "caption": "",
+        "wing": 0,
+        "loops": [
+          "wing-0"
+        ],
+        "retiring": 0,
+        "shots": 0,
+        "pending": [],
+        "failures": [],
+        "buffers": [
+          {
+            "id": "wing-0",
+            "duration": 12,
+            "channels": 2,
+            "samples": 529200,
+            "rate": 44100
+          },
+          {
+            "id": "headquarters-score",
+            "duration": 48,
+            "channels": 2,
+            "samples": 2116800,
+            "rate": 44100
+          },
+          {
+            "id": "voice/97534fe75e096913",
+            "duration": 1.4152834467120181,
+            "channels": 1,
+            "samples": 62414,
+            "rate": 44100
+          },
+          {
+            "id": "voice/d5eb23e0af58a68d",
+            "duration": 2.8406122448979594,
+            "channels": 1,
+            "samples": 125271,
+            "rate": 44100
+          }
+        ],
+        "gains": {
+          "voice": 0.9458703994750977,
+          "music": 0.008008827455341816,
+          "ambience": 0.008568289689719677,
+          "effects": 0.004712540656328201
+        },
+        "master": 1
+      },
+      "pass": true
+    },
+    {
+      "name": "firefox",
+      "checks": [
+        "Default muted journey creates no audio context and requests no sound assets",
+        "A user gesture starts decoded music and ambience with measurable output",
+        "Keyboard-operated independent sliders isolate channels and preserve effects",
+        "Pause button and Escape both suspend audio and resume the transport",
+        "Rapid wing changes discard stale downloads and leave one score and one ambient loop",
+        "Master mute suspends every bus and clears narration",
+        "Reload retains channel levels and mute without auto-starting sound",
+        "Failed sound download leaves a usable page and explicit retry restores ambience",
+        "Recorded narration produces isolated voice output, freezes at pause, resumes and skips cleanly",
+        "A failed narration segment can be retried and muted without stale speech or captions"
+      ],
+      "errors": [],
+      "requests": [
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-2.mp3",
+        "http://127.0.0.1:43211/assets/audio/travel.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-1.mp3",
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/97534fe75e096913.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/d5eb23e0af58a68d.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/d5eb23e0af58a68d.mp3"
+      ],
+      "final": {
+        "outputRms": 0.1673119834187113,
+        "time": 0.8185034013605442,
+        "voiceActive": false,
+        "unlocked": true,
+        "context": "running",
+        "muted": true,
+        "paused": false,
+        "hidden": false,
+        "levels": {
+          "voice": 1,
+          "music": 0,
+          "ambience": 0,
+          "effects": 0
+        },
+        "voiceBackend": "recorded-kokoro-v1",
+        "voiceMessage": "",
+        "caption": "",
+        "wing": 0,
+        "loops": [
+          "wing-0",
+          "headquarters-score"
+        ],
+        "retiring": 0,
+        "shots": 0,
+        "pending": [],
+        "failures": [],
+        "buffers": [
+          {
+            "id": "wing-0",
+            "duration": 12,
+            "channels": 2,
+            "samples": 529200,
+            "rate": 44100
+          },
+          {
+            "id": "headquarters-score",
+            "duration": 48,
+            "channels": 2,
+            "samples": 2116800,
+            "rate": 44100
+          },
+          {
+            "id": "voice/97534fe75e096913",
+            "duration": 1.4153061224489796,
+            "channels": 1,
+            "samples": 62415,
+            "rate": 44100
+          },
+          {
+            "id": "voice/d5eb23e0af58a68d",
+            "duration": 2.840634920634921,
+            "channels": 1,
+            "samples": 125272,
+            "rate": 44100
+          }
+        ],
+        "gains": {
+          "voice": 0.9999975562095642,
+          "music": 0.000008387575689994264,
+          "ambience": 0.000008527848876838107,
+          "effects": 0.000007568987257400295
+        },
+        "master": 1
+      },
+      "pass": true
+    },
+    {
+      "name": "webkit",
+      "checks": [
+        "Default muted journey creates no audio context and requests no sound assets",
+        "A user gesture starts decoded music and ambience with measurable output",
+        "Keyboard-operated independent sliders isolate channels and preserve effects",
+        "Pause button and Escape both suspend audio and resume the transport",
+        "Rapid wing changes discard stale downloads and leave one score and one ambient loop",
+        "Master mute suspends every bus and clears narration",
+        "Reload retains channel levels and mute without auto-starting sound",
+        "Failed sound download leaves a usable page and explicit retry restores ambience",
+        "Recorded narration produces isolated voice output, freezes at pause, resumes and skips cleanly",
+        "A failed narration segment can be retried and muted without stale speech or captions"
+      ],
+      "errors": [],
+      "requests": [
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-2.mp3",
+        "http://127.0.0.1:43211/assets/audio/travel.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-1.mp3",
+        "http://127.0.0.1:43211/assets/audio/headquarters-score.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/wing-0.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/97534fe75e096913.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/d5eb23e0af58a68d.mp3",
+        "http://127.0.0.1:43211/assets/audio/voice/d5eb23e0af58a68d.mp3"
+      ],
+      "final": {
+        "outputRms": 0,
+        "time": 0.7807709750566894,
+        "voiceActive": false,
+        "unlocked": true,
+        "context": "suspended",
+        "muted": true,
+        "paused": false,
+        "hidden": false,
+        "levels": {
+          "voice": 1,
+          "music": 0,
+          "ambience": 0,
+          "effects": 0
+        },
+        "voiceBackend": "recorded-kokoro-v1",
+        "voiceMessage": "",
+        "caption": "",
+        "wing": 0,
+        "loops": [
+          "headquarters-score",
+          "wing-0"
+        ],
+        "retiring": 0,
+        "shots": 0,
+        "pending": [],
+        "failures": [],
+        "buffers": [
+          {
+            "id": "headquarters-score",
+            "duration": 48,
+            "channels": 2,
+            "samples": 2116800,
+            "rate": 44100
+          },
+          {
+            "id": "wing-0",
+            "duration": 12,
+            "channels": 2,
+            "samples": 529200,
+            "rate": 44100
+          },
+          {
+            "id": "voice/97534fe75e096913",
+            "duration": 1.4639909297052154,
+            "channels": 1,
+            "samples": 64562,
+            "rate": 44100
+          },
+          {
+            "id": "voice/d5eb23e0af58a68d",
+            "duration": 2.9039909297052153,
+            "channels": 1,
+            "samples": 128066,
+            "rate": 44100
+          }
+        ],
+        "gains": {
+          "voice": 0.9904453754425049,
+          "music": 0.001062705647200346,
+          "ambience": 0.0011054094647988677,
+          "effects": 0.0006316609214991331
+        },
+        "master": 1
+      },
+      "pass": true
+    }
+  ]
+}

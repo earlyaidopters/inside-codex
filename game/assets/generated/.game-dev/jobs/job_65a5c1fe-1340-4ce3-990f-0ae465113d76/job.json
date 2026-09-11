@@ -1,0 +1,51 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_65a5c1fe-1340-4ce3-990f-0ae465113d76",
+  "operation": "performance.goal-create",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "performance",
+      "goal-create",
+      "assets/generated/.game-dev/runs/run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "id": "static-exhibit-submissions",
+      "metric": "render.total_draw_calls",
+      "statistic": "max",
+      "unit": "count",
+      "direction": "lower",
+      "target": 180,
+      "maximumIterations": 1,
+      "allowedPaths": [
+        "src/static-parts.ts",
+        "src/permission-exhibit.ts",
+        "src/review-exhibit.ts",
+        "src/steering-exhibit.ts",
+        "src/model-exhibit.ts",
+        "src/context-exhibit.ts",
+        "src/branch-exhibit.ts",
+        "src/harness-exhibit.ts",
+        "src/tool-exhibit.ts",
+        "tests/static-parts",
+        "tools/static-parts"
+      ]
+    }
+  },
+  "attempts": 1,
+  "eventCount": 2,
+  "artifacts": [
+    {
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/static-exhibit-submissions.json",
+      "kind": "optimization_goal"
+    }
+  ],
+  "createdAt": "2026-09-10T17:22:11.853Z",
+  "updatedAt": "2026-09-10T17:22:49.686Z",
+  "startedAt": "2026-09-10T17:22:11.861Z",
+  "completedAt": "2026-09-10T17:22:49.686Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/jobs/job_65a5c1fe-1340-4ce3-990f-0ae465113d76/receipt.json"
+}

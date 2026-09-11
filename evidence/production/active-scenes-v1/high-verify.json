@@ -1,0 +1,637 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "capture.verify",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.run_verification.v1",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a",
+    "manifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a/run.json",
+    "manifestSha256": "5da3d444c4eafbc76aa209aab19cd829b5c0a21fc385d98bf729f099d4fbf25d",
+    "run": {
+      "schema": "game_dev.run.v1",
+      "runId": "run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a",
+      "adapterId": "inside-codex",
+      "adapterVersion": "1.0.0",
+      "adapterManifestSha256": "8b7656cd1da03d16ffed775138279cc0c42a1f541dea98e544a6a3ffb5f2b22f",
+      "scenarioId": "active-scenes",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "startedAt": "2026-09-10T17:09:01.872Z",
+      "completedAt": "2026-09-10T17:11:37.405Z",
+      "durationMs": 155531,
+      "status": "completed",
+      "process": {
+        "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-active-scenes.mjs",
+        "arguments": [
+          "high"
+        ],
+        "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+        "exitCode": 0,
+        "signal": null,
+        "stdoutTruncated": false,
+        "stderrTruncated": false
+      },
+      "captureManifest": "capture.json",
+      "artifacts": [
+        {
+          "path": "adapter.json",
+          "kind": "adapter",
+          "bytes": 4231,
+          "sha256": "117a52fa0dcaf7310004727011fc1e17595cad908cc90e22cf1ef4abca9e45f6"
+        },
+        {
+          "path": "after-mission-1.png",
+          "kind": "capture_color",
+          "bytes": 1398987,
+          "sha256": "b49046cdb30bc9c6a5dbb40df60a66d35bcf1701e3b949144bce915656bd5bdc"
+        },
+        {
+          "path": "after-mission-10.png",
+          "kind": "capture_color",
+          "bytes": 1338721,
+          "sha256": "3894df76e12852feebbcd10f7c7e02a7f2cdf58e874eba623fbf210045055152"
+        },
+        {
+          "path": "after-mission-11.png",
+          "kind": "capture_color",
+          "bytes": 1288762,
+          "sha256": "18a18943aa90b4d65c8ec0cae0b54212e38d0b230ad5337593530d4007e86fc7"
+        },
+        {
+          "path": "after-mission-12.png",
+          "kind": "capture_color",
+          "bytes": 1930433,
+          "sha256": "b2cf56cc458550a2c1d9604f104393a31ccc0bef08bff7dd630e9e6f9318cd73"
+        },
+        {
+          "path": "after-mission-2.png",
+          "kind": "capture_color",
+          "bytes": 1427415,
+          "sha256": "e7930b7c208985601c96385ff5ef6bd4b62986cec5348b2ed95b2946ee8e70ed"
+        },
+        {
+          "path": "after-mission-3.png",
+          "kind": "capture_color",
+          "bytes": 1365847,
+          "sha256": "6df0dbea0198897b1fba77fa0764ed6a0c432224203d7d57fee0c7108a1e2ced"
+        },
+        {
+          "path": "after-mission-4.png",
+          "kind": "capture_color",
+          "bytes": 1289681,
+          "sha256": "a20bcc2106c06a9df89f466d2c7ec086c75d7ff4d15a25a5cc40875c5a9ae2a1"
+        },
+        {
+          "path": "after-mission-5.png",
+          "kind": "capture_color",
+          "bytes": 1275257,
+          "sha256": "32c86f56c6fa50a5f8f8b5394a5730c15d0ebd0a6cbcad21ffc5254132119cd4"
+        },
+        {
+          "path": "after-mission-6.png",
+          "kind": "capture_color",
+          "bytes": 1438548,
+          "sha256": "b99451cd8133802b3fa662fbc5e3227f9c14bf0b1478b68335179df0cf92f88b"
+        },
+        {
+          "path": "after-mission-7.png",
+          "kind": "capture_color",
+          "bytes": 1336713,
+          "sha256": "d9f100a7ef34fcaea54bbc4363c0ab8e8b40dd6f4d1ddaee18fed80da43e6073"
+        },
+        {
+          "path": "after-mission-8.png",
+          "kind": "capture_color",
+          "bytes": 1245353,
+          "sha256": "e24972699c03a062251c5173ac66d0e99522b4577e503e6011f634ce3ac08c03"
+        },
+        {
+          "path": "after-mission-9.png",
+          "kind": "capture_color",
+          "bytes": 1251571,
+          "sha256": "e8e2ea3e11d2a119b0079bde092ec2001df677b0c5fbe160318a2156a27bb320"
+        },
+        {
+          "path": "arrival-desktop.png",
+          "kind": "capture_color",
+          "bytes": 2582811,
+          "sha256": "9317691ffb6e3851fcea11a2c25348e9ef2f212983e54f7f73b110a31ba935ef"
+        },
+        {
+          "path": "assembled-harness.png",
+          "kind": "capture_color",
+          "bytes": 1158052,
+          "sha256": "f521f6d9316d83514dea78180a744afa94be9d55232196cace6a2346bf564dfc"
+        },
+        {
+          "path": "automation-finding.png",
+          "kind": "capture_color",
+          "bytes": 1334103,
+          "sha256": "90e754a4482694084eb8682a38238e5bd5ed5cd9c3af12c76ce31f254e7d0a93"
+        },
+        {
+          "path": "automation-host-off.png",
+          "kind": "capture_color",
+          "bytes": 1328964,
+          "sha256": "da4993f4b1ecc40cf8e3aaa82c8ab52e3103ec30311307a855ff5da55f34af28"
+        },
+        {
+          "path": "automation-quiet.png",
+          "kind": "capture_color",
+          "bytes": 1327399,
+          "sha256": "34753ff032a4e5a348b89abfd97cb71eaa8370a7c77ba593a8dff358393ceb26"
+        },
+        {
+          "path": "automation-read-failure.png",
+          "kind": "capture_color",
+          "bytes": 1329247,
+          "sha256": "130a4c27a3f0ae05ec965292097ced6d808ecf682b9944f2b32e1806873531f3"
+        },
+        {
+          "path": "automation-tested.png",
+          "kind": "capture_color",
+          "bytes": 1386041,
+          "sha256": "83110eebf5e8d68ed3d69680dbd5bccfac905d4f51eec5c1981535c736f7f340"
+        },
+        {
+          "path": "automation-verified.png",
+          "kind": "capture_color",
+          "bytes": 1354128,
+          "sha256": "aa5e12d8fe807b9c430f78979c55f9ae6cbdfdd16b970d04bb6ac43819ddeab4"
+        },
+        {
+          "path": "automation-weekend.png",
+          "kind": "capture_color",
+          "bytes": 1337356,
+          "sha256": "a636e8d53aed9475615212a4c964479cf351c60a012f580b9e9992261e490c30"
+        },
+        {
+          "path": "browser-lab-repaired.png",
+          "kind": "capture_color",
+          "bytes": 1224167,
+          "sha256": "0da3b57d793b9b6f3c9287f0ed0840313403ffd425b2972d93c1b3b93f7da362"
+        },
+        {
+          "path": "capture.json",
+          "kind": "capture_manifest",
+          "bytes": 178309,
+          "sha256": "a9d7bd53b9d71b206939f0821415c8b08849d7c9350fe0a524c8626be97a08de"
+        },
+        {
+          "path": "cedar-definition.png",
+          "kind": "capture_color",
+          "bytes": 1325163,
+          "sha256": "a3c14bc683446a240ae125d5a8efd99b52ca33e7ed9a840c33283bb5b1ff0147"
+        },
+        {
+          "path": "cedar-first-checked.png",
+          "kind": "capture_color",
+          "bytes": 1281938,
+          "sha256": "ccd5cfa9bfa60c493e0f18d3f8caa3e84cb57b049737cf8b87a32bb808363958"
+        },
+        {
+          "path": "cedar-mismatch.png",
+          "kind": "capture_color",
+          "bytes": 1278228,
+          "sha256": "775046759781a4d6141b466951c7d738818e549e3fa5cc148ac5dd2de12948a2"
+        },
+        {
+          "path": "cedar-next-checked.png",
+          "kind": "capture_color",
+          "bytes": 1278452,
+          "sha256": "5fef4da18da23527da8af7f17ac91e6cabb4ad810b0d779040ad3d2f7b820d40"
+        },
+        {
+          "path": "cedar-procedure.png",
+          "kind": "capture_color",
+          "bytes": 1303835,
+          "sha256": "79781051e1f6cb90b8da94f2a364688dabff17e23e2065a2d37aa6da5c9a37d8"
+        },
+        {
+          "path": "cedar-rehearsal.png",
+          "kind": "capture_color",
+          "bytes": 1280157,
+          "sha256": "a0505c4860dcfedce8a6fcdcd9e6a064dddd02c1862600189c421930e98351d0"
+        },
+        {
+          "path": "cedar-submitted.png",
+          "kind": "capture_color",
+          "bytes": 1307638,
+          "sha256": "7bf650077e2e69433033230dffa7203d4e1e2906c0b51cbcf3a1ba2be21881b5"
+        },
+        {
+          "path": "context-prose-failure.png",
+          "kind": "capture_color",
+          "bytes": 1410080,
+          "sha256": "8568a041fe4853a4fc23c37038709e10bfd1c23eb8f788beabc3942ee3ae9dd9"
+        },
+        {
+          "path": "context-stale-owner.png",
+          "kind": "capture_color",
+          "bytes": 1402901,
+          "sha256": "d5d1ba5335e9d8ebd16bc31a04657fa20a46ae98e70604d918ef90474fcd5d12"
+        },
+        {
+          "path": "context-verified.png",
+          "kind": "capture_color",
+          "bytes": 1391546,
+          "sha256": "3da70f268cccb38e71f15fa0acd67d6d26dbc4eb6e5fdbfa17129a8876ccd4c2"
+        },
+        {
+          "path": "control-empty-answer.png",
+          "kind": "capture_color",
+          "bytes": 1156006,
+          "sha256": "e57ca5216ce0d0e1aa58edba7d13e2d941f911c7362e9c5e7be572cf7e750ffa"
+        },
+        {
+          "path": "handoff-delivered-fails.png",
+          "kind": "capture_color",
+          "bytes": 1269415,
+          "sha256": "acb05a3a5348c50d16c4ce1bc35dbb087659eb98bc770af7de0ac8de69de43c7"
+        },
+        {
+          "path": "handoff-evidence.png",
+          "kind": "capture_color",
+          "bytes": 1324688,
+          "sha256": "663fdebbf6b1da6ac03597ee293afe5b3f7405bd618fc250d0b2701c4277c4d1"
+        },
+        {
+          "path": "handoff-local-passes.png",
+          "kind": "capture_color",
+          "bytes": 1269037,
+          "sha256": "1a8b2884585ba80b2a635fcf3ac7fe386dc67d15576d10b6c00fc5cbae9e86b6"
+        },
+        {
+          "path": "handoff-preserved.png",
+          "kind": "capture_color",
+          "bytes": 1282754,
+          "sha256": "21738a084db4567c37185657586ef5ce1a9bde065a92067115f490f0a2f6ec49"
+        },
+        {
+          "path": "handoff-recovered.png",
+          "kind": "capture_color",
+          "bytes": 1281249,
+          "sha256": "dc2064edca0b9665aabad248243a7beeae2cb4c6fa4ffe25c373c90df03c0b9a"
+        },
+        {
+          "path": "handoff-verified.png",
+          "kind": "capture_color",
+          "bytes": 1274851,
+          "sha256": "b8adc1440973ae456d6b893ee17866a93568809da990c0b14f17d960e38db237"
+        },
+        {
+          "path": "journey.log",
+          "kind": "other",
+          "bytes": 2915,
+          "sha256": "84257779749add5dc10ee35c440229dd077e4c466da989528b45fb4691f69a83"
+        },
+        {
+          "path": "mission-1-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1160484,
+          "sha256": "b1357eedeb73aa525c9296fc9b611aae7bad4069d76855070f5634c07d3d343b"
+        },
+        {
+          "path": "mission-1-step-2-success.png",
+          "kind": "capture_color",
+          "bytes": 1166551,
+          "sha256": "d1bf9279dc0ae6c3bf740ce561448a5848c4e0e5dcb4569cdbdc619012ce934b"
+        },
+        {
+          "path": "mission-10-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1234993,
+          "sha256": "56ffb54b7d2f0d204e833f2578dddf88e2659937500e177059b91f01b029a4f1"
+        },
+        {
+          "path": "mission-10-step-2-success.png",
+          "kind": "capture_color",
+          "bytes": 1229770,
+          "sha256": "d7359e1bbd4f594ae409feb15313cec88169c7e4f91093ffba522fc3fbfb7319"
+        },
+        {
+          "path": "mission-11-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1294985,
+          "sha256": "02989eb730ffd664af53d2e1023cf1835e2309e5885425608a1e4c7f9e1d5572"
+        },
+        {
+          "path": "mission-12-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1295622,
+          "sha256": "21655171d3e5ab54e17710ffd370f3391624e87062566d2618129c21e185c1cf"
+        },
+        {
+          "path": "mission-2-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1386782,
+          "sha256": "eab8b7e4cf53ec78baf98fddc147c3b9cf82ad291f8e9ab806de89cb86f49873"
+        },
+        {
+          "path": "mission-2-step-2-success.png",
+          "kind": "capture_color",
+          "bytes": 1361764,
+          "sha256": "272f4b9c04eb57c39d4f636465e75d43efb024d06bd4070a089eae910c4aea99"
+        },
+        {
+          "path": "mission-3-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1420250,
+          "sha256": "2a093a3197c39c93c9f2a0698d768b2ec137069757de0b394ace84e9ee584e1b"
+        },
+        {
+          "path": "mission-4-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1356232,
+          "sha256": "b16c9f728cc7fc9dcad1897df25dab519233eadece6c197cdfab875303fcbec7"
+        },
+        {
+          "path": "mission-5-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1305977,
+          "sha256": "6960e556364ff534eeded8a7f8ebaa8461b3a33fffe1effcc1877406428ff278"
+        },
+        {
+          "path": "mission-5-step-2-success.png",
+          "kind": "capture_color",
+          "bytes": 1266147,
+          "sha256": "dafa4e584222d4facd0c7d013d41a150cff46d8aa3e6f944e401062ff6be4f5c"
+        },
+        {
+          "path": "mission-6-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1298815,
+          "sha256": "b1a6da037ea5521097708853d3051d5855b839dca6be922203ae281b32457202"
+        },
+        {
+          "path": "mission-6-step-2-success.png",
+          "kind": "capture_color",
+          "bytes": 1339782,
+          "sha256": "765647011570dcccbf58b52d2327475a2beac7318b6bc2959f9a6560fd1cc207"
+        },
+        {
+          "path": "mission-7-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1423375,
+          "sha256": "6e900b5ee2095d019ce2f871b63483193cdb4e536909c63f53949b4ca95a8db7"
+        },
+        {
+          "path": "mission-8-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1328103,
+          "sha256": "19ffc7ab875ee5fe05993e643f3d831e76c144fd25a5e1d182242c6461b5e526"
+        },
+        {
+          "path": "mission-9-step-1-success.png",
+          "kind": "capture_color",
+          "bytes": 1228986,
+          "sha256": "dc18d0fc2d7a02c559f7f127cfe840e74342e20308dc797c5cf1168a6308a362"
+        },
+        {
+          "path": "mission-desktop.png",
+          "kind": "capture_color",
+          "bytes": 1166879,
+          "sha256": "fd9b18d2ed101784b3f4e914f229ea2d5175daef699cf00e6717358fafde19b1"
+        },
+        {
+          "path": "mission-portrait.png",
+          "kind": "capture_color",
+          "bytes": 438907,
+          "sha256": "4d1807b9b410d848cbee458bf3e42b3c802fd53c3e92aa6dc4237ca008bc6f51"
+        },
+        {
+          "path": "models-access-blocked.png",
+          "kind": "capture_color",
+          "bytes": 1441890,
+          "sha256": "0c337dd09e7d4b46c9f6b65e7bacad68d1bc69e1178a7681779efe2bff0fff25"
+        },
+        {
+          "path": "models-billing-failed.png",
+          "kind": "capture_color",
+          "bytes": 1428725,
+          "sha256": "1d17be4649fc32319f96a6200bf0c8b56be3a4d35a4af9b2b6f339db0f1f3f48"
+        },
+        {
+          "path": "models-billing-verified.png",
+          "kind": "capture_color",
+          "bytes": 1415158,
+          "sha256": "321281e7fc60505f9d1b7f75972377b5a9741e58d6ec0b2f4e0f5e6f25b277d6"
+        },
+        {
+          "path": "models-label-compared.png",
+          "kind": "capture_color",
+          "bytes": 1421819,
+          "sha256": "fd3db136ae10468ec3c07c7ecf6965b340ae39268f5f7d25fafe94fa8a6d3c70"
+        },
+        {
+          "path": "models-three-routes.png",
+          "kind": "capture_color",
+          "bytes": 1417307,
+          "sha256": "b9caeb69922425fb73edb0dd541c64fb167dabf622ba251e6f83ec9bbbae6e93"
+        },
+        {
+          "path": "my-codex-starter.zip",
+          "kind": "other",
+          "bytes": 83180,
+          "sha256": "fa8e581bb57e6a492b634ad2d9d344ed49233737bd4923b60b371f2003b4777c"
+        },
+        {
+          "path": "my-codex-toolkit.md",
+          "kind": "other",
+          "bytes": 5200,
+          "sha256": "8423ecd2d1bc1c7ea09a1deea155281bb45b4dd662e9d23b97d73a16baeb7f60"
+        },
+        {
+          "path": "permission-connector-denied.png",
+          "kind": "capture_color",
+          "bytes": 1338389,
+          "sha256": "252114e7c8a4ec8e08f2fb6009dedbedd7a43916705e864a6bb5d03daa05da3b"
+        },
+        {
+          "path": "permission-read-denied.png",
+          "kind": "capture_color",
+          "bytes": 1331963,
+          "sha256": "71c66358b6d65c777ef6506b30ba698cc191a59b5039940f713962746426ff43"
+        },
+        {
+          "path": "permission-request.png",
+          "kind": "capture_color",
+          "bytes": 1333210,
+          "sha256": "1b71986001d8e8b45d68461b6dffea4b16827e03bc1aede30f586f89a2e85d83"
+        },
+        {
+          "path": "permission-send-boundary.png",
+          "kind": "capture_color",
+          "bytes": 1349155,
+          "sha256": "65dec3eafbe247c22e1db34a8f97da940355e466bf8c1ee016d8df8a347353d5"
+        },
+        {
+          "path": "permission-verified.png",
+          "kind": "capture_color",
+          "bytes": 1364000,
+          "sha256": "feff78a901b2f4675c180560a1582df1d7b22fb1bb3f9d79551a38d34a6a4086"
+        },
+        {
+          "path": "plan.json",
+          "kind": "plan",
+          "bytes": 1727,
+          "sha256": "4a41e7acc241c2f43161ab2e5b326c1106720ec18eef60f5f28aa66f0d250f1b"
+        },
+        {
+          "path": "profile.json",
+          "kind": "capture_semantic",
+          "bytes": 97980,
+          "sha256": "eb63e1e38f60278e1cbb0dd108cc3eec8471bcf9ffc900dffb42b68d7d95c989"
+        },
+        {
+          "path": "report.json",
+          "kind": "capture_semantic",
+          "bytes": 186934,
+          "sha256": "afa5f1a1bcfa48a6420a94c537f7ae771cc78bb7086d2e37f8c29e7e99fc9b30"
+        },
+        {
+          "path": "request.json",
+          "kind": "request",
+          "bytes": 24,
+          "sha256": "3a84440c049ee12548f465aeccd0bcf86c45f06a159479b1b304dbe0dcd26404"
+        },
+        {
+          "path": "review-narrow-pass.png",
+          "kind": "capture_color",
+          "bytes": 1341941,
+          "sha256": "f4e10b7fd62823601bb17492fefb69d9e40f303b059fdd563a5fa9f491db0a65"
+        },
+        {
+          "path": "review-partial-repair.png",
+          "kind": "capture_color",
+          "bytes": 1325545,
+          "sha256": "36c9dd722b6ca755419a147aff198276a9bb44d8ea46666426b5a13ef9f91e86"
+        },
+        {
+          "path": "review-regressions.png",
+          "kind": "capture_color",
+          "bytes": 1327131,
+          "sha256": "fe9d2756fe7618e07c8a2eff060f79219ccc213e17ac8c1040c7d63a695ce233"
+        },
+        {
+          "path": "review-verified.png",
+          "kind": "capture_color",
+          "bytes": 1310627,
+          "sha256": "60f4dd449e239470eb846072e58f9017c2e1433f1da475f356c2f359c504f9aa"
+        },
+        {
+          "path": "scene-audit.json",
+          "kind": "capture_semantic",
+          "bytes": 4152190,
+          "sha256": "baa332a282d54c3a7ddae83192d1290117e41e3139f8ac399c2f5c9f25fb566f"
+        },
+        {
+          "path": "shared-checkout-overwrite.png",
+          "kind": "capture_color",
+          "bytes": 1303380,
+          "sha256": "1650a95f3ce85051eb6ae58036480f5c731597b3b7ebe2eae0fcadca54f6b54d"
+        },
+        {
+          "path": "stderr.log",
+          "kind": "stderr",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "stdout.log",
+          "kind": "stdout",
+          "bytes": 166,
+          "sha256": "3d6c938d8a78cf8f9f44c30094863e63cfc5c68fc216afbba6646ddbf4382533"
+        },
+        {
+          "path": "steering-checklist-finished.png",
+          "kind": "capture_color",
+          "bytes": 1421120,
+          "sha256": "f8923d370494b1d3a4796312dc3e2111c3e087dff7f1bf57c3af544ff5cafc38"
+        },
+        {
+          "path": "steering-pending.png",
+          "kind": "capture_color",
+          "bytes": 1425123,
+          "sha256": "debe028758e2a2ca6a46e5ad28e9ee93f2a0bd09a813bbb734e876cd55130958"
+        },
+        {
+          "path": "steering-status.png",
+          "kind": "capture_color",
+          "bytes": 1436623,
+          "sha256": "74fec5550d73089235f04321a5f87c9fa575759e437fe4b438005dcda0b44a9b"
+        },
+        {
+          "path": "steering-verified.png",
+          "kind": "capture_color",
+          "bytes": 1404191,
+          "sha256": "cb065586d93f7ec62a9cff5375650bb6ad1461a13701f54eaecad06f69bede73"
+        },
+        {
+          "path": "task-created.png",
+          "kind": "capture_color",
+          "bytes": 1300071,
+          "sha256": "75bf2d85b6908dcc622b5f722773c6c3aa70f287aad75cf5c7b21722945a0e03"
+        },
+        {
+          "path": "tools-first-client.png",
+          "kind": "capture_color",
+          "bytes": 1250295,
+          "sha256": "e3108596c9066006e170ee5ed4ecf510887f8dd27aebde8d291bc0625415f1ab"
+        },
+        {
+          "path": "tools-instructions.png",
+          "kind": "capture_color",
+          "bytes": 1252696,
+          "sha256": "20ae05f3e7e720cbcae7d896303b14006df155f03019fda686480b3dabe33d82"
+        },
+        {
+          "path": "tools-mismatch.png",
+          "kind": "capture_color",
+          "bytes": 1244914,
+          "sha256": "7945be25dffe9b6131ef0759c791a4af1db5cc183bf44af09cd0497a0731f831"
+        },
+        {
+          "path": "tools-package.png",
+          "kind": "capture_color",
+          "bytes": 1240378,
+          "sha256": "3cf8f308fbb8799382650cab36c0993e0a84a775f2ada801aeb3269592bf0d20"
+        },
+        {
+          "path": "tools-verified.png",
+          "kind": "capture_color",
+          "bytes": 1242099,
+          "sha256": "0ffdb5b6c54f35f4cadaa5c4a22b8f9f126c019ef3c3e66f9922429368aea789"
+        },
+        {
+          "path": "tour-complete.png",
+          "kind": "capture_color",
+          "bytes": 1930882,
+          "sha256": "8054cae5fecc60a793e4014734fbc709ae2f84ed5e00ebffc9d4060c0549c096"
+        },
+        {
+          "path": "worktrees-verified.png",
+          "kind": "capture_color",
+          "bytes": 1316109,
+          "sha256": "f44af4d05981999ce6068aab311c1d0d731c3803b0ec65b57535d0e806174eba"
+        }
+      ],
+      "evidence": {
+        "commandExecuted": true,
+        "processExitedSuccessfully": true,
+        "artifactRosterClosedAndHashed": true,
+        "captureContractValidated": true,
+        "rasterBytesDecoded": true,
+        "adapterReportedGpuExecution": false,
+        "adapterReportedGpuCompletionIdentity": false,
+        "adapterReportedHardwarePerformance": false,
+        "hardwareGpuExecutionProvenByHarnessAlone": false,
+        "hardwarePerformanceEvidenceAdmitted": false,
+        "hardwarePerformanceMeasuredByHarnessAlone": false,
+        "humanVisualReviewPerformed": false,
+        "evidenceCeiling": "The harness proves process status, schema validation, decoded raster bytes, and a closed SHA-256 artifact roster. GPU completion and hardware timing remain source-adapter claims unless separately joined to native evidence; no human visual review is inferred."
+      }
+    },
+    "hashesVerified": true,
+    "closedArtifactRosterVerified": true
+  }
+}

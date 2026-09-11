@@ -1,0 +1,396 @@
+{
+  "pass": true,
+  "method": "Reorder triangle/vertex storage for transmission, then Meshopt encode without new quantization or simplification. All oriented triangle corner attribute bytes compared as multisets.",
+  "source": {
+    "path": "../evidence/production/startup-v1/baseline/architecture.glb",
+    "bytes": 6343808,
+    "sha256": "e782ae48b56718d4a2c838ee60f2f6a745f62126ace0af8a0ca1b3dc794850fb"
+  },
+  "output": {
+    "path": "../evidence/production/startup-v1/architecture-meshopt-v2.glb",
+    "bytes": 3814292,
+    "sha256": "8a636bf5c3e18629f0026646564cc521adedc6fabf5e912fa21877ae66a37b7b"
+  },
+  "triangles": 223458,
+  "primitives": [
+    {
+      "mesh": "Cube.036",
+      "primitive": 0,
+      "triangles": 188,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 1,
+      "triangles": 6120,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 2,
+      "triangles": 6120,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 3,
+      "triangles": 10152,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.036",
+      "primitive": 4,
+      "triangles": 12,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube",
+      "primitive": 0,
+      "triangles": 188,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube",
+      "primitive": 1,
+      "triangles": 1720,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Inset ribbons and indices",
+      "primitive": 0,
+      "triangles": 62,
+      "attributes": [
+        "TEXCOORD_0",
+        "POSITION",
+        "NORMAL"
+      ]
+    },
+    {
+      "mesh": "Inset ribbons and indices",
+      "primitive": 1,
+      "triangles": 864,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 0,
+      "triangles": 14340,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 1,
+      "triangles": 14496,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 2,
+      "triangles": 15784,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 3,
+      "triangles": 28164,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 4,
+      "triangles": 12240,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 5,
+      "triangles": 18432,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 6,
+      "triangles": 2008,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 7,
+      "triangles": 752,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 8,
+      "triangles": 2040,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.268",
+      "primitive": 9,
+      "triangles": 6048,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 0,
+      "triangles": 29696,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 1,
+      "triangles": 34724,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 2,
+      "triangles": 18744,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 3,
+      "triangles": 376,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    },
+    {
+      "mesh": "Cube.032",
+      "primitive": 4,
+      "triangles": 188,
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "floor-albedo",
+      "mime": "image/jpeg",
+      "sha256": "932bc20e044749d238652e9ad4a400c28e4b1df5138bcd2efba22ba943c8fa5b"
+    },
+    {
+      "name": "furnishings-albedo",
+      "mime": "image/jpeg",
+      "sha256": "ade374d8612fd0b5410e13536fa4ecc81648bb1d969fc89355e294ec41697862"
+    },
+    {
+      "name": "shell-albedo",
+      "mime": "image/jpeg",
+      "sha256": "62d7025984530cb0998a53882270bb2c2aec27cf20c06dd12e6f404a3202f156"
+    }
+  ],
+  "decodedKhronos": {
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-09-10T10:23:04.717Z",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 7,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/2/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/3/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/4/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/2/primitives/1/attributes/TEXCOORD_0"
+        }
+      ],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "glTF-Transform v4.4.2",
+      "extensionsUsed": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_emissive_strength",
+        "KHR_mesh_quantization"
+      ],
+      "extensionsRequired": [
+        "KHR_mesh_quantization"
+      ],
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 6322272
+        },
+        {
+          "pointer": "/images/0",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/1",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/2",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "bits": 8
+          }
+        }
+      ],
+      "animationCount": 0,
+      "materialCount": 24,
+      "hasMorphTargets": false,
+      "hasSkins": false,
+      "hasTextures": true,
+      "hasDefaultScene": true,
+      "drawCallCount": 24,
+      "totalVertexCount": 163373,
+      "totalTriangleCount": 223458,
+      "maxUVs": 1,
+      "maxInfluences": 0,
+      "maxAttributes": 3
+    }
+  },
+  "scope": "All referenced vertex attribute bytes, node transforms/hierarchy, materials and image bytes retained. Every oriented triangle is equal after decoding; optional reordering changes storage order only. Does not by itself establish browser decoder compatibility."
+}

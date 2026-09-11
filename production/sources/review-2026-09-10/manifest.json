@@ -1,0 +1,16 @@
+{
+  "verifiedAt": "2026-09-10T07:10:24.316577+00:00",
+  "sources": [
+    {
+      "url": "https://learn.chatgpt.com/docs/code-review",
+      "file": "code-review.md",
+      "sha256": "eab97281e02140eea76cb67aa81c23d34dee30cdf14605aa2d1c23dd020c2968",
+      "claims": [
+        "Review scope follows repository changes.",
+        "Review findings do not apply repairs.",
+        "Line feedback plus explicit follow-up can guide focused repairs.",
+        "Staging and reverting are separate repository actions."
+      ]
+    }
+  ]
+}

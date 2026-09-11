@@ -1,0 +1,161 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "engine": "chrome",
+      "name": "unattempted",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "pass": true,
+      "stat": "—\nhandoff not started",
+      "downloadDetail": "Independent handoff not started.",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "name": "in-progress",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "pass": true,
+      "stat": "—\nhandoff in progress",
+      "downloadDetail": "no submission yet",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "name": "earlier",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "pass": true,
+      "stat": "—\nhandoff not started",
+      "downloadDetail": "Earlier choice exercise: 2/5 checks",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "name": "submitted",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "pass": true,
+      "stat": "0/5\nfirst-submission dimensions",
+      "downloadDetail": "0/5 dimensions passed at the first Cedar handoff submission",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "name": "unattempted",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "stat": "—\nhandoff not started",
+      "downloadDetail": "Independent handoff not started.",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "name": "in-progress",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "stat": "—\nhandoff in progress",
+      "downloadDetail": "no submission yet",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "name": "earlier",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "stat": "—\nhandoff not started",
+      "downloadDetail": "Earlier choice exercise: 2/5 checks",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "name": "submitted",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "stat": "0/5\nfirst-submission dimensions",
+      "downloadDetail": "0/5 dimensions passed at the first Cedar handoff submission",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "name": "unattempted",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "stat": "—\nhandoff not started",
+      "downloadDetail": "Independent handoff not started.",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "name": "in-progress",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "stat": "—\nhandoff in progress",
+      "downloadDetail": "no submission yet",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "name": "earlier",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "stat": "—\nhandoff not started",
+      "downloadDetail": "Earlier choice exercise: 2/5 checks",
+      "replayContinues": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "name": "submitted",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "stat": "0/5\nfirst-submission dimensions",
+      "downloadDetail": "0/5 dimensions passed at the first Cedar handoff submission",
+      "replayContinues": true,
+      "errors": []
+    }
+  ]
+}

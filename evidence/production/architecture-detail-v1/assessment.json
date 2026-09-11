@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-10T15:40:08.485Z",
+  "pass": true,
+  "buildId": "c4bf842f944ba959f54988aaf3897441099af63896bcd6637fbba28ef850ce2d",
+  "goalStatus": "met",
+  "baseline": {
+    "runId": "run_1789053170347_b49660160e8a4c55a2b1ac622f0fe2d4",
+    "triangles": 295364
+  },
+  "candidate": {
+    "runId": "run_1789054603250_77fa4066155b4b6db121cad5a02b2c58",
+    "medianMs": 16.69999999999709,
+    "p95Ms": 16.70000000001164,
+    "p99Ms": 16.80000000000291,
+    "maxMs": 16.80000000000291,
+    "intervalsOver100ms": 0,
+    "maxActiveTriangles": 206848,
+    "maxMainDrawCalls": 139,
+    "maxTotalDrawCalls": 188,
+    "maxTextureEstimateBytes": 127126103.19999999,
+    "heldRenderFrames": 0,
+    "maxViewHoldMs": 0,
+    "totalViewHoldMs": 0
+  },
+  "startup": {
+    "runId": "run_1789054741003_cde3e737967a4d2f8e7fdacfcb01db6d",
+    "bytes": 6724965,
+    "readyMs": 4387.5,
+    "profile": {
+      "downloadBitsPerSecond": 25000000,
+      "latencyMs": 50,
+      "revision": 2,
+      "scope": "Shared FIFO downstream scheduler including HTTP headers and empty cache-validation responses for all page and worker HTTP responses; 16 KiB chunks; response bodies and HTTP headers counted; request/TCP/TLS bytes excluded; original Vite encodings preserved",
+      "upstream": "http://127.0.0.1:43211",
+      "browserCache": "Fresh process; page cache disabled/cleared; worker within-startup cache behavior recorded by server ledger",
+      "server": "Proxy over local Vite built preview; exact response encodings recorded",
+      "nativeDriverCache": "Not controlled",
+      "cpuThrottle": 1
+    }
+  },
+  "geometry": {
+    "before": 223458,
+    "balanced": 134942,
+    "optionalBytes": 517622
+  },
+  "checks": {
+    "unit": 76,
+    "journey": 37,
+    "browserCases": 7,
+    "highPixelIdenticalViews": 5,
+    "balancedComparedViews": 5,
+    "balancedContextRestored": true,
+    "internalBrowser": "Task studio inspected; High/Balanced switched; saved Balanced/mute retained, paused."
+  },
+  "visual": [
+    {
+      "quality": "high",
+      "name": "arrival",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true
+    },
+    {
+      "quality": "high",
+      "name": "control",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true
+    },
+    {
+      "quality": "high",
+      "name": "tasks",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true
+    },
+    {
+      "quality": "high",
+      "name": "tools",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true
+    },
+    {
+      "quality": "high",
+      "name": "handoff",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true
+    },
+    {
+      "quality": "balanced",
+      "name": "arrival",
+      "mean": 0.012737979503382346,
+      "rms": 0.39814591867863836,
+      "max": 73,
+      "identical": false
+    },
+    {
+      "quality": "balanced",
+      "name": "control",
+      "mean": 0.022973629845667764,
+      "rms": 0.6098926565698041,
+      "max": 87,
+      "identical": false
+    },
+    {
+      "quality": "balanced",
+      "name": "tasks",
+      "mean": 0.04037423542755296,
+      "rms": 0.8115713297370132,
+      "max": 84,
+      "identical": false
+    },
+    {
+      "quality": "balanced",
+      "name": "tools",
+      "mean": 0.032070776116984646,
+      "rms": 0.6679184914285016,
+      "max": 81,
+      "identical": false
+    },
+    {
+      "quality": "balanced",
+      "name": "handoff",
+      "mean": 0.026457244703690198,
+      "rms": 0.6016788666568236,
+      "max": 64,
+      "identical": false
+    }
+  ],
+  "fullReleaseAccepted": false,
+  "limits": [
+    "One comparable 90-second traversal and one synthetic startup; not a repeat study or real-device/hosted test.",
+    "High geometry and five fixed views unchanged; Balanced topology is lossy and inspected only within stated views.",
+    "Draw budgets remain open: this change reduces submitted triangles, not draw calls.",
+    "Native GPU time/VRAM, broad art/camera/audio/accessibility/device/human review and remaining release gates are unverified."
+  ]
+}

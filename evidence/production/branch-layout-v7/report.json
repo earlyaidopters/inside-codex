@@ -1,0 +1,33 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "keyboardFocus": true,
+      "scrollPreserved": true,
+      "isolated3D": true,
+      "verifiedArtifact": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "keyboardFocus": true,
+      "scrollPreserved": true,
+      "isolated3D": true,
+      "verifiedArtifact": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "keyboardFocus": true,
+      "scrollPreserved": true,
+      "isolated3D": true,
+      "verifiedArtifact": true
+    }
+  ],
+  "errors": []
+}

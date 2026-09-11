@@ -1,0 +1,52 @@
+[
+  {
+    "file": "candidate-balanced-handoff.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-high-control.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-high-arrival.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-high-tasks.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-high-tools.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-high-handoff.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-balanced-tasks.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-balanced-arrival.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-balanced-tools.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  },
+  {
+    "file": "candidate-balanced-control.png",
+    "meanAbsoluteDifference": 0.0,
+    "changedBounds": null
+  }
+]

@@ -1,0 +1,19 @@
+I want to build a small browser-playable 3D learning experience.
+
+Topic: [what I want to learn or teach]
+Learner: [who this is for and what they already know]
+Outcome: [one specific thing they should be able to do afterward]
+Sources: [reliable documents, diagrams, references or datasets]
+Visual references: [the style and examples I like]
+Available time and usage: [my practical limits]
+Devices: [where people should be able to use it]
+
+Use the attached original game plan as a structural reference. Reduce its scope to ONE complete room and ONE useful lesson for this first build. Do not copy its twelve-mission scope by default.
+
+Inspect the tools actually available in this environment. Verify Blender setup with a small create, export and browser-import test. Explain any missing tools before depending on them. Do not start paid asset-generation jobs without my approval.
+
+First propose a concrete plan: learner goal, player action, visible consequence, hints/retry, takeaway, art direction, asset workflow, technical structure, saved progress, realistic device targets, acceptance checks, and hosting. Ground teaching claims in the sources; identify missing or disputed facts. Do not invent subject expertise or hide simulated behavior.
+
+After I accept the plan, build the complete small lesson. Inspect actual browser output as you work. Test correct and wrong paths, hints, retry, refresh, keyboard controls and the full learner route. Fix observed defects and report what you verified and what remains uncertain. Keep source assets editable and preserve a recoverable version before major changes.
+
+Only expand after the first lesson works and meets the agreed visual direction. When ready to share, help me publish the production output with here.now and verify the resulting live link.

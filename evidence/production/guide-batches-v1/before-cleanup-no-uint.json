@@ -1,0 +1,2282 @@
+{
+  "pass": true,
+  "world": {
+    "qualityAdvice": {
+      "quality": "high",
+      "status": "observing",
+      "windows": 0,
+      "lastWindow": null
+    },
+    "presented": {
+      "active": -1,
+      "transition": 0
+    },
+    "residency": {
+      "active": -1,
+      "ready": true,
+      "heldFrames": 0,
+      "holdingSince": null,
+      "events": [
+        {
+          "at": 611.3999999761581,
+          "kind": "load-start",
+          "id": "tool"
+        },
+        {
+          "at": 611.6999999880791,
+          "kind": "load-start",
+          "id": "steering"
+        },
+        {
+          "at": 611.8999999761581,
+          "kind": "load-start",
+          "id": "review"
+        },
+        {
+          "at": 612,
+          "kind": "load-start",
+          "id": "permission"
+        },
+        {
+          "at": 612.0999999940395,
+          "kind": "load-start",
+          "id": "branch"
+        },
+        {
+          "at": 622.5999999940395,
+          "kind": "load-ready",
+          "id": "steering",
+          "durationMs": 10.900000005960464
+        },
+        {
+          "at": 627.5999999940395,
+          "kind": "load-ready",
+          "id": "tool",
+          "durationMs": 16.200000017881393
+        },
+        {
+          "at": 634.8999999761581,
+          "kind": "load-ready",
+          "id": "review",
+          "durationMs": 23
+        },
+        {
+          "at": 645.7999999821186,
+          "kind": "load-ready",
+          "id": "permission",
+          "durationMs": 33.79999998211861
+        },
+        {
+          "at": 648.8999999761581,
+          "kind": "load-ready",
+          "id": "branch",
+          "durationMs": 36.79999998211861
+        }
+      ],
+      "entries": [
+        {
+          "id": "capstone",
+          "station": 11,
+          "enabled": false,
+          "wanted": false,
+          "loaded": false,
+          "factoryCached": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "handoff",
+          "station": 11,
+          "enabled": true,
+          "wanted": false,
+          "loaded": false,
+          "factoryCached": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "automation",
+          "station": 10,
+          "enabled": true,
+          "wanted": false,
+          "loaded": false,
+          "factoryCached": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "tool",
+          "station": 8,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "factoryCached": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 15,
+            "materials": 13,
+            "textures": 7
+          }
+        },
+        {
+          "id": "steering",
+          "station": 6,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "factoryCached": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 15,
+            "materials": 11,
+            "textures": 6
+          }
+        },
+        {
+          "id": "review",
+          "station": 7,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "factoryCached": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 8,
+            "materials": 8,
+            "textures": 5
+          }
+        },
+        {
+          "id": "permission",
+          "station": 3,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "factoryCached": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 12,
+            "materials": 9,
+            "textures": 3
+          }
+        },
+        {
+          "id": "model",
+          "station": 2,
+          "enabled": true,
+          "wanted": false,
+          "loaded": false,
+          "factoryCached": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "context",
+          "station": 1,
+          "enabled": true,
+          "wanted": false,
+          "loaded": false,
+          "factoryCached": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "branch",
+          "station": 5,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "factoryCached": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 7,
+            "materials": 4,
+            "textures": 2
+          }
+        },
+        {
+          "id": "harness",
+          "station": 0,
+          "enabled": true,
+          "wanted": false,
+          "loaded": false,
+          "factoryCached": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        }
+      ]
+    },
+    "renderAudit": {
+      "lastFrame": {
+        "frameId": 6,
+        "totalDrawCalls": 103,
+        "mainDrawCalls": 63,
+        "otherDrawCalls": 40,
+        "mainSubmittedTriangles": 265886,
+        "allPassSubmittedTriangles": 525278,
+        "cpuSceneMs": 2.5999999940395355
+      },
+      "activeMeshCount": 63,
+      "activeMeshTriangles": 265886,
+      "meshes": [
+        {
+          "id": 23,
+          "name": "Architecture exterior_primitive1",
+          "triangles": 6120,
+          "submeshes": 1
+        },
+        {
+          "id": 26,
+          "name": "Architecture exterior_primitive2",
+          "triangles": 6120,
+          "submeshes": 1
+        },
+        {
+          "id": 29,
+          "name": "Architecture exterior_primitive3",
+          "triangles": 10152,
+          "submeshes": 1
+        },
+        {
+          "id": 32,
+          "name": "Architecture exterior_primitive4",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 36,
+          "name": "Architecture floor_primitive0",
+          "triangles": 188,
+          "submeshes": 1
+        },
+        {
+          "id": 39,
+          "name": "Architecture floor_primitive1",
+          "triangles": 1720,
+          "submeshes": 1
+        },
+        {
+          "id": 43,
+          "name": "Architecture floor inlays_primitive0",
+          "triangles": 62,
+          "submeshes": 1
+        },
+        {
+          "id": 46,
+          "name": "Architecture floor inlays_primitive1",
+          "triangles": 864,
+          "submeshes": 1
+        },
+        {
+          "id": 50,
+          "name": "Architecture furnishings_primitive0",
+          "triangles": 14340,
+          "submeshes": 1
+        },
+        {
+          "id": 53,
+          "name": "Architecture furnishings_primitive1",
+          "triangles": 14496,
+          "submeshes": 1
+        },
+        {
+          "id": 56,
+          "name": "Architecture furnishings_primitive2",
+          "triangles": 15784,
+          "submeshes": 1
+        },
+        {
+          "id": 59,
+          "name": "Architecture furnishings_primitive3",
+          "triangles": 28164,
+          "submeshes": 1
+        },
+        {
+          "id": 62,
+          "name": "Architecture furnishings_primitive4",
+          "triangles": 12240,
+          "submeshes": 1
+        },
+        {
+          "id": 65,
+          "name": "Architecture furnishings_primitive5",
+          "triangles": 18432,
+          "submeshes": 1
+        },
+        {
+          "id": 68,
+          "name": "Architecture furnishings_primitive6",
+          "triangles": 2008,
+          "submeshes": 1
+        },
+        {
+          "id": 71,
+          "name": "Architecture furnishings_primitive7",
+          "triangles": 752,
+          "submeshes": 1
+        },
+        {
+          "id": 74,
+          "name": "Architecture furnishings_primitive8",
+          "triangles": 2040,
+          "submeshes": 1
+        },
+        {
+          "id": 77,
+          "name": "Architecture furnishings_primitive9",
+          "triangles": 6048,
+          "submeshes": 1
+        },
+        {
+          "id": 81,
+          "name": "Architecture shell_primitive0",
+          "triangles": 29696,
+          "submeshes": 1
+        },
+        {
+          "id": 84,
+          "name": "Architecture shell_primitive1",
+          "triangles": 34724,
+          "submeshes": 1
+        },
+        {
+          "id": 87,
+          "name": "Architecture shell_primitive2",
+          "triangles": 18744,
+          "submeshes": 1
+        },
+        {
+          "id": 90,
+          "name": "Architecture shell_primitive3",
+          "triangles": 376,
+          "submeshes": 1
+        },
+        {
+          "id": 93,
+          "name": "Architecture shell_primitive4",
+          "triangles": 188,
+          "submeshes": 1
+        },
+        {
+          "id": 151,
+          "name": "DIRECT",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 155,
+          "name": "02  /  THE CODEX ECOSYSTEM",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 158,
+          "name": "Learning state 4",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 161,
+          "name": "Agent loop 0",
+          "triangles": 3362,
+          "submeshes": 1
+        },
+        {
+          "id": 163,
+          "name": "Agent loop 1",
+          "triangles": 3362,
+          "submeshes": 1
+        },
+        {
+          "id": 165,
+          "name": "Agent loop 2",
+          "triangles": 3362,
+          "submeshes": 1
+        },
+        {
+          "id": 169,
+          "name": "05",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 172,
+          "name": "Learning state 5",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 177,
+          "name": "06",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 180,
+          "name": "Learning state 6",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 185,
+          "name": "07",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 188,
+          "name": "Learning state 7",
+          "triangles": 1536,
+          "submeshes": 1
+        },
+        {
+          "id": 193,
+          "name": "08",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 248,
+          "name": "Codex logo core",
+          "triangles": 7164,
+          "submeshes": 1
+        },
+        {
+          "id": 427,
+          "name": "Guide batch: Porcelain glyph",
+          "triangles": 13088,
+          "submeshes": 1
+        },
+        {
+          "id": 429,
+          "name": "Guide batch: Satin titanium",
+          "triangles": 3128,
+          "submeshes": 1
+        },
+        {
+          "id": 431,
+          "name": "Guide batch: Indigo joints",
+          "triangles": 2432,
+          "submeshes": 1
+        },
+        {
+          "id": 444,
+          "name": "Routing backplate",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 450,
+          "name": "Active work carriage",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 468,
+          "name": "Steering send-steer",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 474,
+          "name": "Steering advance",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 480,
+          "name": "Steering send-queue",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 484,
+          "name": "Steering work status",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 488,
+          "name": "Steering work stages",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 492,
+          "name": "Steering queue heading",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 495,
+          "name": "Batch: Steering rails / Steering satin rails",
+          "triangles": 72,
+          "submeshes": 1
+        },
+        {
+          "id": 565,
+          "name": "PROPOSED PATCH",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 573,
+          "name": "SAVED REPAIR",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 579,
+          "name": "Review diff",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 585,
+          "name": "Review checks",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 591,
+          "name": "Review repair",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 596,
+          "name": "Batch: Review frame / Review satin nickel",
+          "triangles": 72,
+          "submeshes": 1
+        },
+        {
+          "id": 598,
+          "name": "Batch: Review frame / Review graphite housing",
+          "triangles": 24,
+          "submeshes": 1
+        },
+        {
+          "id": 713,
+          "name": "File cartridge a",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 715,
+          "name": "Cartridge slider a",
+          "triangles": 64,
+          "submeshes": 1
+        },
+        {
+          "id": 719,
+          "name": "File content a",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 722,
+          "name": "File cartridge b",
+          "triangles": 12,
+          "submeshes": 1
+        },
+        {
+          "id": 724,
+          "name": "Cartridge slider b",
+          "triangles": 64,
+          "submeshes": 1
+        },
+        {
+          "id": 728,
+          "name": "File content b",
+          "triangles": 2,
+          "submeshes": 1
+        },
+        {
+          "id": 730,
+          "name": "Batch: Worktree rail / Worktree instrument titanium",
+          "triangles": 192,
+          "submeshes": 1
+        }
+      ],
+      "textures": [
+        {
+          "id": 0,
+          "names": [
+            "/assets/studio.env"
+          ],
+          "url": "/assets/studio.env",
+          "width": 128,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": 0,
+          "source": 7,
+          "mipmaps": true,
+          "cube": true,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 524280,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 1,
+          "names": [
+            "Late afternoon_shadowMap"
+          ],
+          "url": "",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 33554432,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 4,
+          "names": [
+            "data:EnvironmentBRDFTexture0"
+          ],
+          "url": "embedded",
+          "width": 256,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 1,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 524288,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 11,
+          "names": [
+            "/assets/headquarters/streamed/floor-albedo.jpg"
+          ],
+          "url": "/assets/headquarters/streamed/floor-albedo.jpg",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 4,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 3,
+          "blockBytes": null,
+          "textureBytes": 16777215,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 12,
+          "names": [
+            "/assets/headquarters/floor-indirect.jpg"
+          ],
+          "url": "/assets/headquarters/floor-indirect.jpg",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 4,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 3,
+          "blockBytes": null,
+          "textureBytes": 16777215,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 13,
+          "names": [
+            "/assets/headquarters/streamed/shell-albedo.jpg"
+          ],
+          "url": "/assets/headquarters/streamed/shell-albedo.jpg",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 4,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 3,
+          "blockBytes": null,
+          "textureBytes": 16777215,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 14,
+          "names": [
+            "/assets/headquarters/shell-indirect.jpg"
+          ],
+          "url": "/assets/headquarters/shell-indirect.jpg",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 4,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 3,
+          "blockBytes": null,
+          "textureBytes": 16777215,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 15,
+          "names": [
+            "/assets/headquarters/streamed/furnishings-albedo.jpg"
+          ],
+          "url": "/assets/headquarters/streamed/furnishings-albedo.jpg",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 4,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 3,
+          "blockBytes": null,
+          "textureBytes": 16777215,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 16,
+          "names": [
+            "/assets/headquarters/furnishings-indirect.jpg"
+          ],
+          "url": "/assets/headquarters/furnishings-indirect.jpg",
+          "width": 2048,
+          "height": 2048,
+          "depth": 0,
+          "format": 4,
+          "type": 0,
+          "source": 1,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 3,
+          "blockBytes": null,
+          "textureBytes": 16777215,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 17,
+          "names": [
+            "UNDERSTAND"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 18,
+          "names": [
+            "01  /  THE CODEX ECOSYSTEM"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 19,
+          "names": [
+            "01"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 20,
+          "names": [
+            "02"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 21,
+          "names": [
+            "03"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 22,
+          "names": [
+            "04"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 23,
+          "names": [
+            "DIRECT"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 24,
+          "names": [
+            "02  /  THE CODEX ECOSYSTEM"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 25,
+          "names": [
+            "05"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 26,
+          "names": [
+            "06"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 27,
+          "names": [
+            "07"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 28,
+          "names": [
+            "08"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 29,
+          "names": [
+            "REPEAT"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 30,
+          "names": [
+            "03  /  THE CODEX ECOSYSTEM"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 31,
+          "names": [
+            "09"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 32,
+          "names": [
+            "10"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 33,
+          "names": [
+            "11"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 34,
+          "names": [
+            "12"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398108,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 35,
+          "names": [
+            ""
+          ],
+          "url": "",
+          "width": 16,
+          "height": 1,
+          "depth": 0,
+          "format": 5,
+          "type": 1,
+          "source": 3,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 16,
+          "blockBytes": null,
+          "textureBytes": 256,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 36,
+          "names": [
+            "Steering send-steer"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 37,
+          "names": [
+            "Steering advance"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 38,
+          "names": [
+            "Steering send-queue"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 39,
+          "names": [
+            "Steering work status"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699068,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 40,
+          "names": [
+            "Steering work stages"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 64,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 349564,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 41,
+          "names": [
+            "Steering queue heading"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 64,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 349564,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 42,
+          "names": [
+            "Tool connect"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 43,
+          "names": [
+            "Tool procedure"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 44,
+          "names": [
+            "Tool results"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 45,
+          "names": [
+            "Tool tool"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 46,
+          "names": [
+            "Tool skill"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 47,
+          "names": [
+            "Tool file"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 48,
+          "names": [
+            "Tool setup status"
+          ],
+          "url": "",
+          "width": 1024,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699068,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 49,
+          "names": [
+            "PROPOSED PATCH"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 512,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398100,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 50,
+          "names": [
+            "SAVED REPAIR"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 512,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1398100,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 51,
+          "names": [
+            "Review diff"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 52,
+          "names": [
+            "Review checks"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 53,
+          "names": [
+            "Review repair"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 54,
+          "names": [
+            "Gate action read"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 55,
+          "names": [
+            "Gate action draft"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 56,
+          "names": [
+            "Gate action check"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 256,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": true,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 699052,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 57,
+          "names": [
+            "Working file a"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 640,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1310720,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 58,
+          "names": [
+            "Working file b"
+          ],
+          "url": "",
+          "width": 512,
+          "height": 640,
+          "depth": 0,
+          "format": 5,
+          "type": -1,
+          "source": 4,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 4,
+          "blockBytes": null,
+          "textureBytes": 1310720,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 59,
+          "names": [],
+          "url": "",
+          "width": 390,
+          "height": 472.64000000000004,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 1474636.8,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 60,
+          "names": [],
+          "url": "",
+          "width": 128,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 131072,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 61,
+          "names": [],
+          "url": "",
+          "width": 128,
+          "height": 128,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 131072,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 62,
+          "names": [],
+          "url": "",
+          "width": 195,
+          "height": 236.32000000000002,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 368659.2,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 63,
+          "names": [],
+          "url": "",
+          "width": 390,
+          "height": 472.64000000000004,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 1474636.8,
+          "estimatedMultisampleColorBytes": 0
+        },
+        {
+          "id": 64,
+          "names": [],
+          "url": "",
+          "width": 390,
+          "height": 472.64000000000004,
+          "depth": 0,
+          "format": 5,
+          "type": 2,
+          "source": 5,
+          "mipmaps": false,
+          "cube": false,
+          "samples": 1,
+          "ready": true,
+          "bytesPerPixel": 8,
+          "blockBytes": null,
+          "textureBytes": 1474636.8,
+          "estimatedMultisampleColorBytes": 0
+        }
+      ],
+      "textureStorageBytes": 183487887.60000002,
+      "multisampleColorStorageBytes": 0,
+      "unknownTextureFormats": 0,
+      "limits": [
+        "Active mesh triangles count each camera-active mesh once, including triangles outside its visible pixels; not exact occlusion visibility.",
+        "Main draw phase is Babylon rendering-manager submission; total also includes shadow and finishing passes.",
+        "Texture storage is an allocation estimate; driver padding, default framebuffer, implicit depth/stencil renderbuffers, CPU decoded images, geometry and program memory are excluded.",
+        "Scene time is CPU-side elapsed browser time, not native GPU time."
+      ],
+      "finishing": {
+        "quality": "high",
+        "cameraSlots": 6,
+        "activeEffects": 6,
+        "registeredEffects": 0
+      }
+    },
+    "ready": true,
+    "renderSize": {
+      "width": 390,
+      "height": 844,
+      "cssWidth": 390,
+      "cssHeight": 844,
+      "dpr": 1
+    },
+    "lastPick": null,
+    "active": -1,
+    "quality": "high",
+    "paused": false,
+    "reduced": false,
+    "mascotDetail": {
+      "batching": {
+        "drawsSavedPerPass": 13,
+        "batches": [
+          {
+            "id": 427,
+            "name": "Guide batch: Porcelain glyph",
+            "sources": [
+              "Left finger 0",
+              "Left finger 1",
+              "Left finger 2",
+              "Left palm",
+              "Left thumb",
+              "Right finger 0",
+              "Right finger 1",
+              "Right finger 2",
+              "Right palm",
+              "Right thumb",
+              "White prompt chevron",
+              "White prompt underscore"
+            ],
+            "triangles": 13088,
+            "sourceTriangles": 13088,
+            "refreshes": 1
+          },
+          {
+            "id": 429,
+            "name": "Guide batch: Satin titanium",
+            "sources": [
+              "Left floating forearm",
+              "Right floating forearm"
+            ],
+            "triangles": 3128,
+            "sourceTriangles": 3128,
+            "refreshes": 1
+          },
+          {
+            "id": 431,
+            "name": "Guide batch: Indigo joints",
+            "sources": [
+              "Left wrist",
+              "Right wrist"
+            ],
+            "triangles": 2432,
+            "sourceTriangles": 2432,
+            "refreshes": 1
+          }
+        ],
+        "sourceGeometryRetained": true,
+        "shadowProjectionUsesOriginalBounds": true
+      },
+      "requested": "high",
+      "active": "high",
+      "loading": false,
+      "error": "",
+      "triangles": 25812,
+      "cached": [
+        "high"
+      ],
+      "meshIds": [
+        248,
+        256,
+        260,
+        263,
+        266,
+        270,
+        273,
+        276,
+        280,
+        283,
+        286,
+        289,
+        292,
+        295,
+        298,
+        301,
+        304
+      ],
+      "skeletonIds": [
+        251
+      ],
+      "pose": [
+        {
+          "name": "Core",
+          "matrix": [
+            0.9999962449073792,
+            0,
+            -0.002731045475229621,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.002731045475229621,
+            0,
+            0.9999962449073792,
+            0,
+            0,
+            1.7999999523162842,
+            0.004551747813820839,
+            1
+          ]
+        },
+        {
+          "name": "Left",
+          "matrix": [
+            -0.25294315814971924,
+            0.13832220435142517,
+            -0.9575421810150146,
+            0,
+            -0.958056628704071,
+            0.10199829190969467,
+            0.26781323552131653,
+            0,
+            0.13471218943595886,
+            0.9851210117340088,
+            0.10672067105770111,
+            0,
+            -1.0300779342651367,
+            1.8499999046325684,
+            -0.02263518050312996,
+            1
+          ]
+        },
+        {
+          "name": "Right",
+          "matrix": [
+            -0.24770916998386383,
+            -0.13832223415374756,
+            0.9589093923568726,
+            0,
+            0.9595050811767578,
+            0.10199827700853348,
+            0.26257622241973877,
+            0,
+            -0.13412721455097198,
+            0.985120952129364,
+            0.10745496302843094,
+            0,
+            1.0299140214920044,
+            1.8499999046325684,
+            -0.028261134400963783,
+            1
+          ]
+        }
+      ],
+      "sceneMaterials": 101,
+      "sceneTextures": 51,
+      "sceneGeometries": 137,
+      "sceneSkeletons": 1,
+      "sceneAnimationGroups": 12
+    },
+    "architecture": {
+      "staticShadows": {
+        "batches": [],
+        "drawsSaved": 0,
+        "additionalBufferBytes": 0,
+        "projectionUsesOriginalBounds": true,
+        "reason": "32-bit element indices unavailable"
+      },
+      "detail": {
+        "requested": "high",
+        "active": "high",
+        "loading": false,
+        "error": "",
+        "triangles": 223458,
+        "cached": false,
+        "meshIds": [
+          20,
+          23,
+          26,
+          29,
+          32,
+          36,
+          39,
+          43,
+          46,
+          50,
+          53,
+          56,
+          59,
+          62,
+          65,
+          68,
+          71,
+          74,
+          77,
+          81,
+          84,
+          87,
+          90,
+          93
+        ]
+      },
+      "textureCompression": {
+        "mode": "original",
+        "reason": "Error: Could not decode floor-albedo",
+        "textures": []
+      },
+      "ready": true,
+      "meshes": 25,
+      "lightmaps": [
+        "floor",
+        "shell",
+        "furnishings"
+      ]
+    },
+    "capstone": {
+      "loaded": false,
+      "ports": [],
+      "cards": [],
+      "controls": []
+    },
+    "handoff": {
+      "loaded": false,
+      "ports": [],
+      "cards": [],
+      "controls": []
+    },
+    "automation": {
+      "loaded": false,
+      "ports": [],
+      "cards": [],
+      "controls": []
+    },
+    "tools": {
+      "verified": false,
+      "connected": false,
+      "skillLoaded": false,
+      "ports": [
+        {
+          "id": "connect",
+          "screen": {
+            "x": 454.16346908894593,
+            "y": 511.96928820594917
+          }
+        },
+        {
+          "id": "procedure",
+          "screen": {
+            "x": 480.0123928500445,
+            "y": 512.2214103094168
+          }
+        },
+        {
+          "id": "results",
+          "screen": {
+            "x": 506.13757272340035,
+            "y": 512.4762269263103
+          }
+        }
+      ],
+      "loaded": true
+    },
+    "steering": {
+      "verified": false,
+      "queueCount": 0,
+      "activeRun": 1,
+      "carriageX": -0.74,
+      "carriageTargetX": -0.74,
+      "ports": [
+        {
+          "id": "send-steer",
+          "screen": {
+            "x": 204.67178512317633,
+            "y": 507.26744086585876
+          }
+        },
+        {
+          "id": "advance",
+          "screen": {
+            "x": 227.91439038683774,
+            "y": 507.48271414091437
+          }
+        },
+        {
+          "id": "send-queue",
+          "screen": {
+            "x": 251.39236052422714,
+            "y": 507.70016736811493
+          }
+        }
+      ],
+      "loaded": true
+    },
+    "review": {
+      "verified": false,
+      "revision": 0,
+      "scanActive": false,
+      "ports": [
+        {
+          "id": "diff",
+          "screen": {
+            "x": 303.22482594961326,
+            "y": 505.77577645504283
+          }
+        },
+        {
+          "id": "checks",
+          "screen": {
+            "x": 327.68629159699145,
+            "y": 505.98985706259515
+          }
+        },
+        {
+          "id": "repair",
+          "screen": {
+            "x": 352.4030453634984,
+            "y": 506.206171887689
+          }
+        }
+      ],
+      "loaded": true
+    },
+    "permissions": {
+      "verified": false,
+      "sourceLoaded": false,
+      "connected": false,
+      "draft": null,
+      "ports": [
+        {
+          "id": "read",
+          "open": false,
+          "screen": {
+            "x": -103.3639971798345,
+            "y": 503.6345318019418
+          }
+        },
+        {
+          "id": "draft",
+          "open": false,
+          "screen": {
+            "x": -83.96577930001557,
+            "y": 503.81068471392996
+          }
+        },
+        {
+          "id": "check",
+          "open": false,
+          "screen": {
+            "x": -64.3919798757121,
+            "y": 503.98843206106386
+          }
+        }
+      ],
+      "loaded": true
+    },
+    "models": {
+      "loaded": false,
+      "ports": [],
+      "cards": [],
+      "controls": []
+    },
+    "harness": {
+      "loaded": false,
+      "ports": [],
+      "cards": [],
+      "controls": []
+    },
+    "context": {
+      "loaded": false,
+      "ports": [],
+      "cards": [],
+      "controls": []
+    },
+    "branches": {
+      "mode": "shared",
+      "collision": false,
+      "verified": false,
+      "chosen": null,
+      "cartridges": [
+        {
+          "id": "a",
+          "x": -0.22
+        },
+        {
+          "id": "b",
+          "x": 0.22
+        }
+      ],
+      "loaded": true
+    },
+    "drawCalls": 103,
+    "renderFrameMs": 2.5999999940395355,
+    "meshes": 139,
+    "triangles": 525278,
+    "animations": [
+      "Beckon",
+      "Celebrate",
+      "Correct",
+      "Greet",
+      "Idle",
+      "Inspect",
+      "Point",
+      "PointLeft",
+      "Return",
+      "Think",
+      "Travel",
+      "Wait"
+    ],
+    "animationPlaying": true,
+    "gesture": "Idle",
+    "blending": false,
+    "transition": 0,
+    "frameMs": [
+      0,
+      11.100000023841858,
+      63,
+      2.2999999821186066,
+      14.400000005960464,
+      19.19999998807907
+    ],
+    "camera": {
+      "alpha": 1.4507963267948965,
+      "beta": 1.31,
+      "radius": 8.6,
+      "target": [
+        2,
+        2.45,
+        2
+      ],
+      "visibility": null
+    },
+    "mascot": {
+      "x": 2,
+      "y": 0.35,
+      "z": 2,
+      "displayLift": 0
+    }
+  },
+  "errors": [],
+  "scope": "Chrome capability fault fixture, not physical WebGL 1 hardware"
+}

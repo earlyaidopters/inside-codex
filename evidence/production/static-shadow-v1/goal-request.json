@@ -1,0 +1,15 @@
+{
+  "id": "static-shadow-submissions",
+  "metric": "render.total_draw_calls",
+  "statistic": "max",
+  "unit": "count",
+  "direction": "lower",
+  "target": 180,
+  "maximumIterations": 1,
+  "allowedPaths": [
+    "src/world.ts",
+    "src/static-shadow-batch.ts",
+    "tests/static-shadow",
+    "tools/shadows"
+  ]
+}

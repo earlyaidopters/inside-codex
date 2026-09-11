@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "buildId": "e0d5ca95fd2fc064a3e58b36e995bc869ced0dc192ba8e6d01f1a11893bf6eb9",
+  "unitChecks": 77,
+  "journeyChecks": 37,
+  "returningStateCases": 12,
+  "engines": [
+    "Chrome",
+    "Firefox",
+    "WebKit"
+  ],
+  "changes": [
+    "Shared UI/toolkit classification for unattempted, in-progress, earlier-choice and first-submission evidence",
+    "Twelfth unique mission opens completion regardless of order; replayed missions retain their normal onward route"
+  ],
+  "sourceSha256": {
+    "src/main.ts": "5f7477f24b54b7eed8d702b27472115f5e15979a537d3e70263f47989a8f6786",
+    "src/learning.mjs": "741a4c95b209644e09099e0792ef74841dacf22fb7c65214071cfa62d87e722e",
+    "tests/browser.mjs": "3f4c18d758e83292eee074cabc8e6b0fa850e3bb27f54b55050a637ab33e55d9",
+    "tests/handoff-summary.mjs": "1085713eec48dc07ae3fc31be7e69ae56e9f2f9ff2ef21de1e63d73bf6aea9a2",
+    "tests/learning.test.mjs": "96d5bb773578f26b5d5da91d1f30821c50f2b4d60e9e96cfd36bcf097ba41ce8",
+    "tests/resources.test.mjs": "a57c8874e864c29546ce32eb7a6939ac5157a919bd335aaf537f910ccd5deed7"
+  },
+  "internalReview": "internal-review.json",
+  "limits": [
+    "No rendering or quality-tier changes; this is not a new performance qualification",
+    "Not final fresh manual tour, independent human/device or hosted acceptance"
+  ],
+  "fullReleaseAccepted": false
+}

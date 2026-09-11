@@ -1,0 +1,10 @@
+{
+  "id": "balanced-visible-geometry",
+  "metric": "render.active_triangles",
+  "statistic": "max",
+  "unit": "count",
+  "direction": "lower",
+  "target": 250000,
+  "maximumIterations": 2,
+  "allowedPaths": ["src/world.ts"]
+}

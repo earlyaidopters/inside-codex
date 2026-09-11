@@ -1,0 +1,22 @@
+{
+  "archive": "releases/checkpoints/active-scenes-v1-source.zip",
+  "bytes": 709649,
+  "sha256": "c116a02a62ff33ca0ae178e87f16aaaa306b3cffb6f01b0b07bd6a2ebc7a1245",
+  "filesVerified": 30,
+  "base": "quality-advice-v1-source.zip plus its complete base chain",
+  "baseSha256": "fcc40798fa426fea8ecbb3e0dda1f673f0f92d336ab34c1812f3764e0114fe07",
+  "buildId": "b69f006ad8188aae1dfc1ebd9ef618ed3116fd2ef9425b65ed0207945cd6601d",
+  "sealedCaptures": [
+    {
+      "runId": "run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789060141843_8c36d7fb3e434153982e6c9057fa8f1a",
+      "manifestSha256": "5da3d444c4eafbc76aa209aab19cd829b5c0a21fc385d98bf729f099d4fbf25d"
+    },
+    {
+      "runId": "run_1789060340530_5c46bb3a9f1f411ea9bf371a66f76da5",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789060340530_5c46bb3a9f1f411ea9bf371a66f76da5",
+      "manifestSha256": "899990d58c645ddcfa2bb633d93baf9d5a3e2e87dfe1c3fb2b1b6cb900631a99"
+    }
+  ],
+  "fullReleaseAccepted": false
+}

@@ -1,0 +1,3098 @@
+{
+  "pass": true,
+  "browser": "26.6",
+  "scope": "Desktop Chrome and portrait viewport emulation, actual UI controls, delayed/503 network fixtures. Does not establish physical-device performance or long-run stability.",
+  "checks": [
+    "High first load fetches only the high guide",
+    "Balanced swaps twelve geometries while preserving paused pose, mesh identities, skeletons, animation groups, materials and textures",
+    "Sixteen cached switches keep resource counts and paused bone matrices stable without another download",
+    "Quality changes preserve reduced motion and pause behavior",
+    "Saved balanced first load fetches only the balanced guide",
+    "A delayed asset is requested once, keeps the working guide visible, and cannot override a newer quality selection",
+    "Failed asset download retains the working guide, reports the active detail accessibly, and recovers through the quality control"
+  ],
+  "errors": [],
+  "receipts": [
+    {
+      "scenario": "cached and persisted settings",
+      "state": {
+        "qualityAdvice": {
+          "quality": "balanced",
+          "status": "observing",
+          "windows": 0,
+          "lastWindow": null
+        },
+        "presented": {
+          "active": 0,
+          "transition": 0
+        },
+        "residency": {
+          "active": 0,
+          "ready": true,
+          "heldFrames": 0,
+          "holdingSince": null,
+          "events": [
+            {
+              "at": 419,
+              "kind": "load-start",
+              "id": "tool"
+            },
+            {
+              "at": 420,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 420,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 420,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 421,
+              "kind": "load-start",
+              "id": "model"
+            },
+            {
+              "at": 421,
+              "kind": "load-start",
+              "id": "context"
+            },
+            {
+              "at": 421,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 421,
+              "kind": "load-start",
+              "id": "harness"
+            },
+            {
+              "at": 437,
+              "kind": "load-ready",
+              "id": "tool",
+              "durationMs": 18
+            },
+            {
+              "at": 448,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 28
+            },
+            {
+              "at": 459,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 39
+            },
+            {
+              "at": 467,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 47
+            },
+            {
+              "at": 486,
+              "kind": "load-ready",
+              "id": "model",
+              "durationMs": 65
+            },
+            {
+              "at": 495,
+              "kind": "load-ready",
+              "id": "context",
+              "durationMs": 74
+            },
+            {
+              "at": 501,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 80
+            },
+            {
+              "at": 510,
+              "kind": "load-ready",
+              "id": "harness",
+              "durationMs": 89
+            }
+          ],
+          "entries": [
+            {
+              "id": "capstone",
+              "station": 11,
+              "enabled": false,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "handoff",
+              "station": 11,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "automation",
+              "station": 10,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "tool",
+              "station": 8,
+              "enabled": true,
+              "wanted": false,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 13,
+                "textures": 7
+              }
+            },
+            {
+              "id": "steering",
+              "station": 6,
+              "enabled": true,
+              "wanted": false,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 11,
+                "textures": 6
+              }
+            },
+            {
+              "id": "review",
+              "station": 7,
+              "enabled": true,
+              "wanted": false,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 8,
+                "materials": 8,
+                "textures": 5
+              }
+            },
+            {
+              "id": "permission",
+              "station": 3,
+              "enabled": true,
+              "wanted": false,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 12,
+                "materials": 9,
+                "textures": 3
+              }
+            },
+            {
+              "id": "model",
+              "station": 2,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 18,
+                "materials": 14,
+                "textures": 8
+              }
+            },
+            {
+              "id": "context",
+              "station": 1,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 14,
+                "materials": 9,
+                "textures": 7
+              }
+            },
+            {
+              "id": "branch",
+              "station": 5,
+              "enabled": true,
+              "wanted": false,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 7,
+                "materials": 4,
+                "textures": 2
+              }
+            },
+            {
+              "id": "harness",
+              "station": 0,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 12,
+                "textures": 4
+              }
+            }
+          ]
+        },
+        "renderAudit": null,
+        "ready": true,
+        "renderSize": {
+          "width": 390,
+          "height": 844,
+          "cssWidth": 390,
+          "cssHeight": 844,
+          "dpr": 1
+        },
+        "lastPick": null,
+        "active": 0,
+        "quality": "balanced",
+        "paused": false,
+        "reduced": true,
+        "mascotDetail": {
+          "batching": {
+            "drawsSavedPerPass": 13,
+            "batches": [
+              {
+                "id": 421,
+                "name": "Guide batch: Porcelain glyph",
+                "sources": [
+                  "Left finger 0",
+                  "Left finger 1",
+                  "Left finger 2",
+                  "Left palm",
+                  "Left thumb",
+                  "Right finger 0",
+                  "Right finger 1",
+                  "Right finger 2",
+                  "Right palm",
+                  "Right thumb",
+                  "White prompt chevron",
+                  "White prompt underscore"
+                ],
+                "triangles": 7008,
+                "sourceTriangles": 7008,
+                "refreshes": 1
+              },
+              {
+                "id": 423,
+                "name": "Guide batch: Satin titanium",
+                "sources": [
+                  "Left floating forearm",
+                  "Right floating forearm"
+                ],
+                "triangles": 3128,
+                "sourceTriangles": 3128,
+                "refreshes": 1
+              },
+              {
+                "id": 425,
+                "name": "Guide batch: Indigo joints",
+                "sources": [
+                  "Left wrist",
+                  "Right wrist"
+                ],
+                "triangles": 1216,
+                "sourceTriangles": 1216,
+                "refreshes": 1
+              }
+            ],
+            "sourceGeometryRetained": true,
+            "shadowProjectionUsesOriginalBounds": true
+          },
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 18516,
+          "cached": [
+            "balanced"
+          ],
+          "meshIds": [
+            242,
+            250,
+            254,
+            257,
+            260,
+            264,
+            267,
+            270,
+            274,
+            277,
+            280,
+            283,
+            286,
+            289,
+            292,
+            295,
+            298
+          ],
+          "skeletonIds": [
+            245
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1.7999999523162842,
+                0,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.2510373294353485,
+                0.13308902084827423,
+                -0.9587844610214233,
+                0,
+                -0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                -1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.2510373294353485,
+                -0.13308902084827423,
+                0.9587844610214233,
+                0,
+                0.9587844014167786,
+                0.1019982323050499,
+                0.26519575715065,
+                0,
+                -0.13308890163898468,
+                0.9858415722846985,
+                0.10199836641550064,
+                0,
+                1.029999852180481,
+                1.8499999046325684,
+                -0.03000001795589924,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 136,
+          "sceneTextures": 70,
+          "sceneGeometries": 186,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "staticShadows": {
+            "batches": [
+              {
+                "id": 431,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 1,
+                "layerMask": 0
+              },
+              {
+                "id": 433,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "detail": {
+            "requested": "balanced",
+            "active": "balanced",
+            "loading": false,
+            "error": "",
+            "triangles": 134942,
+            "cached": true,
+            "meshIds": [
+              20,
+              23,
+              26,
+              29,
+              32,
+              36,
+              39,
+              43,
+              46,
+              50,
+              53,
+              56,
+              59,
+              62,
+              65,
+              68,
+              71,
+              74,
+              77,
+              81,
+              84,
+              87,
+              90,
+              93
+            ]
+          },
+          "textureCompression": {
+            "mode": "compressed",
+            "reason": null,
+            "textures": [
+              {
+                "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              }
+            ]
+          },
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "handoff": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "automation": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [
+            {
+              "id": "connect",
+              "screen": {
+                "x": 3309.275632181911,
+                "y": 266.4221800436388
+              }
+            },
+            {
+              "id": "procedure",
+              "screen": {
+                "x": 3458.0371593063574,
+                "y": 270.0439165882063
+              }
+            },
+            {
+              "id": "results",
+              "screen": {
+                "x": 3612.911400593267,
+                "y": 273.81447279533455
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [
+            {
+              "id": "send-steer",
+              "screen": {
+                "x": 2064.150550783537,
+                "y": 229.0856125872
+              }
+            },
+            {
+              "id": "advance",
+              "screen": {
+                "x": 2166.4946625535267,
+                "y": 231.46029607963618
+              }
+            },
+            {
+              "id": "send-queue",
+              "screen": {
+                "x": 2272.305965134124,
+                "y": 233.91542856557763
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [
+            {
+              "id": "diff",
+              "screen": {
+                "x": 2493.272073637486,
+                "y": 230.82912292153773
+              }
+            },
+            {
+              "id": "checks",
+              "screen": {
+                "x": 2611.148645886092,
+                "y": 233.41692001921484
+              }
+            },
+            {
+              "id": "repair",
+              "screen": {
+                "x": 2733.330022644205,
+                "y": 236.09922241513112
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [
+            {
+              "id": "read",
+              "open": false,
+              "screen": {
+                "x": 881.6258855832078,
+                "y": 198.59256645000372
+              }
+            },
+            {
+              "id": "draft",
+              "open": false,
+              "screen": {
+                "x": 944.8407057956235,
+                "y": 200.02041359180515
+              }
+            },
+            {
+              "id": "check",
+              "open": false,
+              "screen": {
+                "x": 1009.6870787322101,
+                "y": 201.4851129762623
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [
+            {
+              "id": "label",
+              "action": "job",
+              "screen": {
+                "x": 625.3038603669931,
+                "y": 192.37261988801285
+              }
+            },
+            {
+              "id": "billing",
+              "action": "job",
+              "screen": {
+                "x": 679.8170704716767,
+                "y": 193.5989362276423
+              }
+            },
+            {
+              "id": "sheet",
+              "action": "job",
+              "screen": {
+                "x": 735.608174009949,
+                "y": 194.8539997570796
+              }
+            },
+            {
+              "id": "astra",
+              "action": "model",
+              "screen": {
+                "x": 610.4226850811241,
+                "y": 224.2257750024782
+              }
+            },
+            {
+              "id": "sol",
+              "action": "model",
+              "screen": {
+                "x": 650.9715291594517,
+                "y": 225.41621009329663
+              }
+            },
+            {
+              "id": "terra",
+              "action": "model",
+              "screen": {
+                "x": 693.1802080636038,
+                "y": 223.0657879711458
+              }
+            },
+            {
+              "id": "luna",
+              "action": "model",
+              "screen": {
+                "x": 734.2095048546472,
+                "y": 227.8599149487259
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [
+            {
+              "id": "context",
+              "amount": 0,
+              "screen": {
+                "x": 168.6617337980667,
+                "y": 201.10449375996106
+              }
+            },
+            {
+              "id": "model",
+              "amount": 1,
+              "screen": {
+                "x": 230.13265454115256,
+                "y": 202.76228196609853
+              }
+            },
+            {
+              "id": "tools",
+              "amount": 0,
+              "screen": {
+                "x": 293.4083926535195,
+                "y": 204.4687436736714
+              }
+            },
+            {
+              "id": "verify",
+              "amount": 0,
+              "screen": {
+                "x": 259.25324851578966,
+                "y": 253.9069737240278
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "context": {
+          "selected": [],
+          "verified": false,
+          "cards": [
+            {
+              "id": "brief",
+              "y": 2.09,
+              "screen": {
+                "x": 394.1430179943756,
+                "y": 246.91727736879946
+              }
+            },
+            {
+              "id": "sample",
+              "y": 2.09,
+              "screen": {
+                "x": 435.8304362229298,
+                "y": 248.41171830216803
+              }
+            },
+            {
+              "id": "image",
+              "y": 2.09,
+              "screen": {
+                "x": 478.301975162578,
+                "y": 249.93426896593382
+              }
+            },
+            {
+              "id": "agents",
+              "y": 2.92,
+              "screen": {
+                "x": 399.123790296515,
+                "y": 200.92705754022143
+              }
+            },
+            {
+              "id": "old",
+              "y": 2.92,
+              "screen": {
+                "x": 441.91139192896645,
+                "y": 202.01991621850405
+              }
+            },
+            {
+              "id": "note",
+              "y": 2.92,
+              "screen": {
+                "x": 485.52432572277957,
+                "y": 203.13385510181328
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ],
+          "loaded": true
+        },
+        "drawCalls": 55,
+        "renderFrameMs": 2,
+        "meshes": 188,
+        "triangles": 342080,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": false,
+        "gesture": "Greet",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          134,
+          29,
+          7,
+          33,
+          33,
+          6,
+          7,
+          21,
+          47
+        ],
+        "camera": {
+          "alpha": 1.4507963267948965,
+          "beta": 1.31,
+          "radius": 8.8,
+          "target": [
+            -22,
+            2.55,
+            -9.7
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": -23.4,
+          "y": 0.1,
+          "z": -8.3,
+          "displayLift": 1.444
+        }
+      },
+      "requests": [
+        "codex-mascot-balanced.glb"
+      ]
+    },
+    {
+      "scenario": "delayed response",
+      "state": {
+        "qualityAdvice": {
+          "quality": "balanced",
+          "status": "observing",
+          "windows": 0,
+          "lastWindow": null
+        },
+        "presented": {
+          "active": -1,
+          "transition": 0
+        },
+        "residency": {
+          "active": -1,
+          "ready": true,
+          "heldFrames": 0,
+          "holdingSince": null,
+          "events": [
+            {
+              "at": 570,
+              "kind": "load-start",
+              "id": "tool"
+            },
+            {
+              "at": 570,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 570,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 571,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 571,
+              "kind": "load-start",
+              "id": "model"
+            },
+            {
+              "at": 571,
+              "kind": "load-start",
+              "id": "context"
+            },
+            {
+              "at": 571,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 571,
+              "kind": "load-start",
+              "id": "harness"
+            },
+            {
+              "at": 599,
+              "kind": "load-ready",
+              "id": "tool",
+              "durationMs": 29
+            },
+            {
+              "at": 615,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 45
+            },
+            {
+              "at": 627,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 56
+            },
+            {
+              "at": 667,
+              "kind": "load-ready",
+              "id": "model",
+              "durationMs": 96
+            },
+            {
+              "at": 680,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 110
+            },
+            {
+              "at": 690,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 119
+            },
+            {
+              "at": 704,
+              "kind": "load-ready",
+              "id": "context",
+              "durationMs": 133
+            },
+            {
+              "at": 717,
+              "kind": "load-ready",
+              "id": "harness",
+              "durationMs": 146
+            }
+          ],
+          "entries": [
+            {
+              "id": "capstone",
+              "station": 11,
+              "enabled": false,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "handoff",
+              "station": 11,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "automation",
+              "station": 10,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "tool",
+              "station": 8,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 13,
+                "textures": 7
+              }
+            },
+            {
+              "id": "steering",
+              "station": 6,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 11,
+                "textures": 6
+              }
+            },
+            {
+              "id": "review",
+              "station": 7,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 8,
+                "materials": 8,
+                "textures": 5
+              }
+            },
+            {
+              "id": "permission",
+              "station": 3,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 12,
+                "materials": 9,
+                "textures": 3
+              }
+            },
+            {
+              "id": "model",
+              "station": 2,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 18,
+                "materials": 14,
+                "textures": 8
+              }
+            },
+            {
+              "id": "context",
+              "station": 1,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 14,
+                "materials": 9,
+                "textures": 7
+              }
+            },
+            {
+              "id": "branch",
+              "station": 5,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 7,
+                "materials": 4,
+                "textures": 2
+              }
+            },
+            {
+              "id": "harness",
+              "station": 0,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 12,
+                "textures": 4
+              }
+            }
+          ]
+        },
+        "renderAudit": null,
+        "ready": true,
+        "renderSize": {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "dpr": 1
+        },
+        "lastPick": null,
+        "active": -1,
+        "quality": "balanced",
+        "paused": false,
+        "reduced": false,
+        "mascotDetail": {
+          "batching": {
+            "drawsSavedPerPass": 13,
+            "batches": [
+              {
+                "id": 421,
+                "name": "Guide batch: Porcelain glyph",
+                "sources": [
+                  "Left finger 0",
+                  "Left finger 1",
+                  "Left finger 2",
+                  "Left palm",
+                  "Left thumb",
+                  "Right finger 0",
+                  "Right finger 1",
+                  "Right finger 2",
+                  "Right palm",
+                  "Right thumb",
+                  "White prompt chevron",
+                  "White prompt underscore"
+                ],
+                "triangles": 7008,
+                "sourceTriangles": 7008,
+                "refreshes": 2
+              },
+              {
+                "id": 423,
+                "name": "Guide batch: Satin titanium",
+                "sources": [
+                  "Left floating forearm",
+                  "Right floating forearm"
+                ],
+                "triangles": 3128,
+                "sourceTriangles": 3128,
+                "refreshes": 1
+              },
+              {
+                "id": 425,
+                "name": "Guide batch: Indigo joints",
+                "sources": [
+                  "Left wrist",
+                  "Right wrist"
+                ],
+                "triangles": 1216,
+                "sourceTriangles": 1216,
+                "refreshes": 2
+              }
+            ],
+            "sourceGeometryRetained": true,
+            "shadowProjectionUsesOriginalBounds": true
+          },
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 18516,
+          "cached": [
+            "high",
+            "balanced"
+          ],
+          "meshIds": [
+            242,
+            250,
+            254,
+            257,
+            260,
+            264,
+            267,
+            270,
+            274,
+            277,
+            280,
+            283,
+            286,
+            289,
+            292,
+            295,
+            298
+          ],
+          "skeletonIds": [
+            245
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                0.9998736381530762,
+                0,
+                -0.01589513197541237,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.01589513197541237,
+                0,
+                0.9998736381530762,
+                0,
+                0,
+                1.7999999523162842,
+                0.026492996141314507,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.26195570826530457,
+                0.1634913831949234,
+                -0.9511306881904602,
+                0,
+                -0.9544478058815002,
+                0.10199843347072601,
+                0.2804020941257477,
+                0,
+                0.14285704493522644,
+                0.9812576770782471,
+                0.12932510673999786,
+                0,
+                -1.0303465127944946,
+                1.8499999046325684,
+                0.01286875270307064,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.23159047961235046,
+                -0.1634913831949234,
+                0.958976686000824,
+                0,
+                0.9628784656524658,
+                0.10199843347072601,
+                0.24992209672927856,
+                0,
+                -0.13867409527301788,
+                0.9812576770782471,
+                0.13380064070224762,
+                0,
+                1.0293928384780884,
+                1.8499999046325684,
+                -0.019875215366482735,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 136,
+          "sceneTextures": 70,
+          "sceneGeometries": 198,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "staticShadows": {
+            "batches": [
+              {
+                "id": 431,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 4,
+                "layerMask": 0
+              },
+              {
+                "id": 433,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "detail": {
+            "requested": "balanced",
+            "active": "balanced",
+            "loading": false,
+            "error": "",
+            "triangles": 134942,
+            "cached": true,
+            "meshIds": [
+              20,
+              23,
+              26,
+              29,
+              32,
+              36,
+              39,
+              43,
+              46,
+              50,
+              53,
+              56,
+              59,
+              62,
+              65,
+              68,
+              71,
+              74,
+              77,
+              81,
+              84,
+              87,
+              90,
+              93
+            ]
+          },
+          "textureCompression": {
+            "mode": "compressed",
+            "reason": null,
+            "textures": [
+              {
+                "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              }
+            ]
+          },
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "handoff": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "automation": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [
+            {
+              "id": "connect",
+              "screen": {
+                "x": 1444.8724810222493,
+                "y": 319.15099805871466
+              }
+            },
+            {
+              "id": "procedure",
+              "screen": {
+                "x": 1496.4404046945629,
+                "y": 321.17345341743356
+              }
+            },
+            {
+              "id": "results",
+              "screen": {
+                "x": 1549.501401357606,
+                "y": 323.2544659810196
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [
+            {
+              "id": "send-steer",
+              "screen": {
+                "x": 990.496195194149,
+                "y": 297.61489530433477
+              }
+            },
+            {
+              "id": "advance",
+              "screen": {
+                "x": 1029.8166488630964,
+                "y": 299.1107675126448
+              }
+            },
+            {
+              "id": "send-queue",
+              "screen": {
+                "x": 1070.1281889632123,
+                "y": 300.6443437276508
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [
+            {
+              "id": "diff",
+              "screen": {
+                "x": 1161.6208270667416,
+                "y": 299.98944531306586
+              }
+            },
+            {
+              "id": "checks",
+              "screen": {
+                "x": 1205.752319939637,
+                "y": 301.6135441648526
+              }
+            },
+            {
+              "id": "repair",
+              "screen": {
+                "x": 1251.0690894362108,
+                "y": 303.2812628055531
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [
+            {
+              "id": "read",
+              "open": false,
+              "screen": {
+                "x": 518.5036191715923,
+                "y": 278.33294670689213
+              }
+            },
+            {
+              "id": "draft",
+              "open": false,
+              "screen": {
+                "x": 545.7489927897063,
+                "y": 279.35600286888086
+              }
+            },
+            {
+              "id": "check",
+              "open": false,
+              "screen": {
+                "x": 573.5524795687932,
+                "y": 280.4000160240246
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [
+            {
+              "id": "label",
+              "action": "job",
+              "screen": {
+                "x": 408.1118068165361,
+                "y": 274.043768197061
+              }
+            },
+            {
+              "id": "billing",
+              "action": "job",
+              "screen": {
+                "x": 432.20444964826316,
+                "y": 274.94709391884294
+              }
+            },
+            {
+              "id": "sheet",
+              "action": "job",
+              "screen": {
+                "x": 456.75184657504707,
+                "y": 275.8674701184001
+              }
+            },
+            {
+              "id": "astra",
+              "action": "model",
+              "screen": {
+                "x": 406.2067610213563,
+                "y": 293.2336464606705
+              }
+            },
+            {
+              "id": "sol",
+              "action": "model",
+              "screen": {
+                "x": 424.4097098457452,
+                "y": 294.0523041053177
+              }
+            },
+            {
+              "id": "terra",
+              "action": "model",
+              "screen": {
+                "x": 442.7210832940665,
+                "y": 292.7157907609176
+              }
+            },
+            {
+              "id": "luna",
+              "action": "model",
+              "screen": {
+                "x": 461.59877462657676,
+                "y": 295.7248414768075
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [
+            {
+              "id": "context",
+              "amount": 0,
+              "screen": {
+                "x": 204.37508538652446,
+                "y": 278.0872213517166
+              }
+            },
+            {
+              "id": "model",
+              "amount": 1,
+              "screen": {
+                "x": 232.90503396736392,
+                "y": 279.2973610738795
+              }
+            },
+            {
+              "id": "tools",
+              "amount": 0,
+              "screen": {
+                "x": 262.1292909898396,
+                "y": 280.53695090957046
+              }
+            },
+            {
+              "id": "verify",
+              "amount": 0,
+              "screen": {
+                "x": 249.57167292144888,
+                "y": 311.0283010268049
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "context": {
+          "selected": [],
+          "verified": false,
+          "cards": [
+            {
+              "id": "brief",
+              "y": 2.09,
+              "screen": {
+                "x": 311.79046320198836,
+                "y": 306.9477999013863
+              }
+            },
+            {
+              "id": "sample",
+              "y": 2.09,
+              "screen": {
+                "x": 331.0780157195747,
+                "y": 307.9548849254449
+              }
+            },
+            {
+              "id": "image",
+              "y": 2.09,
+              "screen": {
+                "x": 350.66785343477466,
+                "y": 308.9777535433646
+              }
+            },
+            {
+              "id": "agents",
+              "y": 2.92,
+              "screen": {
+                "x": 308.86960010594714,
+                "y": 278.53999806449036
+              }
+            },
+            {
+              "id": "old",
+              "y": 2.92,
+              "screen": {
+                "x": 328.27336722537575,
+                "y": 279.331872161235
+              }
+            },
+            {
+              "id": "note",
+              "y": 2.92,
+              "screen": {
+                "x": 347.98345124791115,
+                "y": 280.13624715120693
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ],
+          "loaded": true
+        },
+        "drawCalls": 147,
+        "renderFrameMs": 8,
+        "meshes": 188,
+        "triangles": 391552,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": true,
+        "gesture": "Idle",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          88,
+          77,
+          30,
+          15,
+          12,
+          33,
+          33,
+          35,
+          32,
+          33,
+          5,
+          8,
+          26,
+          63,
+          14,
+          22,
+          31,
+          58,
+          15,
+          36,
+          23
+        ],
+        "camera": {
+          "alpha": 1.22,
+          "beta": 1.31,
+          "radius": 13.5,
+          "target": [
+            -1.3,
+            2.3,
+            2
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 2,
+          "y": 0.35,
+          "z": 2,
+          "displayLift": 0
+        }
+      },
+      "requests": [
+        "codex-mascot.glb",
+        "codex-mascot-balanced.glb"
+      ]
+    },
+    {
+      "scenario": "503 and recovery",
+      "failed": {
+        "batching": {
+          "drawsSavedPerPass": 13,
+          "batches": [
+            {
+              "id": 421,
+              "name": "Guide batch: Porcelain glyph",
+              "sources": [
+                "Left finger 0",
+                "Left finger 1",
+                "Left finger 2",
+                "Left palm",
+                "Left thumb",
+                "Right finger 0",
+                "Right finger 1",
+                "Right finger 2",
+                "Right palm",
+                "Right thumb",
+                "White prompt chevron",
+                "White prompt underscore"
+              ],
+              "triangles": 13088,
+              "sourceTriangles": 13088,
+              "refreshes": 1
+            },
+            {
+              "id": 423,
+              "name": "Guide batch: Satin titanium",
+              "sources": [
+                "Left floating forearm",
+                "Right floating forearm"
+              ],
+              "triangles": 3128,
+              "sourceTriangles": 3128,
+              "refreshes": 1
+            },
+            {
+              "id": 425,
+              "name": "Guide batch: Indigo joints",
+              "sources": [
+                "Left wrist",
+                "Right wrist"
+              ],
+              "triangles": 2432,
+              "sourceTriangles": 2432,
+              "refreshes": 1
+            }
+          ],
+          "sourceGeometryRetained": true,
+          "shadowProjectionUsesOriginalBounds": true
+        },
+        "requested": "balanced",
+        "active": "high",
+        "loading": false,
+        "error": "Guide detail couldn’t load. High detail is still active. Choose another quality, then try again.",
+        "triangles": 25812,
+        "cached": [
+          "high"
+        ],
+        "meshIds": [
+          242,
+          250,
+          254,
+          257,
+          260,
+          264,
+          267,
+          270,
+          274,
+          277,
+          280,
+          283,
+          286,
+          289,
+          292,
+          295,
+          298
+        ],
+        "skeletonIds": [
+          245
+        ],
+        "pose": [
+          {
+            "name": "Core",
+            "matrix": [
+              0.9998575448989868,
+              0,
+              -0.01687842793762684,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.01687842793762684,
+              0,
+              0.9998575448989868,
+              0,
+              0,
+              1.7999999523162842,
+              0.02813204936683178,
+              1
+            ]
+          },
+          {
+            "name": "Left",
+            "matrix": [
+              -0.2626172602176666,
+              0.1653675138950348,
+              -0.9506239295005798,
+              0,
+              -0.9541717171669006,
+              0.10199826210737228,
+              0.28134071826934814,
+              0,
+              0.14348652958869934,
+              0.9809433221817017,
+              0.13100256025791168,
+              0,
+              -1.0303595066070557,
+              1.8499999046325684,
+              0.015521083027124405,
+              1
+            ]
+          },
+          {
+            "name": "Right",
+            "matrix": [
+              -0.23038211464881897,
+              -0.1653674691915512,
+              0.9589462280273438,
+              0,
+              0.9631239175796509,
+              0.10199836641550064,
+              0.24897514283657074,
+              0,
+              -0.13898327946662903,
+              0.9809433817863464,
+              0.135770782828331,
+              0,
+              1.0293468236923218,
+              1.8499999046325684,
+              -0.019248472526669502,
+              1
+            ]
+          }
+        ],
+        "sceneMaterials": 136,
+        "sceneTextures": 70,
+        "sceneGeometries": 186,
+        "sceneSkeletons": 1,
+        "sceneAnimationGroups": 12
+      },
+      "recovered": {
+        "qualityAdvice": {
+          "quality": "balanced",
+          "status": "observing",
+          "windows": 0,
+          "lastWindow": null
+        },
+        "presented": {
+          "active": -1,
+          "transition": 0
+        },
+        "residency": {
+          "active": -1,
+          "ready": true,
+          "heldFrames": 0,
+          "holdingSince": null,
+          "events": [
+            {
+              "at": 577,
+              "kind": "load-start",
+              "id": "tool"
+            },
+            {
+              "at": 577,
+              "kind": "load-start",
+              "id": "steering"
+            },
+            {
+              "at": 577,
+              "kind": "load-start",
+              "id": "review"
+            },
+            {
+              "at": 577,
+              "kind": "load-start",
+              "id": "permission"
+            },
+            {
+              "at": 578,
+              "kind": "load-start",
+              "id": "model"
+            },
+            {
+              "at": 578,
+              "kind": "load-start",
+              "id": "context"
+            },
+            {
+              "at": 578,
+              "kind": "load-start",
+              "id": "branch"
+            },
+            {
+              "at": 578,
+              "kind": "load-start",
+              "id": "harness"
+            },
+            {
+              "at": 605,
+              "kind": "load-ready",
+              "id": "tool",
+              "durationMs": 28
+            },
+            {
+              "at": 618,
+              "kind": "load-ready",
+              "id": "steering",
+              "durationMs": 41
+            },
+            {
+              "at": 630,
+              "kind": "load-ready",
+              "id": "review",
+              "durationMs": 53
+            },
+            {
+              "at": 641,
+              "kind": "load-ready",
+              "id": "permission",
+              "durationMs": 64
+            },
+            {
+              "at": 676,
+              "kind": "load-ready",
+              "id": "model",
+              "durationMs": 98
+            },
+            {
+              "at": 683,
+              "kind": "load-ready",
+              "id": "branch",
+              "durationMs": 105
+            },
+            {
+              "at": 696,
+              "kind": "load-ready",
+              "id": "context",
+              "durationMs": 118
+            },
+            {
+              "at": 710,
+              "kind": "load-ready",
+              "id": "harness",
+              "durationMs": 132
+            }
+          ],
+          "entries": [
+            {
+              "id": "capstone",
+              "station": 11,
+              "enabled": false,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "handoff",
+              "station": 11,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "automation",
+              "station": 10,
+              "enabled": true,
+              "wanted": false,
+              "loaded": false,
+              "factoryCached": false,
+              "pending": false,
+              "loads": 0,
+              "unloads": 0,
+              "error": null,
+              "resources": null
+            },
+            {
+              "id": "tool",
+              "station": 8,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 13,
+                "textures": 7
+              }
+            },
+            {
+              "id": "steering",
+              "station": 6,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 11,
+                "textures": 6
+              }
+            },
+            {
+              "id": "review",
+              "station": 7,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 8,
+                "materials": 8,
+                "textures": 5
+              }
+            },
+            {
+              "id": "permission",
+              "station": 3,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 12,
+                "materials": 9,
+                "textures": 3
+              }
+            },
+            {
+              "id": "model",
+              "station": 2,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 18,
+                "materials": 14,
+                "textures": 8
+              }
+            },
+            {
+              "id": "context",
+              "station": 1,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 14,
+                "materials": 9,
+                "textures": 7
+              }
+            },
+            {
+              "id": "branch",
+              "station": 5,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 7,
+                "materials": 4,
+                "textures": 2
+              }
+            },
+            {
+              "id": "harness",
+              "station": 0,
+              "enabled": true,
+              "wanted": true,
+              "loaded": true,
+              "factoryCached": true,
+              "pending": false,
+              "loads": 1,
+              "unloads": 0,
+              "error": null,
+              "resources": {
+                "meshes": 15,
+                "materials": 12,
+                "textures": 4
+              }
+            }
+          ]
+        },
+        "renderAudit": null,
+        "ready": true,
+        "renderSize": {
+          "width": 1440,
+          "height": 900,
+          "cssWidth": 1440,
+          "cssHeight": 900,
+          "dpr": 1
+        },
+        "lastPick": null,
+        "active": -1,
+        "quality": "balanced",
+        "paused": false,
+        "reduced": false,
+        "mascotDetail": {
+          "batching": {
+            "drawsSavedPerPass": 13,
+            "batches": [
+              {
+                "id": 421,
+                "name": "Guide batch: Porcelain glyph",
+                "sources": [
+                  "Left finger 0",
+                  "Left finger 1",
+                  "Left finger 2",
+                  "Left palm",
+                  "Left thumb",
+                  "Right finger 0",
+                  "Right finger 1",
+                  "Right finger 2",
+                  "Right palm",
+                  "Right thumb",
+                  "White prompt chevron",
+                  "White prompt underscore"
+                ],
+                "triangles": 7008,
+                "sourceTriangles": 7008,
+                "refreshes": 2
+              },
+              {
+                "id": 423,
+                "name": "Guide batch: Satin titanium",
+                "sources": [
+                  "Left floating forearm",
+                  "Right floating forearm"
+                ],
+                "triangles": 3128,
+                "sourceTriangles": 3128,
+                "refreshes": 1
+              },
+              {
+                "id": 425,
+                "name": "Guide batch: Indigo joints",
+                "sources": [
+                  "Left wrist",
+                  "Right wrist"
+                ],
+                "triangles": 1216,
+                "sourceTriangles": 1216,
+                "refreshes": 2
+              }
+            ],
+            "sourceGeometryRetained": true,
+            "shadowProjectionUsesOriginalBounds": true
+          },
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 18516,
+          "cached": [
+            "high",
+            "balanced"
+          ],
+          "meshIds": [
+            242,
+            250,
+            254,
+            257,
+            260,
+            264,
+            267,
+            270,
+            274,
+            277,
+            280,
+            283,
+            286,
+            289,
+            292,
+            295,
+            298
+          ],
+          "skeletonIds": [
+            245
+          ],
+          "pose": [
+            {
+              "name": "Core",
+              "matrix": [
+                0.9998615980148315,
+                0,
+                -0.016636712476611137,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0.016636712476611137,
+                0,
+                0.9998615980148315,
+                0,
+                0,
+                1.7999999523162842,
+                0.027729129418730736,
+                1
+              ]
+            },
+            {
+              "name": "Left",
+              "matrix": [
+                -0.2624547779560089,
+                0.1649063527584076,
+                -0.9507489204406738,
+                0,
+                -0.9542397260665894,
+                0.10199836641550064,
+                0.2811099886894226,
+                0,
+                0.1433315873146057,
+                0.981020987033844,
+                0.1305902898311615,
+                0,
+                -1.0303564071655273,
+                1.8499999046325684,
+                0.014869075268507004,
+                1
+              ]
+            },
+            {
+              "name": "Right",
+              "matrix": [
+                -0.2306791990995407,
+                -0.1649063527584076,
+                0.9589541554450989,
+                0,
+                0.9630637168884277,
+                0.10199836641550064,
+                0.24920794367790222,
+                0,
+                -0.13890767097473145,
+                0.981020987033844,
+                0.13528648018836975,
+                0,
+                1.029358148574829,
+                1.8499999046325684,
+                -0.019402548670768738,
+                1
+              ]
+            }
+          ],
+          "sceneMaterials": 136,
+          "sceneTextures": 70,
+          "sceneGeometries": 198,
+          "sceneSkeletons": 1,
+          "sceneAnimationGroups": 12
+        },
+        "architecture": {
+          "staticShadows": {
+            "batches": [
+              {
+                "id": 431,
+                "sources": [
+                  20,
+                  23,
+                  26,
+                  29,
+                  32,
+                  36,
+                  39,
+                  43,
+                  46,
+                  50,
+                  53,
+                  56,
+                  59,
+                  62,
+                  65,
+                  68,
+                  71,
+                  74,
+                  77,
+                  81,
+                  84,
+                  87,
+                  90,
+                  93
+                ],
+                "triangles": 134942,
+                "sourceTriangles": 134942,
+                "vertexBytes": 3920952,
+                "indexBytes": 1619304,
+                "refreshes": 2,
+                "layerMask": 0
+              },
+              {
+                "id": 433,
+                "sources": [
+                  155,
+                  157,
+                  159,
+                  209,
+                  211,
+                  213
+                ],
+                "triangles": 10122,
+                "sourceTriangles": 10122,
+                "vertexBytes": 122760,
+                "indexBytes": 121464,
+                "refreshes": 1,
+                "layerMask": 0
+              }
+            ],
+            "drawsSaved": 28,
+            "additionalBufferBytes": 5784480,
+            "projectionUsesOriginalBounds": true
+          },
+          "detail": {
+            "requested": "balanced",
+            "active": "balanced",
+            "loading": false,
+            "error": "",
+            "triangles": 134942,
+            "cached": true,
+            "meshIds": [
+              20,
+              23,
+              26,
+              29,
+              32,
+              36,
+              39,
+              43,
+              46,
+              50,
+              53,
+              56,
+              59,
+              62,
+              65,
+              68,
+              71,
+              74,
+              77,
+              81,
+              84,
+              87,
+              90,
+              93
+            ]
+          },
+          "textureCompression": {
+            "mode": "compressed",
+            "reason": null,
+            "textures": [
+              {
+                "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              },
+              {
+                "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+                "format": 37492,
+                "width": 2048,
+                "height": 2048
+              }
+            ]
+          },
+          "ready": true,
+          "meshes": 25,
+          "lightmaps": [
+            "floor",
+            "shell",
+            "furnishings"
+          ]
+        },
+        "capstone": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "handoff": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "automation": {
+          "loaded": false,
+          "ports": [],
+          "cards": [],
+          "controls": []
+        },
+        "tools": {
+          "verified": false,
+          "connected": false,
+          "skillLoaded": false,
+          "ports": [
+            {
+              "id": "connect",
+              "screen": {
+                "x": 1444.8724810222493,
+                "y": 319.15099805871466
+              }
+            },
+            {
+              "id": "procedure",
+              "screen": {
+                "x": 1496.4404046945629,
+                "y": 321.17345341743356
+              }
+            },
+            {
+              "id": "results",
+              "screen": {
+                "x": 1549.501401357606,
+                "y": 323.2544659810196
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "steering": {
+          "verified": false,
+          "queueCount": 0,
+          "activeRun": 1,
+          "carriageX": -0.74,
+          "carriageTargetX": -0.74,
+          "ports": [
+            {
+              "id": "send-steer",
+              "screen": {
+                "x": 990.496195194149,
+                "y": 297.61489530433477
+              }
+            },
+            {
+              "id": "advance",
+              "screen": {
+                "x": 1029.8166488630964,
+                "y": 299.1107675126448
+              }
+            },
+            {
+              "id": "send-queue",
+              "screen": {
+                "x": 1070.1281889632123,
+                "y": 300.6443437276508
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "review": {
+          "verified": false,
+          "revision": 0,
+          "scanActive": false,
+          "ports": [
+            {
+              "id": "diff",
+              "screen": {
+                "x": 1161.6208270667416,
+                "y": 299.98944531306586
+              }
+            },
+            {
+              "id": "checks",
+              "screen": {
+                "x": 1205.752319939637,
+                "y": 301.6135441648526
+              }
+            },
+            {
+              "id": "repair",
+              "screen": {
+                "x": 1251.0690894362108,
+                "y": 303.2812628055531
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "permissions": {
+          "verified": false,
+          "sourceLoaded": false,
+          "connected": false,
+          "draft": null,
+          "ports": [
+            {
+              "id": "read",
+              "open": false,
+              "screen": {
+                "x": 518.5036191715923,
+                "y": 278.33294670689213
+              }
+            },
+            {
+              "id": "draft",
+              "open": false,
+              "screen": {
+                "x": 545.7489927897063,
+                "y": 279.35600286888086
+              }
+            },
+            {
+              "id": "check",
+              "open": false,
+              "screen": {
+                "x": 573.5524795687932,
+                "y": 280.4000160240246
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "models": {
+          "job": "label",
+          "verified": false,
+          "selected": "terra",
+          "effort": "medium",
+          "kept": 0,
+          "controls": [
+            {
+              "id": "label",
+              "action": "job",
+              "screen": {
+                "x": 408.1118068165361,
+                "y": 274.043768197061
+              }
+            },
+            {
+              "id": "billing",
+              "action": "job",
+              "screen": {
+                "x": 432.20444964826316,
+                "y": 274.94709391884294
+              }
+            },
+            {
+              "id": "sheet",
+              "action": "job",
+              "screen": {
+                "x": 456.75184657504707,
+                "y": 275.8674701184001
+              }
+            },
+            {
+              "id": "astra",
+              "action": "model",
+              "screen": {
+                "x": 406.2067610213563,
+                "y": 293.2336464606705
+              }
+            },
+            {
+              "id": "sol",
+              "action": "model",
+              "screen": {
+                "x": 424.4097098457452,
+                "y": 294.0523041053177
+              }
+            },
+            {
+              "id": "terra",
+              "action": "model",
+              "screen": {
+                "x": 442.7210832940665,
+                "y": 292.7157907609176
+              }
+            },
+            {
+              "id": "luna",
+              "action": "model",
+              "screen": {
+                "x": 461.59877462657676,
+                "y": 295.7248414768075
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "harness": {
+          "selected": [],
+          "assembled": false,
+          "stage": 0,
+          "ports": [
+            {
+              "id": "context",
+              "amount": 0,
+              "screen": {
+                "x": 204.37508538652446,
+                "y": 278.0872213517166
+              }
+            },
+            {
+              "id": "model",
+              "amount": 1,
+              "screen": {
+                "x": 232.90503396736392,
+                "y": 279.2973610738795
+              }
+            },
+            {
+              "id": "tools",
+              "amount": 0,
+              "screen": {
+                "x": 262.1292909898396,
+                "y": 280.53695090957046
+              }
+            },
+            {
+              "id": "verify",
+              "amount": 0,
+              "screen": {
+                "x": 249.57167292144888,
+                "y": 311.0283010268049
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "context": {
+          "selected": [],
+          "verified": false,
+          "cards": [
+            {
+              "id": "brief",
+              "y": 2.09,
+              "screen": {
+                "x": 311.79046320198836,
+                "y": 306.9477999013863
+              }
+            },
+            {
+              "id": "sample",
+              "y": 2.09,
+              "screen": {
+                "x": 331.0780157195747,
+                "y": 307.9548849254449
+              }
+            },
+            {
+              "id": "image",
+              "y": 2.09,
+              "screen": {
+                "x": 350.66785343477466,
+                "y": 308.9777535433646
+              }
+            },
+            {
+              "id": "agents",
+              "y": 2.92,
+              "screen": {
+                "x": 308.86960010594714,
+                "y": 278.53999806449036
+              }
+            },
+            {
+              "id": "old",
+              "y": 2.92,
+              "screen": {
+                "x": 328.27336722537575,
+                "y": 279.331872161235
+              }
+            },
+            {
+              "id": "note",
+              "y": 2.92,
+              "screen": {
+                "x": 347.98345124791115,
+                "y": 280.13624715120693
+              }
+            }
+          ],
+          "loaded": true
+        },
+        "branches": {
+          "mode": "shared",
+          "collision": false,
+          "verified": false,
+          "chosen": null,
+          "cartridges": [
+            {
+              "id": "a",
+              "x": -0.22
+            },
+            {
+              "id": "b",
+              "x": 0.22
+            }
+          ],
+          "loaded": true
+        },
+        "drawCalls": 147,
+        "renderFrameMs": 6,
+        "meshes": 188,
+        "triangles": 391552,
+        "animations": [
+          "Beckon",
+          "Celebrate",
+          "Correct",
+          "Greet",
+          "Idle",
+          "Inspect",
+          "Point",
+          "PointLeft",
+          "Return",
+          "Think",
+          "Travel",
+          "Wait"
+        ],
+        "animationPlaying": true,
+        "gesture": "Idle",
+        "blending": false,
+        "transition": 0,
+        "frameMs": [
+          0,
+          174,
+          40,
+          16,
+          30,
+          34,
+          35,
+          31,
+          33,
+          9,
+          6,
+          19,
+          35,
+          97,
+          8,
+          42,
+          49
+        ],
+        "camera": {
+          "alpha": 1.22,
+          "beta": 1.31,
+          "radius": 13.5,
+          "target": [
+            -1.3,
+            2.3,
+            2
+          ],
+          "visibility": null
+        },
+        "mascot": {
+          "x": 2,
+          "y": 0.35,
+          "z": 2,
+          "displayLift": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-evaluate",
+  "result": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/skinned-guide-submissions.json",
+    "goalId": "skinned-guide-submissions",
+    "iteration": 1,
+    "candidateRunId": "run_1789064823129_8c07d051fb2f4ba29b5588b119b33b30",
+    "baselineValue": 125,
+    "candidateValue": 99,
+    "target": 100,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 0,
+    "allowedPaths": [
+      "src/mascot-detail.ts",
+      "src/skinned-guide-batch.ts",
+      "src/world.ts",
+      "tests/guide-batches",
+      "tools/guide-batches"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  },
+  "completedAt": "2026-09-10T18:29:44.808Z"
+}

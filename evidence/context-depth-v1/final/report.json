@@ -1,0 +1,50 @@
+[
+  {
+    "name": "chrome",
+    "pass": true,
+    "checks": [
+      "3D entry",
+      "stale mismatch",
+      "current verification",
+      "3D document pick",
+      "preserved exercise/progress/camera",
+      "example pause/resume",
+      "reset",
+      "portrait",
+      "reduced motion restored",
+      "example cancelled on exit"
+    ]
+  },
+  {
+    "name": "firefox",
+    "pass": true,
+    "checks": [
+      "3D entry",
+      "stale mismatch",
+      "current verification",
+      "3D document pick",
+      "preserved exercise/progress/camera",
+      "example pause/resume",
+      "reset",
+      "portrait",
+      "reduced motion restored",
+      "example cancelled on exit"
+    ]
+  },
+  {
+    "name": "webkit",
+    "pass": true,
+    "checks": [
+      "3D entry",
+      "stale mismatch",
+      "current verification",
+      "3D document pick",
+      "preserved exercise/progress/camera",
+      "example pause/resume",
+      "reset",
+      "portrait",
+      "reduced motion restored",
+      "example cancelled on exit"
+    ]
+  }
+]

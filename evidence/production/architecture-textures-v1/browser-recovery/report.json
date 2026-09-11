@@ -1,0 +1,2565 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "engine": "chrome",
+      "version": "153.0.8010.36",
+      "fixture": "normal",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 10878,
+      "architecture": {
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          }
+        ],
+        "workers": 0
+      },
+      "marks": [
+        {
+          "name": "codex.architecture.textures",
+          "duration": 207.40000000596046
+        }
+      ],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "chrome",
+      "version": "153.0.8010.36",
+      "fixture": "missing-texture",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 10825,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "Error: shell-albedo: HTTP 404",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          }
+        ],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "chrome",
+      "version": "153.0.8010.36",
+      "fixture": "missing-decoder",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 10664,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "Error: Architecture decoder unavailable",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "chrome",
+      "version": "153.0.8010.36",
+      "fixture": "hung-decoder",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 18573,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "Error: Architecture decoder deadline",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "fixture": "normal",
+      "compressionSupported": false,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 12499,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "High-quality GPU texture compression unavailable",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "fixture": "missing-texture",
+      "compressionSupported": false,
+      "fixtureExercised": false,
+      "pass": true,
+      "elapsedMs": 12397,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "High-quality GPU texture compression unavailable",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "fixture": "missing-decoder",
+      "compressionSupported": false,
+      "fixtureExercised": false,
+      "pass": true,
+      "elapsedMs": 12309,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "High-quality GPU texture compression unavailable",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "fixture": "hung-decoder",
+      "compressionSupported": false,
+      "fixtureExercised": false,
+      "pass": true,
+      "elapsedMs": 12317,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "High-quality GPU texture compression unavailable",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "fixture": "normal",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 11910,
+      "architecture": {
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37808,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          }
+        ],
+        "workers": 0
+      },
+      "marks": [
+        {
+          "name": "codex.architecture.textures",
+          "duration": 340
+        }
+      ],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "fixture": "missing-texture",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 11244,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "Error: shell-albedo: HTTP 404",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37840,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37840,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37840,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37840,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37840,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37840,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37840,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37840,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37840,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37840,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37840,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37840,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 0,
+            "format": 37808,
+            "width": 2048,
+            "height": 2048,
+            "bytes": 4194304
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 1,
+            "format": 37808,
+            "width": 1024,
+            "height": 1024,
+            "bytes": 1048576
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 2,
+            "format": 37808,
+            "width": 512,
+            "height": 512,
+            "bytes": 262144
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 3,
+            "format": 37808,
+            "width": 256,
+            "height": 256,
+            "bytes": 65536
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 4,
+            "format": 37808,
+            "width": 128,
+            "height": 128,
+            "bytes": 16384
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 5,
+            "format": 37808,
+            "width": 64,
+            "height": 64,
+            "bytes": 4096
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 6,
+            "format": 37808,
+            "width": 32,
+            "height": 32,
+            "bytes": 1024
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 7,
+            "format": 37808,
+            "width": 16,
+            "height": 16,
+            "bytes": 256
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 8,
+            "format": 37808,
+            "width": 8,
+            "height": 8,
+            "bytes": 64
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 9,
+            "format": 37808,
+            "width": 4,
+            "height": 4,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 10,
+            "format": 37808,
+            "width": 2,
+            "height": 2,
+            "bytes": 16
+          },
+          {
+            "method": "compressedTexSubImage2D",
+            "level": 11,
+            "format": 37808,
+            "width": 1,
+            "height": 1,
+            "bytes": 16
+          }
+        ],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "fixture": "missing-decoder",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 11156,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "Error: Architecture decoder unavailable",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    },
+    {
+      "engine": "webkit",
+      "version": "26.6",
+      "fixture": "hung-decoder",
+      "compressionSupported": true,
+      "fixtureExercised": true,
+      "pass": true,
+      "elapsedMs": 19049,
+      "architecture": {
+        "textureCompression": {
+          "mode": "original",
+          "reason": "Error: Architecture decoder deadline",
+          "textures": []
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "test": {
+        "uploads": [],
+        "workers": 0
+      },
+      "marks": [],
+      "errors": [],
+      "external": []
+    }
+  ]
+}

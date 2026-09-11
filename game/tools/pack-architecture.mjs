@@ -1,0 +1,26 @@
+import {NodeIO,getBounds} from '@gltf-transform/core';
+import {ALL_EXTENSIONS} from '@gltf-transform/extensions';
+import {dedup,weld,quantize} from '@gltf-transform/functions';
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+const path='public/assets/headquarters/architecture.glb';
+const source='../art-source/headquarters-browser-unquantized.glb';
+const inputPath=process.argv[2]??path;
+const reportPath=process.argv[3]??'../evidence/production/geometry-packing-latest.json';
+// A repeated run must not replace the unquantized source with the packed output.
+const input=await fs.readFile(inputPath);
+assert.equal(input.readUInt32LE(0),0x46546c67,'Expected a binary glTF input');
+const jsonLength=input.readUInt32LE(12);
+const metadata=JSON.parse(input.subarray(20,20+jsonLength).toString('utf8'));
+assert(!metadata.extensionsUsed?.includes('KHR_mesh_quantization'),'Already quantized: export a fresh Blender source before packing. Existing source backup is unchanged.');
+await fs.copyFile(inputPath,source);
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS);const doc=await io.read(source);
+const count=()=>doc.getRoot().listMeshes().reduce((n,m)=>n+m.listPrimitives().reduce((a,p)=>a+(p.getIndices()?.getCount()??p.getAttribute('POSITION').getCount())/3,0),0);
+const before={bytes:(await fs.stat(source)).size,triangles:count(),bounds:getBounds(doc.getRoot().listScenes()[0])};
+await doc.transform(dedup(),weld(),quantize({quantizationVolume:'mesh',quantizePosition:16,quantizeNormal:12,quantizeTexcoord:16}));
+const after={triangles:count(),bounds:getBounds(doc.getRoot().listScenes()[0])};
+assert.equal(before.triangles,after.triangles,'Packing must preserve every triangle');
+for(const key of ['min','max'])for(let i=0;i<3;i++)assert(Math.abs(before.bounds[key][i]-after.bounds[key][i])<.004,'Packed geometry bounds moved by more than 4 mm');
+await io.write(path,doc);const bytes=await fs.readFile(path);after.bytes=bytes.length;after.sha256=crypto.createHash('sha256').update(bytes).digest('hex');
+await fs.writeFile(reportPath,JSON.stringify({inputPath,method:'dedup, weld, 16-bit positions/UVs and 12-bit normals; no simplification',before,after},null,2));console.log(JSON.stringify({before,after},null,2));

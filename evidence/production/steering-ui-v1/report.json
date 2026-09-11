@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "1440x900 high: spatial steering, work-step and queue controls share the active rehearsal",
+    "1440x900 balanced: spatial steering, work-step and queue controls share the active rehearsal",
+    "1440x900: status preserves work; steering and queued runs produce checked French artifacts; stale-source recovery, keyboard advancement and replayed receipt reload pass",
+    "390x844 high: spatial steering, work-step and queue controls share the active rehearsal",
+    "390x844 balanced: spatial steering, work-step and queue controls share the active rehearsal",
+    "390x844: status preserves work; steering and queued runs produce checked French artifacts; stale-source recovery, keyboard advancement and replayed receipt reload pass",
+    "844x390 high: spatial steering, work-step and queue controls share the active rehearsal",
+    "844x390 balanced: spatial steering, work-step and queue controls share the active rehearsal",
+    "844x390: status preserves work; steering and queued runs produce checked French artifacts; stale-source recovery, keyboard advancement and replayed receipt reload pass"
+  ],
+  "errors": []
+}

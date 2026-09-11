@@ -1,0 +1,45 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "file": "candidate-balanced-handoff.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-high-control.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-high-arrival.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-high-tasks.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-high-tools.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-high-handoff.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-balanced-tasks.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-balanced-arrival.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-balanced-tools.png",
+      "identical": true
+    },
+    {
+      "file": "candidate-balanced-control.png",
+      "identical": true
+    }
+  ]
+}

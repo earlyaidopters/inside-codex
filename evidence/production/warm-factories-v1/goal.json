@@ -1,0 +1,12 @@
+{
+  "id": "warm-exhibit-factories",
+  "metric": "render.held_frames",
+  "statistic": "max",
+  "unit": "count",
+  "direction": "lower",
+  "target": 0,
+  "maximumIterations": 1,
+  "allowedPaths": [
+    "src/exhibit-residency.ts"
+  ]
+}

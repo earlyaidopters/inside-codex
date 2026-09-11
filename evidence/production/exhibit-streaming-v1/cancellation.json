@@ -1,0 +1,1376 @@
+[
+  {
+    "name": "chrome",
+    "pass": true,
+    "residency": {
+      "active": 11,
+      "ready": true,
+      "heldFrames": 10,
+      "holdingSince": null,
+      "events": [
+        {
+          "at": 630.7000000029802,
+          "kind": "load-start",
+          "id": "tool"
+        },
+        {
+          "at": 631.2000000029802,
+          "kind": "load-start",
+          "id": "steering"
+        },
+        {
+          "at": 631.2999999970198,
+          "kind": "load-start",
+          "id": "review"
+        },
+        {
+          "at": 631.5,
+          "kind": "load-start",
+          "id": "permission"
+        },
+        {
+          "at": 631.5999999940395,
+          "kind": "load-start",
+          "id": "model"
+        },
+        {
+          "at": 631.9000000059605,
+          "kind": "load-start",
+          "id": "context"
+        },
+        {
+          "at": 632,
+          "kind": "load-start",
+          "id": "branch"
+        },
+        {
+          "at": 632.2000000029802,
+          "kind": "load-start",
+          "id": "harness"
+        },
+        {
+          "at": 646.2999999970198,
+          "kind": "load-ready",
+          "id": "tool",
+          "durationMs": 15.599999994039536
+        },
+        {
+          "at": 650.5999999940395,
+          "kind": "load-ready",
+          "id": "steering",
+          "durationMs": 19.399999991059303
+        },
+        {
+          "at": 655.9000000059605,
+          "kind": "load-ready",
+          "id": "review",
+          "durationMs": 24.600000008940697
+        },
+        {
+          "at": 661.5,
+          "kind": "load-ready",
+          "id": "permission",
+          "durationMs": 30
+        },
+        {
+          "at": 681.0999999940395,
+          "kind": "load-ready",
+          "id": "context",
+          "durationMs": 49.19999998807907
+        },
+        {
+          "at": 690.5999999940395,
+          "kind": "load-ready",
+          "id": "model",
+          "durationMs": 59
+        },
+        {
+          "at": 693.0999999940395,
+          "kind": "load-ready",
+          "id": "branch",
+          "durationMs": 61.099999994039536
+        },
+        {
+          "at": 703,
+          "kind": "load-ready",
+          "id": "harness",
+          "durationMs": 70.79999999701977
+        },
+        {
+          "at": 3953.2000000029802,
+          "kind": "release",
+          "id": "tool"
+        },
+        {
+          "at": 5368.5999999940395,
+          "kind": "release",
+          "id": "review"
+        },
+        {
+          "at": 5501.5,
+          "kind": "load-start",
+          "id": "capstone"
+        },
+        {
+          "at": 5502.0999999940395,
+          "kind": "view-held"
+        },
+        {
+          "at": 5551.5999999940395,
+          "kind": "view-released",
+          "durationMs": 49.5
+        },
+        {
+          "at": 5553.9000000059605,
+          "kind": "load-discard",
+          "id": "capstone"
+        },
+        {
+          "at": 5668.20000000298,
+          "kind": "load-start",
+          "id": "capstone"
+        },
+        {
+          "at": 5668.29999999702,
+          "kind": "view-held"
+        },
+        {
+          "at": 5676.29999999702,
+          "kind": "load-ready",
+          "id": "capstone",
+          "durationMs": 8.099999994039536
+        },
+        {
+          "at": 5685,
+          "kind": "view-released",
+          "durationMs": 16.700000002980232
+        },
+        {
+          "at": 5751.79999999702,
+          "kind": "release",
+          "id": "steering"
+        },
+        {
+          "at": 6068.4000000059605,
+          "kind": "release",
+          "id": "branch"
+        },
+        {
+          "at": 6902,
+          "kind": "release",
+          "id": "permission"
+        },
+        {
+          "at": 7051.70000000298,
+          "kind": "load-start",
+          "id": "permission"
+        },
+        {
+          "at": 7051.9000000059605,
+          "kind": "view-held"
+        },
+        {
+          "at": 7055.9000000059605,
+          "kind": "load-ready",
+          "id": "permission",
+          "durationMs": 4.200000002980232
+        },
+        {
+          "at": 7068.20000000298,
+          "kind": "view-released",
+          "durationMs": 16.299999997019768
+        },
+        {
+          "at": 7734.70000000298,
+          "kind": "load-start",
+          "id": "branch"
+        },
+        {
+          "at": 7734.79999999702,
+          "kind": "view-held"
+        },
+        {
+          "at": 7737.5,
+          "kind": "load-ready",
+          "id": "branch",
+          "durationMs": 2.7999999970197678
+        },
+        {
+          "at": 7751.4000000059605,
+          "kind": "view-released",
+          "durationMs": 16.600000008940697
+        },
+        {
+          "at": 7984.79999999702,
+          "kind": "load-start",
+          "id": "steering"
+        },
+        {
+          "at": 7984.9000000059605,
+          "kind": "view-held"
+        },
+        {
+          "at": 7988.9000000059605,
+          "kind": "load-ready",
+          "id": "steering",
+          "durationMs": 4.100000008940697
+        },
+        {
+          "at": 8001.5,
+          "kind": "view-released",
+          "durationMs": 16.599999994039536
+        },
+        {
+          "at": 8234.79999999702,
+          "kind": "load-start",
+          "id": "review"
+        },
+        {
+          "at": 8234.90000000596,
+          "kind": "view-held"
+        },
+        {
+          "at": 8238.79999999702,
+          "kind": "load-ready",
+          "id": "review",
+          "durationMs": 4
+        },
+        {
+          "at": 8251.40000000596,
+          "kind": "view-released",
+          "durationMs": 16.5
+        },
+        {
+          "at": 8584.79999999702,
+          "kind": "load-start",
+          "id": "tool"
+        },
+        {
+          "at": 8584.90000000596,
+          "kind": "view-held"
+        },
+        {
+          "at": 8588.90000000596,
+          "kind": "load-ready",
+          "id": "tool",
+          "durationMs": 4.100000008940697
+        },
+        {
+          "at": 8601.5,
+          "kind": "view-released",
+          "durationMs": 16.599999994039536
+        },
+        {
+          "at": 9068,
+          "kind": "load-start",
+          "id": "automation"
+        },
+        {
+          "at": 9068.40000000596,
+          "kind": "view-held"
+        },
+        {
+          "at": 9084.20000000298,
+          "kind": "load-ready",
+          "id": "automation",
+          "durationMs": 16.200000002980232
+        },
+        {
+          "at": 9084.70000000298,
+          "kind": "view-released",
+          "durationMs": 16.299999997019768
+        }
+      ],
+      "entries": [
+        {
+          "id": "capstone",
+          "station": 11,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 15,
+            "materials": 10,
+            "textures": 5
+          }
+        },
+        {
+          "id": "handoff",
+          "station": 11,
+          "enabled": false,
+          "wanted": false,
+          "loaded": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "automation",
+          "station": 10,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 26,
+            "materials": 12,
+            "textures": 8
+          }
+        },
+        {
+          "id": "tool",
+          "station": 8,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 17,
+            "materials": 13,
+            "textures": 7
+          }
+        },
+        {
+          "id": "steering",
+          "station": 6,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 20,
+            "materials": 11,
+            "textures": 6
+          }
+        },
+        {
+          "id": "review",
+          "station": 7,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 14,
+            "materials": 8,
+            "textures": 5
+          }
+        },
+        {
+          "id": "permission",
+          "station": 3,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 43,
+            "materials": 9,
+            "textures": 3
+          }
+        },
+        {
+          "id": "model",
+          "station": 2,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 26,
+            "materials": 14,
+            "textures": 8
+          }
+        },
+        {
+          "id": "context",
+          "station": 1,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 16,
+            "materials": 9,
+            "textures": 7
+          }
+        },
+        {
+          "id": "branch",
+          "station": 5,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 8,
+            "materials": 4,
+            "textures": 2
+          }
+        },
+        {
+          "id": "harness",
+          "station": 0,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 18,
+            "materials": 12,
+            "textures": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "firefox",
+    "pass": true,
+    "residency": {
+      "active": 11,
+      "ready": true,
+      "heldFrames": 11,
+      "holdingSince": null,
+      "events": [
+        {
+          "at": 603,
+          "kind": "load-start",
+          "id": "tool"
+        },
+        {
+          "at": 604,
+          "kind": "load-start",
+          "id": "steering"
+        },
+        {
+          "at": 604,
+          "kind": "load-start",
+          "id": "review"
+        },
+        {
+          "at": 604,
+          "kind": "load-start",
+          "id": "permission"
+        },
+        {
+          "at": 605,
+          "kind": "load-start",
+          "id": "model"
+        },
+        {
+          "at": 605,
+          "kind": "load-start",
+          "id": "context"
+        },
+        {
+          "at": 605,
+          "kind": "load-start",
+          "id": "branch"
+        },
+        {
+          "at": 606,
+          "kind": "load-start",
+          "id": "harness"
+        },
+        {
+          "at": 617,
+          "kind": "load-ready",
+          "id": "tool",
+          "durationMs": 14
+        },
+        {
+          "at": 623,
+          "kind": "load-ready",
+          "id": "steering",
+          "durationMs": 19
+        },
+        {
+          "at": 629,
+          "kind": "load-ready",
+          "id": "review",
+          "durationMs": 25
+        },
+        {
+          "at": 640,
+          "kind": "load-ready",
+          "id": "permission",
+          "durationMs": 36
+        },
+        {
+          "at": 656,
+          "kind": "load-ready",
+          "id": "model",
+          "durationMs": 51
+        },
+        {
+          "at": 661,
+          "kind": "load-ready",
+          "id": "context",
+          "durationMs": 56
+        },
+        {
+          "at": 665,
+          "kind": "load-ready",
+          "id": "branch",
+          "durationMs": 60
+        },
+        {
+          "at": 676,
+          "kind": "load-ready",
+          "id": "harness",
+          "durationMs": 70
+        },
+        {
+          "at": 5366,
+          "kind": "release",
+          "id": "tool"
+        },
+        {
+          "at": 6794,
+          "kind": "release",
+          "id": "review"
+        },
+        {
+          "at": 7021,
+          "kind": "load-start",
+          "id": "capstone"
+        },
+        {
+          "at": 7022,
+          "kind": "view-held"
+        },
+        {
+          "at": 7093,
+          "kind": "view-released",
+          "durationMs": 71
+        },
+        {
+          "at": 7100,
+          "kind": "load-discard",
+          "id": "capstone"
+        },
+        {
+          "at": 7152,
+          "kind": "release",
+          "id": "steering"
+        },
+        {
+          "at": 7322,
+          "kind": "load-start",
+          "id": "capstone"
+        },
+        {
+          "at": 7322,
+          "kind": "view-held"
+        },
+        {
+          "at": 7337,
+          "kind": "load-ready",
+          "id": "capstone",
+          "durationMs": 15
+        },
+        {
+          "at": 7364,
+          "kind": "view-released",
+          "durationMs": 42
+        },
+        {
+          "at": 7508,
+          "kind": "release",
+          "id": "branch"
+        },
+        {
+          "at": 8306,
+          "kind": "release",
+          "id": "permission"
+        },
+        {
+          "at": 8707,
+          "kind": "load-start",
+          "id": "permission"
+        },
+        {
+          "at": 8707,
+          "kind": "view-held"
+        },
+        {
+          "at": 8714,
+          "kind": "load-ready",
+          "id": "permission",
+          "durationMs": 7
+        },
+        {
+          "at": 8726,
+          "kind": "view-released",
+          "durationMs": 19
+        },
+        {
+          "at": 9405,
+          "kind": "load-start",
+          "id": "branch"
+        },
+        {
+          "at": 9405,
+          "kind": "view-held"
+        },
+        {
+          "at": 9410,
+          "kind": "load-ready",
+          "id": "branch",
+          "durationMs": 5
+        },
+        {
+          "at": 9424,
+          "kind": "view-released",
+          "durationMs": 19
+        },
+        {
+          "at": 9662,
+          "kind": "load-start",
+          "id": "steering"
+        },
+        {
+          "at": 9662,
+          "kind": "view-held"
+        },
+        {
+          "at": 9668,
+          "kind": "load-ready",
+          "id": "steering",
+          "durationMs": 6
+        },
+        {
+          "at": 9682,
+          "kind": "view-released",
+          "durationMs": 20
+        },
+        {
+          "at": 9915,
+          "kind": "load-start",
+          "id": "review"
+        },
+        {
+          "at": 9915,
+          "kind": "view-held"
+        },
+        {
+          "at": 9920,
+          "kind": "load-ready",
+          "id": "review",
+          "durationMs": 5
+        },
+        {
+          "at": 9936,
+          "kind": "view-released",
+          "durationMs": 21
+        },
+        {
+          "at": 10269,
+          "kind": "load-start",
+          "id": "tool"
+        },
+        {
+          "at": 10271,
+          "kind": "view-held"
+        },
+        {
+          "at": 10276,
+          "kind": "load-ready",
+          "id": "tool",
+          "durationMs": 7
+        },
+        {
+          "at": 10290,
+          "kind": "view-released",
+          "durationMs": 19
+        },
+        {
+          "at": 10751,
+          "kind": "load-start",
+          "id": "automation"
+        },
+        {
+          "at": 10751,
+          "kind": "view-held"
+        },
+        {
+          "at": 10764,
+          "kind": "load-ready",
+          "id": "automation",
+          "durationMs": 13
+        },
+        {
+          "at": 10771,
+          "kind": "view-released",
+          "durationMs": 19
+        }
+      ],
+      "entries": [
+        {
+          "id": "capstone",
+          "station": 11,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 15,
+            "materials": 10,
+            "textures": 5
+          }
+        },
+        {
+          "id": "handoff",
+          "station": 11,
+          "enabled": false,
+          "wanted": false,
+          "loaded": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "automation",
+          "station": 10,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 26,
+            "materials": 12,
+            "textures": 8
+          }
+        },
+        {
+          "id": "tool",
+          "station": 8,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 17,
+            "materials": 13,
+            "textures": 7
+          }
+        },
+        {
+          "id": "steering",
+          "station": 6,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 20,
+            "materials": 11,
+            "textures": 6
+          }
+        },
+        {
+          "id": "review",
+          "station": 7,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 14,
+            "materials": 8,
+            "textures": 5
+          }
+        },
+        {
+          "id": "permission",
+          "station": 3,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 43,
+            "materials": 9,
+            "textures": 3
+          }
+        },
+        {
+          "id": "model",
+          "station": 2,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 26,
+            "materials": 14,
+            "textures": 8
+          }
+        },
+        {
+          "id": "context",
+          "station": 1,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 16,
+            "materials": 9,
+            "textures": 7
+          }
+        },
+        {
+          "id": "branch",
+          "station": 5,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 8,
+            "materials": 4,
+            "textures": 2
+          }
+        },
+        {
+          "id": "harness",
+          "station": 0,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 18,
+            "materials": 12,
+            "textures": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "webkit",
+    "pass": true,
+    "residency": {
+      "active": 11,
+      "ready": true,
+      "heldFrames": 12,
+      "holdingSince": null,
+      "events": [
+        {
+          "at": 585,
+          "kind": "load-start",
+          "id": "tool"
+        },
+        {
+          "at": 585,
+          "kind": "load-start",
+          "id": "steering"
+        },
+        {
+          "at": 585,
+          "kind": "load-start",
+          "id": "review"
+        },
+        {
+          "at": 585,
+          "kind": "load-start",
+          "id": "permission"
+        },
+        {
+          "at": 585,
+          "kind": "load-start",
+          "id": "model"
+        },
+        {
+          "at": 585,
+          "kind": "load-start",
+          "id": "context"
+        },
+        {
+          "at": 585,
+          "kind": "load-start",
+          "id": "branch"
+        },
+        {
+          "at": 586,
+          "kind": "load-start",
+          "id": "harness"
+        },
+        {
+          "at": 607,
+          "kind": "load-ready",
+          "id": "tool",
+          "durationMs": 23
+        },
+        {
+          "at": 617,
+          "kind": "load-ready",
+          "id": "steering",
+          "durationMs": 32
+        },
+        {
+          "at": 629,
+          "kind": "load-ready",
+          "id": "review",
+          "durationMs": 44
+        },
+        {
+          "at": 637,
+          "kind": "load-ready",
+          "id": "permission",
+          "durationMs": 52
+        },
+        {
+          "at": 672,
+          "kind": "load-ready",
+          "id": "model",
+          "durationMs": 87
+        },
+        {
+          "at": 684,
+          "kind": "load-ready",
+          "id": "context",
+          "durationMs": 99
+        },
+        {
+          "at": 690,
+          "kind": "load-ready",
+          "id": "branch",
+          "durationMs": 105
+        },
+        {
+          "at": 703,
+          "kind": "load-ready",
+          "id": "harness",
+          "durationMs": 117
+        },
+        {
+          "at": 4154,
+          "kind": "release",
+          "id": "tool"
+        },
+        {
+          "at": 5618,
+          "kind": "release",
+          "id": "review"
+        },
+        {
+          "at": 5784,
+          "kind": "load-start",
+          "id": "capstone"
+        },
+        {
+          "at": 5784,
+          "kind": "view-held"
+        },
+        {
+          "at": 5862,
+          "kind": "load-discard",
+          "id": "capstone"
+        },
+        {
+          "at": 5884,
+          "kind": "view-released",
+          "durationMs": 100
+        },
+        {
+          "at": 5951,
+          "kind": "release",
+          "id": "steering"
+        },
+        {
+          "at": 6051,
+          "kind": "load-start",
+          "id": "capstone"
+        },
+        {
+          "at": 6051,
+          "kind": "view-held"
+        },
+        {
+          "at": 6063,
+          "kind": "load-ready",
+          "id": "capstone",
+          "durationMs": 12
+        },
+        {
+          "at": 6084,
+          "kind": "view-released",
+          "durationMs": 33
+        },
+        {
+          "at": 6284,
+          "kind": "release",
+          "id": "branch"
+        },
+        {
+          "at": 7118,
+          "kind": "release",
+          "id": "permission"
+        },
+        {
+          "at": 7451,
+          "kind": "load-start",
+          "id": "permission"
+        },
+        {
+          "at": 7451,
+          "kind": "view-held"
+        },
+        {
+          "at": 7460,
+          "kind": "load-ready",
+          "id": "permission",
+          "durationMs": 9
+        },
+        {
+          "at": 7484,
+          "kind": "view-released",
+          "durationMs": 33
+        },
+        {
+          "at": 8151,
+          "kind": "load-start",
+          "id": "branch"
+        },
+        {
+          "at": 8151,
+          "kind": "view-held"
+        },
+        {
+          "at": 8156,
+          "kind": "load-ready",
+          "id": "branch",
+          "durationMs": 5
+        },
+        {
+          "at": 8182,
+          "kind": "view-released",
+          "durationMs": 31
+        },
+        {
+          "at": 8417,
+          "kind": "load-start",
+          "id": "steering"
+        },
+        {
+          "at": 8417,
+          "kind": "view-held"
+        },
+        {
+          "at": 8430,
+          "kind": "load-ready",
+          "id": "steering",
+          "durationMs": 13
+        },
+        {
+          "at": 8451,
+          "kind": "view-released",
+          "durationMs": 34
+        },
+        {
+          "at": 8684,
+          "kind": "load-start",
+          "id": "review"
+        },
+        {
+          "at": 8684,
+          "kind": "view-held"
+        },
+        {
+          "at": 8694,
+          "kind": "load-ready",
+          "id": "review",
+          "durationMs": 10
+        },
+        {
+          "at": 8717,
+          "kind": "view-released",
+          "durationMs": 33
+        },
+        {
+          "at": 9051,
+          "kind": "load-start",
+          "id": "tool"
+        },
+        {
+          "at": 9051,
+          "kind": "view-held"
+        },
+        {
+          "at": 9064,
+          "kind": "load-ready",
+          "id": "tool",
+          "durationMs": 13
+        },
+        {
+          "at": 9084,
+          "kind": "view-released",
+          "durationMs": 33
+        },
+        {
+          "at": 9551,
+          "kind": "load-start",
+          "id": "automation"
+        },
+        {
+          "at": 9551,
+          "kind": "view-held"
+        },
+        {
+          "at": 9571,
+          "kind": "load-ready",
+          "id": "automation",
+          "durationMs": 20
+        },
+        {
+          "at": 9584,
+          "kind": "view-released",
+          "durationMs": 33
+        }
+      ],
+      "entries": [
+        {
+          "id": "capstone",
+          "station": 11,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 15,
+            "materials": 10,
+            "textures": 5
+          }
+        },
+        {
+          "id": "handoff",
+          "station": 11,
+          "enabled": false,
+          "wanted": false,
+          "loaded": false,
+          "pending": false,
+          "loads": 0,
+          "unloads": 0,
+          "error": null,
+          "resources": null
+        },
+        {
+          "id": "automation",
+          "station": 10,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 26,
+            "materials": 12,
+            "textures": 8
+          }
+        },
+        {
+          "id": "tool",
+          "station": 8,
+          "enabled": true,
+          "wanted": true,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 17,
+            "materials": 13,
+            "textures": 7
+          }
+        },
+        {
+          "id": "steering",
+          "station": 6,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 20,
+            "materials": 11,
+            "textures": 6
+          }
+        },
+        {
+          "id": "review",
+          "station": 7,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 14,
+            "materials": 8,
+            "textures": 5
+          }
+        },
+        {
+          "id": "permission",
+          "station": 3,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 43,
+            "materials": 9,
+            "textures": 3
+          }
+        },
+        {
+          "id": "model",
+          "station": 2,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 26,
+            "materials": 14,
+            "textures": 8
+          }
+        },
+        {
+          "id": "context",
+          "station": 1,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 16,
+            "materials": 9,
+            "textures": 7
+          }
+        },
+        {
+          "id": "branch",
+          "station": 5,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 2,
+          "unloads": 1,
+          "error": null,
+          "resources": {
+            "meshes": 8,
+            "materials": 4,
+            "textures": 2
+          }
+        },
+        {
+          "id": "harness",
+          "station": 0,
+          "enabled": true,
+          "wanted": false,
+          "loaded": true,
+          "pending": false,
+          "loads": 1,
+          "unloads": 0,
+          "error": null,
+          "resources": {
+            "meshes": 18,
+            "materials": 12,
+            "textures": 4
+          }
+        }
+      ]
+    }
+  }
+]

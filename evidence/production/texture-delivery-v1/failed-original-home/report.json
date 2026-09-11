@@ -1,0 +1,7 @@
+{
+  "pass": false,
+  "error": "Error: page.waitForFunction: TypeError: Cannot read properties of undefined (reading 'state')\n    at eval (eval at predicate (eval at evaluate (:311:30)), <anonymous>:1:27)\n    at predicate (eval at evaluate (:311:30), <anonymous>:7:27)\n    at next (eval at evaluate (:311:30), <anonymous>:29:33)\n    at eval (eval at evaluate (:311:30), <anonymous>:42:13)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "errors": [
+    "Cannot read properties of undefined (reading 'state')"
+  ]
+}

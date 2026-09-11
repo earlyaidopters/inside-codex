@@ -1,0 +1,216 @@
+{
+  "pass": true,
+  "scope": "Real browser worker pools with UI-driven changes, known encoded numeric data, URL lifetime observation and asynchronous script-failure fixtures. No codec algorithm changes or native GPU timing claim.",
+  "results": [
+    {
+      "name": "chromium",
+      "version": "153.0.8010.36",
+      "pass": true,
+      "checks": [
+        {
+          "workers": "one",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 1,
+          "revoked": 1
+        },
+        {
+          "workers": "two",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 2,
+          "revoked": 2
+        },
+        {
+          "workers": "one",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 3,
+          "revoked": 3
+        },
+        {
+          "workers": "two",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 4,
+          "revoked": 4
+        },
+        {
+          "scenario": "worker startup errors resolve pending jobs through scalar fallback",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 6,
+          "revoked": 6
+        },
+        {
+          "scenario": "later requests recover from already-failed workers"
+        }
+      ],
+      "final": {
+        "ready": true,
+        "done": true,
+        "completed": 20,
+        "errors": [],
+        "liveURLs": 0,
+        "created": 7,
+        "revoked": 7
+      },
+      "errors": []
+    },
+    {
+      "name": "firefox",
+      "version": "155.0",
+      "pass": true,
+      "checks": [
+        {
+          "workers": "one",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 1,
+          "revoked": 1
+        },
+        {
+          "workers": "two",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 2,
+          "revoked": 2
+        },
+        {
+          "workers": "one",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 3,
+          "revoked": 3
+        },
+        {
+          "workers": "two",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 4,
+          "revoked": 4
+        },
+        {
+          "scenario": "worker startup errors resolve pending jobs through scalar fallback",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 6,
+          "revoked": 6
+        },
+        {
+          "scenario": "later requests recover from already-failed workers"
+        }
+      ],
+      "final": {
+        "ready": true,
+        "done": true,
+        "completed": 20,
+        "errors": [],
+        "liveURLs": 0,
+        "created": 7,
+        "revoked": 7
+      },
+      "errors": []
+    },
+    {
+      "name": "webkit",
+      "version": "26.6",
+      "pass": true,
+      "checks": [
+        {
+          "workers": "one",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 1,
+          "revoked": 1
+        },
+        {
+          "workers": "two",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 2,
+          "revoked": 2
+        },
+        {
+          "workers": "one",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 3,
+          "revoked": 3
+        },
+        {
+          "workers": "two",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 4,
+          "revoked": 4
+        },
+        {
+          "scenario": "worker startup errors resolve pending jobs through scalar fallback",
+          "ready": true,
+          "done": true,
+          "completed": 20,
+          "errors": [],
+          "liveURLs": 0,
+          "created": 6,
+          "revoked": 6
+        },
+        {
+          "scenario": "later requests recover from already-failed workers"
+        }
+      ],
+      "final": {
+        "ready": true,
+        "done": true,
+        "completed": 20,
+        "errors": [],
+        "liveURLs": 0,
+        "created": 7,
+        "revoked": 7
+      },
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "speechBackend": "Deterministic speech lifecycle fixture; real Web Audio mixing, actual UI controls. Does not validate voice quality.",
+  "checks": [
+    "Speech start exposes exact captions, hides the overlapping compact heading and ducks the real music bus",
+    "Skip clears captions and restores music without leaving a canceled speech callback active",
+    "Result narration matches the visible explanation and moving to the next exercise cancels it",
+    "Mute cancels active speech and captions immediately"
+  ],
+  "pass": true
+}

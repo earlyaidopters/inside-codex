@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "date": "2026-09-10T03:39:17.150Z",
+  "checks": [
+    "Import immediately applies progress, saved tasks, reduced motion, and quality",
+    "Malformed import preserves the existing workspace",
+    "Restored reduced-motion setting prevents animation on startup",
+    "Reset clears practice artifacts and reapplies default settings",
+    "A failed 3D asset leaves the actual task exercise usable",
+    "Blocked browser storage still permits play and a downloadable progress save"
+  ]
+}

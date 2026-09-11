@@ -1,0 +1,38 @@
+{
+  "source": "headquarters-baked.blend",
+  "precision": "float bake sources preserved separately; JPEG90 albedo, PNG8 linear indirect",
+  "files": {
+    "floor-indirect.png": {
+      "bytes": 2255361,
+      "sha256": "034865a0ee296cb4ed426437236192f0c3c59e5592a48c3ae647f5cfb2513bbf"
+    },
+    "floor-indirect.jpg": {
+      "bytes": 302229,
+      "sha256": "3266ad08c3203cc9d47186df3b60ca08bbb31e79270b87c64420c962272ec20f"
+    },
+    "architecture.glb": {
+      "bytes": 8672700,
+      "sha256": "d464f51fe5a01a9b782fd3a38745dfd3a7c19a5f21777f63f54efa9806e6170b"
+    },
+    "shell-indirect.jpg": {
+      "bytes": 683738,
+      "sha256": "c557ba40dd36e9c527eb54dc5ca44a2df8ee5dcd598857edd658d403172a004b"
+    },
+    "shell-indirect.png": {
+      "bytes": 1991021,
+      "sha256": "56e34dc9fcc67ee0aeaed58da12d979bcdcb494a815a796ab13c698b60878bc2"
+    },
+    "fixtures.json": {
+      "bytes": 6201,
+      "sha256": "48dacf1338128a51f3daa839032be527945586183fd2e3e14699e9afba023516"
+    },
+    "furnishings-indirect.jpg": {
+      "bytes": 802927,
+      "sha256": "bd0d4434980a153784f431c1096c351eb69e53f256c34011b6f784067226a58e"
+    },
+    "furnishings-indirect.png": {
+      "bytes": 1856865,
+      "sha256": "25965df2cd548da710d9228a1c3ece27cdcea1493b2438b5126003f04f9e588a"
+    }
+  }
+}

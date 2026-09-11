@@ -1,0 +1,5 @@
+BOOLEAN_FIXTURE {"schema":"game-room.boolean-fixture-report.v1","passed":true,"kind":"door","vertices":20,"faces":12,"nonManifoldEdges":0,"solver":"EXACT"}
+Info: Saved as "door-fixture.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

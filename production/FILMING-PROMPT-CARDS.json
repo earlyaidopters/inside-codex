@@ -1,0 +1,20 @@
+{
+  "Start with your request": {
+    "label": "Mark\u2019s request",
+    "quote": "what if we made a 3D game that would allow someone to playfully learn how codex works in every way? go back and fourth with me on the idea"
+  },
+  "Ask for the production plan": {
+    "label": "Mark\u2019s follow-up",
+    "quote": "so this is cute but I need the highest fidelity for the game using the codex logo as the mascot giving you a tour through the codex ecosystem\n\ncreate a comprehensive plan for how we'll create every aspect of the game, how you'll test AND assess the game in your internal browser before we know it's perfect ready to distribute to my community\n\nand host it on here.now"
+  },
+  "Review Codex\u2019s response": {
+    "label": "Codex\u2019s response",
+    "quote": "I\u2019ve written the complete production and release plan and opened it for review.",
+    "note": "Link formatting removed; words unchanged."
+  },
+  "Approve before it builds": {
+    "label": "Before you approve",
+    "quote": "Scope that fits your time and usage\n\nA useful task for the learner\n\nTests and a hosting check",
+    "note": "Review advice for the viewer"
+  }
+}

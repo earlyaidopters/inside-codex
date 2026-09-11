@@ -1,0 +1,77 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "asset.inspect",
+  "ok": true,
+  "data": {
+    "filePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/headquarters-browser-unquantized.glb",
+    "fileBytes": 8660636,
+    "generator": "glTF-Transform v4.4.2",
+    "meshCount": 4,
+    "primitiveCount": 23,
+    "vertexCount": 172238,
+    "triangleCount": 234436,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "sceneGraphFallback": false,
+    "materialCount": 23,
+    "textureCount": 3,
+    "textureResolutions": [
+      {
+        "name": "floor-albedo",
+        "width": 2048,
+        "height": 2048,
+        "mimeType": "image/jpeg",
+        "bytes": 320393
+      },
+      {
+        "name": "furnishings-albedo",
+        "width": 2048,
+        "height": 2048,
+        "mimeType": "image/jpeg",
+        "bytes": 778794
+      },
+      {
+        "name": "shell-albedo",
+        "width": 2048,
+        "height": 2048,
+        "mimeType": "image/jpeg",
+        "bytes": 656837
+      }
+    ],
+    "boundingBox": {
+      "min": [
+        -75,
+        -0.7999999448657036,
+        -75
+      ],
+      "max": [
+        75,
+        9.424999713897705,
+        75
+      ],
+      "sizeMeters": [
+        150,
+        10.224999658763409,
+        150
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "hasUVs": true,
+    "hasNormals": true,
+    "hasTangents": false,
+    "pbr": {
+      "hasBaseColorTexture": true,
+      "hasMetallicRoughnessTexture": false,
+      "hasNormalTexture": false,
+      "hasOcclusionTexture": false,
+      "hasEmissiveTexture": false
+    },
+    "animationCount": 0,
+    "hasSkin": false,
+    "warnings": [
+      "glTF reader: Missing optional extension, \"KHR_materials_clearcoat\".",
+      "glTF reader: Missing optional extension, \"KHR_materials_emissive_strength\"."
+    ]
+  }
+}

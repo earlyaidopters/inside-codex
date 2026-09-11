@@ -1,0 +1,15 @@
+{
+  "name": "codex-game-pipeline-smoke-test",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "test:browser": "node scripts/test-browser.mjs"
+  },
+  "dependencies": {
+    "babylonjs": "9.25.0",
+    "babylonjs-loaders": "9.25.0",
+    "playwright": "1.63.0"
+  }
+}

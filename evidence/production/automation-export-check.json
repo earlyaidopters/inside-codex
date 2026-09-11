@@ -1,0 +1,11 @@
+{
+  "archive": "evidence/production/automation-journey-v3/my-codex-starter.zip",
+  "runRecords": 9,
+  "scheduledObservations": 7,
+  "notifications": 3,
+  "weekdayLocalTime": "09:00 America/Toronto",
+  "uniqueDueTimes": true,
+  "offlineDoesNotClaimExecution": true,
+  "latestReportMatchesSavedRun": true,
+  "latestOwner": "Nina Patel"
+}

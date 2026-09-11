@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "inputSha256": "5221612a95cb9d7e25ba2de92cb1167a7a6dba6b162b90513c33e7a35d390580",
+  "packedSha256": "12555083f0954c02f60bf8c858b82990c8607445391b3f3ac545a06ffab392e6",
+  "inputBytes": 4152576,
+  "packedBytes": 2172025,
+  "method": "gzip level 9, byte-identical GLB round trip"
+}

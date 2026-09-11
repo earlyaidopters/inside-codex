@@ -1,0 +1,4533 @@
+{
+  "schema": "inside-codex.delta-checkpoint.v1",
+  "baseArchive": "releases/checkpoints/exhibit-residency-v1-tested.zip",
+  "baseSha256": "79e065ec5a367a5f7ba0652453261b43d640c4d01f99ec573724df341267bdcb",
+  "buildId": "3111847388717f1d2500ad6d670dedd12e6675e99dc2e93f19336760721bea28",
+  "changedPaths": [
+    "evidence/production/warm-factories-v1/assessment.json",
+    "evidence/production/warm-factories-v1/baseline-run.jsonl",
+    "evidence/production/warm-factories-v1/baseline-summary.json",
+    "evidence/production/warm-factories-v1/baseline-verify.json",
+    "evidence/production/warm-factories-v1/build-final.log",
+    "evidence/production/warm-factories-v1/build.log",
+    "evidence/production/warm-factories-v1/candidate-run.jsonl",
+    "evidence/production/warm-factories-v1/candidate-summary.json",
+    "evidence/production/warm-factories-v1/candidate-verify.json",
+    "evidence/production/warm-factories-v1/cold-first-frames.log",
+    "evidence/production/warm-factories-v1/cold-first-frames/frame-1.png",
+    "evidence/production/warm-factories-v1/cold-first-frames/frame-2.png",
+    "evidence/production/warm-factories-v1/cold-first-frames/frame-3.png",
+    "evidence/production/warm-factories-v1/cold-first-frames/frame-8.png",
+    "evidence/production/warm-factories-v1/cold-first-frames/report.json",
+    "evidence/production/warm-factories-v1/evaluation-preview.json",
+    "evidence/production/warm-factories-v1/evaluation.jsonl",
+    "evidence/production/warm-factories-v1/exhibit-residency-baseline.ts",
+    "evidence/production/warm-factories-v1/firefox-diagnostic.log",
+    "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-delayed-portrait.png",
+    "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-delayed.png",
+    "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-failure.png",
+    "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-portrait-resumed.png",
+    "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-restored.png",
+    "evidence/production/warm-factories-v1/firefox-diagnostic/report.json",
+    "evidence/production/warm-factories-v1/firefox-startup-repeats.json",
+    "evidence/production/warm-factories-v1/first-frames-final.log",
+    "evidence/production/warm-factories-v1/first-frames-final/comparison.json",
+    "evidence/production/warm-factories-v1/first-frames-final/frame-1.png",
+    "evidence/production/warm-factories-v1/first-frames-final/frame-2.png",
+    "evidence/production/warm-factories-v1/first-frames-final/frame-3.png",
+    "evidence/production/warm-factories-v1/first-frames-final/frame-8.png",
+    "evidence/production/warm-factories-v1/first-frames-final/report.json",
+    "evidence/production/warm-factories-v1/first-frames.log",
+    "evidence/production/warm-factories-v1/first-frames/frame-1.png",
+    "evidence/production/warm-factories-v1/first-frames/frame-2.png",
+    "evidence/production/warm-factories-v1/first-frames/frame-3.png",
+    "evidence/production/warm-factories-v1/first-frames/frame-8.png",
+    "evidence/production/warm-factories-v1/first-frames/report.json",
+    "evidence/production/warm-factories-v1/goal-created.jsonl",
+    "evidence/production/warm-factories-v1/goal-preview.json",
+    "evidence/production/warm-factories-v1/goal.json",
+    "evidence/production/warm-factories-v1/high-run.jsonl",
+    "evidence/production/warm-factories-v1/high-summary.json",
+    "evidence/production/warm-factories-v1/high-verify.json",
+    "evidence/production/warm-factories-v1/internal-browser-review.json",
+    "evidence/production/warm-factories-v1/journey-final.log",
+    "evidence/production/warm-factories-v1/journey-final/arrival-desktop.png",
+    "evidence/production/warm-factories-v1/journey-final/assembled-harness.png",
+    "evidence/production/warm-factories-v1/journey-final/automation-finding.png",
+    "evidence/production/warm-factories-v1/journey-final/automation-host-off.png",
+    "evidence/production/warm-factories-v1/journey-final/automation-quiet.png",
+    "evidence/production/warm-factories-v1/journey-final/automation-read-failure.png",
+    "evidence/production/warm-factories-v1/journey-final/automation-tested.png",
+    "evidence/production/warm-factories-v1/journey-final/automation-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/automation-weekend.png",
+    "evidence/production/warm-factories-v1/journey-final/browser-lab-repaired.png",
+    "evidence/production/warm-factories-v1/journey-final/cedar-definition.png",
+    "evidence/production/warm-factories-v1/journey-final/cedar-first-checked.png",
+    "evidence/production/warm-factories-v1/journey-final/cedar-mismatch.png",
+    "evidence/production/warm-factories-v1/journey-final/cedar-next-checked.png",
+    "evidence/production/warm-factories-v1/journey-final/cedar-procedure.png",
+    "evidence/production/warm-factories-v1/journey-final/cedar-rehearsal.png",
+    "evidence/production/warm-factories-v1/journey-final/cedar-submitted.png",
+    "evidence/production/warm-factories-v1/journey-final/context-prose-failure.png",
+    "evidence/production/warm-factories-v1/journey-final/context-stale-owner.png",
+    "evidence/production/warm-factories-v1/journey-final/context-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/handoff-delivered-fails.png",
+    "evidence/production/warm-factories-v1/journey-final/handoff-evidence.png",
+    "evidence/production/warm-factories-v1/journey-final/handoff-local-passes.png",
+    "evidence/production/warm-factories-v1/journey-final/handoff-preserved.png",
+    "evidence/production/warm-factories-v1/journey-final/handoff-recovered.png",
+    "evidence/production/warm-factories-v1/journey-final/handoff-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/mission-desktop.png",
+    "evidence/production/warm-factories-v1/journey-final/mission-portrait.png",
+    "evidence/production/warm-factories-v1/journey-final/models-access-blocked.png",
+    "evidence/production/warm-factories-v1/journey-final/models-billing-failed.png",
+    "evidence/production/warm-factories-v1/journey-final/models-billing-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/models-label-compared.png",
+    "evidence/production/warm-factories-v1/journey-final/models-three-routes.png",
+    "evidence/production/warm-factories-v1/journey-final/my-codex-starter.zip",
+    "evidence/production/warm-factories-v1/journey-final/my-codex-toolkit.md",
+    "evidence/production/warm-factories-v1/journey-final/permission-connector-denied.png",
+    "evidence/production/warm-factories-v1/journey-final/permission-read-denied.png",
+    "evidence/production/warm-factories-v1/journey-final/permission-request.png",
+    "evidence/production/warm-factories-v1/journey-final/permission-send-boundary.png",
+    "evidence/production/warm-factories-v1/journey-final/permission-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/report.json",
+    "evidence/production/warm-factories-v1/journey-final/review-narrow-pass.png",
+    "evidence/production/warm-factories-v1/journey-final/review-partial-repair.png",
+    "evidence/production/warm-factories-v1/journey-final/review-regressions.png",
+    "evidence/production/warm-factories-v1/journey-final/review-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/shared-checkout-overwrite.png",
+    "evidence/production/warm-factories-v1/journey-final/steering-checklist-finished.png",
+    "evidence/production/warm-factories-v1/journey-final/steering-pending.png",
+    "evidence/production/warm-factories-v1/journey-final/steering-status.png",
+    "evidence/production/warm-factories-v1/journey-final/steering-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/task-created.png",
+    "evidence/production/warm-factories-v1/journey-final/tools-first-client.png",
+    "evidence/production/warm-factories-v1/journey-final/tools-instructions.png",
+    "evidence/production/warm-factories-v1/journey-final/tools-mismatch.png",
+    "evidence/production/warm-factories-v1/journey-final/tools-package.png",
+    "evidence/production/warm-factories-v1/journey-final/tools-verified.png",
+    "evidence/production/warm-factories-v1/journey-final/tour-complete.png",
+    "evidence/production/warm-factories-v1/journey-final/worktrees-verified.png",
+    "evidence/production/warm-factories-v1/journey.log",
+    "evidence/production/warm-factories-v1/journey/arrival-desktop.png",
+    "evidence/production/warm-factories-v1/journey/assembled-harness.png",
+    "evidence/production/warm-factories-v1/journey/automation-finding.png",
+    "evidence/production/warm-factories-v1/journey/automation-host-off.png",
+    "evidence/production/warm-factories-v1/journey/automation-quiet.png",
+    "evidence/production/warm-factories-v1/journey/automation-read-failure.png",
+    "evidence/production/warm-factories-v1/journey/automation-tested.png",
+    "evidence/production/warm-factories-v1/journey/automation-verified.png",
+    "evidence/production/warm-factories-v1/journey/automation-weekend.png",
+    "evidence/production/warm-factories-v1/journey/browser-lab-repaired.png",
+    "evidence/production/warm-factories-v1/journey/cedar-definition.png",
+    "evidence/production/warm-factories-v1/journey/cedar-first-checked.png",
+    "evidence/production/warm-factories-v1/journey/cedar-mismatch.png",
+    "evidence/production/warm-factories-v1/journey/cedar-next-checked.png",
+    "evidence/production/warm-factories-v1/journey/cedar-procedure.png",
+    "evidence/production/warm-factories-v1/journey/cedar-rehearsal.png",
+    "evidence/production/warm-factories-v1/journey/cedar-submitted.png",
+    "evidence/production/warm-factories-v1/journey/context-prose-failure.png",
+    "evidence/production/warm-factories-v1/journey/context-stale-owner.png",
+    "evidence/production/warm-factories-v1/journey/context-verified.png",
+    "evidence/production/warm-factories-v1/journey/handoff-delivered-fails.png",
+    "evidence/production/warm-factories-v1/journey/handoff-evidence.png",
+    "evidence/production/warm-factories-v1/journey/handoff-local-passes.png",
+    "evidence/production/warm-factories-v1/journey/handoff-preserved.png",
+    "evidence/production/warm-factories-v1/journey/handoff-recovered.png",
+    "evidence/production/warm-factories-v1/journey/handoff-verified.png",
+    "evidence/production/warm-factories-v1/journey/mission-desktop.png",
+    "evidence/production/warm-factories-v1/journey/mission-portrait.png",
+    "evidence/production/warm-factories-v1/journey/models-access-blocked.png",
+    "evidence/production/warm-factories-v1/journey/models-billing-failed.png",
+    "evidence/production/warm-factories-v1/journey/models-billing-verified.png",
+    "evidence/production/warm-factories-v1/journey/models-label-compared.png",
+    "evidence/production/warm-factories-v1/journey/models-three-routes.png",
+    "evidence/production/warm-factories-v1/journey/my-codex-starter.zip",
+    "evidence/production/warm-factories-v1/journey/my-codex-toolkit.md",
+    "evidence/production/warm-factories-v1/journey/permission-connector-denied.png",
+    "evidence/production/warm-factories-v1/journey/permission-read-denied.png",
+    "evidence/production/warm-factories-v1/journey/permission-request.png",
+    "evidence/production/warm-factories-v1/journey/permission-send-boundary.png",
+    "evidence/production/warm-factories-v1/journey/permission-verified.png",
+    "evidence/production/warm-factories-v1/journey/report.json",
+    "evidence/production/warm-factories-v1/journey/review-narrow-pass.png",
+    "evidence/production/warm-factories-v1/journey/review-partial-repair.png",
+    "evidence/production/warm-factories-v1/journey/review-regressions.png",
+    "evidence/production/warm-factories-v1/journey/review-verified.png",
+    "evidence/production/warm-factories-v1/journey/shared-checkout-overwrite.png",
+    "evidence/production/warm-factories-v1/journey/steering-checklist-finished.png",
+    "evidence/production/warm-factories-v1/journey/steering-pending.png",
+    "evidence/production/warm-factories-v1/journey/steering-status.png",
+    "evidence/production/warm-factories-v1/journey/steering-verified.png",
+    "evidence/production/warm-factories-v1/journey/task-created.png",
+    "evidence/production/warm-factories-v1/journey/tools-first-client.png",
+    "evidence/production/warm-factories-v1/journey/tools-instructions.png",
+    "evidence/production/warm-factories-v1/journey/tools-mismatch.png",
+    "evidence/production/warm-factories-v1/journey/tools-package.png",
+    "evidence/production/warm-factories-v1/journey/tools-verified.png",
+    "evidence/production/warm-factories-v1/journey/tour-complete.png",
+    "evidence/production/warm-factories-v1/journey/worktrees-verified.png",
+    "evidence/production/warm-factories-v1/ownership-tests-final.log",
+    "evidence/production/warm-factories-v1/ownership-tests.log",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail.log",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-delayed-portrait.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-delayed.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-failure.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-portrait-resumed.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-restored.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-delayed-portrait.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-delayed.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-failure.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-portrait-resumed.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-restored.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/report.json",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-delayed-portrait.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-delayed.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-failure.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-portrait-resumed.png",
+    "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-restored.png",
+    "evidence/production/warm-factories-v1/recovery-final.log",
+    "evidence/production/warm-factories-v1/recovery-final/chrome-delayed-portrait.png",
+    "evidence/production/warm-factories-v1/recovery-final/chrome-delayed.png",
+    "evidence/production/warm-factories-v1/recovery-final/chrome-failure.png",
+    "evidence/production/warm-factories-v1/recovery-final/chrome-portrait-resumed.png",
+    "evidence/production/warm-factories-v1/recovery-final/chrome-restored.png",
+    "evidence/production/warm-factories-v1/recovery-final/firefox-test-failure.png",
+    "evidence/production/warm-factories-v1/recovery-final/report.json",
+    "evidence/production/warm-factories-v1/recovery.log",
+    "evidence/production/warm-factories-v1/recovery/chrome-delayed-portrait.png",
+    "evidence/production/warm-factories-v1/recovery/chrome-delayed.png",
+    "evidence/production/warm-factories-v1/recovery/chrome-failure.png",
+    "evidence/production/warm-factories-v1/recovery/chrome-portrait-resumed.png",
+    "evidence/production/warm-factories-v1/recovery/chrome-restored.png",
+    "evidence/production/warm-factories-v1/recovery/firefox-test-failure.png",
+    "evidence/production/warm-factories-v1/recovery/report.json",
+    "evidence/production/warm-factories-v1/views-final.log",
+    "evidence/production/warm-factories-v1/views-final/candidate-balanced-arrival.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-balanced-control.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-balanced-handoff.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-balanced-tasks.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-balanced-tools.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-high-arrival.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-high-control.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-high-handoff.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-high-tasks.png",
+    "evidence/production/warm-factories-v1/views-final/candidate-high-tools.png",
+    "evidence/production/warm-factories-v1/views-final/candidate.json",
+    "evidence/production/warm-factories-v1/views-final/comparison.json",
+    "evidence/production/warm-factories-v1/views.log",
+    "evidence/production/warm-factories-v1/views/candidate-balanced-arrival.png",
+    "evidence/production/warm-factories-v1/views/candidate-balanced-control.png",
+    "evidence/production/warm-factories-v1/views/candidate-balanced-handoff.png",
+    "evidence/production/warm-factories-v1/views/candidate-balanced-tasks.png",
+    "evidence/production/warm-factories-v1/views/candidate-balanced-tools.png",
+    "evidence/production/warm-factories-v1/views/candidate-high-arrival.png",
+    "evidence/production/warm-factories-v1/views/candidate-high-control.png",
+    "evidence/production/warm-factories-v1/views/candidate-high-handoff.png",
+    "evidence/production/warm-factories-v1/views/candidate-high-tasks.png",
+    "evidence/production/warm-factories-v1/views/candidate-high-tools.png",
+    "evidence/production/warm-factories-v1/views/candidate.json",
+    "game/.game-dev/goals/warm-exhibit-factories.json",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/adapter.json",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/capture.json",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/end.png",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/plan.json",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/request.json",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/run.json",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/start.png",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/stderr.log",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/stdout.log",
+    "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/traversal.json",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/adapter.json",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/capture.json",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/end.png",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/plan.json",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/request.json",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/run.json",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/start.png",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/stderr.log",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/stdout.log",
+    "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/traversal.json",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/adapter.json",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/capture.json",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/end.png",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/plan.json",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/request.json",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/run.json",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/start.png",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/stderr.log",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/stdout.log",
+    "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/traversal.json",
+    "game/dist/assets/animationGroup.pure-BAmlmzS0.js",
+    "game/dist/assets/automation-exhibit-CvKAs1AQ.js",
+    "game/dist/assets/branch-exhibit-ByhBjeIH.js",
+    "game/dist/assets/capstone-exhibit-C_CPse9I.js",
+    "game/dist/assets/context-exhibit-CtKtXerM.js",
+    "game/dist/assets/dumpTools.pure--gkhVi9t.js",
+    "game/dist/assets/effectRenderer.pure-D0e8KU13.js",
+    "game/dist/assets/envTextureLoader-C0RjNtZr.js",
+    "game/dist/assets/flowGraphBezierCurveEasingBlock.pure-BL9VEc47.js",
+    "game/dist/assets/flowGraphCancelDelayBlock.pure-CGJwXsQ6.js",
+    "game/dist/assets/flowGraphEasingBlock.pure-iWMt8Wdf.js",
+    "game/dist/assets/flowGraphGLTFDataProvider-D6HTcgKV.js",
+    "game/dist/assets/flowGraphPlayAnimationBlock.pure-CY63B-km.js",
+    "game/dist/assets/flowGraphReceiveCustomEventBlock.pure-rHkzmz7d.js",
+    "game/dist/assets/flowGraphSetDelayBlock.pure-BoWaSW4i.js",
+    "game/dist/assets/glTFLoaderAnimation.pure-Cao42MQb.js",
+    "game/dist/assets/handoff-exhibit-DwCjcDIf.js",
+    "game/dist/assets/harness-exhibit-BjiNNAMd.js",
+    "game/dist/assets/index-C2Lqk8T6.js",
+    "game/dist/assets/ktxTextureLoader-CTz9PX2I.js",
+    "game/dist/assets/mesh.pure-Dg9JpiWM.js",
+    "game/dist/assets/model-exhibit-BNPk_xzh.js",
+    "game/dist/assets/openpbrMaterial.pure-B5M096k8.js",
+    "game/dist/assets/openpbrMaterialLoadingAdapter-BusRLp1a.js",
+    "game/dist/assets/pbrMaterial.pure-D7lKTg2p.js",
+    "game/dist/assets/pbrMaterialLoadingAdapter-NAs4cDb5.js",
+    "game/dist/assets/permission-exhibit-DPpJzW9R.js",
+    "game/dist/assets/postProcess.pure-CaFCTEc4.js",
+    "game/dist/assets/pushMaterial-BGIskGAt.js",
+    "game/dist/assets/renderTargetTexture.pure-d8CBpFIn.js",
+    "game/dist/assets/review-exhibit-CYD8GzJT.js",
+    "game/dist/assets/steering-exhibit-D9wDVbRm.js",
+    "game/dist/assets/tool-exhibit-Bg5oeLt8.js",
+    "game/dist/assets/world-aFXfhAeM.js",
+    "game/dist/exhibits-manifest.json",
+    "game/dist/index.html",
+    "game/src/exhibit-residency.ts",
+    "game/tests/exhibit-first-frames.mjs",
+    "game/tests/exhibit-residency.mjs",
+    "game/tests/exhibit-residency.test.mjs",
+    "game/tools/archive-warm-factories-checkpoint.py",
+    "game/tools/assess-warm-factories.mjs",
+    "game/tools/capture-traversal-scenario.mjs",
+    "production/DEFECTS.md",
+    "production/STATUS.md",
+    "production/WARM-EXHIBIT-FACTORIES.md"
+  ],
+  "removedPaths": [
+    "game/dist/assets/animationGroup.pure-Bz_6back.js",
+    "game/dist/assets/automation-exhibit-CfmEgWhh.js",
+    "game/dist/assets/branch-exhibit-CxVAB3YI.js",
+    "game/dist/assets/capstone-exhibit-CDc5s_HD.js",
+    "game/dist/assets/context-exhibit-CBlnbLZN.js",
+    "game/dist/assets/dumpTools.pure-B-jj3bWU.js",
+    "game/dist/assets/effectRenderer.pure-cHsyYXOl.js",
+    "game/dist/assets/envTextureLoader-ZqtlnVrx.js",
+    "game/dist/assets/flowGraphBezierCurveEasingBlock.pure-DiwXFlVq.js",
+    "game/dist/assets/flowGraphCancelDelayBlock.pure-D6tESdNH.js",
+    "game/dist/assets/flowGraphEasingBlock.pure-DAYZoJ86.js",
+    "game/dist/assets/flowGraphGLTFDataProvider-B9V8n6C9.js",
+    "game/dist/assets/flowGraphPlayAnimationBlock.pure-Brg5806J.js",
+    "game/dist/assets/flowGraphReceiveCustomEventBlock.pure-pYNLilbI.js",
+    "game/dist/assets/flowGraphSetDelayBlock.pure-COoxE5j0.js",
+    "game/dist/assets/glTFLoaderAnimation.pure-CjePP88M.js",
+    "game/dist/assets/handoff-exhibit-DOCccV6x.js",
+    "game/dist/assets/harness-exhibit-By9MYHM0.js",
+    "game/dist/assets/index-B8La4ANe.js",
+    "game/dist/assets/ktxTextureLoader-CegvZe1F.js",
+    "game/dist/assets/mesh.pure-B3Kz_7PO.js",
+    "game/dist/assets/model-exhibit-BLija-ss.js",
+    "game/dist/assets/openpbrMaterial.pure-B0z4RU3X.js",
+    "game/dist/assets/openpbrMaterialLoadingAdapter-DwCWAsFe.js",
+    "game/dist/assets/pbrMaterial.pure-DN_NSOU_.js",
+    "game/dist/assets/pbrMaterialLoadingAdapter-r6Sr1zag.js",
+    "game/dist/assets/permission-exhibit-D2IZr3T9.js",
+    "game/dist/assets/postProcess.pure-vQPQ8r5U.js",
+    "game/dist/assets/pushMaterial-C11BMDO_.js",
+    "game/dist/assets/renderTargetTexture.pure-DAQnhnXH.js",
+    "game/dist/assets/review-exhibit-DpgNeoaG.js",
+    "game/dist/assets/steering-exhibit-B1GTBurv.js",
+    "game/dist/assets/tool-exhibit-CMv-AMKW.js",
+    "game/dist/assets/world-KWzqfl0G.js"
+  ],
+  "verifiedCurrentFiles": [
+    {
+      "path": "evidence/production/warm-factories-v1/assessment.json",
+      "bytes": 6856,
+      "sha256": "7cfce4a197d650d8a847fcbb0d07cc36b83916bd90b5dbd17b250f2536eebee4"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/baseline-run.jsonl",
+      "bytes": 4816,
+      "sha256": "95de14eec8a2a1be1cc6aa57a38b956f2a35167d8b849fe9ac02ac5fc2b742e0"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/baseline-summary.json",
+      "bytes": 1036919,
+      "sha256": "69252a6a1a1b3843112f42bea674e487813ad0bbbd75dd1d403d892d50e59b92"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/baseline-verify.json",
+      "bytes": 4485,
+      "sha256": "883a00d5754c924dc80ff7f7e8f620847a3aa46fd93d2ec79359fddc1fe54208"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/build-final.log",
+      "bytes": 33442,
+      "sha256": "e37051f1897c4067ca6c9c45a27000491b572f15f073103d677ee0a1b8363d38"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/build.log",
+      "bytes": 33442,
+      "sha256": "68335829668e0a971e7113785f8895da21f725f62e753aeda7fd63acf338de81"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/candidate-run.jsonl",
+      "bytes": 4816,
+      "sha256": "d716b17400e7c2f0ef0486de1acea4dcd0077aae84d2fec76c265438219ae893"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/candidate-summary.json",
+      "bytes": 1036813,
+      "sha256": "3fa7e485d53a22299bdceaf7ee6145bef2474d57889f2603b6164782a1c8fd8b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/candidate-verify.json",
+      "bytes": 4485,
+      "sha256": "10fd4cdb4aabfbf3d7445671452584ff7883d9fe35bc1113d08ad7d227f38e4b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/cold-first-frames.log",
+      "bytes": 1750,
+      "sha256": "8b14ed4caea27fd33aba37ddf9aaabf7a443d2c0c383054d6ffd40fb52e3ca73"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/cold-first-frames/frame-1.png",
+      "bytes": 840331,
+      "sha256": "ee6dc0b7c8c30db4b0176e8f9d58c33385dccc96b324dfc3b74299600e624478"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/cold-first-frames/frame-2.png",
+      "bytes": 839701,
+      "sha256": "a3d52a501ad4f3c0ece95da9fd054b11bacbd1b5483927dcdedaebfb7d29a648"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/cold-first-frames/frame-3.png",
+      "bytes": 839701,
+      "sha256": "a3d52a501ad4f3c0ece95da9fd054b11bacbd1b5483927dcdedaebfb7d29a648"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/cold-first-frames/frame-8.png",
+      "bytes": 839701,
+      "sha256": "a3d52a501ad4f3c0ece95da9fd054b11bacbd1b5483927dcdedaebfb7d29a648"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/cold-first-frames/report.json",
+      "bytes": 21639,
+      "sha256": "df22857075f085c312f9745dbe85ba1a899b5af22fd565e6ae04dfe908689dd7"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/evaluation-preview.json",
+      "bytes": 912,
+      "sha256": "87774959ef0d042b38fbb49a3b9de0aafa6f2394f498e0318f9ae79278b7099c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/evaluation.jsonl",
+      "bytes": 1236,
+      "sha256": "09b8a6af72389402f492a718b42885367db4243fc0e204da106182648ba27e9a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/exhibit-residency-baseline.ts",
+      "bytes": 8646,
+      "sha256": "69a8ff440d25e4e0806d16629911046650c54d9968ff6770ed03783bbeaf4c13"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-diagnostic.log",
+      "bytes": 589,
+      "sha256": "7203bb87f270498a57251e8ac87a5974775fc46a0929ce7bc4144944db846003"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-delayed-portrait.png",
+      "bytes": 215310,
+      "sha256": "37868b8440217067b9aa73977cfffe91a01308144235494564865ede51cf64fd"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-delayed.png",
+      "bytes": 663882,
+      "sha256": "1c82acc153e6029a21ec3cd8101c56bfe3551191732d583999ff749acfd29dbb"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-failure.png",
+      "bytes": 142103,
+      "sha256": "5bb2bc2e48b3bca9ebeeee7c0fcb589aa44e4c8dbf1586d4fe7b4868ee90d51c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-portrait-resumed.png",
+      "bytes": 196482,
+      "sha256": "22ca65ae5439541404bf9fe707a4004edddfb925c2b8499b4df1edb335ff059e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-diagnostic/firefox-restored.png",
+      "bytes": 711790,
+      "sha256": "d96847e4e5ce9749a3b6ba8f75aa315eb80a2a0e9967d51922b9c7d117f0d58b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-diagnostic/report.json",
+      "bytes": 110293,
+      "sha256": "a26310bf3d928f3bcc2730796d8849d0f74c7e4bbfeecdfecfb9c099394584a0"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/firefox-startup-repeats.json",
+      "bytes": 3487,
+      "sha256": "081f3f1748b363c2c15c124929e1b45ec67351e81c97ace2ecf908afcbc7aee9"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames-final.log",
+      "bytes": 1070,
+      "sha256": "eb61e8d259e01cde16bf95780f588b51da31d3537922bac46b89768b7b6feee6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames-final/comparison.json",
+      "bytes": 614,
+      "sha256": "3a57fb03ae491e52a15ae04c06bc68614589a49cfdf8517f025f3a029c195ea4"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames-final/frame-1.png",
+      "bytes": 728560,
+      "sha256": "2d344e0a22c23c691610d59137b8d7c59499d4059bf04a0bad1e8c88a55c3450"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames-final/frame-2.png",
+      "bytes": 728560,
+      "sha256": "2d344e0a22c23c691610d59137b8d7c59499d4059bf04a0bad1e8c88a55c3450"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames-final/frame-3.png",
+      "bytes": 728560,
+      "sha256": "2d344e0a22c23c691610d59137b8d7c59499d4059bf04a0bad1e8c88a55c3450"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames-final/frame-8.png",
+      "bytes": 728560,
+      "sha256": "2d344e0a22c23c691610d59137b8d7c59499d4059bf04a0bad1e8c88a55c3450"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames-final/report.json",
+      "bytes": 20475,
+      "sha256": "8cf8b573b046c17fb7e494d20d9dd8952adbda9a8d13f90aac18b819268fd37e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames.log",
+      "bytes": 1050,
+      "sha256": "c5ee6e80778cb90fd1d1ad24e056ece5c22079e8363b11fe3fb9304212f0d34a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames/frame-1.png",
+      "bytes": 728180,
+      "sha256": "a3ca1d7e0468a6fa090acbfea21e069ae4a52970febd266ace9cb894d77940e3"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames/frame-2.png",
+      "bytes": 728560,
+      "sha256": "2d344e0a22c23c691610d59137b8d7c59499d4059bf04a0bad1e8c88a55c3450"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames/frame-3.png",
+      "bytes": 728560,
+      "sha256": "2d344e0a22c23c691610d59137b8d7c59499d4059bf04a0bad1e8c88a55c3450"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames/frame-8.png",
+      "bytes": 728560,
+      "sha256": "2d344e0a22c23c691610d59137b8d7c59499d4059bf04a0bad1e8c88a55c3450"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/first-frames/report.json",
+      "bytes": 20068,
+      "sha256": "0344e092469ddf14cf82dfd904447cc51ca587900539a57d10912dc2066f0e76"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/goal-created.jsonl",
+      "bytes": 1727,
+      "sha256": "ef7d6d6abe22a66105ef400141b5e97ba2735ca8365100ef588938c622278e10"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/goal-preview.json",
+      "bytes": 1544,
+      "sha256": "c194bd561c611001ed4c26510de833af20a12c1de5333a3137c936dc70abf868"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/goal.json",
+      "bytes": 232,
+      "sha256": "0e4aa532bc50d1aa8458fef6d3255a60b149d6c84370804ec377e475b02a3589"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/high-run.jsonl",
+      "bytes": 4814,
+      "sha256": "f22467eed1b9dd473f0d146deecd4e1281a83605a5430553e0d4b78d4dd65c86"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/high-summary.json",
+      "bytes": 1036724,
+      "sha256": "5990b5085ce7ad1547d44aea0d666097828cc142e74e0f924320f357de322a6b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/high-verify.json",
+      "bytes": 4483,
+      "sha256": "722059467b6fbe9dbd3c593002fcfe5b55f4dccce6f4e5703634e8430d99742a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/internal-browser-review.json",
+      "bytes": 1073,
+      "sha256": "b558419ab23f87e3c0f99d4af5b2e91c00cba046ffdada1ac242684f8a895405"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final.log",
+      "bytes": 2915,
+      "sha256": "84257779749add5dc10ee35c440229dd077e4c466da989528b45fb4691f69a83"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/arrival-desktop.png",
+      "bytes": 974595,
+      "sha256": "c29ce434b2d2ee752d4810143829159666d015fcb360b9e1b5e74c4476f148cc"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/assembled-harness.png",
+      "bytes": 510468,
+      "sha256": "6374d569b0040d814538f6c4febb60b7d09412d8ea2ad35aeac454bd3393095f"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/automation-finding.png",
+      "bytes": 569891,
+      "sha256": "33de6914bf7baef26c930e3e4b8ea401c4e0f70ba7452e806ab2ccfa0d3fe587"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/automation-host-off.png",
+      "bytes": 566584,
+      "sha256": "475ed04e1b029ec414c1bbbe8e8ff083051a1d04b08b30b226bf23b349b1a24d"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/automation-quiet.png",
+      "bytes": 544790,
+      "sha256": "9f179973508e659a0dfb151142791dadcb9aa7b8c4eaf3898e098892ad49376c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/automation-read-failure.png",
+      "bytes": 565970,
+      "sha256": "0d87499a65576c2604f82fb8d873244e2828887523dd3dab98f9505bc6d5a524"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/automation-tested.png",
+      "bytes": 559612,
+      "sha256": "7d1cc4c9897d78cd454617a22e8dda815593228f0010c0d058073d1ae3fd5d83"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/automation-verified.png",
+      "bytes": 575167,
+      "sha256": "4f007d70bcec19bd5e415f963bcf93fbfb472f8d17fb4196813e013df4a93e6e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/automation-weekend.png",
+      "bytes": 565443,
+      "sha256": "8f36478e0f993300289989df7317818b1ca5dd2a016bde18117607c29748585e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/browser-lab-repaired.png",
+      "bytes": 536303,
+      "sha256": "6321332847f54a8a717cd00aaf9e8f2194726284a75bc7f5a58b646ccc1766ac"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/cedar-definition.png",
+      "bytes": 570511,
+      "sha256": "91a36aa172927afa991e0cbdeb65d48cb3dfd5f9f4fb335e5798628edb8c0e12"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/cedar-first-checked.png",
+      "bytes": 551525,
+      "sha256": "f3184db3d7d5f1b08147fecefb89aaf00bde08e36259b9e63665ee0e8c593aa5"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/cedar-mismatch.png",
+      "bytes": 550371,
+      "sha256": "02beb729d73b94fad470a68d19a9d7a829aa54d874c5c4aa8227e6900bd6f31d"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/cedar-next-checked.png",
+      "bytes": 551708,
+      "sha256": "a81787531411743ad442b22572a91d9a254ccdb8b9a06267cd6980f70fc8c640"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/cedar-procedure.png",
+      "bytes": 563356,
+      "sha256": "3d0c9060e8b9c106f7404da4ebcf3c88232bba3fd48026b34a5907529add0762"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/cedar-rehearsal.png",
+      "bytes": 552034,
+      "sha256": "c979b6202b1f8523fdf54c66adc29ca67fb75303139f4413797533f0cb00aa54"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/cedar-submitted.png",
+      "bytes": 566489,
+      "sha256": "896ec2696f751a85528d7dc38b54155d99509d9759f18f4b028bed9c44198275"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/context-prose-failure.png",
+      "bytes": 565423,
+      "sha256": "2ad0e94217bf85d7dc1d15de5175f1b421d76ac6f9d2859426d4658944db7e89"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/context-stale-owner.png",
+      "bytes": 596907,
+      "sha256": "476ed2464eb51295c0bacb7c35e795b05f4281eba7c2fa197083257982ef7f7d"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/context-verified.png",
+      "bytes": 594235,
+      "sha256": "12b0d11c756872a384cecf67b072ccc9cf7b604d59cd6096de3a45383ec93c31"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/handoff-delivered-fails.png",
+      "bytes": 547745,
+      "sha256": "7827fac43edd682650f34efb68b81dc6705df518d7ed71d88ff13a7e3cabaadd"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/handoff-evidence.png",
+      "bytes": 570383,
+      "sha256": "b20e3deccd7e4ae202ef193bf8022c6a435edeb4a56608739281360c1e66c9b5"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/handoff-local-passes.png",
+      "bytes": 555012,
+      "sha256": "afebfa23ecd062db661cf50453d00e53a08877c6cc95a1e13ece9eee59d8b1ce"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/handoff-preserved.png",
+      "bytes": 573323,
+      "sha256": "44b0c660a107833b1d40722aa6d06be3da8a56ef8e2009ff01f58e8aa13df655"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/handoff-recovered.png",
+      "bytes": 551872,
+      "sha256": "d4a540647f7c58c8b84afbb5df5f086e7e9ed98f055b92f513084c1d4adf38f7"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/handoff-verified.png",
+      "bytes": 548795,
+      "sha256": "a127abb7b028a60724c0c8145837c18fb2aecd85b0a1059b81e57baf504871aa"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/mission-desktop.png",
+      "bytes": 506667,
+      "sha256": "d38c2261a12ffad35531ba8d07fcfd291caff2fd09089112abd2c4ba718116de"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/mission-portrait.png",
+      "bytes": 167574,
+      "sha256": "7466551ae397cc9c80b9de071928732a0598915d3a3b00f3b85d5b83fecf28c5"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/models-access-blocked.png",
+      "bytes": 615683,
+      "sha256": "8345b4fdd72028013a2bee2343bb2a41160ed4cedd1912373dbcede353d15cbc"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/models-billing-failed.png",
+      "bytes": 611856,
+      "sha256": "1a5b1c6616f3411fffc3f37595ae91f17cb5ff0ade5bfb90fbebe87f7a28c67c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/models-billing-verified.png",
+      "bytes": 603412,
+      "sha256": "73faab26604bfeed1cf47c99aae01b9b04e8762145e56f909e69e7c6ce96110d"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/models-label-compared.png",
+      "bytes": 610970,
+      "sha256": "549cbea9c2d566ea52f85e9d0217bc08498675e31b60a4c5b84b846ae491cf52"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/models-three-routes.png",
+      "bytes": 604096,
+      "sha256": "df533b9d4525d5b0ec39849c640be3617a393a05f20572a47498d619868f9a40"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/my-codex-starter.zip",
+      "bytes": 83180,
+      "sha256": "39adbf8313b0f8994991bb2fd43f0f81fac053534fda2ebe22e04c51a78255e5"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/my-codex-toolkit.md",
+      "bytes": 5200,
+      "sha256": "8423ecd2d1bc1c7ea09a1deea155281bb45b4dd662e9d23b97d73a16baeb7f60"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/permission-connector-denied.png",
+      "bytes": 566532,
+      "sha256": "b0a7326778f6c4bd7268f83aadedd6b399b6115f12c778b9f8b3e616a5d1dea0"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/permission-read-denied.png",
+      "bytes": 600313,
+      "sha256": "b9d30f61133b167f129eca78528ed4bb1222dddaf378058d97352e2a0d5f4417"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/permission-request.png",
+      "bytes": 603884,
+      "sha256": "366c07699ebd1e947d0c1a50a8d292e5ee2ad3c438ee88421e78ddfec2bbbf02"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/permission-send-boundary.png",
+      "bytes": 567532,
+      "sha256": "0684d392d72e72c4bbae26317b35b235a6ba1dd1cd539dfb29a7a24949f042c7"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/permission-verified.png",
+      "bytes": 576065,
+      "sha256": "f9acd62de5c57b2f8118c6fc9e901a4dd2c6df9e0050606cef9adfbcbedf210b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/report.json",
+      "bytes": 128380,
+      "sha256": "79e8b91d4212553206b08bcf3c8ce9d5891039a31ce993d39a4222dd4bdbd5aa"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/review-narrow-pass.png",
+      "bytes": 588685,
+      "sha256": "e00d6e31df94b9c5856d8924634f3229c83ec1fb86a41eb073bb364322a38704"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/review-partial-repair.png",
+      "bytes": 544324,
+      "sha256": "9d0303153a6a87e6dd30fffe98b52b20f142f74736780ebf391d1f5f141c6577"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/review-regressions.png",
+      "bytes": 582427,
+      "sha256": "c048a1e27bad1ebc634a2646b16543b1ca1fb3e879a6112c92db206dfdd447dc"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/review-verified.png",
+      "bytes": 533410,
+      "sha256": "f8fd55bd25bd787f6241e735a346a53cb22aa891259b4ccdb4ab0c4afba2dca7"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/shared-checkout-overwrite.png",
+      "bytes": 531264,
+      "sha256": "edff12eb7196d8ce0406ba5fc86f5e4a87db0ddaecac4696b46bfb93686c2fc1"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/steering-checklist-finished.png",
+      "bytes": 578483,
+      "sha256": "42c725b610309030021578300b611bbafca97f3c9b32e667fb572f1536ba84c3"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/steering-pending.png",
+      "bytes": 561728,
+      "sha256": "5636a748405b0c8cdf26f56a583a83b84a23dbc5d4ac9b04a7ddc451cf27a224"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/steering-status.png",
+      "bytes": 556295,
+      "sha256": "1223c958b72f24fa0f01987f940f8076f8575dbfd148a37537ca80d072de7a73"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/steering-verified.png",
+      "bytes": 576273,
+      "sha256": "0a2db20eb9a3c31230649a7527a8181b7c7301abe1dfdb9823eb4e0d00937c93"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/task-created.png",
+      "bytes": 578064,
+      "sha256": "693a98638aa12cee6b5a392c6da8596122e682855fc68c349e6909de33099c07"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/tools-first-client.png",
+      "bytes": 576700,
+      "sha256": "4fecb92151b05cb11d03c6656fff921e6a7778fa0c2d0207b9585c2eb4e80c82"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/tools-instructions.png",
+      "bytes": 583841,
+      "sha256": "4abe7edc67d2252cfda6c779d8d985fac37df8349368fef84373963d20148f4c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/tools-mismatch.png",
+      "bytes": 573884,
+      "sha256": "ce9bc593a8f18d1a9b454be7a35a6e2ca5aa36db825f7dae2fa81ba79ad38447"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/tools-package.png",
+      "bytes": 569411,
+      "sha256": "c1ddd8c6a426446955f5ecadb5bb920c4916bfda3364f8e05479d90510506f92"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/tools-verified.png",
+      "bytes": 565120,
+      "sha256": "b7e7f359d67ebe1b1ea7b61cafaee88e8e1d2629dfe44473532d5f428ea74a66"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/tour-complete.png",
+      "bytes": 651356,
+      "sha256": "40af1b85bff03a3b6e986fda3c6e54960a5620d2e14491c10d65bf307d6a2a3b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey-final/worktrees-verified.png",
+      "bytes": 534093,
+      "sha256": "5d2a9f4e404206b6b2ed86dfca569a8c2301bf897f03c6303948efad59a39cf6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey.log",
+      "bytes": 2915,
+      "sha256": "84257779749add5dc10ee35c440229dd077e4c466da989528b45fb4691f69a83"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/arrival-desktop.png",
+      "bytes": 974835,
+      "sha256": "10a2aadb2593c8ac7383d976921615f2996fa52c0408bf1da06a52c68c93fd7e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/assembled-harness.png",
+      "bytes": 510371,
+      "sha256": "8185e1e99d3257d021874a2cdb14c9f2318021f913bcbb091c74f5eeb6f5ed63"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/automation-finding.png",
+      "bytes": 553952,
+      "sha256": "3860dba1888ca4f8644b70b39b472594be1d958d9eb2e5520bd7e6389aa48f60"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/automation-host-off.png",
+      "bytes": 569016,
+      "sha256": "2bf00cb39c97f1f766fd8134df423a6459fa0db60f716e084348332680a879d9"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/automation-quiet.png",
+      "bytes": 534977,
+      "sha256": "e340e32c31cbb9e4838719cd019af87e98d783b739050f11f8407a6f4f88a392"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/automation-read-failure.png",
+      "bytes": 573159,
+      "sha256": "96bb3a4f4de88e9b4b82c1b1b217674e14e5bba757ae33f945b79fab9b89378f"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/automation-tested.png",
+      "bytes": 567169,
+      "sha256": "b8c4f5c19f735e1ba3fdd74bc16b2f901f8f8b1cdc1e0d8853289667a3bb6f62"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/automation-verified.png",
+      "bytes": 573007,
+      "sha256": "4f258571b736a33c939bb579ed3c61c2acd9ffa205f27ab5406ec213d104c8be"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/automation-weekend.png",
+      "bytes": 572487,
+      "sha256": "87573cd0b469dac34fc56af7922af0c1ab29db342c3a141bc3c107cac8161c5f"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/browser-lab-repaired.png",
+      "bytes": 538900,
+      "sha256": "6fc4896c142f6e33e9d8800f5649c3e1c9aa33dc085aaec8808db71b77793ca4"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/cedar-definition.png",
+      "bytes": 570700,
+      "sha256": "24ef66f3a488b3cabf147b07f379a3011e33b6f1e7bcb5e1550bd708729e3ba4"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/cedar-first-checked.png",
+      "bytes": 551822,
+      "sha256": "e2a3a4d5bfd911bbd38cae9565c7706d5a0b08b7a7ea4bdbbc63c4fc30a43ccb"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/cedar-mismatch.png",
+      "bytes": 550364,
+      "sha256": "0607818b3e6024e3d33595aae4863cc798f709bb544ebaa3694b0470a3ab825a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/cedar-next-checked.png",
+      "bytes": 551738,
+      "sha256": "a3a12eb621b6a7d8ed566d1be3eb92fc349135064d3eb0622eca350462d02e75"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/cedar-procedure.png",
+      "bytes": 563451,
+      "sha256": "667f157e0852ea688144a889ad52b2b49fcd70a0b6263ac3640af486de1bb77b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/cedar-rehearsal.png",
+      "bytes": 552200,
+      "sha256": "44c505a44e31eb52ba04e88e318556f29f3c223358dc774c3f923ea807673e58"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/cedar-submitted.png",
+      "bytes": 566755,
+      "sha256": "b116914643903282a37173d230eed9048d7b1c78833e4afb53d5bb6c70a183fa"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/context-prose-failure.png",
+      "bytes": 565497,
+      "sha256": "ed14f0fd7bdca0ff622280b1ccc86d634ddcb2f2af73d7c9091901ecc3103ba1"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/context-stale-owner.png",
+      "bytes": 595739,
+      "sha256": "5bc6d0181c8fb07fb80bf02db17ac41a00db875e196232f817d131b914be7295"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/context-verified.png",
+      "bytes": 594172,
+      "sha256": "cb4eba4621ca3882c58ef0dafc9e211fb179305dca90755dd713ffd404930744"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/handoff-delivered-fails.png",
+      "bytes": 547679,
+      "sha256": "f0acaa2e591fe2acd6999716dfec85c05ae54b634866dccf4d0de0ae74f86bcf"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/handoff-evidence.png",
+      "bytes": 570649,
+      "sha256": "b06ba37f4d0a811f8b8c82826e293a1b04dc3f5a705fd4160fbb336e81464271"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/handoff-local-passes.png",
+      "bytes": 560222,
+      "sha256": "4fbd1afe66e9d2c149f0cc8e60a48d235eb417c13742eddc79b9bae1c9b9e654"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/handoff-preserved.png",
+      "bytes": 573170,
+      "sha256": "eaaf0fe6446ee6a660477ea9db4ad6269adfd75888e35ca83e2ddeb70a8a9b54"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/handoff-recovered.png",
+      "bytes": 551657,
+      "sha256": "d785fb7bd6ebebcc74c78e8be1b5b5a1d0b8ba08c79c1fbee024dfa98eedee29"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/handoff-verified.png",
+      "bytes": 548606,
+      "sha256": "36922ef2917fa5b35d697c1fb56157eae4d01635b195a240345e41bcac13332a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/mission-desktop.png",
+      "bytes": 506744,
+      "sha256": "c1256b59e33cddbe2aab981d65b73e2464045b4cedfa59bf8d6aa027d7ae314e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/mission-portrait.png",
+      "bytes": 167562,
+      "sha256": "485f25e457eebeb6b10ba9ff45f3d5fc2615f2aefc231ef1e913536859ef3284"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/models-access-blocked.png",
+      "bytes": 615691,
+      "sha256": "356b604227453682baa7c69c57825a48eaf32919db7f5f417ded06a861158cd6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/models-billing-failed.png",
+      "bytes": 614945,
+      "sha256": "f8d0134a45e920680e66e5c579ee0b2145b1414436e113dc235a1b7c7683b0b3"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/models-billing-verified.png",
+      "bytes": 603267,
+      "sha256": "6915ccde17d73de52d8ec56c452f3614c4a3b88e23dabb694ac3764825630e2e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/models-label-compared.png",
+      "bytes": 611355,
+      "sha256": "4e4cf1b49134d1cc8b16d9100e099c8fe22a003b24ee3066347fa436d611c086"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/models-three-routes.png",
+      "bytes": 604492,
+      "sha256": "93892313a97feb7fd3c9d2247273515a82675478469bae9da2f5953fb2d682ab"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/my-codex-starter.zip",
+      "bytes": 83180,
+      "sha256": "500dd7dc83148b32ce1940b3918a5d9929db4d37b9af494f5c9f1d1cc7715543"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/my-codex-toolkit.md",
+      "bytes": 5200,
+      "sha256": "8423ecd2d1bc1c7ea09a1deea155281bb45b4dd662e9d23b97d73a16baeb7f60"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/permission-connector-denied.png",
+      "bytes": 567547,
+      "sha256": "975a0ab253ac6653ca78cf16ab2c09cbd87562da3c22ed48564709e3ec1a9e15"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/permission-read-denied.png",
+      "bytes": 600278,
+      "sha256": "8cc7cc12580192b718c3c62df97ededa4569f603a446a3f3b47ab719b52eca6b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/permission-request.png",
+      "bytes": 604294,
+      "sha256": "517ad0fb4c3b427643694f09cd47d99bffada952e23afa8c28b36e068315eebf"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/permission-send-boundary.png",
+      "bytes": 567549,
+      "sha256": "a706f80b0eff64acb9e360c66a7296e9d66514b3364153c4c225aab120aae94b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/permission-verified.png",
+      "bytes": 575950,
+      "sha256": "10067c6bab4197247b58ef63d89bf830ee4455b2b2ae3e8e7462c2ba52c751d2"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/report.json",
+      "bytes": 128719,
+      "sha256": "decda888bfd4358cce41be9cde6dfee3f943ca8b800c70b6dcb1c2346c43cd9a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/review-narrow-pass.png",
+      "bytes": 593004,
+      "sha256": "2bc0c1d77585f06809953f553e1304a2ece0e1228cd4d10f9a2ec475bb88fdb6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/review-partial-repair.png",
+      "bytes": 538736,
+      "sha256": "525f0d2724cf4a081e1d6c4e088f1cedbee64a28c56cbf48410b9ca60eaa41ec"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/review-regressions.png",
+      "bytes": 582228,
+      "sha256": "54087a1bfd6f0341f5bf35a65f4c33370f9e6855510054455fb284968c1e0e71"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/review-verified.png",
+      "bytes": 533358,
+      "sha256": "e2e9ffbfceb5afb90a7371e96c48e74cea607bc5cf68bc2ebe775b7c2b83c9a6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/shared-checkout-overwrite.png",
+      "bytes": 531268,
+      "sha256": "a529578b03ba61b2a4ab946d4b4560d93b43fc750d551930b717e7e5459bf10c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/steering-checklist-finished.png",
+      "bytes": 581979,
+      "sha256": "9b7bd95aa1edf26e0c6cf20dd4cda681c8a2ebbd2ca8d228f135ecdd64539c7a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/steering-pending.png",
+      "bytes": 560485,
+      "sha256": "4df841354e511a26876a6a44bae3dc8e2a2a53f91f74df9ce5d73de36318bcb9"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/steering-status.png",
+      "bytes": 558437,
+      "sha256": "34272bea96a973079b260c99515151bc748097a119358107eeb42f47af368718"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/steering-verified.png",
+      "bytes": 575339,
+      "sha256": "284f5ed707a8154d122649a4dfe8b4e84a654d14eed13363dc5b83735b2bbda6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/task-created.png",
+      "bytes": 577658,
+      "sha256": "2591fcc61f395b2b6ae3212febab0a2f49952333c7e39294a1683e741dddae8f"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/tools-first-client.png",
+      "bytes": 577998,
+      "sha256": "ddbc099db6462cb44951f617e5239f69f376c167339696108869d38266d9b335"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/tools-instructions.png",
+      "bytes": 584269,
+      "sha256": "df06a32e76e751440133ddf2dc16edaff08cb39ea707c1622281c8661e3ee489"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/tools-mismatch.png",
+      "bytes": 575913,
+      "sha256": "0f39d5d44153149431dbc2b47c29ab0385413d3853aa5436d830e04d1847b1f6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/tools-package.png",
+      "bytes": 569738,
+      "sha256": "b745952b983fe6c6bb305778c6fa6e6ce3b608218f96d55d61de17f03821ff96"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/tools-verified.png",
+      "bytes": 573528,
+      "sha256": "ea7010710b5f8c0089b160e61f1c55252a335aba0c17606590e173773925474e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/tour-complete.png",
+      "bytes": 650777,
+      "sha256": "c3ae41df5b8c0d9acf796d0542f3f6b0444bdec0c270e5d976ede6b4db851e59"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/journey/worktrees-verified.png",
+      "bytes": 534267,
+      "sha256": "611b2832e6a44b7e3c09d29b156d5d72e0974249bdedcfd33185d2454444163a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/ownership-tests-final.log",
+      "bytes": 826,
+      "sha256": "b65bfc15dc6f8872cf560be956d18973998702ff9cd86ba7e1305845860dc146"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/ownership-tests.log",
+      "bytes": 826,
+      "sha256": "df1c013fc3e277bbb4844f941fe3baf7077b1a2bfdf7787336b2d107fc32aea2"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail.log",
+      "bytes": 1689,
+      "sha256": "e9e55dc3637afd5b4f5022c23870e3e301ed7dbad9ac25d0db9fa23ae9dc067d"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-delayed-portrait.png",
+      "bytes": 149756,
+      "sha256": "4a1d19d14389a1f672b40dd296dc4bf244d3cf8568f3ecb783a7791540aca7ae"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-delayed.png",
+      "bytes": 504400,
+      "sha256": "5cdd5ea381e06149591d8e9c1bdbefcba94605c23ba5e3c656e562a6c5828c47"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-failure.png",
+      "bytes": 111442,
+      "sha256": "bb7bedad2baeca1f38808977a3135c8a19a962d4e83e131046500657c5068924"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-portrait-resumed.png",
+      "bytes": 161766,
+      "sha256": "7ee2bed0f661be2cccc9e4e1e91c9de91cb083a83440eb7d00bef7a601adae02"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/chrome-restored.png",
+      "bytes": 519414,
+      "sha256": "804c12edea1be4d7f92b732fd86f717487e07d012e0a365732e6b4ad9d92a853"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-delayed-portrait.png",
+      "bytes": 215310,
+      "sha256": "37868b8440217067b9aa73977cfffe91a01308144235494564865ede51cf64fd"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-delayed.png",
+      "bytes": 664190,
+      "sha256": "041f6f60d67a90af29fc856d3dd14f6c58660aaeb052968053ecb41a6239084d"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-failure.png",
+      "bytes": 142103,
+      "sha256": "5bb2bc2e48b3bca9ebeeee7c0fcb589aa44e4c8dbf1586d4fe7b4868ee90d51c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-portrait-resumed.png",
+      "bytes": 196482,
+      "sha256": "22ca65ae5439541404bf9fe707a4004edddfb925c2b8499b4df1edb335ff059e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/firefox-restored.png",
+      "bytes": 711790,
+      "sha256": "d96847e4e5ce9749a3b6ba8f75aa315eb80a2a0e9967d51922b9c7d117f0d58b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/report.json",
+      "bytes": 340841,
+      "sha256": "b0132b02c19db18860637e8b06dcaf2a21450276802b929e11a52eaa2fcab201"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-delayed-portrait.png",
+      "bytes": 239080,
+      "sha256": "b77681e8d15cde4ea2e64ac06a0a636745461513a3ddafd9afb2db06ec31600b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-delayed.png",
+      "bytes": 740780,
+      "sha256": "f42216166318023666253405cb1e782d04b0f304bc76291996e56675d7033ac4"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-failure.png",
+      "bytes": 179791,
+      "sha256": "f6eb1cd6b48a9dc3ef9e1fe4341cc07c7205324a75e91f14e7fe7f6ff478429e"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-portrait-resumed.png",
+      "bytes": 225944,
+      "sha256": "8f678951d8dad10a8d4f5a728db2f5b70e7470f01208f272ad78d999c2929c08"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-diagnostic-detail/webkit-restored.png",
+      "bytes": 771122,
+      "sha256": "e1f6f2fa68b43dc78ddfc819a76cc8da2ee1ad7f3cb14eba322617f25f56faa4"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final.log",
+      "bytes": 469,
+      "sha256": "a6cdf642b49e4a84f1b2f104214193bc405f86ea23cf44b34f55d877c79a0183"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final/chrome-delayed-portrait.png",
+      "bytes": 149756,
+      "sha256": "4a1d19d14389a1f672b40dd296dc4bf244d3cf8568f3ecb783a7791540aca7ae"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final/chrome-delayed.png",
+      "bytes": 504426,
+      "sha256": "427241416c359b72ec23b08f70ed9f949cd27c38558365a20a40f27df3eb175f"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final/chrome-failure.png",
+      "bytes": 111442,
+      "sha256": "bb7bedad2baeca1f38808977a3135c8a19a962d4e83e131046500657c5068924"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final/chrome-portrait-resumed.png",
+      "bytes": 161766,
+      "sha256": "7ee2bed0f661be2cccc9e4e1e91c9de91cb083a83440eb7d00bef7a601adae02"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final/chrome-restored.png",
+      "bytes": 519414,
+      "sha256": "804c12edea1be4d7f92b732fd86f717487e07d012e0a365732e6b4ad9d92a853"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final/firefox-test-failure.png",
+      "bytes": 180238,
+      "sha256": "1b049545f6cc66af4abfadc3e300720d8050861c85a94d8118cde0f552e6a410"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery-final/report.json",
+      "bytes": 131169,
+      "sha256": "ed4684f7a7b8beaed41af77a47830a40e4d2020c9fbe9d1496e9c056c0e1b6ee"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery.log",
+      "bytes": 469,
+      "sha256": "e1507f594a74bf07703f19ad33b853218af0c851cba6775f4ac8b331a2c3868b"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery/chrome-delayed-portrait.png",
+      "bytes": 149756,
+      "sha256": "4a1d19d14389a1f672b40dd296dc4bf244d3cf8568f3ecb783a7791540aca7ae"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery/chrome-delayed.png",
+      "bytes": 504218,
+      "sha256": "1002c95f6c6e997cf4892a82d504c4dbf842dfa7842667f5b7316321ebf18f93"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery/chrome-failure.png",
+      "bytes": 111442,
+      "sha256": "bb7bedad2baeca1f38808977a3135c8a19a962d4e83e131046500657c5068924"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery/chrome-portrait-resumed.png",
+      "bytes": 161766,
+      "sha256": "7ee2bed0f661be2cccc9e4e1e91c9de91cb083a83440eb7d00bef7a601adae02"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery/chrome-restored.png",
+      "bytes": 519414,
+      "sha256": "804c12edea1be4d7f92b732fd86f717487e07d012e0a365732e6b4ad9d92a853"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery/firefox-test-failure.png",
+      "bytes": 180238,
+      "sha256": "1b049545f6cc66af4abfadc3e300720d8050861c85a94d8118cde0f552e6a410"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/recovery/report.json",
+      "bytes": 132652,
+      "sha256": "c4e2dcf8f31c7a8b922d6014b2f6013c77e9b8cf85a7c7b0615040295517d6ba"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final.log",
+      "bytes": 29,
+      "sha256": "0abdef2ca71dcd0233b357d682a989d1aecc47839b35ad0a9d689b4052baf177"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-balanced-arrival.png",
+      "bytes": 355629,
+      "sha256": "4488ad65c23b5b1d190000b71dc63a19b2ca260bb9ac597233c4e6e1e64f5677"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-balanced-control.png",
+      "bytes": 294148,
+      "sha256": "5508e7d1e4a259ede8bce48fd3462eb8a4d6ae23e46ac7f04e7c9d5309b40fdb"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-balanced-handoff.png",
+      "bytes": 306801,
+      "sha256": "9175037454d45d210c7f14d68f4c59962b99f727707889fb247f715567be14a1"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-balanced-tasks.png",
+      "bytes": 299906,
+      "sha256": "7badb4a4ea643a304a981710d459a0cc8d5c9bdae2c4d463006033fa7741cca6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-balanced-tools.png",
+      "bytes": 286595,
+      "sha256": "85516b7ffbbae7a322a4bfa5d01b1f48fd9435486c3f8ac4ad52164e250f49e6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-high-arrival.png",
+      "bytes": 2333190,
+      "sha256": "e7d42c4e43fe2891ffd24454bef66e8d45cd5d3a81ecfbe4d48fbf8ebc9b12c6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-high-control.png",
+      "bytes": 1169620,
+      "sha256": "cde8bb8ee8e4b2e2b93d5cfaf4fed59969f782b54ac115801e14fc4c5950a9d2"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-high-handoff.png",
+      "bytes": 1366547,
+      "sha256": "64d5a1f1b4b9f629947ae035b5c19874abe6d7cb0b6f395b8674b80c054128bf"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-high-tasks.png",
+      "bytes": 1223954,
+      "sha256": "41c3b62acf70384cabddf48e371a6c17b5c4048c67a835b84ddb80cc886f7a6a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate-high-tools.png",
+      "bytes": 1144987,
+      "sha256": "1bad174c9f4b526839421ca623d7ebc850ffb6fcc3ccd101324a4a65e8f75023"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/candidate.json",
+      "bytes": 566898,
+      "sha256": "455a95b3032b8281e2977e5c9aa0b47b33f4c971889da351b2262ef310e11395"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views-final/comparison.json",
+      "bytes": 856,
+      "sha256": "625812eb5dcc8c2ffb64ab0bc944ed772f403baaba7db19ef23de16dafa7789c"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views.log",
+      "bytes": 29,
+      "sha256": "0abdef2ca71dcd0233b357d682a989d1aecc47839b35ad0a9d689b4052baf177"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-balanced-arrival.png",
+      "bytes": 355629,
+      "sha256": "4488ad65c23b5b1d190000b71dc63a19b2ca260bb9ac597233c4e6e1e64f5677"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-balanced-control.png",
+      "bytes": 294148,
+      "sha256": "5508e7d1e4a259ede8bce48fd3462eb8a4d6ae23e46ac7f04e7c9d5309b40fdb"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-balanced-handoff.png",
+      "bytes": 306801,
+      "sha256": "9175037454d45d210c7f14d68f4c59962b99f727707889fb247f715567be14a1"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-balanced-tasks.png",
+      "bytes": 299906,
+      "sha256": "7badb4a4ea643a304a981710d459a0cc8d5c9bdae2c4d463006033fa7741cca6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-balanced-tools.png",
+      "bytes": 286595,
+      "sha256": "85516b7ffbbae7a322a4bfa5d01b1f48fd9435486c3f8ac4ad52164e250f49e6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-high-arrival.png",
+      "bytes": 2333190,
+      "sha256": "e7d42c4e43fe2891ffd24454bef66e8d45cd5d3a81ecfbe4d48fbf8ebc9b12c6"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-high-control.png",
+      "bytes": 1169620,
+      "sha256": "cde8bb8ee8e4b2e2b93d5cfaf4fed59969f782b54ac115801e14fc4c5950a9d2"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-high-handoff.png",
+      "bytes": 1366547,
+      "sha256": "64d5a1f1b4b9f629947ae035b5c19874abe6d7cb0b6f395b8674b80c054128bf"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-high-tasks.png",
+      "bytes": 1223954,
+      "sha256": "41c3b62acf70384cabddf48e371a6c17b5c4048c67a835b84ddb80cc886f7a6a"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate-high-tools.png",
+      "bytes": 1144987,
+      "sha256": "1bad174c9f4b526839421ca623d7ebc850ffb6fcc3ccd101324a4a65e8f75023"
+    },
+    {
+      "path": "evidence/production/warm-factories-v1/views/candidate.json",
+      "bytes": 566887,
+      "sha256": "3ab6ea5b76585c5d51e2aaf911b30f5220b1ab7052c97b948ea8d4bcd8351382"
+    },
+    {
+      "path": "game/.game-dev/goals/balanced-release-high-targets.json",
+      "bytes": 1274,
+      "sha256": "0a970525f047b8e20a578b7d631cb95877f90a8b742f8162a8fd5cc09d4c0753"
+    },
+    {
+      "path": "game/.game-dev/goals/balanced-startup-transfer.json",
+      "bytes": 1717,
+      "sha256": "fddb0c12672d7cafb1463fcc31601b0ee5d4f8bd0daf3e0b0f05261b2ef20467"
+    },
+    {
+      "path": "game/.game-dev/goals/balanced-visible-geometry.json",
+      "bytes": 1261,
+      "sha256": "706ff8d5ca204b9949808489d57e9bfa58bc026d13d24e3dcb3aec96dc834f51"
+    },
+    {
+      "path": "game/.game-dev/goals/streamed-exhibit-residency.json",
+      "bytes": 1801,
+      "sha256": "fbf178c7d1392b272f21eb05e2570bf5537274dfc38572b05aae29332db13394"
+    },
+    {
+      "path": "game/.game-dev/goals/warm-exhibit-factories.json",
+      "bytes": 1247,
+      "sha256": "9509f1886e559ce3bb4bfa38eeeb61f8817feca75c7c1396686649814166798b"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/adapter.json",
+      "bytes": 3432,
+      "sha256": "7c5ee8db7c8df145cb4c67945052b769729f33ec409ff6349a3761466d77fcb1"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/capture.json",
+      "bytes": 420692,
+      "sha256": "90509b714966c0db3c5223a7623db03a05ebd37dc91070dea05d95c5732162b2"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/end.png",
+      "bytes": 375887,
+      "sha256": "b85dda2fc25e3801677ee65ca1424f724d238f5f0055a5c826457880ada51865"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/plan.json",
+      "bytes": 1713,
+      "sha256": "a06619bb5311c3431758dad95aa89bbff55aa38a20b7673a1597b11f8fdd4673"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/request.json",
+      "bytes": 28,
+      "sha256": "cd23aa00f4b4d1f338cf9276eb5476de7a996f62a360f15501da655291d54e62"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/run.json",
+      "bytes": 3399,
+      "sha256": "3c6fe9531e639176d29ebe5f7767b1d90889740e6c0214e9d59efdacfde4b8ee"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/start.png",
+      "bytes": 376106,
+      "sha256": "34f0426e26b958a4b8e81e577eeac755b1fe26838a0a4af9a01046b677629b1a"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/stdout.log",
+      "bytes": 434,
+      "sha256": "9a5fdb9f9d893966f5f469a9f069a7848ccc554c879b6a5a728742d5270d4b26"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789043785668_4d46ba2a68464d5293c9148bec41d28b/traversal.json",
+      "bytes": 902739,
+      "sha256": "69d927ab757c02a6c49a30e92f51a5f07d9c99773febec2658f13a56d16f8449"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/adapter.json",
+      "bytes": 3432,
+      "sha256": "7c5ee8db7c8df145cb4c67945052b769729f33ec409ff6349a3761466d77fcb1"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/capture.json",
+      "bytes": 420734,
+      "sha256": "203e2a2c9dcd57423e4bad59703020eebf96b7737beee9f3abfca0a450d29e2f"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/end.png",
+      "bytes": 375883,
+      "sha256": "177f23501e615e1ed5017c0a7b554814c3dc072839cd2f6ccb9547d076e82863"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/plan.json",
+      "bytes": 1713,
+      "sha256": "04bfcf67433ba3fe94e9e8d9b1c87630fc50b81785a1e70820a54e929c46baa6"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/request.json",
+      "bytes": 28,
+      "sha256": "cd23aa00f4b4d1f338cf9276eb5476de7a996f62a360f15501da655291d54e62"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/run.json",
+      "bytes": 3399,
+      "sha256": "dcf5f48f605ef21c536367aaa5def488e6a6199bd584f1c3075d75536d7615d7"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/start.png",
+      "bytes": 376013,
+      "sha256": "d2153aacb4ec732b71067ae7e95021daedd101e1e1def613486ab12c0c59c008"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/stdout.log",
+      "bytes": 414,
+      "sha256": "13a4b82ea98d2b3eb47658d52aea40cbecdc50e0e8457ff8604bfba8d4fd3d23"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045039245_17d26e8c7ab7403cbdfaa86dfdd64498/traversal.json",
+      "bytes": 933932,
+      "sha256": "35f90db3fc0ea36fa2177f5ea24701eefbb3711cfc4a4eeba600e1509dad3478"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/adapter.json",
+      "bytes": 3432,
+      "sha256": "7c5ee8db7c8df145cb4c67945052b769729f33ec409ff6349a3761466d77fcb1"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/capture.json",
+      "bytes": 420641,
+      "sha256": "637c003a813a92c44452a3682d426174bb3e620fdb895304e6a62d6f01a08195"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/end.png",
+      "bytes": 1307440,
+      "sha256": "c8d655ff814940e01f8bdbf03c44af8c441ab63f43ebe4e8fdfd86a16f430a0b"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/plan.json",
+      "bytes": 1705,
+      "sha256": "83e9a0fd8929fcd49b28feb605daaa7d6511d06587fa1f6f61a9658e279436e4"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/request.json",
+      "bytes": 24,
+      "sha256": "3a84440c049ee12548f465aeccd0bcf86c45f06a159479b1b304dbe0dcd26404"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/run.json",
+      "bytes": 3397,
+      "sha256": "3a949da31783bff91f4c4d85f8fc30f67db19a469a87d98e5a337817430157e8"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/start.png",
+      "bytes": 1307757,
+      "sha256": "85010a8b01e7b4599f21a1ca74d7f31286c31910a1414be9e24197734b6d8fd4"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/stdout.log",
+      "bytes": 408,
+      "sha256": "78841ff7958114bcfbf5ec6dc734189f7466abbdb6d4905744044e02992bbf81"
+    },
+    {
+      "path": "game/assets/generated/.game-dev/runs/run_1789045189848_96c9b16113f24112a9edff4c8c579843/traversal.json",
+      "bytes": 951946,
+      "sha256": "c767cb17ccbf0fb510fc24eec470dbaad151ed4b1e4efb202eed2543a6d06acc"
+    },
+    {
+      "path": "game/dist/assets/abstractEngine.pure-BMdakWcX.js",
+      "bytes": 59257,
+      "sha256": "0b18a3871073b615c8e089136b3865886e225c5dd159eec4946e61a603089c09"
+    },
+    {
+      "path": "game/dist/assets/animation.pure-BkcuS87H.js",
+      "bytes": 15295,
+      "sha256": "91ad9a044fdd9ca3f0f36699c91ba62b683b90512d71c2b36443dcaf16adfe98"
+    },
+    {
+      "path": "game/dist/assets/animationGroup.pure-BAmlmzS0.js",
+      "bytes": 35251,
+      "sha256": "2daaa681af4809e3c7e283adc90b464370f8c300d5ff7edd58da67619807d93f"
+    },
+    {
+      "path": "game/dist/assets/automation-exhibit-CvKAs1AQ.js",
+      "bytes": 4943,
+      "sha256": "336e8ed72560ac08cf6963ad625c53f7c8354f42e165900dc0a7a0ff64988498"
+    },
+    {
+      "path": "game/dist/assets/bakedVertexAnimation-C6l_KSSy.js",
+      "bytes": 7717,
+      "sha256": "90245ca41abe8f9bf859b5a94b0e448f0d4a580cfc4c965921f8fefd8a949097"
+    },
+    {
+      "path": "game/dist/assets/bakedVertexAnimation-COa3IHTL.js",
+      "bytes": 8502,
+      "sha256": "cd84a4bd5d0e0dc44c5a5e4a3446340a2b03e4b2c8140b11c9b4a64df00e7f86"
+    },
+    {
+      "path": "game/dist/assets/baseTexture.pure-CdBhjDO3.js",
+      "bytes": 15085,
+      "sha256": "70a59b88dbbeaccb8e7416357e1def30513c82edd2d6d5702c9a9836e136cf21"
+    },
+    {
+      "path": "game/dist/assets/basisTextureLoader-DLkBmlh2.js",
+      "bytes": 8153,
+      "sha256": "34bb60fc079ed13bdf1c1df6331a349b50f04c6f35fd8ba7956d463a43daaa2a"
+    },
+    {
+      "path": "game/dist/assets/bloomMerge.fragment-DQ_fgnoL.js",
+      "bytes": 740,
+      "sha256": "bf6eb0ed3c11cacbc1f241411f902d04700e3cb68e6fcffa5b0224fb5d7a0ab9"
+    },
+    {
+      "path": "game/dist/assets/bloomMerge.fragment-vwVNEATu.js",
+      "bytes": 487,
+      "sha256": "dfa545e66d9716845291b96dd6562f6659e66d6d15e2123aa27dea4f671a76a5"
+    },
+    {
+      "path": "game/dist/assets/branch-exhibit-ByhBjeIH.js",
+      "bytes": 3096,
+      "sha256": "1738597a5a6a4e14d46afcd2da5c3429ee7efe2027abd2ea79d71ff7c12c755b"
+    },
+    {
+      "path": "game/dist/assets/browser-yot1331H.js",
+      "bytes": 12790,
+      "sha256": "d056a6eec0754bfa2ab0201fa2bef527909727b5469ab3de38c591fe82d37463"
+    },
+    {
+      "path": "game/dist/assets/buffer.pure-BIFLVAZk.js",
+      "bytes": 7403,
+      "sha256": "f26750ed92b7d229e7b42906f0108d4654635936447fb725f644a371b49cee7b"
+    },
+    {
+      "path": "game/dist/assets/bumpFragment-BtJd9tYZ.js",
+      "bytes": 6862,
+      "sha256": "b0cecff4587974f106a0c176082bc1f647e2fd5abc0ab46bc8f58d03178c642f"
+    },
+    {
+      "path": "game/dist/assets/bumpFragment-CZy0KIWh.js",
+      "bytes": 8067,
+      "sha256": "7367e39b1e71f233e20954f1cc62620ca361e0a1ab2ae425f57a59ea616c0b07"
+    },
+    {
+      "path": "game/dist/assets/bumpVertex-CWhdIpqj.js",
+      "bytes": 522,
+      "sha256": "0566f87b964a6c179999bb6cf54b4c82463bf6ad42cb87c5aa24e9e0d51a63f2"
+    },
+    {
+      "path": "game/dist/assets/bumpVertex-DRq4BZvD.js",
+      "bytes": 699,
+      "sha256": "74176a269e6216de48f6ef20164ced661a06dfa6efd4d48bc0cb648cc02463c6"
+    },
+    {
+      "path": "game/dist/assets/bumpVertexDeclaration-Cb04kLz9.js",
+      "bytes": 341,
+      "sha256": "d4ed775da7490ad120f0146e0c32df1bf166693679d7b09b3e4aa490ef3d5701"
+    },
+    {
+      "path": "game/dist/assets/bumpVertexDeclaration-I4Guxw_q.js",
+      "bytes": 394,
+      "sha256": "2ed968a556173636bc88fe322aef8e0057e4d160ff89be53a87336f2936383c5"
+    },
+    {
+      "path": "game/dist/assets/capstone-exhibit-C_CPse9I.js",
+      "bytes": 4386,
+      "sha256": "dba968b566f3defc0e99596433a3d037211d94a3d058b39d8a8d94b383c5a5a8"
+    },
+    {
+      "path": "game/dist/assets/chromaticAberration.fragment-DNJUxumu.js",
+      "bytes": 1892,
+      "sha256": "cd5a0af6ebc09b2268d507c32182a9f2d69e40a0aff899b231c79799b01ece17"
+    },
+    {
+      "path": "game/dist/assets/chromaticAberration.fragment-cDPo3aCd.js",
+      "bytes": 1533,
+      "sha256": "45f71c5374a04dc2d89a4cf7482466a0cff75de2abaa1e503f8972acfafeae96"
+    },
+    {
+      "path": "game/dist/assets/circleOfConfusion.fragment-Bl-wDFJW.js",
+      "bytes": 990,
+      "sha256": "44adc6389fafecc8c374bcc95bfde512965d0e1d380df123a09003ffbcac2eb0"
+    },
+    {
+      "path": "game/dist/assets/circleOfConfusion.fragment-CEj6DZ22.js",
+      "bytes": 814,
+      "sha256": "6623b8177a409c50f16bc0f6a22de3c3dafff9e3e0806ef4213f7e53d0145c82"
+    },
+    {
+      "path": "game/dist/assets/clipPlaneFragment-Ct2VqHzk.js",
+      "bytes": 1274,
+      "sha256": "455c46fc4b13fe2a93164783c7bfba27f2611f7a8e5c0c160cf0798dd7926275"
+    },
+    {
+      "path": "game/dist/assets/clipPlaneFragment-DVK0wgyZ.js",
+      "bytes": 1174,
+      "sha256": "74fd12d190430b96092bbaf47daa9916639ccf578b14fc8f90fee322f820b073"
+    },
+    {
+      "path": "game/dist/assets/clipPlaneVertex-C59BO8JS.js",
+      "bytes": 1171,
+      "sha256": "5ce905956629bdc75a0d2054c2fe23ffd35a44ad057c16c9e7be31935ac9408c"
+    },
+    {
+      "path": "game/dist/assets/clipPlaneVertex-DKhVm1NW.js",
+      "bytes": 1355,
+      "sha256": "112c69c01f2c26b1577727771b7a8580aaa04f87d14fdeee26531b3b258be5ed"
+    },
+    {
+      "path": "game/dist/assets/codex-mascot-balanced.glb",
+      "bytes": 695944,
+      "sha256": "07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee"
+    },
+    {
+      "path": "game/dist/assets/codex-mascot.glb",
+      "bytes": 912508,
+      "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610"
+    },
+    {
+      "path": "game/dist/assets/codex-reference.png",
+      "bytes": 493468,
+      "sha256": "de7d43f3386105ab20952958c2c25beb0d903e2aeb6e1aef57c49a648c0d1c07"
+    },
+    {
+      "path": "game/dist/assets/color.fragment-CbJP31yK.js",
+      "bytes": 1037,
+      "sha256": "e9dae782167d32901e20679ab315477933c7c47d6d776541961a2e4eeabe1693"
+    },
+    {
+      "path": "game/dist/assets/color.fragment-CxH-oW8C.js",
+      "bytes": 929,
+      "sha256": "6c19811bcafc31d92808a8b0b8099399b797e39c3b50f32d6a43bdb0cc6a6012"
+    },
+    {
+      "path": "game/dist/assets/color.vertex-Bn1VOzn-.js",
+      "bytes": 1533,
+      "sha256": "1b395cccccc17e7da17da15912c59bac2d9b5da39c5664f570043819f383d972"
+    },
+    {
+      "path": "game/dist/assets/color.vertex-CYNjCrqH.js",
+      "bytes": 1593,
+      "sha256": "15e742ff3f9ac4b0c607e683a500eb0b193606c5bb2324ecd9508fb5f5bbebe5"
+    },
+    {
+      "path": "game/dist/assets/constants-DNxlZnxc.js",
+      "bytes": 11693,
+      "sha256": "f42dded84619bccdad35d52815a16c7bc499632d8b2aad3a07279debd5319671"
+    },
+    {
+      "path": "game/dist/assets/context-exhibit-CtKtXerM.js",
+      "bytes": 3693,
+      "sha256": "c05dc5e13a476c3d5004523d92e0c4ccbd93dccaf8d7bb759a23ec427f973c79"
+    },
+    {
+      "path": "game/dist/assets/context/save-error.html",
+      "bytes": 1576,
+      "sha256": "be4881c595fc56a658f240724f0b4e8251f1db7d166bfbc0fda0ea417b95d754"
+    },
+    {
+      "path": "game/dist/assets/context/save-error.png",
+      "bytes": 30407,
+      "sha256": "fc56c1c757e214e1f0441ccf4d012e9fb4bf34616faed0df48a3958e8dfe3ede"
+    },
+    {
+      "path": "game/dist/assets/cubemapToSphericalPolynomial-BLjZA_r-.js",
+      "bytes": 3674,
+      "sha256": "b34168f41b7913f6ebb0798013c6119f5fe935f22a1eae163fe83e729105bbaa"
+    },
+    {
+      "path": "game/dist/assets/dds.pure-DN3NaJ9g.js",
+      "bytes": 6931,
+      "sha256": "a333cd9f30a68f4ef5b0fe3b201809f1414ac092bf885675729c84fd2ac82f5b"
+    },
+    {
+      "path": "game/dist/assets/ddsTextureLoader-Co-jFg5P.js",
+      "bytes": 1276,
+      "sha256": "8ec99c4e20507ae6e8c12f1b894f15e3b800d662075e243bcd59dffc3df71399"
+    },
+    {
+      "path": "game/dist/assets/decoders/MESHOPT-LICENSE.md",
+      "bytes": 1079,
+      "sha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26"
+    },
+    {
+      "path": "game/dist/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+      "bytes": 30677,
+      "sha256": "24018cf3ec76322c3ee6c37bdb484383d24a6f591149e1d8134e9bfb1a0bbb26"
+    },
+    {
+      "path": "game/dist/assets/decoders/meshopt-decoder-1.2.0.js",
+      "bytes": 29400,
+      "sha256": "fedf06f101ff2ba59d66335578230b7e8f5fac5057dee084be64c67444ac6c12"
+    },
+    {
+      "path": "game/dist/assets/decorators-C_ra_8EP.js",
+      "bytes": 3878,
+      "sha256": "0105565de1a14d944df1bc4ed8dd29d1c044d2cfbea3aed9bee2943048185985"
+    },
+    {
+      "path": "game/dist/assets/decorators.serialization-d26cuy-b.js",
+      "bytes": 4720,
+      "sha256": "9b9d613444e32809cd1036ce5f6c70269aa3710c89494f0ca2063777e16fb720"
+    },
+    {
+      "path": "game/dist/assets/default.fragment-CXn8pVJ-.js",
+      "bytes": 24017,
+      "sha256": "a8f6dae3fc38e64e07ced152128493cc6c7fdf644892669ac93e623f2ee9b676"
+    },
+    {
+      "path": "game/dist/assets/default.fragment-Xv-R2tQD.js",
+      "bytes": 25754,
+      "sha256": "0c8d8ad349a89b7174a3419c4420607c58cdf712c299cf6c8dfacc66f5543245"
+    },
+    {
+      "path": "game/dist/assets/default.vertex-B1N6Otbz.js",
+      "bytes": 8163,
+      "sha256": "4f17bb2d893f958eca065ad3b1ae1a702b553059b126ae0f295819514d79126e"
+    },
+    {
+      "path": "game/dist/assets/default.vertex-Dh04QukZ.js",
+      "bytes": 9626,
+      "sha256": "3f5ba8a3757c920c11a73569b53008fcedb9527eb404512534f2ad5bb9583793"
+    },
+    {
+      "path": "game/dist/assets/defaultUboDeclaration-C53xcSdv.js",
+      "bytes": 1262,
+      "sha256": "2299c403e845484f01fd44e91efe2e67bebe1cffec6d4c22c45b87bcb73d44dc"
+    },
+    {
+      "path": "game/dist/assets/defaultUboDeclaration-bEX7kynB.js",
+      "bytes": 1625,
+      "sha256": "784aec278e00303d8e7b96c78b280e57eff581ebadb4892569f78d76fdc14633"
+    },
+    {
+      "path": "game/dist/assets/depth.fragment-D67KRAFZ.js",
+      "bytes": 1403,
+      "sha256": "9f083cf1b077b60694787dce524fbbac6e65d143de101a38c94b6a03d10d5ac9"
+    },
+    {
+      "path": "game/dist/assets/depth.fragment-DCDlr7g6.js",
+      "bytes": 1178,
+      "sha256": "ad040d34225654b22bd7b43131861e5aa1f882e1b742944d5914c12458581d88"
+    },
+    {
+      "path": "game/dist/assets/depth.vertex-aOaKW2pI.js",
+      "bytes": 2330,
+      "sha256": "60850b06866a62ae1f8dc2fe20e8c81ef5a8d20810e66d702f1e83d001639606"
+    },
+    {
+      "path": "game/dist/assets/depth.vertex-nHwsboyy.js",
+      "bytes": 2368,
+      "sha256": "6db78af9c7ee8c2555eaa025dd13d8105415a3505e90131598bfc8e6d6bb5c30"
+    },
+    {
+      "path": "game/dist/assets/depthBoxBlur.fragment-CLEAG5DG.js",
+      "bytes": 534,
+      "sha256": "c1be9b5ba7990ffec29649403d4948032e12188a1cca8bac368ce1279195c119"
+    },
+    {
+      "path": "game/dist/assets/depthBoxBlur.fragment-D2KJPEQv.js",
+      "bytes": 713,
+      "sha256": "061e3196a751953eb2a98b4e3bf13fe1b544d6a04d1fd541993e5003e6e6814d"
+    },
+    {
+      "path": "game/dist/assets/depthOfFieldMerge.fragment-BKOejQJL.js",
+      "bytes": 1686,
+      "sha256": "8806c897f2eeb55db8832b3cfeaa4185b87a4a2d60b0f90fb0596a0b19c9aea0"
+    },
+    {
+      "path": "game/dist/assets/depthOfFieldMerge.fragment-CyZ9wEKh.js",
+      "bytes": 2301,
+      "sha256": "50323f493c2a052005f793838e0f102940d41e0c847932f9e235a1a887b7beb9"
+    },
+    {
+      "path": "game/dist/assets/domManagement-BqltO0ki.js",
+      "bytes": 256,
+      "sha256": "772614714ad7dbd504ea642f4f6decd8bfeb86eb64aea221cfd1d54cd7ebed8a"
+    },
+    {
+      "path": "game/dist/assets/drawWrapper-CAjVVxyJ.js",
+      "bytes": 669,
+      "sha256": "4dbedc946cca5880277d21a8295256c2d97530bde2844dc69cd98fb69960ebbd"
+    },
+    {
+      "path": "game/dist/assets/dumpTools.pure--gkhVi9t.js",
+      "bytes": 4033,
+      "sha256": "33080ba89efed72cb3b84aa850d87850e2fce1a314af2dc77452bfa5e0ada277"
+    },
+    {
+      "path": "game/dist/assets/effectRenderer.pure-D0e8KU13.js",
+      "bytes": 8400,
+      "sha256": "b6c61cbcb150130eab770cc20465491c6e2329d051df1dbda08f8aaa43267402"
+    },
+    {
+      "path": "game/dist/assets/engineStore-Bn2tApal.js",
+      "bytes": 3512,
+      "sha256": "4ff4a065e9cbcecc87a977005df2188454cc7e97c65dd733927e9799a464793b"
+    },
+    {
+      "path": "game/dist/assets/envTextureLoader-C0RjNtZr.js",
+      "bytes": 1690,
+      "sha256": "2f559c4aeb39b195e24d7ec05aaa4d0e68746cb6104aa43c495118669b31ca57"
+    },
+    {
+      "path": "game/dist/assets/exrTextureLoader-BfeDoBMa.js",
+      "bytes": 13148,
+      "sha256": "82681040180c97ee5a0f2720bd05db32bf9149f7bb81bee2e7a7cf75c25dd203"
+    },
+    {
+      "path": "game/dist/assets/extractHighlights.fragment-DCpbnnfn.js",
+      "bytes": 895,
+      "sha256": "86072ec449c3697ba84fd1c0d0236a37bcef2c0d23ea8d36654a18c769e1fb76"
+    },
+    {
+      "path": "game/dist/assets/extractHighlights.fragment-Z6JPs_Tc.js",
+      "bytes": 680,
+      "sha256": "a855abb85401d77955b237e5bb1ac0081c4352dbee0243b7fd661941184d6090"
+    },
+    {
+      "path": "game/dist/assets/flowGraphApplyForceBlock.pure-C8D3U7sf.js",
+      "bytes": 777,
+      "sha256": "b0978a210775fe81d280f6ebb7da0fca051fbd9a7b3e30253d67af29ba2de2d6"
+    },
+    {
+      "path": "game/dist/assets/flowGraphApplyImpulseBlock.pure-CrK08tkS.js",
+      "bytes": 793,
+      "sha256": "6747b570a85732d22b2389067a86a955069e87cbae59845f5f6725d6ba194c5f"
+    },
+    {
+      "path": "game/dist/assets/flowGraphArrayIndexBlock.pure-DTOmqlSK.js",
+      "bytes": 937,
+      "sha256": "15316c5ffcfbc0d1722191066fa9678f6b8a786fc2181343bd5fa73ed30e04d2"
+    },
+    {
+      "path": "game/dist/assets/flowGraphAssetsContext-WtUyuDAI.js",
+      "bytes": 736,
+      "sha256": "ebc4a971a3ebe12167f7ca93dea406cf209fec65cdbfd1cd48cb574a5cc52731"
+    },
+    {
+      "path": "game/dist/assets/flowGraphAsyncExecutionBlock-BAAqAl3y.js",
+      "bytes": 669,
+      "sha256": "baaec307ba351f1531fb8b0446737629db0936557a652abec35e57f1efd3eca7"
+    },
+    {
+      "path": "game/dist/assets/flowGraphBezierCurveEasingBlock.pure-BL9VEc47.js",
+      "bytes": 1423,
+      "sha256": "3896ce9cfaeb23a6fc15d1fa81b655f680f3f7f09b2e1065cd08c1c427533513"
+    },
+    {
+      "path": "game/dist/assets/flowGraphBinaryOperationBlock-CtYi5CLU.js",
+      "bytes": 372,
+      "sha256": "a236275dfe9c4647d5f92a79aad07296da11a856ded4088ec2be80b3a1265b53"
+    },
+    {
+      "path": "game/dist/assets/flowGraphBlock-CkJU0BIJ.js",
+      "bytes": 13346,
+      "sha256": "b571b8d9e2c9d551a05cf9d924c84646a8e204dc948e548952698fcd2dcea082"
+    },
+    {
+      "path": "game/dist/assets/flowGraphBranchBlock.pure-DhSuMT5y.js",
+      "bytes": 622,
+      "sha256": "1dc95c055d9fee0bbd715f5f92d46b7dc87d0b9f8fca00021039824a72f39e5d"
+    },
+    {
+      "path": "game/dist/assets/flowGraphCachedOperationBlock-DjEdym9y.js",
+      "bytes": 912,
+      "sha256": "6a26da36925d65d63ab8c8b54e0f43d733b551259bf4969844686ecd069e53a4"
+    },
+    {
+      "path": "game/dist/assets/flowGraphCancelDelayBlock.pure-CGJwXsQ6.js",
+      "bytes": 839,
+      "sha256": "fc9ada6bd2b4cca0dd6c1e508df8cbac2ef8de3a8a344762771fa505832bfcc3"
+    },
+    {
+      "path": "game/dist/assets/flowGraphCodeExecutionBlock-BKPb-T-0.js",
+      "bytes": 476,
+      "sha256": "a679bf3d486d3f18e45e1ee7ffe035b3d5c61d450272cdcf04e519141c04b9fb"
+    },
+    {
+      "path": "game/dist/assets/flowGraphConditionalDataBlock.pure-x6TSXqo8.js",
+      "bytes": 674,
+      "sha256": "36e6d47bfe9a363fedbdfcde847cd2867fd1e9df33aa3f3c601ed51de1f9df24"
+    },
+    {
+      "path": "game/dist/assets/flowGraphConsoleLogBlock.pure-CNdJYO3K.js",
+      "bytes": 1515,
+      "sha256": "e37d5c54db07a88f431ba9e3e1975c19431206ebcdb0ac163122aa8213d68629"
+    },
+    {
+      "path": "game/dist/assets/flowGraphConstantBlock.pure-DLZVz8as.js",
+      "bytes": 539,
+      "sha256": "c2c928cc50b86ee949fba7ef86c1376ae06d15964c836ebe28ddadfdf9c1dd78"
+    },
+    {
+      "path": "game/dist/assets/flowGraphContextBlock.pure-lHg7VozN.js",
+      "bytes": 587,
+      "sha256": "f7239ebba45fb2a4df79d76bf9595bf4820f453351bc397910f277db5a62285d"
+    },
+    {
+      "path": "game/dist/assets/flowGraphCounterBlock.pure-B6-RSNNn.js",
+      "bytes": 734,
+      "sha256": "7ae7690aefdbe8ae3675174d23593654ea531bbbe94d667891dd80e652bd9f0f"
+    },
+    {
+      "path": "game/dist/assets/flowGraphDataSwitchBlock.pure-CV3gh9sa.js",
+      "bytes": 967,
+      "sha256": "1d8dca4d0cb9d1bc7638367783247955d7fe349110548a384b41709a10931979"
+    },
+    {
+      "path": "game/dist/assets/flowGraphDebounceBlock.pure-DUonjL6A.js",
+      "bytes": 872,
+      "sha256": "44f29f35eedaad495cf6e7c391df8c6b376d2e7ebb1aedff1be74d47087ec355"
+    },
+    {
+      "path": "game/dist/assets/flowGraphDebugBlock.pure-zcOnHxlN.js",
+      "bytes": 1480,
+      "sha256": "b27a391d7de6a15550c8e0730fad8c61b2ae2153085ffb9379a2b32d76accdbd"
+    },
+    {
+      "path": "game/dist/assets/flowGraphDoNBlock.pure-D23HwDjl.js",
+      "bytes": 918,
+      "sha256": "052ad84c9a1d30075006260dbe828f0e418113fcabe436368dcd178a311c4265"
+    },
+    {
+      "path": "game/dist/assets/flowGraphEasingBlock.pure-iWMt8Wdf.js",
+      "bytes": 1682,
+      "sha256": "fbd8ad467298776ba13fa53dc5fbe2a365c85ce97fd7b604e1f29f2b63683864"
+    },
+    {
+      "path": "game/dist/assets/flowGraphEventBlock-DFFNSbZo.js",
+      "bytes": 634,
+      "sha256": "136ed317ee100a0cbc20e3ea54c7b486edebdb8050d48d31b6d0052d722305fd"
+    },
+    {
+      "path": "game/dist/assets/flowGraphExecutionBlock-Cj7SzpKo.js",
+      "bytes": 2526,
+      "sha256": "264241f53fea6afa9f238f46c2d988054a23647fb8eecf371a48706007aa6a15"
+    },
+    {
+      "path": "game/dist/assets/flowGraphExecutionBlockWithOutSignal-BSnlOV9q.js",
+      "bytes": 159,
+      "sha256": "0f9e51616df46e511dd869aed59f33fd913b7fb87188b691d7c31e9af9969a48"
+    },
+    {
+      "path": "game/dist/assets/flowGraphFlipFlopBlock.pure-C9pj0taK.js",
+      "bytes": 769,
+      "sha256": "3b91505b34d4029685ffcf365137c206c9110921d54704482af55413158dc973"
+    },
+    {
+      "path": "game/dist/assets/flowGraphForLoopBlock.pure-D-JfAGpT.js",
+      "bytes": 1508,
+      "sha256": "d52d388f97f52952d37e707847fae65a7929f1a58db5b72ec88a2452e7995ff3"
+    },
+    {
+      "path": "game/dist/assets/flowGraphFunctionReferenceBlock.pure-CCz5CZsj.js",
+      "bytes": 752,
+      "sha256": "9c5d12b16977a9fa957e408267e2bef8b857d94e09445d4a034b1caf34a7ffc4"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGLTFDataProvider-D6HTcgKV.js",
+      "bytes": 450,
+      "sha256": "fe43a9a313afb7d14cfc314d379775c66d4ae690fafce5a2a20c6ed846249aec"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGetAngularVelocityBlock.pure-WG1xaPSy.js",
+      "bytes": 740,
+      "sha256": "fc571dc8a00c74f5f8e8ad10da93ea66a4e5326d43a03068b7c36d45f5e22102"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGetAssetBlock.pure-BIo-jQYM.js",
+      "bytes": 804,
+      "sha256": "5669a9858be3aa1f5951a5baa8f8943cc4cdc420cfc1e470d617ea4298cb2023"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGetLinearVelocityBlock.pure-BQCmK-Lj.js",
+      "bytes": 735,
+      "sha256": "af252d2410cb6001511d8582a4b8fa8255dad2ece0ca73192d631ca424f48553"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGetPhysicsMassPropertiesBlock.pure-Re_h-jll.js",
+      "bytes": 839,
+      "sha256": "2c16879bdd7423c4142d921dd5496b1cd4d241ddc65714f7ac43355790cecc29"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGetPropertyBlock.pure-CVPiUeMp.js",
+      "bytes": 956,
+      "sha256": "bad099bc6cbfe2de877c9617490dc7406c200cf1b55809af15b2ea1868d636c9"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGetSoundVolumeBlock.pure-C-7fqXRn.js",
+      "bytes": 525,
+      "sha256": "8d340bc6400f5909ba54ebe825cb72cc97f2b5713b31f465e5e7a8d2621b8029"
+    },
+    {
+      "path": "game/dist/assets/flowGraphGetVariableBlock.pure-CQlf3OrG.js",
+      "bytes": 585,
+      "sha256": "c1470156308cd45b0178d34ef8c67ad07d1596fdfe7b785c33db61f029cdaab3"
+    },
+    {
+      "path": "game/dist/assets/flowGraphIndexOfBlock.pure-D5OpUzC1.js",
+      "bytes": 691,
+      "sha256": "9acdef6857aa2b1a9ac6a27266c46b250414238225bda1e0ff0085b6480047eb"
+    },
+    {
+      "path": "game/dist/assets/flowGraphInteger.pure-CZmJgkLp.js",
+      "bytes": 558,
+      "sha256": "1b20ccf248396a186581d2dc9e7ebd3b7343159899099922bafb84db69685ee4"
+    },
+    {
+      "path": "game/dist/assets/flowGraphInterpolationBlock.pure-DtpFRpT3.js",
+      "bytes": 2143,
+      "sha256": "39eb255691cbf790292dd3e208f523785ae27d84f71c8e82bb1fc894caeafbb8"
+    },
+    {
+      "path": "game/dist/assets/flowGraphIsKeyPressedBlock.pure-B_zV4j2c.js",
+      "bytes": 1271,
+      "sha256": "351de504fc79905f4d195e23615bb76b0786e0968d661cdd2fa4914c397062a3"
+    },
+    {
+      "path": "game/dist/assets/flowGraphIsSoundPlayingBlock.pure-Bgnv6UyA.js",
+      "bytes": 541,
+      "sha256": "b706200c0532e1b47f38669e7caf7c3bae504b337c9aed1820fd1e96c9c53737"
+    },
+    {
+      "path": "game/dist/assets/flowGraphJsonPointerParserBlock.pure-Cxoiu-v9.js",
+      "bytes": 4248,
+      "sha256": "4161774d7debcf74a13d210f8f65a0c6c494e8ba80c7ece379670fdebfc43f6d"
+    },
+    {
+      "path": "game/dist/assets/flowGraphKeyDownEventBlock.pure-CNUYberN.js",
+      "bytes": 605,
+      "sha256": "487009b82703343785b1cbe277e140bed038920391fe40d2e822dc1df0953f1a"
+    },
+    {
+      "path": "game/dist/assets/flowGraphKeyUpEventBlock.pure-CRgPzJOx.js",
+      "bytes": 351,
+      "sha256": "e24ca5a90caff690fd020fa93e8cebcb6b2173d89e439cc915d14e721700ddf2"
+    },
+    {
+      "path": "game/dist/assets/flowGraphKeyboardEventBlock-F2D1xzvT.js",
+      "bytes": 1053,
+      "sha256": "9e47b4d753784fb8fd36354c0f49a0e4928fc1b4d9bb74036e399692f147b94a"
+    },
+    {
+      "path": "game/dist/assets/flowGraphMathBlocks.pure-DjOWsTk7.js",
+      "bytes": 20869,
+      "sha256": "9f127c064d72ae6fa1c2b7af91cc05c4e945c8944253e7089d4ec70bf9fc9b71"
+    },
+    {
+      "path": "game/dist/assets/flowGraphMathCombineExtractBlocks.pure-R9_JIuk4.js",
+      "bytes": 8070,
+      "sha256": "0e7f39da483ad2d2a92bfd1fd8c7a84fb6e619c7df1f85091492e506c0bb82ba"
+    },
+    {
+      "path": "game/dist/assets/flowGraphMatrixMathBlocks.pure-ByUwMhzN.js",
+      "bytes": 4744,
+      "sha256": "0e78d08c4cdaaa879e969e545940a673d21bc0928072b39d0a6fcf8348e94c3f"
+    },
+    {
+      "path": "game/dist/assets/flowGraphMeshPickEventBlock.pure-y3LIJUjT.js",
+      "bytes": 1539,
+      "sha256": "d662d91004820295a15a9ea35d2a764222b4003a3c3ba63800fefdbc6fa16bdc"
+    },
+    {
+      "path": "game/dist/assets/flowGraphMultiGateBlock.pure-CU3RXb3M.js",
+      "bytes": 1786,
+      "sha256": "881a471d828c7dc8a841d31ce59c1cbf33ccf7d726416728ad1b77113ef22ccd"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPauseAnimationBlock.pure-uAfLbw0n.js",
+      "bytes": 561,
+      "sha256": "6cd406f3c2043f68654d8b2df3928318a36e00de887b3eafbe1a98a78d3faa9f"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPauseSoundBlock.pure-NsVLLP_I.js",
+      "bytes": 656,
+      "sha256": "c14303a8556d672e559e0e183668b59ea334827009d6863cb97b4b6a3334f40c"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPhysicsCollisionEventBlock.pure-atXxokaj.js",
+      "bytes": 1757,
+      "sha256": "e1db179b782054fa8b0e41b272e10578e7c0eeda861f0372034511bee0774aea"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPlayAnimationBlock.pure-CY63B-km.js",
+      "bytes": 4844,
+      "sha256": "5e0e922fbfdedafaaf89b09ce9feb3f90011b2f31b781880dec4824c9f85572a"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPlaySoundBlock.pure-DQYTVd9Q.js",
+      "bytes": 884,
+      "sha256": "7e2d6eecb6cc81d0dc7146cc239478cd62a6640b62600f4aa3820046dabcf5ba"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPointerDownEventBlock.pure-DW7rHcCM.js",
+      "bytes": 1060,
+      "sha256": "01f621d6afdb63e469a53b0675022ee70e0eda4b15679e814b76fd110f3ee335"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPointerMoveEventBlock.pure-BqsZIZaU.js",
+      "bytes": 1078,
+      "sha256": "2283d8491abdf70fd0ac92caba4564ef79e1386a34f3c96320913ce328dc0cc0"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPointerOutEventBlock.pure-DKmww1up.js",
+      "bytes": 951,
+      "sha256": "9abbf7712a8141331a5242eb8ea94358540f1b275a58066034fb647b3a3e084e"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPointerOverEventBlock.pure-Db6wbO7d.js",
+      "bytes": 960,
+      "sha256": "944ae9a7dcc447a63dd61c66747805ac8ccc7b84c6e53d0e11d72401ab73b276"
+    },
+    {
+      "path": "game/dist/assets/flowGraphPointerUpEventBlock.pure-DBcK_Oap.js",
+      "bytes": 1050,
+      "sha256": "a179d9381ee7b5c482bec1ea06d4d3a4889206671237d43a31acb68cf6631996"
+    },
+    {
+      "path": "game/dist/assets/flowGraphReceiveCustomEventBlock.pure-rHkzmz7d.js",
+      "bytes": 2315,
+      "sha256": "30aa04958e1240e5784410f6170341e0854db2326ddf16b65d3b66bbd1282abc"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSceneReadyEventBlock.pure-typ_I-Nh.js",
+      "bytes": 716,
+      "sha256": "6b4b8495cc4d2b5eba2ffc0261fdc46fb9a59b8672773f90bf14363c91bb710d"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSceneTickEventBlock.pure-ZvQULpMr.js",
+      "bytes": 910,
+      "sha256": "48802875df546df6ed158d57fe27d712a96ddb44a29759195d9d4689d6764bb5"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSendCustomEventBlock.pure-DPiJtzfA.js",
+      "bytes": 1018,
+      "sha256": "d1433c25c7ad9067e8fb9d23e27b79710adb92f92927f2f871a871bdfe65f143"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSequenceBlock.pure-BNvaxEcW.js",
+      "bytes": 821,
+      "sha256": "0eed618935f47a1f1cf10a027305c2ec00d0780c163f0b0842243b5716277ab0"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSetAngularVelocityBlock.pure-DAOto5Rf.js",
+      "bytes": 737,
+      "sha256": "bc30f347ff71b07b3cfad4241df5eaf978295e356bc1a07d7a7bfec7e632de4d"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSetDelayBlock.pure-BoWaSW4i.js",
+      "bytes": 4718,
+      "sha256": "7eea9dfcefaa2deb2cf45c4380763a5f07dc75177d37dfb3361fafd607389fa2"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSetLinearVelocityBlock.pure-M6lNvrcx.js",
+      "bytes": 732,
+      "sha256": "65792108022b1b75c939a69717832d1e61c10c54f614b67a49fd37b505fe10c7"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSetPhysicsMotionTypeBlock.pure-wP_52m5z.js",
+      "bytes": 748,
+      "sha256": "033751282d0188386d72d4b7c7f7f6ec70f390848b8c3a37374128a5679b696c"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSetPropertyBlock.pure-Dt05TYrw.js",
+      "bytes": 1492,
+      "sha256": "f5c449ced426ee09e750bead006a34d653c1007f6b855f250a15599feb00ca3a"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSetSoundVolumeBlock.pure-BIH2c48Y.js",
+      "bytes": 700,
+      "sha256": "6ab5fb0e54dbc0c6b948071d7a10c4550bce801cbac8bae433b3e4b2a2212825"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSetVariableBlock.pure-BZ9EoDhK.js",
+      "bytes": 1314,
+      "sha256": "28104b8d8d54a8a8a305190d44d7c807acda85550ff6de9d6495e48f9d2065b1"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSoundEndedEventBlock.pure-B24RPJTj.js",
+      "bytes": 1050,
+      "sha256": "e43e66ccd9d494df8041aa2fc758a4435717942a26a10db693786c8447d23435"
+    },
+    {
+      "path": "game/dist/assets/flowGraphStopAnimationBlock.pure-DBOFyUgt.js",
+      "bytes": 2008,
+      "sha256": "6394b20b386920ce19e4ffd3efd0d9f2dac6f5e85337a20bee9a8213cd474f21"
+    },
+    {
+      "path": "game/dist/assets/flowGraphStopEventPropagationBlock.pure-CfLpctLX.js",
+      "bytes": 708,
+      "sha256": "89ea9efdc58b6810a00f7f15ff0452536d4b0ea19982923149c40dd6807798f2"
+    },
+    {
+      "path": "game/dist/assets/flowGraphStopSoundBlock.pure-QSRJ_ant.js",
+      "bytes": 600,
+      "sha256": "91b284cce4c956aadfc621fe978849ab275dd3ade8fdbe36881f68edb24e9bd7"
+    },
+    {
+      "path": "game/dist/assets/flowGraphSwitchBlock.pure-qGNCzDVC.js",
+      "bytes": 1246,
+      "sha256": "9fe1cb764370a2c1a88bf4c9b83ea7f8e16270ad20f59013eab4712d6c964749"
+    },
+    {
+      "path": "game/dist/assets/flowGraphTernaryOperationBlock-BtC7ngp9.js",
+      "bytes": 418,
+      "sha256": "ec3a1cdd7bc0eb9b352173affc1b72f5b745f01ab667a13522e9434bce625a43"
+    },
+    {
+      "path": "game/dist/assets/flowGraphThrottleBlock.pure-BmK5JHwe.js",
+      "bytes": 1461,
+      "sha256": "c0445df6fb17eff531784135dfe59fa0d23a7869d0d957d9891c28436d690ae2"
+    },
+    {
+      "path": "game/dist/assets/flowGraphTransformCoordinatesSystemBlock.pure-BX_gqd7B.js",
+      "bytes": 1041,
+      "sha256": "9cfe9fb2d31f12d38c201dad5ada64c7d842c2d27cd11e57a8d2c85236f1392f"
+    },
+    {
+      "path": "game/dist/assets/flowGraphTypeToTypeBlocks.pure-BtPy_0TV.js",
+      "bytes": 1320,
+      "sha256": "5e1c78f7abc13811f20667d5837b42894e8363102d880a0a4b58549be6e3cecd"
+    },
+    {
+      "path": "game/dist/assets/flowGraphUnaryOperationBlock-DOogB36l.js",
+      "bytes": 302,
+      "sha256": "994338132ff6231977205e58e160cf0cabfba570bcb8aa1c9b4fe9010fac1487"
+    },
+    {
+      "path": "game/dist/assets/flowGraphVectorMathBlocks.pure-CbCx8JrK.js",
+      "bytes": 7976,
+      "sha256": "d51daa58e28d40a0db369bc90cba3d7d3850dc46c30de902afe6c42799af7446"
+    },
+    {
+      "path": "game/dist/assets/flowGraphWaitAllBlock.pure-Dg4MHplD.js",
+      "bytes": 1673,
+      "sha256": "01bab3854290f89a4ff671f27131a065732f3048c845246de448af502c24e4bc"
+    },
+    {
+      "path": "game/dist/assets/flowGraphWhileLoopBlock.pure-DRKvbum0.js",
+      "bytes": 1004,
+      "sha256": "71a7551f6d3fba954319a8044194ad4bac8b3ed11eecb473cb473c89b152e236"
+    },
+    {
+      "path": "game/dist/assets/fogFragment-CISE_m3s.js",
+      "bytes": 1084,
+      "sha256": "16bc7ec0e6e4d42ecf24c19ad1103704765052f1f19408cc1b9255ce6a121dad"
+    },
+    {
+      "path": "game/dist/assets/fogFragment-EikOP4pH.js",
+      "bytes": 1214,
+      "sha256": "8b08b73a42fed9785b5ddf87d49fcd43876f1c2c56ba88367b62dc2b7f60add0"
+    },
+    {
+      "path": "game/dist/assets/fogVertex-DNAMrhb0.js",
+      "bytes": 505,
+      "sha256": "dcd4c8af832bd057e4a2ea259776f17cec38cd388e804836f8f0f98f9ecae2ef"
+    },
+    {
+      "path": "game/dist/assets/fogVertex-NHlgMcT2.js",
+      "bytes": 380,
+      "sha256": "7b8103d1987c102dfba1eafd1aba276306eec13cff78f8d27b15df3a76eb5284"
+    },
+    {
+      "path": "game/dist/assets/fxaa.fragment-BJI4ON-J.js",
+      "bytes": 5553,
+      "sha256": "2a8817b138de8fc1024d1832393150fca751572b8501121fab1af114dfcaf697"
+    },
+    {
+      "path": "game/dist/assets/fxaa.fragment-Uh7tsKmu.js",
+      "bytes": 6432,
+      "sha256": "27290c580a9f719b025ae3c940a9ba7998fc145cfd78869adb2df022ae86bd42"
+    },
+    {
+      "path": "game/dist/assets/fxaa.vertex-BxlD2OIs.js",
+      "bytes": 1439,
+      "sha256": "dc0263aae1256f4a71ed420b0f9318ac64cc57e1a10c2078344b10f3e8a05117"
+    },
+    {
+      "path": "game/dist/assets/fxaa.vertex-CEYszSUi.js",
+      "bytes": 999,
+      "sha256": "a09af05ca200c3d26cea7b808589932fd4f7f7636ffe759679d48807b0c8698f"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplatting-Dq1CpTgZ.js",
+      "bytes": 14396,
+      "sha256": "3d73c50a69b5a73eafdbce351ce4d315a18b7d452528872476e06ce8d6c6e638"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplatting-vJ6yzDcm.js",
+      "bytes": 14706,
+      "sha256": "e0217840a87e8031b889fbda7d4934f63220fd83cf97ec51c02b48a91d558dc7"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplatting.fragment-DNGQIzqk.js",
+      "bytes": 1706,
+      "sha256": "59bfb79656e155cc725b5f6583473aaf9ce088677dd6a0ea7e96aaf8c1b806e9"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplatting.fragment-DO2aPL6S.js",
+      "bytes": 1861,
+      "sha256": "0505a4e28e5c7742061c537c6bcd52cd13d8b19d68cf382cc20a3eac9b35a450"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplatting.vertex-B-Lh4wAN.js",
+      "bytes": 4050,
+      "sha256": "0d5a98a20d871b4e9abd736fce3307812b858eb5dd868a069ba2a2ca89ad70a0"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplatting.vertex-COkI_LCc.js",
+      "bytes": 4943,
+      "sha256": "69da8d0f5da5e74fe5fc44e7864ccf6a2670706e9357d26bd63573f946dded77"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplattingVoxel.fragment-B_Om6CDx.js",
+      "bytes": 1758,
+      "sha256": "195ca9cb2bfee5ee2374d124aac31bb3af2a85f6cd7704614a8dd08cd259167a"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplattingVoxel.fragment-C65sY-Bh.js",
+      "bytes": 1970,
+      "sha256": "eef9ed8292817e51607e85af1a5c10eca347e60e8fee6269e28cd9bc5d93f321"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplattingVoxel.vertex-BWXUcFdc.js",
+      "bytes": 1887,
+      "sha256": "0cd0677aa6be6eb8bca994d2deefb5c1b5760f3b4cbec024f9a92bf88310fb46"
+    },
+    {
+      "path": "game/dist/assets/gaussianSplattingVoxel.vertex-BraJXBHO.js",
+      "bytes": 2603,
+      "sha256": "b2920754cfb5f6a430218600540fb040ccf95c804960ef5ed362ad0fb782cd9c"
+    },
+    {
+      "path": "game/dist/assets/geometry.fragment-Bh76HPFM.js",
+      "bytes": 10407,
+      "sha256": "fb5777b47c0ccde28799b7fe2fe449a4a63625810c764efbac93bf9afd2daa02"
+    },
+    {
+      "path": "game/dist/assets/geometry.fragment-M2-Uu2pW.js",
+      "bytes": 8464,
+      "sha256": "40d4bb068549ec0dee5a25226ff29fd50b63a48d1957f2eb6cf91ca341df2e22"
+    },
+    {
+      "path": "game/dist/assets/geometry.vertex-CRPaaWiZ.js",
+      "bytes": 7898,
+      "sha256": "90a881c4dbfc13a98b91aa04ab0d9541e8f53c1b7b2e65a64d39a296963cbeea"
+    },
+    {
+      "path": "game/dist/assets/geometry.vertex-DE-hmwUt.js",
+      "bytes": 9103,
+      "sha256": "1671f97a842d0919204f1ba36a412e76e7d192f899a751d65e8d1162a7b64867"
+    },
+    {
+      "path": "game/dist/assets/glTFLoaderAnimation.pure-Cao42MQb.js",
+      "bytes": 274,
+      "sha256": "242cd6cf516ef1353d2663f87d27023c3b7645eeebb77882b03f3c3afa312c14"
+    },
+    {
+      "path": "game/dist/assets/glowBlurPostProcess.fragment-CWHntGEt.js",
+      "bytes": 1410,
+      "sha256": "90df25865703b4bd950de8e4ad6d4f6f63491de7fabebc78c98f883f7477b6ad"
+    },
+    {
+      "path": "game/dist/assets/glowBlurPostProcess.fragment-DDN2NxnB.js",
+      "bytes": 1119,
+      "sha256": "e4a2fff350711eed6556dab621255636463ab72801be9e03c4c26b83f2669c44"
+    },
+    {
+      "path": "game/dist/assets/glowMapGeneration.fragment-CeyBGCV2.js",
+      "bytes": 1893,
+      "sha256": "11b7f1782850516ec1dfd4eb5ed579ad949c30d7bb35aa60f3712ca29af6d7bf"
+    },
+    {
+      "path": "game/dist/assets/glowMapGeneration.fragment-Cp9qHE6X.js",
+      "bytes": 2527,
+      "sha256": "899c5a57779cfcf09b29c0c7dbc68eae18f468f1d250d64bc9b5fa1d9e333c06"
+    },
+    {
+      "path": "game/dist/assets/glowMapGeneration.vertex-B8p9FVmW.js",
+      "bytes": 2463,
+      "sha256": "3f9e799a2c00d330eca8c857ed756d6037edacefccd4e72ff825ff6a3150370d"
+    },
+    {
+      "path": "game/dist/assets/glowMapGeneration.vertex-BIAb53-8.js",
+      "bytes": 2894,
+      "sha256": "336a7b422ce361c8cae06be42890d45dd29aab0c6ea7d0e0333aa58ff37858b5"
+    },
+    {
+      "path": "game/dist/assets/glowMapMerge.fragment-E4YwFGds.js",
+      "bytes": 802,
+      "sha256": "b82f18ffcf5d0b0c53ddac06d9108e0fa3089f607b3b93cbb7b146c196b90122"
+    },
+    {
+      "path": "game/dist/assets/glowMapMerge.fragment-kUzN8f-0.js",
+      "bytes": 1060,
+      "sha256": "5e8b9c946b0548ad6ec333daf115dc76935a10cc5533b3fec7ae324e44187893"
+    },
+    {
+      "path": "game/dist/assets/glowMapMerge.vertex-CBAYzq55.js",
+      "bytes": 546,
+      "sha256": "84990ae6156054f004c2e4b57fd7e271242f0c0fd3b6cc4ddb34ce552ff9bcfb"
+    },
+    {
+      "path": "game/dist/assets/glowMapMerge.vertex-XcoH38fZ.js",
+      "bytes": 435,
+      "sha256": "4093896ff2c58ee37740b7ff92009e9405f7ee02eba2196675efdae54b3695cd"
+    },
+    {
+      "path": "game/dist/assets/grain.fragment-BCCu9I6u.js",
+      "bytes": 773,
+      "sha256": "2b9c806b4d736ca1e31db809140c1c86ec57e396a429020325f411c1585281b5"
+    },
+    {
+      "path": "game/dist/assets/grain.fragment-nXpkjikI.js",
+      "bytes": 1071,
+      "sha256": "2532df6bd2c54a2f5641e5ae22b45463e67df2c72af8fc1165e154aa32923d95"
+    },
+    {
+      "path": "game/dist/assets/guid-BXdVC_j_.js",
+      "bytes": 157,
+      "sha256": "4d0dc9fdce128a6a8c1a144605ccc92ea9fd87deb82baee4477fe956acc98e5f"
+    },
+    {
+      "path": "game/dist/assets/halfFloat-Ce77JD5z.js",
+      "bytes": 1290,
+      "sha256": "e364d38c88e676a0e9ced31660c08e156b244af07b1729fb8ea38e1ad6cffbb7"
+    },
+    {
+      "path": "game/dist/assets/handoff-exhibit-DwCjcDIf.js",
+      "bytes": 4295,
+      "sha256": "8d77800d85dc70b64da164067170e665efea7a7ad6db1af1f2843935a5260003"
+    },
+    {
+      "path": "game/dist/assets/harmonicsFunctions-CMr56qfT.js",
+      "bytes": 1421,
+      "sha256": "27091372e529570da5fbff6e233ee6485c27d5ad0ca206d9582d8d8bd7ff4b32"
+    },
+    {
+      "path": "game/dist/assets/harmonicsFunctions-QSz_WdsQ.js",
+      "bytes": 1126,
+      "sha256": "157c8e9336e59c7b83bcc254dda83652512d04a97041476979053d0ead47d887"
+    },
+    {
+      "path": "game/dist/assets/harness-exhibit-BjiNNAMd.js",
+      "bytes": 3676,
+      "sha256": "9fc87339ae20b8b23bdfbf9243174a74f4da8f1b46a32a03a32f50d7efa507fa"
+    },
+    {
+      "path": "game/dist/assets/hdrTextureLoader-BQVwkxK1.js",
+      "bytes": 2313,
+      "sha256": "c1dfa7a7928d2c03e86324a093297ad10c35caefff14518691c5fe4d4172447a"
+    },
+    {
+      "path": "game/dist/assets/headquarters/architecture.glb",
+      "bytes": 4152576,
+      "sha256": "5221612a95cb9d7e25ba2de92cb1167a7a6dba6b162b90513c33e7a35d390580"
+    },
+    {
+      "path": "game/dist/assets/headquarters/architecture.glb.gz",
+      "bytes": 2172025,
+      "sha256": "12555083f0954c02f60bf8c858b82990c8607445391b3f3ac545a06ffab392e6"
+    },
+    {
+      "path": "game/dist/assets/headquarters/fixtures.json",
+      "bytes": 6201,
+      "sha256": "48dacf1338128a51f3daa839032be527945586183fd2e3e14699e9afba023516"
+    },
+    {
+      "path": "game/dist/assets/headquarters/floor-indirect.jpg",
+      "bytes": 254220,
+      "sha256": "10916e6f56373066bdba235a046f80466d0ef379d039c2912b8ba9a5fbe543bd"
+    },
+    {
+      "path": "game/dist/assets/headquarters/furnishings-indirect.jpg",
+      "bytes": 1078937,
+      "sha256": "31cd2cdce57aa704c7ae6e8a36099ac1464670288d25a6364365d8b1f24d5cd6"
+    },
+    {
+      "path": "game/dist/assets/headquarters/navigation.json",
+      "bytes": 79962,
+      "sha256": "a219910face8e4ef7b595be82861f6f0b8d3fbf89f0508e865ee98a76dbf74c3"
+    },
+    {
+      "path": "game/dist/assets/headquarters/shell-indirect.jpg",
+      "bytes": 784238,
+      "sha256": "2542cd778cc5c304f1f21a0268c4d191fa7b13b1b58cd2689561b1483147a348"
+    },
+    {
+      "path": "game/dist/assets/helperFunctions-BH8P-eyq.js",
+      "bytes": 6489,
+      "sha256": "019a076bb9af420aa999424c444b782a858fa7153a108bfb55fbf30b20917969"
+    },
+    {
+      "path": "game/dist/assets/helperFunctions-gEnZbjN3.js",
+      "bytes": 6815,
+      "sha256": "25cb5a62b09965a1f9d12f999eb40672c9f80924b8cf2353120e9809d11a03ba"
+    },
+    {
+      "path": "game/dist/assets/iesTextureLoader-BcYbPJsH.js",
+      "bytes": 2477,
+      "sha256": "be1e915e4b300d242c9630f723d6c02344c74ecb09e5e77759a99c749d22afc1"
+    },
+    {
+      "path": "game/dist/assets/imageProcessing.fragment-Bb9mf-7k.js",
+      "bytes": 911,
+      "sha256": "f54b695f5ebd6c178b5cb25e4b7373118ddd89c7a947f03ce80eb41965a4eda4"
+    },
+    {
+      "path": "game/dist/assets/imageProcessing.fragment-C2rBLkba.js",
+      "bytes": 1089,
+      "sha256": "44dd166698ccb5dddf72d28c00c3f429af2f09f3bb5b8f74e920652a1c44d353"
+    },
+    {
+      "path": "game/dist/assets/imageProcessingFunctions-B1IXC_gq.js",
+      "bytes": 4939,
+      "sha256": "9f4da98bed06f82ac5f83015b75275ce4dd445507d7121d9e57a8502215dd5dc"
+    },
+    {
+      "path": "game/dist/assets/imageProcessingFunctions-G8WWRV14.js",
+      "bytes": 5662,
+      "sha256": "cfbb2299c4cfcb9ccb69e06ea45f65597a73e58d2ca5a51d0f6df54729bd17bb"
+    },
+    {
+      "path": "game/dist/assets/index-BLXM8nfY.css",
+      "bytes": 54183,
+      "sha256": "78f9616e39fdc7486747ec12f720bc78a8d2e04b243a7bc0a01b0b85e1627c63"
+    },
+    {
+      "path": "game/dist/assets/index-C2Lqk8T6.js",
+      "bytes": 250838,
+      "sha256": "b1ec97f08d068cb043ade896acc286ea21c50121508e04696b3d5e0ac58fdcc4"
+    },
+    {
+      "path": "game/dist/assets/instancesDeclaration-CJBvtBV5.js",
+      "bytes": 933,
+      "sha256": "1c4cd5b90a5249f3142337d7826a5a1bbd67b8679befc046d9d26db3ff392a9d"
+    },
+    {
+      "path": "game/dist/assets/instancesDeclaration-DsiFqYXH.js",
+      "bytes": 1040,
+      "sha256": "f88c17db7b42814639641c6578012adf9bc2e6206fa4a9b010eeb676dcfe3446"
+    },
+    {
+      "path": "game/dist/assets/internalTexture-Dlz1Grf0.js",
+      "bytes": 7689,
+      "sha256": "a46a0734a2c298df374a62448b379859bcb7b83976583cf7383b1ed384fb385f"
+    },
+    {
+      "path": "game/dist/assets/kernelBlur.fragment-BcdTKoPW.js",
+      "bytes": 2839,
+      "sha256": "7602d9e04b3225fd8ae70862b2f7154b658b74222733ae7075c50f54d09264de"
+    },
+    {
+      "path": "game/dist/assets/kernelBlur.fragment-DHQjf6lq.js",
+      "bytes": 2299,
+      "sha256": "28914216fbe16d2260b4d43ec18410d03b3c45157e346486078557aa15f797fc"
+    },
+    {
+      "path": "game/dist/assets/kernelBlur.vertex-C2dESVl-.js",
+      "bytes": 889,
+      "sha256": "3f1dc80cd562e1b5511246a38b635569241e2ae976499ee40de627ce2eb559f2"
+    },
+    {
+      "path": "game/dist/assets/kernelBlur.vertex-Cr8ljakh.js",
+      "bytes": 1054,
+      "sha256": "839cf6dbde0b998db34b0d006728f91dc54fb702dd85b28cea343de6200fd119"
+    },
+    {
+      "path": "game/dist/assets/kernelBlurVaryingDeclaration-DP2Wr9Oc.js",
+      "bytes": 212,
+      "sha256": "6f65420f8bc342db1257cbe18aa503dbb6611294a0ddb18162dca82d3ff78ac3"
+    },
+    {
+      "path": "game/dist/assets/kernelBlurVaryingDeclaration-g2Ge9lzd.js",
+      "bytes": 222,
+      "sha256": "276438747ce877fbc99be16783cfedee04d623e00cb28c8014f1d6d8ea3d4810"
+    },
+    {
+      "path": "game/dist/assets/keyboardEvents-CGYiptFb.js",
+      "bytes": 357,
+      "sha256": "a5244b1dfb47cf04792753301eddc97667f963bf62d0f622aa67df043a568380"
+    },
+    {
+      "path": "game/dist/assets/ktxTextureLoader-CTz9PX2I.js",
+      "bytes": 15165,
+      "sha256": "935aa4d925b3924926f9d2e5c69f6e5f090803b1976a7d5a5fd87d13073c343d"
+    },
+    {
+      "path": "game/dist/assets/lightConstants-UjYfeHn4.js",
+      "bytes": 15784,
+      "sha256": "93d0a5f017aa26572c89fd070baa701540abc4bf0ce04ac815838e0ab1ca1e79"
+    },
+    {
+      "path": "game/dist/assets/lightFragment-Bp8TsYdA.js",
+      "bytes": 22571,
+      "sha256": "e5cafcef0169b097a1683666515730f687b5f2f82393297e46753c645eef5f7c"
+    },
+    {
+      "path": "game/dist/assets/lightFragment-x7Xpl9uU.js",
+      "bytes": 20567,
+      "sha256": "c89db96c1503ef9dfad4049ca2ca2428e2fff2f4961478b2f9baebb55f825195"
+    },
+    {
+      "path": "game/dist/assets/logDepthDeclaration-3gXGtHbI.js",
+      "bytes": 275,
+      "sha256": "8ebc7df3c1996610b86ceb2334bd740bf7d0b0b8b7f613ef779c5a3e0fbfc0dc"
+    },
+    {
+      "path": "game/dist/assets/logDepthDeclaration-DYYUVTrx.js",
+      "bytes": 281,
+      "sha256": "102a6a3dd02c9021908f41883533987f4c48236d2e14cbb11f3af161ac8c3926"
+    },
+    {
+      "path": "game/dist/assets/logDepthFragment-C5lxT4l1.js",
+      "bytes": 270,
+      "sha256": "ba4aa83d98ff567e1da79a95bcbeecc98a3a5940ddbdaf98ed9f7a51300828c9"
+    },
+    {
+      "path": "game/dist/assets/logDepthFragment-CxtJswLx.js",
+      "bytes": 312,
+      "sha256": "62a262e0f89c1c2e2729e320537f1c62c7b11f4e10ddd5c8d71ed5475624af7b"
+    },
+    {
+      "path": "game/dist/assets/logDepthVertex-D5IUM6qd.js",
+      "bytes": 309,
+      "sha256": "5884d9c5d2d759cd2d53d7b1c5dbcfc2e4f45c2c3e52d9a73bc165fa6b750bb5"
+    },
+    {
+      "path": "game/dist/assets/logDepthVertex-DSD5XdGw.js",
+      "bytes": 376,
+      "sha256": "35c9683c853b03b8f113a71f7a4f0ea8b245e718e9e31e659c2eb314a9bc88aa"
+    },
+    {
+      "path": "game/dist/assets/logger-CuBYPcDK.js",
+      "bytes": 1881,
+      "sha256": "30a999582eace71f2e78a479182e71e943508bbda9574b17e5b29575c49a3b9e"
+    },
+    {
+      "path": "game/dist/assets/mainUVVaryingDeclaration-BBamQlxR.js",
+      "bytes": 229,
+      "sha256": "f458b4a817df909582f5973c0ebf23a740ad2d30da10c307e991a1628b26d688"
+    },
+    {
+      "path": "game/dist/assets/mainUVVaryingDeclaration-B_7d0nc3.js",
+      "bytes": 239,
+      "sha256": "b1dca32192a0bc13a46420375ec010bebb6608aebd70baec9ad21d24e9cdcb4e"
+    },
+    {
+      "path": "game/dist/assets/material.pure-Bo4p5L9-.js",
+      "bytes": 78813,
+      "sha256": "521cc35163f0b08f9d93e90bd6961951fbce2b714f0ac53d9e6adfab1644cd87"
+    },
+    {
+      "path": "game/dist/assets/math.axis-BEFzoR3R.js",
+      "bytes": 288,
+      "sha256": "76dd5c6615b2a534e1e2112fb0ff8d96d626bbc5dfb689a8ba4d02b6974ddc9c"
+    },
+    {
+      "path": "game/dist/assets/math.color-DbAdzrZC.js",
+      "bytes": 54,
+      "sha256": "8068cbf9aa37fa32e0aff2ef3695cf698ee1c18ee8ed1fbda2b8fc08be5b5b44"
+    },
+    {
+      "path": "game/dist/assets/math.color.pure-DRf1gOrV.js",
+      "bytes": 76959,
+      "sha256": "791073aba7480cdbc91d29ec223f6e624164a4784aa9318976d04b09a51762b4"
+    },
+    {
+      "path": "game/dist/assets/math.path-B-NKPXe7.js",
+      "bytes": 9410,
+      "sha256": "3d58cc6d5916669b1ad9fc9b24b2da154a43943c786a8745476c651fc6a4c032"
+    },
+    {
+      "path": "game/dist/assets/math.plane-C-VH8mEN.js",
+      "bytes": 1815,
+      "sha256": "09c42ad4eebe1cf5f5001a4e41c38073293efc9e4e9ea6c117b2c8809147b66d"
+    },
+    {
+      "path": "game/dist/assets/math.scalar.functions-D-i-XBaP.js",
+      "bytes": 2190,
+      "sha256": "a2b8e94efef7434d5a7e9b403001af90f15d58aa23d03407916f334be7c559cb"
+    },
+    {
+      "path": "game/dist/assets/math.size-BHZaDYSv.js",
+      "bytes": 910,
+      "sha256": "dffde6b7f8371eb9e33461bda254623f5a1ac05570e372edcbf84a698e7c045f"
+    },
+    {
+      "path": "game/dist/assets/mesh.pure-Dg9JpiWM.js",
+      "bytes": 228211,
+      "sha256": "74032ac1820bb5c7947597c79f7986b688876f3d0e42bfd5d97f1a0f240eb0f3"
+    },
+    {
+      "path": "game/dist/assets/mesh.vertexData.functions-CD4JOR2q.js",
+      "bytes": 930,
+      "sha256": "bdeb852116676b6289101b6ef271fb52200959188fba6863858942ec2e068338"
+    },
+    {
+      "path": "game/dist/assets/meshUboDeclaration-BATNZvmb.js",
+      "bytes": 279,
+      "sha256": "66ede90e05d64026782d6c0998c9bc9b447b02f6baf420a4146000ef8472b534"
+    },
+    {
+      "path": "game/dist/assets/meshUboDeclaration-BmNu2KU_.js",
+      "bytes": 345,
+      "sha256": "1729108f883e17bb71137bfb06a700c8c073d1d7825d37d8beec06a2fc00a6a0"
+    },
+    {
+      "path": "game/dist/assets/model-exhibit-BNPk_xzh.js",
+      "bytes": 4707,
+      "sha256": "3558a01cacc8e6a83a1d39866951fcd31c317578ac4dd32dccd33672c23e70fa"
+    },
+    {
+      "path": "game/dist/assets/morphTargetsVertex-6N5r7oF1.js",
+      "bytes": 4379,
+      "sha256": "7e231dfccd87db548f33cf4bb21a0e7fcbf9907bdb54cde2776876fc9c52c34e"
+    },
+    {
+      "path": "game/dist/assets/morphTargetsVertex-OlIh-Lzh.js",
+      "bytes": 6405,
+      "sha256": "55af13b4ebad6636788f652ede1cb6c4919f9d37542ae9846914dd16c0b3a8ea"
+    },
+    {
+      "path": "game/dist/assets/node-IGSo-MFx.js",
+      "bytes": 11526,
+      "sha256": "052c16a3a34a314b3add85dca0507ed7fa58e924f50949367a17c16ecc75dbfb"
+    },
+    {
+      "path": "game/dist/assets/oitFragment-CKv-hLSp.js",
+      "bytes": 47725,
+      "sha256": "0aa25a260898a4dcc61d936fc10066c6fa3cd72b89a7c36409666a58dd122a1f"
+    },
+    {
+      "path": "game/dist/assets/oitFragment-CbS3GbFz.js",
+      "bytes": 44965,
+      "sha256": "4a6a91f4acd1cd9a4e91d0188fd5ad807efe538c1ede4a8f3470fea997f8bf2d"
+    },
+    {
+      "path": "game/dist/assets/openpbr.fragment-41nUI3t2.js",
+      "bytes": 88203,
+      "sha256": "24de3c79061d64fdf71624ea4e0321892379a7eda02f73a612755339f1f8406d"
+    },
+    {
+      "path": "game/dist/assets/openpbr.fragment-BCUEWCIV.js",
+      "bytes": 90702,
+      "sha256": "c6ab5afd3518fa80731f153b517d342964bb314dd5d27f51e3cc9a109e73f293"
+    },
+    {
+      "path": "game/dist/assets/openpbr.vertex-DQnFz10m.js",
+      "bytes": 17503,
+      "sha256": "7f0dc875cca7d55a80951606f0a41af33ff0d4046de261bbedbcb71041c184b7"
+    },
+    {
+      "path": "game/dist/assets/openpbr.vertex-TEPiWOP7.js",
+      "bytes": 20646,
+      "sha256": "1552047a5618fe026f1433dbbded52809502bac34340fcfb1ef87b2e26bcc837"
+    },
+    {
+      "path": "game/dist/assets/openpbrMaterial.pure-B5M096k8.js",
+      "bytes": 120499,
+      "sha256": "12953498e3690764586b8a5df24712a1a6cebf545ba4ec466e59f16a3f83f323"
+    },
+    {
+      "path": "game/dist/assets/openpbrMaterialLoadingAdapter-BusRLp1a.js",
+      "bytes": 83,
+      "sha256": "d9ed4c35c24dff0f7a8130283b2ce1890b8a87ddc8a6bc3842dd2a089555c556"
+    },
+    {
+      "path": "game/dist/assets/openpbrTransmissionLayerData-BRi1vGnu.js",
+      "bytes": 17355,
+      "sha256": "23fb7f071942396abb748dba5529f4dc83abda84d3bc2d0d800e50078681c10d"
+    },
+    {
+      "path": "game/dist/assets/openpbrTransmissionLayerData-CbssVoWF.js",
+      "bytes": 18461,
+      "sha256": "f92d0aaf10cdb9738525fe3b51b207e5eae236e81c65499195cab6b1f1d664ed"
+    },
+    {
+      "path": "game/dist/assets/openpbrUboDeclaration-CbPGRvOI.js",
+      "bytes": 3875,
+      "sha256": "84da8858a504a875a9b0ab33eaba2051feadf57604dcb4973b75096beca979aa"
+    },
+    {
+      "path": "game/dist/assets/openpbrUboDeclaration-Dnhi8mvk.js",
+      "bytes": 5222,
+      "sha256": "c34943893cf98de039ae72d9ff19e77524428bf81f0f053e290efe0cf92145d8"
+    },
+    {
+      "path": "game/dist/assets/packingFunctions-CINwVZs6.js",
+      "bytes": 563,
+      "sha256": "1c1e1ac16f5e3066551fa194031823cc6fd171ece8446e98649c8d58a7e592ef"
+    },
+    {
+      "path": "game/dist/assets/packingFunctions-DpGwbupU.js",
+      "bytes": 529,
+      "sha256": "d1d7fe78f80d8e27c294da522bcb25f2a2641bfdcf6ba7f135f1fff419ebf11b"
+    },
+    {
+      "path": "game/dist/assets/pass.fragment-Cvd2TCWC.js",
+      "bytes": 318,
+      "sha256": "9360b4269aa9ef2e3f7c40e8671692d8efa20ef17ef57f3207ce34b5cd3751e2"
+    },
+    {
+      "path": "game/dist/assets/pbr.fragment-C2DRseGh.js",
+      "bytes": 96852,
+      "sha256": "145d1d744e4da7bf34f0cb39d2ffc84231f688f20fcd763543fa88a2b2ce8fcc"
+    },
+    {
+      "path": "game/dist/assets/pbr.fragment-DYmwnfGf.js",
+      "bytes": 93843,
+      "sha256": "ef9a0dae2c72c3d127a05a4efe5e7ee08179e88781b2088f0fd68ec815ee9dff"
+    },
+    {
+      "path": "game/dist/assets/pbr.vertex-BmJnKuD0.js",
+      "bytes": 14628,
+      "sha256": "9b1952358a8ffedbeadc447f374f382475d80634eb5d8db37fd0108ead472d47"
+    },
+    {
+      "path": "game/dist/assets/pbr.vertex-CMQHQtJZ.js",
+      "bytes": 17166,
+      "sha256": "472a45101ebd6fac7d061558443f50d9d7dd03bb0d99c936c84ec642ac0ac605"
+    },
+    {
+      "path": "game/dist/assets/pbrBRDFFunctions-BCNINF-p.js",
+      "bytes": 11931,
+      "sha256": "61b464dc57e87e6d27224049b6920679ffb6ca96e3b9b5a1b2896c23f0aeea80"
+    },
+    {
+      "path": "game/dist/assets/pbrBRDFFunctions-DxfbxN23.js",
+      "bytes": 12761,
+      "sha256": "6498fd73a62404b2bdd281d8ffabe8b59d14e1927a32216b467847763a412ed0"
+    },
+    {
+      "path": "game/dist/assets/pbrDebug-CRkICnyC.js",
+      "bytes": 45003,
+      "sha256": "f6010a557010dcc2e55904730870e7d56663fec843206d71d63bae6c00439348"
+    },
+    {
+      "path": "game/dist/assets/pbrDebug-DB3vXFLo.js",
+      "bytes": 37881,
+      "sha256": "b109fd09e367cded3f6cedec4b2aad4972780772494a6350e016456b69ca4c28"
+    },
+    {
+      "path": "game/dist/assets/pbrIBLFunctions-CSlJv7qb.js",
+      "bytes": 2522,
+      "sha256": "5537af51297ac954c4125dc6ff8490e4fd120f2239ebb2c00331e06d053395a1"
+    },
+    {
+      "path": "game/dist/assets/pbrIBLFunctions-b8fwQKtH.js",
+      "bytes": 2719,
+      "sha256": "d45fb4d76f370e711f5dc73a6a24dfff983ebf62c5068f8de006ebfe2e2c1874"
+    },
+    {
+      "path": "game/dist/assets/pbrMaterial.pure-D7lKTg2p.js",
+      "bytes": 149975,
+      "sha256": "e63ab9362fb964f668b9bf3b4f3d055a45f6da4e8443b5104020626094691949"
+    },
+    {
+      "path": "game/dist/assets/pbrMaterialLoadingAdapter-NAs4cDb5.js",
+      "bytes": 79,
+      "sha256": "ca973ccb3650f4dc5b83998bd54b4b49ef85cdd51d4f1e3ff40fd8af0390f3c4"
+    },
+    {
+      "path": "game/dist/assets/pbrUboDeclaration--xFZEw0i.js",
+      "bytes": 1801,
+      "sha256": "e3dd90c4074c066cbd5f4e40cee55e5d40dee68c9efba2e28bb431178a6db12e"
+    },
+    {
+      "path": "game/dist/assets/pbrUboDeclaration-oed3_f2e.js",
+      "bytes": 2399,
+      "sha256": "d89ca3594eff9aa51d9e5b5e5220672c195a316795fa4759b57e8d09ddaf878d"
+    },
+    {
+      "path": "game/dist/assets/performanceConfigurator-UtxC_Odd.js",
+      "bytes": 500,
+      "sha256": "18ac183db602e06e8f22bb36ef5a1b0127170dfa0401d3e6aff4f81dc5d76b26"
+    },
+    {
+      "path": "game/dist/assets/permission-exhibit-DPpJzW9R.js",
+      "bytes": 3556,
+      "sha256": "e5489d35bddafc09d7f56a6b43353371c5bd10589fc5869bda1e030690d81d2b"
+    },
+    {
+      "path": "game/dist/assets/pointCloudVertex-CmkEsLzf.js",
+      "bytes": 246,
+      "sha256": "3a2813d03614190bda0beab4a8f215c5081051ab7fb879a75e781526d916b1df"
+    },
+    {
+      "path": "game/dist/assets/pointerEvents-nqydg71H.js",
+      "bytes": 759,
+      "sha256": "a79b5471be15ee6c5ae96285215c9feb490883c9a4f0c508868b800c2db1b044"
+    },
+    {
+      "path": "game/dist/assets/postProcess.pure-CaFCTEc4.js",
+      "bytes": 18430,
+      "sha256": "591d51bfb334c40dc456031b3d2719c1752954cbe7f92e9ea63fe63805c8805e"
+    },
+    {
+      "path": "game/dist/assets/postprocess.vertex-CmVXXq2T.js",
+      "bytes": 584,
+      "sha256": "7f3cb8f402651e0c1378f484fdd319a6859ce17c20cb877ede973037d487ca79"
+    },
+    {
+      "path": "game/dist/assets/postprocess.vertex-DJCmMhI8.js",
+      "bytes": 460,
+      "sha256": "520bb6e9e2851654258b110a11a5d138f1e77aaaaa22013e6d723cdd59bdeacd"
+    },
+    {
+      "path": "game/dist/assets/procedural.vertex-C47TVAon.js",
+      "bytes": 473,
+      "sha256": "0cf20bd5c3a7e80a7ba4d4ffd233a0b5b235a29acf926ebf62af8bf8de7b0f61"
+    },
+    {
+      "path": "game/dist/assets/procedural.vertex-D3o6xkF2.js",
+      "bytes": 613,
+      "sha256": "4fb7d38a1b7e1c89c5ea8627a340763c85e73e5748663b32c965ff9264f026e9"
+    },
+    {
+      "path": "game/dist/assets/pushMaterial-BGIskGAt.js",
+      "bytes": 76781,
+      "sha256": "a405f6698e7efc35a307a7d02b8d5ec3aefe648c89a5e5b191f0fea94a173af3"
+    },
+    {
+      "path": "game/dist/assets/reflectionFunction-Cd8WyD5Q.js",
+      "bytes": 5230,
+      "sha256": "67ff36aa1d0ee713f41c8fe462cbbd23094eea9204c73dc76c94b152ebea9696"
+    },
+    {
+      "path": "game/dist/assets/reflectionFunction-CivoLMz9.js",
+      "bytes": 4667,
+      "sha256": "b01e85098e198270f79403b0f0c6a51421d55dcc83168957f2d88480e08d39cd"
+    },
+    {
+      "path": "game/dist/assets/render-audit-CT2r6UyM.js",
+      "bytes": 2747,
+      "sha256": "5a812a4fb8cea5a306360fbbf6bede644450f4b589ebe290d146a9bdc14df85d"
+    },
+    {
+      "path": "game/dist/assets/renderTargetTexture.pure-d8CBpFIn.js",
+      "bytes": 31823,
+      "sha256": "92be50defdb776965a10a0de31f054e9dc326628d9be2e7d7a35dc5103804394"
+    },
+    {
+      "path": "game/dist/assets/review-exhibit-CYD8GzJT.js",
+      "bytes": 3981,
+      "sha256": "e67c86db86eef56786ff6749bb5452a2d2b2a377574941222b7fac4d686cbf6a"
+    },
+    {
+      "path": "game/dist/assets/rgbdDecode.fragment-Cdz2Tveq.js",
+      "bytes": 520,
+      "sha256": "bee2fc90a9d5fad759b42d5df5a6f2e1302957a5d4bdd56bc8a4e78891d589da"
+    },
+    {
+      "path": "game/dist/assets/rgbdDecode.fragment-DXl2fYur.js",
+      "bytes": 663,
+      "sha256": "e6968fe3710c058f004d6bbcd515bb9fed0cdad1265a70ff16ed0b044874d00c"
+    },
+    {
+      "path": "game/dist/assets/rgbdEncode.fragment-CVg4Fcse.js",
+      "bytes": 512,
+      "sha256": "dfd45fc4a88d859371441b9e928d3f9adc81a60ec9bdcdad16363e159077defb"
+    },
+    {
+      "path": "game/dist/assets/rgbdEncode.fragment-CxPSfrvR.js",
+      "bytes": 654,
+      "sha256": "ab5b68a29515d54bc27c00f260c307bee50a7625127e4b84d0c25701a23d76b7"
+    },
+    {
+      "path": "game/dist/assets/scene.pure-D0d6NW2g.js",
+      "bytes": 158238,
+      "sha256": "0f1e4d4159444337c31c856bb71fcbf08db5f2395e44871bb534c0c0069363be"
+    },
+    {
+      "path": "game/dist/assets/sceneComponent-CjgOmcfi.js",
+      "bytes": 18008,
+      "sha256": "c50e7da03aa6f2a0d3e021d2916ba9a3902dd4325dfd8da147994bac861b3b93"
+    },
+    {
+      "path": "game/dist/assets/sceneUboDeclaration-B5VhSG0v.js",
+      "bytes": 364,
+      "sha256": "bb44727afcb0fe70461ca9bdb0d212901fa0a18067c8a62d1577506c6d347b95"
+    },
+    {
+      "path": "game/dist/assets/sceneUboDeclaration-B96Tfx7b.js",
+      "bytes": 436,
+      "sha256": "5d5d6cd518aad42a92783140733752058aa59cb9526ce525f8714eaca6a7ebd2"
+    },
+    {
+      "path": "game/dist/assets/sceneVertexDeclaration-CluTp-RC.js",
+      "bytes": 330,
+      "sha256": "5bdb17ef3666eb02fe861a9c604b19ae4d1c43be4fef336b63df06a1833de3f2"
+    },
+    {
+      "path": "game/dist/assets/shaderStore-D-XQlhUT.js",
+      "bytes": 469,
+      "sha256": "db600316439f2fedb7bfd3bcbc61b24d30c2b2646828dcea1c7c778cd07d5e3e"
+    },
+    {
+      "path": "game/dist/assets/shadowMap.fragment-DUFTmQJ_.js",
+      "bytes": 3866,
+      "sha256": "67b8272926307aaf3667d9be072d87bc51dc37c04f13e40529e52b163e23dc76"
+    },
+    {
+      "path": "game/dist/assets/shadowMap.fragment-DX4Yo1bp.js",
+      "bytes": 3306,
+      "sha256": "a120bd721dd8502f47b6521519ed35ad5b825a7e1355ad36aa2599f783be52e2"
+    },
+    {
+      "path": "game/dist/assets/shadowMap.vertex-TZnupHeR.js",
+      "bytes": 4773,
+      "sha256": "952e9c03933dd5c452e0bd635c1c77c36e8cb9720f7b9eaa33e50dbf142b7285"
+    },
+    {
+      "path": "game/dist/assets/shadowMap.vertex-_1VpiXdw.js",
+      "bytes": 4810,
+      "sha256": "1bac485d8dee765b3432153f2173f0f4cfc20ec5be6d3a3b80b1aebd6024d224"
+    },
+    {
+      "path": "game/dist/assets/shadowMapFragmentSoftTransparentShadow-B6k0i9Au.js",
+      "bytes": 405,
+      "sha256": "b4bbaf3160d4fdef8454d5f8589bd759bed08860a96beec12dc5b5e6512bd1ed"
+    },
+    {
+      "path": "game/dist/assets/shadowMapFragmentSoftTransparentShadow-R_iOKnyx.js",
+      "bytes": 370,
+      "sha256": "60d9a6c61f1cdafa13eebbcea78db9afd8d39585a20c77d6b11edf96c11896fb"
+    },
+    {
+      "path": "game/dist/assets/shadowsVertex--0nVb1Fg.js",
+      "bytes": 6845,
+      "sha256": "19be696bae175ad2000659f60df173f56b6dc0cca7d4a927e026a9beee2cda06"
+    },
+    {
+      "path": "game/dist/assets/shadowsVertex-CpxL4lAs.js",
+      "bytes": 21617,
+      "sha256": "f7f0cb4b976927ff6c447d31081c5634e2a815b7d9f7c1641f7d4c11cc908b1a"
+    },
+    {
+      "path": "game/dist/assets/sharpen.fragment-B2bDI1_Y.js",
+      "bytes": 1088,
+      "sha256": "941b24947a7900c5f33df8e657af64eceeec3b58ae94ea4d94790234b37c4f99"
+    },
+    {
+      "path": "game/dist/assets/sharpen.fragment-CCLDkKbj.js",
+      "bytes": 760,
+      "sha256": "8e9b0eca34058b4cd9d1f3a5247608362f3dcbd646ea554560de4aef9dcaaada"
+    },
+    {
+      "path": "game/dist/assets/smartArray-BRfcgNbX.js",
+      "bytes": 1186,
+      "sha256": "8dc20e14af937dfe98d73e0190bd449c7724164eee863b08caa8dd5a4cfc019f"
+    },
+    {
+      "path": "game/dist/assets/sphericalPolynomial.pure-B_YAEgpI.js",
+      "bytes": 5736,
+      "sha256": "e31a975bb73f63c0b7627e86e057ae53917e69ba2bb4e4ced80135b71daf7200"
+    },
+    {
+      "path": "game/dist/assets/steering-exhibit-D9wDVbRm.js",
+      "bytes": 4574,
+      "sha256": "1af572863765930117f8d61824347b538156876999700fa1a4b36abd89972f6c"
+    },
+    {
+      "path": "game/dist/assets/studio.env",
+      "bytes": 273974,
+      "sha256": "ca3e30921265d084d46c62c5220217d99296c0c3eacaeb40ca15f7534dfdd8bc"
+    },
+    {
+      "path": "game/dist/assets/texture.pure-D2qax4_s.js",
+      "bytes": 19556,
+      "sha256": "b7c79a24008125731136e9159b0eefc7ea8f12334851eef1ac7e78a5e0c56ae7"
+    },
+    {
+      "path": "game/dist/assets/textureProcessor.fragment-B-hqHgey.js",
+      "bytes": 4378,
+      "sha256": "5e86123c86314febf84a63b67986711686eacc80d215bae6a719368d8097c9cc"
+    },
+    {
+      "path": "game/dist/assets/textureProcessor.fragment-D-awtrDP.js",
+      "bytes": 3491,
+      "sha256": "cb04efe695c7b5f2f6cbf62aa035df9a85f3c4b220aa3ef7b08288e6181ee6f3"
+    },
+    {
+      "path": "game/dist/assets/tgaTextureLoader-CqhhocF6.js",
+      "bytes": 3408,
+      "sha256": "7edd7f23ff0ade28e79de5a87b7c966629d4e26d815fa3321589c50632179ae0"
+    },
+    {
+      "path": "game/dist/assets/thinEngine.pure-m0A2h7lr.js",
+      "bytes": 66945,
+      "sha256": "fb04b03481effb9ff0e2fe2b175a8ebed24a419eff4b7c1d072174802338354c"
+    },
+    {
+      "path": "game/dist/assets/tool-exhibit-Bg5oeLt8.js",
+      "bytes": 4106,
+      "sha256": "985a219f86eee6f7713607b3cd334d05ee1b6db5930621e4bf3539003760cfb6"
+    },
+    {
+      "path": "game/dist/assets/tools.functions-C8QU8nYC.js",
+      "bytes": 13495,
+      "sha256": "5f153aa2199c771135b3e5f47bf5b0cf22f6148a2b121f70b3e752f110840f9c"
+    },
+    {
+      "path": "game/dist/assets/tools.pure-B61Ijxh6.js",
+      "bytes": 33967,
+      "sha256": "1a4fba99e403559c2b17848e41774fd486721d301c85f6a5474628da7cccd9dc"
+    },
+    {
+      "path": "game/dist/assets/typeStore-Cu_sj2zM.js",
+      "bytes": 80,
+      "sha256": "ac5c1cd88e21454d0753d41e04c62cf8a19b88778746954785b5d32d0f1b66d8"
+    },
+    {
+      "path": "game/dist/assets/utils-CLq_UU0_.js",
+      "bytes": 682,
+      "sha256": "ddde5ff07f5bd1a8eef57f1a3bf1f24ff69dba713e351cbce2dbd21799b22d31"
+    },
+    {
+      "path": "game/dist/assets/vertexColorMixing-DPW6Is9y.js",
+      "bytes": 434,
+      "sha256": "5b260157080b5c74dbfd397795735cfe2ecc800de65b45d528e065e6fe71fbce"
+    },
+    {
+      "path": "game/dist/assets/vertexColorMixing-UCrnwszu.js",
+      "bytes": 562,
+      "sha256": "df5c68fc715ce00b5e6478f42dcf9880a0b26a4da18f59362ad089143f82c0a2"
+    },
+    {
+      "path": "game/dist/assets/world-aFXfhAeM.js",
+      "bytes": 1276469,
+      "sha256": "97428ac597f21d5dc55eba688cc5fedaa02a8c818ac8ca9dcaa394568c963c49"
+    },
+    {
+      "path": "game/dist/exhibits-manifest.json",
+      "bytes": 136613,
+      "sha256": "c7276675c577c22ce7fa71881ab7a22a0e32c3deb323b56f9e78e0c34560eee2"
+    },
+    {
+      "path": "game/dist/index.html",
+      "bytes": 723,
+      "sha256": "b961c2013e1b34d1e3ceff1a1e0b68b9bcb570beaec02eeec13cc6fc9f6df9b5"
+    },
+    {
+      "path": "game/public/assets/codex-mascot-balanced.glb",
+      "bytes": 695944,
+      "sha256": "07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee"
+    },
+    {
+      "path": "game/public/assets/codex-mascot.glb",
+      "bytes": 912508,
+      "sha256": "7803dbb4b01ccf8db94ce0bf229db511dd4932fadd40533f07f843bf68f50610"
+    },
+    {
+      "path": "game/public/assets/codex-reference.png",
+      "bytes": 493468,
+      "sha256": "de7d43f3386105ab20952958c2c25beb0d903e2aeb6e1aef57c49a648c0d1c07"
+    },
+    {
+      "path": "game/public/assets/context/save-error.html",
+      "bytes": 1576,
+      "sha256": "be4881c595fc56a658f240724f0b4e8251f1db7d166bfbc0fda0ea417b95d754"
+    },
+    {
+      "path": "game/public/assets/context/save-error.png",
+      "bytes": 30407,
+      "sha256": "fc56c1c757e214e1f0441ccf4d012e9fb4bf34616faed0df48a3958e8dfe3ede"
+    },
+    {
+      "path": "game/public/assets/decoders/MESHOPT-LICENSE.md",
+      "bytes": 1079,
+      "sha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26"
+    },
+    {
+      "path": "game/public/assets/decoders/meshopt-decoder-1.2.0-codex1.js",
+      "bytes": 30677,
+      "sha256": "24018cf3ec76322c3ee6c37bdb484383d24a6f591149e1d8134e9bfb1a0bbb26"
+    },
+    {
+      "path": "game/public/assets/decoders/meshopt-decoder-1.2.0.js",
+      "bytes": 29400,
+      "sha256": "fedf06f101ff2ba59d66335578230b7e8f5fac5057dee084be64c67444ac6c12"
+    },
+    {
+      "path": "game/public/assets/headquarters/architecture.glb",
+      "bytes": 4152576,
+      "sha256": "5221612a95cb9d7e25ba2de92cb1167a7a6dba6b162b90513c33e7a35d390580"
+    },
+    {
+      "path": "game/public/assets/headquarters/architecture.glb.gz",
+      "bytes": 2172025,
+      "sha256": "12555083f0954c02f60bf8c858b82990c8607445391b3f3ac545a06ffab392e6"
+    },
+    {
+      "path": "game/public/assets/headquarters/fixtures.json",
+      "bytes": 6201,
+      "sha256": "48dacf1338128a51f3daa839032be527945586183fd2e3e14699e9afba023516"
+    },
+    {
+      "path": "game/public/assets/headquarters/floor-indirect.jpg",
+      "bytes": 254220,
+      "sha256": "10916e6f56373066bdba235a046f80466d0ef379d039c2912b8ba9a5fbe543bd"
+    },
+    {
+      "path": "game/public/assets/headquarters/furnishings-indirect.jpg",
+      "bytes": 1078937,
+      "sha256": "31cd2cdce57aa704c7ae6e8a36099ac1464670288d25a6364365d8b1f24d5cd6"
+    },
+    {
+      "path": "game/public/assets/headquarters/navigation.json",
+      "bytes": 79962,
+      "sha256": "a219910face8e4ef7b595be82861f6f0b8d3fbf89f0508e865ee98a76dbf74c3"
+    },
+    {
+      "path": "game/public/assets/headquarters/shell-indirect.jpg",
+      "bytes": 784238,
+      "sha256": "2542cd778cc5c304f1f21a0268c4d191fa7b13b1b58cd2689561b1483147a348"
+    },
+    {
+      "path": "game/public/assets/studio.env",
+      "bytes": 273974,
+      "sha256": "ca3e30921265d084d46c62c5220217d99296c0c3eacaeb40ca15f7534dfdd8bc"
+    },
+    {
+      "path": "game/src/atlas-view.ts",
+      "bytes": 3150,
+      "sha256": "b7f265068bcbee60a4877b004f574b9e5916048d44c249c22788fefc4dd62345"
+    },
+    {
+      "path": "game/src/atlas.mjs",
+      "bytes": 22261,
+      "sha256": "64634107cab7b0836783558224c790e32dbbd0cb03385fe022f8ace237a58299"
+    },
+    {
+      "path": "game/src/automation-exhibit.ts",
+      "bytes": 6697,
+      "sha256": "f182c5f21203948c7b183d9232e3fab09e5485df9ecca68ada6941d254249f1e"
+    },
+    {
+      "path": "game/src/automation-lab.mjs",
+      "bytes": 11726,
+      "sha256": "c18487e968592dabddb8b48d67bca71e1f2ad09e4a245892c7ae59c80008d38c"
+    },
+    {
+      "path": "game/src/automation-view.ts",
+      "bytes": 5763,
+      "sha256": "0bdc1e0707c70250d7b4499a0a5cea4fd4304060b67f2e29b51839e3b015e51a"
+    },
+    {
+      "path": "game/src/branch-exhibit.ts",
+      "bytes": 4378,
+      "sha256": "292c584dff7cc9f67c6d12830c10a4af21ef62cb9b0cd681cb11a9b978ba7bee"
+    },
+    {
+      "path": "game/src/branch-lab.mjs",
+      "bytes": 4851,
+      "sha256": "c91d896f81aaf9667abcad74b3626b909e90f4e666e455b86580ffec056a49bb"
+    },
+    {
+      "path": "game/src/branch-view.ts",
+      "bytes": 3380,
+      "sha256": "06c3d6f787a88efbaed56ebb5bd893864031961c119f8926c2c153142f530a68"
+    },
+    {
+      "path": "game/src/browser-lab.mjs",
+      "bytes": 1580,
+      "sha256": "e15feaa2e9ba49c6a36fa86e9bf4e27e75aee7c9da5c40826ebc27b5eebcd2d5"
+    },
+    {
+      "path": "game/src/capstone-exhibit.ts",
+      "bytes": 5817,
+      "sha256": "59694e5950529a34df480aed8f48486f4d9a6b4fac8f0d3e38adddbc8c6ac8fa"
+    },
+    {
+      "path": "game/src/capstone-lab.mjs",
+      "bytes": 14194,
+      "sha256": "53a1975f972698a5c827edbbec34647639a700e2a3a17c267f5bc9d49ca62602"
+    },
+    {
+      "path": "game/src/capstone-resources.mjs",
+      "bytes": 7014,
+      "sha256": "d73538a79f03a53cd22b8f6f9ff0a1fd47b9956496be4bc444dc5f1ae68ad0bf"
+    },
+    {
+      "path": "game/src/capstone-view.ts",
+      "bytes": 7622,
+      "sha256": "9d7cc55fccd529b18e3ab5c13847d652fcc10d4433a13ad6558f2545b19d7f15"
+    },
+    {
+      "path": "game/src/content.ts",
+      "bytes": 22855,
+      "sha256": "ca0902c73148614ebc127e3f22ec46f299235f5c0032bf70ebfb382b1591ef91"
+    },
+    {
+      "path": "game/src/context-exhibit.ts",
+      "bytes": 5320,
+      "sha256": "aaad7934c258284b3c1d7e36fdd701e39dca3ab7a3fd9aea8d3067010cb23a61"
+    },
+    {
+      "path": "game/src/context-lab.mjs",
+      "bytes": 8357,
+      "sha256": "b74f7bedb2bdef2b812c6e121a72e518944fcd8034d35a8616d4aa05588403bb"
+    },
+    {
+      "path": "game/src/context-view.ts",
+      "bytes": 2949,
+      "sha256": "131dc2bb9618f05f58d85e0226e2aa8ab9030ae6888c35d9f06e6175b43eca55"
+    },
+    {
+      "path": "game/src/exhibit-residency.ts",
+      "bytes": 9559,
+      "sha256": "96fabc800700edb097b6beea935689ac76795b96d5fd7d5e0729931df862f086"
+    },
+    {
+      "path": "game/src/handoff-exhibit.ts",
+      "bytes": 5637,
+      "sha256": "247510f6bf8ebc7e4b044b22af1fac44b8a737e988054ea9ba7d27c1e3026df8"
+    },
+    {
+      "path": "game/src/handoff-lab.mjs",
+      "bytes": 13803,
+      "sha256": "19f654ea02a17fe68468cdbd2e1f4ad9a4a2944cef40b54949c3663699b5b282"
+    },
+    {
+      "path": "game/src/handoff-view.ts",
+      "bytes": 5802,
+      "sha256": "7bf2dd17dd41f93bb79d0b16beb99072cbbd5583d05d9d4e91f0eef4d4cab535"
+    },
+    {
+      "path": "game/src/harness-exhibit.ts",
+      "bytes": 5930,
+      "sha256": "c9d88faaff380f535d550da898a8fd67e0c7f98f1e7f3534898688b5a968811d"
+    },
+    {
+      "path": "game/src/learning.mjs",
+      "bytes": 7300,
+      "sha256": "13dc3beded87c0b55f8e4465bce9ef53e49002c02f8614eac292b0c1dd41af03"
+    },
+    {
+      "path": "game/src/main.ts",
+      "bytes": 41241,
+      "sha256": "d959496f94f0e13d5cae1c3b88970f5b69ee2ff0867defc8114d8521a9cf1c23"
+    },
+    {
+      "path": "game/src/mascot-detail.ts",
+      "bytes": 3781,
+      "sha256": "228dfeb0ce77d29d27850a15ef69ae15a7ba971ce618c3a8854a87a6a19527a2"
+    },
+    {
+      "path": "game/src/mascot-lab.ts",
+      "bytes": 5090,
+      "sha256": "1f53eb5f179199088270e24ebccd9de8b1bb2589b4640a5b589101f7af29ef96"
+    },
+    {
+      "path": "game/src/model-exhibit.ts",
+      "bytes": 6587,
+      "sha256": "81c0358fd4af7e1aaf979e4aa7907021ac0aa8f9a044a49d436f13ec8a1310af"
+    },
+    {
+      "path": "game/src/model-lab.mjs",
+      "bytes": 11533,
+      "sha256": "ebd580b5fdd0083378adf59241b177c19fd8e53d7633040164184be76a58a251"
+    },
+    {
+      "path": "game/src/model-resources.mjs",
+      "bytes": 2393,
+      "sha256": "bd0ff2cfb7abaead896bb2461407a86a6ad64faba6a16972d3b3bc930bc89751"
+    },
+    {
+      "path": "game/src/model-view.ts",
+      "bytes": 6326,
+      "sha256": "1f7ca50e5c006ebb366a28d4c1efcd9743cc2360ab9cde6e4881baa5d11a5063"
+    },
+    {
+      "path": "game/src/permission-exhibit.ts",
+      "bytes": 5006,
+      "sha256": "588a2debb917c529a16dee773cb8d0de9cc79a48e5db3ea73a561879faf1c4ed"
+    },
+    {
+      "path": "game/src/permission-lab.mjs",
+      "bytes": 9217,
+      "sha256": "01b6275664d089c9e236eae842fc2d14ce34f5ff0bdb72321bebc13a3efdf315"
+    },
+    {
+      "path": "game/src/permission-view.ts",
+      "bytes": 5349,
+      "sha256": "bea51dac6ffaabb4f15d70783c1e871f01d0717e15307bc17311d8941bfff13d"
+    },
+    {
+      "path": "game/src/render-audit.ts",
+      "bytes": 3761,
+      "sha256": "b586fe790478b1cc7be92e1b4ebbfbdb1c6feab19e3aa324c32063b23830bffc"
+    },
+    {
+      "path": "game/src/resources.mjs",
+      "bytes": 11826,
+      "sha256": "45032bb8be72bddcecab07e0fb20e5c43b1607921270b167560ea99b3e6791f8"
+    },
+    {
+      "path": "game/src/review-exhibit.ts",
+      "bytes": 5410,
+      "sha256": "92de8d81572b44b04f8ca07b26850014bc758ca0693c8c28cfb587ef1940b3c2"
+    },
+    {
+      "path": "game/src/review-lab.mjs",
+      "bytes": 7815,
+      "sha256": "22608749eeb6424b7462d953580fec138c15315033fdf8420edb141c0de245a3"
+    },
+    {
+      "path": "game/src/review-resources.mjs",
+      "bytes": 2266,
+      "sha256": "1775ecafa1b88d90d1063c79cae1bceaf7b97f7198ebf7e2e9ee67d3596c56be"
+    },
+    {
+      "path": "game/src/review-view.ts",
+      "bytes": 5796,
+      "sha256": "32c1d0b802162f31ab001722d20803ec9f078775661b15915ce9e1adf5b219fa"
+    },
+    {
+      "path": "game/src/steering-exhibit.ts",
+      "bytes": 6283,
+      "sha256": "c3986328a8108c0b94ba3aaf8b4066c0ac95302898ff8a9a16f99e7338791f09"
+    },
+    {
+      "path": "game/src/steering-lab.mjs",
+      "bytes": 9882,
+      "sha256": "46924b73600992150997af11ab0010006fd15e5913088ef4eb18d56f13a7b16a"
+    },
+    {
+      "path": "game/src/steering-view.ts",
+      "bytes": 5124,
+      "sha256": "9763ab04ca782d4657525d397a13416a3ffb84bfbc52e25e31e6b8cc2a7dc924"
+    },
+    {
+      "path": "game/src/style.css",
+      "bytes": 54833,
+      "sha256": "e576f5c9cdbf1c6006bac922ea260d6a93a183d320750e90d0d9eca5c88fce1d"
+    },
+    {
+      "path": "game/src/tool-exhibit.ts",
+      "bytes": 5576,
+      "sha256": "bd1d7c5d1f00ee9cf9ca157216f88f44d43f5336ab48729e79f581a84d759271"
+    },
+    {
+      "path": "game/src/tool-lab.mjs",
+      "bytes": 11530,
+      "sha256": "5108655a41332509f9000972fddd8d80f41c4fe6334ea8dca4ac6aac44f852af"
+    },
+    {
+      "path": "game/src/tool-view.ts",
+      "bytes": 5951,
+      "sha256": "939aab75ea7289d904215d1ba49e9fdc561ccc750a045257348b64db00af57ea"
+    },
+    {
+      "path": "game/src/tour-camera.mjs",
+      "bytes": 1601,
+      "sha256": "a9b3b3236bdb04df266bf2e1b2e041f6035fda740e87a4c57383f54a6d4caa5b"
+    },
+    {
+      "path": "game/src/vite-env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "game/src/world.ts",
+      "bytes": 30789,
+      "sha256": "e421553910edfee63e5159e7048db01359136ae0546b89eeac6cc0b17960d11f"
+    },
+    {
+      "path": "game/tests/atlas-browser.mjs",
+      "bytes": 5618,
+      "sha256": "18b3c229e422e5b79afaf87b253f182d789bee689e32b7ad1343678b69133bb3"
+    },
+    {
+      "path": "game/tests/atlas.test.mjs",
+      "bytes": 2322,
+      "sha256": "38fb8dce993d53065c00f0b76e1ccf0b8096a52f1241bb96d289aa6df3497383"
+    },
+    {
+      "path": "game/tests/automation-browser.mjs",
+      "bytes": 4536,
+      "sha256": "e0d57f83e13bd839ab839f7693d9e484383e3507f91871001644c00c5aec0302"
+    },
+    {
+      "path": "game/tests/automation-flow.mjs",
+      "bytes": 2507,
+      "sha256": "c66c717a036712a4381f4fef1a47b2ba697816a03c9e196928a29911ff459c87"
+    },
+    {
+      "path": "game/tests/automation.test.mjs",
+      "bytes": 5847,
+      "sha256": "8353360711587e4d949ba8a72154a67c37e7a00a43799933f42da494d838d1e5"
+    },
+    {
+      "path": "game/tests/branch-browser.mjs",
+      "bytes": 3493,
+      "sha256": "023e79d18ea949d8a6c55a7a9a9743e2a1a656593d39bb2f110f9390c8ff09cf"
+    },
+    {
+      "path": "game/tests/branch.test.mjs",
+      "bytes": 2682,
+      "sha256": "9cec05e55f71118ef2530f4c84203e3b5f1dbcabd28cc8e1c9de83b2fc3e1446"
+    },
+    {
+      "path": "game/tests/browser.mjs",
+      "bytes": 15125,
+      "sha256": "f4be60bb1815166c598915bd0bde0f6b2bc937184827ed2d731e45eec28b92b2"
+    },
+    {
+      "path": "game/tests/camera-controls.mjs",
+      "bytes": 3612,
+      "sha256": "6922244bb1fb407e9f038e67cbdc3737d031f3acd393a95708502a78dc5ec616"
+    },
+    {
+      "path": "game/tests/camera-tour.mjs",
+      "bytes": 5307,
+      "sha256": "02dd73a756d76986e2d43254c7f45510897d143b18ea34a015167598e3137f78"
+    },
+    {
+      "path": "game/tests/capstone-browser.mjs",
+      "bytes": 5354,
+      "sha256": "949626ff55d0dbe2422a8d0f2f8d406bee8e8d1d94ecda65927d298e8bf1e585"
+    },
+    {
+      "path": "game/tests/capstone-flow.mjs",
+      "bytes": 2362,
+      "sha256": "1848c1998f49d76a7a05822c42a4566df1252e25627267ae4a40156d60ded2d9"
+    },
+    {
+      "path": "game/tests/capstone.test.mjs",
+      "bytes": 6531,
+      "sha256": "99b66d531c2f5dd3b819e9ae5190e6d02077bc21f10fddd9825722f1e7c320ab"
+    },
+    {
+      "path": "game/tests/compression-fidelity.mjs",
+      "bytes": 3074,
+      "sha256": "caa84cfa9e064576b24251c8c497495bb4bf02bd4b1865b46dbf595444a8bc72"
+    },
+    {
+      "path": "game/tests/context-browser.mjs",
+      "bytes": 4606,
+      "sha256": "ad70e29447452f18f06d2b0006da4f9bb850d8931710d2c2fbf8c13c3770c270"
+    },
+    {
+      "path": "game/tests/context-flow.mjs",
+      "bytes": 1430,
+      "sha256": "dc61ac02ea7371892fbaf0737e57f5bea0e03ca3ff1bdf863b274930004f8523"
+    },
+    {
+      "path": "game/tests/context.test.mjs",
+      "bytes": 3086,
+      "sha256": "5f70d2576e6db5ded4b7aea7692c3925a6c0628430123bbb0a5eff69eb48b598"
+    },
+    {
+      "path": "game/tests/decoder-lifecycle.mjs",
+      "bytes": 3316,
+      "sha256": "c0deea8d24a52f49ffb57e479b7f223c60e6c61ffb9fb8a43cbe97acc2f81428"
+    },
+    {
+      "path": "game/tests/exhibit-first-frames.mjs",
+      "bytes": 2378,
+      "sha256": "874e6ed295e51b012c7c63c414c85ac0890e29d968a88ef0afed312453d4f4df"
+    },
+    {
+      "path": "game/tests/exhibit-residency.mjs",
+      "bytes": 6064,
+      "sha256": "e35b5b7cbb011b77639b91adbe32ad47d1f4e0f8eef039e1710152aff177f6ca"
+    },
+    {
+      "path": "game/tests/exhibit-residency.test.mjs",
+      "bytes": 4833,
+      "sha256": "ab5892255e455ce518f1a1c9ce74b56c7d9b3a14320646e0da8fc525f1aee5b0"
+    },
+    {
+      "path": "game/tests/exhibit-version.mjs",
+      "bytes": 4265,
+      "sha256": "b8a868abcbe2532aabcc9efc591e6629970ed9d3d69b72def1a1552b4c63c0ee"
+    },
+    {
+      "path": "game/tests/handoff-browser.mjs",
+      "bytes": 4837,
+      "sha256": "8cd32fbfd6b27e8362ccb09f81e0971bd42b465d1b0c52e44b860858af0ed912"
+    },
+    {
+      "path": "game/tests/handoff-export-browser.mjs",
+      "bytes": 2945,
+      "sha256": "31aaec4375843539d71891e24fa625ec104094ba152b36630da26bee47d3590c"
+    },
+    {
+      "path": "game/tests/handoff-flow.mjs",
+      "bytes": 1882,
+      "sha256": "8e547711d98702a7e52fa985cbf93d9ddc20cb1ce65e3ba23983c9d88662e06b"
+    },
+    {
+      "path": "game/tests/handoff.test.mjs",
+      "bytes": 3924,
+      "sha256": "9df0102ee115fdf35d5b8d33fa9a9886e2a3eeee3e287e5afd7e145eb0ef05b0"
+    },
+    {
+      "path": "game/tests/inlays.mjs",
+      "bytes": 1772,
+      "sha256": "432615beef2d7c87a2fb715a348769c69b55859988e08c5c504d89bab2909e19"
+    },
+    {
+      "path": "game/tests/layouts.mjs",
+      "bytes": 1620,
+      "sha256": "401a4470d75c6cf3e9338cba40b208e5c04391c9a4a0208fe53317e52fdc139e"
+    },
+    {
+      "path": "game/tests/learning.test.mjs",
+      "bytes": 5186,
+      "sha256": "12b9fffcaa40511666297550d2a793296f75396a5e69cd961d11cf6d7be4770b"
+    },
+    {
+      "path": "game/tests/marker-views.mjs",
+      "bytes": 2430,
+      "sha256": "dd89601cc68ef1e9adfc8b4bfec088964217533028b05e325bb0f3aeb429c9ab"
+    },
+    {
+      "path": "game/tests/mascot-detail.mjs",
+      "bytes": 7605,
+      "sha256": "0c86e6ff0c09ef60358788399606f8136f86366625ce7786e7e4471dfb06d8e2"
+    },
+    {
+      "path": "game/tests/mascot-glyph-preview.mjs",
+      "bytes": 1446,
+      "sha256": "368fa6c3c755a129907c86868a5a3179ca2b99364dccc58afe719954b1a83ba7"
+    },
+    {
+      "path": "game/tests/mascot-hierarchy.mjs",
+      "bytes": 3177,
+      "sha256": "4dc1e2114560c3ecad5e8ce45813b6c0dc8604ed874895f96a83822d5f61aa6d"
+    },
+    {
+      "path": "game/tests/mascot-lod-poses.mjs",
+      "bytes": 3401,
+      "sha256": "c325b5dc31069d2752fa8c6e65dc593e24220ac3ae5163bc5a091dec447ff7bc"
+    },
+    {
+      "path": "game/tests/mascot-pose-review.mjs",
+      "bytes": 3378,
+      "sha256": "1f1fa6c94d7f2787d76836042fa6989ac8dd9d4047ed5c7dfa3abb0fc48d8c34"
+    },
+    {
+      "path": "game/tests/mascot-resize.mjs",
+      "bytes": 2204,
+      "sha256": "1b674c4db58f3d7134cf65ca4167ece4df30e401337bec083d11b3419f67435b"
+    },
+    {
+      "path": "game/tests/model-browser.mjs",
+      "bytes": 4753,
+      "sha256": "45bbf50e50321d79114f30287162629883e723e1422938e5dcb831f78032686b"
+    },
+    {
+      "path": "game/tests/model-flow.mjs",
+      "bytes": 1634,
+      "sha256": "e97194fd119a671048f23aba3d2ae3635dd2627d3140030c5e91bbbbe6dd2a81"
+    },
+    {
+      "path": "game/tests/models.test.mjs",
+      "bytes": 5910,
+      "sha256": "4dfb13204b920b55a14d1fa0f7b029348fc1ed5ed916f46f5db5dcf84234567a"
+    },
+    {
+      "path": "game/tests/permission-browser.mjs",
+      "bytes": 4790,
+      "sha256": "c90eed628ed84093d5ece4ef17827f7cc805bd4c2d4dd98bf21a687635640e7c"
+    },
+    {
+      "path": "game/tests/permission-flow.mjs",
+      "bytes": 2801,
+      "sha256": "6815a9b0fdfb0aa1e50bfe52b2836154f747fc37102de483d6e315dc3ba2daf2"
+    },
+    {
+      "path": "game/tests/permissions.test.mjs",
+      "bytes": 3780,
+      "sha256": "e6e03b96f7d9a7971fbee82cacab6371822647a1941dbdc9504c2c7c2e17f0de"
+    },
+    {
+      "path": "game/tests/picking.mjs",
+      "bytes": 2671,
+      "sha256": "d124bc119b8d89178eca97b295529578bd9775c88688fae52003974b31c356f5"
+    },
+    {
+      "path": "game/tests/quality-memory-observation.mjs",
+      "bytes": 2722,
+      "sha256": "9ff7c1aa10f4a093ff59b509b98fd4f39c5913164a869a5321c2a75a09a71292"
+    },
+    {
+      "path": "game/tests/quality-pipeline.mjs",
+      "bytes": 5354,
+      "sha256": "c6e4f093f6f1f3fba7fa7400d60a621eea1a6d904c5f6b1a7388583fdb2e2a08"
+    },
+    {
+      "path": "game/tests/recovery.mjs",
+      "bytes": 4761,
+      "sha256": "a0b4527b4fc2216118a17f07e78232636791f111d5f9f88fc1e2d7153ebfab88"
+    },
+    {
+      "path": "game/tests/render-audit-invariants.mjs",
+      "bytes": 2913,
+      "sha256": "431a43c8676b59ba2041fbfecd65483d6ebbdb0490eb74707a102b8f0597486e"
+    },
+    {
+      "path": "game/tests/resources.test.mjs",
+      "bytes": 2823,
+      "sha256": "32bc671a92c46c63fd7bf6f4a0ade9f87d6617700139065131350e1246023487"
+    },
+    {
+      "path": "game/tests/retina-probe.mjs",
+      "bytes": 1979,
+      "sha256": "6282d70a9bc8f78fc9a12c88af1bbe0f418354c5564c2ec8b5c19bf14e4b758b"
+    },
+    {
+      "path": "game/tests/review-browser.mjs",
+      "bytes": 4398,
+      "sha256": "57bbf678914c74d0d5580b4bb3025151f0eef084075a788cc26d3e2e4e5b0e4c"
+    },
+    {
+      "path": "game/tests/review-flow.mjs",
+      "bytes": 2076,
+      "sha256": "3b7304b49160c1a0d9fd06a73f8e8f1cd86db70b24a254a8b43933006c12a8cf"
+    },
+    {
+      "path": "game/tests/review.test.mjs",
+      "bytes": 4451,
+      "sha256": "c85d66b0d2cdd5662f2904a6b0dbfea55f3a0f9a85f7bb2b4113bc7c9173ae8e"
+    },
+    {
+      "path": "game/tests/spatial.mjs",
+      "bytes": 2233,
+      "sha256": "16a4ef36595e553f3a72b359920b3adef36e2e2d2e6500b31d0eb6668c518e06"
+    },
+    {
+      "path": "game/tests/startup-compatibility.mjs",
+      "bytes": 4751,
+      "sha256": "48effa0d0f4f582ba99fb4539939d8550c420995d9457ebb41ee56c9c95002c9"
+    },
+    {
+      "path": "game/tests/startup-recovery.mjs",
+      "bytes": 4332,
+      "sha256": "09f28b9b3e124a42f8e6a57d15940b64d74f5ba381aea726fc98c7d6042cd1f7"
+    },
+    {
+      "path": "game/tests/steering-browser.mjs",
+      "bytes": 5465,
+      "sha256": "a75270fa407d4c21dde44cb1add0f0ebf60d776ea6ba0e2879833b42b505937f"
+    },
+    {
+      "path": "game/tests/steering-flow.mjs",
+      "bytes": 1773,
+      "sha256": "194bec8eff82413cb98a09cea7fd70c230d8d8a9e90d215631b82f819652610b"
+    },
+    {
+      "path": "game/tests/steering.test.mjs",
+      "bytes": 5184,
+      "sha256": "f16a0ce10b15c2517212371837a1a604aa37e1b5cfacda01036c7be86a8233cb"
+    },
+    {
+      "path": "game/tests/tools-browser.mjs",
+      "bytes": 4971,
+      "sha256": "5ae8fae3702e9740f0456ad50921289cfb506a326356d62439c51c08d5284816"
+    },
+    {
+      "path": "game/tests/tools-flow.mjs",
+      "bytes": 1855,
+      "sha256": "fad86a4e05c3e0335aaaa65a62aae874559dcdf77e8fe8f1b9631821315c465a"
+    },
+    {
+      "path": "game/tests/tools.test.mjs",
+      "bytes": 5375,
+      "sha256": "6a53fa41db5e1f3384e5aed0392ab3028557f664365add7f83cf15fb42390734"
+    },
+    {
+      "path": "game/tests/webkit-transport-probe.mjs",
+      "bytes": 1853,
+      "sha256": "541a7a4525b1e33cd92e74281d9a668481485536b19aed9802a4e28197599129"
+    },
+    {
+      "path": "game/tools/archive-exhibit-residency-checkpoint.py",
+      "bytes": 3842,
+      "sha256": "351a5c9c17086b9dd162465c28fd1f4e85ae1f33611e10d3a75523b0743054a3"
+    },
+    {
+      "path": "game/tools/archive-quality-pipeline-checkpoint.py",
+      "bytes": 3666,
+      "sha256": "6b917f0a61c9bd6e4528775e2f07d83814ac2594af6b344bd5e88957e1bf71c8"
+    },
+    {
+      "path": "game/tools/archive-traversal-checkpoint.py",
+      "bytes": 3658,
+      "sha256": "033e49c7460c5214b2bef9b53c95727e613ba49d04672fe94560f580296be6a9"
+    },
+    {
+      "path": "game/tools/archive-warm-factories-checkpoint.py",
+      "bytes": 4501,
+      "sha256": "d50bbce14a0f16338a96c6bb6ad22d1998b4a37629135eab6325511d4b7ef45d"
+    },
+    {
+      "path": "game/tools/assess-exhibit-residency.mjs",
+      "bytes": 3484,
+      "sha256": "9bf7d8b3c91b910f1b5b65bda15001bb3e34f60252d0713aa55ca62dba41892d"
+    },
+    {
+      "path": "game/tools/assess-traversal.mjs",
+      "bytes": 4318,
+      "sha256": "f34cc55ab4258cfd3491c760028723cd69acae7acab06b85b3c359a7903abac2"
+    },
+    {
+      "path": "game/tools/assess-warm-factories.mjs",
+      "bytes": 2744,
+      "sha256": "f4f06e399e0c8eb09df10ae9e95742ea56a2fe3a48826b54f817d1f7ee81cbdb"
+    },
+    {
+      "path": "game/tools/build-navigation.mjs",
+      "bytes": 2235,
+      "sha256": "5d39e7274ea901a82136f2d9448b52c58fad128736cc8152ac41516903365448"
+    },
+    {
+      "path": "game/tools/capture-floor-scenario.mjs",
+      "bytes": 3373,
+      "sha256": "ee86e56a37ea48e0a06c1089b42fd80517ecbeeb8a32875fc0abddf0c01a33ce"
+    },
+    {
+      "path": "game/tools/capture-floor-study.mjs",
+      "bytes": 2545,
+      "sha256": "7fd73389e99572547a8f70c2c501ac119190c6d1a23d3ecbc41c7dcdf2fb2817"
+    },
+    {
+      "path": "game/tools/capture-promenade-scenario.mjs",
+      "bytes": 3982,
+      "sha256": "2411aea09c475748a81cae88e72670a20160dc382770a9f743e081a8590c4f56"
+    },
+    {
+      "path": "game/tools/capture-startup-scenario.mjs",
+      "bytes": 7844,
+      "sha256": "fc934a1f428e3914cc5c7218cb032b0b78f6ae3a84a0f9703ad1e5c209f8a61b"
+    },
+    {
+      "path": "game/tools/capture-traversal-scenario.mjs",
+      "bytes": 10270,
+      "sha256": "63b7ad63f92ef47836eff5b35b697ffe27162e724b80d7f286c8213ad873e6cc"
+    },
+    {
+      "path": "game/tools/compare-marker-views.py",
+      "bytes": 2053,
+      "sha256": "32ff359eb205034d23bc31d6bbfb76ff691c115b7c962cbc09d8d33c1b6415dd"
+    },
+    {
+      "path": "game/tools/compress-headquarters.mjs",
+      "bytes": 6584,
+      "sha256": "e5be31b3179056467568fe436ecd278de04574ddbe40128151ffde196c8c9455"
+    },
+    {
+      "path": "game/tools/floor-study.mjs",
+      "bytes": 3338,
+      "sha256": "9b3b74fd7ab6899db86cdd4867002e2f410d2fbd7f368c8c36ebb3c78b309ed1"
+    },
+    {
+      "path": "game/tools/mascot-glyph-data.mjs",
+      "bytes": 886,
+      "sha256": "b37aa3c087d63d2d532da42760168b67d9ce27ccb6df9e40601e38940c5ca4b0"
+    },
+    {
+      "path": "game/tools/normalize-mascot.mjs",
+      "bytes": 2817,
+      "sha256": "00987ef065f19668002e8dbcbfe7c56f91a80f2095e84610f9354d046df0f8b4"
+    },
+    {
+      "path": "game/tools/pack-architecture.mjs",
+      "bytes": 2286,
+      "sha256": "7728d9f2c925f45ee8fc57de73f6651201210b756a96c0434ac810fc8067b6f3"
+    },
+    {
+      "path": "game/tools/validate-assets.mjs",
+      "bytes": 2053,
+      "sha256": "d4849e97e808bc5dbd0eaf945b7d99fa0cba9f26c887f13dd6ec21c67a07ac85"
+    },
+    {
+      "path": "game/tools/vendor-meshopt-decoder.mjs",
+      "bytes": 3476,
+      "sha256": "7071b2825916cff883df56d7704bfdb709e2a2b3317c7e4ffa021e9b9df6a8b5"
+    },
+    {
+      "path": "game/tools/verify-floor-retention.mjs",
+      "bytes": 2359,
+      "sha256": "dbac60273a4d67c828199369c6228bc8c528283ef42140ace3ca90956ee51aea"
+    },
+    {
+      "path": "game/tools/verify-mascot-attachment.mjs",
+      "bytes": 2686,
+      "sha256": "2913aa6a85cd1c78cfd73b9740894f7a041348ca421355eebeffe49d299f2257"
+    },
+    {
+      "path": "game/tools/verify-mascot-lod.mjs",
+      "bytes": 3788,
+      "sha256": "f3252a2cd9139d1d88bc914b7679bebb93d32a083edbb89af0177e33bae5ce09"
+    },
+    {
+      "path": "game/tools/verify-promenade.mjs",
+      "bytes": 3529,
+      "sha256": "bf9493db207b4d7e84498e3d0b98d82cfe9df04d9ce3f53833ee10b9a0e02f70"
+    },
+    {
+      "path": "production/AUTOMATION-TOWER.md",
+      "bytes": 6064,
+      "sha256": "884f8426eaa047bcc206fc80a18031361af95daf6c4f1f2149d81694e747c7e0"
+    },
+    {
+      "path": "production/CEDAR-CAPSTONE.md",
+      "bytes": 6950,
+      "sha256": "2070d5c6345c1db5905bf97566b2d3339b472c6b36b7d69acc7814ab4ed422dd"
+    },
+    {
+      "path": "production/DEFECTS.md",
+      "bytes": 18920,
+      "sha256": "56d6fc0de9de5774c894360d2d8a9f56c7e769912c0db1586c2960fb442fad6e"
+    },
+    {
+      "path": "production/EXECUTION-CONTRACT.md",
+      "bytes": 1789,
+      "sha256": "bcf827dd5c8a37bccc026418937defeb77493435a1e42a8fc354c5fbf720f64d"
+    },
+    {
+      "path": "production/EXHIBIT-RESIDENCY.md",
+      "bytes": 9169,
+      "sha256": "176368b0a84ff049639c8a1ac2c3a724f743ab1ff6e3f80597e9ff33d407ee66"
+    },
+    {
+      "path": "production/HANDOFF-DOCK.md",
+      "bytes": 4631,
+      "sha256": "9e1da6b31ae268812f0b4782a671578f0fb4fa8fc76adc4720147298c9d80216"
+    },
+    {
+      "path": "production/MASCOT-DETAIL.md",
+      "bytes": 5437,
+      "sha256": "560c91421da61a473a3b7fa25074169fa59ab510127efa95ab1ea157fc0385d7"
+    },
+    {
+      "path": "production/MASCOT-PRODUCTION.md",
+      "bytes": 5613,
+      "sha256": "ec5f541549562e5f601e797b3c06ee959f82d3db1c8815f1e218ce9f4445a532"
+    },
+    {
+      "path": "production/MODEL-WORKSHOP.md",
+      "bytes": 5480,
+      "sha256": "ac9f4ce5eaf7e07362cce422a3ee7d60b4ce781980b7991567610b583f6a9dbb"
+    },
+    {
+      "path": "production/PERMISSION-WORKSHOP.md",
+      "bytes": 6177,
+      "sha256": "af2ec55e4ca6e20ed971da737de0c9e8ebead49eb789e20074895257ed43479c"
+    },
+    {
+      "path": "production/PROMENADE-CAMERA.md",
+      "bytes": 4687,
+      "sha256": "87bb0840d89097c6f35defb849e3e2f7b4ad028111109d0e6e1de5fa9f552265"
+    },
+    {
+      "path": "production/QUALITY-PIPELINE.md",
+      "bytes": 6042,
+      "sha256": "1a1bb118277574673f90daf31035ac8cae3bc6e5ab75077c11791d79073b7dd7"
+    },
+    {
+      "path": "production/RENDERING-PERFORMANCE.md",
+      "bytes": 11986,
+      "sha256": "6708024741d02c8227f3f3c7838fbb7c920aa1f717f944cdf8333b0017e15c15"
+    },
+    {
+      "path": "production/REVIEW-BENCH.md",
+      "bytes": 6830,
+      "sha256": "5754ca7e9f2a0ede678203472eb55b7ae3603a26c73fca7c3998c41fe9384340"
+    },
+    {
+      "path": "production/STARTUP-DELIVERY.md",
+      "bytes": 8449,
+      "sha256": "0426a2c0b50d01fa231f04ded600ddbc430c24dcf974bb072f61a3242302e528"
+    },
+    {
+      "path": "production/STATUS.md",
+      "bytes": 71849,
+      "sha256": "864db8177251a20c539fe84cd45ce8c45af8bedab08645002f2ac8517d76c136"
+    },
+    {
+      "path": "production/STEERING-STATION.md",
+      "bytes": 7071,
+      "sha256": "54027786f77b3bc20ea8c3936ee3f7efe65a3ad856d7434ef4d3a3214b9bbe6f"
+    },
+    {
+      "path": "production/TOOL-WORKSHOP.md",
+      "bytes": 5850,
+      "sha256": "9ea6f94e5ea896129634eb1d1d19f1b805dbb034bc9f6f688a9a2d303b507697"
+    },
+    {
+      "path": "production/WARM-EXHIBIT-FACTORIES.md",
+      "bytes": 6016,
+      "sha256": "534331ec4a205cd57c9b2505aa0fb2196d0788140f38a24d91575f369bfad930"
+    },
+    {
+      "path": "production/fixtures/context-screen.json",
+      "bytes": 941,
+      "sha256": "38e5126073350994d4ccbb4b72c3f4d683c8100a4a9fc297b6ef00e3bded7c78"
+    },
+    {
+      "path": "production/mascot-revision.json",
+      "bytes": 2410,
+      "sha256": "390ceb18b848b50ceb47b74cdfa9ea2fb211284cd47eac792cad02c3709e7000"
+    },
+    {
+      "path": "production/rooms/architecture-revision.json",
+      "bytes": 3673,
+      "sha256": "bfed792f98ef2008a28456095d0d742f8fa29c9c97957d1a1402814fb96ec057"
+    },
+    {
+      "path": "production/rooms/final-report.json",
+      "bytes": 975,
+      "sha256": "cced779ed9795ac76ce94cd5c1595457b21db689b183dcc094dabf7d518d0e22"
+    },
+    {
+      "path": "production/rooms/milestone-reviews.json",
+      "bytes": 1281,
+      "sha256": "11b2213e9f73f7f8ad220b04128b5b6fb3c721b910acc0c9af8ab6a29b222cf9"
+    },
+    {
+      "path": "production/rooms/openings.json",
+      "bytes": 4362,
+      "sha256": "75bcddceb384c968cd920ec3d21fd267900e55e77ef8f9a781906987d6843ddf"
+    },
+    {
+      "path": "production/rooms/plan-metadata.json",
+      "bytes": 18186,
+      "sha256": "79105d2ae45ddc644e11fd51b7ed3fa55d3210cd940430fe645c225cc99a741d"
+    },
+    {
+      "path": "production/rooms/plans/clear-promenade-v3/lower-room.png",
+      "bytes": 949401,
+      "sha256": "1d84c9f9bd53855870fda5c97353e17cfbe9cdf27c0bd40be45b343d26e09540"
+    },
+    {
+      "path": "production/rooms/plans/clear-promenade-v3/reflected-ceiling.png",
+      "bytes": 967611,
+      "sha256": "8ec4051f4b84c5495e0b24b3ff4c2c2f864c8d6892ad487d7c1c161dd2d8dada"
+    },
+    {
+      "path": "production/rooms/plans/inlays-v2/lower-room.png",
+      "bytes": 948781,
+      "sha256": "528d8daf4aa489f9855ade3f3fb5463f4004c91c4920c3a16d274e0f3e0e06d1"
+    },
+    {
+      "path": "production/rooms/plans/inlays-v2/reflected-ceiling.png",
+      "bytes": 967612,
+      "sha256": "05e1b8b8c9e1dd0111b40b5a311d6895a6b0a1e4590d70aa8a735ad0efa6a032"
+    },
+    {
+      "path": "production/rooms/plans/lower-room.png",
+      "bytes": 945410,
+      "sha256": "72dc836dc770a294e5ece76acaf2c0eedb4a67f1c5da741ea573b028079632b0"
+    },
+    {
+      "path": "production/rooms/plans/reflected-ceiling.png",
+      "bytes": 967478,
+      "sha256": "d8c1c9ef37b19795116c352bed6de646995fa54d5b6bbc0da7ca500497e6b540"
+    },
+    {
+      "path": "production/rooms/props.json",
+      "bytes": 358,
+      "sha256": "cfd9fe6857a2738133160219f4a77ee44f33c8a7759a437e34dc2b9181608b95"
+    },
+    {
+      "path": "production/rooms/revisions/room-layout-before-inlays.json",
+      "bytes": 221359,
+      "sha256": "de93c3321afee9627fb66cb4bc8eee4bd7ba90c9c1cd76984d5fe8386c96ba26"
+    },
+    {
+      "path": "production/rooms/room-brief.json",
+      "bytes": 2255,
+      "sha256": "76f2c2ac8fb2bd12b0994bebfb1f51f701a3a6874698c0dd794bd645c5331ab7"
+    },
+    {
+      "path": "production/rooms/room-layout.json",
+      "bytes": 195434,
+      "sha256": "1d0b410d12eaba297ec6eb26e6ef777f3b0e8e191154c689d464777555610459"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/agent-approvals-security.md",
+      "bytes": 34367,
+      "sha256": "ddd3bca26b1055d60fdd0785440ff72583b51458cd76b72081217075bd83c111"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/agent-configuration--agents-md.md",
+      "bytes": 9150,
+      "sha256": "4a81af9eeb7597184d295ff7f142478855b0b09100d8b75c2ae1058b3dd3203f"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/agent-configuration--subagents.md",
+      "bytes": 22085,
+      "sha256": "cbc0a4581edd97d9e1d85697fd8431f8823facb77757c76f88a97179c7335fd7"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/app-server.md",
+      "bytes": 99471,
+      "sha256": "b62e81cee0ccd2ca60bed1083af110189d4b7b1369107da812a19572096a41d0"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/appshots.md",
+      "bytes": 3353,
+      "sha256": "0115fae6f95c7ba6afc1d7082bbf0a82b68cddecf7b79e2366cdcd53cd736d53"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/artifacts-viewer.md",
+      "bytes": 4267,
+      "sha256": "f76869a39ad7174dcd3b452c721beef26bfb37251bf4d34122f0c439964faa37"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/automations.md",
+      "bytes": 18049,
+      "sha256": "8171600358a44ed6dca27b61117084328503a1ec340beea771ac5b64d916d12e"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/browser.md",
+      "bytes": 15824,
+      "sha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/build-skills.md",
+      "bytes": 10926,
+      "sha256": "4093dba843bd333cdfe25df52cd36828b51d1a4199fdb2fcf2be1b7913063775"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/cli.md",
+      "bytes": 6669,
+      "sha256": "324d08847b3bd00152e0df871dec97749fcd21613298acc299f0f3e3dfc36662"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/cloud.md",
+      "bytes": 4175,
+      "sha256": "65980043d1b2a4bbcee8ad21d106d5a9a27678a0a71025a74eba8ed5cd2e2e46"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/code-review.md",
+      "bytes": 8958,
+      "sha256": "eab97281e02140eea76cb67aa81c23d34dee30cdf14605aa2d1c23dd020c2968"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/codex-sdk.md",
+      "bytes": 4561,
+      "sha256": "2fd124fd4db1c6d9f8ac5e050f109c4d05b4008f7c9513c38da806716a4c9a05"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/computer-use.md",
+      "bytes": 10625,
+      "sha256": "0087752b68274730b1757bc94ebb56581057e843120887bbf37800e099c188ca"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/config-file--config-basic.md",
+      "bytes": 11674,
+      "sha256": "68f9a4614003f8db8e2b9469db7a375663a4a5f08c7cf8ef89a9d7d68f3f2668"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/customization--memories.md",
+      "bytes": 5713,
+      "sha256": "2036fdd568b9982e1760a0060618145642ce49662772985e916ab318b2b74391"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/environments--git-worktrees.md",
+      "bytes": 12837,
+      "sha256": "d163fcbf82ca40859a5d317060f302cb4c45c57e12aba8a2bce75d85de4b5c6c"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/extend--mcp.md",
+      "bytes": 20180,
+      "sha256": "4b762127ba873b980f295c043d157e95400e92aba021d625db23d43c4b0f6ec4"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/features.md",
+      "bytes": 6174,
+      "sha256": "5a2667ce9308f2dc212bda3a0a4d5cdf2bcecc37f7ab77801113cfe1fec28ca7"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/hooks.md",
+      "bytes": 45548,
+      "sha256": "d3ae147940e824fd6c92aa020b893cb39f22e9ad404859d22d2b95f33c24ae1e"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/ide.md",
+      "bytes": 4407,
+      "sha256": "ffcb6485938f706bad76ad6a1a1e0ab84fc30212208fc984ac0cdd97f858d907"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/image-generation.md",
+      "bytes": 8864,
+      "sha256": "46295d6599436d99a16cbe6c94240f6e93e005c7a9cdda92c9fd0d495f19b88b"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/image-inputs.md",
+      "bytes": 2296,
+      "sha256": "4ab13465b69d8e33fd1aa0481d8de1920aedc46a5a3cb0cd857c8957283e01de"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/long-running-work.md",
+      "bytes": 6517,
+      "sha256": "b82c9a303d40c78a709b78419db9ff4e311e95fb098021149e218c1038670fec"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/manifest.json",
+      "bytes": 10892,
+      "sha256": "e60f763a751f4d41413e9468817fc76c12442cfa8d8c623ba30721bc16df47f4"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/models.md",
+      "bytes": 19008,
+      "sha256": "6edfa6f0c45fc0cb4d63b06f09404e448dcbf1bf9cc909b71f81e27352544522"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/notifications.md",
+      "bytes": 3166,
+      "sha256": "1127449063b442e36829599f7932eff0a3e90ec648f0ced050a56b6a0cda8957"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/plugins.md",
+      "bytes": 12934,
+      "sha256": "443e2250ec11e193fd307969c3da13e2e32dad3fe83689745bb215659eeaaf34"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/pricing.md",
+      "bytes": 46945,
+      "sha256": "716bbbbcff0d59edcf42e60decb8f472e0c3842dbf116bc9e082d3ff6cf8550f"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/projects.md",
+      "bytes": 13002,
+      "sha256": "45434e931cf437ea3580da7a9e1253aa4989e8a2bbf8f42ddd5ac851a6c7ae36"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/reference--commands.md",
+      "bytes": 26567,
+      "sha256": "d061b78e320212bea5dcf747e5b8b28b773e2ebe952f6679277bb902b9e46b53"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/reference--slash-commands.md",
+      "bytes": 4553,
+      "sha256": "cd3e8f02f889f63d3e68b9ce8a539f63032796616fefc2021bbd85ed2ab0430d"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/reference--troubleshooting.md",
+      "bytes": 6062,
+      "sha256": "f081cd8867de652c0bcd189461c1e5c60075e7203517f05670fc4c953318b24d"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/remote.md",
+      "bytes": 3194,
+      "sha256": "f66dfd08d0d185f586030b728bd18eadfc2abf0346fe37991113ccda8bf18720"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/sites.md",
+      "bytes": 21054,
+      "sha256": "7a7625a6528474e6708284878f3eaed471e4b1138a71dadffca1dff7612a72f9"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/visualizations.md",
+      "bytes": 6624,
+      "sha256": "350ec92e6799d112ba33b4a2b625831ddb30de3b4be9f8732f6e629c02917237"
+    },
+    {
+      "path": "production/sources/atlas-2026-09-10/web-search.md",
+      "bytes": 3514,
+      "sha256": "06cdc532ac8c4e520b36f4cc6cba79b3b0e180f5f992dfc9e395e10cfa93a6e4"
+    },
+    {
+      "path": "production/sources/automation-2026-09-10/manifest.json",
+      "bytes": 279,
+      "sha256": "aaf14f49cffb77977efd2d055d5ef2c3f82cb12e9a0a066a608bcd7631b37a0e"
+    },
+    {
+      "path": "production/sources/automation-2026-09-10/scheduled-tasks.md",
+      "bytes": 18049,
+      "sha256": "8171600358a44ed6dca27b61117084328503a1ec340beea771ac5b64d916d12e"
+    },
+    {
+      "path": "production/sources/capstone-2026-09-10/manifest.json",
+      "bytes": 999,
+      "sha256": "bea02572ec801f58248412e2dcc1c52eded7f9588e04dc36c6b5152f6a70a76d"
+    },
+    {
+      "path": "production/sources/handoff-2026-09-10/browser.md",
+      "bytes": 15824,
+      "sha256": "e38d702e6ea053763d2b5c4c4f2264a651ef31dd0b27dc74d4b7f7e1cd70fe34"
+    },
+    {
+      "path": "production/sources/handoff-2026-09-10/manifest.json",
+      "bytes": 429,
+      "sha256": "d07c089b381cdf929d4b1fe4b0b4f8753e521064ee7bda4ac14575cc7395ad3f"
+    },
+    {
+      "path": "production/sources/model-workshop-2026-09-10/manifest.json",
+      "bytes": 253,
+      "sha256": "0c159b3ec99b32cdf4558eac1f6325a3ac99efe67e409df0a736478e0a46b9e0"
+    },
+    {
+      "path": "production/sources/model-workshop-2026-09-10/models.md",
+      "bytes": 19007,
+      "sha256": "f4ffe196ccff81a40e1ff1f80d97ddd0c9523bb01b1716f1bd5a8aa4836bda23"
+    },
+    {
+      "path": "production/sources/permissions-2026-09-10/agent-approvals-security.md",
+      "bytes": 34366,
+      "sha256": "ebf01378a4ea6fd7bec516ecb99b472e35112e958f1b3995498f8541b4d45e05"
+    },
+    {
+      "path": "production/sources/permissions-2026-09-10/manifest.json",
+      "bytes": 479,
+      "sha256": "1a127f60bb4afdc515043cb03a2878eb13f1c72c159dfea3a37448007aa44fe4"
+    },
+    {
+      "path": "production/sources/permissions-2026-09-10/permissions.md",
+      "bytes": 36813,
+      "sha256": "a4ef92666fcff0fceb7ab5332588585d3b4958909263e5576bf54dd14acf022e"
+    },
+    {
+      "path": "production/sources/review-2026-09-10/code-review.md",
+      "bytes": 8958,
+      "sha256": "eab97281e02140eea76cb67aa81c23d34dee30cdf14605aa2d1c23dd020c2968"
+    },
+    {
+      "path": "production/sources/review-2026-09-10/manifest.json",
+      "bytes": 530,
+      "sha256": "f38969907d34507f6075fe6d63a7f98c8d67bb8d051cc674acf04348c6b80bcf"
+    },
+    {
+      "path": "production/sources/steering-2026-09-10/manifest.json",
+      "bytes": 420,
+      "sha256": "4774e0fcfbe4daa2d8ad966cfd7643cd320cc0cbf025f72754a189ab5bb96f97"
+    },
+    {
+      "path": "production/sources/steering-2026-09-10/prompting.md",
+      "bytes": 1036,
+      "sha256": "d98b5e396ccb9c6bf552d690d0119e3379654339e4810f9e348ac6cb94040e93"
+    },
+    {
+      "path": "production/sources/tools-2026-09-10/manifest.json",
+      "bytes": 507,
+      "sha256": "9206d71b47379e1c6df86782887df52a4b1941cb4f181a17e24a93a8d0367ea2"
+    },
+    {
+      "path": "production/sources/tools-2026-09-10/overview.md",
+      "bytes": 9483,
+      "sha256": "d683a7472f5ac3a92652928491e75e731fa13591e7675d4aed5676a560fc1e28"
+    },
+    {
+      "path": "production/sources/tools-2026-09-10/skills.md",
+      "bytes": 10926,
+      "sha256": "4093dba843bd333cdfe25df52cd36828b51d1a4199fdb2fcf2be1b7913063775"
+    },
+    {
+      "path": "production/sources/worktrees-2026-09-10.md",
+      "bytes": 12837,
+      "sha256": "d163fcbf82ca40859a5d317060f302cb4c45c57e12aba8a2bce75d85de4b5c6c"
+    }
+  ],
+  "fullReleaseAccepted": false
+}

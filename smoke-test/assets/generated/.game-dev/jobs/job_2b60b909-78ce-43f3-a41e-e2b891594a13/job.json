@@ -1,0 +1,54 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_2b60b909-78ce-43f3-a41e-e2b891594a13",
+  "operation": "package.build",
+  "status": "failed",
+  "request": {
+    "positionals": [
+      "package",
+      "build",
+      "public/diagnostic-scene.glb"
+    ],
+    "flags": {
+      "name": "Codex Pipeline Diagnostic Fixture",
+      "version": "0.1.0",
+      "output-dir": "assets/generated"
+    },
+    "input": {
+      "description": "Private procedural diagnostic fixture: textured PBR mesh, armature animation, and browser import test. Not approved game art.",
+      "category": "prop",
+      "license": "LicenseRef-Private-Smoke-Test",
+      "provenance": {
+        "notes": "Created locally by scripts/build-scene.py for Mark's explicitly authorized smoke test. No third-party generated geometry. All rights reserved; no public license grant.",
+        "origin": "authored",
+        "author": "[redacted]",
+        "sourceUri": "scripts/build-scene.py",
+        "prompt": "Create a small Blender scene, render it, export a textured and animated GLB, and verify it in the browser."
+      },
+      "policy": {
+        "requireUVs": true,
+        "requireNormals": true,
+        "requireTangentsWithNormalMap": true,
+        "requireBaseColorTexture": true,
+        "maxTriangles": 100000,
+        "maxMaterials": 12,
+        "minTextureSize": 128,
+        "requirePowerOfTwoTextures": true,
+        "maxDimensionMeters": 10,
+        "minDimensionMeters": 0.001
+      }
+    }
+  },
+  "attempts": 1,
+  "eventCount": 1,
+  "artifacts": [],
+  "createdAt": "2026-09-10T02:20:13.495Z",
+  "updatedAt": "2026-09-10T02:20:13.516Z",
+  "startedAt": "2026-09-10T02:20:13.504Z",
+  "completedAt": "2026-09-10T02:20:13.516Z",
+  "error": {
+    "error": "INVALID_INPUT",
+    "message": "unsupported asset category: prop",
+    "retryable": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "archive": "releases/checkpoints/static-shadow-v1-source.zip",
+  "bytes": 77362323,
+  "sha256": "afa5d6347443ddf05e840a740750857bc0b7e126eef3248a3760049e325935dd",
+  "filesVerified": 257,
+  "base": "architecture-detail-v1-source.zip plus its complete base chain",
+  "baseSha256": "23d8735f21697761e34c8dc7a30d4cd9ff99d34a5339e8887f7772054579d194",
+  "buildId": "f3fb1123b9a8f40c4cc68f51e836d06208cdb0cd1cfd5c868e587f3b83251e8f",
+  "fullReleaseAccepted": false
+}

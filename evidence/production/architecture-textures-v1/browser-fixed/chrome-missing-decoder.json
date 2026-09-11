@@ -1,0 +1,9 @@
+{
+  "engine": "chrome",
+  "version": "153.0.8010.36",
+  "fixture": "missing-decoder",
+  "pass": false,
+  "error": "AssertionError [ERR_ASSERTION]: Texture workers must be terminated after commit or fallback\n\n1 !== 0\n",
+  "errors": [],
+  "external": []
+}

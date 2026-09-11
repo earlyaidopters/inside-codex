@@ -1,0 +1,259 @@
+{
+  "date": "2026-09-10T16:15:08.250Z",
+  "pass": true,
+  "buildId": "f3fb1123b9a8f40c4cc68f51e836d06208cdb0cd1cfd5c868e587f3b83251e8f",
+  "goalStatus": "met",
+  "goal": {
+    "baseline": "run_1789055124040_6f1ea059020d48769aece615e081fed0",
+    "baselineDraws": 207,
+    "evaluatedCandidate": "run_1789055592857_f5f13120ee674acdb82cf27abf754252",
+    "evaluatedBuild": "44c1bb1e5f307a819496ee0dcc3b0357e17ae194401fba14db8b2c0667c6eedd",
+    "candidateDraws": 179,
+    "iterations": 1
+  },
+  "qualification": [
+    {
+      "quality": "high",
+      "runId": "run_1789056111878_6fa8386b286841808c4641ea2157eb8b",
+      "medianMs": 16.69999999999709,
+      "p95Ms": 16.79999999998836,
+      "p99Ms": 16.80000000000291,
+      "maxMs": 16.80000000000291,
+      "intervalsOver100ms": 0,
+      "maxActiveTriangles": 312762,
+      "maxMainDrawCalls": 154,
+      "maxTotalDrawCalls": 179,
+      "maxTextureEstimateBytes": 342293124,
+      "heldRenderFrames": 0,
+      "maxViewHoldMs": 0,
+      "totalViewHoldMs": 0,
+      "additionalGeometryBufferBytes": 6846672
+    },
+    {
+      "quality": "balanced",
+      "runId": "run_1789056229110_e4c9787c1d7f433987c91c66bf007424",
+      "medianMs": 16.69999999999709,
+      "p95Ms": 16.70000000001164,
+      "p99Ms": 16.80000000000291,
+      "maxMs": 16.80000000000291,
+      "intervalsOver100ms": 0,
+      "maxActiveTriangles": 206848,
+      "maxMainDrawCalls": 139,
+      "maxTotalDrawCalls": 160,
+      "maxTextureEstimateBytes": 127126103.19999999,
+      "heldRenderFrames": 0,
+      "maxViewHoldMs": 0,
+      "totalViewHoldMs": 0,
+      "additionalGeometryBufferBytes": 5784480
+    }
+  ],
+  "startup": [
+    {
+      "quality": "high",
+      "runId": "run_1789056345379_b810e869a0ae4a4dadd31fdec0d08de4",
+      "bytes": 6448150,
+      "readyMs": 4385.399999976158,
+      "profileRevision": 2
+    },
+    {
+      "quality": "balanced",
+      "runId": "run_1789056357253_a05915645a6643e9bf5468d86934c951",
+      "bytes": 6725992,
+      "readyMs": 4467.899999976158,
+      "profileRevision": 2
+    }
+  ],
+  "checks": {
+    "unit": 76,
+    "journey": 37,
+    "contextRestore": true,
+    "normalEngines": 3,
+    "noUintCapabilityFixture": true,
+    "pixelIdenticalViews": 10
+  },
+  "views": [
+    {
+      "quality": "high",
+      "name": "arrival",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 261,
+      "afterDraws": 233,
+      "activeTriangles": 323760,
+      "allPassTriangles": 583152
+    },
+    {
+      "quality": "high",
+      "name": "control",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 124,
+      "afterDraws": 96,
+      "activeTriangles": 276602,
+      "allPassTriangles": 535994
+    },
+    {
+      "quality": "high",
+      "name": "tasks",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 130,
+      "afterDraws": 102,
+      "activeTriangles": 263478,
+      "allPassTriangles": 522870
+    },
+    {
+      "quality": "high",
+      "name": "tools",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 126,
+      "afterDraws": 98,
+      "activeTriangles": 251340,
+      "allPassTriangles": 510732
+    },
+    {
+      "quality": "high",
+      "name": "handoff",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 136,
+      "afterDraws": 108,
+      "activeTriangles": 249120,
+      "allPassTriangles": 508512
+    },
+    {
+      "quality": "balanced",
+      "name": "arrival",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 137,
+      "afterDraws": 109,
+      "activeTriangles": 170074,
+      "allPassTriangles": 333654
+    },
+    {
+      "quality": "balanced",
+      "name": "control",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 114,
+      "afterDraws": 86,
+      "activeTriangles": 178500,
+      "allPassTriangles": 342080
+    },
+    {
+      "quality": "balanced",
+      "name": "tasks",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 105,
+      "afterDraws": 77,
+      "activeTriangles": 165920,
+      "allPassTriangles": 329500
+    },
+    {
+      "quality": "balanced",
+      "name": "tools",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 113,
+      "afterDraws": 85,
+      "activeTriangles": 153936,
+      "allPassTriangles": 317516
+    },
+    {
+      "quality": "balanced",
+      "name": "handoff",
+      "mean": 0,
+      "rms": 0,
+      "max": 0,
+      "identical": true,
+      "beforeDraws": 126,
+      "afterDraws": 98,
+      "activeTriangles": 153624,
+      "allPassTriangles": 317204
+    }
+  ],
+  "runs": [
+    {
+      "role": "baseline",
+      "id": "run_1789055124040_6f1ea059020d48769aece615e081fed0",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789055124040_6f1ea059020d48769aece615e081fed0"
+    },
+    {
+      "role": "candidate-high",
+      "id": "run_1789055592857_f5f13120ee674acdb82cf27abf754252",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789055592857_f5f13120ee674acdb82cf27abf754252"
+    },
+    {
+      "role": "qualified-balanced",
+      "id": "run_1789055747934_8381e326893a4426a56ffafe874b554c",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789055747934_8381e326893a4426a56ffafe874b554c"
+    },
+    {
+      "role": "final-high",
+      "id": "run_1789056111878_6fa8386b286841808c4641ea2157eb8b",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789056111878_6fa8386b286841808c4641ea2157eb8b"
+    },
+    {
+      "role": "final-balanced",
+      "id": "run_1789056229110_e4c9787c1d7f433987c91c66bf007424",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789056229110_e4c9787c1d7f433987c91c66bf007424"
+    },
+    {
+      "role": "startup-high",
+      "id": "run_1789056345379_b810e869a0ae4a4dadd31fdec0d08de4",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789056345379_b810e869a0ae4a4dadd31fdec0d08de4"
+    },
+    {
+      "role": "startup-balanced",
+      "id": "run_1789056357253_a05915645a6643e9bf5468d86934c951",
+      "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789056357253_a05915645a6643e9bf5468d86934c951"
+    }
+  ],
+  "postGoalRepair": "32-bit index capability guard added after the one evaluated candidate. Unsupported devices retain original draws. Final supported build separately qualified; the bounded goal was not reopened.",
+  "fullReleaseAccepted": false,
+  "limits": [
+    "Final captures are one traversal per tier, not the required final repeat study or audio-enabled soak.",
+    "Wide arrival remains 233 High / 109 Balanced total draws; the full scene draw budget is still open even though the High traversal goal passed.",
+    "Desktop synthetic startup and capability fixtures do not prove physical-device or hosted performance.",
+    "Additional buffer bytes are explicit position/normal/index payload, excluding driver/CPU/padding; texture inventory is not total native VRAM.",
+    "Full human/device claims remain unverified; the plan permits recording unavailable-device limits and does not make the recommended pilot an unconditional publication blocker."
+  ],
+  "evaluatedSourceRebuild": {
+    "pass": true,
+    "evaluatedBuildId": "44c1bb1e5f307a819496ee0dcc3b0357e17ae194401fba14db8b2c0667c6eedd",
+    "rawFilesMatched": 461,
+    "manifestMatchesAfterDependencyPathNormalization": true,
+    "filesCompared": 462,
+    "sourceOverlay": "source-evaluated/src",
+    "base": "architecture-detail-v1-source.zip and its full base chain",
+    "method": "Remove exact later capability guard; rebuild in separate temporary directory. All JS, assets and HTML match byte-for-byte. The manifest alone names the symlinked dependency directory relative to the temporary root; normalizing that prefix and top-level key order produces its exact captured hash. Current dist untouched.",
+    "manifestRawSha256": "6dd9629bd6e94d6e519bc12ff29a801faf80896d4f993b3a8e05bf88a2e1720b",
+    "manifestNormalizedSha256": "ee3561be2db39f9a19752cde9894dca84b21f4550d0b81a9d179e591cb4dec3d"
+  },
+  "bundle": {
+    "files": 462,
+    "bytes": 27916666,
+    "within120MBBudget": true
+  }
+}

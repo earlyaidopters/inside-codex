@@ -1,0 +1,60 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "package.verify",
+  "result": {
+    "schema": "game_dev.package_verification.v1",
+    "packagePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/packages/codex_guide/4.1.0",
+    "manifest": {
+      "assetId": "codex_guide",
+      "category": "character",
+      "description": "Locally authored Codex guide with source-traced glyph, corrected shell normals, portable skin roots, and twelve retained animation clips. Internal production asset; no independent redistribution license is asserted for the source logo.",
+      "displayName": "codex-guide",
+      "files": [
+        {
+          "bytes": 912504,
+          "kind": "model",
+          "path": "model.glb",
+          "sha256": "0a86839a32c6eae7366d62fa5d75c8959363aaf00c88e06f7a78a7053b61fa36"
+        },
+        {
+          "bytes": 1856,
+          "kind": "metadata",
+          "path": "metadata.json",
+          "sha256": "1420eacda0f300fbbb6f8ab65b066215cc3a894425ab0c8d370aa9136dfb53ea"
+        },
+        {
+          "bytes": 1054,
+          "kind": "provenance",
+          "path": "provenance.json",
+          "sha256": "a1abe3d931a1885b3a75ff36396349356972587345cca885375c4bf48c9dd2c2"
+        },
+        {
+          "bytes": 2731,
+          "kind": "validation",
+          "path": "validation.json",
+          "sha256": "83cb20fe87133f68768045a53d3b05f7e4f554412af0f1ab84c501c33a95ef28"
+        }
+      ],
+      "license": "unknown",
+      "model": "model.glb",
+      "packageId": "pkg_1d6131bee07ad21cdc029d8f",
+      "provenance": {
+        "origin": "authored"
+      },
+      "schema": "game_dev.asset_package.v1",
+      "validation": {
+        "errorCount": 0,
+        "passed": true,
+        "warningCount": 0
+      },
+      "version": "4.1.0"
+    },
+    "hashesVerified": true,
+    "evidence": {
+      "packageBytesVerified": true,
+      "gpuImportTestPerformed": false,
+      "humanVisualReviewPerformed": false
+    }
+  },
+  "completedAt": "2026-09-10T09:44:59.496Z"
+}

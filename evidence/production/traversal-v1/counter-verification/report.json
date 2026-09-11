@@ -1,0 +1,116 @@
+{
+  "pass": true,
+  "browser": "153.0.8010.36",
+  "rows": [
+    {
+      "quality": "high",
+      "mission": 0,
+      "audit": {
+        "frameId": 302,
+        "totalDrawCalls": 124,
+        "mainDrawCalls": 71,
+        "otherDrawCalls": 53,
+        "mainSubmittedTriangles": 276602,
+        "allPassSubmittedTriangles": 535994,
+        "cpuSceneMs": 1.0999999940395355
+      },
+      "actual": {
+        "draws": 124,
+        "frameId": 302
+      },
+      "unknownTextureFormats": 0
+    },
+    {
+      "quality": "high",
+      "mission": 4,
+      "audit": {
+        "frameId": 579,
+        "totalDrawCalls": 130,
+        "mainDrawCalls": 77,
+        "otherDrawCalls": 53,
+        "mainSubmittedTriangles": 263478,
+        "allPassSubmittedTriangles": 522870,
+        "cpuSceneMs": 1.5999999940395355
+      },
+      "actual": {
+        "draws": 130,
+        "frameId": 579
+      },
+      "unknownTextureFormats": 0
+    },
+    {
+      "quality": "high",
+      "mission": 8,
+      "audit": {
+        "frameId": 826,
+        "totalDrawCalls": 126,
+        "mainDrawCalls": 73,
+        "otherDrawCalls": 53,
+        "mainSubmittedTriangles": 251340,
+        "allPassSubmittedTriangles": 510732,
+        "cpuSceneMs": 0.9000000059604645
+      },
+      "actual": {
+        "draws": 126,
+        "frameId": 826
+      },
+      "unknownTextureFormats": 0
+    },
+    {
+      "quality": "balanced",
+      "mission": 0,
+      "audit": {
+        "frameId": 1180,
+        "totalDrawCalls": 120,
+        "mainDrawCalls": 71,
+        "otherDrawCalls": 49,
+        "mainSubmittedTriangles": 269306,
+        "allPassSubmittedTriangles": 521402,
+        "cpuSceneMs": 1.5999999940395355
+      },
+      "actual": {
+        "draws": 120,
+        "frameId": 1180
+      },
+      "unknownTextureFormats": 0
+    },
+    {
+      "quality": "balanced",
+      "mission": 4,
+      "audit": {
+        "frameId": 1457,
+        "totalDrawCalls": 126,
+        "mainDrawCalls": 77,
+        "otherDrawCalls": 49,
+        "mainSubmittedTriangles": 256182,
+        "allPassSubmittedTriangles": 508278,
+        "cpuSceneMs": 1.5999999940395355
+      },
+      "actual": {
+        "draws": 126,
+        "frameId": 1457
+      },
+      "unknownTextureFormats": 0
+    },
+    {
+      "quality": "balanced",
+      "mission": 8,
+      "audit": {
+        "frameId": 1704,
+        "totalDrawCalls": 122,
+        "mainDrawCalls": 73,
+        "otherDrawCalls": 49,
+        "mainSubmittedTriangles": 244044,
+        "allPassSubmittedTriangles": 496140,
+        "cpuSceneMs": 1.7999999970197678
+      },
+      "actual": {
+        "draws": 122,
+        "frameId": 1704
+      },
+      "unknownTextureFormats": 0
+    }
+  ],
+  "errors": [],
+  "scope": "Independent WebGL2 draw-call wrappers versus matching-frame Babylon counters in six settled views. The wrapper adds overhead; this is counter validation, not a timing run."
+}

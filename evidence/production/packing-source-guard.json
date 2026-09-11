@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "check": "Repeated architecture packing rejects a quantized input before altering source backup or runtime file",
+  "unchanged": {
+    "public/assets/headquarters/architecture.glb": "9a388b73caa769684df26e4b206e8c585f42df3ff7b2e7d45df03c005e5b7233",
+    "../art-source/headquarters-browser-unquantized.glb": "d464f51fe5a01a9b782fd3a38745dfd3a7c19a5f21777f63f54efa9806e6170b"
+  }
+}

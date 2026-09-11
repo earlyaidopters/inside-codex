@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "view": "candidate-compressed-balanced-arrival.png",
+      "meanAbsoluteChannel": 0.45390944626726615,
+      "rms": 0.9231270704097588,
+      "maxChannel": 27
+    },
+    {
+      "view": "candidate-compressed-balanced-control.png",
+      "meanAbsoluteChannel": 0.4642025661279216,
+      "rms": 0.9672453179435128,
+      "maxChannel": 38
+    },
+    {
+      "view": "candidate-compressed-balanced-handoff.png",
+      "meanAbsoluteChannel": 0.39037347591849964,
+      "rms": 0.8529876320993409,
+      "maxChannel": 65
+    },
+    {
+      "view": "candidate-compressed-balanced-tasks.png",
+      "meanAbsoluteChannel": 0.42031661400737236,
+      "rms": 0.9246294358894759,
+      "maxChannel": 31
+    },
+    {
+      "view": "candidate-compressed-balanced-tools.png",
+      "meanAbsoluteChannel": 0.4200588872686029,
+      "rms": 0.9015752777936736,
+      "maxChannel": 29
+    },
+    {
+      "view": "candidate-compressed-high-arrival.png",
+      "meanAbsoluteChannel": 0.8626878215020577,
+      "rms": 1.2832686221058633,
+      "maxChannel": 42
+    },
+    {
+      "view": "candidate-compressed-high-control.png",
+      "meanAbsoluteChannel": 0.5738529449588478,
+      "rms": 1.0773209524885246,
+      "maxChannel": 47
+    },
+    {
+      "view": "candidate-compressed-high-handoff.png",
+      "meanAbsoluteChannel": 0.5128830375514403,
+      "rms": 0.9858264782225161,
+      "maxChannel": 41
+    },
+    {
+      "view": "candidate-compressed-high-tasks.png",
+      "meanAbsoluteChannel": 0.5448903034979423,
+      "rms": 1.0511132766597375,
+      "maxChannel": 38
+    },
+    {
+      "view": "candidate-compressed-high-tools.png",
+      "meanAbsoluteChannel": 0.5520657150205762,
+      "rms": 1.0417744388693175,
+      "maxChannel": 39
+    }
+  ],
+  "scope": "Firefox BC1 against its own full-resolution JPEG fallback; renderer-specific comparison"
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_b54ef22d-1ffd-4fca-824a-f7d0b008f529",
+  "operation": "scenario.run",
+  "status": "approval_required",
+  "request": {
+    "positionals": [
+      "scenario",
+      "run",
+      "active-scenes"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "quality": "high"
+    }
+  },
+  "attempts": 1,
+  "eventCount": 1,
+  "artifacts": [],
+  "createdAt": "2026-09-10T17:03:39.766Z",
+  "updatedAt": "2026-09-10T17:03:39.792Z",
+  "startedAt": "2026-09-10T17:03:39.773Z",
+  "approval": {
+    "error": "APPROVAL_REQUIRED",
+    "message": "Scenario execution requires every capability-specific authorization listed below.",
+    "requiredFlags": [
+      "--confirm",
+      "--allow-gpu",
+      "--allow-performance"
+    ],
+    "plan": {
+      "schema": "game_dev.scenario_plan.v1",
+      "runId": "run_1789059819789_847d596f6dd14454906d6922fe25f5cd",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789059819789_847d596f6dd14454906d6922fe25f5cd",
+      "adapterId": "inside-codex",
+      "adapterVersion": "1.0.0",
+      "adapterManifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/adapter.json",
+      "adapterManifestSha256": "8b7656cd1da03d16ffed775138279cc0c42a1f541dea98e544a6a3ffb5f2b22f",
+      "scenarioId": "active-scenes",
+      "title": "Full learning journey render inventory including arrival and active outcomes",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-active-scenes.mjs",
+      "arguments": [
+        "high"
+      ],
+      "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "timeoutSeconds": 600,
+      "capabilities": [
+        "gpu",
+        "performance"
+      ],
+      "parameters": {
+        "quality": "high"
+      },
+      "output": {
+        "format": "game-dev-capture-v1",
+        "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789059819789_847d596f6dd14454906d6922fe25f5cd/capture.json"
+      },
+      "requiredAuthorizations": "[redacted]",
+      "evidenceCeiling": "This plan proves only resolved local configuration. It executes nothing and proves no build, GPU, pixel, performance, signing, or human-review result."
+    }
+  }
+}

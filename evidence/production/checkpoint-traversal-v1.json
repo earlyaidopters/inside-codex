@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/traversal-v1-tested.zip",
+  "bytes": 472679378,
+  "sha256": "65a89e7f86a13369d4195ed439e093d4a09d226accd735a146650563462c0ba5",
+  "files": 1945,
+  "distFiles": 320,
+  "allDistHashesVerified": true,
+  "zipIntegrityVerified": true,
+  "activeArchitectureRevisionHashesVerified": true,
+  "performanceReleaseAccepted": false,
+  "knownMemoryReleaseInvariantPass": false,
+  "scope": "Recoverable local marker/traversal production checkpoint with recorded open resource budgets. Not a hosted release or full quality acceptance."
+}

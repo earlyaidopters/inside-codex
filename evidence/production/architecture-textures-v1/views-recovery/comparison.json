@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "scope": "Final recovery code preserves previously inspected candidate views; originals remain lossy comparisons",
+  "rows": [
+    {
+      "view": "candidate-balanced-arrival.png",
+      "meanAbsoluteFromOriginal": 0.06487549114918784,
+      "maxFromOriginal": 20,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-balanced-control.png",
+      "meanAbsoluteFromOriginal": 0.07235994653056266,
+      "maxFromOriginal": 39,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-balanced-handoff.png",
+      "meanAbsoluteFromOriginal": 0.07379187426580791,
+      "maxFromOriginal": 28,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-balanced-tasks.png",
+      "meanAbsoluteFromOriginal": 0.08267256045692063,
+      "maxFromOriginal": 28,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-balanced-tools.png",
+      "meanAbsoluteFromOriginal": 0.07559140438287358,
+      "maxFromOriginal": 26,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-high-arrival.png",
+      "meanAbsoluteFromOriginal": 0.13110191615226338,
+      "maxFromOriginal": 36,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-high-control.png",
+      "meanAbsoluteFromOriginal": 0.08433487654320988,
+      "maxFromOriginal": 54,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-high-handoff.png",
+      "meanAbsoluteFromOriginal": 0.09231005658436214,
+      "maxFromOriginal": 40,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-high-tasks.png",
+      "meanAbsoluteFromOriginal": 0.10094675925925926,
+      "maxFromOriginal": 37,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    },
+    {
+      "view": "candidate-high-tools.png",
+      "meanAbsoluteFromOriginal": 0.09320550411522634,
+      "maxFromOriginal": 52,
+      "meanAbsoluteFromPriorCandidate": 0.0,
+      "maxFromPriorCandidate": 0
+    }
+  ]
+}

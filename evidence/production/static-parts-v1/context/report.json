@@ -1,0 +1,6180 @@
+{
+  "pass": true,
+  "before": {
+    "startup": {
+      "status": "complete",
+      "phase": "graphics-ready",
+      "elapsedMs": 5883,
+      "events": [
+        {
+          "kind": "phase-start",
+          "phase": "world-module",
+          "atMs": 0.1
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "world-module",
+          "atMs": 75.3
+        },
+        {
+          "kind": "phase-start",
+          "phase": "graphics-context",
+          "atMs": 76
+        },
+        {
+          "kind": "phase-start",
+          "phase": "scene-setup",
+          "atMs": 94.4
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture",
+          "atMs": 109.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture",
+          "atMs": 185
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture-detail",
+          "atMs": 185.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture-detail",
+          "atMs": 185.7
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture-textures",
+          "atMs": 185.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture-textures",
+          "atMs": 535
+        },
+        {
+          "kind": "phase-start",
+          "phase": "room-fixtures",
+          "atMs": 536.2
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "room-fixtures",
+          "atMs": 541.3
+        },
+        {
+          "kind": "phase-start",
+          "phase": "room-assembly",
+          "atMs": 541.3
+        },
+        {
+          "kind": "phase-start",
+          "phase": "guide",
+          "atMs": 589.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "guide",
+          "atMs": 634
+        },
+        {
+          "kind": "phase-start",
+          "phase": "scene-finalization",
+          "atMs": 634
+        },
+        {
+          "kind": "phase-start",
+          "phase": "render-audit",
+          "atMs": 690.5
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "render-audit",
+          "atMs": 693.8
+        },
+        {
+          "kind": "phase-start",
+          "phase": "exhibits",
+          "atMs": 694.5
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "exhibits",
+          "atMs": 760.1
+        },
+        {
+          "kind": "phase-start",
+          "phase": "environment",
+          "atMs": 760.1
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "environment",
+          "atMs": 760.1
+        },
+        {
+          "kind": "phase-start",
+          "phase": "graphics-ready",
+          "atMs": 760.2
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "graphics-ready",
+          "atMs": 1132.8
+        },
+        {
+          "kind": "complete",
+          "phase": "graphics-ready",
+          "atMs": 1133.4
+        }
+      ],
+      "failure": null
+    },
+    "ready": true,
+    "screen": "mission",
+    "mission": 0,
+    "stepIndex": 0,
+    "cedarLab": {
+      "section": "brief",
+      "inspecting": "brief",
+      "definition": {
+        "title": "",
+        "summary": "",
+        "period": "",
+        "deliverable": "",
+        "metrics": []
+      },
+      "sources": [],
+      "dataTool": false,
+      "fileTool": false,
+      "scope": "none",
+      "effort": "medium",
+      "procedure": "template",
+      "week": "first",
+      "revision": 1,
+      "outputs": {},
+      "checks": {},
+      "readbacks": {},
+      "failureSeen": false,
+      "schedule": {
+        "cadence": "daily",
+        "timezone": "UTC",
+        "alerts": "every",
+        "failure": "replace",
+        "runtime": "unattended"
+      },
+      "rehearsal": null,
+      "first": null,
+      "reviews": [],
+      "hints": 0,
+      "actions": [],
+      "message": "Cedar has supplied a brief and five files. Build a handoff that satisfies the brief. You choose the order of work."
+    },
+    "handoffLab": {
+      "section": "delivery",
+      "surface": "delivered",
+      "revision": 2,
+      "mode": "absolute",
+      "notes": "claim",
+      "selected": [
+        "page",
+        "brand",
+        "data"
+      ],
+      "package": null,
+      "localCheck": null,
+      "delivered": {
+        "id": 1,
+        "kind": "original",
+        "revision": 1,
+        "files": {
+          "index.html": "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Northstar — kickoff guide</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#f1eee3;color:#243f30;margin:0;padding:28px}main{max-width:540px;margin:auto}img{width:210px;max-width:100%;height:auto}h1{font-size:28px;line-height:1.15}dl{display:grid;grid-template-columns:1fr 1fr;gap:12px}dd{margin:0;font-weight:600}a{color:#244f3c}small{display:block;margin-top:25px}</style></head><body><main><img src=\"./assets/brand.svg\" alt=\"Northstar brand mark\"><h1>Your kickoff guide.</h1><p>Northstar Studio</p><dl><dt>Kickoff</dt><dd>Scheduled</dd><dt>File access</dt><dd>Requested</dd><dt>Approval owner</dt><dd data-owner=\"Nina Patel\">Nina Patel</dd></dl><p><a href=\"./onboarding.csv\" download>Download the onboarding checklist</a></p><small>Fictional training data. No client account or email connection.</small></main></body></html>\n",
+          "assets/brand.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"240\" height=\"64\" viewBox=\"0 0 240 64\"><rect width=\"240\" height=\"64\" rx=\"10\" fill=\"#254d3b\"/><path d=\"M31 10 36 26 53 31 36 36 31 53 26 36 10 31 26 26Z\" fill=\"#efe6cc\"/><text x=\"67\" y=\"40\" fill=\"#fff8e8\" font-family=\"sans-serif\" font-size=\"23\">Northstar</text></svg>",
+          "onboarding.csv": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "README.md": "# Use the Northstar guide\n\nServe the parent directory with `python3 -m http.server 8000`, then open http://127.0.0.1:8000/northstar/. Keep index.html, assets/brand.svg and onboarding.csv together. Verify the brand image, approval owner Nina Patel and CSV download from that exact route.\n\nRecovery: the separate recovery/northstar folder contains the earlier working release. Serve recovery as the root or restore its northstar folder, then check the same route again. Never replace the only working recovery copy with an unverified candidate.\n\nKnown limits: fictional static data; no authentication, email delivery or live source sync. The rehearsal checks file references and fixture content. Real-device, performance and production-host checks still need to be performed for any real deployment.\n"
+        }
+      },
+      "deliveredCheck": null,
+      "recovery": null,
+      "nextId": 2,
+      "failureSeen": false,
+      "rollbackVerified": false,
+      "actions": [],
+      "events": [],
+      "message": "A working guide is already delivered. Check that copy and preserve it before staging the candidate. Local checks alone cannot prove a delivered package works."
+    },
+    "automationLab": {
+      "section": "setup",
+      "now": 1789044900000,
+      "config": {
+        "prompt": "vague",
+        "cadence": "weekdays",
+        "hour": "9",
+        "timezone": "America/Toronto",
+        "destination": "same",
+        "notifications": "changes",
+        "onFailure": "report"
+      },
+      "revision": 1,
+      "testedVersion": null,
+      "enabled": false,
+      "host": true,
+      "source": "approved",
+      "baseline": null,
+      "lastFailure": null,
+      "runs": [],
+      "events": [],
+      "actions": [],
+      "nextId": 1,
+      "message": "The local brief is ready. Test a precise prompt before turning on the weekday schedule. The rehearsal clock starts Thursday at 08:55 Toronto time."
+    },
+    "toolLab": {
+      "section": "connect",
+      "package": "source",
+      "inspected": [],
+      "installed": null,
+      "scope": "training",
+      "connected": false,
+      "guidanceRead": false,
+      "skill": "example",
+      "loaded": [],
+      "client": "northstar",
+      "reads": {},
+      "outputs": {},
+      "revision": 1,
+      "failureSeen": false,
+      "actions": [],
+      "events": [],
+      "message": "Two client briefs are in a fictional document service. Inspect the plugin, connect its reading tool, then test the bundled procedure."
+    },
+    "contextLab": {
+      "read": [],
+      "selected": [],
+      "opened": "brief",
+      "authority": null,
+      "target": null,
+      "revision": 0,
+      "result": null,
+      "check": null,
+      "runs": 0,
+      "message": "Open the files. Build a context pack for the missing-field repair."
+    },
+    "modelLab": {
+      "job": "label",
+      "jobs": {
+        "label": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "billing": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "sheet": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        }
+      },
+      "message": "Choose a job and a setup. The actual training artifact will determine whether its check passes."
+    },
+    "permissionLab": {
+      "section": "source",
+      "profile": "workspace",
+      "approval": "never",
+      "network": false,
+      "connected": false,
+      "source": null,
+      "pending": false,
+      "draft": null,
+      "revision": 0,
+      "check": null,
+      "events": [
+        "file-denied"
+      ],
+      "message": "Local read denied: the training profile excludes /reference/northstar. Approval prompts are disabled; this does not grant access."
+    },
+    "reviewLab": {
+      "section": "diff",
+      "patch": {
+        "owner": false,
+        "files": false,
+        "title": false
+      },
+      "flags": [],
+      "revision": 0,
+      "inspected": null,
+      "runs": [],
+      "current": null,
+      "requests": [],
+      "message": "Proposed change: “Owner filled; heading corrected.” Inspect the saved patch and test that claim."
+    },
+    "steeringLab": {
+      "section": "work",
+      "messageKind": "french",
+      "active": {
+        "kind": "checklist",
+        "step": 0,
+        "run": 1
+      },
+      "language": "en",
+      "pending": [],
+      "queue": [],
+      "nextId": 1,
+      "nextRun": 2,
+      "checklist": null,
+      "draft": null,
+      "statusAsked": false,
+      "statusReport": null,
+      "steered": false,
+      "queuedEmail": false,
+      "emailAfterChecklist": false,
+      "events": [
+        "Run 1 started: prepare the onboarding checklist."
+      ],
+      "actions": [],
+      "message": "The checklist run is active. Work advances only when you press Next work step."
+    },
+    "selected": [],
+    "feedback": null,
+    "modal": null,
+    "branches": {
+      "mode": "shared",
+      "shared": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "files": {
+        "a": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        },
+        "b": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        }
+      },
+      "written": {
+        "a": false,
+        "b": false
+      },
+      "revision": {
+        "a": 0,
+        "b": 0,
+        "local": 0
+      },
+      "checks": {
+        "a": null,
+        "b": null,
+        "local": null
+      },
+      "reviewed": false,
+      "local": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "chosen": null,
+      "collision": false,
+      "events": [],
+      "message": "Two tasks are looking at one checkout. Apply their competing changes and inspect what each task sees."
+    },
+    "progress": {
+      "version": 1,
+      "completed": [],
+      "attempts": {},
+      "hints": {},
+      "capstone": [],
+      "lastMission": 0,
+      "workspace": {
+        "tasks": []
+      },
+      "settings": {
+        "muted": true,
+        "reduced": false,
+        "quality": "balanced",
+        "audio": {
+          "voice": 0.9,
+          "music": 0.22,
+          "ambience": 0.2,
+          "effects": 0.55
+        }
+      }
+    },
+    "world": {
+      "qualityAdvice": {
+        "quality": "balanced",
+        "status": "observing",
+        "windows": 0,
+        "lastWindow": null
+      },
+      "presented": {
+        "active": 0,
+        "transition": 0
+      },
+      "residency": {
+        "active": 0,
+        "ready": true,
+        "heldFrames": 3,
+        "holdingSince": null,
+        "events": [
+          {
+            "at": 719.1999999880791,
+            "kind": "load-start",
+            "id": "tool"
+          },
+          {
+            "at": 720,
+            "kind": "load-start",
+            "id": "steering"
+          },
+          {
+            "at": 720.3000000119209,
+            "kind": "load-start",
+            "id": "review"
+          },
+          {
+            "at": 720.9000000059605,
+            "kind": "load-start",
+            "id": "permission"
+          },
+          {
+            "at": 721.4000000059605,
+            "kind": "load-start",
+            "id": "branch"
+          },
+          {
+            "at": 743.5,
+            "kind": "load-ready",
+            "id": "tool",
+            "durationMs": 24.400000005960464
+          },
+          {
+            "at": 754.9000000059605,
+            "kind": "load-ready",
+            "id": "steering",
+            "durationMs": 34.900000005960464
+          },
+          {
+            "at": 763.9000000059605,
+            "kind": "load-ready",
+            "id": "review",
+            "durationMs": 43.599999994039536
+          },
+          {
+            "at": 776.0999999940395,
+            "kind": "load-ready",
+            "id": "permission",
+            "durationMs": 55.19999998807907
+          },
+          {
+            "at": 783.5999999940395,
+            "kind": "load-ready",
+            "id": "branch",
+            "durationMs": 62.19999998807907
+          },
+          {
+            "at": 1417.199999988079,
+            "kind": "load-start",
+            "id": "harness"
+          },
+          {
+            "at": 1417.699999988079,
+            "kind": "view-held"
+          },
+          {
+            "at": 1429.800000011921,
+            "kind": "load-ready",
+            "id": "harness",
+            "durationMs": 12.600000023841858
+          },
+          {
+            "at": 1439.699999988079,
+            "kind": "view-released",
+            "durationMs": 22
+          },
+          {
+            "at": 2533,
+            "kind": "load-start",
+            "id": "model"
+          },
+          {
+            "at": 2533.5,
+            "kind": "view-held"
+          },
+          {
+            "at": 2561.9000000059605,
+            "kind": "load-ready",
+            "id": "model",
+            "durationMs": 28.900000005960464
+          },
+          {
+            "at": 2562.4000000059605,
+            "kind": "view-released",
+            "durationMs": 28.900000005960464
+          },
+          {
+            "at": 2915.699999988079,
+            "kind": "load-start",
+            "id": "context"
+          },
+          {
+            "at": 2916.0999999940395,
+            "kind": "view-held"
+          },
+          {
+            "at": 2922.199999988079,
+            "kind": "load-ready",
+            "id": "context",
+            "durationMs": 6.5
+          },
+          {
+            "at": 2932.5,
+            "kind": "view-released",
+            "durationMs": 16.30000001192093
+          },
+          {
+            "at": 3216.699999988079,
+            "kind": "release",
+            "id": "tool"
+          },
+          {
+            "at": 3766.699999988079,
+            "kind": "release",
+            "id": "review"
+          },
+          {
+            "at": 4083.5,
+            "kind": "release",
+            "id": "steering"
+          },
+          {
+            "at": 4399.800000011921,
+            "kind": "release",
+            "id": "branch"
+          },
+          {
+            "at": 5199.699999988079,
+            "kind": "release",
+            "id": "permission"
+          }
+        ],
+        "entries": [
+          {
+            "id": "capstone",
+            "station": 11,
+            "enabled": false,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": false,
+            "pending": false,
+            "loads": 0,
+            "unloads": 0,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "handoff",
+            "station": 11,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": false,
+            "pending": false,
+            "loads": 0,
+            "unloads": 0,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "automation",
+            "station": 10,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": false,
+            "pending": false,
+            "loads": 0,
+            "unloads": 0,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "tool",
+            "station": 8,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "steering",
+            "station": 6,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "review",
+            "station": 7,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "permission",
+            "station": 3,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "model",
+            "station": 2,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 0,
+            "error": null,
+            "resources": {
+              "meshes": 18,
+              "materials": 14,
+              "textures": 8
+            }
+          },
+          {
+            "id": "context",
+            "station": 1,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 0,
+            "error": null,
+            "resources": {
+              "meshes": 14,
+              "materials": 9,
+              "textures": 7
+            }
+          },
+          {
+            "id": "branch",
+            "station": 5,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "harness",
+            "station": 0,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 0,
+            "error": null,
+            "resources": {
+              "meshes": 15,
+              "materials": 12,
+              "textures": 4
+            }
+          }
+        ]
+      },
+      "renderAudit": {
+        "lastFrame": {
+          "frameId": 291,
+          "totalDrawCalls": 81,
+          "mainDrawCalls": 60,
+          "otherDrawCalls": 21,
+          "mainSubmittedTriangles": 178500,
+          "allPassSubmittedTriangles": 342080,
+          "cpuSceneMs": 0.800000011920929
+        },
+        "activeMeshCount": 60,
+        "activeMeshTriangles": 178500,
+        "meshes": [
+          {
+            "id": 23,
+            "name": "Architecture exterior_primitive1",
+            "triangles": 6120,
+            "submeshes": 1
+          },
+          {
+            "id": 26,
+            "name": "Architecture exterior_primitive2",
+            "triangles": 6120,
+            "submeshes": 1
+          },
+          {
+            "id": 29,
+            "name": "Architecture exterior_primitive3",
+            "triangles": 10152,
+            "submeshes": 1
+          },
+          {
+            "id": 32,
+            "name": "Architecture exterior_primitive4",
+            "triangles": 12,
+            "submeshes": 1
+          },
+          {
+            "id": 36,
+            "name": "Architecture floor_primitive0",
+            "triangles": 188,
+            "submeshes": 1
+          },
+          {
+            "id": 43,
+            "name": "Architecture floor inlays_primitive0",
+            "triangles": 62,
+            "submeshes": 1
+          },
+          {
+            "id": 50,
+            "name": "Architecture furnishings_primitive0",
+            "triangles": 7170,
+            "submeshes": 1
+          },
+          {
+            "id": 53,
+            "name": "Architecture furnishings_primitive1",
+            "triangles": 7360,
+            "submeshes": 1
+          },
+          {
+            "id": 56,
+            "name": "Architecture furnishings_primitive2",
+            "triangles": 7892,
+            "submeshes": 1
+          },
+          {
+            "id": 59,
+            "name": "Architecture furnishings_primitive3",
+            "triangles": 14082,
+            "submeshes": 1
+          },
+          {
+            "id": 62,
+            "name": "Architecture furnishings_primitive4",
+            "triangles": 6120,
+            "submeshes": 1
+          },
+          {
+            "id": 65,
+            "name": "Architecture furnishings_primitive5",
+            "triangles": 9216,
+            "submeshes": 1
+          },
+          {
+            "id": 74,
+            "name": "Architecture furnishings_primitive8",
+            "triangles": 1322,
+            "submeshes": 1
+          },
+          {
+            "id": 77,
+            "name": "Architecture furnishings_primitive9",
+            "triangles": 5176,
+            "submeshes": 1
+          },
+          {
+            "id": 81,
+            "name": "Architecture shell_primitive0",
+            "triangles": 14918,
+            "submeshes": 1
+          },
+          {
+            "id": 84,
+            "name": "Architecture shell_primitive1",
+            "triangles": 22886,
+            "submeshes": 1
+          },
+          {
+            "id": 87,
+            "name": "Architecture shell_primitive2",
+            "triangles": 10548,
+            "submeshes": 1
+          },
+          {
+            "id": 90,
+            "name": "Architecture shell_primitive3",
+            "triangles": 376,
+            "submeshes": 1
+          },
+          {
+            "id": 105,
+            "name": "UNDERSTAND",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 109,
+            "name": "01  /  THE CODEX ECOSYSTEM",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 112,
+            "name": "Learning state 0",
+            "triangles": 1536,
+            "submeshes": 1
+          },
+          {
+            "id": 117,
+            "name": "01",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 120,
+            "name": "Learning state 1",
+            "triangles": 1536,
+            "submeshes": 1
+          },
+          {
+            "id": 242,
+            "name": "Codex logo core",
+            "triangles": 7164,
+            "submeshes": 1
+          },
+          {
+            "id": 250,
+            "name": "Left finger 0",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 254,
+            "name": "Left finger 1",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 257,
+            "name": "Left finger 2",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 260,
+            "name": "Left floating forearm",
+            "triangles": 1564,
+            "submeshes": 1
+          },
+          {
+            "id": 264,
+            "name": "Left palm",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 267,
+            "name": "Left thumb",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 270,
+            "name": "Left wrist",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 274,
+            "name": "Right finger 0",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 277,
+            "name": "Right finger 1",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 280,
+            "name": "Right finger 2",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 283,
+            "name": "Right floating forearm",
+            "triangles": 1564,
+            "submeshes": 1
+          },
+          {
+            "id": 286,
+            "name": "Right palm",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 289,
+            "name": "Right thumb",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 292,
+            "name": "Right wrist",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 295,
+            "name": "White prompt chevron",
+            "triangles": 572,
+            "submeshes": 1
+          },
+          {
+            "id": 298,
+            "name": "White prompt underscore",
+            "triangles": 356,
+            "submeshes": 1
+          },
+          {
+            "id": 927,
+            "name": "context retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 930,
+            "name": "context port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 934,
+            "name": "context caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 937,
+            "name": "model retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 940,
+            "name": "model port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 944,
+            "name": "model caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 947,
+            "name": "tools retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 950,
+            "name": "tools port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 954,
+            "name": "tools caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 957,
+            "name": "verify retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 960,
+            "name": "verify port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 964,
+            "name": "verify caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 974,
+            "name": "Batch: Harness circuits / Inactive circuit",
+            "triangles": 96,
+            "submeshes": 1
+          },
+          {
+            "id": 976,
+            "name": "Harness support",
+            "triangles": 64,
+            "submeshes": 1
+          },
+          {
+            "id": 1078,
+            "name": "Archive file brief",
+            "triangles": 12,
+            "submeshes": 1
+          },
+          {
+            "id": 1082,
+            "name": "Inspect source brief",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 1099,
+            "name": "Archive file agents",
+            "triangles": 12,
+            "submeshes": 1
+          },
+          {
+            "id": 1103,
+            "name": "Inspect source agents",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 1121,
+            "name": "Context draft and check status",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 1123,
+            "name": "Batch: Context rack / Archive brushed metal",
+            "triangles": 36,
+            "submeshes": 1
+          }
+        ],
+        "textures": [
+          {
+            "id": 1,
+            "names": [
+              "Late afternoon_shadowMap"
+            ],
+            "url": "",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 33554432,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 2,
+            "names": [],
+            "url": "",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 14,
+            "type": 0,
+            "source": 12,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 16777216,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 6,
+            "names": [
+              "data:EnvironmentBRDFTexture0"
+            ],
+            "url": "embedded",
+            "width": 256,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 1,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 524288,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 55,
+            "names": [
+              "/assets/studio.env"
+            ],
+            "url": "/assets/studio.env",
+            "width": 128,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 7,
+            "mipmaps": true,
+            "cube": true,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 1048560,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 56,
+            "names": [
+              "/assets/headquarters/compressed/floor-indirect.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 57,
+            "names": [
+              "/assets/headquarters/compressed/shell-albedo.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 58,
+            "names": [
+              "/assets/headquarters/compressed/floor-albedo.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 59,
+            "names": [
+              "/assets/headquarters/compressed/shell-indirect.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 60,
+            "names": [
+              "/assets/headquarters/compressed/furnishings-albedo.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 61,
+            "names": [
+              "/assets/headquarters/compressed/furnishings-indirect.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 62,
+            "names": [
+              "UNDERSTAND"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 63,
+            "names": [
+              "01  /  THE CODEX ECOSYSTEM"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 64,
+            "names": [
+              "01"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 65,
+            "names": [
+              "02"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 66,
+            "names": [
+              "03"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 67,
+            "names": [
+              "04"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 68,
+            "names": [
+              "DIRECT"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 69,
+            "names": [
+              "02  /  THE CODEX ECOSYSTEM"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 70,
+            "names": [
+              "05"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 71,
+            "names": [
+              "06"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 72,
+            "names": [
+              "07"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 73,
+            "names": [
+              "08"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 74,
+            "names": [
+              "REPEAT"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 75,
+            "names": [
+              "03  /  THE CODEX ECOSYSTEM"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 76,
+            "names": [
+              "09"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 77,
+            "names": [
+              "10"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 78,
+            "names": [
+              "11"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 79,
+            "names": [
+              "12"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 80,
+            "names": [
+              ""
+            ],
+            "url": "",
+            "width": 16,
+            "height": 1,
+            "depth": 0,
+            "format": 5,
+            "type": 1,
+            "source": 3,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 16,
+            "blockBytes": null,
+            "textureBytes": 256,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 113,
+            "names": [
+              "context caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 114,
+            "names": [
+              "model caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 115,
+            "names": [
+              "tools caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 116,
+            "names": [
+              "verify caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 117,
+            "names": [],
+            "url": "",
+            "width": 390,
+            "height": 438.88,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 1369305.6,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 118,
+            "names": [],
+            "url": "",
+            "width": 390,
+            "height": 438.88,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 1369305.6,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 119,
+            "names": [
+              "Route Fix a label text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 267,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 727980,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 120,
+            "names": [
+              "Route Trace a regression text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 267,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 727980,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 121,
+            "names": [
+              "Route Read a live sheet text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 267,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 727980,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 122,
+            "names": [
+              "Select Astra text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 123,
+            "names": [
+              "Select Sol text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 124,
+            "names": [
+              "Select Terra text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 125,
+            "names": [
+              "Select Luna text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 126,
+            "names": [
+              "Output check status text"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 129,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 703164,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 127,
+            "names": [
+              "Archive face brief"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 128,
+            "names": [
+              "Archive face sample"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 129,
+            "names": [
+              "Archive face image"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 130,
+            "names": [
+              "Archive face agents"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 131,
+            "names": [
+              "Archive face old"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 132,
+            "names": [
+              "Archive face note"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 133,
+            "names": [
+              "Context result ribbon"
+            ],
+            "url": "",
+            "width": 768,
+            "height": 112,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 344064,
+            "estimatedMultisampleColorBytes": 0
+          }
+        ],
+        "textureStorageBytes": 109610635.19999999,
+        "multisampleColorStorageBytes": 0,
+        "unknownTextureFormats": 0,
+        "limits": [
+          "Active mesh triangles count each camera-active mesh once, including triangles outside its visible pixels; not exact occlusion visibility.",
+          "Main draw phase is Babylon rendering-manager submission; total also includes shadow and finishing passes.",
+          "Texture storage is an allocation estimate; driver padding, default framebuffer, implicit depth/stencil renderbuffers, CPU decoded images, geometry and program memory are excluded.",
+          "Scene time is CPU-side elapsed browser time, not native GPU time."
+        ],
+        "finishing": {
+          "quality": "balanced",
+          "cameraSlots": 2,
+          "activeEffects": 2,
+          "registeredEffects": 0
+        }
+      },
+      "ready": true,
+      "renderSize": {
+        "width": 390,
+        "height": 844,
+        "cssWidth": 390,
+        "cssHeight": 844,
+        "dpr": 1
+      },
+      "lastPick": null,
+      "active": 0,
+      "quality": "balanced",
+      "paused": true,
+      "reduced": false,
+      "mascotDetail": {
+        "requested": "balanced",
+        "active": "balanced",
+        "loading": false,
+        "error": "",
+        "triangles": 18516,
+        "cached": [
+          "high",
+          "balanced"
+        ],
+        "meshIds": [
+          242,
+          250,
+          254,
+          257,
+          260,
+          264,
+          267,
+          270,
+          274,
+          277,
+          280,
+          283,
+          286,
+          289,
+          292,
+          295,
+          298
+        ],
+        "skeletonIds": [
+          245
+        ],
+        "pose": [
+          {
+            "name": "Core",
+            "matrix": [
+              0.9999061822891235,
+              -0.00006305057468125597,
+              -0.013696788810193539,
+              0,
+              0.0007583771948702633,
+              0.9987102746963501,
+              0.050766412168741226,
+              0,
+              0.013675922527909279,
+              -0.050772037357091904,
+              0.998616635799408,
+              0,
+              0,
+              1.7999999523162842,
+              0.01902330294251442,
+              1
+            ]
+          },
+          {
+            "name": "Left",
+            "matrix": [
+              -0.2607778012752533,
+              0.20768244564533234,
+              -0.9427953362464905,
+              0,
+              -0.9093098044395447,
+              0.2751859724521637,
+              0.3121347427368164,
+              0,
+              0.3242688477039337,
+              0.9386908411979675,
+              0.11708535254001617,
+              0,
+              -1.0302757024765015,
+              1.8515233993530273,
+              0.0057108160108327866,
+              1
+            ]
+          },
+          {
+            "name": "Right",
+            "matrix": [
+              -0.2348819375038147,
+              -0.20765118300914764,
+              0.9495848417282104,
+              0,
+              0.9175530076026917,
+              0.27507075667381287,
+              0.28711017966270447,
+              0,
+              -0.32082170248031616,
+              0.9387314915657043,
+              0.12592191994190216,
+              0,
+              1.0295310020446777,
+              1.8513935804367065,
+              -0.022504568099975586,
+              1
+            ]
+          }
+        ],
+        "sceneMaterials": 91,
+        "sceneTextures": 47,
+        "sceneGeometries": 138,
+        "sceneSkeletons": 1,
+        "sceneAnimationGroups": 12
+      },
+      "architecture": {
+        "staticShadows": {
+          "batches": [
+            {
+              "id": 425,
+              "sources": [
+                20,
+                23,
+                26,
+                29,
+                32,
+                36,
+                39,
+                43,
+                46,
+                50,
+                53,
+                56,
+                59,
+                62,
+                65,
+                68,
+                71,
+                74,
+                77,
+                81,
+                84,
+                87,
+                90,
+                93
+              ],
+              "triangles": 134942,
+              "sourceTriangles": 134942,
+              "vertexBytes": 3920952,
+              "indexBytes": 1619304,
+              "refreshes": 2,
+              "layerMask": 0
+            },
+            {
+              "id": 427,
+              "sources": [
+                155,
+                157,
+                159,
+                209,
+                211,
+                213
+              ],
+              "triangles": 10122,
+              "sourceTriangles": 10122,
+              "vertexBytes": 122760,
+              "indexBytes": 121464,
+              "refreshes": 1,
+              "layerMask": 0
+            }
+          ],
+          "drawsSaved": 28,
+          "additionalBufferBytes": 5784480,
+          "projectionUsesOriginalBounds": true
+        },
+        "detail": {
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 134942,
+          "cached": true,
+          "meshIds": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            36,
+            39,
+            43,
+            46,
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            77,
+            81,
+            84,
+            87,
+            90,
+            93
+          ]
+        },
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "capstone": {
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "handoff": {
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "automation": {
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "tools": {
+        "verified": false,
+        "connected": false,
+        "skillLoaded": false,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "steering": {
+        "verified": false,
+        "queueCount": 0,
+        "activeRun": 1,
+        "carriageX": -0.74,
+        "carriageTargetX": -0.74,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "review": {
+        "verified": false,
+        "revision": 0,
+        "scanActive": false,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "permissions": {
+        "verified": false,
+        "sourceLoaded": false,
+        "connected": false,
+        "draft": null,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "models": {
+        "job": "label",
+        "verified": false,
+        "selected": "terra",
+        "effort": "medium",
+        "kept": 0,
+        "controls": [
+          {
+            "id": "label",
+            "action": "job",
+            "screen": {
+              "x": 625.3038603669931,
+              "y": 192.37261988801285
+            }
+          },
+          {
+            "id": "billing",
+            "action": "job",
+            "screen": {
+              "x": 679.8170704716767,
+              "y": 193.5989362276423
+            }
+          },
+          {
+            "id": "sheet",
+            "action": "job",
+            "screen": {
+              "x": 735.608174009949,
+              "y": 194.8539997570796
+            }
+          },
+          {
+            "id": "astra",
+            "action": "model",
+            "screen": {
+              "x": 610.4226850811241,
+              "y": 224.2257750024782
+            }
+          },
+          {
+            "id": "sol",
+            "action": "model",
+            "screen": {
+              "x": 650.9715291594517,
+              "y": 225.41621009329663
+            }
+          },
+          {
+            "id": "terra",
+            "action": "model",
+            "screen": {
+              "x": 693.1802080636038,
+              "y": 223.0657879711458
+            }
+          },
+          {
+            "id": "luna",
+            "action": "model",
+            "screen": {
+              "x": 734.2095048546472,
+              "y": 227.8599149487259
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "harness": {
+        "selected": [],
+        "assembled": false,
+        "stage": 0,
+        "ports": [
+          {
+            "id": "context",
+            "amount": 0,
+            "screen": {
+              "x": 168.6617337980667,
+              "y": 201.10449375996106
+            }
+          },
+          {
+            "id": "model",
+            "amount": 1,
+            "screen": {
+              "x": 230.13265454115256,
+              "y": 202.76228196609853
+            }
+          },
+          {
+            "id": "tools",
+            "amount": 0,
+            "screen": {
+              "x": 293.4083926535195,
+              "y": 204.4687436736714
+            }
+          },
+          {
+            "id": "verify",
+            "amount": 0,
+            "screen": {
+              "x": 259.25324851578966,
+              "y": 253.9069737240278
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "context": {
+        "selected": [],
+        "verified": false,
+        "cards": [
+          {
+            "id": "brief",
+            "y": 2.09,
+            "screen": {
+              "x": 394.1430179943756,
+              "y": 246.91727736879946
+            }
+          },
+          {
+            "id": "sample",
+            "y": 2.09,
+            "screen": {
+              "x": 435.8304362229298,
+              "y": 248.41171830216803
+            }
+          },
+          {
+            "id": "image",
+            "y": 2.09,
+            "screen": {
+              "x": 478.301975162578,
+              "y": 249.93426896593382
+            }
+          },
+          {
+            "id": "agents",
+            "y": 2.92,
+            "screen": {
+              "x": 399.123790296515,
+              "y": 200.92705754022143
+            }
+          },
+          {
+            "id": "old",
+            "y": 2.92,
+            "screen": {
+              "x": 441.91139192896645,
+              "y": 202.01991621850405
+            }
+          },
+          {
+            "id": "note",
+            "y": 2.92,
+            "screen": {
+              "x": 485.52432572277957,
+              "y": 203.13385510181328
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "branches": {
+        "mode": "shared",
+        "collision": false,
+        "verified": false,
+        "chosen": null,
+        "cartridges": [
+          {
+            "id": "a",
+            "x": -0.22
+          },
+          {
+            "id": "b",
+            "x": 0.22
+          }
+        ],
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "drawCalls": 81,
+      "renderFrameMs": 0.800000011920929,
+      "meshes": 128,
+      "triangles": 342080,
+      "animations": [
+        "Beckon",
+        "Celebrate",
+        "Correct",
+        "Greet",
+        "Idle",
+        "Inspect",
+        "Point",
+        "PointLeft",
+        "Return",
+        "Think",
+        "Travel",
+        "Wait"
+      ],
+      "animationPlaying": false,
+      "gesture": "Greet",
+      "blending": true,
+      "transition": 0,
+      "frameMs": [
+        0,
+        23.900000005960464,
+        10.599999994039536,
+        153.90000000596046,
+        49.20000001788139,
+        10,
+        15.099999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        16.299999982118607,
+        16.700000017881393,
+        19.899999976158142,
+        15.200000017881393,
+        15.099999994039536,
+        16.19999998807907,
+        47.10000002384186,
+        2.5,
+        1.699999988079071,
+        15.900000005960464,
+        22.5,
+        46.400000005960464,
+        20.69999998807907,
+        10.300000011920929,
+        16.69999998807907,
+        17.5,
+        22.5,
+        10.099999994039536,
+        16.5,
+        16.400000005960464,
+        16.19999998807907,
+        17.5,
+        16.600000023841858,
+        16.5,
+        16.799999982118607,
+        16.80000001192093,
+        16.69999998807907,
+        16.599999994039536,
+        16.600000023841858,
+        16.299999982118607,
+        16.599999994039536,
+        16.5,
+        16.700000017881393,
+        17.299999982118607,
+        16.200000017881393,
+        16.19999998807907,
+        17.5,
+        16.200000017881393,
+        16.5,
+        17.399999976158142,
+        16.5,
+        16.600000023841858,
+        16.899999976158142,
+        15.700000017881393,
+        17.599999994039536,
+        16,
+        16.69999998807907,
+        17.30000001192093,
+        16,
+        16.400000005960464,
+        16.900000005960464,
+        16.799999982118607,
+        16.099999994039536,
+        17.200000017881393,
+        17.299999982118607,
+        15.600000023841858,
+        17.099999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        15.599999994039536,
+        17.69999998807907,
+        16.400000005960464,
+        16.900000005960464,
+        16.69999998807907,
+        16.599999994039536,
+        16.100000023841858,
+        17.299999982118607,
+        15.900000005960464,
+        17.30000001192093,
+        16.799999982118607,
+        16.700000017881393,
+        16.599999994039536,
+        16.69999998807907,
+        15.800000011920929,
+        17.099999994039536,
+        17.099999994039536,
+        16.099999994039536,
+        16.400000005960464,
+        16.80000001192093,
+        17.599999994039536,
+        15.699999988079071,
+        17.200000017881393,
+        17,
+        29.299999982118607,
+        3.9000000059604645,
+        16.700000017881393,
+        16.69999998807907,
+        16.69999998807907,
+        16,
+        16.30000001192093,
+        17.599999994039536,
+        16.099999994039536,
+        16.600000023841858,
+        17.399999976158142,
+        16.100000023841858,
+        16.19999998807907,
+        17.099999994039536,
+        17.200000017881393,
+        16.599999994039536,
+        15.900000005960464,
+        16.799999982118607,
+        17.30000001192093,
+        16.599999994039536,
+        16.69999998807907,
+        16.200000017881393,
+        16.799999982118607,
+        16.600000023841858,
+        16.19999998807907,
+        16.599999994039536,
+        17.099999994039536,
+        16.600000023841858,
+        16.5,
+        17.099999994039536,
+        16.299999982118607,
+        17.400000005960464,
+        16.599999994039536,
+        16.5,
+        16.900000005960464,
+        16.700000017881393,
+        16.599999994039536,
+        16.599999994039536,
+        16.69999998807907,
+        15.700000017881393,
+        17.400000005960464,
+        16.69999998807907,
+        16.80000001192093,
+        16.899999976158142,
+        16.100000023841858,
+        17.099999994039536,
+        15.699999988079071,
+        17.599999994039536,
+        16.600000023841858,
+        16.399999976158142,
+        17,
+        16.700000017881393,
+        15.599999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        16.5,
+        16.599999994039536,
+        17.400000005960464,
+        15.699999988079071,
+        17.700000017881393,
+        15.699999988079071,
+        17.5,
+        16.80000001192093,
+        16.599999994039536,
+        15.699999988079071,
+        17.599999994039536,
+        16.700000017881393,
+        16.5,
+        16.599999994039536,
+        16.900000005960464,
+        15.599999994039536,
+        17.80000001192093,
+        15.599999994039536,
+        17.69999998807907,
+        16.599999994039536,
+        15.800000011920929,
+        17.69999998807907,
+        16.600000023841858,
+        16.399999976158142,
+        16.80000001192093,
+        15.900000005960464,
+        17.400000005960464,
+        16.799999982118607,
+        16.099999994039536,
+        17.200000017881393,
+        15.799999982118607,
+        17.5,
+        15.900000005960464,
+        17.200000017881393,
+        16.299999982118607,
+        16.30000001192093,
+        16.69999998807907,
+        17.900000005960464,
+        16,
+        17.099999994039536,
+        16.599999994039536,
+        16.200000017881393,
+        16.299999982118607,
+        17.200000017881393,
+        16.799999982118607,
+        16.80000001192093,
+        16.5,
+        16.900000005960464,
+        16.599999994039536,
+        16.69999998807907,
+        16.700000017881393,
+        16.599999994039536,
+        16.69999998807907,
+        15.800000011920929,
+        16.599999994039536,
+        17.599999994039536,
+        16.600000023841858,
+        15.799999982118607,
+        17.599999994039536,
+        16.700000017881393,
+        16.599999994039536,
+        16.30000001192093,
+        17.19999998807907,
+        16.599999994039536,
+        16.599999994039536,
+        16.700000017881393,
+        16.69999998807907,
+        16.400000005960464,
+        16.599999994039536,
+        16.5,
+        17.099999994039536,
+        16.100000023841858,
+        16.299999982118607,
+        17.599999994039536,
+        16.700000017881393,
+        15.699999988079071,
+        17.599999994039536,
+        16.30000001192093,
+        17,
+        15.900000005960464,
+        16.5,
+        17.599999994039536,
+        16,
+        16.400000005960464,
+        16.69999998807907,
+        17.599999994039536,
+        16.30000001192093,
+        16,
+        17.69999998807907,
+        16.600000023841858,
+        15.799999982118607,
+        17.5,
+        16.200000017881393,
+        16.299999982118607,
+        16.599999994039536,
+        16.80000001192093,
+        17.19999998807907,
+        16,
+        17.100000023841858,
+        17.19999998807907,
+        16.599999994039536,
+        16.700000017881393,
+        16.69999998807907,
+        16.19999998807907,
+        17.100000023841858,
+        15.799999982118607,
+        16.80000001192093,
+        16.69999998807907,
+        16.400000005960464,
+        17.19999998807907,
+        17.100000023841858,
+        16.69999998807907,
+        16.599999994039536,
+        16.700000017881393,
+        15.799999982118607,
+        17.5,
+        16.400000005960464,
+        16,
+        17.19999998807907,
+        17.100000023841858,
+        16.599999994039536,
+        16.69999998807907,
+        16,
+        17,
+        16.400000005960464,
+        17,
+        16.099999994039536,
+        17.200000017881393,
+        16.099999994039536,
+        17.099999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        15.699999988079071,
+        17.599999994039536,
+        16.100000023841858,
+        16.299999982118607,
+        16.900000005960464,
+        16.900000005960464,
+        16.69999998807907,
+        17,
+        15.900000005960464,
+        16.599999994039536,
+        17.400000005960464,
+        16.80000001192093,
+        15.899999976158142,
+        17.200000017881393,
+        16
+      ],
+      "camera": {
+        "alpha": 1.4507963267948965,
+        "beta": 1.31,
+        "radius": 8.8,
+        "target": [
+          -22,
+          2.55,
+          -9.7
+        ],
+        "visibility": null
+      },
+      "mascot": {
+        "x": -23.4,
+        "y": 0.1,
+        "z": -8.3,
+        "displayLift": 1.4439999942847346
+      }
+    },
+    "sound": {
+      "outputRms": 0,
+      "limiterReduction": 0,
+      "time": 0,
+      "voiceActive": false,
+      "unlocked": false,
+      "context": "locked",
+      "muted": true,
+      "paused": true,
+      "hidden": false,
+      "levels": {
+        "voice": 0.9,
+        "music": 0.22,
+        "ambience": 0.2,
+        "effects": 0.55
+      },
+      "voiceBackend": "recorded-kokoro-v1",
+      "voiceMessage": "",
+      "caption": "",
+      "wing": 0,
+      "loops": [],
+      "retiring": 0,
+      "shots": 0,
+      "pending": [],
+      "failures": [],
+      "buffers": [],
+      "gains": {},
+      "master": 0
+    },
+    "graphicsError": ""
+  },
+  "after": {
+    "startup": {
+      "status": "complete",
+      "phase": "graphics-ready",
+      "elapsedMs": 6812.8,
+      "events": [
+        {
+          "kind": "phase-start",
+          "phase": "world-module",
+          "atMs": 0.1
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "world-module",
+          "atMs": 75.3
+        },
+        {
+          "kind": "phase-start",
+          "phase": "graphics-context",
+          "atMs": 76
+        },
+        {
+          "kind": "phase-start",
+          "phase": "scene-setup",
+          "atMs": 94.4
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture",
+          "atMs": 109.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture",
+          "atMs": 185
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture-detail",
+          "atMs": 185.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture-detail",
+          "atMs": 185.7
+        },
+        {
+          "kind": "phase-start",
+          "phase": "architecture-textures",
+          "atMs": 185.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "architecture-textures",
+          "atMs": 535
+        },
+        {
+          "kind": "phase-start",
+          "phase": "room-fixtures",
+          "atMs": 536.2
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "room-fixtures",
+          "atMs": 541.3
+        },
+        {
+          "kind": "phase-start",
+          "phase": "room-assembly",
+          "atMs": 541.3
+        },
+        {
+          "kind": "phase-start",
+          "phase": "guide",
+          "atMs": 589.7
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "guide",
+          "atMs": 634
+        },
+        {
+          "kind": "phase-start",
+          "phase": "scene-finalization",
+          "atMs": 634
+        },
+        {
+          "kind": "phase-start",
+          "phase": "render-audit",
+          "atMs": 690.5
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "render-audit",
+          "atMs": 693.8
+        },
+        {
+          "kind": "phase-start",
+          "phase": "exhibits",
+          "atMs": 694.5
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "exhibits",
+          "atMs": 760.1
+        },
+        {
+          "kind": "phase-start",
+          "phase": "environment",
+          "atMs": 760.1
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "environment",
+          "atMs": 760.1
+        },
+        {
+          "kind": "phase-start",
+          "phase": "graphics-ready",
+          "atMs": 760.2
+        },
+        {
+          "kind": "phase-complete",
+          "phase": "graphics-ready",
+          "atMs": 1132.8
+        },
+        {
+          "kind": "complete",
+          "phase": "graphics-ready",
+          "atMs": 1133.4
+        }
+      ],
+      "failure": null
+    },
+    "ready": true,
+    "screen": "mission",
+    "mission": 0,
+    "stepIndex": 0,
+    "cedarLab": {
+      "section": "brief",
+      "inspecting": "brief",
+      "definition": {
+        "title": "",
+        "summary": "",
+        "period": "",
+        "deliverable": "",
+        "metrics": []
+      },
+      "sources": [],
+      "dataTool": false,
+      "fileTool": false,
+      "scope": "none",
+      "effort": "medium",
+      "procedure": "template",
+      "week": "first",
+      "revision": 1,
+      "outputs": {},
+      "checks": {},
+      "readbacks": {},
+      "failureSeen": false,
+      "schedule": {
+        "cadence": "daily",
+        "timezone": "UTC",
+        "alerts": "every",
+        "failure": "replace",
+        "runtime": "unattended"
+      },
+      "rehearsal": null,
+      "first": null,
+      "reviews": [],
+      "hints": 0,
+      "actions": [],
+      "message": "Cedar has supplied a brief and five files. Build a handoff that satisfies the brief. You choose the order of work."
+    },
+    "handoffLab": {
+      "section": "delivery",
+      "surface": "delivered",
+      "revision": 2,
+      "mode": "absolute",
+      "notes": "claim",
+      "selected": [
+        "page",
+        "brand",
+        "data"
+      ],
+      "package": null,
+      "localCheck": null,
+      "delivered": {
+        "id": 1,
+        "kind": "original",
+        "revision": 1,
+        "files": {
+          "index.html": "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Northstar — kickoff guide</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#f1eee3;color:#243f30;margin:0;padding:28px}main{max-width:540px;margin:auto}img{width:210px;max-width:100%;height:auto}h1{font-size:28px;line-height:1.15}dl{display:grid;grid-template-columns:1fr 1fr;gap:12px}dd{margin:0;font-weight:600}a{color:#244f3c}small{display:block;margin-top:25px}</style></head><body><main><img src=\"./assets/brand.svg\" alt=\"Northstar brand mark\"><h1>Your kickoff guide.</h1><p>Northstar Studio</p><dl><dt>Kickoff</dt><dd>Scheduled</dd><dt>File access</dt><dd>Requested</dd><dt>Approval owner</dt><dd data-owner=\"Nina Patel\">Nina Patel</dd></dl><p><a href=\"./onboarding.csv\" download>Download the onboarding checklist</a></p><small>Fictional training data. No client account or email connection.</small></main></body></html>\n",
+          "assets/brand.svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"240\" height=\"64\" viewBox=\"0 0 240 64\"><rect width=\"240\" height=\"64\" rx=\"10\" fill=\"#254d3b\"/><path d=\"M31 10 36 26 53 31 36 36 31 53 26 36 10 31 26 26Z\" fill=\"#efe6cc\"/><text x=\"67\" y=\"40\" fill=\"#fff8e8\" font-family=\"sans-serif\" font-size=\"23\">Northstar</text></svg>",
+          "onboarding.csv": "client,kickoff,files,approval_owner\nNorthstar Studio,scheduled,requested,Nina Patel\n",
+          "README.md": "# Use the Northstar guide\n\nServe the parent directory with `python3 -m http.server 8000`, then open http://127.0.0.1:8000/northstar/. Keep index.html, assets/brand.svg and onboarding.csv together. Verify the brand image, approval owner Nina Patel and CSV download from that exact route.\n\nRecovery: the separate recovery/northstar folder contains the earlier working release. Serve recovery as the root or restore its northstar folder, then check the same route again. Never replace the only working recovery copy with an unverified candidate.\n\nKnown limits: fictional static data; no authentication, email delivery or live source sync. The rehearsal checks file references and fixture content. Real-device, performance and production-host checks still need to be performed for any real deployment.\n"
+        }
+      },
+      "deliveredCheck": null,
+      "recovery": null,
+      "nextId": 2,
+      "failureSeen": false,
+      "rollbackVerified": false,
+      "actions": [],
+      "events": [],
+      "message": "A working guide is already delivered. Check that copy and preserve it before staging the candidate. Local checks alone cannot prove a delivered package works."
+    },
+    "automationLab": {
+      "section": "setup",
+      "now": 1789044900000,
+      "config": {
+        "prompt": "vague",
+        "cadence": "weekdays",
+        "hour": "9",
+        "timezone": "America/Toronto",
+        "destination": "same",
+        "notifications": "changes",
+        "onFailure": "report"
+      },
+      "revision": 1,
+      "testedVersion": null,
+      "enabled": false,
+      "host": true,
+      "source": "approved",
+      "baseline": null,
+      "lastFailure": null,
+      "runs": [],
+      "events": [],
+      "actions": [],
+      "nextId": 1,
+      "message": "The local brief is ready. Test a precise prompt before turning on the weekday schedule. The rehearsal clock starts Thursday at 08:55 Toronto time."
+    },
+    "toolLab": {
+      "section": "connect",
+      "package": "source",
+      "inspected": [],
+      "installed": null,
+      "scope": "training",
+      "connected": false,
+      "guidanceRead": false,
+      "skill": "example",
+      "loaded": [],
+      "client": "northstar",
+      "reads": {},
+      "outputs": {},
+      "revision": 1,
+      "failureSeen": false,
+      "actions": [],
+      "events": [],
+      "message": "Two client briefs are in a fictional document service. Inspect the plugin, connect its reading tool, then test the bundled procedure."
+    },
+    "contextLab": {
+      "read": [],
+      "selected": [],
+      "opened": "brief",
+      "authority": null,
+      "target": null,
+      "revision": 0,
+      "result": null,
+      "check": null,
+      "runs": 0,
+      "message": "Open the files. Build a context pack for the missing-field repair."
+    },
+    "modelLab": {
+      "job": "label",
+      "jobs": {
+        "label": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "billing": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        },
+        "sheet": {
+          "model": "terra",
+          "effort": "medium",
+          "replacement": "Clinet",
+          "scope": "entry",
+          "patch": "after",
+          "connected": false,
+          "source": "cached",
+          "revision": 0,
+          "runs": [],
+          "current": null,
+          "accepted": null
+        }
+      },
+      "message": "Choose a job and a setup. The actual training artifact will determine whether its check passes."
+    },
+    "permissionLab": {
+      "section": "source",
+      "profile": "workspace",
+      "approval": "never",
+      "network": false,
+      "connected": false,
+      "source": null,
+      "pending": false,
+      "draft": null,
+      "revision": 0,
+      "check": null,
+      "events": [
+        "file-denied"
+      ],
+      "message": "Local read denied: the training profile excludes /reference/northstar. Approval prompts are disabled; this does not grant access."
+    },
+    "reviewLab": {
+      "section": "diff",
+      "patch": {
+        "owner": false,
+        "files": false,
+        "title": false
+      },
+      "flags": [],
+      "revision": 0,
+      "inspected": null,
+      "runs": [],
+      "current": null,
+      "requests": [],
+      "message": "Proposed change: “Owner filled; heading corrected.” Inspect the saved patch and test that claim."
+    },
+    "steeringLab": {
+      "section": "work",
+      "messageKind": "french",
+      "active": {
+        "kind": "checklist",
+        "step": 0,
+        "run": 1
+      },
+      "language": "en",
+      "pending": [],
+      "queue": [],
+      "nextId": 1,
+      "nextRun": 2,
+      "checklist": null,
+      "draft": null,
+      "statusAsked": false,
+      "statusReport": null,
+      "steered": false,
+      "queuedEmail": false,
+      "emailAfterChecklist": false,
+      "events": [
+        "Run 1 started: prepare the onboarding checklist."
+      ],
+      "actions": [],
+      "message": "The checklist run is active. Work advances only when you press Next work step."
+    },
+    "selected": [],
+    "feedback": null,
+    "modal": null,
+    "branches": {
+      "mode": "shared",
+      "shared": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "files": {
+        "a": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        },
+        "b": {
+          "client": "Northstar Studio",
+          "kickoff": "scheduled",
+          "files": "requested",
+          "approval_owner": ""
+        }
+      },
+      "written": {
+        "a": false,
+        "b": false
+      },
+      "revision": {
+        "a": 0,
+        "b": 0,
+        "local": 0
+      },
+      "checks": {
+        "a": null,
+        "b": null,
+        "local": null
+      },
+      "reviewed": false,
+      "local": {
+        "client": "Northstar Studio",
+        "kickoff": "scheduled",
+        "files": "requested",
+        "approval_owner": ""
+      },
+      "chosen": null,
+      "collision": false,
+      "events": [],
+      "message": "Two tasks are looking at one checkout. Apply their competing changes and inspect what each task sees."
+    },
+    "progress": {
+      "version": 1,
+      "completed": [],
+      "attempts": {},
+      "hints": {},
+      "capstone": [],
+      "lastMission": 0,
+      "workspace": {
+        "tasks": []
+      },
+      "settings": {
+        "muted": true,
+        "reduced": false,
+        "quality": "balanced",
+        "audio": {
+          "voice": 0.9,
+          "music": 0.22,
+          "ambience": 0.2,
+          "effects": 0.55
+        }
+      }
+    },
+    "world": {
+      "qualityAdvice": {
+        "quality": "balanced",
+        "status": "observing",
+        "windows": 0,
+        "lastWindow": null
+      },
+      "presented": {
+        "active": 0,
+        "transition": 0
+      },
+      "residency": {
+        "active": 0,
+        "ready": true,
+        "heldFrames": 3,
+        "holdingSince": null,
+        "events": [
+          {
+            "at": 719.1999999880791,
+            "kind": "load-start",
+            "id": "tool"
+          },
+          {
+            "at": 720,
+            "kind": "load-start",
+            "id": "steering"
+          },
+          {
+            "at": 720.3000000119209,
+            "kind": "load-start",
+            "id": "review"
+          },
+          {
+            "at": 720.9000000059605,
+            "kind": "load-start",
+            "id": "permission"
+          },
+          {
+            "at": 721.4000000059605,
+            "kind": "load-start",
+            "id": "branch"
+          },
+          {
+            "at": 743.5,
+            "kind": "load-ready",
+            "id": "tool",
+            "durationMs": 24.400000005960464
+          },
+          {
+            "at": 754.9000000059605,
+            "kind": "load-ready",
+            "id": "steering",
+            "durationMs": 34.900000005960464
+          },
+          {
+            "at": 763.9000000059605,
+            "kind": "load-ready",
+            "id": "review",
+            "durationMs": 43.599999994039536
+          },
+          {
+            "at": 776.0999999940395,
+            "kind": "load-ready",
+            "id": "permission",
+            "durationMs": 55.19999998807907
+          },
+          {
+            "at": 783.5999999940395,
+            "kind": "load-ready",
+            "id": "branch",
+            "durationMs": 62.19999998807907
+          },
+          {
+            "at": 1417.199999988079,
+            "kind": "load-start",
+            "id": "harness"
+          },
+          {
+            "at": 1417.699999988079,
+            "kind": "view-held"
+          },
+          {
+            "at": 1429.800000011921,
+            "kind": "load-ready",
+            "id": "harness",
+            "durationMs": 12.600000023841858
+          },
+          {
+            "at": 1439.699999988079,
+            "kind": "view-released",
+            "durationMs": 22
+          },
+          {
+            "at": 2533,
+            "kind": "load-start",
+            "id": "model"
+          },
+          {
+            "at": 2533.5,
+            "kind": "view-held"
+          },
+          {
+            "at": 2561.9000000059605,
+            "kind": "load-ready",
+            "id": "model",
+            "durationMs": 28.900000005960464
+          },
+          {
+            "at": 2562.4000000059605,
+            "kind": "view-released",
+            "durationMs": 28.900000005960464
+          },
+          {
+            "at": 2915.699999988079,
+            "kind": "load-start",
+            "id": "context"
+          },
+          {
+            "at": 2916.0999999940395,
+            "kind": "view-held"
+          },
+          {
+            "at": 2922.199999988079,
+            "kind": "load-ready",
+            "id": "context",
+            "durationMs": 6.5
+          },
+          {
+            "at": 2932.5,
+            "kind": "view-released",
+            "durationMs": 16.30000001192093
+          },
+          {
+            "at": 3216.699999988079,
+            "kind": "release",
+            "id": "tool"
+          },
+          {
+            "at": 3766.699999988079,
+            "kind": "release",
+            "id": "review"
+          },
+          {
+            "at": 4083.5,
+            "kind": "release",
+            "id": "steering"
+          },
+          {
+            "at": 4399.800000011921,
+            "kind": "release",
+            "id": "branch"
+          },
+          {
+            "at": 5199.699999988079,
+            "kind": "release",
+            "id": "permission"
+          }
+        ],
+        "entries": [
+          {
+            "id": "capstone",
+            "station": 11,
+            "enabled": false,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": false,
+            "pending": false,
+            "loads": 0,
+            "unloads": 0,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "handoff",
+            "station": 11,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": false,
+            "pending": false,
+            "loads": 0,
+            "unloads": 0,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "automation",
+            "station": 10,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": false,
+            "pending": false,
+            "loads": 0,
+            "unloads": 0,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "tool",
+            "station": 8,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "steering",
+            "station": 6,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "review",
+            "station": 7,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "permission",
+            "station": 3,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "model",
+            "station": 2,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 0,
+            "error": null,
+            "resources": {
+              "meshes": 18,
+              "materials": 14,
+              "textures": 8
+            }
+          },
+          {
+            "id": "context",
+            "station": 1,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 0,
+            "error": null,
+            "resources": {
+              "meshes": 14,
+              "materials": 9,
+              "textures": 7
+            }
+          },
+          {
+            "id": "branch",
+            "station": 5,
+            "enabled": true,
+            "wanted": false,
+            "loaded": false,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 1,
+            "error": null,
+            "resources": null
+          },
+          {
+            "id": "harness",
+            "station": 0,
+            "enabled": true,
+            "wanted": true,
+            "loaded": true,
+            "factoryCached": true,
+            "pending": false,
+            "loads": 1,
+            "unloads": 0,
+            "error": null,
+            "resources": {
+              "meshes": 15,
+              "materials": 12,
+              "textures": 4
+            }
+          }
+        ]
+      },
+      "renderAudit": {
+        "lastFrame": {
+          "frameId": 307,
+          "totalDrawCalls": 81,
+          "mainDrawCalls": 60,
+          "otherDrawCalls": 21,
+          "mainSubmittedTriangles": 178500,
+          "allPassSubmittedTriangles": 342080,
+          "cpuSceneMs": 1.9000000059604645
+        },
+        "activeMeshCount": 60,
+        "activeMeshTriangles": 178500,
+        "meshes": [
+          {
+            "id": 23,
+            "name": "Architecture exterior_primitive1",
+            "triangles": 6120,
+            "submeshes": 1
+          },
+          {
+            "id": 26,
+            "name": "Architecture exterior_primitive2",
+            "triangles": 6120,
+            "submeshes": 1
+          },
+          {
+            "id": 29,
+            "name": "Architecture exterior_primitive3",
+            "triangles": 10152,
+            "submeshes": 1
+          },
+          {
+            "id": 32,
+            "name": "Architecture exterior_primitive4",
+            "triangles": 12,
+            "submeshes": 1
+          },
+          {
+            "id": 36,
+            "name": "Architecture floor_primitive0",
+            "triangles": 188,
+            "submeshes": 1
+          },
+          {
+            "id": 43,
+            "name": "Architecture floor inlays_primitive0",
+            "triangles": 62,
+            "submeshes": 1
+          },
+          {
+            "id": 50,
+            "name": "Architecture furnishings_primitive0",
+            "triangles": 7170,
+            "submeshes": 1
+          },
+          {
+            "id": 53,
+            "name": "Architecture furnishings_primitive1",
+            "triangles": 7360,
+            "submeshes": 1
+          },
+          {
+            "id": 56,
+            "name": "Architecture furnishings_primitive2",
+            "triangles": 7892,
+            "submeshes": 1
+          },
+          {
+            "id": 59,
+            "name": "Architecture furnishings_primitive3",
+            "triangles": 14082,
+            "submeshes": 1
+          },
+          {
+            "id": 62,
+            "name": "Architecture furnishings_primitive4",
+            "triangles": 6120,
+            "submeshes": 1
+          },
+          {
+            "id": 65,
+            "name": "Architecture furnishings_primitive5",
+            "triangles": 9216,
+            "submeshes": 1
+          },
+          {
+            "id": 74,
+            "name": "Architecture furnishings_primitive8",
+            "triangles": 1322,
+            "submeshes": 1
+          },
+          {
+            "id": 77,
+            "name": "Architecture furnishings_primitive9",
+            "triangles": 5176,
+            "submeshes": 1
+          },
+          {
+            "id": 81,
+            "name": "Architecture shell_primitive0",
+            "triangles": 14918,
+            "submeshes": 1
+          },
+          {
+            "id": 84,
+            "name": "Architecture shell_primitive1",
+            "triangles": 22886,
+            "submeshes": 1
+          },
+          {
+            "id": 87,
+            "name": "Architecture shell_primitive2",
+            "triangles": 10548,
+            "submeshes": 1
+          },
+          {
+            "id": 90,
+            "name": "Architecture shell_primitive3",
+            "triangles": 376,
+            "submeshes": 1
+          },
+          {
+            "id": 105,
+            "name": "UNDERSTAND",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 109,
+            "name": "01  /  THE CODEX ECOSYSTEM",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 112,
+            "name": "Learning state 0",
+            "triangles": 1536,
+            "submeshes": 1
+          },
+          {
+            "id": 117,
+            "name": "01",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 120,
+            "name": "Learning state 1",
+            "triangles": 1536,
+            "submeshes": 1
+          },
+          {
+            "id": 242,
+            "name": "Codex logo core",
+            "triangles": 7164,
+            "submeshes": 1
+          },
+          {
+            "id": 250,
+            "name": "Left finger 0",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 254,
+            "name": "Left finger 1",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 257,
+            "name": "Left finger 2",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 260,
+            "name": "Left floating forearm",
+            "triangles": 1564,
+            "submeshes": 1
+          },
+          {
+            "id": 264,
+            "name": "Left palm",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 267,
+            "name": "Left thumb",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 270,
+            "name": "Left wrist",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 274,
+            "name": "Right finger 0",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 277,
+            "name": "Right finger 1",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 280,
+            "name": "Right finger 2",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 283,
+            "name": "Right floating forearm",
+            "triangles": 1564,
+            "submeshes": 1
+          },
+          {
+            "id": 286,
+            "name": "Right palm",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 289,
+            "name": "Right thumb",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 292,
+            "name": "Right wrist",
+            "triangles": 608,
+            "submeshes": 1
+          },
+          {
+            "id": 295,
+            "name": "White prompt chevron",
+            "triangles": 572,
+            "submeshes": 1
+          },
+          {
+            "id": 298,
+            "name": "White prompt underscore",
+            "triangles": 356,
+            "submeshes": 1
+          },
+          {
+            "id": 927,
+            "name": "context retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 930,
+            "name": "context port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 934,
+            "name": "context caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 937,
+            "name": "model retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 940,
+            "name": "model port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 944,
+            "name": "model caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 947,
+            "name": "tools retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 950,
+            "name": "tools port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 954,
+            "name": "tools caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 957,
+            "name": "verify retaining ring",
+            "triangles": 4802,
+            "submeshes": 1
+          },
+          {
+            "id": 960,
+            "name": "verify port",
+            "triangles": 1936,
+            "submeshes": 1
+          },
+          {
+            "id": 964,
+            "name": "verify caption",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 974,
+            "name": "Batch: Harness circuits / Inactive circuit",
+            "triangles": 96,
+            "submeshes": 1
+          },
+          {
+            "id": 976,
+            "name": "Harness support",
+            "triangles": 64,
+            "submeshes": 1
+          },
+          {
+            "id": 1078,
+            "name": "Archive file brief",
+            "triangles": 12,
+            "submeshes": 1
+          },
+          {
+            "id": 1082,
+            "name": "Inspect source brief",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 1099,
+            "name": "Archive file agents",
+            "triangles": 12,
+            "submeshes": 1
+          },
+          {
+            "id": 1103,
+            "name": "Inspect source agents",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 1121,
+            "name": "Context draft and check status",
+            "triangles": 2,
+            "submeshes": 1
+          },
+          {
+            "id": 1123,
+            "name": "Batch: Context rack / Archive brushed metal",
+            "triangles": 36,
+            "submeshes": 1
+          }
+        ],
+        "textures": [
+          {
+            "id": 222,
+            "names": [
+              "Late afternoon_shadowMap"
+            ],
+            "url": "",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 33554432,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 223,
+            "names": [],
+            "url": "",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 14,
+            "type": 0,
+            "source": 12,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 16777216,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 285,
+            "names": [
+              "/assets/studio.env"
+            ],
+            "url": "/assets/studio.env",
+            "width": 128,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 7,
+            "mipmaps": true,
+            "cube": true,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 1048560,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 286,
+            "names": [
+              "/assets/headquarters/compressed/floor-indirect.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 287,
+            "names": [
+              "/assets/headquarters/compressed/shell-albedo.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 288,
+            "names": [
+              "/assets/headquarters/compressed/floor-albedo.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 289,
+            "names": [
+              "/assets/headquarters/compressed/shell-indirect.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 290,
+            "names": [
+              "/assets/headquarters/compressed/furnishings-albedo.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 291,
+            "names": [
+              "/assets/headquarters/compressed/furnishings-indirect.ktx2"
+            ],
+            "url": "embedded",
+            "width": 2048,
+            "height": 2048,
+            "depth": 0,
+            "format": 37492,
+            "type": 0,
+            "source": 1,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": null,
+            "blockBytes": 8,
+            "textureBytes": 2796216,
+            "estimatedMultisampleColorBytes": null
+          },
+          {
+            "id": 145,
+            "names": [
+              "UNDERSTAND"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 147,
+            "names": [
+              "01  /  THE CODEX ECOSYSTEM"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 149,
+            "names": [
+              "01"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 151,
+            "names": [
+              "02"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 153,
+            "names": [
+              "03"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 155,
+            "names": [
+              "04"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 157,
+            "names": [
+              "DIRECT"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 159,
+            "names": [
+              "02  /  THE CODEX ECOSYSTEM"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 161,
+            "names": [
+              "05"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 163,
+            "names": [
+              "06"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 165,
+            "names": [
+              "07"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 167,
+            "names": [
+              "08"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 169,
+            "names": [
+              "REPEAT"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 171,
+            "names": [
+              "03  /  THE CODEX ECOSYSTEM"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 173,
+            "names": [
+              "09"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 175,
+            "names": [
+              "10"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 177,
+            "names": [
+              "11"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 179,
+            "names": [
+              "12"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1398108,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 181,
+            "names": [
+              ""
+            ],
+            "url": "",
+            "width": 16,
+            "height": 1,
+            "depth": 0,
+            "format": 5,
+            "type": 1,
+            "source": 3,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 16,
+            "blockBytes": null,
+            "textureBytes": 256,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 183,
+            "names": [
+              "context caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 185,
+            "names": [
+              "model caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 187,
+            "names": [
+              "tools caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 189,
+            "names": [
+              "verify caption"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 128,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 349532,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 225,
+            "names": [],
+            "url": "",
+            "width": 390,
+            "height": 438.88,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 1369305.6,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 227,
+            "names": [],
+            "url": "",
+            "width": 390,
+            "height": 438.88,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 1369305.6,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 191,
+            "names": [
+              "Route Fix a label text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 267,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 727980,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 193,
+            "names": [
+              "Route Trace a regression text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 267,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 727980,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 195,
+            "names": [
+              "Route Read a live sheet text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 267,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 727980,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 197,
+            "names": [
+              "Select Astra text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 199,
+            "names": [
+              "Select Sol text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 201,
+            "names": [
+              "Select Terra text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 203,
+            "names": [
+              "Select Luna text"
+            ],
+            "url": "",
+            "width": 512,
+            "height": 391,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 1066492,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 205,
+            "names": [
+              "Output check status text"
+            ],
+            "url": "",
+            "width": 1024,
+            "height": 129,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": true,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 703164,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 207,
+            "names": [
+              "Archive face brief"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 209,
+            "names": [
+              "Archive face sample"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 211,
+            "names": [
+              "Archive face image"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 213,
+            "names": [
+              "Archive face agents"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 215,
+            "names": [
+              "Archive face old"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 217,
+            "names": [
+              "Archive face note"
+            ],
+            "url": "",
+            "width": 384,
+            "height": 448,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 688128,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 219,
+            "names": [
+              "Context result ribbon"
+            ],
+            "url": "",
+            "width": 768,
+            "height": 112,
+            "depth": 0,
+            "format": 5,
+            "type": -1,
+            "source": 4,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 4,
+            "blockBytes": null,
+            "textureBytes": 344064,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 229,
+            "names": [],
+            "url": "",
+            "width": {
+              "width": 0,
+              "height": 0
+            },
+            "height": {
+              "width": 0,
+              "height": 0
+            },
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": null,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 231,
+            "names": [],
+            "url": "",
+            "width": {
+              "width": 0,
+              "height": 0
+            },
+            "height": {
+              "width": 0,
+              "height": 0
+            },
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 5,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": null,
+            "estimatedMultisampleColorBytes": 0
+          },
+          {
+            "id": 235,
+            "names": [
+              "data:EnvironmentBRDFTexture0"
+            ],
+            "url": "embedded",
+            "width": 256,
+            "height": 256,
+            "depth": 0,
+            "format": 5,
+            "type": 2,
+            "source": 1,
+            "mipmaps": false,
+            "cube": false,
+            "samples": 1,
+            "ready": true,
+            "bytesPerPixel": 8,
+            "blockBytes": null,
+            "textureBytes": 524288,
+            "estimatedMultisampleColorBytes": 0
+          }
+        ],
+        "textureStorageBytes": null,
+        "multisampleColorStorageBytes": 0,
+        "unknownTextureFormats": 0,
+        "limits": [
+          "Active mesh triangles count each camera-active mesh once, including triangles outside its visible pixels; not exact occlusion visibility.",
+          "Main draw phase is Babylon rendering-manager submission; total also includes shadow and finishing passes.",
+          "Texture storage is an allocation estimate; driver padding, default framebuffer, implicit depth/stencil renderbuffers, CPU decoded images, geometry and program memory are excluded.",
+          "Scene time is CPU-side elapsed browser time, not native GPU time."
+        ],
+        "finishing": {
+          "quality": "balanced",
+          "cameraSlots": 2,
+          "activeEffects": 2,
+          "registeredEffects": 0
+        }
+      },
+      "ready": true,
+      "renderSize": {
+        "width": 390,
+        "height": 844,
+        "cssWidth": 390,
+        "cssHeight": 844,
+        "dpr": 1
+      },
+      "lastPick": null,
+      "active": 0,
+      "quality": "balanced",
+      "paused": true,
+      "reduced": false,
+      "mascotDetail": {
+        "requested": "balanced",
+        "active": "balanced",
+        "loading": false,
+        "error": "",
+        "triangles": 18516,
+        "cached": [
+          "high",
+          "balanced"
+        ],
+        "meshIds": [
+          242,
+          250,
+          254,
+          257,
+          260,
+          264,
+          267,
+          270,
+          274,
+          277,
+          280,
+          283,
+          286,
+          289,
+          292,
+          295,
+          298
+        ],
+        "skeletonIds": [
+          245
+        ],
+        "pose": [
+          {
+            "name": "Core",
+            "matrix": [
+              0.9999061822891235,
+              -0.00006305057468125597,
+              -0.013696788810193539,
+              0,
+              0.0007583771948702633,
+              0.9987102746963501,
+              0.050766412168741226,
+              0,
+              0.013675922527909279,
+              -0.050772037357091904,
+              0.998616635799408,
+              0,
+              0,
+              1.7999999523162842,
+              0.01902330294251442,
+              1
+            ]
+          },
+          {
+            "name": "Left",
+            "matrix": [
+              -0.2607778012752533,
+              0.20768244564533234,
+              -0.9427953362464905,
+              0,
+              -0.9093098044395447,
+              0.2751859724521637,
+              0.3121347427368164,
+              0,
+              0.3242688477039337,
+              0.9386908411979675,
+              0.11708535254001617,
+              0,
+              -1.0302757024765015,
+              1.8515233993530273,
+              0.0057108160108327866,
+              1
+            ]
+          },
+          {
+            "name": "Right",
+            "matrix": [
+              -0.2348819375038147,
+              -0.20765118300914764,
+              0.9495848417282104,
+              0,
+              0.9175530076026917,
+              0.27507075667381287,
+              0.28711017966270447,
+              0,
+              -0.32082170248031616,
+              0.9387314915657043,
+              0.12592191994190216,
+              0,
+              1.0295310020446777,
+              1.8513935804367065,
+              -0.022504568099975586,
+              1
+            ]
+          }
+        ],
+        "sceneMaterials": 91,
+        "sceneTextures": 47,
+        "sceneGeometries": 138,
+        "sceneSkeletons": 1,
+        "sceneAnimationGroups": 12
+      },
+      "architecture": {
+        "staticShadows": {
+          "batches": [
+            {
+              "id": 425,
+              "sources": [
+                20,
+                23,
+                26,
+                29,
+                32,
+                36,
+                39,
+                43,
+                46,
+                50,
+                53,
+                56,
+                59,
+                62,
+                65,
+                68,
+                71,
+                74,
+                77,
+                81,
+                84,
+                87,
+                90,
+                93
+              ],
+              "triangles": 134942,
+              "sourceTriangles": 134942,
+              "vertexBytes": 3920952,
+              "indexBytes": 1619304,
+              "refreshes": 2,
+              "layerMask": 0
+            },
+            {
+              "id": 427,
+              "sources": [
+                155,
+                157,
+                159,
+                209,
+                211,
+                213
+              ],
+              "triangles": 10122,
+              "sourceTriangles": 10122,
+              "vertexBytes": 122760,
+              "indexBytes": 121464,
+              "refreshes": 1,
+              "layerMask": 0
+            }
+          ],
+          "drawsSaved": 28,
+          "additionalBufferBytes": 5784480,
+          "projectionUsesOriginalBounds": true
+        },
+        "detail": {
+          "requested": "balanced",
+          "active": "balanced",
+          "loading": false,
+          "error": "",
+          "triangles": 134942,
+          "cached": true,
+          "meshIds": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            36,
+            39,
+            43,
+            46,
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            77,
+            81,
+            84,
+            87,
+            90,
+            93
+          ]
+        },
+        "textureCompression": {
+          "mode": "compressed",
+          "reason": null,
+          "textures": [
+            {
+              "name": "/assets/headquarters/compressed/floor-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/floor-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/shell-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-albedo.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            },
+            {
+              "name": "/assets/headquarters/compressed/furnishings-indirect.ktx2",
+              "format": 37492,
+              "width": 2048,
+              "height": 2048
+            }
+          ]
+        },
+        "ready": true,
+        "meshes": 25,
+        "lightmaps": [
+          "floor",
+          "shell",
+          "furnishings"
+        ]
+      },
+      "capstone": {
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "handoff": {
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "automation": {
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "tools": {
+        "verified": false,
+        "connected": false,
+        "skillLoaded": false,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "steering": {
+        "verified": false,
+        "queueCount": 0,
+        "activeRun": 1,
+        "carriageX": -0.74,
+        "carriageTargetX": -0.74,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "review": {
+        "verified": false,
+        "revision": 0,
+        "scanActive": false,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "permissions": {
+        "verified": false,
+        "sourceLoaded": false,
+        "connected": false,
+        "draft": null,
+        "ports": [],
+        "loaded": false,
+        "cards": [],
+        "controls": []
+      },
+      "models": {
+        "job": "label",
+        "verified": false,
+        "selected": "terra",
+        "effort": "medium",
+        "kept": 0,
+        "controls": [
+          {
+            "id": "label",
+            "action": "job",
+            "screen": {
+              "x": 625.3038603669931,
+              "y": 192.37261988801285
+            }
+          },
+          {
+            "id": "billing",
+            "action": "job",
+            "screen": {
+              "x": 679.8170704716767,
+              "y": 193.5989362276423
+            }
+          },
+          {
+            "id": "sheet",
+            "action": "job",
+            "screen": {
+              "x": 735.608174009949,
+              "y": 194.8539997570796
+            }
+          },
+          {
+            "id": "astra",
+            "action": "model",
+            "screen": {
+              "x": 610.4226850811241,
+              "y": 224.2257750024782
+            }
+          },
+          {
+            "id": "sol",
+            "action": "model",
+            "screen": {
+              "x": 650.9715291594517,
+              "y": 225.41621009329663
+            }
+          },
+          {
+            "id": "terra",
+            "action": "model",
+            "screen": {
+              "x": 693.1802080636038,
+              "y": 223.0657879711458
+            }
+          },
+          {
+            "id": "luna",
+            "action": "model",
+            "screen": {
+              "x": 734.2095048546472,
+              "y": 227.8599149487259
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "harness": {
+        "selected": [],
+        "assembled": false,
+        "stage": 0,
+        "ports": [
+          {
+            "id": "context",
+            "amount": 0,
+            "screen": {
+              "x": 168.6617337980667,
+              "y": 201.10449375996106
+            }
+          },
+          {
+            "id": "model",
+            "amount": 1,
+            "screen": {
+              "x": 230.13265454115256,
+              "y": 202.76228196609853
+            }
+          },
+          {
+            "id": "tools",
+            "amount": 0,
+            "screen": {
+              "x": 293.4083926535195,
+              "y": 204.4687436736714
+            }
+          },
+          {
+            "id": "verify",
+            "amount": 0,
+            "screen": {
+              "x": 259.25324851578966,
+              "y": 253.9069737240278
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "context": {
+        "selected": [],
+        "verified": false,
+        "cards": [
+          {
+            "id": "brief",
+            "y": 2.09,
+            "screen": {
+              "x": 394.1430179943756,
+              "y": 246.91727736879946
+            }
+          },
+          {
+            "id": "sample",
+            "y": 2.09,
+            "screen": {
+              "x": 435.8304362229298,
+              "y": 248.41171830216803
+            }
+          },
+          {
+            "id": "image",
+            "y": 2.09,
+            "screen": {
+              "x": 478.301975162578,
+              "y": 249.93426896593382
+            }
+          },
+          {
+            "id": "agents",
+            "y": 2.92,
+            "screen": {
+              "x": 399.123790296515,
+              "y": 200.92705754022143
+            }
+          },
+          {
+            "id": "old",
+            "y": 2.92,
+            "screen": {
+              "x": 441.91139192896645,
+              "y": 202.01991621850405
+            }
+          },
+          {
+            "id": "note",
+            "y": 2.92,
+            "screen": {
+              "x": 485.52432572277957,
+              "y": 203.13385510181328
+            }
+          }
+        ],
+        "loaded": true
+      },
+      "branches": {
+        "mode": "shared",
+        "collision": false,
+        "verified": false,
+        "chosen": null,
+        "cartridges": [
+          {
+            "id": "a",
+            "x": -0.22
+          },
+          {
+            "id": "b",
+            "x": 0.22
+          }
+        ],
+        "loaded": false,
+        "ports": [],
+        "cards": [],
+        "controls": []
+      },
+      "drawCalls": 81,
+      "renderFrameMs": 1.9000000059604645,
+      "meshes": 128,
+      "triangles": 342080,
+      "animations": [
+        "Beckon",
+        "Celebrate",
+        "Correct",
+        "Greet",
+        "Idle",
+        "Inspect",
+        "Point",
+        "PointLeft",
+        "Return",
+        "Think",
+        "Travel",
+        "Wait"
+      ],
+      "animationPlaying": false,
+      "gesture": "Greet",
+      "blending": true,
+      "transition": 0,
+      "frameMs": [
+        0,
+        23.900000005960464,
+        10.599999994039536,
+        153.90000000596046,
+        49.20000001788139,
+        10,
+        15.099999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        16.299999982118607,
+        16.700000017881393,
+        19.899999976158142,
+        15.200000017881393,
+        15.099999994039536,
+        16.19999998807907,
+        47.10000002384186,
+        2.5,
+        1.699999988079071,
+        15.900000005960464,
+        22.5,
+        46.400000005960464,
+        20.69999998807907,
+        10.300000011920929,
+        16.69999998807907,
+        17.5,
+        22.5,
+        10.099999994039536,
+        16.5,
+        16.400000005960464,
+        16.19999998807907,
+        17.5,
+        16.600000023841858,
+        16.5,
+        16.799999982118607,
+        16.80000001192093,
+        16.69999998807907,
+        16.599999994039536,
+        16.600000023841858,
+        16.299999982118607,
+        16.599999994039536,
+        16.5,
+        16.700000017881393,
+        17.299999982118607,
+        16.200000017881393,
+        16.19999998807907,
+        17.5,
+        16.200000017881393,
+        16.5,
+        17.399999976158142,
+        16.5,
+        16.600000023841858,
+        16.899999976158142,
+        15.700000017881393,
+        17.599999994039536,
+        16,
+        16.69999998807907,
+        17.30000001192093,
+        16,
+        16.400000005960464,
+        16.900000005960464,
+        16.799999982118607,
+        16.099999994039536,
+        17.200000017881393,
+        17.299999982118607,
+        15.600000023841858,
+        17.099999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        15.599999994039536,
+        17.69999998807907,
+        16.400000005960464,
+        16.900000005960464,
+        16.69999998807907,
+        16.599999994039536,
+        16.100000023841858,
+        17.299999982118607,
+        15.900000005960464,
+        17.30000001192093,
+        16.799999982118607,
+        16.700000017881393,
+        16.599999994039536,
+        16.69999998807907,
+        15.800000011920929,
+        17.099999994039536,
+        17.099999994039536,
+        16.099999994039536,
+        16.400000005960464,
+        16.80000001192093,
+        17.599999994039536,
+        15.699999988079071,
+        17.200000017881393,
+        17,
+        29.299999982118607,
+        3.9000000059604645,
+        16.700000017881393,
+        16.69999998807907,
+        16.69999998807907,
+        16,
+        16.30000001192093,
+        17.599999994039536,
+        16.099999994039536,
+        16.600000023841858,
+        17.399999976158142,
+        16.100000023841858,
+        16.19999998807907,
+        17.099999994039536,
+        17.200000017881393,
+        16.599999994039536,
+        15.900000005960464,
+        16.799999982118607,
+        17.30000001192093,
+        16.599999994039536,
+        16.69999998807907,
+        16.200000017881393,
+        16.799999982118607,
+        16.600000023841858,
+        16.19999998807907,
+        16.599999994039536,
+        17.099999994039536,
+        16.600000023841858,
+        16.5,
+        17.099999994039536,
+        16.299999982118607,
+        17.400000005960464,
+        16.599999994039536,
+        16.5,
+        16.900000005960464,
+        16.700000017881393,
+        16.599999994039536,
+        16.599999994039536,
+        16.69999998807907,
+        15.700000017881393,
+        17.400000005960464,
+        16.69999998807907,
+        16.80000001192093,
+        16.899999976158142,
+        16.100000023841858,
+        17.099999994039536,
+        15.699999988079071,
+        17.599999994039536,
+        16.600000023841858,
+        16.399999976158142,
+        17,
+        16.700000017881393,
+        15.599999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        16.5,
+        16.599999994039536,
+        17.400000005960464,
+        15.699999988079071,
+        17.700000017881393,
+        15.699999988079071,
+        17.5,
+        16.80000001192093,
+        16.599999994039536,
+        15.699999988079071,
+        17.599999994039536,
+        16.700000017881393,
+        16.5,
+        16.599999994039536,
+        16.900000005960464,
+        15.599999994039536,
+        17.80000001192093,
+        15.599999994039536,
+        17.69999998807907,
+        16.599999994039536,
+        15.800000011920929,
+        17.69999998807907,
+        16.600000023841858,
+        16.399999976158142,
+        16.80000001192093,
+        15.900000005960464,
+        17.400000005960464,
+        16.799999982118607,
+        16.099999994039536,
+        17.200000017881393,
+        15.799999982118607,
+        17.5,
+        15.900000005960464,
+        17.200000017881393,
+        16.299999982118607,
+        16.30000001192093,
+        16.69999998807907,
+        17.900000005960464,
+        16,
+        17.099999994039536,
+        16.599999994039536,
+        16.200000017881393,
+        16.299999982118607,
+        17.200000017881393,
+        16.799999982118607,
+        16.80000001192093,
+        16.5,
+        16.900000005960464,
+        16.599999994039536,
+        16.69999998807907,
+        16.700000017881393,
+        16.599999994039536,
+        16.69999998807907,
+        15.800000011920929,
+        16.599999994039536,
+        17.599999994039536,
+        16.600000023841858,
+        15.799999982118607,
+        17.599999994039536,
+        16.700000017881393,
+        16.599999994039536,
+        16.30000001192093,
+        17.19999998807907,
+        16.599999994039536,
+        16.599999994039536,
+        16.700000017881393,
+        16.69999998807907,
+        16.400000005960464,
+        16.599999994039536,
+        16.5,
+        17.099999994039536,
+        16.100000023841858,
+        16.299999982118607,
+        17.599999994039536,
+        16.700000017881393,
+        15.699999988079071,
+        17.599999994039536,
+        16.30000001192093,
+        17,
+        15.900000005960464,
+        16.5,
+        17.599999994039536,
+        16,
+        16.400000005960464,
+        16.69999998807907,
+        17.599999994039536,
+        16.30000001192093,
+        16,
+        17.69999998807907,
+        16.600000023841858,
+        15.799999982118607,
+        17.5,
+        16.200000017881393,
+        16.299999982118607,
+        16.599999994039536,
+        16.80000001192093,
+        17.19999998807907,
+        16,
+        17.100000023841858,
+        17.19999998807907,
+        16.599999994039536,
+        16.700000017881393,
+        16.69999998807907,
+        16.19999998807907,
+        17.100000023841858,
+        15.799999982118607,
+        16.80000001192093,
+        16.69999998807907,
+        16.400000005960464,
+        17.19999998807907,
+        17.100000023841858,
+        16.69999998807907,
+        16.599999994039536,
+        16.700000017881393,
+        15.799999982118607,
+        17.5,
+        16.400000005960464,
+        16,
+        17.19999998807907,
+        17.100000023841858,
+        16.599999994039536,
+        16.69999998807907,
+        16,
+        17,
+        16.400000005960464,
+        17,
+        16.099999994039536,
+        17.200000017881393,
+        16.099999994039536,
+        17.099999994039536,
+        17.19999998807907,
+        16.700000017881393,
+        15.699999988079071,
+        17.599999994039536,
+        16.100000023841858,
+        16.299999982118607,
+        16.900000005960464,
+        16.900000005960464,
+        16.69999998807907,
+        17,
+        15.900000005960464,
+        16.599999994039536,
+        17.400000005960464,
+        16.80000001192093,
+        15.899999976158142,
+        17.200000017881393,
+        16,
+        17.400000005960464,
+        21.799999982118607,
+        523.3000000119209,
+        159.2999999821186,
+        18.900000005960464,
+        10.099999994039536,
+        15.800000011920929,
+        41.099999994039536,
+        9,
+        17.5,
+        16.5,
+        16,
+        17.099999994039536,
+        17.100000023841858,
+        26.099999994039536,
+        6.799999982118607
+      ],
+      "camera": {
+        "alpha": 1.4507963267948965,
+        "beta": 1.31,
+        "radius": 8.8,
+        "target": [
+          -22,
+          2.55,
+          -9.7
+        ],
+        "visibility": null
+      },
+      "mascot": {
+        "x": -23.4,
+        "y": 0.1,
+        "z": -8.3,
+        "displayLift": 1.4439999942847346
+      }
+    },
+    "sound": {
+      "outputRms": 0,
+      "limiterReduction": 0,
+      "time": 0,
+      "voiceActive": false,
+      "unlocked": false,
+      "context": "locked",
+      "muted": true,
+      "paused": true,
+      "hidden": false,
+      "levels": {
+        "voice": 0.9,
+        "music": 0.22,
+        "ambience": 0.2,
+        "effects": 0.55
+      },
+      "voiceBackend": "recorded-kokoro-v1",
+      "voiceMessage": "",
+      "caption": "",
+      "wing": 0,
+      "loops": [],
+      "retiring": 0,
+      "shots": 0,
+      "pending": [],
+      "failures": [],
+      "buffers": [],
+      "gains": {},
+      "master": 0
+    },
+    "graphicsError": ""
+  },
+  "errors": []
+}

@@ -1,0 +1,54 @@
+{
+  "baselineRunId": "run_1789019782708_b2cc24ebf15e4f2aa4dcb6f0cfca3a84",
+  "candidateRunId": "run_1789019803492_d9bdc484e3cc417bab724fb8142654fc",
+  "evidence": {
+    "artisticDefectsDiagnosed": false,
+    "causalAttributionEstablished": false,
+    "deterministicComparisonComputed": true,
+    "heatmapsGenerated": true,
+    "humanVisualReviewPerformed": false,
+    "rasterBytesDecoded": true,
+    "sealedRunsVerified": true,
+    "semanticObjectRegionsCompared": false
+  },
+  "evidenceCeiling": "The comparison proves byte-decoded raster statistics, edge deltas, heatmaps, and optional object-ID-region grouping. It does not diagnose artistic intent, establish causality, or count as human visual review.",
+  "outputPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/evidence/production/floor-study-v1/sealed-comparison",
+  "pairs": [
+    {
+      "baselinePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789019782708_b2cc24ebf15e4f2aa4dcb6f0cfca3a84/arrival.png",
+      "candidatePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789019803492_d9bdc484e3cc417bab724fb8142654fc/arrival.png",
+      "changedPixelRatio": 0.052946759259259256,
+      "comparable": true,
+      "heatmapPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/evidence/production/floor-study-v1/sealed-comparison/0_arrival_color_.heatmap.png",
+      "height": 900,
+      "identity": "0:arrival:color:",
+      "kind": "color",
+      "maximumChannelDelta": 0.4666666666666667,
+      "meanAbsoluteEdgeDelta": 0.0020804683122789707,
+      "meanAbsoluteError": 0.0015546818264342774,
+      "meanLuminanceDelta": -0.0008604691690873626,
+      "rootMeanSquaredError": 0.016617184419681238,
+      "width": 1440
+    },
+    {
+      "baselinePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789019782708_b2cc24ebf15e4f2aa4dcb6f0cfca3a84/archive.png",
+      "candidatePath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789019803492_d9bdc484e3cc417bab724fb8142654fc/archive.png",
+      "changedPixelRatio": 0.009680555555555555,
+      "comparable": true,
+      "heatmapPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/evidence/production/floor-study-v1/sealed-comparison/1_archive_color_.heatmap.png",
+      "height": 900,
+      "identity": "1:archive:color:",
+      "kind": "color",
+      "maximumChannelDelta": 0.33725490196078434,
+      "meanAbsoluteEdgeDelta": 0.0005341356506292723,
+      "meanAbsoluteError": 0.0003337917574437182,
+      "meanLuminanceDelta": 0.00023397695110142963,
+      "rootMeanSquaredError": 0.006416890403810598,
+      "width": 1440
+    }
+  ],
+  "schema": "game_dev.visual_comparison.v1",
+  "threshold": 0,
+  "unmatchedBaseline": [],
+  "unmatchedCandidate": []
+}

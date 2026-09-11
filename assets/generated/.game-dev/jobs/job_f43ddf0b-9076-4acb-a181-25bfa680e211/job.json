@@ -1,0 +1,22 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_f43ddf0b-9076-4acb-a181-25bfa680e211",
+  "operation": "package.verify",
+  "status": "completed",
+  "request": {
+    "positionals": [
+      "package",
+      "verify",
+      "assets/generated/.game-dev/packages/codex_guide/4.1.0"
+    ],
+    "flags": {}
+  },
+  "attempts": 1,
+  "eventCount": 1,
+  "artifacts": [],
+  "createdAt": "2026-09-10T09:44:59.466Z",
+  "updatedAt": "2026-09-10T09:44:59.501Z",
+  "startedAt": "2026-09-10T09:44:59.474Z",
+  "completedAt": "2026-09-10T09:44:59.501Z",
+  "receiptPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/jobs/job_f43ddf0b-9076-4acb-a181-25bfa680e211/receipt.json"
+}

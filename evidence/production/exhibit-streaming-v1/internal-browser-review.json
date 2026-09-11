@@ -1,0 +1,19 @@
+{
+  "reviewer": "assistant",
+  "surface": "Codex internal browser",
+  "tabId": 36,
+  "url": "http://127.0.0.1:43211/?review=exhibit-residency-final",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "checks": [
+    "Observed missing old handoff module after an actual local rebuild",
+    "Try again detected a different entry-script release and offered Reload tour",
+    "Reload tour opened the new world successfully",
+    "Continue your journey returned to the handoff dock with 9/12 saved discoveries",
+    "Mascot and handoff exhibit were visible beside the lesson panel",
+    "Left the restored scene paused for review"
+  ],
+  "scope": "Actual internal-browser UI actions and screenshot assessment; not a human pilot, hosted update test or all-room visual approval"
+}

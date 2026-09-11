@@ -1,0 +1,55 @@
+{
+  "pass": true,
+  "date": "2026-09-10T20:07:41.389582+00:00",
+  "archiveSha256": "c764997b38c3ae6a55fc25e5196f6184bf32ab890c368788d2fc2319686df8bf",
+  "uniqueSafeEntries": 81,
+  "checks": [
+    {
+      "folder": "cedar-capstone",
+      "command": [
+        "python3",
+        "check_reports.py"
+      ],
+      "exitCode": 0,
+      "stdout": "CHECK PASSED: 2 saved reporting periods match independent source calculations.\n",
+      "stderr": ""
+    },
+    {
+      "folder": "tool-workshop",
+      "command": [
+        "python3",
+        "check.py"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS: both saved CSV files match every source field.\n",
+      "stderr": ""
+    },
+    {
+      "folder": "review-bench",
+      "command": [
+        "node",
+        "check.mjs"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS case 1\nPASS case 2\nPASS case 3\n",
+      "stderr": ""
+    },
+    {
+      "folder": "model-observatory/billing",
+      "command": [
+        "node",
+        "check.mjs"
+      ],
+      "exitCode": 0,
+      "stdout": "PASS: Standard order\nPASS: Member order\nPASS: Larger member order\nPASS: Different discount and tax\nPASS: Zero tax\n",
+      "stderr": ""
+    },
+    {
+      "folder": "root practice fixture",
+      "brokenExitCode": 1,
+      "repairedExitCode": 0,
+      "originalRetainedInArchive": true
+    }
+  ],
+  "scope": "Actual starter ZIP downloaded from the restored hosted full journey; extracted safely and executed its four checked delivery scripts plus broken/repaired root practice acceptance. Separate from tests of generated in-memory templates."
+}

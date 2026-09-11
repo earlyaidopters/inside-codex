@@ -1,0 +1,23 @@
+{
+  "schema": "game_dev.receipt.v1",
+  "operation": "performance.goal-evaluate",
+  "result": {
+    "schema": "game_dev.optimization_evaluation.v1",
+    "dryRun": false,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-release-high-targets.json",
+    "goalId": "balanced-release-high-targets",
+    "iteration": 1,
+    "candidateRunId": "run_1789040606556_b7de955ed5f44993ac86cecae136fdb1",
+    "baselineValue": 274553946.6,
+    "candidateValue": 240637300.2,
+    "target": 245000000,
+    "targetMet": true,
+    "status": "met",
+    "remainingIterations": 1,
+    "allowedPaths": [
+      "src/world.ts"
+    ],
+    "evidenceCeiling": "Evaluation proves only that the sealed candidate metric meets or misses the declared numerical target. It does not prove causality, visual correctness, gameplay quality, or permission to edit outside allowedPaths."
+  },
+  "completedAt": "2026-09-10T11:46:20.621Z"
+}

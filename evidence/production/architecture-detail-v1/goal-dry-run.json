@@ -1,0 +1,41 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.goal-create",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.optimization_goal_result.v1",
+    "dryRun": true,
+    "goalPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/goals/balanced-architecture-detail.json",
+    "goal": {
+      "schema": "game_dev.optimization_goal.v1",
+      "id": "balanced-architecture-detail",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "adapterId": "inside-codex",
+      "scenarioId": "warm-traversal",
+      "metric": "render.active_triangles",
+      "statistic": "max",
+      "unit": "count",
+      "direction": "lower",
+      "target": 250000,
+      "maximumIterations": 1,
+      "allowedPaths": [
+        "public/assets/headquarters/streamed",
+        "src/architecture-detail.ts",
+        "src/world.ts",
+        "tests/architecture-detail",
+        "tools/geometry"
+      ],
+      "baseline": {
+        "runId": "run_1789053170347_b49660160e8a4c55a2b1ac622f0fe2d4",
+        "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789053170347_b49660160e8a4c55a2b1ac622f0fe2d4",
+        "value": 295364
+      },
+      "createdAt": "2026-09-10T15:31:17.650Z",
+      "state": {
+        "status": "active",
+        "iterations": []
+      }
+    },
+    "evidenceCeiling": "The goal binds one metric, target, baseline, iteration ceiling, and patch allowlist. It authorizes neither capture execution nor edits outside the allowlist and does not prove that a future patch caused any measurement change."
+  }
+}

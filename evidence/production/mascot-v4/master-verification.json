@@ -1,0 +1,225 @@
+{
+  "pass": true,
+  "master": "art-source/codex-mascot-traced-glyph-v4.blend",
+  "masterSha256": "8bee1d1ab024f29c1cc85275cfa336c66b80dd4bc969f3879778250d542f7053",
+  "actions": [
+    {
+      "name": "Beckon",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Celebrate",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Correct",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Greet",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Idle",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        61.0
+      ]
+    },
+    {
+      "name": "Inspect",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Point",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "PointLeft",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Return",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Think",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        91.0
+      ]
+    },
+    {
+      "name": "Travel",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        61.0
+      ]
+    },
+    {
+      "name": "Wait",
+      "retainedOnSave": true,
+      "range": [
+        1.0,
+        61.0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Codex logo core",
+      "vertices": 3584,
+      "groups": [
+        "Core"
+      ]
+    },
+    {
+      "name": "Left floating forearm",
+      "vertices": 816,
+      "groups": [
+        "Left"
+      ]
+    },
+    {
+      "name": "Left wrist",
+      "vertices": 610,
+      "groups": [
+        "Left"
+      ]
+    },
+    {
+      "name": "Left palm",
+      "vertices": 610,
+      "groups": [
+        "Left"
+      ]
+    },
+    {
+      "name": "Left finger 0",
+      "vertices": 610,
+      "groups": [
+        "Left"
+      ]
+    },
+    {
+      "name": "Left finger 1",
+      "vertices": 610,
+      "groups": [
+        "Left"
+      ]
+    },
+    {
+      "name": "Left finger 2",
+      "vertices": 610,
+      "groups": [
+        "Left"
+      ]
+    },
+    {
+      "name": "Left thumb",
+      "vertices": 610,
+      "groups": [
+        "Left"
+      ]
+    },
+    {
+      "name": "Right floating forearm",
+      "vertices": 816,
+      "groups": [
+        "Right"
+      ]
+    },
+    {
+      "name": "Right wrist",
+      "vertices": 610,
+      "groups": [
+        "Right"
+      ]
+    },
+    {
+      "name": "Right palm",
+      "vertices": 610,
+      "groups": [
+        "Right"
+      ]
+    },
+    {
+      "name": "Right finger 0",
+      "vertices": 610,
+      "groups": [
+        "Right"
+      ]
+    },
+    {
+      "name": "Right finger 1",
+      "vertices": 610,
+      "groups": [
+        "Right"
+      ]
+    },
+    {
+      "name": "Right finger 2",
+      "vertices": 610,
+      "groups": [
+        "Right"
+      ]
+    },
+    {
+      "name": "Right thumb",
+      "vertices": 610,
+      "groups": [
+        "Right"
+      ]
+    },
+    {
+      "name": "White prompt chevron",
+      "vertices": 288,
+      "groups": [
+        "Core"
+      ]
+    },
+    {
+      "name": "White prompt underscore",
+      "vertices": 180,
+      "groups": [
+        "Core"
+      ]
+    }
+  ],
+  "scope": "Reopened saved authoring master. Twelve persistent actions and complete rigid skin weights on all 17 meshes; no renderer or cross-engine claim."
+}

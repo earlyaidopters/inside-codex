@@ -1,0 +1,11 @@
+import {NodeIO} from '@gltf-transform/core';import {ALL_EXTENSIONS} from '@gltf-transform/extensions';import fs from 'node:fs/promises';import crypto from 'node:crypto';import assert from 'node:assert/strict';
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS),source=await io.read('../art-source/headquarters-browser-unquantized-v1.glb'),candidate=await io.read('../evidence/production/floor-study-v1/candidates/flat-inlays-wide-unquantized.glb');
+function triangles(n){const m=n.getWorldMatrix(),all=[];
+ for(const p of n.getMesh().listPrimitives()){const a=p.getAttribute('POSITION'),uv=p.getAttribute('TEXCOORD_0'),ind=p.getIndices().getArray();for(let i=0;i<ind.length;i+=3){const verts=[];for(let k=0;k<3;k++){const v=a.getElement(ind[i+k],[0,0,0]),t=uv?.getElement(ind[i+k],[0,0])??[];verts.push([m[0]*v[0]+m[4]*v[1]+m[8]*v[2]+m[12],m[1]*v[0]+m[5]*v[1]+m[9]*v[2]+m[13],m[2]*v[0]+m[6]*v[1]+m[10]*v[2]+m[14],...t].map(x=>Math.round(x*1e5)).join(','));}all.push(p.getMaterial().getName()+':'+verts.sort().join(';'));}}
+ return all.sort();
+}
+const reports=[];
+for(const name of ['Architecture exterior','Architecture shell','Architecture furnishings']){const a=triangles(source.getRoot().listNodes().find(n=>n.getName()===name)),b=triangles(candidate.getRoot().listNodes().find(n=>n.getName()===name));assert.deepEqual(b,a,`${name}: geometry/UV changes`);reports.push({name,triangles:a.length,geometryAndUVsUnchanged:true});}
+const a=triangles(source.getRoot().listNodes().find(n=>n.getName()==='Architecture floor')),b=triangles(candidate.getRoot().listNodes().find(n=>n.getName()==='Architecture floor')),original=new Set(a);assert(b.every(t=>original.has(t)),'Retained floor contains moved geometry or changed UVs');reports.push({name:'Architecture floor',beforeTriangles:a.length,retainedTriangles:b.length,retainedGeometryAndUVsUnchanged:true});
+const textures=d=>d.getRoot().listTextures().map(t=>crypto.createHash('sha256').update(t.getImage()).digest('hex')).sort();assert.deepEqual(textures(candidate),textures(source));
+const report={pass:true,tolerance:'Positions and UVs compared at 1e-5; triangle winding/order ignored for equivalent indexing',reports,embeddedTexturesByteIdentical:true};await fs.writeFile('../evidence/production/floor-study-v1/retention.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

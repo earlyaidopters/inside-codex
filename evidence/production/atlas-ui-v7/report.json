@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "entries": 50,
+  "checks": [
+    "Model search shows its availability requirements and copies the selected request",
+    "CLI tool filter excludes the built-in browser while retaining MCP",
+    "Empty search gives a recoverable filter message",
+    "Installation-specific task actions retain their explicit evidence boundary",
+    "Portrait and short landscape preserve copying, unobscured request text and an accessible close action",
+    "Offline download contains every field note despite the active UI filters",
+    "Keyboard focus wraps inside the atlas and returns to Field notes after Escape"
+  ],
+  "errors": []
+}

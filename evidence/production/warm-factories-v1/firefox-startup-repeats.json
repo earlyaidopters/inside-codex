@@ -1,0 +1,182 @@
+[
+  {
+    "n": 0,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 1,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 2,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 3,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 4,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 5,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 6,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 7,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 8,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 9,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 10,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 11,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 12,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 13,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  },
+  {
+    "n": 14,
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:43211/assets/harness-exhibit-BjiNNAMd.js",
+        "error": "NS_ERROR_FAILURE"
+      }
+    ],
+    "graphicsError": "",
+    "pass": true
+  }
+]

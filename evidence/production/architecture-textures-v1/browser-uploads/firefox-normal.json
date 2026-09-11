@@ -1,0 +1,9 @@
+{
+  "engine": "firefox",
+  "version": "155.0",
+  "fixture": "normal",
+  "pass": false,
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(textures.every(t=>t.width===2048&&t.height===2048&&t.ready))\n",
+  "errors": [],
+  "external": []
+}

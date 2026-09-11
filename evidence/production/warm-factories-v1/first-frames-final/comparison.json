@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "frame": 1,
+      "pixelsIdenticalToFrame8": true,
+      "activeMeshesIdenticalToFrame8": true
+    },
+    {
+      "frame": 2,
+      "pixelsIdenticalToFrame8": true,
+      "activeMeshesIdenticalToFrame8": true
+    },
+    {
+      "frame": 3,
+      "pixelsIdenticalToFrame8": true,
+      "activeMeshesIdenticalToFrame8": true
+    }
+  ],
+  "scope": "One reduced-motion handoff-to-control jump in Chrome at 1440x900. First rendered camera frames, not just settled readiness. The first scene.ready value is false despite identical captured pixels; no blanket readiness claim."
+}

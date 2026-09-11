@@ -1,0 +1,46 @@
+{
+  "samples": 256,
+  "passes": [
+    "INDIRECT",
+    "COLOR"
+  ],
+  "resolution": [
+    2048,
+    2048
+  ],
+  "margin": 12,
+  "master": "art-source/headquarters-clear-promenade-runtime.blend",
+  "masterSha256": "988034846dde4f8a0b2257474c6328ae4d7f55c6f033ff7d5a5f9cc0d4b9f418",
+  "albedoInputs": [
+    {
+      "path": "art-source/headquarters-texture-sources/floor-albedo.png",
+      "sha256": "6222ad2ca58e70af5efd114b6b6c32539929a49ab0322a147c61304aad1eae11"
+    },
+    {
+      "path": "art-source/headquarters-texture-sources/shell-albedo.png",
+      "sha256": "4c9132c22c928330e1bbfb19305554c4e348ee2e4f291752f568aa8b54438727"
+    },
+    {
+      "path": "art-source/headquarters-texture-sources/furnishings-albedo.png",
+      "sha256": "55aa7070a6441f7687a820aa1191dcda0622f116c4ccd01851c6307565d5f3b0"
+    }
+  ],
+  "bakes": [
+    {
+      "group": "floor",
+      "elapsedSeconds": 16.922502994537354,
+      "sha256": "cd52ef06d65bd627fc174f50fe03a679481ecd5f31a7a75b30a89ce692cc2fcc"
+    },
+    {
+      "group": "shell",
+      "elapsedSeconds": 8.020802974700928,
+      "sha256": "2381ac4404650a30609540845e3d0e59d404f8a11c7f55fcd133f812bf246d3e"
+    },
+    {
+      "group": "furnishings",
+      "elapsedSeconds": 6.493745803833008,
+      "sha256": "ae8ccfff7d4db16f5be41c2dcd061d1937e93a3e52176f162b88cc4743daa4e6"
+    }
+  ],
+  "blender": "5.2.1 LTS"
+}

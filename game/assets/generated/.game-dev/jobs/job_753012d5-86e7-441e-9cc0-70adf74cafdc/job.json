@@ -1,0 +1,107 @@
+{
+  "schema": "game_dev.job.v1",
+  "id": "job_753012d5-86e7-441e-9cc0-70adf74cafdc",
+  "operation": "scenario.run",
+  "status": "failed",
+  "request": {
+    "positionals": [
+      "scenario",
+      "run",
+      "cold-startup"
+    ],
+    "flags": {
+      "project": "."
+    },
+    "input": {
+      "quality": "balanced"
+    }
+  },
+  "attempts": 1,
+  "eventCount": 4,
+  "artifacts": [],
+  "createdAt": "2026-09-10T14:39:35.874Z",
+  "updatedAt": "2026-09-10T14:39:47.111Z",
+  "startedAt": "2026-09-10T14:39:35.882Z",
+  "completedAt": "2026-09-10T14:39:47.111Z",
+  "error": {
+    "schema": "game_dev.scenario_run_result.v1",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789051175895_b9ff2094cdf94c5c9bcc98f81634cfa7",
+    "manifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789051175895_b9ff2094cdf94c5c9bcc98f81634cfa7/run.json",
+    "manifestSha256": "092a14aa3739068ba94995ece0396070fc6571c437ee714c61df8dee132c0653",
+    "run": {
+      "schema": "game_dev.run.v1",
+      "runId": "run_1789051175895_b9ff2094cdf94c5c9bcc98f81634cfa7",
+      "adapterId": "inside-codex",
+      "adapterVersion": "1.0.0",
+      "adapterManifestSha256": "febdc34f349d8b7afe988ca497435e6c7330327874db4e8bc6c552f1fb45bdd7",
+      "scenarioId": "cold-startup",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "startedAt": "2026-09-10T14:39:35.921Z",
+      "completedAt": "2026-09-10T14:39:47.093Z",
+      "durationMs": 11173,
+      "status": "failed",
+      "process": {
+        "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-startup-scenario.mjs",
+        "arguments": [
+          "balanced"
+        ],
+        "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+        "exitCode": 1,
+        "signal": null,
+        "stdoutTruncated": false,
+        "stderrTruncated": false
+      },
+      "failure": {
+        "code": "PROCESS_FAILED",
+        "message": "scenario process exited 1"
+      },
+      "artifacts": [
+        {
+          "path": "adapter.json",
+          "kind": "adapter",
+          "bytes": 3432,
+          "sha256": "7c5ee8db7c8df145cb4c67945052b769729f33ec409ff6349a3761466d77fcb1"
+        },
+        {
+          "path": "plan.json",
+          "kind": "plan",
+          "bytes": 1702,
+          "sha256": "580264cc3a2863cb20d51aea272cb25e273fd7696bfd867bd5f7eb6f388001f0"
+        },
+        {
+          "path": "request.json",
+          "kind": "request",
+          "bytes": 28,
+          "sha256": "cd23aa00f4b4d1f338cf9276eb5476de7a996f62a360f15501da655291d54e62"
+        },
+        {
+          "path": "stderr.log",
+          "kind": "stderr",
+          "bytes": 469,
+          "sha256": "c697436cd55b36b7773ddd16e7737c2c5c28777ed5a9014915ccce42da844d10"
+        },
+        {
+          "path": "stdout.log",
+          "kind": "stdout",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "evidence": {
+        "commandExecuted": true,
+        "processExitedSuccessfully": false,
+        "artifactRosterClosedAndHashed": true,
+        "captureContractValidated": false,
+        "rasterBytesDecoded": false,
+        "adapterReportedGpuExecution": false,
+        "adapterReportedGpuCompletionIdentity": false,
+        "adapterReportedHardwarePerformance": false,
+        "hardwareGpuExecutionProvenByHarnessAlone": false,
+        "hardwarePerformanceEvidenceAdmitted": false,
+        "hardwarePerformanceMeasuredByHarnessAlone": false,
+        "humanVisualReviewPerformed": false,
+        "evidenceCeiling": "The harness proves process status, schema validation, decoded raster bytes, and a closed SHA-256 artifact roster. GPU completion and hardware timing remain source-adapter claims unless separately joined to native evidence; no human visual review is inferred."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-09-10T05:39:14.895393+00:00",
+  "kind": "Authored fictional error-state fixture rendered in Chromium; not a real client screenshot",
+  "html": {
+    "path": "game/public/assets/context/save-error.html",
+    "sha256": "be4881c595fc56a658f240724f0b4e8251f1db7d166bfbc0fda0ea417b95d754"
+  },
+  "image": {
+    "path": "game/public/assets/context/save-error.png",
+    "sha256": "fc56c1c757e214e1f0441ccf4d012e9fb4bf34616faed0df48a3958e8dfe3ede",
+    "width": 420,
+    "height": 720
+  },
+  "capture": {
+    "browser": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "driver": "Playwright 1.63.0",
+    "viewport": {
+      "width": 420,
+      "height": 720
+    },
+    "deviceScaleFactor": 1,
+    "fullPage": true
+  },
+  "purpose": "The empty approval_owner field is visible; the image provides the error field but not the owner value. The approved brief supplies Nina Patel.",
+  "externalProvider": null
+}

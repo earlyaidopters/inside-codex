@@ -1,0 +1,72 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "quality": "high",
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "quality": "balanced",
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "quality": "high",
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "quality": "balanced",
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "quality": "high",
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "quality": "balanced",
+      "ports": [
+        "context",
+        "tools",
+        "verify"
+      ],
+      "pass": true
+    }
+  ],
+  "errors": []
+}

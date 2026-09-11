@@ -1,0 +1,9 @@
+{
+  "asset": "game/public/assets/codex-mascot.glb",
+  "sha256": "122fda9e281d73738997ece90ffae2c6210f0826082334dd1069741e9f544814",
+  "bytes": 912504,
+  "editableMaster": "art-source/codex-mascot-traced-glyph-v2.blend",
+  "sourceActionsMaster": "art-source/codex-mascot-all-actions.blend",
+  "baseline": "evidence/production/mascot-v4/baseline.glb",
+  "evidence": "64 hierarchy comparison frames plus 64 revised pose frames; actual-game checks follow"
+}

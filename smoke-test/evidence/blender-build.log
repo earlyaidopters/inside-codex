@@ -1,0 +1,53 @@
+/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/scripts/build-scene.py:26: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes = True
+/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/scripts/build-scene.py:33: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+02:39.418  render           | Saved: '/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/artifacts/blender-render.png'
+Info: Saved as "diagnostic-scene.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+22:17:30 | INFO: Starting glTF 2.0 export
+22:17:30 | INFO: Extracting primitive: Cylinder.001
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.004
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.013
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.014
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.009
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.005
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.007
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.011
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.010
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.015
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.003
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.001
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.006
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.008
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.002
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cylinder
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cylinder.002
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Extracting primitive: Cube.012
+22:17:30 | INFO: Primitives created: 1
+22:17:30 | INFO: Finished glTF 2.0 export in 0.03390908241271973 s
+
+SMOKE_TEST_BUILD {"blenderVersion": "5.2.1 LTS", "render": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/smoke-test/artifacts/blender-render.png", "renderDevice": {"engine": "CYCLES", "requested": "METAL", "devices": [{"name": "Apple M5 Max", "type": "CPU"}, {"name": "Apple M5 Max (GPU - 40 cores)", "type": "METAL"}]}, "glbBytes": 302488, "glbSha256": "6086cdce035132a44186cde22bc9de71a563f6e93c2b666afe9dd300d231dc79", "triangles": 6068, "meshObjects": 19, "materials": 6, "imageTextures": 1, "bones": 2, "animation": "Companion wave", "humanCreativeApproval": false, "scope": "Engineering smoke-test fixture only"}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

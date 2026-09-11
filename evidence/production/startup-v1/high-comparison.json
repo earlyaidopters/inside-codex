@@ -1,0 +1,41 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "performance.compare",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.performance_comparison.v2",
+    "baselineRunId": "run_1789035292168_d3942abb16bc43079222b5c83cba8df2",
+    "candidateRunId": "run_1789036240372_093761c14d17404db3195197c8ff350b",
+    "statistic": "median",
+    "metrics": [
+      {
+        "metric": "startup.ready_time",
+        "unit": "ms",
+        "baseline": 4825,
+        "candidate": 3527.5,
+        "delta": -1297.5,
+        "percentDelta": -26.89119170984456
+      },
+      {
+        "metric": "startup.transfer_bytes",
+        "unit": "bytes",
+        "baseline": 11498996,
+        "candidate": 7335849,
+        "delta": -4163147,
+        "percentDelta": -36.20443906581062
+      }
+    ],
+    "missingBaseline": [],
+    "missingCandidate": [],
+    "incompatibleGroups": [],
+    "comparability": {
+      "status": "incompatible",
+      "differences": [
+        "build"
+      ],
+      "unknown": []
+    },
+    "hardwarePerformanceComparisonAdmitted": false,
+    "evidenceCeiling": "The comparison reports arithmetic deltas only. Direction, target, regression status, causal explanation, and optimization success require an explicit bounded goal; hardware claims require both runs to admit hardware-performance evidence."
+  }
+}

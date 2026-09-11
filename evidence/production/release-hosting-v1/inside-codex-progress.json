@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "completed": [
+    0
+  ],
+  "attempts": {
+    "harness.0": 1,
+    "harness.1": 1,
+    "tasks.0": 1
+  },
+  "hints": {},
+  "capstone": [],
+  "lastMission": 8,
+  "workspace": {
+    "tasks": [
+      {
+        "id": "onboarding-review",
+        "title": "Onboarding review",
+        "brief": "Review the onboarding checklist, find missing approval steps, and verify the saved result against the client brief.",
+        "effort": "high",
+        "pinned": true,
+        "status": "ready"
+      }
+    ]
+  },
+  "settings": {
+    "muted": true,
+    "reduced": true,
+    "quality": "balanced",
+    "audio": {
+      "voice": 0.9,
+      "music": 0.22,
+      "ambience": 0.2,
+      "effects": 0.55
+    }
+  }
+}

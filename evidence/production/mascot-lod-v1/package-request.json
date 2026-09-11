@@ -1,0 +1,21 @@
+{
+  "description": "Balanced-detail Codex guide. Twelve rounded hand parts reduced by half; source-traced glyph, shell, forearms, skin and twelve clips retained. Internal production asset.",
+  "category": "character",
+  "policy": {
+    "maxTriangles": 25000,
+    "maxMaterials": 4,
+    "minDimensionMeters": 0.05,
+    "maxDimensionMeters": 4,
+    "requireNormals": true,
+    "requireUVs": false,
+    "requireBaseColorTexture": false,
+    "requireTangentsWithNormalMap": true
+  },
+  "provenance": {
+    "origin": "authored",
+    "author": "Mark Kashef project, authored with Codex",
+    "prompt": "Use the supplied Codex logo as the personified guide to a high-quality educational tour through the Codex ecosystem.",
+    "negativePrompt": "Do not invent another logo or distort the original glyph; no paid provider generation.",
+    "notes": "Source raster is game/public/assets/codex-reference.png, hash retained in art-source/glyph-contours.json. Source authoring and all actions are preserved in art-source/codex-mascot-traced-glyph-v4.blend. Export is normalized only by promoting identity-transform skinned nodes; full binary payload is preserved at that normalization stage. Material design uses vertex color and PBR constants, so image textures/UVs are not required by this asset policy. Package integrity is separate from source-logo rights and final release approval. Balanced master: art-source/codex-mascot-balanced.blend. Only twelve rounded hand meshes receive a 0.5 collapse decimation. Static validation preserves all animation and bind data; five unchanged meshes have byte-identical primitive arrays. GLB SHA256: 07785f58bbebd6fbb48543542d409c6deca5cb0a0651bab8657419933ee764ee."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "visual.analyze",
+  "ok": true,
+  "data": {
+    "schema": "game_dev.visual_analysis.v1",
+    "runId": "run_1789031880128_e237c4724272411fb2d9098391a09bcf",
+    "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031880128_e237c4724272411fb2d9098391a09bcf",
+    "adapterId": "inside-codex",
+    "scenarioId": "promenade-finish",
+    "rasters": [
+      {
+        "frameIndex": 0,
+        "frameLabel": "arrival",
+        "kind": "color",
+        "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031880128_e237c4724272411fb2d9098391a09bcf/arrival.png",
+        "width": 1440,
+        "height": 900,
+        "channels": {
+          "minimum": [
+            0,
+            2,
+            1,
+            255
+          ],
+          "maximum": [
+            253,
+            253,
+            255,
+            255
+          ],
+          "mean": [
+            152.14063348765433,
+            144.51044830246914,
+            140.55680169753086,
+            255
+          ]
+        },
+        "meanLuminance": 0.5719496956402931,
+        "alphaCoverage": 1
+      },
+      {
+        "frameIndex": 1,
+        "frameLabel": "archive",
+        "kind": "color",
+        "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/assets/generated/.game-dev/runs/run_1789031880128_e237c4724272411fb2d9098391a09bcf/archive.png",
+        "width": 1440,
+        "height": 900,
+        "channels": {
+          "minimum": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "maximum": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "mean": [
+            154.12718441358024,
+            152.65231018518517,
+            153.93721527777777,
+            255
+          ]
+        },
+        "meanLuminance": 0.6002299552643532,
+        "alphaCoverage": 1
+      }
+    ],
+    "evidence": {
+      "sealedRunVerified": true,
+      "rasterBytesDecoded": true,
+      "deterministicStatisticsComputed": true,
+      "artisticDefectsDiagnosed": false,
+      "humanVisualReviewPerformed": false
+    },
+    "evidenceCeiling": "Analysis proves deterministic statistics over decoded sealed raster bytes. It does not identify artistic defects, prove visual quality, or substitute for human review."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "authoring": "Original deterministic additive instruments, filtered noise, cyclic composition and local delay network. No external samples.",
+  "license": "Project-authored audio; no third-party recording dependency.",
+  "assets": [
+    {
+      "id": "headquarters-score",
+      "seconds": 48.0,
+      "loop": true,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -26.979250929759292,
+      "seamDelta": 0.0017135836621550923,
+      "maxAdjacentDelta": 0.01673266840189437,
+      "bytes": 769580,
+      "sha256": "90b7597d6cee0a88fb3fd13ad36cc589c935cb9057b8483fdef65b7f08bf79a8"
+    },
+    {
+      "id": "wing-0",
+      "seconds": 12.0,
+      "loop": true,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -25.611221849699234,
+      "seamDelta": 0.0007218908376553576,
+      "maxAdjacentDelta": 0.010086156075312568,
+      "bytes": 193580,
+      "sha256": "67df027b5425934ffcd6be02e613c7f0baca11994765757a4e9a795b4531e69c"
+    },
+    {
+      "id": "wing-1",
+      "seconds": 12.0,
+      "loop": true,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -24.78713751860639,
+      "seamDelta": 0.004440513581713809,
+      "maxAdjacentDelta": 0.012174100255510923,
+      "bytes": 193580,
+      "sha256": "5061aa914a69419e37de1f60f70a7172a9bc5bd98db669a34e67c4de5d460624"
+    },
+    {
+      "id": "wing-2",
+      "seconds": 12.0,
+      "loop": true,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -25.430231529586194,
+      "seamDelta": 0.001489095313081612,
+      "maxAdjacentDelta": 0.01119181108200629,
+      "bytes": 193580,
+      "sha256": "e661a8d920b93159c6f6ee3f66f2ed0ee0f7c383ba2d88dbbad93d238ce26d24"
+    },
+    {
+      "id": "success",
+      "seconds": 2.8,
+      "loop": false,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -23.91243897452825,
+      "seamDelta": 0.0,
+      "maxAdjacentDelta": 0.0358223744806181,
+      "bytes": 46124,
+      "sha256": "ddc8ff4d97157be44c59478bbd48d31f308ae6f2194ae80d187ab63a231d781b"
+    },
+    {
+      "id": "reconsider",
+      "seconds": 2.2,
+      "loop": false,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -21.54131089686281,
+      "seamDelta": 0.0,
+      "maxAdjacentDelta": 0.022291357761921034,
+      "bytes": 36908,
+      "sha256": "bcbdac7adc239baadb0c6d88a6965f7e98aa1a53eb334e9ee51bbed67bd45da8"
+    },
+    {
+      "id": "travel",
+      "seconds": 1.8,
+      "loop": false,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -23.246115932853094,
+      "seamDelta": 0.0,
+      "maxAdjacentDelta": 0.01651440344040453,
+      "bytes": 29996,
+      "sha256": "06f275c74dd27f3c3fdedbbf8d329b65e742015646ab6831f8fc155c6dfc84e9"
+    },
+    {
+      "id": "select",
+      "seconds": 0.25,
+      "loop": false,
+      "sampleRate": 32000,
+      "peakDbfs": -12.39577516576788,
+      "rmsDbfs": -19.709477127372143,
+      "seamDelta": 0.0,
+      "maxAdjacentDelta": 0.0468745693962291,
+      "bytes": 5228,
+      "sha256": "9d862bca98e19e89f4ee63d5db3667464fd2b610d266bf5e050b9c22558b1e5a"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/audio-v1-source.zip",
+  "bytes": 99879116,
+  "sha256": "1f1a9d4cf4852189b8c55f8f467f020c246d4034078b5da3edcb1903ee8f12a5",
+  "verifiedFiles": 499,
+  "scope": "Audio source/master/evidence overlay on the prior cold-view checkpoint and its bases. Rebuild game/dist after restoring. Cached TTS/ASR models and environments are excluded.",
+  "fullReleaseAccepted": false
+}

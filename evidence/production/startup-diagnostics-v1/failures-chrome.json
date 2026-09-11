@@ -1,0 +1,1105 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "name": "chrome",
+      "mode": "world-module",
+      "pass": true,
+      "errors": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:43211/assets/world-Be_FNUKg.js",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "failure": {
+        "status": "failed",
+        "phase": "world-module",
+        "elapsedMs": 42.8,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0.1
+          },
+          {
+            "kind": "failed",
+            "phase": "world-module",
+            "atMs": 24.2
+          }
+        ],
+        "failure": {
+          "phase": "world-module",
+          "atMs": 24,
+          "name": "TypeError",
+          "message": "Failed to fetch dynamically imported module: http://127.0.0.1:43211/assets/world-Be_FNUKg.js",
+          "causes": []
+        }
+      },
+      "restored": {
+        "status": "complete",
+        "phase": "graphics-ready",
+        "elapsedMs": 575.1,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 74.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 74.7
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 88.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 99.8
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 156.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 157
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 157
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 157
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 323
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 323.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 326.2
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 326.2
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 352.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "guide",
+            "atMs": 373.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-finalization",
+            "atMs": 373.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "render-audit",
+            "atMs": 407.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "render-audit",
+            "atMs": 409.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "exhibits",
+            "atMs": 410.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "exhibits",
+            "atMs": 435.7
+          },
+          {
+            "kind": "phase-start",
+            "phase": "environment",
+            "atMs": 435.7
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "environment",
+            "atMs": 435.7
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-ready",
+            "atMs": 435.8
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "graphics-ready",
+            "atMs": 567.8
+          },
+          {
+            "kind": "complete",
+            "phase": "graphics-ready",
+            "atMs": 568.1
+          }
+        ],
+        "failure": null
+      }
+    },
+    {
+      "name": "chrome",
+      "mode": "architecture",
+      "pass": true,
+      "errors": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:43211/assets/headquarters/streamed/architecture.glb.gz",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "failure": {
+        "status": "failed",
+        "phase": "architecture",
+        "elapsedMs": 99.9,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 64.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 65.2
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 78.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 89.1
+          },
+          {
+            "kind": "failed",
+            "phase": "architecture",
+            "atMs": 92.5
+          },
+          {
+            "kind": "world-disposed",
+            "phase": "architecture",
+            "atMs": 94.3
+          }
+        ],
+        "failure": {
+          "phase": "architecture",
+          "atMs": 92.4,
+          "name": "Error",
+          "message": "Headquarters download failed",
+          "causes": []
+        }
+      },
+      "restored": {
+        "status": "complete",
+        "phase": "graphics-ready",
+        "elapsedMs": 571.4,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 71
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 71
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 80.5
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 86.5
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 139.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 140.4
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 140.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 140.4
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 297.5
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 298.2
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 300.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 300.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 323.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "guide",
+            "atMs": 344
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-finalization",
+            "atMs": 344
+          },
+          {
+            "kind": "phase-start",
+            "phase": "render-audit",
+            "atMs": 374.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "render-audit",
+            "atMs": 376.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "exhibits",
+            "atMs": 376.8
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "exhibits",
+            "atMs": 402.7
+          },
+          {
+            "kind": "phase-start",
+            "phase": "environment",
+            "atMs": 402.7
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "environment",
+            "atMs": 402.7
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-ready",
+            "atMs": 402.8
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "graphics-ready",
+            "atMs": 560.2
+          },
+          {
+            "kind": "complete",
+            "phase": "graphics-ready",
+            "atMs": 560.6
+          }
+        ],
+        "failure": null
+      }
+    },
+    {
+      "name": "chrome",
+      "mode": "guide",
+      "pass": true,
+      "errors": [],
+      "failed": [],
+      "failure": {
+        "status": "failed",
+        "phase": "guide",
+        "elapsedMs": 499.9,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 91.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 92.3
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 113.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 131.9
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 241.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 241.8
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 241.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 242
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 457.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 458.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 461.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 461.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 487.5
+          },
+          {
+            "kind": "failed",
+            "phase": "guide",
+            "atMs": 490.7
+          },
+          {
+            "kind": "world-disposed",
+            "phase": "guide",
+            "atMs": 495.9
+          }
+        ],
+        "failure": {
+          "phase": "guide",
+          "atMs": 490.7,
+          "name": "RuntimeError",
+          "message": "Unable to load from /assets/codex-mascot.glb: Service Unavailable",
+          "causes": [
+            {
+              "name": "LoadFileError",
+              "message": "Error status: 503 Service Unavailable - Unable to load /assets/codex-mascot.glb"
+            }
+          ]
+        }
+      },
+      "restored": {
+        "status": "complete",
+        "phase": "graphics-ready",
+        "elapsedMs": 617.7,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 69.2
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 69.2
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 80.5
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 86.4
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 131.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 131.9
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 131.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 131.9
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 313.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 314
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 315.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 315.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 333.2
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "guide",
+            "atMs": 359.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-finalization",
+            "atMs": 359.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "render-audit",
+            "atMs": 397.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "render-audit",
+            "atMs": 401
+          },
+          {
+            "kind": "phase-start",
+            "phase": "exhibits",
+            "atMs": 401.5
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "exhibits",
+            "atMs": 435.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "environment",
+            "atMs": 435.4
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "environment",
+            "atMs": 435.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-ready",
+            "atMs": 435.5
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "graphics-ready",
+            "atMs": 609.4
+          },
+          {
+            "kind": "complete",
+            "phase": "graphics-ready",
+            "atMs": 609.7
+          }
+        ],
+        "failure": null
+      }
+    },
+    {
+      "name": "chrome",
+      "mode": "room-fixtures",
+      "pass": true,
+      "errors": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:43211/assets/headquarters/fixtures.json",
+          "error": "net::ERR_ABORTED"
+        }
+      ],
+      "failure": {
+        "status": "failed",
+        "phase": "room-fixtures",
+        "elapsedMs": 15381.7,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0.2
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 95
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 95.7
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 112.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 124.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 197.2
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 197.7
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 197.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 197.8
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 372.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 372.9
+          },
+          {
+            "kind": "failed",
+            "phase": "room-fixtures",
+            "atMs": 15374.4
+          },
+          {
+            "kind": "world-disposed",
+            "phase": "room-fixtures",
+            "atMs": 15379.9
+          }
+        ],
+        "failure": {
+          "phase": "room-fixtures",
+          "atMs": 15374.2,
+          "name": "StartupTimeoutError",
+          "message": "Startup timed out during room-fixtures",
+          "causes": []
+        }
+      },
+      "restored": {
+        "status": "complete",
+        "phase": "graphics-ready",
+        "elapsedMs": 554.3,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 70.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 70.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 82.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 89.9
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 133
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 133.4
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 133.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 133.4
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 284.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 284.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 286.5
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 286.5
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 318
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "guide",
+            "atMs": 340.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-finalization",
+            "atMs": 340.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "render-audit",
+            "atMs": 371.5
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "render-audit",
+            "atMs": 376.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "exhibits",
+            "atMs": 377.3
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "exhibits",
+            "atMs": 404.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "environment",
+            "atMs": 404.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "environment",
+            "atMs": 404.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-ready",
+            "atMs": 404.2
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "graphics-ready",
+            "atMs": 547
+          },
+          {
+            "kind": "complete",
+            "phase": "graphics-ready",
+            "atMs": 547.3
+          }
+        ],
+        "failure": null
+      }
+    },
+    {
+      "name": "chrome",
+      "mode": "environment",
+      "pass": true,
+      "errors": [],
+      "failed": [],
+      "failure": {
+        "status": "failed",
+        "phase": "environment",
+        "elapsedMs": 531.7,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0.2
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 92.2
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 93.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 111.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 125.7
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 184.3
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 184.9
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 185
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 185
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 364.9
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 365.4
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 367.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 367.8
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 397.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "guide",
+            "atMs": 427.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-finalization",
+            "atMs": 427.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "render-audit",
+            "atMs": 456.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "render-audit",
+            "atMs": 459.4
+          },
+          {
+            "kind": "phase-start",
+            "phase": "exhibits",
+            "atMs": 459.7
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "exhibits",
+            "atMs": 521.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "environment",
+            "atMs": 521.1
+          },
+          {
+            "kind": "failed",
+            "phase": "environment",
+            "atMs": 521.3
+          },
+          {
+            "kind": "world-disposed",
+            "phase": "environment",
+            "atMs": 529
+          }
+        ],
+        "failure": {
+          "phase": "environment",
+          "atMs": 521.3,
+          "name": "Error",
+          "message": "503 Service Unavailable",
+          "causes": [
+            {
+              "name": "LoadFileError",
+              "message": "Error status: 503 Service Unavailable - Unable to load /assets/studio.env"
+            }
+          ]
+        }
+      },
+      "restored": {
+        "status": "complete",
+        "phase": "graphics-ready",
+        "elapsedMs": 565.5,
+        "events": [
+          {
+            "kind": "phase-start",
+            "phase": "world-module",
+            "atMs": 0
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "world-module",
+            "atMs": 71.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-context",
+            "atMs": 71.7
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-setup",
+            "atMs": 82.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture",
+            "atMs": 87.9
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture",
+            "atMs": 132.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-detail",
+            "atMs": 133.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-detail",
+            "atMs": 133.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "architecture-textures",
+            "atMs": 133.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "architecture-textures",
+            "atMs": 297.1
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-fixtures",
+            "atMs": 297.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "room-fixtures",
+            "atMs": 299.3
+          },
+          {
+            "kind": "phase-start",
+            "phase": "room-assembly",
+            "atMs": 299.3
+          },
+          {
+            "kind": "phase-start",
+            "phase": "guide",
+            "atMs": 314
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "guide",
+            "atMs": 337.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "scene-finalization",
+            "atMs": 337.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "render-audit",
+            "atMs": 368.2
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "render-audit",
+            "atMs": 371
+          },
+          {
+            "kind": "phase-start",
+            "phase": "exhibits",
+            "atMs": 371.1
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "exhibits",
+            "atMs": 385.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "environment",
+            "atMs": 385.6
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "environment",
+            "atMs": 385.6
+          },
+          {
+            "kind": "phase-start",
+            "phase": "graphics-ready",
+            "atMs": 385.7
+          },
+          {
+            "kind": "phase-complete",
+            "phase": "graphics-ready",
+            "atMs": 557.7
+          },
+          {
+            "kind": "complete",
+            "phase": "graphics-ready",
+            "atMs": 558
+          }
+        ],
+        "failure": null
+      }
+    }
+  ]
+}

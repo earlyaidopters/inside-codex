@@ -1,0 +1,95 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "name": "chrome",
+      "pass": true,
+      "errors": [],
+      "checks": [
+        "Harness click and shared circuit transition",
+        "context complete visible-control flow and saved result",
+        "models complete visible-control flow and saved result",
+        "permissions complete visible-control flow and saved result",
+        "steering complete visible-control flow and saved result",
+        "review complete visible-control flow and saved result",
+        "tools complete visible-control flow and saved result",
+        "Branch cartridges still move independently",
+        "Quality round trip and residency reconstruction preserve saved results, restart practice, restore picking and settle at stable counts"
+      ],
+      "counts": [
+        {
+          "meshes": 140,
+          "textures": 134943036
+        },
+        {
+          "meshes": 140,
+          "textures": 134943036
+        },
+        {
+          "meshes": 140,
+          "textures": 134943036
+        }
+      ]
+    },
+    {
+      "name": "firefox",
+      "pass": true,
+      "errors": [],
+      "checks": [
+        "Harness click and shared circuit transition",
+        "context complete visible-control flow and saved result",
+        "models complete visible-control flow and saved result",
+        "permissions complete visible-control flow and saved result",
+        "steering complete visible-control flow and saved result",
+        "review complete visible-control flow and saved result",
+        "tools complete visible-control flow and saved result",
+        "Branch cartridges still move independently",
+        "Quality round trip and residency reconstruction preserve saved results, restart practice, restore picking and settle at stable counts"
+      ],
+      "counts": [
+        {
+          "meshes": 140,
+          "textures": 134943036
+        },
+        {
+          "meshes": 140,
+          "textures": 134943036
+        },
+        {
+          "meshes": 140,
+          "textures": 134943036
+        }
+      ]
+    },
+    {
+      "name": "webkit",
+      "pass": true,
+      "errors": [],
+      "checks": [
+        "Harness click and shared circuit transition",
+        "context complete visible-control flow and saved result",
+        "models complete visible-control flow and saved result",
+        "permissions complete visible-control flow and saved result",
+        "steering complete visible-control flow and saved result",
+        "review complete visible-control flow and saved result",
+        "tools complete visible-control flow and saved result",
+        "Branch cartridges still move independently",
+        "Quality round trip and residency reconstruction preserve saved results, restart practice, restore picking and settle at stable counts"
+      ],
+      "counts": [
+        {
+          "meshes": 140,
+          "textures": 134943036
+        },
+        {
+          "meshes": 140,
+          "textures": 134943036
+        },
+        {
+          "meshes": 140,
+          "textures": 134943036
+        }
+      ]
+    }
+  ]
+}

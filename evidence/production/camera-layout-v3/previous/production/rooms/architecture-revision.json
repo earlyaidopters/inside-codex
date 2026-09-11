@@ -1,0 +1,29 @@
+{
+  "id": "inlays-v2",
+  "description": "Preserve the room and baked surfaces; replace raised trim with flat, readable inlays",
+  "files": [
+    {
+      "path": "art-source/headquarters-flat-inlays-wide.blend",
+      "bytes": 890376,
+      "sha256": "20ded7ac67a9d4f8c3423f44eb5a5d4b56df828efd62e6d5394f3259849985ff"
+    },
+    {
+      "path": "art-source/headquarters-flat-inlays-wide-runtime.blend",
+      "bytes": 5413126,
+      "sha256": "3e2fcb8a50a8bb54fe97c8f49955f4930718085230d0b8b1fe08c69b5dc34af9"
+    },
+    {
+      "path": "art-source/headquarters-browser-unquantized.glb",
+      "bytes": 8330988,
+      "sha256": "837ed983f984f6553cace9b3d150e5dbab7736499548fb17499bd74d4db911c7"
+    },
+    {
+      "path": "game/public/assets/headquarters/architecture.glb",
+      "bytes": 6343804,
+      "sha256": "bb470e1974e5d29790bcdb70cc90d57c14a6955c36e0fd060e23e634b7d801a3"
+    }
+  ],
+  "frozenPreviousSource": "art-source/headquarters-browser-unquantized-v1.glb",
+  "evidence": "evidence/production/floor-study-v1",
+  "plans": "production/rooms/plans/inlays-v2"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "game_dev.result.v1",
+  "operation": "scenario.run",
+  "ok": false,
+  "error": {
+    "error": "APPROVAL_REQUIRED",
+    "message": "Scenario execution requires every capability-specific authorization listed below.",
+    "requiredFlags": [
+      "--confirm"
+    ],
+    "plan": {
+      "schema": "game_dev.scenario_plan.v1",
+      "runId": "run_1789067249563_419d5f9728f44134889ee8611089d791",
+      "runPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789067249563_419d5f9728f44134889ee8611089d791",
+      "adapterId": "inside-codex",
+      "adapterVersion": "1.0.0",
+      "adapterManifestPath": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/.game-dev/adapter.json",
+      "adapterManifestSha256": "bd044857db3084f62b222e5241bdaa9f6acdfd7c74252fceacfade53cd0b0ac3",
+      "scenarioId": "audio-soak",
+      "title": "Thirty-minute audio-enabled twelve-mission endurance check",
+      "projectRoot": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "executable": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/tools/capture-soak-scenario.mjs",
+      "arguments": [],
+      "workingDirectory": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game",
+      "timeoutSeconds": 2100,
+      "capabilities": [
+        "gpu",
+        "performance"
+      ],
+      "parameters": {},
+      "output": {
+        "format": "game-dev-capture-v1",
+        "path": "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/assets/generated/.game-dev/runs/run_1789067249563_419d5f9728f44134889ee8611089d791/capture.json"
+      },
+      "requiredAuthorizations": [
+        "confirm",
+        "gpu",
+        "performance"
+      ],
+      "evidenceCeiling": "This plan proves only resolved local configuration. It executes nothing and proves no build, GPU, pixel, performance, signing, or human-review result."
+    }
+  }
+}

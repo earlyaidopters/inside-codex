@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "method": "gzip level 9, exact GLB round-trip",
+  "input": "game/public/assets/headquarters/architecture.glb",
+  "inputBytes": 4152576,
+  "bytes": 2172025,
+  "sha256": "12555083f0954c02f60bf8c858b82990c8607445391b3f3ac545a06ffab392e6"
+}

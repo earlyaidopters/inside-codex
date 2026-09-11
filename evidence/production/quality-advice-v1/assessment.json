@@ -1,0 +1,63 @@
+{
+  "pass": true,
+  "buildId": "08f9249f87532eb2447362aee0bc9d20b2ec5cd09fa0deb0a579377d91382b4f",
+  "unit": 76,
+  "startupMonitor": 3,
+  "sampler": 5,
+  "journey": 37,
+  "browserEngines": 3,
+  "views": [
+    {
+      "quality": "high",
+      "view": "arrival",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "control",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "tasks",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "tools",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "high",
+      "view": "handoff",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "arrival",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "control",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tasks",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "tools",
+      "pixelIdentical": true
+    },
+    {
+      "quality": "balanced",
+      "view": "handoff",
+      "pixelIdentical": true
+    }
+  ],
+  "scope": "Product recommendation correctness; local RAF delay fixture and desktop browser review. No new performance or physical-device acceptance.",
+  "fullReleaseAccepted": false
+}

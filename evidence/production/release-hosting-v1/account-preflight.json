@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-09-10T19:05:00.341260+00:00",
+  "authHttpStatus": 200,
+  "credentialMode": "0600",
+  "accountCount": 1,
+  "accountMetadata": [
+    {
+      "type": "personal",
+      "role": "admin",
+      "plan": "free"
+    }
+  ],
+  "personalSiteCount": 0,
+  "gameMatches": []
+}

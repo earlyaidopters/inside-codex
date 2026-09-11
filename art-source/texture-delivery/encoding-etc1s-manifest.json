@@ -1,0 +1,149 @@
+{
+  "tool": "KTX-Software 4.4.2 toktx",
+  "toolSha256": "708e94078c8b8a8096f3573e2899bf08fbcf702d92bbbac47bd2098a1aaa6eb6",
+  "codec": "ETC1S",
+  "quality": 255,
+  "compressionLevel": 5,
+  "resolutionPreserved": true,
+  "files": [
+    {
+      "id": "floor-albedo",
+      "sourceSha256": "932bc20e044749d238652e9ad4a400c28e4b1df5138bcd2efba22ba943c8fa5b",
+      "sha256": "262d58cc7e643070ec9955b71af2d585c9369cdc5c979b267d3a073e0a1a5c42",
+      "bytes": 231216,
+      "command": [
+        "/Users/markkashef/.cache/inside-codex/ktx-4.4.2/expanded/KTX-Software-4.4.2-Darwin-arm64-tools.pkg/Payload/usr/local/bin/toktx",
+        "--t2",
+        "--encode",
+        "etc1s",
+        "--clevel",
+        "5",
+        "--qlevel",
+        "255",
+        "--genmipmap",
+        "--assign_oetf",
+        "srgb",
+        "--threads",
+        "6",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/public/assets/headquarters/compressed/floor-albedo.ktx2",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/texture-compression/floor-albedo.jpg"
+      ]
+    },
+    {
+      "id": "floor-indirect",
+      "sourceSha256": "10916e6f56373066bdba235a046f80466d0ef379d039c2912b8ba9a5fbe543bd",
+      "sha256": "9388f22d6c4817d6069aa19c56e5d850a544ad59f113595fbfbcd27ea47ead35",
+      "bytes": 137745,
+      "command": [
+        "/Users/markkashef/.cache/inside-codex/ktx-4.4.2/expanded/KTX-Software-4.4.2-Darwin-arm64-tools.pkg/Payload/usr/local/bin/toktx",
+        "--t2",
+        "--encode",
+        "etc1s",
+        "--clevel",
+        "5",
+        "--qlevel",
+        "255",
+        "--genmipmap",
+        "--assign_oetf",
+        "linear",
+        "--threads",
+        "6",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/public/assets/headquarters/compressed/floor-indirect.ktx2",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/texture-compression/floor-indirect.jpg"
+      ]
+    },
+    {
+      "id": "furnishings-albedo",
+      "sourceSha256": "ade374d8612fd0b5410e13536fa4ecc81648bb1d969fc89355e294ec41697862",
+      "sha256": "94998f73ffa2a0ba8a224562c984f1240b522370a39166d27ae06042eded7726",
+      "bytes": 522876,
+      "command": [
+        "/Users/markkashef/.cache/inside-codex/ktx-4.4.2/expanded/KTX-Software-4.4.2-Darwin-arm64-tools.pkg/Payload/usr/local/bin/toktx",
+        "--t2",
+        "--encode",
+        "etc1s",
+        "--clevel",
+        "5",
+        "--qlevel",
+        "255",
+        "--genmipmap",
+        "--assign_oetf",
+        "srgb",
+        "--threads",
+        "6",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/public/assets/headquarters/compressed/furnishings-albedo.ktx2",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/texture-compression/furnishings-albedo.jpg"
+      ]
+    },
+    {
+      "id": "furnishings-indirect",
+      "sourceSha256": "31cd2cdce57aa704c7ae6e8a36099ac1464670288d25a6364365d8b1f24d5cd6",
+      "sha256": "51d90152c5735c852dc5bcb415613c4cd44d7392d92a233830da8e992241604a",
+      "bytes": 565562,
+      "command": [
+        "/Users/markkashef/.cache/inside-codex/ktx-4.4.2/expanded/KTX-Software-4.4.2-Darwin-arm64-tools.pkg/Payload/usr/local/bin/toktx",
+        "--t2",
+        "--encode",
+        "etc1s",
+        "--clevel",
+        "5",
+        "--qlevel",
+        "255",
+        "--genmipmap",
+        "--assign_oetf",
+        "linear",
+        "--threads",
+        "6",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/public/assets/headquarters/compressed/furnishings-indirect.ktx2",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/texture-compression/furnishings-indirect.jpg"
+      ]
+    },
+    {
+      "id": "shell-albedo",
+      "sourceSha256": "62d7025984530cb0998a53882270bb2c2aec27cf20c06dd12e6f404a3202f156",
+      "sha256": "e64963e89fbb4e80b5f606a7c19cba8a4907bcdadf2d80254249e856f7a5dbf0",
+      "bytes": 380875,
+      "command": [
+        "/Users/markkashef/.cache/inside-codex/ktx-4.4.2/expanded/KTX-Software-4.4.2-Darwin-arm64-tools.pkg/Payload/usr/local/bin/toktx",
+        "--t2",
+        "--encode",
+        "etc1s",
+        "--clevel",
+        "5",
+        "--qlevel",
+        "255",
+        "--genmipmap",
+        "--assign_oetf",
+        "srgb",
+        "--threads",
+        "6",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/public/assets/headquarters/compressed/shell-albedo.ktx2",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/texture-compression/shell-albedo.jpg"
+      ]
+    },
+    {
+      "id": "shell-indirect",
+      "sourceSha256": "2542cd778cc5c304f1f21a0268c4d191fa7b13b1b58cd2689561b1483147a348",
+      "sha256": "4587628497a21a13d343bc811427dc197bcd0f81c3212ee3337a6e084bab636f",
+      "bytes": 457558,
+      "command": [
+        "/Users/markkashef/.cache/inside-codex/ktx-4.4.2/expanded/KTX-Software-4.4.2-Darwin-arm64-tools.pkg/Payload/usr/local/bin/toktx",
+        "--t2",
+        "--encode",
+        "etc1s",
+        "--clevel",
+        "5",
+        "--qlevel",
+        "255",
+        "--genmipmap",
+        "--assign_oetf",
+        "linear",
+        "--threads",
+        "6",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/game/public/assets/headquarters/compressed/shell-indirect.ktx2",
+        "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/texture-compression/shell-indirect.jpg"
+      ]
+    }
+  ],
+  "totalBytes": 2295832
+}

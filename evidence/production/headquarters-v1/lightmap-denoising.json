@@ -1,0 +1,22 @@
+{
+  "method": "Blender compositor Denoise from original float indirect bake, Raw JPEG95 encoding",
+  "inputs": [
+    "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/headquarters-lighting-v2/floor-indirect.png",
+    "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/headquarters-lighting-v2/shell-indirect.png",
+    "/Users/markkashef/Desktop/YouTube/YT Command Centre/projects/codex-learning-game/art-source/headquarters-lighting-v2/furnishings-indirect.png"
+  ],
+  "outputs": {
+    "floor-indirect.jpg": {
+      "bytes": 302394,
+      "sha256": "fb6d2387a7dba337a6b86cc28104a4087095244700e943f258d3227cb4e4c48d"
+    },
+    "shell-indirect.jpg": {
+      "bytes": 650679,
+      "sha256": "3054190c1afa2a358cf890a661c57eba777fde99ac776a8685987477e4f25383"
+    },
+    "furnishings-indirect.jpg": {
+      "bytes": 802910,
+      "sha256": "719dd791764577e6a521cc88d8a9d3adb0eeab77f8084ddc9a1ada337f550bce"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "archive": "releases/checkpoints/mascot-v4-tested.zip",
+  "bytes": 197072775,
+  "sha256": "0642c7b12d02df3b57673dabbfe5ed12a2477040395b70094a25046eb40ababb",
+  "files": 1171,
+  "distFiles": 314,
+  "scope": "Verified local production checkpoint: current source, full-action mascot master, runtime asset/package, source-fidelity and browser evidence, and exact built bytes. Not a public release."
+}

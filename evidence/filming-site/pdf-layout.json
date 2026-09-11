@@ -1,0 +1,137 @@
+{
+  "pages": 27,
+  "words": 2252,
+  "guide_sha256": "70f7d69a7f1056ca960de295428cc309d3f8c9651902fadb5d04a57a05d0135a",
+  "layout": [
+    {
+      "scene": "Open the world",
+      "left_bottom": 148.9,
+      "speech_bottom": 359.4
+    },
+    {
+      "scene": "Click through the experience",
+      "left_bottom": 161.4,
+      "speech_bottom": 301.5
+    },
+    {
+      "scene": "Give them the tools",
+      "left_bottom": 134.3,
+      "speech_bottom": 373.4
+    },
+    {
+      "scene": "Start with your request",
+      "left_bottom": 161.4,
+      "speech_bottom": 483.9
+    },
+    {
+      "scene": "Ask for the production plan",
+      "left_bottom": 148.4,
+      "speech_bottom": 431.3
+    },
+    {
+      "scene": "Review Codex\u2019s response",
+      "left_bottom": 135.4,
+      "speech_bottom": 503.2
+    },
+    {
+      "scene": "Plan 01 \u00b7 The experience",
+      "left_bottom": 121.3,
+      "speech_bottom": 483.9
+    },
+    {
+      "scene": "Plan 02 \u00b7 Visual direction",
+      "left_bottom": 121.3,
+      "speech_bottom": 483.9
+    },
+    {
+      "scene": "Plan 03 \u00b7 Rooms and lessons",
+      "left_bottom": 121.3,
+      "speech_bottom": 517.2
+    },
+    {
+      "scene": "Plan 04 \u00b7 The interaction",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 05 \u00b7 Sources",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 06 \u00b7 How it fits together",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 07 \u00b7 Assets in the browser",
+      "left_bottom": 135.9,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 08 \u00b7 Device limits",
+      "left_bottom": 121.3,
+      "speech_bottom": 517.2
+    },
+    {
+      "scene": "Plan 09 \u00b7 Usability",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 10 \u00b7 Browser testing",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 11 \u00b7 Does it make sense?",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 12 \u00b7 What stops release",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 13 \u00b7 Hosting",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Plan 14 \u00b7 Build order",
+      "left_bottom": 121.3,
+      "speech_bottom": 517.2
+    },
+    {
+      "scene": "Plan 15 \u00b7 Keep it editable",
+      "left_bottom": 121.3,
+      "speech_bottom": 536.5
+    },
+    {
+      "scene": "Approve before it builds",
+      "left_bottom": 146.8,
+      "speech_bottom": 464.6
+    },
+    {
+      "scene": "Choose effort and let it build",
+      "left_bottom": 134.3,
+      "speech_bottom": 282.2
+    },
+    {
+      "scene": "Publish with here.now",
+      "left_bottom": 119.7,
+      "speech_bottom": 248.9
+    },
+    {
+      "scene": "Look beyond this one world",
+      "left_bottom": 135.9,
+      "speech_bottom": 373.4
+    },
+    {
+      "scene": "Get the plan or go deeper",
+      "left_bottom": 90.5,
+      "speech_bottom": 431.3
+    }
+  ]
+}

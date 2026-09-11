@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "archive": "releases/checkpoints/architecture-textures-v1-source.zip",
+  "bytes": 160438599,
+  "sha256": "0d6f48f6cf18b8eea55857784d828eb3a75904f09e7ad9cf9946b8277edd4c2c",
+  "baseArchive": "releases/checkpoints/audio-v1-source.zip",
+  "baseSha256": "1f1a9d4cf4852189b8c55f8f467f020c246d4034078b5da3edcb1903ee8f12a5",
+  "verifiedFiles": 575,
+  "scope": "Source, texture/decoder assets and evidence overlay on the audio checkpoint and its bases; rebuild dist after restore.",
+  "fullReleaseAccepted": false
+}

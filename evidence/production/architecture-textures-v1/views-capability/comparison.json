@@ -1,0 +1,56 @@
+{
+  "pass": true,
+  "scope": "Lossy fixed-view comparison, not full art approval",
+  "rows": [
+    {
+      "view": "candidate-balanced-arrival.png",
+      "meanAbsolute": 0.06487549114918784,
+      "max": 20
+    },
+    {
+      "view": "candidate-balanced-control.png",
+      "meanAbsolute": 0.07235994653056266,
+      "max": 39
+    },
+    {
+      "view": "candidate-balanced-handoff.png",
+      "meanAbsolute": 0.07379187426580791,
+      "max": 28
+    },
+    {
+      "view": "candidate-balanced-tasks.png",
+      "meanAbsolute": 0.08267256045692063,
+      "max": 28
+    },
+    {
+      "view": "candidate-balanced-tools.png",
+      "meanAbsolute": 0.07559140438287358,
+      "max": 26
+    },
+    {
+      "view": "candidate-high-arrival.png",
+      "meanAbsolute": 0.13110191615226338,
+      "max": 36
+    },
+    {
+      "view": "candidate-high-control.png",
+      "meanAbsolute": 0.08433487654320988,
+      "max": 54
+    },
+    {
+      "view": "candidate-high-handoff.png",
+      "meanAbsolute": 0.09231005658436214,
+      "max": 40
+    },
+    {
+      "view": "candidate-high-tasks.png",
+      "meanAbsolute": 0.10094675925925926,
+      "max": 37
+    },
+    {
+      "view": "candidate-high-tools.png",
+      "meanAbsolute": 0.09320550411522634,
+      "max": 52
+    }
+  ]
+}

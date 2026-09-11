@@ -1,0 +1,81 @@
+{
+  "schema": "game-room.room-brief.v1",
+  "roomId": "codex-headquarters",
+  "family": "custom",
+  "purpose": "A guided, interactive museum that makes Codex workflows visible through twelve useful missions.",
+  "runtimeSurface": "Babylon.js WebGL2 in browser; semantic DOM lesson controls; static here.now hosting",
+  "boundsMeters": [
+    54,
+    9.45,
+    42
+  ],
+  "hero": {
+    "id": "codex-guide",
+    "role": "personified source-derived Codex logo, guided tour and feedback",
+    "reservedBoundsMeters": [
+      4,
+      3.6,
+      3
+    ]
+  },
+  "symmetry": {
+    "mode": "bilateral",
+    "order": 2,
+    "appliesTo": [
+      "shell",
+      "side windows",
+      "wing partitions",
+      "promenade",
+      "bench pairs"
+    ],
+    "exceptions": [
+      "arrival stage offset x=2 for asymmetric camera composition",
+      "center wing oak backing identifies practice",
+      "interactive exhibits differ by learning function"
+    ]
+  },
+  "circulation": {
+    "description": "Six-metre entry connects the atrium and shared promenade. Guided travel routes out to z=-1 before crossing between wings; transverse side passages connect adjacent exhibits. Keyboard/waypoint exploration remains to be implemented.",
+    "minimumClearanceMeters": 2.4
+  },
+  "productionCamera": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "location": [
+      6,
+      5.77,
+      14.26
+    ],
+    "target": [
+      -1.3,
+      2.3,
+      2
+    ],
+    "verticalFovDegrees": 47.56
+  },
+  "performanceBudget": {
+    "maxSceneTriangles": 700000,
+    "maxVLowBytes": 8000000,
+    "maxHighTextureBytes": 402653184
+  },
+  "creditBudget": {
+    "maximumCredits": 0,
+    "approvalRequired": true
+  },
+  "environment": {
+    "type": "prefiltered-cubemap",
+    "identity": "Babylon environmentSpecular",
+    "source": "https://assets.babylonjs.com/environments/environmentSpecular.env",
+    "assignmentKey": "studio.env; source/license audit still pending"
+  },
+  "artifacts": {
+    "floorPlan": "plans/lower-room.png",
+    "reflectedCeilingPlan": "plans/reflected-ceiling.png",
+    "planMetadata": "plan-metadata.json",
+    "wallElevations": [],
+    "visualTarget": "../../evidence/production/architecture-browser-v3/arrival-desktop.png",
+    "openingContactSheet": ""
+  }
+}

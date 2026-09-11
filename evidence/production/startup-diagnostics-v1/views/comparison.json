@@ -1,0 +1,85 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "quality": "high",
+      "view": "arrival",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "high",
+      "view": "control",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "high",
+      "view": "tasks",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "high",
+      "view": "tools",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "high",
+      "view": "handoff",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "balanced",
+      "view": "arrival",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "balanced",
+      "view": "control",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "balanced",
+      "view": "tasks",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "balanced",
+      "view": "tools",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    },
+    {
+      "quality": "balanced",
+      "view": "handoff",
+      "identical": true,
+      "mean": 0.0,
+      "rms": 0.0,
+      "max": 0
+    }
+  ]
+}
