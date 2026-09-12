@@ -633,3 +633,12 @@ Understand, Direct and Repeat now have smooth inset wall surfaces, larger ivory 
 Production build and 87 unit tests pass. Local and hosted browser captures cover all three wing stations, closest permitted zoom, archive deep mode and portrait layout with no page errors. Full World Tour regression passed. Before/after images and internal-browser visual review confirm cleaner backgrounds and readable lettering. Evidence and estimated texture cost: evidence/backdrops-v1/ASSESSMENT.md. No new broad device/performance qualification is claimed.
 
 Live version: 01M289309XYRXPWXW04MNHBW4N. All 467 hosted hashes match dist at https://wintry-soul-6awh.here.now/. Archives and receipts: releases/0.1.5. Prior releases remain intact.
+
+
+## 2026-09-12 — Browser Lab: inside a save (0.1.6)
+
+Mark selected one solid new station from the deeper-world proposal. Browser Lab now opens into a three-layer Page / Action / Saved record exploration with independently clickable 3D cards and a readable DOM inspector. It uses the existing deterministic persistence rules in an isolated demonstration state: a misleading save, disappearance after reload, gated repair, and a second save/reload that verifies the correct owner. Play example, pause, reset, return, motion controls and an action-receipt download are included. The original lesson attempt and progress are restored on exit.
+
+Production build and all 92 standard tests pass. Chrome, Firefox and WebKit pass the new interaction, download, keyboard, portrait, state restoration and repeated-visit resource tests. Existing Context Archive, all 17 walkthrough questions plus Cedar, and World Tour regressions pass. Internal-browser review covered the local failure/repair loop and return; the published example was also inspected. A final CSS-only adjustment removes title/caption overlap on short landscape screens. Evidence and scoped limitations: evidence/browser-depth-v1/ASSESSMENT.md.
+
+Live version: 01M29Z1CB74VVW2RFS56A8TWJC. All 468 hosted file hashes match dist at https://wintry-soul-6awh.here.now/. Permanent authenticated update; prior releases remain intact. Deploy/source-update archives and receipts: releases/0.1.6. Branch and Harness expansions remain proposals.

@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "checks": [
+    "three physical layer picks",
+    "broken save and reload",
+    "repair and verified reload",
+    "exercise and progress preserved",
+    "1280×720 final framing capture"
+  ],
+  "errors": []
+}

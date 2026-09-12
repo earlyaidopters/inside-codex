@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "checks": [
+    "compact short-screen title",
+    "caption hidden below 600px",
+    "pre-existing pause restored",
+    "1920×1080 capture"
+  ],
+  "errors": []
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "chrome",
+    "pass": true,
+    "checks": [
+      "3D entry",
+      "stale mismatch",
+      "current verification",
+      "3D document pick",
+      "downloaded source trace",
+      "preserved exercise/progress/camera",
+      "example pause/resume",
+      "reset",
+      "portrait",
+      "reduced motion restored",
+      "example cancelled on exit"
+    ]
+  }
+]

@@ -8,7 +8,7 @@ A 3D field guide to working with Codex, built by **Mark Kashef with Codex** for 
 
 [Play the game](https://wintry-soul-6awh.here.now/) · [Run it locally](#run-it-locally) · [How we built it](#how-we-built-it) · [Architecture](#architecture) · [Test it](#test-it)
 
-**12 missions · 3 wings · 17 lesson questions · 50 field notes · 1 independent capstone**
+**12 missions · 3 wings · 17 lesson questions · 50 field notes · 2 optional deep dives · 1 independent capstone**
 
 </div>
 
@@ -140,6 +140,16 @@ This separation made it possible to test the rules without rendering a room, the
 
 **Code:** [context lab](game/src/context-lab.mjs) · [context exhibit](game/src/context-exhibit.ts) · [deep-dive reducer](game/src/context-depth.mjs) · [deep-dive UI](game/src/context-depth-view.ts)
 
+The next expansion deliberately chose **one station**. Browser Lab reuses the original persistence simulator in a separate demonstration state. Clicking its miniature browser fans out three inspectable layers. Save first updates the visible page without storing the owner. Reload exposes the missing write. The repair connects that write; only a subsequent save and reload of the correct owner produces a verified result.
+
+A roughly twenty-second example follows the same action reducer as manual play. It can be paused, stopped, reset, or exited. A downloadable receipt records actual save, reload, and repair results. This remains an in-memory educational simulation; the animation does not claim that a server request occurred.
+
+The new exhibit is procedural Babylon geometry with filtered canvas textures. It uses the existing lazy exhibit lifecycle and needs no additional Blender asset or generated voice. The DOM inspector carries essential text and equivalent actions for keyboard and narrow screens. During visual review, neighboring props were found to overlap the expanded cards; those exhibits now leave the scene during this deep dive and return afterward.
+
+![Browser Lab separates the page, save action and saved record](docs/images/browser-depth.png)
+
+**Browser layer code:** [state and receipt](game/src/browser-depth.mjs) · [3D exhibit](game/src/browser-exhibit.ts) · [inspector](game/src/browser-depth-view.ts) · [interaction test](game/tests/browser-depth-browser.mjs)
+
 ### 6. Add sound with a recovery path
 
 The project includes authored music, ambience, and interaction sounds. Guide speech was generated locally with Kokoro through `kokoro-onnx`; captions and source scripts remain available. Sound, guide voice, music, ambience, and effects have explicit controls.
@@ -178,9 +188,9 @@ A later archive test found that the mascot physically blocked a document click. 
 
 The game is a static site hosted on here.now. The production directory is built first, frozen during checks, archived, and then uploaded. The authenticated owner file manifest is compared with local SHA-256 hashes after publication.
 
-The latest preserved release at this repository's initial import is **0.1.5**. Its **467 hosted files** matched the tested build. Hosting authentication remains outside the repository.
+The current release is **0.1.6**. Its **468 hosted files** match the tested build. Hosting authentication remains outside the repository.
 
-**Receipt:** [0.1.5 hosting manifest](releases/0.1.5/hosting-receipt.json)
+**Receipt:** [0.1.6 hosting manifest](releases/0.1.6/hosting-receipt.json)
 
 ### 10. Let feedback change the product
 
@@ -192,6 +202,7 @@ The latest preserved release at this repository's initial import is **0.1.5**. I
 | **0.1.3** | Expand the archive into an optional **Source → Field → Proof** deep dive |
 | **0.1.4** | Repair broken small lettering with higher-density textures, mipmaps, and anisotropic filtering |
 | **0.1.5** | Replace busy ribbed backdrops with smooth wing finishes and stronger section typography |
+| **0.1.6** | Pull Browser Lab apart into **Page → Action → Saved record**, reproduce a false save, repair it, and verify by reloading |
 
 The texture repair is a good example of diagnosing the image rather than merely increasing resolution. Small strokes were sampling unevenly because the archive textures had disabled mipmaps. Filtering fixed the broken-letter appearance; more source pixels supported closer views.
 
@@ -261,7 +272,7 @@ flowchart LR
 
 ### State contracts that matter
 
-- Exploring the archive must preserve the exercise, lesson step, camera, scroll position, and prior pause state on return.
+- Exploring the archive or Browser Lab must preserve the exercise, lesson step, camera, scroll position, and prior pause state on return.
 - An inspected evidence document is not automatically the selected source of truth.
 - Skip and reveal actions are assistance, not earned completion.
 - A capstone replay must not rewrite the original submission as an unassisted result.
@@ -280,7 +291,7 @@ node --test tests/camera-clearance.test.mjs
 npm run build
 ```
 
-The standard suite currently contains **87 tests**. Browser suites exercise different scopes; they are not included in that count.
+The standard suite currently contains **92 tests**. Browser suites exercise different scopes; they are not included in that count.
 
 With the production preview running on port 43211, use a second terminal:
 
@@ -293,6 +304,9 @@ TOUR_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-tour node tests/
 
 # Archive picking, source tracing, preserved state, replay, and portrait layout
 DEPTH_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-depth node tests/context-depth-browser.mjs
+
+# Browser deep dive: save/reload proof, 3D picks, state restoration and repeated visits
+DEPTH_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-browser-depth node tests/browser-depth-browser.mjs
 
 # All three backdrop views and closest permitted zoom
 BACKDROP_URL=http://127.0.0.1:43211/ EVIDENCE_DIR=../evidence/local-backdrops node tests/backdrop-browser.mjs
@@ -343,7 +357,7 @@ The earlier README is preserved as [OPERATIONS-ORIGINAL.md](docs/OPERATIONS-ORIG
 
 ## What comes next
 
-- Review the archive deep-dive prototype, then decide how to extend the other eleven stations.
+- Gather feedback on the Context Archive and Browser Lab deep dives before choosing another station.
 - Measure whether first-time players can apply the ideas in actual work.
 - Test on physical mobile devices and with assistive technology.
 - Requalify performance after accumulating visual changes.

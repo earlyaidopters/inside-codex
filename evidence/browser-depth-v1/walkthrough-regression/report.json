@@ -1,0 +1,100 @@
+{
+  "pass": true,
+  "visited": [
+    {
+      "mission": 0,
+      "step": 0,
+      "kind": "select"
+    },
+    {
+      "mission": 0,
+      "step": 1,
+      "kind": "order"
+    },
+    {
+      "mission": 1,
+      "step": 0,
+      "kind": "context"
+    },
+    {
+      "mission": 1,
+      "step": 1,
+      "kind": "select"
+    },
+    {
+      "mission": 2,
+      "step": 0,
+      "kind": "models"
+    },
+    {
+      "mission": 3,
+      "step": 0,
+      "kind": "permissions"
+    },
+    {
+      "mission": 4,
+      "step": 0,
+      "kind": "task"
+    },
+    {
+      "mission": 4,
+      "step": 1,
+      "kind": "select"
+    },
+    {
+      "mission": 5,
+      "step": 0,
+      "kind": "select"
+    },
+    {
+      "mission": 5,
+      "step": 1,
+      "kind": "branch"
+    },
+    {
+      "mission": 6,
+      "step": 0,
+      "kind": "steering"
+    },
+    {
+      "mission": 7,
+      "step": 0,
+      "kind": "review"
+    },
+    {
+      "mission": 8,
+      "step": 0,
+      "kind": "tools"
+    },
+    {
+      "mission": 9,
+      "step": 0,
+      "kind": "browser"
+    },
+    {
+      "mission": 9,
+      "step": 1,
+      "kind": "select"
+    },
+    {
+      "mission": 10,
+      "step": 0,
+      "kind": "automation"
+    },
+    {
+      "mission": 11,
+      "step": 0,
+      "kind": "handoff"
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "reveal/hide all questions",
+    "skip every lesson",
+    "capstone assistance without submission",
+    "skip capstone without score",
+    "saved skip and reveal history",
+    "skip followed by solved question does not award mission",
+    "portrait controls"
+  ]
+}

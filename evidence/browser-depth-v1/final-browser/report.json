@@ -1,0 +1,47 @@
+[
+  {
+    "name": "chrome",
+    "pass": true,
+    "checks": [
+      "physical 3D entry and all three layer picks",
+      "broken save and reload reproduction",
+      "repair followed by save/reload proof",
+      "downloaded actual evidence",
+      "P/R typing and post-verification edit",
+      "exercise/progress/step/camera restored",
+      "example pause/resume",
+      "reset",
+      "390×844 playable",
+      "1280×600 visual capture",
+      "motion preference restored",
+      "repeated open/close resource plateau",
+      "example cancelled on exit"
+    ],
+    "resources": [
+      [
+        "handoff",
+        {
+          "meshes": 16,
+          "materials": 11,
+          "textures": 6
+        }
+      ],
+      [
+        "review",
+        {
+          "meshes": 8,
+          "materials": 8,
+          "textures": 5
+        }
+      ],
+      [
+        "browser",
+        {
+          "meshes": 9,
+          "materials": 7,
+          "textures": 4
+        }
+      ]
+    ]
+  }
+]
