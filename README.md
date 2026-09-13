@@ -6,7 +6,7 @@
 
 A 3D field guide to working with Codex, built by **Mark Kashef with Codex** for **Early AI Adopters**.
 
-[Play the game](https://wintry-soul-6awh.here.now/) · [Run it locally](#run-it-locally) · [How we built it](#how-we-built-it) · [Architecture](#architecture) · [Test it](#test-it)
+[Play the game](https://wintry-soul-6awh.here.now/) · [Run it locally](#run-it-locally) · [How we built it](#how-we-built-it) · [Architecture](#architecture) · [Extend the game](#extend-the-game) · [Test it](#test-it) · [Troubleshooting](#troubleshooting)
 
 **12 missions · 3 wings · 17 lesson questions · 50 field notes · 2 optional deep dives · 1 independent capstone**
 
@@ -47,13 +47,13 @@ There are also three ways to explore:
 
 - **Walkthrough:** progress through the exercises, reveal an answer when helpful, or skip a question. Skipping does not award completion.
 - **World Tour:** a silent 44-second camera route through all three wings, including an atrium orbit, designed for a narrated preview.
-- **Explore inside:** the Context Archive unfolds into Source → Field → Proof. Follow an outdated or current approval owner into a saved CSV, then inspect the evidence behind the result. This deeper layer currently exists for the archive; the other eleven expansions are planned.
+- **Explore inside:** the Context Archive unfolds into Source → Field → Proof. Follow an outdated or current approval owner into a saved CSV, then inspect the evidence behind the result. Browser Lab also unfolds into Page → Action → Saved record, where a false save is reproduced, repaired and verified after reloading. Both deep dives leave the original exercise intact.
 
 ![Inside the archive: physical source cards and a readable evidence inspector](docs/images/context-depth.png)
 
 ## Run it locally
 
-The recorded toolchain is **Node.js 26.5.0**, npm, **Babylon.js 9.25.0**, **TypeScript 7.0.2**, **Vite 8.2.2**, and Playwright 1.63.0. The lockfile pins the dependency graph.
+The recorded toolchain is **Node.js 26.5.0**, npm, **Babylon.js 9.25.0**, **TypeScript 7.0.2**, **Vite 8.2.2**, and Playwright 1.63.0. The lockfile pins the dependency graph. Keep the repository layout intact: some tests also validate the narration and source manifests under `art-source/` and `production/`.
 
 ```bash
 git clone https://github.com/earlyaidopters/inside-codex.git
@@ -62,7 +62,7 @@ npm ci
 npm run dev
 ```
 
-Open **http://127.0.0.1:43210/**. The repository is private, so cloning requires organization access.
+Open **http://127.0.0.1:43210/**. This public repository can be cloned without organization membership. Use a current desktop browser with WebGL enabled; start with the recorded Node version above when reproducing the build.
 
 To run the production build:
 
@@ -83,7 +83,7 @@ Runtime assets are included in `game/public/`, including the environment-lightin
 | Restore lesson framing | **Return to guide** |
 | Jump to a station | **The map** or mission navigation |
 | Tour playback | `P` pause, `R` replay, `H` hide overlays, `Esc` exit |
-| Archive deep dive | `P` pause, `R` reset, `Esc` return to station |
+| Archive or Browser Lab deep dive | `P` pause, `R` reset, `Esc` return to station; typing in the owner field keeps normal keyboard input |
 | Graphics, audio, motion, saves | **Settings** |
 
 Sound starts muted. High and Balanced are explicit player choices. Progress belongs to the current browser origin: local and hosted saves are separate. Export/import progress in Settings to move it deliberately.
@@ -258,6 +258,10 @@ flowchart LR
 | `game/src/*-lab.mjs` | Learning fixtures, actions, state transitions, and validators |
 | `game/src/*-exhibit.ts` | 3D representations of the learning mechanisms |
 | `game/src/context-depth*` | Independent archive exploration and evidence UI |
+| `game/src/browser-depth*` | Independent save/reload exploration, example sequence, evidence receipt and inspector |
+| `game/src/content.ts` | Authored lessons, question types, learning outcomes and links |
+| `game/src/atlas.mjs` | Searchable, dated field-note content |
+| `game/src/learning.mjs` | Progress loading, validation, completion and assistance rules |
 | `game/src/world-tour.mjs` | Cinematic route and reduced-motion sampling |
 | `game/src/wing-backdrop.ts` | The three clean, filtered architectural backdrop surfaces |
 | `game/public/` | Self-contained runtime assets, sources, practice files, decoders, and credits |
@@ -279,6 +283,31 @@ flowchart LR
 - The quality adviser can recommend Balanced; it does not silently change the player's setting.
 - A graphics or asset-load failure must retain usable learning controls and a recovery route.
 - Hosting the site must never place production credentials in the public build.
+
+## Extend the game
+
+Start by improving an existing station. The current world, navigation and completion UI are authored around twelve stations; adding a thirteenth is a coordinated curriculum, layout and progress change rather than simply appending a new label.
+
+1. **Define the transferable habit.** Name the artifact a player will inspect, the mistake they can make, the visible consequence and the evidence that proves success. Keep fixtures fictional and the first useful action small.
+2. **Write the learning rules first.** Use a pure state/action module like [browser-lab.mjs](game/src/browser-lab.mjs). A success banner must not make a result pass: the validator should inspect the actual saved state. Add tests for a plausible wrong result and its repair.
+3. **Add readable controls.** Follow an existing `*-view.ts` module for a DOM inspector. Give every essential 3D action a keyboard/touch equivalent. Long evidence belongs in a scrollable panel, with primary and return controls still reachable.
+4. **Reflect the same state in 3D.** Follow [browser-exhibit.ts](game/src/browser-exhibit.ts): its controller exposes state updates, animation updates and diagnostic snapshots. Register the exhibit through [exhibit-residency.ts](game/src/exhibit-residency.ts) so leaving a wing releases its meshes, materials and textures.
+5. **Wire the lesson deliberately.** [content.ts](game/src/content.ts) owns authored instructions; [main.ts](game/src/main.ts) routes actions and renders the inspector; [world.ts](game/src/world.ts) owns camera and exhibit integration. Update the relevant validator and export logic when the saved artifact changes.
+6. **Keep optional exploration separate.** The Browser Lab example creates its own state, runs the same action rules as manual play, and cancels its timer on exit. It restores the original camera, exercise, scroll and motion/pause preferences. Exploring a demonstration must not award the player's exercise a pass.
+7. **Check the complete path.** Enter through the 3D object and the DOM button, make a wrong choice, recover, download the evidence, leave and return. Inspect desktop, portrait and short-window layouts. Repeat visits to catch resource retention; then run the neighboring lesson and World Tour regressions affected by the change.
+
+A useful build brief for your own station:
+
+```text
+Teach [one practical habit] using [a fictional working artifact].
+Let the player make [a believable mistake] and observe [the consequence].
+Make success depend on [a specific check of the resulting artifact].
+Expose the same actions in the 3D exhibit and a readable inspector.
+Keep demonstration state separate from the player's scored exercise.
+Test entry, failure, repair, verification, return and repeated visits.
+```
+
+This is a reusable specification pattern, not a promise that one prompt recreates the entire production. The original work required repeated asset, interaction and rendering repairs. [CONTRIBUTING.md](CONTRIBUTING.md) gives the repository's working rules.
 
 ## Test it
 
@@ -321,6 +350,21 @@ Always use a **fresh evidence directory**. Some historical tools refer to specif
 The original 0.1.0 qualification recorded roughly 16.7 ms median warm frame intervals and about 4.5-second cold readiness in its stated local profiles. Those are historical measurements of that build on one Mac, not benchmarks of every subsequent version or every device.
 
 Updates 0.1.4 and 0.1.5 improved text/backdrop presentation and increased estimated resident texture storage. They received focused regression and visual checks, not a new full endurance qualification. Physical phones, screen-reader operation, headphone listening, and independent novice learning outcomes remain separate validation work.
+
+Release 0.1.6 adds focused three-engine Browser Lab checks, final Chrome framing checks, and hosted save/repair verification. See [the Browser Lab assessment](evidence/browser-depth-v1/ASSESSMENT.md) for the exact scope, resource estimate and retained receipts.
+
+## Troubleshooting
+
+| Symptom | What to check |
+| --- | --- |
+| Opening `index.html` directly fails | Use the Vite development or preview server. Browser ES modules and fetched assets need an HTTP origin. |
+| A deployed page loads but assets return 404 | Publish the **contents** of `game/dist/` at the site root. The application uses root-relative asset paths. |
+| A browser test cannot find Chrome | The retained scripts use the standard macOS Chrome path. Adjust their launch options for your installation, or install the matching Playwright engines. |
+| A detailed exhibit reports a loading problem | Use the displayed retry control. If the release changed mid-session, reload the tour so the entry script and lazy modules come from the same build. |
+| Audio is silent | Sound starts muted. Enable it in Settings and interact with the page so the browser can activate audio. |
+| Progress differs between localhost and the live game | Saves belong to each browser origin. Use the game's explicit export/import controls to transfer progress. |
+| A changed GLB seems to have no effect | Check its served gzip sidecar and active revision manifest; the browser may still be receiving the old compressed asset. |
+| Historical art scripts reference unavailable local folders | Start from the checked-in runtime and pipeline notes. Some old experiments require path adaptation or local archive inputs; they are separate from the normal game build. |
 
 ## Rebuild the art
 
@@ -374,4 +418,4 @@ The [deeper-world proposal](production/DEEPER-WORLD-PLAN.md) describes the next 
 **Guide speech:** locally generated Kokoro voice through `kokoro-onnx`.  
 **Verification:** unit tests, Playwright, asset validators, Game Development Studio tooling, and direct internal-browser inspection.
 
-This is a community-made educational experience, not an official OpenAI product. Codex and the source logo belong to OpenAI. Included third-party software retains its own notices and terms; see [runtime credits](game/public/CREDITS.txt), [licenses](game/public/licenses/), and decoder notices. This private repository does not grant a new license to OpenAI branding or imply permission to redistribute every included asset.
+This is a community-made educational experience, not an official OpenAI product. Codex and the source logo belong to OpenAI. Included third-party software retains its own notices and terms; see [runtime credits](game/public/CREDITS.txt), [licenses](game/public/licenses/), and decoder notices. Public repository access does not grant a new license to OpenAI branding or replace the terms of individual third-party assets. No new project-wide software license is introduced by the visibility change.
